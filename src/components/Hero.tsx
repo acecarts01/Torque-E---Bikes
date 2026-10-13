@@ -5,7 +5,7 @@ import { motion } from 'motion/react'
 import Link from 'next/link'
 import { ArrowRight, Zap, ShieldCheck, Gauge } from 'lucide-react'
 import SmartImage from '@/src/components/SmartImage'
-import { PRODUCTS } from '@/src/config/site'
+import { PRODUCTS, REVIEWS } from '@/src/config/site'
 
 export default function Hero() {
   const featuredProduct = PRODUCTS.find(p => p.featured) || PRODUCTS[0]
@@ -27,9 +27,9 @@ export default function Hero() {
               className="inline-flex items-center gap-3 px-4 py-2 bg-white/5 backdrop-blur-md border border-white/10 rounded-full"
             >
               <div className="flex -space-x-2">
-                {[1, 2, 3].map(i => (
-                  <div key={i} className="w-6 h-6 rounded-full border-2 border-brand-dark bg-brand-accent overflow-hidden">
-                    <SmartImage src={`avatar-${i}.webp`} alt="User" fill />
+                {REVIEWS.slice(0, 3).map(r => (
+                  <div key={r.id} aria-hidden="true" className="w-6 h-6 rounded-full border-2 border-brand-dark bg-brand-red text-[#140800] flex items-center justify-center text-[9px] font-black">
+                    {r.author.charAt(0)}
                   </div>
                 ))}
               </div>
@@ -62,7 +62,7 @@ export default function Hero() {
               transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: 0.5 }}
               className="flex flex-col sm:flex-row gap-5"
             >
-              <Link href="/shop/" className="group relative bg-brand-red text-white px-10 py-6 rounded-2xl font-black uppercase tracking-[0.2em] text-sm flex items-center justify-center gap-3 hover:scale-[1.02] active:scale-[0.98] transition-all shadow-2xl shadow-brand-red/20 overflow-hidden">
+              <Link href="/shop/" className="group relative bg-brand-red text-[#140800] px-10 py-6 rounded-2xl font-black uppercase tracking-[0.2em] text-sm flex items-center justify-center gap-3 hover:scale-[1.02] active:scale-[0.98] transition-all shadow-2xl shadow-brand-red/20 overflow-hidden">
                 <span className="relative z-10">Deploy Power</span>
                 <ArrowRight className="w-5 h-5 relative z-10 group-hover:translate-x-1 transition-transform" />
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-150%] group-hover:translate-x-[150%] transition-transform duration-1000 ease-in-out" />
@@ -106,12 +106,12 @@ export default function Hero() {
             <motion.div 
               whileHover={{ scale: 1.02, rotateY: 5, rotateX: -2 }}
               transition={{ type: "spring", stiffness: 300, damping: 20 }}
-              className="relative group perspective-1000"
+              className="relative group perspective-1000 animate-float"
             >
-              <div className="absolute -inset-1 bg-gradient-to-r from-brand-red to-[#FF6B6B] rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200" />
+              <div className="absolute -inset-1 bg-gradient-to-r from-brand-red to-[#ffb703] rounded-3xl blur opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200" />
               
               <div className="relative bg-brand-accent p-6 rounded-3xl border border-white/5 shadow-2xl overflow-hidden">
-                <div className="absolute top-6 right-6 bg-brand-red text-white px-5 py-2 rounded-full font-black uppercase italic tracking-tighter text-sm z-20 shadow-xl ring-4 ring-brand-dark">
+                <div className="absolute top-6 right-6 bg-brand-red text-[#140800] px-5 py-2 rounded-full font-black uppercase italic tracking-tighter text-sm z-20 shadow-xl ring-4 ring-brand-dark">
                   {featuredProduct.badge}
                 </div>
                 

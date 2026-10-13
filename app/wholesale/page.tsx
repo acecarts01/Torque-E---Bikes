@@ -55,7 +55,7 @@ export default function WholesalePage() {
   ]
 
   return (
-    <div className="min-h-screen bg-brand-dark selection:bg-brand selection:text-white">
+    <div className="min-h-screen bg-brand-dark selection:bg-brand selection:text-[#140800]">
       <JsonLd 
         type="AboutPage" 
         data={{
@@ -100,7 +100,7 @@ export default function WholesalePage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: idx * 0.1 }}
-                  className="p-8 bg-[#1a1a1a] border border-white/5 rounded-sm space-y-4 hover:border-brand/30 transition-all group"
+                  className="p-8 bg-[#1d2024] border border-white/5 rounded-sm space-y-4 hover:border-brand/30 transition-all group"
                 >
                   <div className="bg-brand/10 w-12 h-12 flex items-center justify-center rounded-sm group-hover:scale-110 transition-transform">
                     {benefit.icon}
@@ -114,7 +114,7 @@ export default function WholesalePage() {
         </section>
 
         {/* Inquiry Form Section */}
-        <section className="py-24 bg-[#0f0f0f]">
+        <section className="py-24 bg-[#16181b]">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
               <div className="space-y-8">
@@ -147,7 +147,7 @@ export default function WholesalePage() {
                 </div>
               </div>
 
-              <div className="bg-[#1a1a1a] p-8 md:p-12 border border-white/5 rounded-sm">
+              <div className="bg-[#1d2024] p-8 md:p-12 border border-white/5 rounded-sm">
                 {isSuccess ? (
                   <motion.div 
                     initial={{ opacity: 0, scale: 0.9 }}

@@ -10,6 +10,10 @@ export default function JsonLd({ type, data }: { type: string, data?: any }) {
       "@context": "https://schema.org",
       "@type": ["Store", "Organization"],
       "name": SITE.name,
+      "legalName": BRAND.entityName,
+      "alternateName": BRAND.tradingName,
+      "taxID": BRAND.abn,
+      "identifier": { "@type": "PropertyValue", "propertyID": "ABN", "value": BRAND.abn.replace(/s/g, '') },
       "description": SITE.tagline,
       "foundingDate": BRAND.foundingYear,
       "foundingLocation": { "@type": "Place", "name": BRAND.foundingLocation },
@@ -26,7 +30,7 @@ export default function JsonLd({ type, data }: { type: string, data?: any }) {
       "sameAs": BRAND.sameAs,
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": CONTACT.phone,
+        "telephone": CONTACT.whatsapp,
         "contactType": "sales",
         "areaServed": "AU",
         "availableLanguage": "en"
@@ -47,9 +51,9 @@ export default function JsonLd({ type, data }: { type: string, data?: any }) {
       "@type": "Product",
       "name": data.name,
       "description": data.description,
-      "image": data.images.map((img: string) => `https://${SITE.domain}/images/${img}`),
+      "image": data.images.map((img: string) => `https://${SITE.domain}${img}`),
       "sku": data.slug,
-      "brand": { "@type": "Brand", "name": SITE.name },
+      "brand": { "@type": "Brand", "name": data.brand || SITE.name },
       "offers": {
         "@type": "Offer",
         "url": `https://${SITE.domain}/shop/${data.category}/${data.slug}/`,

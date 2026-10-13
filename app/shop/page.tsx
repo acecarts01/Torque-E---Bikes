@@ -53,22 +53,22 @@ export default function ShopPage() {
   }, [activeCategory, activePower, activeVoltage, activeCompatibility])
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#141414]">
+    <div className="flex flex-col min-h-screen bg-[#16181b]">
       <AnnouncementBar />
       <Nav />
 
       <main className="flex-grow pt-32 pb-24">
         {/* Header */}
         <section className="container mx-auto px-4 mb-16">
-          <div className="bg-[#1a1a1a] p-8 md:p-12 border border-white/5 rounded-sm relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-full bg-[#E63946]/5 blur-3xl rounded-full" />
+          <div className="bg-[#1d2024] p-8 md:p-12 border border-white/5 rounded-sm relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-full bg-[#ff6a1a]/5 blur-3xl rounded-full" />
             <div className="relative z-10 max-w-2xl">
-              <p className="text-[10px] font-black uppercase tracking-[0.3em] text-[#E63946] mb-4">Official Catalog</p>
+              <p className="text-[10px] font-black uppercase tracking-[0.3em] text-[#ff6a1a] mb-4">Official Catalog</p>
               <h1 className="text-4xl md:text-6xl font-black italic uppercase tracking-tighter leading-none mb-6">
-                HIGH-TORQUE <span className="text-[#E63946]">INVENTORY.</span>
+                HIGH-TORQUE <span className="text-[#ff6a1a]">INVENTORY.</span>
               </h1>
               <p className="text-gray-400 font-medium leading-relaxed">
-                Browse our range of authorised e-motos, street-legal conversion kits, and performance battery systems. All products stocked in Brisbane and shipped nationwide with Class 9 DG certification.
+                Browse electric dirt bikes, e-bikes, parts and riding gear. Shipped Australia-wide from Brisbane, with Class 9 DG certified battery freight. Dirt bikes are off-road and private property use only.
               </p>
             </div>
           </div>
@@ -78,7 +78,7 @@ export default function ShopPage() {
         <section className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 items-start">
             {/* Sidebar */}
-            <aside className="lg:sticky lg:top-32">
+            <aside className="lg:sticky lg:top-28 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto lg:overscroll-contain lg:pr-2 [scrollbar-width:thin] [scrollbar-color:#ff6a1a_transparent]">
               <ShopFilters 
                 activeCategory={activeCategory}
                 activePower={activePower}
@@ -95,17 +95,17 @@ export default function ShopPage() {
             <div className="lg:col-span-3 space-y-8">
               <div className="flex items-center justify-between border-b border-white/5 pb-4">
                 <div className="flex items-center gap-2">
-                  <LayoutGrid className="w-4 h-4 text-[#E63946]" />
+                  <LayoutGrid className="w-4 h-4 text-[#ff6a1a]" />
                   <span className="text-[10px] font-black uppercase tracking-widest text-gray-500">
                     Showing {filteredProducts.length} Machines
                   </span>
                 </div>
                 <div className="flex items-center gap-4 text-[10px] font-bold uppercase tracking-widest text-gray-500">
                   <span className="hidden sm:inline">Sort By:</span>
-                  <select className="bg-transparent border-none focus:ring-0 text-white cursor-pointer hover:text-[#E63946] transition-colors uppercase font-black tracking-tighter">
-                    <option className="bg-[#141414]">Newest First</option>
-                    <option className="bg-[#141414]">Price: Low-High</option>
-                    <option className="bg-[#141414]">Price: High-Low</option>
+                  <select className="bg-transparent border-none focus:ring-0 text-white cursor-pointer hover:text-[#ff6a1a] transition-colors uppercase font-black tracking-tighter">
+                    <option className="bg-[#16181b]">Newest First</option>
+                    <option className="bg-[#16181b]">Price: Low-High</option>
+                    <option className="bg-[#16181b]">Price: High-Low</option>
                   </select>
                 </div>
               </div>
@@ -123,7 +123,7 @@ export default function ShopPage() {
                   ))}
                 </div>
               ) : (
-                <div className="py-24 text-center space-y-6 bg-[#0a0a0a] rounded-sm border border-dashed border-white/10">
+                <div className="py-24 text-center space-y-6 bg-[#0e0f11] rounded-sm border border-dashed border-white/10">
                   <ShieldAlert className="w-16 h-16 text-gray-700 mx-auto" />
                   <div className="space-y-2">
                     <h3 className="text-xl font-black uppercase italic tracking-tighter">No Machines Found</h3>
@@ -137,7 +137,7 @@ export default function ShopPage() {
                       setActiveVoltage(null)
                       setActiveCompatibility(null)
                     }}
-                    className="text-[#E63946] font-black uppercase tracking-widest text-[10px] border-b border-[#E63946] pb-1 hover:text-white hover:border-white transition-all"
+                    className="text-[#ff6a1a] font-black uppercase tracking-widest text-[10px] border-b border-[#ff6a1a] pb-1 hover:text-white hover:border-white transition-all"
                   >
                     Clear All Filters
                   </button>
@@ -145,8 +145,8 @@ export default function ShopPage() {
               )}
 
               {/* Legal Warning Footer for Shop */}
-              <div className="mt-16 p-8 bg-[#E63946]/5 rounded-sm border border-[#E63946]/10 flex flex-col md:flex-row gap-6 items-center">
-                <div className="bg-[#E63946] p-3 rounded-sm">
+              <div className="mt-16 p-8 bg-[#ff6a1a]/5 rounded-sm border border-[#ff6a1a]/10 flex flex-col md:flex-row gap-6 items-center">
+                <div className="bg-[#ff6a1a] p-3 rounded-sm">
                   <ShieldAlert className="w-8 h-8 text-white" />
                 </div>
                 <div>

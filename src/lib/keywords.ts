@@ -1,5 +1,5 @@
 /**
- * Prioritized keywords for Torque E-Bikes Australia
+ * Prioritized keywords for Torque E-Bikes
  * Focused on high-intent technical and regional (AU) search terms.
  */
 

@@ -24,7 +24,7 @@ export default function AnnouncementBar() {
   const Icon = current.icon
 
   return (
-    <div className="bg-[#E63946] text-white py-2 overflow-hidden h-9">
+    <div className="bg-[#ff6a1a] text-[#140800] py-2 overflow-hidden h-9">
       <div className="container mx-auto px-4">
         <AnimatePresence mode="wait">
           <motion.div

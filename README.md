@@ -1,4 +1,4 @@
-# TORQUE E - BIKES Australia
+# Torque E-Bikes
 
 High-performance electric dirt bikes and conversion kits for the Australian market.
 

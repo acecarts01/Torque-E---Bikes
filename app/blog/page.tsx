@@ -19,7 +19,7 @@ export default function BlogPage() {
     : POSTS.filter(post => post.category === activeCategory)
 
   return (
-    <div className="min-h-screen bg-brand-dark text-white selection:bg-brand-red selection:text-white">
+    <div className="min-h-screen bg-brand-dark text-white selection:bg-brand-red selection:text-[#140800]">
       <JsonLd 
         type="Blog" 
         data={{
@@ -68,7 +68,7 @@ export default function BlogPage() {
                         onClick={() => setActiveCategory(cat)}
                         className={`px-6 py-3 text-[10px] font-black uppercase tracking-widest rounded-2xl transition-all border whitespace-nowrap text-left ${
                           activeCategory === cat 
-                            ? 'bg-brand-red border-brand-red text-white shadow-lg shadow-brand-red/20' 
+                            ? 'bg-brand-red border-brand-red text-[#140800] shadow-lg shadow-brand-red/20' 
                             : 'bg-white/5 border-white/5 text-brand-gray hover:text-white hover:bg-white/10'
                         }`}
                       >
@@ -99,7 +99,7 @@ export default function BlogPage() {
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: idx * 0.1 }}
-                      className="group flex flex-col bg-[#111] rounded-3xl overflow-hidden border border-white/5 hover:border-brand-red/30 transition-all duration-500"
+                      className="group flex flex-col bg-[#16181b] rounded-3xl overflow-hidden border border-white/5 hover:border-brand-red/30 transition-all duration-500"
                     >
                       <Link href={`/blog/${post.slug}/`} className="relative aspect-[16/10] overflow-hidden">
                         <Image 
@@ -110,7 +110,7 @@ export default function BlogPage() {
                           referrerPolicy="no-referrer"
                         />
                         <div className="absolute top-4 left-4">
-                          <span className="px-3 py-1 bg-brand-red text-white text-[8px] font-black uppercase tracking-[0.2em] rounded-full">
+                          <span className="px-3 py-1 bg-brand-red text-[#140800] text-[8px] font-black uppercase tracking-[0.2em] rounded-full">
                             {post.category}
                           </span>
                         </div>

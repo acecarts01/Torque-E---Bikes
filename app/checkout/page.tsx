@@ -21,7 +21,7 @@ export default function CheckoutPage() {
   const [orderRef] = useState(() => "TQR-" + Math.random().toString(36).substring(2, 11).toUpperCase())
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#141414]">
+    <div className="flex flex-col min-h-screen bg-[#16181b]">
       <AnnouncementBar />
       <Nav />
 
@@ -45,7 +45,7 @@ export default function CheckoutPage() {
                 <p className="text-[10px] font-bold uppercase tracking-widest text-gray-500">Order Reference: {orderRef}</p>
               </div>
 
-              <div className="bg-[#1a1a1a] p-6 border border-white/5 rounded-sm space-y-4">
+              <div className="bg-[#1d2024] p-6 border border-white/5 rounded-sm space-y-4">
                 <h3 className="text-sm font-black uppercase tracking-widest border-b border-white/5 pb-2 mb-4">Order Summary</h3>
                 <div className="flex justify-between items-center py-2">
                   <span className="text-sm text-gray-400">Torque 2000W Combo Kit</span>
@@ -62,18 +62,18 @@ export default function CheckoutPage() {
                     )}
                   </div>
                 </div>
-                <div className="flex justify-between items-center py-4 border-t-2 border-[#E63946] mt-4">
+                <div className="flex justify-between items-center py-4 border-t-2 border-[#ff6a1a] mt-4">
                   <span className="font-black uppercase tracking-widest italic">Total Payable</span>
                   <span className="text-2xl font-black italic tracking-tighter">{formatCurrency(total)}</span>
                 </div>
               </div>
 
-              <div className="bg-[#E63946]/5 p-6 border border-[#E63946]/20 rounded-sm flex items-start gap-4">
-                <div className="bg-[#E63946] p-2 rounded-sm shrink-0">
+              <div className="bg-[#ff6a1a]/5 p-6 border border-[#ff6a1a]/20 rounded-sm flex items-start gap-4">
+                <div className="bg-[#ff6a1a] p-2 rounded-sm shrink-0">
                   <Zap className="w-5 h-5 text-white" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-black uppercase tracking-widest text-[#E63946] mb-1">PROMO: Crypto Savings</h4>
+                  <h4 className="text-xs font-black uppercase tracking-widest text-[#ff6a1a] mb-1">PROMO: Crypto Savings</h4>
                   <p className="text-[10px] text-gray-400 font-medium leading-relaxed uppercase tracking-widest">
                     Pay with Bitcoin or Tether to unlock an immediate {SHOP.cryptoDiscount}% discount on your entire order.
                   </p>
@@ -89,22 +89,22 @@ export default function CheckoutPage() {
                 {/* Crypto Option */}
                 <button 
                   onClick={() => setIsCryptoModalOpen(true)}
-                  className="flex items-center justify-between p-6 bg-[#1a1a1a] border-2 border-[#E63946]/50 hover:border-[#E63946] transition-all rounded-sm group text-left"
+                  className="flex items-center justify-between p-6 bg-[#1d2024] border-2 border-[#ff6a1a]/50 hover:border-[#ff6a1a] transition-all rounded-sm group text-left"
                 >
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-[#E63946] rounded-sm flex items-center justify-center text-white">
+                    <div className="w-12 h-12 bg-[#ff6a1a] rounded-sm flex items-center justify-center text-[#140800]">
                       <Wallet className="w-6 h-6" />
                     </div>
                     <div>
                       <h4 className="font-black italic uppercase tracking-tighter text-white">Pay with Crypto</h4>
-                      <p className="text-[10px] font-bold text-[#E63946] uppercase tracking-widest italic">Save {formatCurrency(total * (SHOP.cryptoDiscount / 100))} Automatically</p>
+                      <p className="text-[10px] font-bold text-[#ff6a1a] uppercase tracking-widest italic">Save {formatCurrency(total * (SHOP.cryptoDiscount / 100))} Automatically</p>
                     </div>
                   </div>
-                  <Zap className="w-5 h-5 text-[#E63946] animate-pulse" />
+                  <Zap className="w-5 h-5 text-[#ff6a1a] animate-pulse" />
                 </button>
 
                 {/* Bank Transfer Option */}
-                <button className="flex items-center justify-between p-6 bg-[#1a1a1a] border border-white/5 hover:border-white/20 transition-all rounded-sm group text-left opacity-80 hover:opacity-100">
+                <button className="flex items-center justify-between p-6 bg-[#1d2024] border border-white/5 hover:border-white/20 transition-all rounded-sm group text-left opacity-80 hover:opacity-100">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-white/5 rounded-sm flex items-center justify-center text-white">
                       <Landmark className="w-6 h-6" />
@@ -117,7 +117,7 @@ export default function CheckoutPage() {
                 </button>
 
                 {/* PayID Option */}
-                <button className="flex items-center justify-between p-6 bg-[#1a1a1a] border border-white/5 hover:border-white/20 transition-all rounded-sm group text-left opacity-80 hover:opacity-100">
+                <button className="flex items-center justify-between p-6 bg-[#1d2024] border border-white/5 hover:border-white/20 transition-all rounded-sm group text-left opacity-80 hover:opacity-100">
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 bg-white/5 rounded-sm flex items-center justify-center text-white">
                       <Zap className="w-6 h-6 text-brand-red" />

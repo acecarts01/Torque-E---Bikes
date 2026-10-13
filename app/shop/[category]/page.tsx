@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
     title: category.name,
     description: category.description,
     path: `/shop/${category.slug}/`,
-    image: `/images/${category.image}`
+    image: category.image
   })
 }
 

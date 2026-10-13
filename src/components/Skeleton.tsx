@@ -14,7 +14,7 @@ export const Skeleton: React.FC<SkeletonProps> = ({ className }) => {
 
 export const ProductCardSkeleton = () => {
   return (
-    <div className="flex flex-col space-y-4 border border-white/5 bg-[#1a1a1a]/50 p-4 rounded-sm">
+    <div className="flex flex-col space-y-4 border border-white/5 bg-[#1d2024]/50 p-4 rounded-sm">
       {/* Image Area */}
       <Skeleton className="aspect-[4/3] w-full" />
       

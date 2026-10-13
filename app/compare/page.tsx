@@ -10,7 +10,7 @@ import { SITE } from '@/src/config/site'
 
 export default function ComparePage() {
   return (
-    <div className="min-h-screen bg-brand-dark text-white selection:bg-brand-red selection:text-white">
+    <div className="min-h-screen bg-brand-dark text-white selection:bg-brand-red selection:text-[#140800]">
       <JsonLd 
         type="WebPage" 
         data={{

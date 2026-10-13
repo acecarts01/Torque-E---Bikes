@@ -24,35 +24,39 @@ export default function ProductCard({ product }: ProductCardProps) {
   const isOutOfStock = product.stock === 'Out of Stock'
 
   return (
-    <div className="group flex flex-col h-full bg-[#1a1a1a] border border-white/5 rounded-sm overflow-hidden hover:border-[#E63946]/30 transition-all duration-300 flex-shrink-0 min-h-0">
+    <div className="reveal group sheen flex flex-col h-full bg-[#1d2024] border border-white/5 rounded-sm overflow-hidden hover:border-[#ff6a1a]/40 hover:-translate-y-1 hover:shadow-[0_18px_40px_-18px_rgba(255,106,26,0.45)] transition-all duration-300 flex-shrink-0 min-h-0">
       <Link href={`/shop/${product.category}/${product.slug}/`} className="relative aspect-[4/3] bg-white p-6 block overflow-hidden">
         <SmartImage 
           src={product.images[0]} 
           alt={product.name} 
           fill 
-          className={cn("object-contain transition-transform duration-700 group-hover:scale-105", isOutOfStock && "grayscale opacity-50")} 
+          className={cn("bg-white object-contain transition-transform duration-700 group-hover:scale-105", isOutOfStock && "grayscale opacity-50")} 
         />
         
         {/* Badges */}
-        <div className="absolute top-4 left-4 flex flex-col gap-2 z-10">
+        <div className="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10">
           {product.badge && (
-            <div className="bg-[#E63946] text-white px-2 py-1 text-[8px] font-black uppercase italic tracking-tighter rounded-sm">
+            <div className="bg-[#ff6a1a] text-[#140800] px-2 py-1 text-[8px] font-black uppercase italic tracking-tighter rounded-full">
               {product.badge}
             </div>
           )}
+          {product.compliance === 'off-road' && (
+            <div className="bg-[#ffb703] text-[#201500] px-2 py-1 text-[8px] font-black uppercase tracking-wider rounded-full flex items-center gap-1">
+              <ShieldAlert className="w-3 h-3" />
+              <span>Off-road only</span>
+            </div>
+          )}
+          {product.bestPrice && (
+            <div className="bg-[#35c17a] text-[#00200e] px-2 py-1 text-[8px] font-black uppercase tracking-wider rounded-full">
+              Best price
+            </div>
+          )}
           {isOutOfStock && (
-            <div className="bg-black text-white px-2 py-1 text-[8px] font-black uppercase italic tracking-tighter rounded-sm">
+            <div className="bg-black text-white px-2 py-1 text-[8px] font-black uppercase italic tracking-tighter rounded-full">
               Out of Stock
             </div>
           )}
         </div>
-
-        {product.compliance === 'off-road' && (
-          <div className="absolute bottom-4 right-4 bg-black/80 backdrop-blur-md text-white px-2 py-1 text-[7px] font-black uppercase tracking-[0.2em] rounded-sm flex items-center gap-2 border border-white/10 z-10">
-            <ShieldAlert className="w-3 h-3 text-[#E63946]" /> 
-            <span>Off-Road Only</span>
-          </div>
-        )}
       </Link>
 
       <div className="p-6 flex flex-col flex-grow space-y-4">
@@ -70,7 +74,7 @@ export default function ProductCard({ product }: ProductCardProps) {
           </div>
           
           <Link href={`/shop/${product.category}/${product.slug}/`}>
-            <h3 className="text-lg font-black uppercase italic tracking-tighter leading-tight text-white group-hover:text-[#E63946] transition-colors duration-300 line-clamp-2">
+            <h3 className="text-lg font-black uppercase italic tracking-tighter leading-tight text-white group-hover:text-[#ff6a1a] transition-colors duration-300 line-clamp-2">
               {product.name}
             </h3>
           </Link>
@@ -78,13 +82,13 @@ export default function ProductCard({ product }: ProductCardProps) {
           <div className="flex gap-2">
             {product.power && product.power !== 'N/A' && (
               <div className="flex items-center gap-1 bg-white/5 px-2 py-1 rounded-sm">
-                <Zap className="w-2.5 h-2.5 text-[#E63946]" />
+                <Zap className="w-2.5 h-2.5 text-[#ff6a1a]" />
                 <span className="text-[8px] font-bold text-gray-400 uppercase tracking-widest">{product.power}</span>
               </div>
             )}
             {product.voltage && product.voltage !== 'N/A' && (
               <div className="flex items-center gap-1 bg-white/5 px-2 py-1 rounded-sm">
-                <Cpu className="w-2.5 h-2.5 text-[#E63946]" />
+                <Cpu className="w-2.5 h-2.5 text-[#ff6a1a]" />
                 <span className="text-[8px] font-bold text-gray-400 uppercase tracking-widest">{product.voltage}</span>
               </div>
             )}
@@ -92,9 +96,17 @@ export default function ProductCard({ product }: ProductCardProps) {
         </div>
 
         <div className="pt-4 border-t border-white/5 flex items-center justify-between gap-4">
-          <p className="text-xl font-black italic text-white tracking-tighter">
-            {formatCurrency(product.price)}
-          </p>
+          <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+            <p className="text-xl font-black italic text-white tracking-tighter">
+              {formatCurrency(product.price)}
+            </p>
+            {product.comparePrice && product.comparePrice > product.price * 1.015 && (
+              <>
+                <s className="text-xs text-[#a39e94]">{formatCurrency(product.comparePrice)}</s>
+                <span className="text-[11px] font-bold text-[#35c17a]">Save {formatCurrency(product.comparePrice - product.price)}</span>
+              </>
+            )}
+          </div>
           
           <div className="flex items-center gap-4">
             <CompareToggle slug={product.slug} />
@@ -168,7 +180,7 @@ function CompareToggle({ slug }: { slug: string }) {
       onClick={toggle}
       className={cn(
         "text-[8px] font-black uppercase tracking-widest px-2 py-1 rounded-sm transition-all",
-        isCompared ? "bg-[#E63946] text-white" : "bg-white/5 text-gray-500 hover:text-white"
+        isCompared ? "bg-[#ff6a1a] text-[#140800]" : "bg-white/5 text-gray-500 hover:text-[#140800]"
       )}
     >
       {isCompared ? 'Compared' : '+ Compare'}

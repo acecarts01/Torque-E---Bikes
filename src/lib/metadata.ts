@@ -16,13 +16,13 @@ export function generatePageMetadata({
 }): Metadata {
   const seoTitle = `${title} | ${KEYWORDS.primary} | ${SITE.name}`
   const seoDescription = description 
-    ? `${description}. Discover the best ${KEYWORDS.primary} at TORQUE E-BIKES. Brisbane-based expertise with nationwide shipping.`
-    : `Buy high-performance ${KEYWORDS.primary} at TORQUE E-BIKES. Authorised retailer of E Ride Pro, Strike Cycles and custom conversion kits.`
+    ? `${description}. Discover the best ${KEYWORDS.primary} at Torque E-Bikes. Brisbane-based expertise with nationwide shipping.`
+    : `Buy high-performance ${KEYWORDS.primary} at Torque E-Bikes. Electric dirt bikes, e-bikes, parts and gear with Australia-wide shipping.`
 
   const url = `https://${SITE.domain}${path}`
 
   return {
-    title: seoTitle,
+    title: `${title} | ${KEYWORDS.primary}`,
     description: seoDescription,
     alternates: {
       canonical: url,

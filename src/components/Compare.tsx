@@ -48,8 +48,8 @@ export default function CompareTool() {
   const specs = [
     { label: 'Price', key: 'price', format: (val: any) => formatCurrency(val) },
     { label: 'Category', key: 'category' },
-    { label: 'Power Output', key: 'power', icon: <Zap className="w-3 h-3 text-[#E63946]" /> },
-    { label: 'System Voltage', key: 'voltage', icon: <Cpu className="w-3 h-3 text-[#E63946]" /> },
+    { label: 'Power Output', key: 'power', icon: <Zap className="w-3 h-3 text-[#ff6a1a]" /> },
+    { label: 'System Voltage', key: 'voltage', icon: <Cpu className="w-3 h-3 text-[#ff6a1a]" /> },
     { label: 'Compatibility', key: 'compatibility', format: (val: any) => Array.isArray(val) ? val.join(', ') : 'N/A' },
     { label: 'Compliance', key: 'compliance' },
     { label: 'Stock Status', key: 'stock' }
@@ -60,16 +60,16 @@ export default function CompareTool() {
       {/* Header & Actions */}
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
         <div className="space-y-2">
-          <p className="text-[10px] font-black uppercase tracking-[0.5em] text-[#E63946]">Head-to-Head</p>
+          <p className="text-[10px] font-black uppercase tracking-[0.5em] text-[#ff6a1a]">Head-to-Head</p>
           <h2 className="text-4xl md:text-6xl font-black italic uppercase tracking-tighter leading-none">
-            Spec <span className="text-[#E63946]">Comparison</span>
+            Spec <span className="text-[#ff6a1a]">Comparison</span>
           </h2>
         </div>
         
         <div className="flex items-center gap-4">
           <button 
             onClick={() => setIsSelectorOpen(true)}
-            className="px-8 py-4 bg-white text-black text-[10px] font-black uppercase tracking-widest rounded-sm hover:bg-[#E63946] hover:text-white transition-all flex items-center gap-3"
+            className="px-8 py-4 bg-white text-black text-[10px] font-black uppercase tracking-widest rounded-sm hover:bg-[#ff6a1a] hover:text-[#140800] transition-all flex items-center gap-3"
           >
             <Plus className="w-4 h-4" /> Add Product
           </button>
@@ -97,7 +97,7 @@ export default function CompareTool() {
                       <div className="space-y-6">
                         <div className="relative aspect-[4/3] bg-white rounded-sm overflow-hidden p-4">
                           <Image 
-                            src={`/images/${product.images[0]}`}
+                            src={product.images[0]}
                             alt={product.name}
                             fill
                             className="object-contain"
@@ -105,7 +105,7 @@ export default function CompareTool() {
                           />
                           <button 
                             onClick={() => removeProduct(product.slug)}
-                            className="absolute top-2 right-2 w-8 h-8 bg-black/80 backdrop-blur-md text-white flex items-center justify-center rounded-sm opacity-0 group-hover:opacity-100 transition-opacity hover:bg-[#E63946]"
+                            className="absolute top-2 right-2 w-8 h-8 bg-black/80 backdrop-blur-md text-[#140800] flex items-center justify-center rounded-sm opacity-0 group-hover:opacity-100 transition-opacity hover:bg-[#ff6a1a]"
                           >
                             <X className="w-4 h-4" />
                           </button>
@@ -116,7 +116,7 @@ export default function CompareTool() {
                           </h3>
                           <Link 
                             href={`/shop/${product.category}/${product.slug}/`}
-                            className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[#E63946] hover:translate-x-1 transition-transform"
+                            className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-[#ff6a1a] hover:translate-x-1 transition-transform"
                           >
                             View Details <ArrowRight className="w-3 h-3" />
                           </Link>
@@ -129,9 +129,9 @@ export default function CompareTool() {
                     <th key={`empty-${i}`} className="w-1/4 p-6 bg-transparent align-top">
                       <button 
                         onClick={() => setIsSelectorOpen(true)}
-                        className="w-full aspect-[4/3] border-2 border-dashed border-white/10 rounded-sm flex flex-col items-center justify-center gap-4 group hover:border-[#E63946]/30 transition-colors"
+                        className="w-full aspect-[4/3] border-2 border-dashed border-white/10 rounded-sm flex flex-col items-center justify-center gap-4 group hover:border-[#ff6a1a]/30 transition-colors"
                       >
-                        <Plus className="w-8 h-8 text-white/20 group-hover:text-[#E63946] transition-colors" />
+                        <Plus className="w-8 h-8 text-white/20 group-hover:text-[#ff6a1a] transition-colors" />
                         <span className="text-[10px] font-black uppercase tracking-widest text-white/20 group-hover:text-white transition-colors">Add Product</span>
                       </button>
                     </th>
@@ -178,7 +178,7 @@ export default function CompareTool() {
           </div>
           <button 
             onClick={() => setIsSelectorOpen(true)}
-            className="px-10 py-5 bg-[#E63946] text-white text-[12px] font-black uppercase tracking-widest rounded-sm hover:scale-[0.98] transition-transform shadow-2xl shadow-[#E63946]/20"
+            className="px-10 py-5 bg-[#ff6a1a] text-[#140800] text-[12px] font-black uppercase tracking-widest rounded-sm hover:scale-[0.98] transition-transform shadow-2xl shadow-[#ff6a1a]/20"
           >
             Browse Catalog
           </button>
@@ -200,7 +200,7 @@ export default function CompareTool() {
               initial={{ opacity: 0, scale: 0.95, y: 20 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: 20 }}
-              className="fixed inset-4 md:inset-x-auto md:left-1/2 md:-translate-x-1/2 md:top-20 md:bottom-20 md:w-full md:max-w-4xl bg-[#111] border border-white/10 rounded-[3rem] z-[101] overflow-hidden flex flex-col shadow-2xl"
+              className="fixed inset-4 md:inset-x-auto md:left-1/2 md:-translate-x-1/2 md:top-20 md:bottom-20 md:w-full md:max-w-4xl bg-[#16181b] border border-white/10 rounded-[3rem] z-[101] overflow-hidden flex flex-col shadow-2xl"
             >
               <div className="p-8 border-b border-white/5 flex items-center justify-between">
                 <div>
@@ -209,7 +209,7 @@ export default function CompareTool() {
                 </div>
                 <button 
                   onClick={() => setIsSelectorOpen(false)}
-                  className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center hover:bg-[#E63946] transition-colors"
+                  className="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center hover:bg-[#ff6a1a] transition-colors"
                 >
                   <X className="w-6 h-6" />
                 </button>
@@ -231,7 +231,7 @@ export default function CompareTool() {
                     >
                       <div className="relative aspect-[4/3] bg-white rounded-xl overflow-hidden p-4">
                         <Image 
-                          src={`/images/${product.images[0]}`}
+                          src={product.images[0]}
                           alt={product.name}
                           fill
                           className="object-contain"

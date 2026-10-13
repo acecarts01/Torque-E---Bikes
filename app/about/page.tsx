@@ -52,7 +52,7 @@ export default function AboutPage() {
   }
 
   return (
-    <div className="min-h-screen bg-brand-dark text-white selection:bg-brand-red selection:text-white">
+    <div className="min-h-screen bg-brand-dark text-white selection:bg-brand-red selection:text-[#140800]">
       <JsonLd type="AboutPage" data={aboutPageSchema} />
       <Nav />
 
@@ -89,7 +89,7 @@ export default function AboutPage() {
                 <h2 className="text-4xl font-black italic tracking-tighter uppercase mb-8">The <span className="text-brand-red">Torque Team</span> Legacy</h2>
                 <div className="space-y-6 text-brand-gray text-lg leading-relaxed">
                   <p>
-                    Founded in {BRAND.foundingYear} in the heart of Brisbane, Queensland, TORQUE E - BIKES was born from a singular obsession: bridging the performance gap between lightweight mountain bikes and heavy-weight motocross machines. Our parent entity, {BRAND.entityName}, began as a boutique engineering firm specializing in high-current electrical systems before identifying the massive untapped potential in the Australian e-moto market.
+                    Founded in {BRAND.foundingYear} in the heart of Brisbane, Queensland, Torque E-Bikes was born from a singular obsession: bridging the performance gap between lightweight mountain bikes and heavy-weight motocross machines. Our parent entity, {BRAND.entityName}, began as a boutique engineering firm specializing in high-current electrical systems before identifying the massive untapped potential in the Australian e-moto market.
                   </p>
                   <p>
                     In Australia, the landscape for electric performance is unique. From the coastal singletracks of the Gold Coast to the rugged interior trails of the Sunshine Coast, our terrain demands more than just &quot;standard&quot; off-the-shelf components. We realized early on that to survive the Australian climate and the demands of high-torque builds, components needed to be over-engineered.
@@ -103,9 +103,9 @@ export default function AboutPage() {
                 <div className="space-y-4">
                   <div className="aspect-[4/5] bg-brand-dark rounded-3xl border border-white/5 overflow-hidden relative group">
                     <Image 
-                      src="https://picsum.photos/seed/moto1/800/1000" 
-                      alt="Torque E-Bikes Engineering" 
-                      fill 
+                      src="/images/about-garage.webp" 
+                      alt="Mechanic working on a motorcycle in a garage" 
+                      fill quality={90} 
                       className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 opacity-50 group-hover:opacity-100"
                     />
                   </div>
@@ -121,9 +121,9 @@ export default function AboutPage() {
                   </div>
                   <div className="aspect-[4/5] bg-brand-dark rounded-3xl border border-white/5 overflow-hidden relative group">
                     <Image 
-                      src="https://picsum.photos/seed/moto2/800/1000" 
-                      alt="Brisbane Lab Testing" 
-                      fill 
+                      src="/images/about-trail.webp" 
+                      alt="Rider on an electric dirt bike on rocky terrain" 
+                      fill quality={90} 
                       className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 opacity-50 group-hover:opacity-100"
                     />
                   </div>
@@ -238,7 +238,7 @@ export default function AboutPage() {
                   Explore our curated selection of high-torque conversion kits or step up to a complete ETM™ electric dirt bike.
                 </p>
                 <div className="flex flex-wrap justify-center md:justify-start gap-4">
-                  <Link href="/shop/" className="px-8 py-4 bg-brand-red text-white rounded-2xl font-black uppercase tracking-widest text-xs hover:scale-[1.02] active:scale-[0.98] transition-all shadow-xl shadow-brand-red/20 inline-flex items-center gap-3">
+                  <Link href="/shop/" className="px-8 py-4 bg-brand-red text-[#140800] rounded-2xl font-black uppercase tracking-widest text-xs hover:scale-[1.02] active:scale-[0.98] transition-all shadow-xl shadow-brand-red/20 inline-flex items-center gap-3">
                     Browse Shop <ArrowRight className="w-4 h-4" />
                   </Link>
                   <Link href="/contact/" className="px-8 py-4 bg-brand-dark text-white rounded-2xl font-black uppercase tracking-widest text-xs hover:bg-brand-red transition-colors inline-flex items-center gap-3">

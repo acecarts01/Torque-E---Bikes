@@ -59,7 +59,7 @@ export default function ContactPage() {
   ]
 
   return (
-    <div className="min-h-screen bg-brand-dark selection:bg-brand selection:text-white">
+    <div className="min-h-screen bg-brand-dark selection:bg-brand selection:text-[#140800]">
       <JsonLd 
         type="ContactPage" 
         data={{
@@ -119,7 +119,7 @@ export default function ContactPage() {
                   ))}
                 </div>
 
-                <div className="p-8 bg-[#1a1a1a] border border-white/5 rounded-sm space-y-6">
+                <div className="p-8 bg-[#1d2024] border border-white/5 rounded-sm space-y-6">
                   <div className="flex items-center gap-4">
                     <MapPin className="w-6 h-6 text-brand" />
                     <h3 className="text-xl font-black italic uppercase tracking-tight">Brisbane Headquarters</h3>
@@ -133,7 +133,7 @@ export default function ContactPage() {
 
               {/* Form Column */}
               <div className="lg:col-span-7">
-                <div className="bg-[#1a1a1a] p-8 md:p-12 border border-white/5 rounded-sm shadow-2xl relative">
+                <div className="bg-[#1d2024] p-8 md:p-12 border border-white/5 rounded-sm shadow-2xl relative">
                   <div className="absolute top-0 right-0 p-8 opacity-[0.03] pointer-events-none">
                     <Send className="w-48 h-48" />
                   </div>

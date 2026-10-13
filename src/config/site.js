@@ -1,13 +1,14 @@
 // src/config/site.js
+import { CATALOG_CATEGORIES, CATALOG_PRODUCTS } from './catalog.generated.js'
 export const SITE = {
-  name: 'TORQUE E - BIKES Australia',
+  name: 'Torque E-Bikes',
   tagline: 'Australia’s Home of High-Torque E-Motos, Performance Conversion Kits & Custom Upgrades',
   domain: 'torquee-bikesaustralia.com.au',
   locale: 'en-AU',
   currency: 'AUD',
   target: 'vercel',
-  primaryColor: '#E63946', // Hyper Red
-  accentColor: '#141414', // Matte Carbon
+  primaryColor: '#ff6a1a', // Hyper Red
+  accentColor: '#16181b', // Matte Carbon
   gscVerification: 'pending',
   indexNowKey: 'pending',
   cartKey: 'torque-cart',
@@ -15,8 +16,8 @@ export const SITE = {
 
 export const CONTACT = {
   email: 'sales@torquee-bikesaustralia.com.au',
-  phone: '1300 000 000',
-  whatsapp: '+61400000000',
+  phone: '0480 804 189',
+  whatsapp: '+61480804189',
   address: 'Brisbane City, QLD 4000, Australia',
   hq: 'Brisbane City, QLD 4000, Australia',
   country: 'Australia',
@@ -46,19 +47,20 @@ export const FORMS = {
 
 export const CHAT = {
   channels: [
-    { type: 'whatsapp', value: '+61400000000' },
+    { type: 'whatsapp', value: '+61480804189' },
     { type: 'email', value: 'support@torquee-bikesaustralia.com.au' },
-    { type: 'phone', value: '1300 000 000' }
+    { type: 'phone', value: '0480 804 189' }
   ]
 }
 
 export const BRAND = {
-  entityName: 'THE TORQUE TEAM PTY LTD',
+  entityName: 'The Torque Team Pty Ltd',
+  tradingName: 'Torque E-Bikes',
   acn: '126 064 668',
   abn: '27 126 064 668',
   foundingYear: '2007',
   foundingLocation: 'Brisbane City, QLD, Australia',
-  description: 'TORQUE E - BIKES is an authorised Australian retailer and specialist in high-performance electric motocross and MTB conversion systems. We bridge the gap between mountain biking and motocross.',
+  description: 'Torque E-Bikes is a Brisbane-based Australian retailer of electric dirt bikes, e-bikes, performance conversion systems, parts and riding gear, shipped Australia-wide.',
   milestones: [
     { year: '2007', event: 'The Torque Team Pty Ltd established in Brisbane.' },
     { year: '2015', event: 'Launched performance e-bike division.' },
@@ -74,112 +76,9 @@ export const BRAND = {
   awards: [],
 }
 
-export const CATEGORIES = [
-  { slug: 'complete-e-motos', name: 'Complete E-Motos & Dirt Bikes', description: 'Ready-to-ride performance electric dirt bikes.', image: 'complete-bikes.webp' },
-  { slug: 'conversion-kits', name: 'MTB Conversion Kits & Motors', description: 'High-torque hub and mid-drive motor systems.', image: 'kits.webp' },
-  { slug: 'batteries', name: 'Batteries & Power Systems', description: 'High-capacity 52V and 72V lithium packs.', image: 'batteries.webp' },
-  { slug: 'parts', name: 'Parts, Drivetrain & Cockpit', description: 'Brakes, chains, throttles and upgrades.', image: 'parts.webp' },
-  { slug: 'gear', name: 'Protective Gear & Accessories', description: 'Helmets, armour and hauler systems.', image: 'gear.webp' }
-]
+export const CATEGORIES = CATALOG_CATEGORIES
 
-export const PRODUCTS = [
-  {
-    slug: '2000w-motor-52v-battery-combo',
-    name: 'Torque E-Bikes 2000W Motor & 52V Battery Combo (Free Sur-Ron Throttle Included)',
-    price: 1150.00,
-    category: 'conversion-kits',
-    shortDescription: 'Complete high-torque 2000W brushless rear hub conversion kit paired with a 52V high-capacity lithium battery pack.',
-    description: 'Transform any standard mountain bike into a powerful off-road machine. Features a 2000W high-torque brushless rear hub motor laced into a double-wall alloy rim, a high-discharge 52V lithium-ion battery with smart BMS, sine-wave controller, color LCD dashboard, and plug-and-play wiring. Comes standard with heavy-duty torque arms and a Sur-Ron style quick-twist throttle. Designed for off-road and private property use.',
-    badge: 'Best Seller',
-    featured: true,
-    images: ['kit-2000w.webp'],
-    compliance: 'off-road',
-    power: '2000W',
-    voltage: '52V',
-    compatibility: ['MTB', 'Universal'],
-    stock: 'In Stock'
-  },
-  {
-    slug: '2026-etm-rtr-sport',
-    name: '2026 ETM™ RTR SPORT Electric Dirt Bike',
-    price: 4499.00,
-    category: 'complete-e-motos',
-    shortDescription: 'The 2026 ETM RTR Sport brings increased torque, immediate throttle response, and reinforced off-road chassis geometry.',
-    description: 'The 2026 ETM RTR Sport is purpose-built for rugged Australian singletrack and motocross tracks. Boasting an upgraded high-output motor, heavy-duty suspension, responsive hydraulic disc brakes, and an aggressive off-road stance. Zero clutch, zero fuel, instantaneous electric torque out of every corner. Off-road private property use only.',
-    badge: '2026 Model',
-    featured: true,
-    images: ['etm-rtr-sport.webp'],
-    compliance: 'off-road',
-    power: '5kW',
-    voltage: '72V',
-    compatibility: ['ETM', 'Universal'],
-    stock: 'In Stock'
-  },
-  {
-    slug: 'strike-cycles-shadow-72v',
-    name: 'Strike Cycles SHADOW 72V / 7kW Electric Dirt Bike',
-    price: 4300.00,
-    category: 'complete-e-motos',
-    shortDescription: '7000W peak electric motocross machine running a genuine 72V architecture.',
-    description: 'The Strike Cycles SHADOW delivers true 72V performance. Engineered with an aggressive lightweight frame, 7kW peak powertrain, inverted front forks, high-performance coil shock, and moto-grade tyres. Uncompromising off-road capability for Australian trails and private tracks.',
-    badge: 'High Output',
-    featured: true,
-    images: ['strike-shadow.webp'],
-    compliance: 'off-road',
-    power: '7kW+',
-    voltage: '72V',
-    compatibility: ['Strike', 'Universal'],
-    stock: 'Low Stock'
-  },
-  {
-    slug: '3000w-motor-72v-battery-combo',
-    name: 'Torque E-Bikes 3000W Motor & 72V Battery Combo',
-    price: 1800.00,
-    category: 'conversion-kits',
-    shortDescription: 'Massive 3000W rear hub motor paired with a true 72V high-discharge battery.',
-    description: 'The ultimate DIY performance conversion package. Includes a 3000W high-power hub motor, massive 72V battery pack engineered for sustained high amps, programmable controller, full-color telemetry display, and reinforced torque arms to handle extreme wheel torque. Off-road use only.',
-    badge: 'Extreme Power',
-    featured: true,
-    images: ['kit-3000w.webp'],
-    compliance: 'off-road',
-    power: '3000W',
-    voltage: '72V',
-    compatibility: ['MTB', 'Universal'],
-    stock: 'In Stock'
-  },
-  {
-    slug: 'genuine-fx-throttle',
-    name: 'Genuine FX Throttle (Direct Fit Sur-Ron / Talaria / Conversions)',
-    price: 270.00,
-    category: 'parts',
-    shortDescription: 'High-precision billet CNC throttle assembly offering linear power delivery and zero deadband.',
-    description: 'Eliminate jerky power delivery with the Genuine FX Throttle. Built from CNC machined aluminum with internal ball bearings and sealed hall-effect sensors, this is the gold-standard throttle upgrade for custom conversions, Sur-Rons, and high-performance e-motos.',
-    badge: 'Back in Stock',
-    featured: false,
-    images: ['fx-throttle.webp'],
-    compliance: 'universal',
-    power: 'N/A',
-    voltage: 'N/A',
-    compatibility: ['Sur-Ron', 'Talaria', 'Universal'],
-    stock: 'In Stock'
-  },
-  {
-    slug: '250w-street-legal-kit',
-    name: '250W Street Legal EPAC Conversion Kit Combo (EN15194 Compliant)',
-    price: 850.00,
-    category: 'conversion-kits',
-    shortDescription: '100% Australian road-legal 250W pedal-assist conversion kit.',
-    description: 'Upgrade your daily commuter bike legally. Fully compliant with Australian standard EN 15194 (EPAC). Features a continuous 250W motor, smooth pedal-assist sensor (PAS), road-compliant display, and a compact frame-mounted lithium battery. Legal on public roads, shared paths, and bike lanes across NSW, VIC, QLD, WA, SA, TAS, ACT, and NT.',
-    badge: '100% Street Legal',
-    featured: false,
-    images: ['kit-250w.webp'],
-    compliance: 'street-legal',
-    power: '250W',
-    voltage: '36V',
-    compatibility: ['MTB', 'Commuter', 'Universal'],
-    stock: 'In Stock'
-  }
-]
+export const PRODUCTS = CATALOG_PRODUCTS
 
 export const POSTS = [
   {
@@ -270,6 +169,10 @@ export const COMPLIANCE = {
   gdpr: false, // Australian Privacy Principles instead
   disclaimer: 'AUSTRALIAN REGULATORY & SAFETY ADVISORY: Electric dirt bikes, high-powered e-motos, and conversion kit setups exceeding 250W continuous rated power or 25 km/h throttle actuation (including E Ride Pro, Strike Shadows, ETM RTR, SRPNT, and 1000W–5000W conversion combos) are engineered strictly for closed-course competition, private property, and off-road trail riding. They do not meet EN 15194 EPAC standards and cannot be operated on public roads, footpaths, or cycle lanes without ADR compliance and registration. Only specifically rated 250W EPAC pedal-assist kits are street legal across Australian states. Lithium batteries are dispatched under Australian Dangerous Goods Class 9 guidelines.',
 }
+
+// Real purchase/activity entries for the pop-up, e.g. { text: 'Order placed: <product>', location: 'Perth WA', when: '2 hours ago' }.
+// Leave empty until you have genuine orders to show; the pop-up then shows reviews only.
+export const ACTIVITY = []
 
 export const REVIEWS = [
   { id: 1, author: "Jake T.", location: "Gold Coast", rating: 5, text: "The 3000W kit is insane. Torque Team Brisbane matched the battery connectors perfectly. Shipping was surprisingly fast for a DG battery.", date: "Oct 2026" },

@@ -39,7 +39,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   }
 
   return (
-    <div className="min-h-screen bg-brand-dark text-white selection:bg-brand-red selection:text-white">
+    <div className="min-h-screen bg-brand-dark text-white selection:bg-brand-red selection:text-[#140800]">
       <JsonLd 
         type="BlogPosting" 
         data={{
@@ -70,7 +70,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             
             <div className="max-w-4xl space-y-8">
               <div className="flex flex-wrap items-center gap-3">
-                <span className="px-3 py-1 bg-brand-red text-white text-[10px] font-black uppercase tracking-[0.2em] rounded-full">
+                <span className="px-3 py-1 bg-brand-red text-[#140800] text-[10px] font-black uppercase tracking-[0.2em] rounded-full">
                   {post.category}
                 </span>
                 <div className="flex items-center gap-4 text-[10px] font-bold text-brand-gray uppercase tracking-widest ml-2">
@@ -113,7 +113,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               {/* Main Content */}
               <div className="lg:col-span-8">
                 <article className="prose prose-invert prose-brand max-w-none">
-                  <div className="bg-[#111] p-8 rounded-3xl border border-white/5 space-y-6 mb-12">
+                  <div className="bg-[#16181b] p-8 rounded-3xl border border-white/5 space-y-6 mb-12">
                     <h2 className="text-2xl font-black uppercase italic tracking-tighter text-white m-0">In this guide</h2>
                     <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 list-none p-0 m-0">
                       <li className="flex items-center gap-2 text-brand-gray text-sm font-bold uppercase tracking-widest bg-white/5 px-4 py-3 rounded-xl border border-white/5">
@@ -188,7 +188,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               {/* Sidebar */}
               <aside className="lg:col-span-4 space-y-8">
                 {/* Author Card */}
-                <div className="p-8 bg-[#111] rounded-[2rem] border border-white/5">
+                <div className="p-8 bg-[#16181b] rounded-[2rem] border border-white/5">
                   <div className="flex items-center gap-4 mb-6">
                     <div className="w-12 h-12 bg-brand-red rounded-xl flex items-center justify-center">
                       <Zap className="w-6 h-6 text-white fill-white" />
@@ -204,7 +204,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 </div>
 
                 {/* Related Products */}
-                <div className="p-8 bg-[#111] rounded-[2rem] border border-white/5">
+                <div className="p-8 bg-[#16181b] rounded-[2rem] border border-white/5">
                   <h4 className="text-xs font-black uppercase tracking-widest text-white mb-6 italic">Featured Components</h4>
                   <div className="space-y-4">
                     <Link href="/shop/conversion-kits/" className="group block p-4 bg-white/5 rounded-2xl border border-white/5 hover:border-brand-red/30 transition-all">
@@ -219,7 +219,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 </div>
 
                 {/* Newsletter Sidebar */}
-                <div className="p-8 bg-brand-red rounded-[2rem] text-white">
+                <div className="p-8 bg-brand-red rounded-[2rem] text-[#140800]">
                   <h4 className="text-xl font-black italic uppercase tracking-tighter mb-4 leading-none">Don&apos;t Miss a <br />Technical Update</h4>
                   <p className="text-[10px] uppercase font-bold tracking-widest mb-6 opacity-80">Get our latest guides via email.</p>
                   <form className="space-y-3">

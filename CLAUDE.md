@@ -25,5 +25,5 @@ React/Next.js ecommerce site for high-performance electric bikes and conversion 
 - Founded: 2007
 - HQ: Brisbane City, QLD
 - Ships: Australia-wide (DG Certified)
-- Payment: Bank Transfer, PayID, Crypto (5% discount)
+- Payment: Bank Transfer, PayID, Crypto (10% discount)
 - No invented stats, awards or press mentions.

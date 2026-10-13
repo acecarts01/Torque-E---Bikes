@@ -5,7 +5,7 @@ import Nav from '@/src/components/Nav'
 import Footer from '@/src/components/Footer'
 
 export const metadata = {
-  title: '404 - Page Not Found | Torque E-Bikes Australia',
+  title: '404 - Page Not Found | Torque E-Bikes',
   robots: { index: false, follow: true }
 }
 
@@ -25,7 +25,7 @@ export default function NotFound() {
           </p>
           <Link 
             href="/" 
-            className="inline-flex items-center gap-3 px-8 py-4 bg-brand-red text-white rounded-2xl font-black uppercase tracking-widest text-xs hover:scale-105 transition-transform"
+            className="inline-flex items-center gap-3 px-8 py-4 bg-brand-red text-[#140800] rounded-2xl font-black uppercase tracking-widest text-xs hover:scale-105 transition-transform"
           >
             <ArrowLeft className="w-4 h-4" /> Back to Home
           </Link>

@@ -21,7 +21,7 @@ const AccordionItem = ({ question, answer }: { question: string, answer: string 
         <span className={`text-lg md:text-xl font-black italic uppercase tracking-tighter transition-colors ${isOpen ? 'text-brand-red' : 'text-white group-hover:text-brand-red'}`}>
           {question}
         </span>
-        <div className={`w-8 h-8 rounded-full flex items-center justify-center transition-all ${isOpen ? 'bg-brand-red text-white rotate-180' : 'bg-white/5 text-brand-gray'}`}>
+        <div className={`w-8 h-8 rounded-full flex items-center justify-center transition-all ${isOpen ? 'bg-brand-red text-[#140800] rotate-180' : 'bg-white/5 text-brand-gray'}`}>
           {isOpen ? <Minus className="w-4 h-4" /> : <Plus className="w-4 h-4" />}
         </div>
       </button>
@@ -45,7 +45,7 @@ const AccordionItem = ({ question, answer }: { question: string, answer: string 
 
 export default function FAQPage() {
   return (
-    <div className="min-h-screen bg-brand-dark text-white selection:bg-brand-red selection:text-white">
+    <div className="min-h-screen bg-brand-dark text-white selection:bg-brand-red selection:text-[#140800]">
       <JsonLd type="FAQ" data={FAQ} />
       <Nav />
 
@@ -92,10 +92,10 @@ export default function FAQPage() {
                 </p>
               </div>
               <div className="flex flex-wrap justify-center gap-4">
-                <Link href="/contact/" className="px-8 py-4 bg-brand-red text-white rounded-2xl font-black uppercase tracking-widest text-xs hover:scale-105 transition-transform flex items-center gap-3 shadow-xl shadow-brand-red/20">
+                <Link href="/contact/" className="px-8 py-4 bg-brand-red text-[#140800] rounded-2xl font-black uppercase tracking-widest text-xs hover:scale-105 transition-transform flex items-center gap-3 shadow-xl shadow-brand-red/20">
                   Contact Engineer <Zap className="w-4 h-4 fill-white" />
                 </Link>
-                <a href="https://wa.me/61400000000" className="px-8 py-4 bg-white/5 text-white rounded-2xl font-black uppercase tracking-widest text-xs hover:bg-white/10 transition-all flex items-center gap-3 border border-white/10">
+                <a href="https://wa.me/61480804189" className="px-8 py-4 bg-white/5 text-white rounded-2xl font-black uppercase tracking-widest text-xs hover:bg-white/10 transition-all flex items-center gap-3 border border-white/10">
                   WhatsApp Support <ArrowRight className="w-4 h-4" />
                 </a>
               </div>

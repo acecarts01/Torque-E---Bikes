@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import React from 'react'
 import { SITE, CONTACT } from '@/src/config/site'
+import Providers from '@/src/components/Providers'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -42,8 +43,8 @@ export default function RootLayout({
       <head>
         <script src="/js/webmcp.js" defer></script>
       </head>
-      <body suppressHydrationWarning className="antialiased bg-[#141414] text-white min-h-screen flex flex-col overflow-x-hidden max-w-[100vw]">
-        {children}
+      <body suppressHydrationWarning className="antialiased bg-[#0e0f11] text-white min-h-screen flex flex-col overflow-x-hidden max-w-[100vw]">
+        <Providers>{children}</Providers>
       </body>
     </html>
   )

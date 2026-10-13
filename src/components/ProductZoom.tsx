@@ -54,7 +54,7 @@ export default function ProductZoom({ src, alt, className }: ProductZoomProps) {
           <div 
             className="absolute inset-0 pointer-events-none"
             style={{
-              backgroundImage: `url(${src.startsWith('http') ? src : `https://picsum.photos/seed/${src.split('.')[0]}/1600/1200`})`,
+              backgroundImage: `url(${src})`,
               backgroundPosition: `${position.x}% ${position.y}%`,
               backgroundSize: '250%',
               backgroundRepeat: 'no-repeat'

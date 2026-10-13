@@ -4,7 +4,7 @@
     tools: [
       { 
         name: "search_products", 
-        description: "Search TORQUE E - BIKES products by keyword, category, or price", 
+        description: "Search Torque E-Bikes products by keyword, category, or price", 
         inputSchema: { 
           type: "object", 
           properties: { 
@@ -47,7 +47,7 @@
           } 
         }, 
         execute: async ({ message }) => { 
-          const url = message ? `https://wa.me/61400000000?text=${encodeURIComponent(message)}` : `https://wa.me/61400000000`; 
+          const url = message ? `https://wa.me/61480804189?text=${encodeURIComponent(message)}` : `https://wa.me/61480804189`; 
           window.open(url, '_blank'); 
           return { url }; 
         } 

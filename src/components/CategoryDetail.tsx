@@ -79,7 +79,7 @@ export default function CategoryDetail({ slug }: CategoryDetailProps) {
       </section>
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 items-start">
-        <aside className="lg:sticky lg:top-32">
+        <aside className="lg:sticky lg:top-28 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto lg:overscroll-contain lg:pr-2 [scrollbar-width:thin] [scrollbar-color:#ff6a1a_transparent]">
           <ShopFilters 
             activeCategory={category.slug}
             activePower={activePower}

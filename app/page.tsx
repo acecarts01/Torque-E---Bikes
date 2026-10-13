@@ -19,7 +19,7 @@ export default function Home() {
   const featuredProducts = PRODUCTS.filter(p => p.featured)
 
   return (
-    <main className="flex-grow selection:bg-brand-red selection:text-white">
+    <main className="flex-grow selection:bg-brand-red selection:text-[#140800]">
       <JsonLd type="Organization" />
       <JsonLd type="FAQ" data={FAQ} />
       <AnnouncementBar />
@@ -66,25 +66,25 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
             {CATEGORIES.map((cat, i) => (
               <motion.div
                 key={cat.slug}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.1 }}
+                transition={{ duration: 0.4, delay: (i % 4) * 0.05 }}
               >
-                <Link 
-                  href={`/shop/${cat.slug}/`} 
-                  className="group relative aspect-[16/10] overflow-hidden rounded-2xl border border-white/5 bg-brand-accent block"
+                <Link
+                  href={`/shop/${cat.slug}/`}
+                  className="group block overflow-hidden rounded-2xl border border-white/5 bg-brand-accent hover:border-brand-red/40 transition-colors"
                 >
-                  <SmartImage src={cat.image} alt={cat.name} fill className="group-hover:scale-105 transition-transform duration-700 object-cover opacity-70" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-brand-dark via-brand-dark/20 to-transparent p-8 flex flex-col justify-end">
-                    <h3 className="text-xl font-black italic uppercase tracking-tighter text-white">{cat.name}</h3>
-                    <p className="text-[10px] text-brand-gray font-medium uppercase tracking-wider mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      Explore Range
-                    </p>
+                  <div className="relative aspect-[4/3] bg-white">
+                    <SmartImage src={cat.image} alt={cat.name} fill className="group-hover:scale-105 transition-transform duration-700 object-contain p-3" />
+                  </div>
+                  <div className="p-3 sm:p-4">
+                    <h3 className="text-xs sm:text-sm font-black italic uppercase tracking-tighter text-white leading-tight">{cat.name}</h3>
+                    <p className="text-[9px] text-brand-gray font-bold uppercase tracking-wider mt-1">{cat.count} products</p>
                   </div>
                 </Link>
               </motion.div>
@@ -152,7 +152,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="relative min-h-[400px]">
-                <SmartImage src="about-torque.webp" alt="Engineering" fill className="object-cover grayscale" />
+                <SmartImage src="/images/about-garage.webp" alt="Mechanic working on a motorcycle in a garage" fill className="object-cover opacity-80" />
                 <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/50 to-transparent lg:hidden" />
               </div>
             </div>

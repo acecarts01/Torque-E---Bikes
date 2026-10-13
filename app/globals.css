@@ -1,11 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-red: #E63946;
-  --color-brand-dark: #0A0A0A;
-  --color-brand-surface: #141414;
-  --color-brand-accent: #1A1A1A;
-  --color-brand-gray: #888888;
+  --color-brand-red: #ff6a1a;
+  --color-brand-dark: #0e0f11;
+  --color-brand-surface: #16181b;
+  --color-brand-accent: #1d2024;
+  --color-brand-gray: #a39e94;
+  --color-brand-amber: #ffb703;
+  --color-brand-ok: #35c17a;
+  --color-brand-line: #2a2e33;
   
   --font-sans: "Inter", "system-ui", sans-serif;
   --font-display: "Syncopate", "Inter", sans-serif;
@@ -46,13 +49,13 @@
   }
   
   .text-gradient-red {
-    background: linear-gradient(to right, #E63946, #FF6B6B);
+    background: linear-gradient(to right, #ff6a1a, #ffb703);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .border-gradient {
-    border-image: linear-gradient(to right, #E63946, transparent) 1;
+    border-image: linear-gradient(to right, #ff6a1a, transparent) 1;
   }
 
   .no-scrollbar::-webkit-scrollbar {
@@ -68,4 +71,48 @@
   [style*="display:grid"] {
     display: block !important;
   }
+}
+
+/* ---- Motion ---- */
+@keyframes reveal-up {
+  from { opacity: 0; transform: translateY(28px) scale(0.98); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-10px); }
+}
+@keyframes toast-in {
+  from { opacity: 0; transform: translateY(16px) scale(0.96); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes sheen {
+  from { transform: translateX(-120%) skewX(-20deg); }
+  to   { transform: translateX(260%) skewX(-20deg); }
+}
+
+.animate-float { animation: float-slow 6s ease-in-out infinite; }
+.animate-toast-in { animation: toast-in 0.45s cubic-bezier(0.16, 1, 0.3, 1) both; }
+
+/* Cards fade and rise as they scroll into view (browsers without scroll-driven animations just show them) */
+@supports (animation-timeline: view()) {
+  .reveal {
+    animation: reveal-up linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 40%;
+  }
+}
+
+/* Orange sheen sweep on primary buttons and card hover */
+.sheen { position: relative; overflow: hidden; }
+.sheen::after {
+  content: ""; position: absolute; inset: 0; width: 40%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.28), transparent);
+  transform: translateX(-120%) skewX(-20deg); pointer-events: none;
+}
+.sheen:hover::after { animation: sheen 0.9s ease; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float, .animate-toast-in, .reveal, .sheen:hover::after { animation: none !important; }
+  html { scroll-behavior: auto; }
 }

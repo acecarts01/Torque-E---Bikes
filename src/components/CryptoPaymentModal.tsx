@@ -58,10 +58,10 @@ export default function CryptoPaymentModal({
             initial={{ opacity: 0, scale: 0.95, y: 20 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95, y: 20 }}
-            className="relative w-full max-w-xl bg-[#141414] border border-white/10 rounded-sm overflow-hidden shadow-2xl"
+            className="relative w-full max-w-xl bg-[#16181b] border border-white/10 rounded-sm overflow-hidden shadow-2xl"
           >
             {/* Header */}
-            <div className="bg-[#E63946] p-6 text-white flex justify-between items-center">
+            <div className="bg-[#ff6a1a] p-6 text-[#140800] flex justify-between items-center">
               <div className="flex items-center gap-3">
                 <Zap className="w-6 h-6 fill-white" />
                 <div>
@@ -81,8 +81,8 @@ export default function CryptoPaymentModal({
                   <p className="text-[10px] font-black uppercase tracking-widest text-gray-500 mb-1">Standard Total</p>
                   <p className="text-lg font-bold text-gray-400 line-through">{formatCurrency(subtotal)}</p>
                 </div>
-                <div className="bg-[#E63946]/10 p-4 rounded-sm border border-[#E63946]/20">
-                  <p className="text-[10px] font-black uppercase tracking-widest text-[#E63946] mb-1">Crypto Price (-{SHOP.cryptoDiscount}%)</p>
+                <div className="bg-[#ff6a1a]/10 p-4 rounded-sm border border-[#ff6a1a]/20">
+                  <p className="text-[10px] font-black uppercase tracking-widest text-[#ff6a1a] mb-1">Crypto Price (-{SHOP.cryptoDiscount}%)</p>
                   <p className="text-2xl font-black italic tracking-tighter text-white leading-none">{formatCurrency(finalTotal)}</p>
                 </div>
               </div>
@@ -98,7 +98,7 @@ export default function CryptoPaymentModal({
                       className={cn(
                         "py-3 px-2 rounded-sm border transition-all text-[10px] font-black uppercase tracking-tighter",
                         selectedCrypto === type 
-                          ? "bg-[#E63946] border-[#E63946] text-white" 
+                          ? "bg-[#ff6a1a] border-[#ff6a1a] text-[#140800]" 
                           : "bg-white/5 border-white/10 text-gray-400 hover:border-white/20"
                       )}
                     >
@@ -110,10 +110,10 @@ export default function CryptoPaymentModal({
 
               {/* Payment Details */}
               <div className="space-y-6">
-                <div className="p-6 bg-[#0a0a0a] rounded-sm border border-white/5 space-y-4">
+                <div className="p-6 bg-[#0e0f11] rounded-sm border border-white/5 space-y-4">
                   <div className="flex justify-between items-end">
                     <p className="text-[10px] font-black uppercase tracking-widest text-gray-500">Deposit Address ({selectedCrypto.replace('_', ' ')})</p>
-                    <div className="bg-[#E63946]/20 px-2 py-0.5 rounded text-[8px] font-black text-[#E63946] uppercase">Secure Transfer</div>
+                    <div className="bg-[#ff6a1a]/20 px-2 py-0.5 rounded text-[8px] font-black text-[#ff6a1a] uppercase">Secure Transfer</div>
                   </div>
                   
                   <div className="relative group">
@@ -122,21 +122,21 @@ export default function CryptoPaymentModal({
                     </div>
                     <button 
                       onClick={() => handleCopy(getAddress(selectedCrypto))}
-                      className="absolute right-2 top-1/2 -translate-y-1/2 p-2 bg-white/5 hover:bg-[#E63946] hover:text-white text-gray-500 rounded-sm transition-all"
+                      className="absolute right-2 top-1/2 -translate-y-1/2 p-2 bg-white/5 hover:bg-[#ff6a1a] hover:text-[#140800] text-gray-500 rounded-sm transition-all"
                     >
                       {copied ? <CheckCircle2 className="w-4 h-4" /> : <Copy className="w-4 h-4" />}
                     </button>
                   </div>
 
                   <div className="flex items-center gap-2 text-[10px] text-gray-500 font-bold uppercase tracking-widest">
-                    <AlertCircle className="w-3 h-3 text-[#E63946]" />
+                    <AlertCircle className="w-3 h-3 text-[#ff6a1a]" />
                     <span>Send only {selectedCrypto.split('_')[0]} to this address.</span>
                   </div>
                 </div>
 
                 <div className="p-4 bg-white/5 rounded-sm border border-white/5 flex items-center justify-between">
                   <span className="text-[10px] font-black uppercase tracking-widest text-gray-500">Order Reference</span>
-                  <span className="font-mono text-[#E63946] font-bold">{orderReference}</span>
+                  <span className="font-mono text-[#ff6a1a] font-bold">{orderReference}</span>
                 </div>
               </div>
 
@@ -148,15 +148,15 @@ export default function CryptoPaymentModal({
                 </div>
                 <ol className="space-y-3">
                   <li className="flex gap-3 text-xs text-gray-400 leading-relaxed font-medium">
-                    <span className="bg-[#E63946] text-white w-5 h-5 flex items-center justify-center rounded-full text-[10px] font-black shrink-0">1</span>
+                    <span className="bg-[#ff6a1a] text-[#140800] w-5 h-5 flex items-center justify-center rounded-full text-[10px] font-black shrink-0">1</span>
                     <span>Transfer the exact amount in your selected crypto using current market rates.</span>
                   </li>
                   <li className="flex gap-3 text-xs text-gray-400 leading-relaxed font-medium">
-                    <span className="bg-[#E63946] text-white w-5 h-5 flex items-center justify-center rounded-full text-[10px] font-black shrink-0">2</span>
+                    <span className="bg-[#ff6a1a] text-[#140800] w-5 h-5 flex items-center justify-center rounded-full text-[10px] font-black shrink-0">2</span>
                     <span>Take a screenshot of the successful transaction confirmation.</span>
                   </li>
                   <li className="flex gap-3 text-xs text-gray-400 leading-relaxed font-medium">
-                    <span className="bg-[#E63946] text-white w-5 h-5 flex items-center justify-center rounded-full text-[10px] font-black shrink-0">3</span>
+                    <span className="bg-[#ff6a1a] text-[#140800] w-5 h-5 flex items-center justify-center rounded-full text-[10px] font-black shrink-0">3</span>
                     <span>Send the screenshot along with your Order Reference to our WhatsApp Concierge.</span>
                   </li>
                 </ol>
@@ -168,7 +168,7 @@ export default function CryptoPaymentModal({
                   href={`https://wa.me/${CONTACT.whatsapp.replace('+', '')}?text=${encodeURIComponent(`Hi Torque Team, I've just initiated a crypto payment for order ${orderReference}. Total: ${formatCurrency(finalTotal)}`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full bg-[#E63946] text-white py-4 rounded-sm font-black uppercase tracking-widest text-sm flex items-center justify-center gap-2 hover:bg-[#d62839] transition-colors"
+                  className="w-full bg-[#ff6a1a] text-[#140800] py-4 rounded-sm font-black uppercase tracking-widest text-sm flex items-center justify-center gap-2 hover:bg-[#e85a0f] transition-colors"
                 >
                   <Phone className="w-4 h-4" /> Confirm via WhatsApp
                 </a>

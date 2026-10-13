@@ -8,7 +8,7 @@ export async function GET() {
     services: [
       { id: "product-catalog", type: "catalog", url: `https://${DOMAIN}/shop/` },
       { id: "mcp-server", type: "mcp", url: `https://${DOMAIN}/api/mcp` },
-      { id: "order", type: "commerce", url: `https://wa.me/${CONTACT.whatsapp}` },
+      { id: "order", type: "commerce", url: `https://wa.me/${CONTACT.whatsapp.replace(/\+/g, "")}` },
       { id: "wholesale", type: "b2b", url: `https://${DOMAIN}/wholesale/` }
     ],
     currency: SITE.currency,

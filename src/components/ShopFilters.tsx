@@ -36,8 +36,8 @@ const FilterSection = ({ title, options, active, onChange }: {
           className={cn(
             "px-3 py-2 text-[10px] font-bold uppercase tracking-widest text-left rounded-sm border transition-all flex items-center justify-between group",
             active === opt 
-              ? "bg-[#E63946] border-[#E63946] text-white" 
-              : "bg-white/5 border-white/10 text-gray-400 hover:border-[#E63946]/50 hover:text-white"
+              ? "bg-[#ff6a1a] border-[#ff6a1a] text-[#140800]" 
+              : "bg-white/5 border-white/10 text-gray-400 hover:border-[#ff6a1a]/50 hover:text-white"
           )}
         >
           {opt}
@@ -65,14 +65,14 @@ export default function ShopFilters({
       {/* Mobile Toggle */}
       <button 
         onClick={() => setIsMobileOpen(true)}
-        className="lg:hidden flex items-center gap-2 bg-[#E63946] text-white px-4 py-3 rounded-sm font-black uppercase tracking-widest text-xs w-full mb-6"
+        className="lg:hidden flex items-center gap-2 bg-[#ff6a1a] text-[#140800] px-4 py-3 rounded-sm font-black uppercase tracking-widest text-xs w-full mb-6"
       >
         <Filter className="w-4 h-4" /> Filter & Compatibility
       </button>
 
       {/* Sidebar Content */}
       <div className={cn(
-        "fixed inset-0 z-[100] bg-[#141414] p-6 lg:relative lg:inset-auto lg:z-auto lg:bg-transparent lg:p-0 transition-transform duration-300 overflow-y-auto",
+        "fixed inset-0 z-[100] bg-[#16181b] p-6 lg:relative lg:inset-auto lg:z-auto lg:bg-transparent lg:p-0 transition-transform duration-300 overflow-y-auto",
         isMobileOpen ? "translate-x-0" : "translate-x-full lg:translate-x-0"
       )}>
         <div className="flex justify-between items-center mb-8 lg:hidden">
@@ -131,7 +131,7 @@ export default function ShopFilters({
                 onVoltageChange(null)
                 onCompatibilityChange(null)
               }}
-              className="w-full py-4 text-[10px] font-black uppercase tracking-widest text-gray-500 hover:text-white border border-dashed border-white/20 hover:border-[#E63946] transition-all rounded-sm"
+              className="w-full py-4 text-[10px] font-black uppercase tracking-widest text-gray-500 hover:text-white border border-dashed border-white/20 hover:border-[#ff6a1a] transition-all rounded-sm"
             >
               Reset All Filters
             </button>

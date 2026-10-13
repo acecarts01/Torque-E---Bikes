@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: product.name,
     description: product.shortDescription,
     path: `/shop/${product.category}/${product.slug}/`,
-    image: `/images/${product.images[0]}`
+    image: product.images[0]
   })
 }
 

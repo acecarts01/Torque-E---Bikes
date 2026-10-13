@@ -98,7 +98,7 @@ export default function ProductDetail({ slug }: ProductDetailProps) {
                 key={i} 
                 onClick={() => setActiveImage(i)}
                 className={cn(
-                  "aspect-square bg-white/5 rounded-2xl border p-2 overflow-hidden transition-all",
+                  "relative aspect-square bg-white rounded-2xl border p-2 overflow-hidden transition-all",
                   activeImage === i ? "border-brand-red ring-1 ring-brand-red/50" : "border-white/5 hover:border-white/20"
                 )}
               >
@@ -134,8 +134,13 @@ export default function ProductDetail({ slug }: ProductDetailProps) {
               <p className="text-5xl font-black italic text-white tracking-tighter leading-none">
                 {formatCurrency(product.price)}
               </p>
+              {(product as any).comparePrice && (product as any).comparePrice > product.price * 1.015 && (
+                <p className="text-sm font-bold text-[#35c17a] pt-2">
+                  Compare at <s className="text-[#a39e94]">{formatCurrency((product as any).comparePrice)}</s> &middot; you save {formatCurrency((product as any).comparePrice - product.price)}
+                </p>
+              )}
             </div>
-            <div className="bg-[#E63946]/10 px-4 py-2 rounded-xl flex items-center gap-3 border border-brand-red/20 shadow-lg shadow-brand-red/5">
+            <div className="bg-[#ff6a1a]/10 px-4 py-2 rounded-xl flex items-center gap-3 border border-brand-red/20 shadow-lg shadow-brand-red/5">
                <Zap className="w-4 h-4 text-brand-red animate-pulse" />
                <div className="text-left">
                   <p className="text-[8px] font-black text-brand-red uppercase tracking-widest">Crypto Savings</p>
@@ -144,11 +149,17 @@ export default function ProductDetail({ slug }: ProductDetailProps) {
             </div>
           </div>
 
+          {product.compliance === 'off-road' && (
+            <div className="rounded-xl border border-[#6b3d14] bg-[#2a1809] px-5 py-4 text-sm text-[#ffd9a8]">
+              <b>Off-road use only.</b> This machine is intended for private property. It is not for use on public roads or paths. Check your state or territory rules.
+            </div>
+          )}
+
           {/* Action */}
           <div className="space-y-4">
             <Link 
               href="/checkout/"
-              className="w-full bg-brand-red text-white py-6 rounded-2xl font-black uppercase tracking-[0.2em] text-sm flex items-center justify-center gap-3 hover:scale-[1.01] active:scale-[0.99] transition-all shadow-2xl shadow-brand-red/30"
+              className="w-full bg-brand-red text-[#140800] py-6 rounded-2xl font-black uppercase tracking-[0.2em] text-sm flex items-center justify-center gap-3 hover:scale-[1.01] active:scale-[0.99] transition-all shadow-2xl shadow-brand-red/30"
             >
               <ShoppingCart className="w-5 h-5 fill-white" />
               Initialise Order
@@ -156,7 +167,7 @@ export default function ProductDetail({ slug }: ProductDetailProps) {
             
             <div className="grid grid-cols-2 gap-4">
               <a 
-                href={`https://wa.me/61400000000?text=${encodeURIComponent(`Hi Torque Team, I'm interested in the ${product.name}.`)}`}
+                href={`https://wa.me/61480804189?text=${encodeURIComponent(`Hi Torque Team, I'm interested in the ${product.name}.`)}`}
                 className="flex items-center justify-center gap-3 py-4 glass-card rounded-2xl text-[10px] font-black uppercase tracking-widest text-brand-gray hover:text-white transition-all border border-white/5"
               >
                 <Phone className="w-4 h-4 text-brand-red" /> Tech Concierge
@@ -178,7 +189,7 @@ export default function ProductDetail({ slug }: ProductDetailProps) {
                   <strong className="text-white">Faulty Components:</strong> Contact our Brisbane lab immediately for technical assessment. Verified faults will be repaired or replaced with express shipping covered.
                 </p>
                 <p>
-                  <strong className="text-white">Brisbane Support:</strong> 1300 000 000 | support&#64;torquee-bikesaustralia.com.au
+                  <strong className="text-white">Brisbane Support:</strong> 0480 804 189 | support&#64;torquee-bikesaustralia.com.au
                 </p>
               </div>
             </AccordionItem>

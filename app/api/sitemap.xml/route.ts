@@ -12,7 +12,10 @@ export async function GET() {
     '/faq/',
     '/contact/',
     '/wholesale/',
-    '/search/'
+    '/search/',
+    '/terms/',
+    '/privacy/',
+    '/shipping-returns/'
   ]
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
@@ -39,7 +42,7 @@ export async function GET() {
     <priority>0.9</priority>
     ${prod.images.map(img => `
     <image:image>
-      <image:loc>${domain}/images/${img}</image:loc>
+      <image:loc>${domain}${img}</image:loc>
       <image:title>${prod.name.replace(/&/g, '&amp;')}</image:title>
     </image:image>`).join('')}
   </url>`).join('')}

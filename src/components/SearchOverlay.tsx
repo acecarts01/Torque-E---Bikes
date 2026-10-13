@@ -46,20 +46,20 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="fixed inset-0 z-[100] bg-[#0a0a0a]/95 backdrop-blur-2xl overflow-y-auto"
+          className="fixed inset-0 z-[100] bg-[#0e0f11]/95 backdrop-blur-2xl overflow-y-auto"
         >
           <div className="container mx-auto px-4 py-8 md:py-24 max-w-4xl">
             {/* Header */}
             <div className="flex justify-between items-center mb-12">
               <div className="flex items-center gap-4">
-                <div className="bg-[#E63946] p-2 rounded-sm transform rotate-12">
+                <div className="bg-[#ff6a1a] p-2 rounded-sm transform rotate-12">
                   <Zap className="w-5 h-5 text-white fill-white" />
                 </div>
-                <h2 className="text-2xl font-black uppercase italic tracking-tighter text-white">Torque <span className="text-[#E63946]">Search.</span></h2>
+                <h2 className="text-2xl font-black uppercase italic tracking-tighter text-white">Torque <span className="text-[#ff6a1a]">Search.</span></h2>
               </div>
               <button 
                 onClick={handleClose}
-                className="p-3 bg-white/5 hover:bg-[#E63946] text-white rounded-full transition-all group"
+                className="p-3 bg-white/5 hover:bg-[#ff6a1a] text-[#140800] rounded-full transition-all group"
               >
                 <X className="w-6 h-6 group-hover:rotate-90 transition-transform" />
               </button>
@@ -74,7 +74,7 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
                 placeholder="SEARCH INVENTORY (e.g. 72V Battery, Sur-Ron, 2000W)..."
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                className="w-full bg-white/5 border-2 border-white/10 focus:border-[#E63946] text-white text-xl md:text-3xl font-black uppercase italic tracking-tighter px-20 py-8 rounded-sm outline-none transition-all placeholder:text-gray-700"
+                className="w-full bg-white/5 border-2 border-white/10 focus:border-[#ff6a1a] text-white text-xl md:text-3xl font-black uppercase italic tracking-tighter px-20 py-8 rounded-sm outline-none transition-all placeholder:text-gray-700"
               />
             </div>
 
@@ -84,7 +84,7 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
                 <>
                   <div className="flex items-center justify-between border-b border-white/5 pb-4">
                     <p className="text-[10px] font-black uppercase tracking-[0.3em] text-gray-500">Live Inventory Match ({results.length})</p>
-                    <Link href="/shop/" onClick={handleClose} className="text-[10px] font-black uppercase tracking-[0.2em] text-[#E63946] hover:text-white transition-colors">View All Products</Link>
+                    <Link href="/shop/" onClick={handleClose} className="text-[10px] font-black uppercase tracking-[0.2em] text-[#ff6a1a] hover:text-white transition-colors">View All Products</Link>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {results.map((product) => (
@@ -99,7 +99,7 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
                         </div>
                         <div className="flex flex-col justify-between py-1">
                           <div className="space-y-1">
-                            <h3 className="text-sm font-black uppercase tracking-tighter text-white group-hover:text-[#E63946] transition-colors line-clamp-1">{product.name}</h3>
+                            <h3 className="text-sm font-black uppercase tracking-tighter text-white group-hover:text-[#ff6a1a] transition-colors line-clamp-1">{product.name}</h3>
                             <div className="flex items-center gap-2">
                               <span className="text-[9px] font-bold text-gray-500 uppercase tracking-widest">{product.category.replace(/-/g, ' ')}</span>
                               {product.stock && (
@@ -117,7 +117,7 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
                           <div className="flex items-center gap-4">
                             <p className="text-lg font-black italic text-white tracking-tighter">{formatCurrency(product.price)}</p>
                             <div className="text-[8px] font-black uppercase tracking-[0.2em] text-gray-500 flex items-center gap-1">
-                              INSPECT <ArrowRight className="w-3 h-3 text-[#E63946]" />
+                              INSPECT <ArrowRight className="w-3 h-3 text-[#ff6a1a]" />
                             </div>
                           </div>
                         </div>
@@ -129,7 +129,7 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
                 <div className="text-center py-24 bg-white/5 rounded-sm border border-dashed border-white/10 space-y-4">
                   <ShieldAlert className="w-12 h-12 text-gray-700 mx-auto" />
                   <p className="text-gray-500 font-bold uppercase tracking-widest text-xs">No products found matching &quot;{query}&quot;</p>
-                  <Link href="/contact/" onClick={handleClose} className="inline-block text-[#E63946] font-black uppercase tracking-tighter text-sm italic hover:text-white transition-colors">Request Special Custom Combo →</Link>
+                  <Link href="/contact/" onClick={handleClose} className="inline-block text-[#ff6a1a] font-black uppercase tracking-tighter text-sm italic hover:text-white transition-colors">Request Special Custom Combo →</Link>
                 </div>
               ) : (
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pt-12">
@@ -150,7 +150,7 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
                         <button 
                           key={tag} 
                           onClick={() => setQuery(tag)}
-                          className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-[10px] font-black uppercase tracking-widest text-gray-400 hover:bg-[#E63946] hover:text-white hover:border-[#E63946] transition-all"
+                          className="px-4 py-2 bg-white/5 border border-white/10 rounded-full text-[10px] font-black uppercase tracking-widest text-gray-400 hover:bg-[#ff6a1a] hover:text-[#140800] hover:border-[#ff6a1a] transition-all"
                         >
                           {tag}
                         </button>
