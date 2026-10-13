@@ -1,0 +1,167 @@
+'use client'
+
+import React, { useState, useMemo } from 'react'
+import Nav from '@/src/components/Nav'
+import Footer from '@/src/components/Footer'
+import AnnouncementBar from '@/src/components/AnnouncementBar'
+import ProductCard from '@/src/components/ProductCard'
+import ShopFilters from '@/src/components/ShopFilters'
+import { ProductCardSkeleton } from '@/src/components/Skeleton'
+import { PRODUCTS, CATEGORIES } from '@/src/config/site'
+import { Zap, ShieldAlert, LayoutGrid } from 'lucide-react'
+
+export default function ShopPage() {
+  const [isLoading, setIsLoading] = useState(false)
+  const [activeCategory, setActiveCategory] = useState<string | null>(null)
+  const [activePower, setActivePower] = useState<string | null>(null)
+  const [activeVoltage, setActiveVoltage] = useState<string | null>(null)
+  const [activeCompatibility, setActiveCompatibility] = useState<string | null>(null)
+
+  const triggerLoading = () => {
+    setIsLoading(true)
+    setTimeout(() => setIsLoading(false), 400)
+  }
+
+  const handleCategoryChange = (val: string | null) => {
+    triggerLoading()
+    setActiveCategory(val)
+  }
+
+  const handlePowerChange = (val: string | null) => {
+    triggerLoading()
+    setActivePower(val)
+  }
+
+  const handleVoltageChange = (val: string | null) => {
+    triggerLoading()
+    setActiveVoltage(val)
+  }
+
+  const handleCompatibilityChange = (val: string | null) => {
+    triggerLoading()
+    setActiveCompatibility(val)
+  }
+
+  const filteredProducts = useMemo(() => {
+    return PRODUCTS.filter(p => {
+      const matchCat = !activeCategory || p.category === activeCategory
+      const matchPower = !activePower || (p.power && p.power === activePower)
+      const matchVoltage = !activeVoltage || (p.voltage && p.voltage === activeVoltage)
+      const matchCompatibility = !activeCompatibility || (p.compatibility && p.compatibility.includes(activeCompatibility))
+      return matchCat && matchPower && matchVoltage && matchCompatibility
+    })
+  }, [activeCategory, activePower, activeVoltage, activeCompatibility])
+
+  return (
+    <div className="flex flex-col min-h-screen bg-[#141414]">
+      <AnnouncementBar />
+      <Nav />
+
+      <main className="flex-grow pt-32 pb-24">
+        {/* Header */}
+        <section className="container mx-auto px-4 mb-16">
+          <div className="bg-[#1a1a1a] p-8 md:p-12 border border-white/5 rounded-sm relative overflow-hidden">
+            <div className="absolute top-0 right-0 w-64 h-full bg-[#E63946]/5 blur-3xl rounded-full" />
+            <div className="relative z-10 max-w-2xl">
+              <p className="text-[10px] font-black uppercase tracking-[0.3em] text-[#E63946] mb-4">Official Catalog</p>
+              <h1 className="text-4xl md:text-6xl font-black italic uppercase tracking-tighter leading-none mb-6">
+                HIGH-TORQUE <span className="text-[#E63946]">INVENTORY.</span>
+              </h1>
+              <p className="text-gray-400 font-medium leading-relaxed">
+                Browse our range of authorised e-motos, street-legal conversion kits, and performance battery systems. All products stocked in Brisbane and shipped nationwide with Class 9 DG certification.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Shop Content */}
+        <section className="container mx-auto px-4">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 items-start">
+            {/* Sidebar */}
+            <aside className="lg:sticky lg:top-32">
+              <ShopFilters 
+                activeCategory={activeCategory}
+                activePower={activePower}
+                activeVoltage={activeVoltage}
+                activeCompatibility={activeCompatibility}
+                onCategoryChange={handleCategoryChange}
+                onPowerChange={handlePowerChange}
+                onVoltageChange={handleVoltageChange}
+                onCompatibilityChange={handleCompatibilityChange}
+              />
+            </aside>
+
+            {/* Product Grid */}
+            <div className="lg:col-span-3 space-y-8">
+              <div className="flex items-center justify-between border-b border-white/5 pb-4">
+                <div className="flex items-center gap-2">
+                  <LayoutGrid className="w-4 h-4 text-[#E63946]" />
+                  <span className="text-[10px] font-black uppercase tracking-widest text-gray-500">
+                    Showing {filteredProducts.length} Machines
+                  </span>
+                </div>
+                <div className="flex items-center gap-4 text-[10px] font-bold uppercase tracking-widest text-gray-500">
+                  <span className="hidden sm:inline">Sort By:</span>
+                  <select className="bg-transparent border-none focus:ring-0 text-white cursor-pointer hover:text-[#E63946] transition-colors uppercase font-black tracking-tighter">
+                    <option className="bg-[#141414]">Newest First</option>
+                    <option className="bg-[#141414]">Price: Low-High</option>
+                    <option className="bg-[#141414]">Price: High-Low</option>
+                  </select>
+                </div>
+              </div>
+
+              {isLoading ? (
+                <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
+                  {[...Array(6)].map((_, i) => (
+                    <ProductCardSkeleton key={i} />
+                  ))}
+                </div>
+              ) : filteredProducts.length > 0 ? (
+                <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
+                  {filteredProducts.map(product => (
+                    <ProductCard key={product.slug} product={product} />
+                  ))}
+                </div>
+              ) : (
+                <div className="py-24 text-center space-y-6 bg-[#0a0a0a] rounded-sm border border-dashed border-white/10">
+                  <ShieldAlert className="w-16 h-16 text-gray-700 mx-auto" />
+                  <div className="space-y-2">
+                    <h3 className="text-xl font-black uppercase italic tracking-tighter">No Machines Found</h3>
+                    <p className="text-sm text-gray-500 max-w-xs mx-auto font-medium">Try adjusting your filters or search criteria. Some custom power combos are built to order.</p>
+                  </div>
+                  <button 
+                    onClick={() => {
+                      triggerLoading()
+                      setActiveCategory(null)
+                      setActivePower(null)
+                      setActiveVoltage(null)
+                      setActiveCompatibility(null)
+                    }}
+                    className="text-[#E63946] font-black uppercase tracking-widest text-[10px] border-b border-[#E63946] pb-1 hover:text-white hover:border-white transition-all"
+                  >
+                    Clear All Filters
+                  </button>
+                </div>
+              )}
+
+              {/* Legal Warning Footer for Shop */}
+              <div className="mt-16 p-8 bg-[#E63946]/5 rounded-sm border border-[#E63946]/10 flex flex-col md:flex-row gap-6 items-center">
+                <div className="bg-[#E63946] p-3 rounded-sm">
+                  <ShieldAlert className="w-8 h-8 text-white" />
+                </div>
+                <div>
+                  <h4 className="text-sm font-black uppercase tracking-widest text-white mb-2">Australian Regulatory & Safety Advisory</h4>
+                  <p className="text-[10px] text-gray-400 font-medium leading-relaxed uppercase tracking-widest">
+                    Electric dirt bikes, high-powered e-motos, and conversion kit setups exceeding 250W continuous rated power are engineered strictly for private property use. Lithium batteries are dispatched under Australian Dangerous Goods Class 9 guidelines.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <Footer />
+    </div>
+  )
+}

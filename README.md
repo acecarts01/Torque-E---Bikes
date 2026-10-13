@@ -1,11 +1,31 @@
-<div align="center">
+# TORQUE E - BIKES Australia
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+High-performance electric dirt bikes and conversion kits for the Australian market.
 
-  <h1>Built with AI Studio</h2>
+## Development
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+```bash
+# Install dependencies
+npm install
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+# Generate agent files
+npm run gen
 
-</div>
+# Start dev server
+npm run dev
+```
+
+## Deployment
+
+1. Push to GitHub.
+2. Import to Vercel.
+3. Ensure Framework Preset is "Next.js".
+4. Set `SITE.domain` in `src/config/site.js` before production build.
+
+## Agent Support
+
+This site is Agent-Ready (Level 2+).
+- MCP Server: `/api/mcp`
+- LLMS: `/llms.txt`
+- UCP/ACP: `/.well-known/ucp`, `/.well-known/acp.json`
+- API Catalog: `/.well-known/api-catalog`

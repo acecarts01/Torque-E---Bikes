@@ -1,0 +1,30 @@
+{
+  "issuer": "https://torquee-bikesaustralia.com.au",
+  "authorization_endpoint": null,
+  "token_endpoint": null,
+  "jwks_uri": null,
+  "grant_types_supported": [],
+  "response_types_supported": [],
+  "scopes_supported": [],
+  "note": "TORQUE E - BIKES Australia has no protected APIs. All resources publicly accessible.",
+  "public_resources": [
+    "https://torquee-bikesaustralia.com.au/shop/",
+    "https://torquee-bikesaustralia.com.au/blog/",
+    "https://torquee-bikesaustralia.com.au/faq/",
+    "https://torquee-bikesaustralia.com.au/wholesale/",
+    "https://torquee-bikesaustralia.com.au/llms.txt",
+    "https://torquee-bikesaustralia.com.au/.well-known/api-catalog",
+    "https://torquee-bikesaustralia.com.au/.well-known/agent-skills/index.json",
+    "https://torquee-bikesaustralia.com.au/.well-known/mcp/server-card.json"
+  ],
+  "agent_auth": {
+    "register_uri": null,
+    "identity_types_supported": [
+      "none"
+    ],
+    "credential_types_supported": [
+      "none"
+    ],
+    "notes": "No registration required. All content publicly accessible to agents."
+  }
+}

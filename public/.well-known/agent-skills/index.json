@@ -1,0 +1,50 @@
+{
+  "$schema": "https://agentskills.io/schema/v0.2.0/index.json",
+  "name": "TORQUE E - BIKES Australia",
+  "url": "https://torquee-bikesaustralia.com.au",
+  "description": "Australia’s Home of High-Torque E-Motos, Performance Conversion Kits & Custom Upgrades",
+  "skills": [
+    {
+      "name": "search-products",
+      "type": "commerce",
+      "description": "Search products by keyword, category, or price",
+      "url": "https://torquee-bikesaustralia.com.au/api/mcp",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "browse-catalog",
+      "type": "navigation",
+      "description": "Browse the full product catalog by category",
+      "url": "https://torquee-bikesaustralia.com.au/shop/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "order-draft",
+      "type": "commerce",
+      "description": "Create a prefilled order draft. Human completes the order.",
+      "url": "https://torquee-bikesaustralia.com.au/api/mcp",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "wholesale-inquiry",
+      "type": "commerce",
+      "description": "Wholesale pricing tiers and bulk ordering",
+      "url": "https://torquee-bikesaustralia.com.au/wholesale/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "product-education",
+      "type": "content",
+      "description": "Educational blog content",
+      "url": "https://torquee-bikesaustralia.com.au/blog/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "contact",
+      "type": "support",
+      "description": "Contact for product questions or support",
+      "url": "https://torquee-bikesaustralia.com.au/contact/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

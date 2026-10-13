@@ -1,0 +1,48 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://torquee-bikesaustralia.com.au/",
+      "https://www.iana.org/assignments/link-relations/service-doc": [
+        {
+          "href": "https://torquee-bikesaustralia.com.au/faq/"
+        }
+      ],
+      "title": "TORQUE E - BIKES Australia — Australia’s Home of High-Torque E-Motos, Performance Conversion Kits & Custom Upgrades"
+    },
+    {
+      "anchor": "https://torquee-bikesaustralia.com.au/shop/",
+      "type": "text/html",
+      "title": "TORQUE E - BIKES Australia Product Catalog"
+    },
+    {
+      "anchor": "https://torquee-bikesaustralia.com.au/wholesale/",
+      "type": "text/html",
+      "title": "TORQUE E - BIKES Australia Wholesale"
+    },
+    {
+      "anchor": "https://torquee-bikesaustralia.com.au/api/products",
+      "type": "application/json",
+      "title": "TORQUE E - BIKES Australia Products API"
+    },
+    {
+      "anchor": "https://torquee-bikesaustralia.com.au/api/categories",
+      "type": "application/json",
+      "title": "TORQUE E - BIKES Australia Categories API"
+    },
+    {
+      "anchor": "https://torquee-bikesaustralia.com.au/api/search",
+      "type": "application/json",
+      "title": "TORQUE E - BIKES Australia Search API"
+    },
+    {
+      "anchor": "https://torquee-bikesaustralia.com.au/api/mcp",
+      "type": "application/json",
+      "https://www.iana.org/assignments/link-relations/service-desc": [
+        {
+          "href": "https://torquee-bikesaustralia.com.au/.well-known/mcp/server-card.json"
+        }
+      ],
+      "title": "TORQUE E - BIKES Australia MCP Server"
+    }
+  ]
+}

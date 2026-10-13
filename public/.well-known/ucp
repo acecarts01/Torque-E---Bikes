@@ -1,0 +1,65 @@
+{
+  "ucp": "1.0",
+  "protocol_version": "1.0",
+  "spec": "https://ucp.dev/specification/overview/",
+  "schema": "https://ucp.dev/schema/v1.json",
+  "site": "https://torquee-bikesaustralia.com.au",
+  "name": "TORQUE E - BIKES Australia",
+  "description": "TORQUE E - BIKES is an authorised Australian retailer and specialist in high-performance electric motocross and MTB conversion systems. We bridge the gap between mountain biking and motocross.",
+  "services": [
+    {
+      "id": "product-catalog",
+      "type": "catalog",
+      "url": "https://torquee-bikesaustralia.com.au/shop/",
+      "description": "Full product catalog"
+    },
+    {
+      "id": "mcp-server",
+      "type": "mcp",
+      "url": "https://torquee-bikesaustralia.com.au/api/mcp",
+      "description": "MCP Streamable HTTP server"
+    },
+    {
+      "id": "order",
+      "type": "commerce",
+      "url": "https://wa.me/61400000000",
+      "description": "Place orders via WhatsApp"
+    },
+    {
+      "id": "wholesale",
+      "type": "b2b",
+      "url": "https://torquee-bikesaustralia.com.au/wholesale/",
+      "description": "Wholesale pricing and bulk ordering"
+    }
+  ],
+  "capabilities": [
+    "browse",
+    "search",
+    "inquiry",
+    "wholesale",
+    "content",
+    "mcp"
+  ],
+  "endpoints": {
+    "mcp": "https://torquee-bikesaustralia.com.au/api/mcp",
+    "catalog": "https://torquee-bikesaustralia.com.au/shop/",
+    "contact": "https://torquee-bikesaustralia.com.au/contact/",
+    "agent_skills": "https://torquee-bikesaustralia.com.au/.well-known/agent-skills/index.json",
+    "mcp_server_card": "https://torquee-bikesaustralia.com.au/.well-known/mcp/server-card.json",
+    "api_catalog": "https://torquee-bikesaustralia.com.au/.well-known/api-catalog",
+    "llms_txt": "https://torquee-bikesaustralia.com.au/llms.txt"
+  },
+  "currency": "AUD",
+  "minimum_order_usd": 0,
+  "payment_methods": [
+    "bank-transfer",
+    "payid",
+    "crypto-BTC",
+    "crypto-USDT"
+  ],
+  "legal": {
+    "age_restriction": "16+",
+    "product_type": "Electric Motos",
+    "compliance": "Off-road only"
+  }
+}

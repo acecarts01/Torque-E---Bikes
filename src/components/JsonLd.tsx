@@ -1,0 +1,104 @@
+// src/components/JsonLd.tsx
+import React from 'react'
+import { SITE, CONTACT, BRAND, PRODUCTS } from '@/src/config/site'
+
+export default function JsonLd({ type, data }: { type: string, data?: any }) {
+  let schema: any = null
+
+  if (type === 'Organization') {
+    schema = {
+      "@context": "https://schema.org",
+      "@type": ["Store", "Organization"],
+      "name": SITE.name,
+      "description": SITE.tagline,
+      "foundingDate": BRAND.foundingYear,
+      "foundingLocation": { "@type": "Place", "name": BRAND.foundingLocation },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": CONTACT.address.split(',')[0],
+        "addressLocality": "Brisbane",
+        "addressRegion": "QLD",
+        "postalCode": "4000",
+        "addressCountry": "AU"
+      },
+      "url": `https://${SITE.domain}/`,
+      "logo": `https://${SITE.domain}/logo.png`,
+      "sameAs": BRAND.sameAs,
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": CONTACT.phone,
+        "contactType": "sales",
+        "areaServed": "AU",
+        "availableLanguage": "en"
+      },
+      "brand": { "@type": "Brand", "name": SITE.name },
+      "makesOffer": {
+        "@type": "AggregateOffer",
+        "priceCurrency": SITE.currency,
+        "lowPrice": Math.min(...PRODUCTS.map(p => p.price)),
+        "highPrice": Math.max(...PRODUCTS.map(p => p.price))
+      }
+    }
+  }
+
+  if (type === 'Product' && data) {
+    schema = {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": data.name,
+      "description": data.description,
+      "image": data.images.map((img: string) => `https://${SITE.domain}/images/${img}`),
+      "sku": data.slug,
+      "brand": { "@type": "Brand", "name": SITE.name },
+      "offers": {
+        "@type": "Offer",
+        "url": `https://${SITE.domain}/shop/${data.category}/${data.slug}/`,
+        "priceCurrency": SITE.currency,
+        "price": data.price,
+        "availability": "https://schema.org/InStock",
+        "seller": { "@type": "Organization", "name": SITE.name }
+      }
+    }
+  }
+
+  if ((type === 'Breadcrumb' || type === 'BreadcrumbList') && data) {
+    schema = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": data.map((item: any, index: number) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "name": item.name,
+        "item": `https://${SITE.domain}${item.item}`
+      }))
+    }
+  }
+
+  if (type === 'FAQ') {
+    schema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": data.map((item: any) => ({
+        "@type": "Question",
+        "name": item.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": item.answer
+        }
+      }))
+    }
+  }
+
+  if (!schema && data) {
+    schema = data
+  }
+
+  if (!schema) return null
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  )
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/server-card/v1.json",
+  "serverInfo": {
+    "name": "TORQUE E - BIKES Australia",
+    "version": "1.0.0",
+    "description": "TORQUE E - BIKES is an authorised Australian retailer and specialist in high-performance electric motocross and MTB conversion systems. We bridge the gap between mountain biking and motocross.",
+    "homepage": "https://torquee-bikesaustralia.com.au",
+    "contact": {
+      "email": "sales@torquee-bikesaustralia.com.au",
+      "whatsapp": "+61400000000"
+    }
+  },
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "https://torquee-bikesaustralia.com.au/api/mcp"
+  },
+  "capabilities": {
+    "tools": [
+      {
+        "name": "search_products",
+        "description": "Search products by keyword, category, max_price",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string"
+            },
+            "category": {
+              "type": "string"
+            },
+            "max_price": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      {
+        "name": "get_product",
+        "description": "Get full product details by slug",
+        "inputSchema": {
+          "type": "object",
+          "required": [
+            "slug"
+          ],
+          "properties": {
+            "slug": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      {
+        "name": "list_categories",
+        "description": "List all product categories",
+        "inputSchema": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "get_policies",
+        "description": "Get shipping, payment, returns policies",
+        "inputSchema": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "create_order_draft",
+        "description": "Create prefilled order URL. Human completes — never captures payment.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "items": {
+              "type": "array"
+            },
+            "notes": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    ],
+    "resources": [
+      {
+        "name": "product-catalog",
+        "description": "Full product catalog",
+        "uri": "https://torquee-bikesaustralia.com.au/shop/"
+      },
+      {
+        "name": "wholesale",
+        "description": "Wholesale pricing",
+        "uri": "https://torquee-bikesaustralia.com.au/wholesale/"
+      },
+      {
+        "name": "blog",
+        "description": "Educational content",
+        "uri": "https://torquee-bikesaustralia.com.au/blog/"
+      }
+    ],
+    "commerce": {
+      "ordering": "human-assisted-whatsapp-or-form",
+      "payment": [
+        "bank-transfer",
+        "payid",
+        "crypto-BTC",
+        "crypto-USDT"
+      ],
+      "currency": "AUD",
+      "minimumOrder": 0,
+      "freeShipping": 199
+    }
+  },
+  "legal": {
+    "ageRestriction": "16+",
+    "productType": "Electric Motos & Conversion Kits",
+    "compliance": "Off-road and private property use only"
+  }
+}
