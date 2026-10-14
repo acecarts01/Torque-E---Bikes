@@ -7,32 +7,32 @@
           "href": "https://torquee-bikesaustralia.com.au/faq/"
         }
       ],
-      "title": "TORQUE E - BIKES Australia — Australia’s Home of High-Torque E-Motos, Performance Conversion Kits & Custom Upgrades"
+      "title": "Torque E-Bikes — Australia’s Home of High-Torque E-Motos, Performance Conversion Kits & Custom Upgrades"
     },
     {
       "anchor": "https://torquee-bikesaustralia.com.au/shop/",
       "type": "text/html",
-      "title": "TORQUE E - BIKES Australia Product Catalog"
+      "title": "Torque E-Bikes Product Catalog"
     },
     {
       "anchor": "https://torquee-bikesaustralia.com.au/wholesale/",
       "type": "text/html",
-      "title": "TORQUE E - BIKES Australia Wholesale"
+      "title": "Torque E-Bikes Wholesale"
     },
     {
       "anchor": "https://torquee-bikesaustralia.com.au/api/products",
       "type": "application/json",
-      "title": "TORQUE E - BIKES Australia Products API"
+      "title": "Torque E-Bikes Products API"
     },
     {
       "anchor": "https://torquee-bikesaustralia.com.au/api/categories",
       "type": "application/json",
-      "title": "TORQUE E - BIKES Australia Categories API"
+      "title": "Torque E-Bikes Categories API"
     },
     {
       "anchor": "https://torquee-bikesaustralia.com.au/api/search",
       "type": "application/json",
-      "title": "TORQUE E - BIKES Australia Search API"
+      "title": "Torque E-Bikes Search API"
     },
     {
       "anchor": "https://torquee-bikesaustralia.com.au/api/mcp",
@@ -42,7 +42,7 @@
           "href": "https://torquee-bikesaustralia.com.au/.well-known/mcp/server-card.json"
         }
       ],
-      "title": "TORQUE E - BIKES Australia MCP Server"
+      "title": "Torque E-Bikes MCP Server"
     }
   ]
 }

@@ -47,7 +47,7 @@ export default function ShopPage() {
       const matchCat = !activeCategory || p.category === activeCategory
       const matchPower = !activePower || (p.power && p.power === activePower)
       const matchVoltage = !activeVoltage || (p.voltage && p.voltage === activeVoltage)
-      const matchCompatibility = !activeCompatibility || (p.compatibility && p.compatibility.includes(activeCompatibility))
+      const matchCompatibility = !activeCompatibility || (p.compatibility && (p.compatibility as string[]).includes(activeCompatibility))
       return matchCat && matchPower && matchVoltage && matchCompatibility
     })
   }, [activeCategory, activePower, activeVoltage, activeCompatibility])

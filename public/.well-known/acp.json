@@ -3,8 +3,8 @@
     "name": "acp",
     "version": "0.1.0"
   },
-  "name": "TORQUE E - BIKES Australia",
-  "description": "TORQUE E - BIKES is an authorised Australian retailer and specialist in high-performance electric motocross and MTB conversion systems. We bridge the gap between mountain biking and motocross.",
+  "name": "Torque E-Bikes",
+  "description": "Torque E-Bikes is a Brisbane-based Australian retailer of electric dirt bikes, e-bikes, performance conversion systems, parts and riding gear, shipped Australia-wide.",
   "api_base_url": "https://torquee-bikesaustralia.com.au",
   "homepage": "https://torquee-bikesaustralia.com.au",
   "transports": [
@@ -26,7 +26,7 @@
       "crypto-USDT"
     ],
     "currency": "AUD",
-    "minimum_order_usd": 0,
+    "minimum_order_usd": 499.99,
     "free_shipping_threshold_usd": 199
   },
   "contact": {

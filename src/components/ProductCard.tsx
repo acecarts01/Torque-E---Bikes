@@ -17,6 +17,8 @@ interface ProductCardProps {
     stock?: string
     power?: string
     voltage?: string
+    comparePrice?: number
+    bestPrice?: boolean
   }
 }
 

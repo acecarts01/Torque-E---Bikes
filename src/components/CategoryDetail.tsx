@@ -51,7 +51,7 @@ export default function CategoryDetail({ slug }: CategoryDetailProps) {
       const matchCat = p.category === category.slug
       const matchPower = !activePower || (p.power && p.power === activePower)
       const matchVoltage = !activeVoltage || (p.voltage && p.voltage === activeVoltage)
-      const matchCompatibility = !activeCompatibility || (p.compatibility && p.compatibility.includes(activeCompatibility))
+      const matchCompatibility = !activeCompatibility || (p.compatibility && (p.compatibility as string[]).includes(activeCompatibility))
       return matchCat && matchPower && matchVoltage && matchCompatibility
     })
   }, [category.slug, activePower, activeVoltage, activeCompatibility])

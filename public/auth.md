@@ -1,6 +1,6 @@
 # Auth.md
 
-## Site: TORQUE E - BIKES Australia — Ecommerce
+## Site: Torque E-Bikes — Ecommerce
 
 ## Agent Registration
 No authentication required. All resources are publicly accessible.
