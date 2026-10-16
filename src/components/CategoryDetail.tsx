@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useMemo } from 'react'
-import { notFound } from 'next/navigation'
+import { notFound, useRouter } from 'next/navigation'
 import SmartImage from '@/src/components/SmartImage'
 import ProductCard from '@/src/components/ProductCard'
 import ShopFilters from '@/src/components/ShopFilters'
@@ -22,6 +22,7 @@ interface CategoryDetailProps {
 
 export default function CategoryDetail({ slug, intro }: CategoryDetailProps) {
   const category = CATEGORIES.find(c => c.slug === slug)
+  const router = useRouter()
 
   if (!category) {
     notFound()
@@ -96,7 +97,7 @@ export default function CategoryDetail({ slug, intro }: CategoryDetailProps) {
             activePower={activePower}
             activeVoltage={activeVoltage}
             activeCompatibility={activeCompatibility}
-            onCategoryChange={() => {}} // Disabled on category page
+            onCategoryChange={(next) => router.push(next ? `/shop/${next}/` : '/shop/')}
             onPowerChange={handlePowerChange}
             onVoltageChange={handleVoltageChange}
             onCompatibilityChange={handleCompatibilityChange}

@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react'
 import { Filter, X, ChevronRight } from 'lucide-react'
-import { CATEGORIES } from '@/src/config/site'
+import { CATEGORIES, PRODUCTS } from '@/src/config/site'
 import { cn } from '@/src/lib/utils'
 
 interface ShopFiltersProps {
@@ -20,12 +20,21 @@ const POWER_OPTIONS = ['250W', '1000W', '2000W', '3000W', '5kW', '7kW+']
 const VOLTAGE_OPTIONS = ['36V', '48V', '52V', '72V']
 const COMPATIBILITY_OPTIONS = ['Sur-Ron', 'Talaria', 'MTB', 'ETM', 'Strike', 'Universal']
 
-const FilterSection = ({ title, options, active, onChange }: { 
-  title: string, 
-  options: string[], 
-  active: string | null, 
-  onChange: (val: string | null) => void 
-}) => (
+// Only offer power, voltage and compatibility options that at least one product actually has,
+// so choosing one never empties the grid.
+const has = (get: (p: any) => unknown, opt: string) => PRODUCTS.some(p => { const v = get(p); return Array.isArray(v) ? v.includes(opt) : v === opt })
+const POWER_AVAILABLE = POWER_OPTIONS.filter(o => has(p => p.power, o))
+const VOLTAGE_AVAILABLE = VOLTAGE_OPTIONS.filter(o => has(p => p.voltage, o))
+const COMPAT_AVAILABLE = COMPATIBILITY_OPTIONS.filter(o => has(p => p.compatibility, o))
+const CATEGORY_COUNTS: Record<string, number> = Object.fromEntries(CATEGORIES.map(c => [c.name, PRODUCTS.filter(p => p.category === c.slug).length]))
+
+const FilterSection = ({ title, options, active, onChange, counts }: {
+  title: string,
+  options: string[],
+  active: string | null,
+  onChange: (val: string | null) => void,
+  counts?: Record<string, number>
+}) => options.length === 0 ? null : (
   <div className="space-y-4">
     <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-500 border-b border-white/5 pb-2">{title}</h4>
     <div className="flex flex-wrap lg:flex-col gap-2">
@@ -40,7 +49,7 @@ const FilterSection = ({ title, options, active, onChange }: {
               : "bg-white/5 border-white/10 text-gray-400 hover:border-[#ff6a1a]/50 hover:text-white"
           )}
         >
-          {opt}
+          <span>{opt}{counts && typeof counts[opt] === 'number' ? ` (${counts[opt]})` : ''}</span>
           <ChevronRight className={cn("w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity", active === opt && "opacity-100")} />
         </button>
       ))}
@@ -83,7 +92,8 @@ export default function ShopFilters({
         <div className="space-y-10">
           <FilterSection 
             title="Categories" 
-            options={CATEGORIES.map(c => c.name)} 
+            options={CATEGORIES.map(c => c.name)}
+            counts={CATEGORY_COUNTS}
             active={CATEGORIES.find(c => c.slug === activeCategory)?.name || null} 
             onChange={(name) => {
               const cat = CATEGORIES.find(c => c.name === name)
@@ -94,7 +104,7 @@ export default function ShopFilters({
 
           <FilterSection 
             title="Motor Power Output" 
-            options={POWER_OPTIONS} 
+            options={POWER_AVAILABLE}
             active={activePower} 
             onChange={(val) => {
               onPowerChange(val)
@@ -104,7 +114,7 @@ export default function ShopFilters({
 
           <FilterSection 
             title="System Voltage" 
-            options={VOLTAGE_OPTIONS} 
+            options={VOLTAGE_AVAILABLE}
             active={activeVoltage} 
             onChange={(val) => {
               onVoltageChange(val)
@@ -114,7 +124,7 @@ export default function ShopFilters({
 
           <FilterSection 
             title="Model Compatibility" 
-            options={COMPATIBILITY_OPTIONS} 
+            options={COMPAT_AVAILABLE}
             active={activeCompatibility} 
             onChange={(val) => {
               onCompatibilityChange(val)
