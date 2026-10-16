@@ -27,3 +27,10 @@ React/Next.js ecommerce site for high-performance electric bikes and conversion 
 - Ships: Australia-wide (DG Certified)
 - Payment: Bank Transfer, PayID, Crypto (10% discount)
 - No invented stats, awards or press mentions.
+
+## Orders, enquiries and the Reply Portal (do not regress)
+- All outbound email is branded HTML from `src/lib/emailTemplates.ts` (light shell, dark header band, explicit `bgcolor` + `background-color` on every table/td, `color-scheme: light`). Never send plain-text-only or dark-body emails. `src/lib/mailer.ts` adds the plain-text alternative automatically.
+- Owner notification emails carry a "View order in admin" / "View enquiry in admin" button -> `/admin/?order=<ref>` or `/admin/?enquiry=<ref>`. The admin page reads those params after sign-in and opens the record with its reply composer.
+- Orders: composer sends a structured payment-details email (`parsePaymentDetail` splits pasted "Label: value" lines) or a general reply. Enquiries: reply composer. Wording and payment methods live in `REPLY` in `src/config/site.js`.
+- Storage is Upstash Redis via `src/lib/store.ts` (`KV_REST_API_URL/TOKEN`). Prices are always recalculated server-side in `app/api/forms/order/route.ts`.
+- Env vars (Vercel only, never in the repo): SMTP_HOST/PORT/USER/PASS/FROM, ORDER_NOTIFY_TO, ADMIN_PASSCODE, SESSION_SECRET, KV_*.
