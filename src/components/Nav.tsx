@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { motion, AnimatePresence } from 'motion/react'
 import { ShoppingCart, Menu, X, Search, Zap, ArrowRight } from 'lucide-react'
 import { SITE, CATEGORIES } from '@/src/config/site'
 import { cn } from '@/src/lib/utils'
@@ -112,13 +111,9 @@ export default function Nav() {
       </div>
 
       {/* Mobile Menu */}
-      <AnimatePresence>
-        {isOpen && (
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0, scale: 0.95 }}
-            className="fixed inset-0 z-[60] bg-brand-dark/98 backdrop-blur-2xl p-6 pb-10 lg:hidden overflow-y-auto overscroll-contain"
+      {isOpen && (
+          <div
+            className="animate-menu-in fixed inset-0 z-[60] bg-brand-dark/98 backdrop-blur-2xl p-6 pb-10 lg:hidden overflow-y-auto overscroll-contain"
           >
             <div className="flex justify-between items-center mb-10">
               <Link href="/" onClick={() => setIsOpen(false)} className="flex items-center gap-3">
@@ -153,9 +148,8 @@ export default function Nav() {
                 Contact Engineer <Zap className="w-4 h-4 fill-white" />
               </Link>
             </div>
-          </motion.div>
+          </div>
         )}
-      </AnimatePresence>
 
       {searchLoaded && <SearchOverlay isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />}
     </header>

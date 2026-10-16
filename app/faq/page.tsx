@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { motion, AnimatePresence } from 'motion/react'
+import '@/src/lib/motion-setup'
 import { Plus, Minus, Zap, ShieldCheck, Truck, HelpCircle, ArrowRight } from 'lucide-react'
 import Nav from '@/src/components/Nav'
 import Footer from '@/src/components/Footer'

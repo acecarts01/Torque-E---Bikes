@@ -17,6 +17,7 @@ import RichText from '@/src/components/RichText'
 import RelatedGuides from '@/src/components/RelatedGuides'
 import type { FaqItem } from '@/src/lib/faq'
 import { motion, AnimatePresence } from 'motion/react'
+import '@/src/lib/motion-setup'
 
 type Product = (typeof PRODUCTS)[number]
 

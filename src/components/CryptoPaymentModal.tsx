@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
+import '@/src/lib/motion-setup'
 import { X, Copy, CheckCircle2, Zap, ShieldCheck, AlertCircle, Phone } from 'lucide-react'
 import { SHOP, SITE, CONTACT } from '@/src/config/site'
 import { formatCurrency, cn } from '@/src/lib/utils'

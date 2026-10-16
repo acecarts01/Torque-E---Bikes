@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { motion } from 'motion/react'
+import '@/src/lib/motion-setup'
 import Link from 'next/link'
 import BlogCardImage from '@/src/components/BlogCardImage'
 import { Calendar, Clock, ArrowRight, Zap } from 'lucide-react'

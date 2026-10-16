@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { motion } from 'motion/react'
+import '@/src/lib/motion-setup'
 import Nav from '@/src/components/Nav'
 import Hero from '@/src/components/Hero'
 import Footer from '@/src/components/Footer'

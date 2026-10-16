@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { motion } from 'motion/react'
+import '@/src/lib/motion-setup'
 import Nav from '@/src/components/Nav'
 import Footer from '@/src/components/Footer'
 import CompareTool from '@/src/components/Compare'

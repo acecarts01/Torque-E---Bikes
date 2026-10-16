@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { motion } from 'motion/react'
+import '@/src/lib/motion-setup'
 import { SITE, CONTACT, CHAT, FORMS } from '@/src/config/site'
 import { MessageSquare, Phone, Mail, MapPin, ArrowRight, Clock, Send } from 'lucide-react'
 import Nav from '@/src/components/Nav'

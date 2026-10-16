@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { motion } from 'motion/react'
+import '@/src/lib/motion-setup'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { REVIEWS } from '@/src/config/site'

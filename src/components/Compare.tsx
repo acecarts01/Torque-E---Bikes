@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
+import '@/src/lib/motion-setup'
 import Image from 'next/image'
 import Link from 'next/link'
 import { X, Plus, Zap, Cpu, Maximize2, Trash2, ArrowRight } from 'lucide-react'

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
+import '@/src/lib/motion-setup'
 import { MapPin, Quote, ShieldCheck, Zap } from 'lucide-react'
 import { REVIEWS } from '@/src/config/site'
 import { cn } from '@/src/lib/utils'

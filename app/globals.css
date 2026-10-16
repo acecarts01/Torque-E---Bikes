@@ -93,6 +93,10 @@
   to   { transform: translateX(260%) skewX(-20deg); }
 }
 
+@keyframes announce-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes menu-in { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: none; } }
+.animate-announce { animation: announce-in 0.3s ease-out both; }
+.animate-menu-in { animation: menu-in 0.2s ease-out both; }
 .animate-float { animation: float-slow 6s ease-in-out infinite; }
 .animate-toast-in { animation: toast-in 0.45s cubic-bezier(0.16, 1, 0.3, 1) both; }
 
@@ -115,6 +119,6 @@
 .sheen:hover::after { animation: sheen 0.9s ease; }
 
 @media (prefers-reduced-motion: reduce) {
-  .animate-float, .animate-toast-in, .reveal, .sheen:hover::after { animation: none !important; }
+  .animate-float, .animate-toast-in, .animate-announce, .animate-menu-in, .reveal, .sheen:hover::after { animation: none !important; }
   html { scroll-behavior: auto; }
 }

@@ -7,6 +7,7 @@ import AnnouncementBar from '@/src/components/AnnouncementBar'
 import ProductCard from '@/src/components/ProductCard'
 import { Search, Zap, ArrowRight, Loader2, X } from 'lucide-react'
 import { motion, AnimatePresence } from 'motion/react'
+import '@/src/lib/motion-setup'
 
 export default function SearchPage() {
   const [query, setQuery] = useState('')

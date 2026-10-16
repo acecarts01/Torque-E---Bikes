@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { motion } from 'motion/react'
+import '@/src/lib/motion-setup'
 import { SITE, CONTACT, BRAND, FORMS } from '@/src/config/site'
 import { Package, Truck, ShieldCheck, Headphones, ArrowRight, Building2, Globe2, Zap } from 'lucide-react'
 import Nav from '@/src/components/Nav'
