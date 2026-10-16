@@ -11,6 +11,8 @@ const files = [
 Disallow: /thank-you-contact/
 Disallow: /thank-you-order/
 Disallow: /thank-you-wholesale/
+Disallow: /admin/
+Disallow: /checkout/
 Sitemap: https://${DOMAIN}/sitemap.xml
 
 Content-Signal: search=yes, ai-input=yes, ai-train=no

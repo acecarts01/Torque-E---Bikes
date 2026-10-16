@@ -7,8 +7,10 @@ import { ShoppingCart, Menu, X, Search, Zap, ArrowRight } from 'lucide-react'
 import { SITE, CATEGORIES } from '@/src/config/site'
 import { cn } from '@/src/lib/utils'
 import SearchOverlay from './SearchOverlay'
+import { useCart } from '@/src/lib/cart'
 
 export default function Nav() {
+  const cartCount = useCart().reduce((n, i) => n + i.qty, 0)
   const [isOpen, setIsOpen] = useState(false)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
@@ -95,10 +97,10 @@ export default function Nav() {
               <Search className="w-4 h-4 text-brand-gray hover:text-white transition-colors" />
             </button>
             <div className="h-4 w-[1px] bg-white/10 mx-2 hidden sm:block" />
-            <button className="relative p-2.5 hover:bg-brand-red rounded-full transition-all group">
+            <Link href="/checkout/" aria-label={`Cart, ${cartCount} items`} className="relative p-2.5 hover:bg-brand-red rounded-full transition-all group">
               <ShoppingCart className="w-4 h-4 text-white group-hover:scale-110 transition-transform" />
-              <span className="absolute top-1 right-1 bg-brand-red text-[#140800] text-[8px] font-black w-4 h-4 flex items-center justify-center rounded-full border-2 border-brand-dark group-hover:bg-white group-hover:text-brand-red transition-colors">0</span>
-            </button>
+              <span className="absolute top-1 right-1 bg-brand-red text-[#140800] text-[8px] font-black w-4 h-4 flex items-center justify-center rounded-full border-2 border-brand-dark group-hover:bg-white group-hover:text-brand-red transition-colors">{cartCount}</span>
+            </Link>
             <button onClick={() => setIsOpen(true)} className="lg:hidden p-2.5 bg-white/5 rounded-full ml-2">
               <Menu className="w-5 h-5" />
             </button>

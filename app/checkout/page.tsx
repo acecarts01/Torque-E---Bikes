@@ -1,183 +1,227 @@
 'use client'
 
-import React, { useState, useMemo } from 'react'
+import React, { useMemo, useState } from 'react'
+import Link from 'next/link'
 import Nav from '@/src/components/Nav'
 import Footer from '@/src/components/Footer'
 import AnnouncementBar from '@/src/components/AnnouncementBar'
-import CryptoPaymentModal from '@/src/components/CryptoPaymentModal'
+import SmartImage from '@/src/components/SmartImage'
 import { formatCurrency, cn } from '@/src/lib/utils'
-import { Zap, CreditCard, Landmark, Truck, Wallet, ShieldCheck } from 'lucide-react'
-import { SHOP } from '@/src/config/site'
+import { Zap, Landmark, Truck, Wallet, ShieldCheck, Minus, Plus, Trash2, CheckCircle2, ShoppingCart } from 'lucide-react'
+import { SHOP, PRODUCTS, CONTACT } from '@/src/config/site'
+import { useCart, setQty, removeFromCart, clearCart } from '@/src/lib/cart'
+
+const METHODS = [
+  { id: 'crypto', title: 'Pay with Crypto', note: `Save ${SHOP.cryptoDiscount}% automatically`, icon: Wallet, highlight: true },
+  { id: 'bank-transfer', title: 'Bank Transfer', note: 'EFT', icon: Landmark, highlight: false },
+  { id: 'payid', title: 'PayID / OSKO', note: 'Instant bank transfer', icon: Zap, highlight: false },
+]
+const STATES = ['QLD', 'NSW', 'VIC', 'ACT', 'TAS', 'SA', 'WA', 'NT']
+const field = 'w-full bg-[#1d2024] border border-white/10 rounded-sm px-4 py-3 text-sm text-white placeholder:text-gray-600 focus:border-[#ff6a1a] outline-none'
+const label = 'block text-[10px] font-black uppercase tracking-widest text-gray-500 mb-2'
 
 export default function CheckoutPage() {
-  const [isCryptoModalOpen, setIsCryptoModalOpen] = useState(false)
-  const subtotal = 1150.00 // Example: 2000W Kit
+  const cart = useCart()
+  const [method, setMethod] = useState('bank-transfer')
+  const [submitting, setSubmitting] = useState(false)
+  const [error, setError] = useState('')
+  const [done, setDone] = useState<{ ref: string; total: number } | null>(null)
+
+  const lines = useMemo(() => cart.flatMap(c => {
+    const p = PRODUCTS.find(x => x.slug === c.slug)
+    return p ? [{ product: p, qty: c.qty }] : []
+  }), [cart])
+
+  const subtotal = lines.reduce((s, l) => s + Number(l.product.price) * l.qty, 0)
   const isBelowMinOrder = subtotal < SHOP.minOrder
   const baseShipping = subtotal > SHOP.freeShippingThreshold ? 0 : SHOP.shippingFee
-  const shippingDiscount = subtotal >= SHOP.shippingDiscountThreshold ? (baseShipping * SHOP.shippingDiscountRate / 100) : 0
-  const shipping = baseShipping - shippingDiscount
-  const total = subtotal + shipping
+  const shipping = baseShipping - (subtotal >= SHOP.shippingDiscountThreshold ? baseShipping * SHOP.shippingDiscountRate / 100 : 0)
+  const cryptoDiscount = method === 'crypto' ? (subtotal + shipping) * SHOP.cryptoDiscount / 100 : 0
+  const total = subtotal + shipping - cryptoDiscount
 
-  const [orderRef] = useState(() => "TQR-" + Math.random().toString(36).substring(2, 11).toUpperCase())
+  async function submit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault()
+    if (submitting || isBelowMinOrder || !lines.length) return
+    setSubmitting(true)
+    setError('')
+    const f = new FormData(e.currentTarget)
+    const g = (k: string) => String(f.get(k) || '')
+    try {
+      const res = await fetch('/api/forms/order/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: g('name'), email: g('email'), phone: g('phone'), notes: g('notes'), website: g('website'),
+          paymentMethod: method,
+          address: { street: g('street'), suburb: g('suburb'), state: g('state'), postcode: g('postcode') },
+          items: lines.map(l => ({ slug: l.product.slug, qty: l.qty })),
+        }),
+      })
+      const data = await res.json().catch(() => ({}))
+      if (!res.ok || !data.success) throw new Error(data.message || 'Something went wrong. Please try again.')
+      clearCart()
+      setDone({ ref: data.orderReference, total: data.total })
+    } catch (err: any) {
+      setError(err.message || 'Something went wrong. Please try again.')
+    } finally {
+      setSubmitting(false)
+    }
+  }
 
   return (
     <div className="flex flex-col min-h-screen bg-[#16181b]">
       <AnnouncementBar />
       <Nav />
 
-      <main className="flex-grow pt-32 pb-24">
-        <div className="container mx-auto px-4 max-w-4xl">
-          {isBelowMinOrder && (
-            <div className="mb-8 p-4 bg-brand-red/10 border border-brand-red/20 rounded-sm flex items-center gap-3">
-              <Zap className="w-5 h-5 text-brand-red" />
-              <p className="text-[10px] font-black uppercase tracking-widest text-white">
-                Minimum order value of {formatCurrency(SHOP.minOrder)} AUD required to initialise build. 
-                <span className="text-brand-red ml-2 italic">Current: {formatCurrency(subtotal)}</span>
+      <main id="main" className="flex-grow pt-32 pb-24">
+        <div className="container mx-auto px-4 max-w-5xl">
+          {done ? (
+            <div className="max-w-xl mx-auto text-center space-y-6 py-16">
+              <CheckCircle2 className="w-16 h-16 text-[#35c17a] mx-auto" />
+              <h1 className="text-3xl font-black italic uppercase tracking-tighter">Order received</h1>
+              <p className="text-gray-400 leading-relaxed">
+                Thanks. Your order reference is <b className="text-white">{done.ref}</b> for {formatCurrency(done.total)}.
+                We have emailed you a confirmation. <b className="text-white">Nothing is charged yet:</b> the Torque Team will email your payment
+                details shortly. Please use <b className="text-white">{done.ref}</b> as your payment reference.
               </p>
+              <p className="text-[10px] font-bold uppercase tracking-widest text-gray-500">
+                Can&apos;t see the email? Check spam, or contact {CONTACT.email} / {CONTACT.phone}.
+              </p>
+              <Link href="/shop/" className="inline-block bg-[#ff6a1a] text-[#140800] px-8 py-4 rounded-sm font-black uppercase tracking-widest text-xs">Keep shopping</Link>
             </div>
-          )}
+          ) : lines.length === 0 ? (
+            <div className="max-w-xl mx-auto text-center space-y-6 py-16">
+              <ShoppingCart className="w-14 h-14 text-gray-600 mx-auto" />
+              <h1 className="text-3xl font-black italic uppercase tracking-tighter">Your order is empty</h1>
+              <p className="text-gray-400">Pick a machine or conversion kit and it will appear here.</p>
+              <Link href="/shop/" className="inline-block bg-[#ff6a1a] text-[#140800] px-8 py-4 rounded-sm font-black uppercase tracking-widest text-xs">Browse the shop</Link>
+            </div>
+          ) : (
+            <form onSubmit={submit} className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+              {/* Left: summary */}
+              <div className="space-y-8">
+                <h1 className="text-3xl font-black italic uppercase tracking-tighter">Checkout</h1>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            {/* Left: Summary */}
-            <div className="space-y-8">
-              <div>
-                <h1 className="text-3xl font-black italic uppercase tracking-tighter mb-4">Checkout</h1>
-                <p className="text-[10px] font-bold uppercase tracking-widest text-gray-500">Order Reference: {orderRef}</p>
-              </div>
+                {isBelowMinOrder && (
+                  <div className="p-4 bg-brand-red/10 border border-brand-red/20 rounded-sm flex items-center gap-3">
+                    <Zap className="w-5 h-5 text-brand-red shrink-0" />
+                    <p className="text-[10px] font-black uppercase tracking-widest text-white">
+                      Minimum order value is {formatCurrency(SHOP.minOrder)} AUD. Current: {formatCurrency(subtotal)}
+                    </p>
+                  </div>
+                )}
 
-              <div className="bg-[#1d2024] p-6 border border-white/5 rounded-sm space-y-4">
-                <h3 className="text-sm font-black uppercase tracking-widest border-b border-white/5 pb-2 mb-4">Order Summary</h3>
-                <div className="flex justify-between items-center py-2">
-                  <span className="text-sm text-gray-400">Torque 2000W Combo Kit</span>
-                  <span className="font-bold">{formatCurrency(subtotal)}</span>
-                </div>
-                <div className="flex justify-between items-center py-2 border-t border-white/5">
-                  <span className="text-sm text-gray-400">Shipping</span>
-                  <div className="text-right">
-                    <span className={shipping === 0 ? "text-green-500 font-bold text-sm" : "text-sm"}>
-                      {baseShipping === 0 ? "FREE" : formatCurrency(baseShipping)}
-                    </span>
-                    {shippingDiscount > 0 && (
-                      <p className="text-[8px] text-green-500 font-black uppercase tracking-widest">-{SHOP.shippingDiscountRate}% Bulk Discount Applied</p>
-                    )}
+                <div className="bg-[#1d2024] p-6 border border-white/5 rounded-sm space-y-4">
+                  <h2 className="text-sm font-black uppercase tracking-widest border-b border-white/5 pb-2">Order Summary</h2>
+                  {lines.map(({ product, qty }) => (
+                    <div key={product.slug} className="flex items-center gap-4 py-2 border-b border-white/5 last:border-0">
+                      <div className="relative w-16 h-16 bg-white rounded-sm shrink-0 overflow-hidden">
+                        <SmartImage src={product.images[0]} alt={product.name} fill className="object-contain p-1" />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <p className="text-sm font-bold text-white leading-tight">{product.name}</p>
+                        <p className="text-xs text-gray-500 mt-1">{formatCurrency(Number(product.price))} each</p>
+                        <div className="flex items-center gap-2 mt-2">
+                          <button type="button" aria-label="Decrease quantity" onClick={() => setQty(product.slug, qty - 1)} className="p-1 bg-white/5 rounded-sm hover:bg-white/10"><Minus className="w-3 h-3" /></button>
+                          <span className="text-sm font-bold w-6 text-center">{qty}</span>
+                          <button type="button" aria-label="Increase quantity" onClick={() => setQty(product.slug, qty + 1)} className="p-1 bg-white/5 rounded-sm hover:bg-white/10"><Plus className="w-3 h-3" /></button>
+                          <button type="button" aria-label={`Remove ${product.name}`} onClick={() => removeFromCart(product.slug)} className="p-1 ml-2 text-gray-500 hover:text-brand-red"><Trash2 className="w-4 h-4" /></button>
+                        </div>
+                      </div>
+                      <span className="font-bold text-sm">{formatCurrency(Number(product.price) * qty)}</span>
+                    </div>
+                  ))}
+                  <div className="flex justify-between text-sm pt-2"><span className="text-gray-400">Subtotal</span><span>{formatCurrency(subtotal)}</span></div>
+                  <div className="flex justify-between text-sm"><span className="text-gray-400">Shipping</span><span className={shipping === 0 ? 'text-green-500 font-bold' : ''}>{shipping === 0 ? 'FREE' : formatCurrency(shipping)}</span></div>
+                  {cryptoDiscount > 0 && (
+                    <div className="flex justify-between text-sm text-[#ff6a1a]"><span>Crypto discount ({SHOP.cryptoDiscount}%)</span><span>-{formatCurrency(cryptoDiscount)}</span></div>
+                  )}
+                  <div className="flex justify-between items-center pt-4 border-t-2 border-[#ff6a1a]">
+                    <span className="font-black uppercase tracking-widest italic">Total Payable</span>
+                    <span className="text-2xl font-black italic tracking-tighter">{formatCurrency(total)}</span>
                   </div>
                 </div>
-                <div className="flex justify-between items-center py-4 border-t-2 border-[#ff6a1a] mt-4">
-                  <span className="font-black uppercase tracking-widest italic">Total Payable</span>
-                  <span className="text-2xl font-black italic tracking-tighter">{formatCurrency(total)}</span>
+
+                <div className="flex items-center gap-2 p-4 bg-white/5 rounded-sm border border-white/5">
+                  <Truck className="w-5 h-5 text-gray-500 shrink-0" />
+                  <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest leading-relaxed">
+                    Ships Australia-wide, usually within 24-48 hours of cleared payment.
+                  </p>
                 </div>
+
+                {lines.some(l => (l.product as any).compliance === 'off-road') && (
+                  <p className="text-xs text-[#ffd9a8] bg-[#2a1809] border border-[#6b3d14] rounded-sm p-4 leading-relaxed">
+                    <b>Off-road use only.</b> Machines and kits over 250W are for private property use and are not for public roads or paths. Check your state or territory rules.
+                  </p>
+                )}
               </div>
 
-              <div className="bg-[#ff6a1a]/5 p-6 border border-[#ff6a1a]/20 rounded-sm flex items-start gap-4">
-                <div className="bg-[#ff6a1a] p-2 rounded-sm shrink-0">
-                  <Zap className="w-5 h-5 text-white" />
+              {/* Right: details */}
+              <div className="space-y-8">
+                <h2 className="text-xl font-black italic uppercase tracking-tighter">Your Details</h2>
+
+                <input type="text" name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" className="hidden" />
+
+                <div className="space-y-4">
+                  <div><label className={label} htmlFor="name">Full name</label><input id="name" name="name" required autoComplete="name" className={field} /></div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div><label className={label} htmlFor="email">Email</label><input id="email" name="email" type="email" required autoComplete="email" className={field} /></div>
+                    <div><label className={label} htmlFor="phone">Mobile</label><input id="phone" name="phone" type="tel" required autoComplete="tel" className={field} /></div>
+                  </div>
+                  <div><label className={label} htmlFor="street">Delivery address</label><input id="street" name="street" required autoComplete="street-address" className={field} /></div>
+                  <div className="grid grid-cols-6 gap-4">
+                    <div className="col-span-3"><label className={label} htmlFor="suburb">Suburb</label><input id="suburb" name="suburb" required className={field} /></div>
+                    <div className="col-span-1"><label className={label} htmlFor="state">State</label>
+                      <select id="state" name="state" required defaultValue="" className={field}><option value="" disabled>-</option>{STATES.map(s => <option key={s} value={s}>{s}</option>)}</select>
+                    </div>
+                    <div className="col-span-2"><label className={label} htmlFor="postcode">Postcode</label><input id="postcode" name="postcode" required inputMode="numeric" pattern="\d{4}" maxLength={4} autoComplete="postal-code" className={field} /></div>
+                  </div>
+                  <div><label className={label} htmlFor="notes">Notes (optional)</label><textarea id="notes" name="notes" rows={3} className={field} /></div>
                 </div>
-                <div>
-                  <h4 className="text-xs font-black uppercase tracking-widest text-[#ff6a1a] mb-1">PROMO: Crypto Savings</h4>
-                  <p className="text-[10px] text-gray-400 font-medium leading-relaxed uppercase tracking-widest">
-                    Pay with Bitcoin or Tether to unlock an immediate {SHOP.cryptoDiscount}% discount on your entire order.
+
+                <div className="space-y-3">
+                  <h3 className={label}>Payment method</h3>
+                  {METHODS.map(m => (
+                    <button
+                      type="button" key={m.id} onClick={() => setMethod(m.id)} aria-pressed={method === m.id}
+                      className={cn('w-full flex items-center justify-between p-5 bg-[#1d2024] border-2 rounded-sm text-left transition-all',
+                        method === m.id ? 'border-[#ff6a1a]' : 'border-white/5 hover:border-white/20')}
+                    >
+                      <div className="flex items-center gap-4">
+                        <div className={cn('w-10 h-10 rounded-sm flex items-center justify-center', m.highlight ? 'bg-[#ff6a1a] text-[#140800]' : 'bg-white/5 text-white')}><m.icon className="w-5 h-5" /></div>
+                        <div>
+                          <p className="font-black italic uppercase tracking-tighter text-white">{m.title}</p>
+                          <p className={cn('text-[10px] font-bold uppercase tracking-widest', m.highlight ? 'text-[#ff6a1a]' : 'text-gray-500')}>{m.note}</p>
+                        </div>
+                      </div>
+                      {method === m.id && <CheckCircle2 className="w-5 h-5 text-[#ff6a1a]" />}
+                    </button>
+                  ))}
+                  <p className="text-[10px] text-gray-500 uppercase tracking-widest leading-relaxed">
+                    You pay nothing now. After you place the order we email the payment details for your chosen method, quoting your order reference.
+                  </p>
+                </div>
+
+                {error && <p role="alert" className="text-sm text-red-400 bg-red-500/10 border border-red-500/20 rounded-sm p-4">{error}</p>}
+
+                <button
+                  type="submit" disabled={submitting || isBelowMinOrder}
+                  className="w-full bg-[#ff6a1a] text-[#140800] py-5 rounded-sm font-black uppercase tracking-[0.2em] text-sm disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {submitting ? 'Placing order...' : `Place order - ${formatCurrency(total)}`}
+                </button>
+
+                <div className="flex items-center gap-3 text-gray-500">
+                  <ShieldCheck className="w-5 h-5 text-brand-red shrink-0" />
+                  <p className="text-[10px] font-bold uppercase tracking-widest leading-relaxed">
+                    We never ask for card details on this site. Your details are used only to process this order.
                   </p>
                 </div>
               </div>
-            </div>
-
-            {/* Right: Payment Methods */}
-            <div className="space-y-8">
-              <h3 className="text-xl font-black italic uppercase tracking-tighter">Select Payment Method</h3>
-              
-              <div className={cn("grid grid-cols-1 gap-4", isBelowMinOrder && "opacity-50 pointer-events-none")}>
-                {/* Crypto Option */}
-                <button 
-                  onClick={() => setIsCryptoModalOpen(true)}
-                  className="flex items-center justify-between p-6 bg-[#1d2024] border-2 border-[#ff6a1a]/50 hover:border-[#ff6a1a] transition-all rounded-sm group text-left"
-                >
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-[#ff6a1a] rounded-sm flex items-center justify-center text-[#140800]">
-                      <Wallet className="w-6 h-6" />
-                    </div>
-                    <div>
-                      <h4 className="font-black italic uppercase tracking-tighter text-white">Pay with Crypto</h4>
-                      <p className="text-[10px] font-bold text-[#ff6a1a] uppercase tracking-widest italic">Save {formatCurrency(total * (SHOP.cryptoDiscount / 100))} Automatically</p>
-                    </div>
-                  </div>
-                  <Zap className="w-5 h-5 text-[#ff6a1a] animate-pulse" />
-                </button>
-
-                {/* Bank Transfer Option */}
-                <button className="flex items-center justify-between p-6 bg-[#1d2024] border border-white/5 hover:border-white/20 transition-all rounded-sm group text-left opacity-80 hover:opacity-100">
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-white/5 rounded-sm flex items-center justify-center text-white">
-                      <Landmark className="w-6 h-6" />
-                    </div>
-                    <div>
-                      <h4 className="font-black italic uppercase tracking-tighter text-white">Bank Transfer</h4>
-                      <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">PayID / OSKO / EFT</p>
-                    </div>
-                  </div>
-                </button>
-
-                {/* PayID Option */}
-                <button className="flex items-center justify-between p-6 bg-[#1d2024] border border-white/5 hover:border-white/20 transition-all rounded-sm group text-left opacity-80 hover:opacity-100">
-                  <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 bg-white/5 rounded-sm flex items-center justify-center text-white">
-                      <Zap className="w-6 h-6 text-brand-red" />
-                    </div>
-                    <div>
-                      <h4 className="font-black italic uppercase tracking-tighter text-white">PayID / OSKO</h4>
-                      <p className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">Instant Bank Transfer</p>
-                    </div>
-                  </div>
-                </button>
-              </div>
-
-              <div className="flex items-center gap-2 p-4 bg-white/5 rounded-sm border border-white/5">
-                <Truck className="w-5 h-5 text-gray-500" />
-                <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest leading-relaxed">
-                  Fast Nationwide Dispatch: Ships within 24-48 hours from Brisbane Lab.
-                </p>
-              </div>
-
-              {/* Payment FAQ Section */}
-              <div className="pt-12 space-y-8">
-                <div className="flex items-center gap-3">
-                   <ShieldCheck className="w-5 h-5 text-brand-red" />
-                   <h3 className="text-xl font-black italic uppercase tracking-tighter">Payment Support FAQ</h3>
-                </div>
-
-                <div className="space-y-6">
-                  <div className="space-y-2">
-                    <h4 className="text-[10px] font-black uppercase tracking-widest text-white">How do I complete a Bank Transfer?</h4>
-                    <p className="text-[10px] text-brand-gray uppercase tracking-wider leading-loose">
-                      Select &quot;Bank Transfer&quot; as your payment method. After placing your order, you will receive our BSB and Account Number via email. Use your Order Reference ({orderRef}) as the description to ensure instant matching.
-                    </p>
-                  </div>
-
-                  <div className="space-y-2">
-                    <h4 className="text-[10px] font-black uppercase tracking-widest text-white">What reference do I use for PayID?</h4>
-                    <p className="text-[10px] text-brand-gray uppercase tracking-wider leading-loose">
-                      PayID transfers are instant. Please use the mobile number provided at the end of checkout and include your Order Reference ({orderRef}). This allows our team to confirm your machine for dispatch in real-time.
-                    </p>
-                  </div>
-
-                  <div className="space-y-2">
-                    <h4 className="text-[10px] font-black uppercase tracking-widest text-white">How are Crypto transfers verified?</h4>
-                    <p className="text-[10px] text-brand-gray uppercase tracking-wider leading-loose">
-                      Once you send BTC or USDT, the transaction is broadcast to the blockchain. We require 3 confirmations (approx. 10-30 mins) for the order to be marked as paid. We verify the transaction hash (TXID) against your Order Reference to finalize your build.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+            </form>
+          )}
         </div>
       </main>
-
-      <CryptoPaymentModal 
-        isOpen={isCryptoModalOpen}
-        onClose={() => setIsCryptoModalOpen(false)}
-        subtotal={total}
-        orderReference={orderRef}
-      />
 
       <Footer />
     </div>

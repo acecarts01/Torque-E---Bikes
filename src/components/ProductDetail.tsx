@@ -9,6 +9,8 @@ import { PRODUCTS, CATEGORIES, SHOP } from '@/src/config/site'
 import { formatCurrency, cn } from '@/src/lib/utils'
 import { Zap, ShieldAlert, Truck, ChevronRight, CheckCircle2, Phone, ShoppingCart, ArrowLeft, Plus, Minus, Wrench, RotateCcw } from 'lucide-react'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
+import { addToCart } from '@/src/lib/cart'
 import { getSeo } from '@/src/lib/seo'
 import PageFaq from '@/src/components/PageFaq'
 import RichText from '@/src/components/RichText'
@@ -60,6 +62,7 @@ const AccordionItem = ({ title, icon: Icon, children }: { title: string, icon: a
 export default function ProductDetail({ slug, copy }: ProductDetailProps) {
   const product = PRODUCTS.find(p => p.slug === slug)
   const [activeImage, setActiveImage] = useState(0)
+  const router = useRouter()
 
   if (!product) {
     notFound()
@@ -163,13 +166,14 @@ export default function ProductDetail({ slug, copy }: ProductDetailProps) {
 
           {/* Action */}
           <div className="space-y-4">
-            <Link 
-              href="/checkout/"
+            <button
+              type="button"
+              onClick={() => { addToCart(product.slug, 1); router.push('/checkout/') }}
               className="w-full bg-brand-red text-[#140800] py-6 rounded-2xl font-black uppercase tracking-[0.2em] text-sm flex items-center justify-center gap-3 hover:scale-[1.01] active:scale-[0.99] transition-all shadow-2xl shadow-brand-red/30"
             >
               <ShoppingCart className="w-5 h-5 fill-white" />
-              Initialise Order
-            </Link>
+              Add to Order &amp; Checkout
+            </button>
             
             <div className="grid grid-cols-2 gap-4">
               <a 

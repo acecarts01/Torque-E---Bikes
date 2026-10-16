@@ -41,9 +41,9 @@ export const SHOP = {
 
 export const FORMS = {
   provider: 'custom',
-  contactWebhook: '/api/forms/contact',
-  orderWebhook: '/api/forms/order',
-  wholesaleWebhook: '/api/forms/wholesale',
+  contactWebhook: '/api/forms/contact/',
+  orderWebhook: '/api/forms/order/',
+  wholesaleWebhook: '/api/forms/wholesale/',
 }
 
 export const CHAT = {

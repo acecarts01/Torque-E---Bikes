@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { motion } from 'motion/react'
-import { SITE, CONTACT, CHAT } from '@/src/config/site'
+import { SITE, CONTACT, CHAT, FORMS } from '@/src/config/site'
 import { MessageSquare, Phone, Mail, MapPin, ArrowRight, Clock, Send } from 'lucide-react'
 import Nav from '@/src/components/Nav'
 import Footer from '@/src/components/Footer'
@@ -11,21 +11,28 @@ import JsonLd from '@/src/components/JsonLd'
 export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = React.useState(false)
   const [isSuccess, setIsSuccess] = React.useState(false)
+  const [error, setError] = React.useState('')
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsSubmitting(true)
-    
-    // WebForge CORS method: FormData + Accept only
+    setError('')
+
     const form = e.currentTarget
     const formData = new FormData(form)
-    
+
     try {
-      // Simulate submission
-      await new Promise(resolve => setTimeout(resolve, 1500))
+      const res = await fetch(FORMS.contactWebhook, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(Object.fromEntries(formData.entries())),
+      })
+      const data = await res.json().catch(() => ({}))
+      if (!res.ok || !data.success) throw new Error(data.message || 'Something went wrong. Please try again.')
+      form.reset()
       setIsSuccess(true)
-    } catch (error) {
-      console.error('Submission failed', error)
+    } catch (err: any) {
+      setError(err.message || 'Something went wrong. Please try again.')
     } finally {
       setIsSubmitting(false)
     }
@@ -206,7 +213,10 @@ export default function ContactPage() {
                         ></textarea>
                       </div>
 
-                      <button 
+                      <input type="text" name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" className="hidden" />
+                      {error && <p role="alert" className="text-sm text-red-400 bg-red-500/10 border border-red-500/20 rounded-sm p-4">{error}</p>}
+
+                      <button
                         disabled={isSubmitting}
                         className="w-full bg-brand text-white p-5 font-black uppercase italic tracking-widest text-sm flex items-center justify-center gap-3 hover:bg-brand/90 transition-all disabled:opacity-50"
                       >
