@@ -4,70 +4,46 @@ import { PRODUCTS } from '@/src/config/products'
 import { brandSlugs } from '@/src/lib/hubs'
 import { getSeo } from '@/src/lib/seo'
 
+// Date the catalogue and prices were last changed. Update it when products or prices change; it is a real date, not "today".
+const CATALOGUE_UPDATED = '2026-10-16'
+
+const esc = (t: string) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+const url = (loc: string, lastmod?: string, images = '') =>
+  `
+  <url>
+    <loc>${loc}</loc>${lastmod ? `
+    <lastmod>${lastmod}</lastmod>` : ''}${images}
+  </url>`
+
 export async function GET() {
   const domain = `https://${SITE.domain}`
-  const lastmod = new Date().toISOString().split('T')[0]
 
-  const staticPages = [
-    '',
-    '/shop/',
-    '/about/',
-    '/faq/',
-    '/contact/',
-    '/wholesale/',
-    '/electric-bikes/',
-    '/electric-bikes/budget/',
-    '/brands/',
-    '/blog/',
-    '/tools/conversion-kit-finder/',
-    '/compare/',
-    '/terms/',
-    '/privacy/',
-    '/shipping-returns/'
-  ]
+  // Pages whose content follows the catalogue carry its update date; fixed pages carry no date rather than a made-up one.
+  const catalogueHubs = ['/', '/shop/', '/electric-bikes/', '/electric-bikes/budget/', '/brands/', '/compare/']
+  const fixedPages = ['/about/', '/faq/', '/contact/', '/wholesale/', '/blog/', '/tools/conversion-kit-finder/', '/terms/', '/privacy/', '/shipping-returns/']
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  ${staticPages.map(page => `
-  <url>
-    <loc>${domain}${page}${page.endsWith('/') || page === '' ? '' : '/'}</loc>
-    <lastmod>${lastmod}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>${page === '' ? '1.0' : '0.8'}</priority>
-  </url>`).join('')}
-  ${CATEGORIES.map(cat => `
-  <url>
-    <loc>${domain}/shop/${cat.slug}/</loc>
-    <lastmod>${lastmod}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>`).join('')}
-  ${brandSlugs().filter(b => getSeo(`/brands/${b}/`)).map(b => `
-  <url>
-    <loc>${domain}/brands/${b}/</loc>
-    <lastmod>${lastmod}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>`).join('')}
-  ${PRODUCTS.map(prod => `
-  <url>
-    <loc>${domain}/shop/${prod.category}/${prod.slug}/</loc>
-    <lastmod>${lastmod}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    ${prod.images.map(img => `
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${
+    catalogueHubs.map(p => url(domain + p, CATALOGUE_UPDATED)).join('')
+  }${
+    fixedPages.map(p => url(domain + p)).join('')
+  }${
+    CATEGORIES.map(cat => url(`${domain}/shop/${cat.slug}/`, CATALOGUE_UPDATED)).join('')
+  }${
+    brandSlugs().filter(b => getSeo(`/brands/${b}/`)).map(b => url(`${domain}/brands/${b}/`, CATALOGUE_UPDATED)).join('')
+  }${
+    PRODUCTS.map(prod => url(
+      `${domain}/shop/${prod.category}/${prod.slug}/`,
+      CATALOGUE_UPDATED,
+      prod.images.map(img => `
     <image:image>
       <image:loc>${domain}${img}</image:loc>
-      <image:title>${prod.name.replace(/&/g, '&amp;')}</image:title>
-    </image:image>`).join('')}
-  </url>`).join('')}
-  ${POSTS.map(post => `
-  <url>
-    <loc>${domain}/blog/${post.slug}/</loc>
-    <lastmod>${lastmod}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>`).join('')}
+      <image:title>${esc(prod.name)}</image:title>
+    </image:image>`).join('')
+    )).join('')
+  }${
+    POSTS.map(post => url(`${domain}/blog/${post.slug}/`, post.date)).join('')
+  }
 </urlset>`
 
   return new Response(sitemap, {
