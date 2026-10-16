@@ -48,6 +48,7 @@ export default function SearchPage() {
       <main className="flex-grow pt-32 pb-24">
         {/* Search Header */}
         <section className="container mx-auto px-4 mb-12">
+          <h1 className="sr-only">Search Torque E-Bikes</h1>
           <div className="relative">
             <Search className="absolute left-6 top-1/2 -translate-y-1/2 w-8 h-8 text-[#ff6a1a]" />
             <input

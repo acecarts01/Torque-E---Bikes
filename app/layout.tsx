@@ -2,14 +2,17 @@ import type { Metadata } from 'next'
 import React from 'react'
 import { SITE, CONTACT } from '@/src/config/site'
 import Providers from '@/src/components/Providers'
+import { getSeo } from '@/src/lib/seo'
 import './globals.css'
+
+const HOME = getSeo('/')
 
 export const metadata: Metadata = {
   title: {
-    default: `${SITE.name} | ${SITE.tagline}`,
+    default: HOME ? HOME.title : `${SITE.name} | ${SITE.tagline}`,
     template: `%s | ${SITE.name}`
   },
-  description: SITE.tagline,
+  description: HOME ? HOME.meta : SITE.tagline,
   metadataBase: new URL(`https://${SITE.domain}`),
   alternates: {
     canonical: '/',

@@ -94,7 +94,7 @@ export default function JsonLd({ type, data }: { type: string, data?: any }) {
   }
 
   if (!schema && data) {
-    schema = data
+    schema = { '@context': 'https://schema.org', '@type': type, ...data }
   }
 
   if (!schema) return null

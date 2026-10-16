@@ -12,7 +12,10 @@ import ProductCard from '@/src/components/ProductCard'
 import ReviewSlider from '@/src/components/ReviewSlider'
 import Link from 'next/link'
 import { ArrowRight, ShieldAlert, Cpu, Wrench, Package, Radio, Gauge } from 'lucide-react'
-import { CATEGORIES, PRODUCTS, BRAND, FAQ } from '@/src/config/site'
+import { CATEGORIES, PRODUCTS, BRAND } from '@/src/config/site'
+import PageFaq from '@/src/components/PageFaq'
+import { HOME_FAQ } from '@/src/lib/faq'
+import { PUBLISHED } from '@/src/lib/blog'
 import { cn } from '@/src/lib/utils'
 
 export default function Home() {
@@ -21,7 +24,6 @@ export default function Home() {
   return (
     <main className="flex-grow selection:bg-brand-red selection:text-[#140800]">
       <JsonLd type="Organization" />
-      <JsonLd type="FAQ" data={FAQ} />
       <AnnouncementBar />
       <Nav />
       <Hero />
@@ -124,6 +126,29 @@ export default function Home() {
       </section>
 
       <ReviewSlider />
+
+      {PUBLISHED.length > 0 && (
+        <section className="bg-brand-dark px-4 pb-16" aria-labelledby="home-guides">
+          <div className="container mx-auto max-w-5xl">
+            <h2 id="home-guides" className="text-3xl md:text-4xl font-black italic uppercase tracking-tighter text-white mb-8">Latest guides</h2>
+            <ul className="grid grid-cols-1 md:grid-cols-3 gap-4 list-none p-0 m-0">
+              {PUBLISHED.slice(0, 3).map(p => (
+                <li key={p.slug}>
+                  <Link href={p.url} className="block h-full rounded-2xl border border-white/10 bg-white/5 p-5 hover:border-brand-red transition-colors">
+                    <span className="text-[10px] font-black uppercase tracking-widest text-brand-red">{p.category}</span>
+                    <span className="mt-2 block font-bold text-white">{p.title}</span>
+                    <span className="mt-2 block text-sm text-brand-gray">{p.excerpt}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
+      <section className="bg-brand-dark px-4 pb-24">
+        <PageFaq items={HOME_FAQ} heading="Torque E-Bikes FAQs" />
+      </section>
 
       {/* Heritage Section - Compacted */}
       <section className="py-24 bg-brand-dark">

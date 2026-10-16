@@ -76,6 +76,15 @@ Crypto Discount: ${SHOP.cryptoDiscount}%
 ## Products
 ${CATEGORIES.map(c => `- [${c.name}](https://${DOMAIN}/shop/${c.slug}/): ${c.description}`).join('\n')}
 
+## Start here (priority pages)
+- [Electric bikes](https://${DOMAIN}/electric-bikes/): every e-bike by type
+- [Budget electric bikes](https://${DOMAIN}/electric-bikes/budget/): lowest-priced e-bikes
+- [Electric dirt bikes](https://${DOMAIN}/shop/electric-dirt-bikes/): off-road and private property use only
+- [Brands](https://${DOMAIN}/brands/): browse by brand
+- [E-bike laws in Australia](https://${DOMAIN}/blog/off-road-vs-street-legal-australia/): road legal or off-road only
+- [Conversion kit finder](https://${DOMAIN}/tools/conversion-kit-finder/): free tool
+- [Guides](https://${DOMAIN}/blog/): buying and maintenance guides
+
 ## Support
 - [Wholesale](https://${DOMAIN}/wholesale/): B2B and bulk ordering
 - [FAQ](https://${DOMAIN}/faq/): Common questions and policies

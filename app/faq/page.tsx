@@ -5,7 +5,10 @@ import { motion, AnimatePresence } from 'motion/react'
 import { Plus, Minus, Zap, ShieldCheck, Truck, HelpCircle, ArrowRight } from 'lucide-react'
 import Nav from '@/src/components/Nav'
 import Footer from '@/src/components/Footer'
-import { SITE, FAQ } from '@/src/config/site'
+import { SITE } from '@/src/config/site'
+import { FAQ_GROUPS } from '@/src/lib/faq'
+
+const FAQ = FAQ_GROUPS.flatMap(g => g.items.map(i => ({ question: i.q, answer: i.a })))
 import JsonLd from '@/src/components/JsonLd'
 import Link from 'next/link'
 
@@ -77,8 +80,13 @@ export default function FAQPage() {
         <section className="py-24 border-t border-white/5">
           <div className="container mx-auto px-4 max-w-4xl">
             <div className="space-y-4">
-              {FAQ.map((item, idx) => (
-                <AccordionItem key={idx} {...item} />
+              {FAQ_GROUPS.map((g) => (
+                <div key={g.group} className="mb-12">
+                  <h2 className="text-2xl md:text-3xl font-black italic uppercase tracking-tighter text-brand-red mb-4">{g.group}</h2>
+                  {g.items.map((item) => (
+                    <AccordionItem key={item.q} question={item.q} answer={item.a} />
+                  ))}
+                </div>
               ))}
             </div>
 

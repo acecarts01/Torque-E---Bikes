@@ -9,6 +9,10 @@ import { ProductCardSkeleton } from '@/src/components/Skeleton'
 import { PRODUCTS, CATEGORIES } from '@/src/config/site'
 import { ShieldAlert, LayoutGrid } from 'lucide-react'
 import JsonLd from '@/src/components/JsonLd'
+import { getSeo } from '@/src/lib/seo'
+import PageFaq from '@/src/components/PageFaq'
+import RelatedGuides from '@/src/components/RelatedGuides'
+import { getPageFaq } from '@/src/lib/faq'
 
 interface CategoryDetailProps {
   slug: string
@@ -69,7 +73,7 @@ export default function CategoryDetail({ slug }: CategoryDetailProps) {
            <div className="relative z-10">
              <p className="text-[10px] font-black uppercase tracking-[0.3em] text-brand-red mb-4">Category Hub</p>
              <h1 className="text-4xl md:text-6xl font-black italic uppercase tracking-tighter leading-none mb-6">
-               {category.name}
+               {getSeo(`/shop/${category.slug}/`)?.h1 || category.name}
              </h1>
              <p className="text-xl text-brand-gray font-medium uppercase tracking-wider max-w-xl">
                {category.description}
@@ -125,6 +129,9 @@ export default function CategoryDetail({ slug }: CategoryDetailProps) {
           )}
         </div>
       </div>
+
+      <RelatedGuides path={`/shop/${category.slug}/`} />
+      <PageFaq items={getPageFaq(`/shop/${category.slug}/`)} heading={`${category.name} FAQs`} />
     </div>
   )
 }

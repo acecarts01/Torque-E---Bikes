@@ -9,6 +9,10 @@ import { PRODUCTS, CATEGORIES, SHOP } from '@/src/config/site'
 import { formatCurrency, cn } from '@/src/lib/utils'
 import { Zap, ShieldAlert, Truck, ChevronRight, CheckCircle2, Phone, ShoppingCart, ArrowLeft, Plus, Minus, Wrench, RotateCcw } from 'lucide-react'
 import Link from 'next/link'
+import { getSeo } from '@/src/lib/seo'
+import PageFaq from '@/src/components/PageFaq'
+import RelatedGuides from '@/src/components/RelatedGuides'
+import { getPageFaq } from '@/src/lib/faq'
 import { motion, AnimatePresence } from 'motion/react'
 
 interface ProductDetailProps {
@@ -90,7 +94,7 @@ export default function ProductDetail({ slug }: ProductDetailProps) {
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="space-y-6"
         >
-          <ProductZoom src={product.images[activeImage]} alt={product.name} />
+          <ProductZoom src={product.images[activeImage]} alt={activeImage === 0 ? (getSeo(`/shop/${product.category}/${product.slug}/`)?.alt || product.name) : `${product.name} - view ${activeImage + 1}`} />
           
           <div className="grid grid-cols-4 gap-4">
             {product.images.map((img, i) => (
@@ -121,7 +125,7 @@ export default function ProductDetail({ slug }: ProductDetailProps) {
               <span className="text-[10px] font-black uppercase tracking-[0.4em] text-brand-red">Inventory Confirmed</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-black italic uppercase tracking-tighter leading-[0.9] text-white">
-              {product.name}
+              {getSeo(`/shop/${product.category}/${product.slug}/`)?.h1 || product.name}
             </h1>
             <p className="text-xl text-brand-gray font-medium uppercase tracking-wider leading-relaxed">
               {product.shortDescription}
@@ -213,6 +217,9 @@ export default function ProductDetail({ slug }: ProductDetailProps) {
            {product.description}
          </p>
       </div>
+
+      <RelatedGuides path={`/shop/${product.category}/${product.slug}/`} />
+      <PageFaq items={getPageFaq(`/shop/${product.category}/${product.slug}/`)} heading={`${product.name} FAQs`} />
     </div>
   )
 }

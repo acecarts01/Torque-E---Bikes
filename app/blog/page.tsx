@@ -3,7 +3,7 @@
 import React from 'react'
 import { motion } from 'motion/react'
 import Link from 'next/link'
-import Image from 'next/image'
+import BlogCardImage from '@/src/components/BlogCardImage'
 import { Calendar, Clock, ArrowRight, Zap } from 'lucide-react'
 import { POSTS, SITE } from '@/src/config/site'
 import Nav from '@/src/components/Nav'
@@ -102,13 +102,7 @@ export default function BlogPage() {
                       className="group flex flex-col bg-[#16181b] rounded-3xl overflow-hidden border border-white/5 hover:border-brand-red/30 transition-all duration-500"
                     >
                       <Link href={`/blog/${post.slug}/`} className="relative aspect-[16/10] overflow-hidden">
-                        <Image 
-                          src={`/images/${post.image}`}
-                          alt={post.title}
-                          fill
-                          className="object-cover group-hover:scale-110 transition-transform duration-700"
-                          referrerPolicy="no-referrer"
-                        />
+                        <BlogCardImage src={`/images/${post.image}`} alt={post.title} />
                         <div className="absolute top-4 left-4">
                           <span className="px-3 py-1 bg-brand-red text-[#140800] text-[8px] font-black uppercase tracking-[0.2em] rounded-full">
                             {post.category}

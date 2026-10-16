@@ -1,5 +1,6 @@
 // src/config/site.js
 import { CATALOG_CATEGORIES, CATALOG_PRODUCTS } from './catalog.generated.js'
+import { BLOG_META } from '../content/blog/meta.js'
 export const SITE = {
   name: 'Torque E-Bikes',
   tagline: 'Australia’s Home of High-Torque E-Motos, Performance Conversion Kits & Custom Upgrades',
@@ -80,44 +81,11 @@ export const CATEGORIES = CATALOG_CATEGORIES
 
 export const PRODUCTS = CATALOG_PRODUCTS
 
-export const POSTS = [
-  {
-    slug: 'off-road-vs-street-legal-australia',
-    title: 'Off-Road vs Street Legal: Understanding Australian E-Bike Laws',
-    excerpt: 'Navigate the complex landscape of Australian road rules for electric bikes and e-motos.',
-    category: 'Regulatory News',
-    date: '2024-05-15',
-    readTime: '6 min',
-    image: 'blog-laws.webp'
-  },
-  {
-    slug: 'diy-2000w-conversion-guide',
-    title: 'DIY 2000W Conversion Guide: Step-by-Step for Australian MTBs',
-    excerpt: 'Learn how to lace your motor, mount the 52V battery, and wire your torque arms for a rock-solid build.',
-    category: 'Conversion Guides',
-    date: '2024-08-20',
-    readTime: '12 min',
-    image: 'blog-diy-guide.webp'
-  },
-  {
-    slug: 'electric-moto-maintenance-lithium-safety',
-    title: 'Electric Moto Maintenance: Lithium Battery Health & Winter Storage',
-    excerpt: 'Max out your battery cycle life with proper charging protocols and dangerous goods safe storage.',
-    category: 'Battery Maintenance',
-    date: '2024-09-10',
-    readTime: '8 min',
-    image: 'blog-maintenance.webp'
-  },
-  {
-    slug: 'chain-alignment-high-torque-motors',
-    title: 'Chain Alignment & Tensioning for High-Torque Mid-Drive Motors',
-    excerpt: 'Prevent snapped chains and premature wear on your 3000W+ builds with these pro alignment tips.',
-    category: 'Battery Maintenance',
-    date: '2024-10-05',
-    readTime: '7 min',
-    image: 'blog-chain.webp'
-  }
-]
+// Published posts (generated from the keyword plan; see src/content/blog and src/lib/blog.ts).
+export const POSTS = BLOG_META
+  .filter(p => p.kind !== 'tool' && new Date(p.date + 'T00:00:00Z') <= new Date())
+  .sort((a, b) => (a.date < b.date ? 1 : -1))
+  .map(p => ({ slug: p.slug, title: p.title, excerpt: p.excerpt, category: p.category, date: p.date, readTime: p.readTime, image: p.image.file }))
 
 export const PAGES = {
   about: true,

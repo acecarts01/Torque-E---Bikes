@@ -1,5 +1,7 @@
 // app/api/sitemap.xml/route.ts
 import { PRODUCTS, CATEGORIES, POSTS, SITE } from '@/src/config/site'
+import { brandSlugs } from '@/src/lib/hubs'
+import { getSeo } from '@/src/lib/seo'
 
 export async function GET() {
   const domain = `https://${SITE.domain}`
@@ -33,6 +35,13 @@ export async function GET() {
     <lastmod>${lastmod}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>`).join('')}
+  ${brandSlugs().filter(b => getSeo(`/brands/${b}/`)).map(b => `
+  <url>
+    <loc>${domain}/brands/${b}/</loc>
+    <lastmod>${lastmod}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>`).join('')}
   ${PRODUCTS.map(prod => `
   <url>
