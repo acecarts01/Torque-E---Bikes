@@ -126,6 +126,7 @@ export default function ShopPage() {
                   ))}
                 </div>
               ) : filteredProducts.length > 0 ? (
+                <>
                 <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
                   {filteredProducts.slice(0, visible).map(product => (
                     <ProductCard key={product.slug} product={product} />
@@ -141,6 +142,7 @@ export default function ShopPage() {
                     </button>
                   </div>
                 )}
+                </>
               ) : (
                 <div className="py-24 text-center space-y-6 bg-[#0e0f11] rounded-sm border border-dashed border-white/10">
                   <ShieldAlert className="w-16 h-16 text-gray-700 mx-auto" />
