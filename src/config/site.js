@@ -181,4 +181,4 @@ export const REPLY = {
 
 // GST. mode 'exclusive': 10% is added on top of the goods + shipping total (shown as its own line).
 // mode 'inclusive': listed prices already contain GST, and checkout shows the GST portion inside the total.
-export const GST = { rate: 10, mode: 'exclusive' }
+export const GST = { rate: 10, mode: 'inclusive' }
