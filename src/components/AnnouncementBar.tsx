@@ -26,7 +26,7 @@ export default function AnnouncementBar() {
   return (
     <div className="bg-[#ff6a1a] text-[#140800] py-2 overflow-hidden h-9">
       <div className="container mx-auto px-4">
-        <AnimatePresence mode="wait">
+        <AnimatePresence mode="wait" initial={false}>
           <motion.div
             key={index}
             initial={{ opacity: 0, y: 10 }}
