@@ -11,7 +11,7 @@ export const SITE = {
   primaryColor: '#ff6a1a', // Hyper Red
   accentColor: '#16181b', // Matte Carbon
   gscVerification: 'pending',
-  indexNowKey: 'pending',
+  indexNowKey: '3d25546c539db77eb90afb071f5a39b5',
   cartKey: 'torque-cart',
 }
 
