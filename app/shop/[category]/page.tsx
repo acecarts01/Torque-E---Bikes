@@ -1,6 +1,7 @@
 import React from 'react'
 import { CATEGORIES } from '@/src/config/site'
 import CategoryDetail from '@/src/components/CategoryDetail'
+import CATEGORY_COPY from '@/src/config/category-copy.generated.json'
 import Nav from '@/src/components/Nav'
 import Footer from '@/src/components/Footer'
 import AnnouncementBar from '@/src/components/AnnouncementBar'
@@ -44,7 +45,7 @@ export default async function Page({ params }: { params: Promise<{ category: str
             { name: category?.name || 'Category', item: `/shop/${slug}/` }
           ]} 
         />
-        <CategoryDetail slug={slug} />
+        <CategoryDetail slug={slug} intro={(CATEGORY_COPY as Record<string, string[]>)[slug]} />
       </main>
       <Footer />
     </div>

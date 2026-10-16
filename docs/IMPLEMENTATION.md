@@ -18,3 +18,13 @@ Posts go live on their planned date: the site only publishes posts dated on or b
 
 ## Regenerating from new keyword exports
 The generator scripts that produce the `*.generated.json` and `src/content/blog` files are not in the repo. Keep the Semrush exports and re-run the keyword-engine pipeline, then replace those files.
+
+## Word-count standards (checked at build time of the content)
+| Page type | Standard | Result |
+|---|---|---|
+| Blog posts, standard (1 primary + 5 supporting keywords) | 1,200 to 2,000 words (keyword-engine table) | every post 1,250 or more |
+| Pillar posts (laws, best e-bikes, conversion kits, how to choose) | 3,000 to 5,000 words | each 3,100 or more |
+| Product descriptions | at least 200 words, unique, built from catalogue data only | 212 to 312 words, no pair above 0.55 shingle similarity |
+| Category intros | 100 to 150 words | 115 to 148 words |
+| Blog and product FAQ answers | 40 to 65 words | all pass |
+Blog counts are body text only (intro, sections, lists), excluding FAQs, the hook and navigation.

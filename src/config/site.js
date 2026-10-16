@@ -83,7 +83,7 @@ export const PRODUCTS = CATALOG_PRODUCTS
 
 // Published posts (generated from the keyword plan; see src/content/blog and src/lib/blog.ts).
 export const POSTS = BLOG_META
-  .filter(p => p.kind !== 'tool' && new Date(p.date + 'T00:00:00Z') <= new Date())
+  .filter(p => p.kind !== 'tool' && (process.env.PUBLISH_ALL === '1' || new Date(p.date + 'T00:00:00Z') <= new Date()))
   .sort((a, b) => (a.date < b.date ? 1 : -1))
   .map(p => ({ slug: p.slug, title: p.title, excerpt: p.excerpt, category: p.category, date: p.date, readTime: p.readTime, image: p.image.file }))
 

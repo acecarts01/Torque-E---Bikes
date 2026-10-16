@@ -1,6 +1,7 @@
 import React from 'react'
 import { PRODUCTS } from '@/src/config/site'
 import ProductDetail from '@/src/components/ProductDetail'
+import PRODUCT_COPY from '@/src/config/product-copy.generated.json'
 import Nav from '@/src/components/Nav'
 import Footer from '@/src/components/Footer'
 import AnnouncementBar from '@/src/components/AnnouncementBar'
@@ -46,7 +47,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
             { name: product?.name || 'Product', item: `/shop/${product?.category}/${slug}/` }
           ]} 
         />
-        <ProductDetail slug={slug} />
+        <ProductDetail slug={slug} copy={(PRODUCT_COPY as Record<string, string[]>)[slug]} />
       </main>
       <Footer />
     </div>

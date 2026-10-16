@@ -11,12 +11,14 @@ import { Zap, ShieldAlert, Truck, ChevronRight, CheckCircle2, Phone, ShoppingCar
 import Link from 'next/link'
 import { getSeo } from '@/src/lib/seo'
 import PageFaq from '@/src/components/PageFaq'
+import RichText from '@/src/components/RichText'
 import RelatedGuides from '@/src/components/RelatedGuides'
 import { getPageFaq } from '@/src/lib/faq'
 import { motion, AnimatePresence } from 'motion/react'
 
 interface ProductDetailProps {
   slug: string
+  copy?: string[]
 }
 
 const AccordionItem = ({ title, icon: Icon, children }: { title: string, icon: any, children: React.ReactNode }) => {
@@ -55,7 +57,7 @@ const AccordionItem = ({ title, icon: Icon, children }: { title: string, icon: a
   )
 }
 
-export default function ProductDetail({ slug }: ProductDetailProps) {
+export default function ProductDetail({ slug, copy }: ProductDetailProps) {
   const product = PRODUCTS.find(p => p.slug === slug)
   const [activeImage, setActiveImage] = useState(0)
 
@@ -210,12 +212,18 @@ export default function ProductDetail({ slug }: ProductDetailProps) {
       {/* Description */}
       <div className="mt-32 pt-20 border-t border-white/5 max-w-4xl mx-auto space-y-10 text-center">
          <div className="space-y-4">
-           <span className="text-[10px] font-black uppercase tracking-[0.5em] text-brand-red">Technical Brief</span>
-           <h2 className="text-4xl md:text-6xl font-black italic uppercase tracking-tighter text-white">CORE SPECIFICATIONS.</h2>
+           <span className="text-[10px] font-black uppercase tracking-[0.5em] text-brand-red">Product overview</span>
+           <h2 className="text-3xl md:text-5xl font-black italic uppercase tracking-tighter text-white">About the {product.name}</h2>
          </div>
-         <p className="text-xl md:text-2xl text-brand-gray font-medium leading-relaxed uppercase tracking-wider">
-           {product.description}
-         </p>
+         {copy && copy.length > 0 ? (
+           <div className="space-y-5 text-left text-lg text-brand-gray leading-relaxed">
+             {copy.map((t, i) => <p key={i}><RichText text={t} /></p>)}
+           </div>
+         ) : (
+           <p className="text-xl md:text-2xl text-brand-gray font-medium leading-relaxed uppercase tracking-wider">
+             {product.description}
+           </p>
+         )}
       </div>
 
       <RelatedGuides path={`/shop/${product.category}/${product.slug}/`} />

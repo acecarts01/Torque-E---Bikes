@@ -11,14 +11,16 @@ import { ShieldAlert, LayoutGrid } from 'lucide-react'
 import JsonLd from '@/src/components/JsonLd'
 import { getSeo } from '@/src/lib/seo'
 import PageFaq from '@/src/components/PageFaq'
+import RichText from '@/src/components/RichText'
 import RelatedGuides from '@/src/components/RelatedGuides'
 import { getPageFaq } from '@/src/lib/faq'
 
 interface CategoryDetailProps {
   slug: string
+  intro?: string[]
 }
 
-export default function CategoryDetail({ slug }: CategoryDetailProps) {
+export default function CategoryDetail({ slug, intro }: CategoryDetailProps) {
   const category = CATEGORIES.find(c => c.slug === slug)
 
   if (!category) {
@@ -80,6 +82,11 @@ export default function CategoryDetail({ slug }: CategoryDetailProps) {
              </p>
            </div>
         </div>
+        {intro && intro.length > 0 && (
+          <div className="mt-8 max-w-3xl space-y-4 text-brand-gray leading-relaxed">
+            {intro.map((t, i) => <p key={i}><RichText text={t} /></p>)}
+          </div>
+        )}
       </section>
 
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 items-start">

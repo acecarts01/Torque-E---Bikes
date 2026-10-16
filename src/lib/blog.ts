@@ -24,7 +24,7 @@ const ALL = BLOG_META as unknown as BlogMeta[]
 export const TOOL_PAGES: BlogMeta[] = ALL.filter(p => p.kind === 'tool')
 
 export const PUBLISHED: BlogMeta[] = ALL.filter(p => p.kind !== 'tool')
-  .filter(p => new Date(p.date + 'T00:00:00Z') <= new Date())
+  .filter(p => process.env.PUBLISH_ALL === '1' || new Date(p.date + 'T00:00:00Z') <= new Date())
   .sort((a, b) => (a.date < b.date ? 1 : -1))
 
 const PUBLISHED_URLS = new Set(PUBLISHED.map(p => p.url))
