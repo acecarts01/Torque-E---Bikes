@@ -1,12 +1,7 @@
 import data from '@/src/config/wellknown.generated.json'
 
-export const dynamic = 'force-static'
-export function generateStaticParams() {
-  return Object.keys(data).map(name => ({ name }))
-}
-
-export async function GET(_req: Request, ctx: { params: Promise<{ name: string }> }) {
-  const { name } = await ctx.params
+// Serves one extensionless /.well-known file with a JSON content type (Vercel would send static files as octet-stream).
+export function wellKnown(name: string) {
   const body = (data as Record<string, string>)[name]
   if (!body) return new Response('Not found', { status: 404 })
   const type = name === 'api-catalog' ? 'application/linkset+json' : 'application/json'
