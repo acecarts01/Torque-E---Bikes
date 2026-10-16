@@ -19,14 +19,14 @@ import { PUBLISHED } from '@/src/lib/blog'
 import { cn } from '@/src/lib/utils'
 
 // The server page (app/page.tsx) chooses the few products and FAQ items this page needs, so the browser never downloads the full catalogue.
-export default function HomeClient({ featuredProducts, heroProduct, homeFaq }: { featuredProducts: any[]; heroProduct: any; homeFaq: FaqItem[] }) {
+export default function HomeClient({ featuredProducts, homeFaq }: { featuredProducts: any[]; homeFaq: FaqItem[] }) {
 
   return (
     <main className="flex-grow selection:bg-brand-red selection:text-[#140800]">
       <JsonLd type="Organization" />
       <AnnouncementBar />
       <Nav />
-      <Hero featuredProduct={heroProduct} />
+      <Hero />
 
       {/* Engineering Stats */}
       <section className="bg-brand-dark py-16 relative overflow-hidden border-b border-white/5">

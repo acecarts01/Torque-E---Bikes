@@ -4,6 +4,5 @@ import { HOME_FAQ } from '@/src/lib/faq'
 
 export default function Home() {
   const featuredProducts = PRODUCTS.filter(p => p.featured)
-  const heroProduct = featuredProducts[0] || PRODUCTS[0]
-  return <HomeClient featuredProducts={featuredProducts} heroProduct={heroProduct} homeFaq={HOME_FAQ} />
+  return <HomeClient featuredProducts={featuredProducts} homeFaq={HOME_FAQ} />
 }

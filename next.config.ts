@@ -1,3 +1,5 @@
+import brandRedirects from './src/config/brand-redirects.generated.json'
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   trailingSlash: true,
@@ -10,6 +12,10 @@ const nextConfig = {
       { protocol: 'https', hostname: 'torquee-bikesaustralia.com.au', port: '', pathname: '/**' }
     ],
     deviceSizes: [390, 640, 750, 828, 1080, 1200, 1920],
+  },
+  // Thin brand pages were merged: send their old URLs to the product, category or shop (permanent).
+  async redirects() {
+    return (brandRedirects as { source: string; destination: string }[]).map(r => ({ source: r.source, destination: r.destination, permanent: true }))
   },
   async rewrites() {
     return [

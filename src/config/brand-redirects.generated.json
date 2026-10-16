@@ -1,0 +1,154 @@
+[
+ {
+  "source": "/brands/ace",
+  "destination": "/shop/kids-and-youth-e-bikes/ace-s-19-youth-electric-bike/"
+ },
+ {
+  "source": "/brands/altis",
+  "destination": "/shop/electric-dirt-bikes/altis-sigma/"
+ },
+ {
+  "source": "/brands/amflow",
+  "destination": "/shop/electric-mountain-bikes/"
+ },
+ {
+  "source": "/brands/arctic",
+  "destination": "/shop/electric-dirt-bikes/arctic-leopard-xe-pro/"
+ },
+ {
+  "source": "/brands/azonic",
+  "destination": "/shop/kids-electric-dirt-and-balance-bikes/"
+ },
+ {
+  "source": "/brands/blinder",
+  "destination": "/shop/lights-and-horns/blinder-1300-front-bike-light/"
+ },
+ {
+  "source": "/brands/bolzzen",
+  "destination": "/shop/fat-tyre-and-scrambler-e-bikes/"
+ },
+ {
+  "source": "/brands/bonnell",
+  "destination": "/shop/electric-dirt-bikes/"
+ },
+ {
+  "source": "/brands/dhz",
+  "destination": "/shop/kids-electric-dirt-and-balance-bikes/"
+ },
+ {
+  "source": "/brands/dyu",
+  "destination": "/shop/folding-e-bikes/"
+ },
+ {
+  "source": "/brands/e-move-bikes",
+  "destination": "/shop/phone-mounts-mirrors-and-audio/"
+ },
+ {
+  "source": "/brands/e-ride-pro",
+  "destination": "/shop/electric-dirt-bikes/"
+ },
+ {
+  "source": "/brands/ebmx",
+  "destination": "/shop/batteries-chargers-and-electronics/"
+ },
+ {
+  "source": "/brands/electro-and-co",
+  "destination": "/shop/electric-dirt-bikes/"
+ },
+ {
+  "source": "/brands/et-cycle",
+  "destination": "/shop/folding-e-bikes/"
+ },
+ {
+  "source": "/brands/eunorau",
+  "destination": "/shop/cargo-bikes-and-e-trikes/"
+ },
+ {
+  "source": "/brands/gobike",
+  "destination": "/shop/kids-electric-dirt-and-balance-bikes/"
+ },
+ {
+  "source": "/brands/kona",
+  "destination": "/shop/commuter-and-urban-e-bikes/"
+ },
+ {
+  "source": "/brands/ktm",
+  "destination": "/shop/electric-dirt-bikes/"
+ },
+ {
+  "source": "/brands/lagads",
+  "destination": "/shop/commuter-and-urban-e-bikes/lagads-jaguar-ebike-dual-suspension/"
+ },
+ {
+  "source": "/brands/lpr",
+  "destination": "/shop/kids-electric-dirt-and-balance-bikes/"
+ },
+ {
+  "source": "/brands/marin",
+  "destination": "/shop/electric-mountain-bikes/"
+ },
+ {
+  "source": "/brands/mondraker",
+  "destination": "/shop/electric-mountain-bikes/mondraker-crafty-carbon/"
+ },
+ {
+  "source": "/brands/polygon",
+  "destination": "/shop/electric-mountain-bikes/"
+ },
+ {
+  "source": "/brands/razor",
+  "destination": "/shop/kids-electric-dirt-and-balance-bikes/"
+ },
+ {
+  "source": "/brands/rfn",
+  "destination": "/shop/electric-dirt-bikes/rfn-warrior-pro/"
+ },
+ {
+  "source": "/brands/santa-cruz",
+  "destination": "/shop/electric-mountain-bikes/"
+ },
+ {
+  "source": "/brands/segway",
+  "destination": "/shop/electric-dirt-bikes/"
+ },
+ {
+  "source": "/brands/sherco",
+  "destination": "/shop/kids-electric-dirt-and-balance-bikes/sherco-eb12-kids-electric-balance-bike/"
+ },
+ {
+  "source": "/brands/shokz",
+  "destination": "/shop/phone-mounts-mirrors-and-audio/"
+ },
+ {
+  "source": "/brands/stark-future",
+  "destination": "/shop/electric-dirt-bikes/"
+ },
+ {
+  "source": "/brands/strike",
+  "destination": "/shop/electric-dirt-bikes/"
+ },
+ {
+  "source": "/brands/sunmono",
+  "destination": "/shop/cargo-bikes-and-e-trikes/"
+ },
+ {
+  "source": "/brands/tebco",
+  "destination": "/shop/cargo-bikes-and-e-trikes/tebco-transporter/"
+ },
+ {
+  "source": "/brands/thule",
+  "destination": "/shop/racks-bags-and-trailers/thule-euroway-g2-2-bike-towbar-carrier/"
+ },
+ {
+  "source": "/brands/velectrix",
+  "destination": "/shop/commuter-and-urban-e-bikes/"
+ },
+ {
+  "source": "/brands/vyron",
+  "destination": "/shop/cargo-bikes-and-e-trikes/vyron-hauler-cargo/"
+ },
+ {
+  "source": "/brands/yozma",
+  "destination": "/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/"
+ }
+]

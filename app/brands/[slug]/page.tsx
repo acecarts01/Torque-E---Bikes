@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
   const brand = brandName(slug)
-  if (!brand || !getSeo(`/brands/${slug}/`)) return notFound()
+  if (!brand || !brandSlugs().includes(slug) || !getSeo(`/brands/${slug}/`)) return notFound()
   const products = brandProducts(brand)
   const cats = [...new Set(products.map(p => p.category))].map(c => CATEGORIES.find(x => x.slug === c)).filter(Boolean) as typeof CATEGORIES
   const offroad = products.some(p => p.compliance === 'off-road')

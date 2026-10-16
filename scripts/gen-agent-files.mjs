@@ -2,10 +2,33 @@ import fs from 'fs';
 import path from 'path';
 import { SITE, CONTACT, SHOP, BRAND, CATEGORIES, PAGES } from '../src/config/site.js';
 import { PRODUCTS } from '../src/config/products.js';
+import { MIN_BRAND_PRODUCTS, KEEP_BRANDS } from '../src/config/brand-rules.js';
 
 const DOMAIN = SITE.domain;
 
+// Thin brand pages (too few products) redirect to the product, its category, or the shop.
+const slugifyBrand = s => s.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+// Brand pages that existed and were merged (kept in a plain file so this does not depend on SEO data that was removed with them)
+const mergedBrandPages = JSON.parse(fs.readFileSync('src/config/merged-brand-pages.json', 'utf8'));
+const brandGroups = {};
+PRODUCTS.filter(p => p.brand && p.brand !== 'TBC').forEach(p => { (brandGroups[slugifyBrand(p.brand)] ||= []).push(p); });
+const brandRedirects = Object.keys(brandGroups)
+  .filter(s => brandGroups[s].length < MIN_BRAND_PRODUCTS && !KEEP_BRANDS.includes(s) && mergedBrandPages.includes(s))
+  .sort()
+  .map(s => {
+    const items = brandGroups[s];
+        const tally = {}; items.forEach(p => { tally[p.category] = (tally[p.category] || 0) + 1; });
+    const topCat = Object.keys(tally).sort((x, y) => tally[y] - tally[x])[0];
+    const destination = items.length === 1 ? '/shop/' + items[0].category + '/' + items[0].slug + '/' : '/shop/' + topCat + '/';
+    // no trailing slash on the source: the site uses trailingSlash, and Next matches both forms from the slashless pattern
+    return { source: '/brands/' + s, destination };
+  });
+
 const files = [
+  {
+    path: 'src/config/brand-redirects.generated.json',
+    content: JSON.stringify(brandRedirects, null, 1)
+  },
   {
     path: 'src/config/price-range.generated.json',
     content: JSON.stringify({ low: Math.min(...PRODUCTS.map(p => p.price)), high: Math.max(...PRODUCTS.map(p => p.price)) })
