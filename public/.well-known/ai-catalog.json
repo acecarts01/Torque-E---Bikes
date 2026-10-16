@@ -1,0 +1,32 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Torque E-Bikes",
+    "identifier": "torquee-bikesaustralia.com.au",
+    "documentationUrl": "https://torquee-bikesaustralia.com.au/llms.txt"
+  },
+  "entries": [
+    {
+      "id": "urn:air:torquee-bikesaustralia.com.au:mcp:store",
+      "displayName": "Torque E-Bikes store MCP server",
+      "type": "mcp-server",
+      "url": "https://torquee-bikesaustralia.com.au/.well-known/mcp/server-card.json",
+      "representativeQueries": [
+        "Find an electric dirt bike under $5000 in Australia",
+        "What is the price of the Sur-Ron Light Bee?",
+        "Prepare a cart for two Talaria Sting bikes"
+      ]
+    },
+    {
+      "id": "urn:air:torquee-bikesaustralia.com.au:skills:index",
+      "displayName": "Torque E-Bikes agent skills",
+      "type": "agent-skills",
+      "url": "https://torquee-bikesaustralia.com.au/.well-known/agent-skills/index.json",
+      "representativeQueries": [
+        "How do I order from Torque E-Bikes?",
+        "What is the shipping cost and GST?",
+        "Does the store offer wholesale pricing?"
+      ]
+    }
+  ]
+}

@@ -136,19 +136,6 @@
       ]
     },
     {
-      "source": "/.well-known/ucp",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/json"
-        },
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        }
-      ]
-    },
-    {
       "source": "/auth.md",
       "headers": [
         {

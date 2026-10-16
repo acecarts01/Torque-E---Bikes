@@ -54,6 +54,10 @@ export const setQty = (slug: string, qty: number) =>
 export const removeFromCart = (slug: string) => write(read().filter(i => i.slug !== slug))
 export const clearCart = () => write([])
 
+/** Replace the whole cart (used by agent-prepared checkout links: /checkout/?items=slug:qty,...) */
+export const replaceCart = (items: CartItem[]) =>
+  write(items.filter(i => i && typeof i.slug === 'string' && Number(i.qty) >= 1).map(i => ({ slug: i.slug, qty: Math.min(50, Math.floor(Number(i.qty))) })))
+
 export function useCart(): CartItem[] {
   return useSyncExternalStore(subscribe, read, () => EMPTY)
 }

@@ -14,17 +14,15 @@ if (SITE.domain === 'DOMAIN.com') {
 
 // B6. Agent Files Presence
 // robots.txt is served from app/robots.ts (single source), so either that route or a static file satisfies this check
-if (!fs.existsSync('app/robots.ts') && !fs.existsSync('public/robots.txt')) {
+if (!fs.existsSync('app/robots.txt/route.ts') && !fs.existsSync('app/robots.ts') && !fs.existsSync('public/robots.txt')) {
   console.error('❌ B6: No robots.txt source (app/robots.ts or public/robots.txt)');
   failures++;
 }
 const agentFiles = [
   'public/llms.txt',
   'public/auth.md',
-  'public/.well-known/api-catalog',
   'public/.well-known/agent-skills/index.json',
   'public/.well-known/mcp/server-card.json',
-  'public/.well-known/ucp'
 ];
 
 agentFiles.forEach(f => {

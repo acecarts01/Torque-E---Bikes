@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { Zap, Mail, Phone, MapPin, Instagram, Facebook, ShieldCheck } from 'lucide-react'
+import { Zap, Mail, Phone, MapPin, ShieldCheck } from 'lucide-react'
 import { SITE, CONTACT, BRAND, CATEGORIES, SHOP } from '@/src/config/site'
 import TrustpilotFooter from './TrustpilotFooter'
 
@@ -20,10 +20,6 @@ export default function Footer() {
             <p className="text-gray-400 text-[10px] leading-relaxed max-w-xs uppercase tracking-wider">
               {BRAND.description}
             </p>
-            <div className="flex gap-3">
-              <a href="#" className="p-1.5 bg-white/5 rounded-full hover:bg-[#ff6a1a] transition-colors"><Instagram className="w-4 h-4" /></a>
-              <a href="#" className="p-1.5 bg-white/5 rounded-full hover:bg-[#ff6a1a] transition-colors"><Facebook className="w-4 h-4" /></a>
-            </div>
           </div>
 
           {/* Quick Links */}

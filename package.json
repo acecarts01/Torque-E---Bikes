@@ -23,7 +23,8 @@
     "react": "^19.2.1",
     "react-dom": "^19.2.1",
     "resend": "^6.32.1",
-    "tailwind-merge": "^3.3.1"
+    "tailwind-merge": "^3.3.1",
+    "turndown": "^7.2.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "4.1.11",
@@ -32,6 +33,7 @@
     "@types/nodemailer": "^8.0.2",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/turndown": "^5.0.6",
     "eslint": "9.39.1",
     "eslint-config-next": "16.0.8",
     "postcss": "^8.5.6",

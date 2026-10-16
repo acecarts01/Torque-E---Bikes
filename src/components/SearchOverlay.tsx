@@ -65,6 +65,7 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
               </div>
               <button 
                 onClick={handleClose}
+                aria-label="Close search"
                 className="p-3 bg-white/5 hover:bg-[#ff6a1a] text-[#140800] rounded-full transition-all group"
               >
                 <X className="w-6 h-6 group-hover:rotate-90 transition-transform" />

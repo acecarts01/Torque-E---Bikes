@@ -18,12 +18,13 @@ const nextConfig = {
     return (brandRedirects as { source: string; destination: string }[]).map(r => ({ source: r.source, destination: r.destination, permanent: true }))
   },
   async rewrites() {
-    return [
-      {
-        source: '/sitemap.xml',
-        destination: '/api/sitemap.xml',
-      },
-    ]
+    return {
+      // extensionless well-known files are served by a route so they get a JSON content type
+      beforeFiles: ['api-catalog', 'oauth-protected-resource', 'oauth-authorization-server', 'openid-configuration']
+        .map(n => ({ source: '/.well-known/' + n, destination: '/api/wk/' + n + '/' })),
+      afterFiles: [{ source: '/sitemap.xml', destination: '/api/sitemap.xml' }],
+      fallback: [],
+    }
   },
   async headers() {
     return [

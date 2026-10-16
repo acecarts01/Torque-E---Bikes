@@ -1,31 +1,25 @@
 // middleware.ts
+// Markdown negotiation for AI agents: a request with "Accept: text/markdown" (preferred over HTML) for a public
+// page is served from /api/md/, which returns the page as Markdown. Browsers are never affected.
 import { NextResponse, type NextRequest } from 'next/server'
 
 export const config = {
   matcher: [
-    /*
-     * Match all request paths except for the ones starting with:
-     * - api (API routes)
-     * - _next/static (static files)
-     * - _next/image (image optimization files)
-     * - favicon.ico (favicon file)
-     * - images (public images)
-     * - js (public scripts)
-     */
-    '/((?!api|_next/static|_next/image|favicon.ico|images|js|fonts|.well-known).*)',
+    // Skip API routes, Next internals, static files and well-known/agent files
+    '/((?!api|_next/static|_next/image|favicon.ico|images|js|fonts|products|\\.well-known).*)',
   ],
 }
 
 export function middleware(request: NextRequest) {
-  const url = new URL(request.url)
+  const { pathname } = request.nextUrl
   const accept = request.headers.get('accept') || ''
 
-  // Rule V5: Markdown negotiation
-  if (prefersMarkdownOverHtml(accept) && eligiblePath(url.pathname)) {
-    // Note: In a real Vercel environment, we would fetch the .md sibling.
-    // For this applet, we just let it proceed or we could potentially
-    // redirect to an API that returns markdown content.
-    // We implement the check to satisfy Rule V5 structure.
+  if (prefersMarkdownOverHtml(accept) && eligiblePath(pathname)) {
+    const url = request.nextUrl.clone()
+    url.pathname = '/api/md/'
+    const headers = new Headers(request.headers)
+    headers.set('x-md-path', pathname)
+    return NextResponse.rewrite(url, { request: { headers } })
   }
 
   return NextResponse.next()
@@ -47,5 +41,6 @@ function prefersMarkdownOverHtml(accept: string) {
 }
 
 function eligiblePath(pathname: string) {
+  if (/^\/(admin|checkout|order)(\/|$)/.test(pathname)) return false
   return pathname.endsWith('/') || !pathname.includes('.')
 }

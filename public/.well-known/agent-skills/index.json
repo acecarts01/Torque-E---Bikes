@@ -1,50 +1,33 @@
 {
-  "$schema": "https://agentskills.io/schema/v0.2.0/index.json",
-  "name": "Torque E-Bikes",
-  "url": "https://torquee-bikesaustralia.com.au",
-  "description": "Australia’s Home of High-Torque E-Motos, Performance Conversion Kits & Custom Upgrades",
+  "$schema": "https://schemas.agentskills.io/discovery/0.2.0/schema.json",
   "skills": [
     {
-      "name": "search-products",
-      "type": "commerce",
-      "description": "Search products by keyword, category, or price",
-      "url": "https://torquee-bikesaustralia.com.au/api/mcp",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
       "name": "browse-catalog",
-      "type": "navigation",
-      "description": "Browse the full product catalog by category",
-      "url": "https://torquee-bikesaustralia.com.au/shop/",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "type": "skill-md",
+      "description": "Search and browse the Torque E-Bikes product catalogue (electric bikes, e-motos, conversion kits, parts) by keyword, category or price.",
+      "url": "/.well-known/agent-skills/browse-catalog/SKILL.md",
+      "digest": "sha256:7b44dbce97fe1af3401346aa54f3dc2e71c676d1101741283c92a182624ed80f"
     },
     {
       "name": "order-draft",
-      "type": "commerce",
-      "description": "Create a prefilled order draft. Human completes the order.",
-      "url": "https://torquee-bikesaustralia.com.au/api/mcp",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "type": "skill-md",
+      "description": "Prepare a pre-filled Torque E-Bikes cart link for a human to review and complete. Agents never take payment.",
+      "url": "/.well-known/agent-skills/order-draft/SKILL.md",
+      "digest": "sha256:7f81f022c827af75a1506abd64ec7c3d1aca28c60cbc7d1dfdae6cf4399a4ac2"
     },
     {
-      "name": "wholesale-inquiry",
-      "type": "commerce",
-      "description": "Wholesale pricing tiers and bulk ordering",
-      "url": "https://torquee-bikesaustralia.com.au/wholesale/",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "name": "wholesale-enquiry",
+      "type": "skill-md",
+      "description": "Explain Torque E-Bikes wholesale and bulk ordering and point a human to the wholesale form.",
+      "url": "/.well-known/agent-skills/wholesale-enquiry/SKILL.md",
+      "digest": "sha256:6347d0954b5291e5424d844885da959886be860903516b20c2ea1206436e400c"
     },
     {
-      "name": "product-education",
-      "type": "content",
-      "description": "Educational blog content",
-      "url": "https://torquee-bikesaustralia.com.au/blog/",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "name": "contact",
-      "type": "support",
-      "description": "Contact for product questions or support",
-      "url": "https://torquee-bikesaustralia.com.au/contact/",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "name": "store-policies",
+      "type": "skill-md",
+      "description": "Shipping, payment, GST and compliance rules for Torque E-Bikes (Australia).",
+      "url": "/.well-known/agent-skills/store-policies/SKILL.md",
+      "digest": "sha256:72271f73738bdb8a0655b152257794a75a7c494b13a4a1a14c4c6d2b65c3d7e5"
     }
   ]
 }

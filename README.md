@@ -27,5 +27,5 @@ npm run dev
 This site is Agent-Ready (Level 2+).
 - MCP Server: `/api/mcp`
 - LLMS: `/llms.txt`
-- UCP/ACP: `/.well-known/ucp`, `/.well-known/acp.json`
+- ACP: `/.well-known/acp.json`; ARD: `/.well-known/ai-catalog.json`
 - API Catalog: `/.well-known/api-catalog`

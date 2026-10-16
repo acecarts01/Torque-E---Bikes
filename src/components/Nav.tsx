@@ -92,6 +92,7 @@ export default function Nav() {
           <div className="flex items-center gap-2">
             <button 
               onClick={() => setIsSearchOpen(true)}
+              aria-label="Search products"
               className="p-2.5 hover:bg-white/5 rounded-full transition-colors hidden sm:block outline-none"
             >
               <Search className="w-4 h-4 text-brand-gray hover:text-white transition-colors" />
@@ -101,7 +102,7 @@ export default function Nav() {
               <ShoppingCart className="w-4 h-4 text-white group-hover:scale-110 transition-transform" />
               <span className="absolute top-1 right-1 bg-brand-red text-[#140800] text-[8px] font-black w-4 h-4 flex items-center justify-center rounded-full border-2 border-brand-dark group-hover:bg-white group-hover:text-brand-red transition-colors">{cartCount}</span>
             </Link>
-            <button onClick={() => setIsOpen(true)} className="lg:hidden p-2.5 bg-white/5 rounded-full ml-2">
+            <button onClick={() => setIsOpen(true)} aria-label="Open menu" className="lg:hidden p-2.5 bg-white/5 rounded-full ml-2">
               <Menu className="w-5 h-5" />
             </button>
           </div>
@@ -122,7 +123,7 @@ export default function Nav() {
                 <Zap className="w-8 h-8 text-brand-red fill-brand-red" />
                 <span className="text-2xl font-black italic uppercase tracking-tighter">TORQUE <span className="text-brand-red">E</span>-BIKES</span>
               </Link>
-              <button onClick={() => setIsOpen(false)} className="p-3 bg-white/5 rounded-full ring-1 ring-white/10">
+              <button onClick={() => setIsOpen(false)} aria-label="Close menu" className="p-3 bg-white/5 rounded-full ring-1 ring-white/10">
                 <X className="w-6 h-6" />
               </button>
             </div>

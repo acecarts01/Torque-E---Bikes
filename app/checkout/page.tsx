@@ -9,7 +9,7 @@ import SmartImage from '@/src/components/SmartImage'
 import { formatCurrency, cn } from '@/src/lib/utils'
 import { Zap, Landmark, Truck, Wallet, ShieldCheck, Minus, Plus, Trash2, CheckCircle2, ShoppingCart } from 'lucide-react'
 import { SHOP, CONTACT } from '@/src/config/site'
-import { useCart, setQty, removeFromCart, clearCart } from '@/src/lib/cart'
+import { useCart, setQty, removeFromCart, clearCart, replaceCart } from '@/src/lib/cart'
 import { calcTotals, toCents, gstLabel } from '@/src/lib/pricing'
 
 const METHODS = [
@@ -27,6 +27,18 @@ export default function CheckoutPage() {
   const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState('')
   const [done, setDone] = useState<{ ref: string; total: number } | null>(null)
+
+  // Agent-prepared link: /checkout/?items=slug:qty,slug:qty fills the cart once, then the URL is cleaned
+  useEffect(() => {
+    const raw = new URLSearchParams(window.location.search).get('items')
+    if (!raw) return
+    const items = raw.split(',').slice(0, 20).flatMap(part => {
+      const [slug, q] = part.split(':')
+      return /^[a-z0-9-]+$/.test(slug || '') ? [{ slug, qty: Math.max(1, parseInt(q || '1', 10) || 1) }] : []
+    })
+    if (items.length) replaceCart(items)
+    window.history.replaceState(null, '', window.location.pathname)
+  }, [])
 
   // Only the products in the cart are loaded (from a small API), so the page does not carry the whole catalogue.
   const [catalog, setCatalog] = useState<Record<string, any>>({})

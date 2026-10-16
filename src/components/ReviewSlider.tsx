@@ -125,6 +125,7 @@ export default function ReviewSlider() {
                 <button
                   key={i}
                   onClick={() => setIndex(i)}
+                  aria-label={`Show review ${i + 1}`}
                   className={cn(
                     "h-1 transition-all duration-500 rounded-full",
                     index === i ? "w-12 bg-[#00b67a]" : "w-4 bg-white/10"

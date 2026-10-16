@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { CATEGORIES, SHOP, SITE } from '@/src/config/site'
 import { PRODUCTS } from '@/src/config/products'
+import { calcTotals, toCents } from '@/src/lib/pricing'
 
 export async function POST(req: NextRequest) {
   try {
@@ -98,8 +99,26 @@ export async function POST(req: NextRequest) {
         } else if (name === 'get_policies') {
           result = { content: [{ type: 'text', text: JSON.stringify(SHOP) }] }
         } else if (name === 'create_order_draft') {
-          const baseUrl = `https://${SITE.domain}/checkout/`
-          result = { content: [{ type: 'text', text: `Order draft created. Complete at: ${baseUrl}. (Note: MCP draft currently uses default items)` }] }
+          const wanted: { slug: string; quantity?: number }[] = Array.isArray(args?.items) ? args.items.slice(0, 20) : []
+          const lines = wanted.flatMap(w => {
+            const p = PRODUCTS.find(x => x.slug === w.slug)
+            const qty = Math.max(1, Math.min(50, Math.floor(Number(w.quantity) || 1)))
+            return p ? [{ p, qty }] : []
+          })
+          const unknown = wanted.filter(w => !PRODUCTS.some(x => x.slug === w.slug)).map(w => w.slug)
+          if (!lines.length) {
+            result = { isError: true, content: [{ type: 'text', text: 'No valid items. Pass items: [{ slug, quantity }] using slugs from search_products.' }] }
+          } else {
+            const t = calcTotals(lines.map(l => toCents(Number(l.p.price)) * l.qty), 'bank-transfer')
+            const url = `https://${SITE.domain}/checkout/?items=${lines.map(l => `${l.p.slug}:${l.qty}`).join(',')}`
+            result = { content: [{ type: 'text', text: JSON.stringify({
+              checkout_url: url,
+              items: lines.map(l => ({ slug: l.p.slug, name: l.p.name, quantity: l.qty, unit_price_aud: l.p.price })),
+              estimate_aud: { subtotal: t.subtotal, shipping: t.shipping, gst_included: t.gst, total: t.total },
+              unknown_slugs: unknown,
+              note: 'Estimate for bank transfer or PayID. Crypto saves ' + SHOP.cryptoDiscount + '%. A person must open the link, review the cart and place the order. No payment is taken here.'
+            }) }] }
+          }
         } else {
           return NextResponse.json({ jsonrpc: '2.0', error: { code: -32601, message: 'Method not found' }, id }, { status: 404 })
         }

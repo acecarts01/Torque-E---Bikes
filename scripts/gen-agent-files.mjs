@@ -1,3 +1,4 @@
+import crypto from 'crypto';
 import fs from 'fs';
 import path from 'path';
 import { SITE, CONTACT, SHOP, BRAND, CATEGORIES, PAGES } from '../src/config/site.js';
@@ -23,6 +24,42 @@ const brandRedirects = Object.keys(brandGroups)
     // no trailing slash on the source: the site uses trailingSlash, and Next matches both forms from the slashless pattern
     return { source: '/brands/' + s, destination };
   });
+
+
+// ---- Agent skills (real SKILL.md files with sha256 digests) ----
+const skillDefs = [
+  { name: 'browse-catalog', description: `Search and browse the ${SITE.name} product catalogue (electric bikes, e-motos, conversion kits, parts) by keyword, category or price.`,
+    body: `# Browse the catalogue\n\nUse these public, read-only endpoints. No sign-in is needed.\n\n- \`GET https://${DOMAIN}/api/search?q=<keyword>\` search products\n- \`GET https://${DOMAIN}/api/products\` product list (supports category and price filters)\n- \`GET https://${DOMAIN}/api/categories\` category list\n- MCP server: \`https://${DOMAIN}/api/mcp\` (tools: search_products, get_product, list_categories)\n\nPrices are in AUD and include 10% GST. High-powered bikes are for off-road and private property use only, and must not be described as road legal.\n` },
+  { name: 'order-draft', description: `Prepare a pre-filled ${SITE.name} cart link for a human to review and complete. Agents never take payment.`,
+    body: `# Prepare an order draft\n\nCall the MCP tool \`create_order_draft\` at \`https://${DOMAIN}/api/mcp\` with \`items: [{ slug, quantity }]\`. It returns a checkout link of the form \`https://${DOMAIN}/checkout/?items=slug:qty\` and an estimate of the total (GST included, shipping 10% of the order, free from ${SHOP.freeShippingThreshold} AUD).\n\nThe customer opens the link, checks the cart and completes the order themselves. Payment details are sent by the store by email after the order is placed. Never ask for or enter card or bank details.\n` },
+  { name: 'wholesale-enquiry', description: `Explain ${SITE.name} wholesale and bulk ordering and point a human to the wholesale form.`,
+    body: `# Wholesale\n\nWholesale pricing and bulk ordering are handled by a person. Direct the buyer to \`https://${DOMAIN}/wholesale/\` to submit an enquiry, or email ${CONTACT.email}.\n` },
+  { name: 'store-policies', description: `Shipping, payment, GST and compliance rules for ${SITE.name} (Australia).`,
+    body: `# Store policies\n\n- Ships Australia-wide. Lithium batteries are Class 9 dangerous goods and are shipped by certified carriers.\n- Shipping is 10% of the order total, free for orders from ${SHOP.freeShippingThreshold} AUD.\n- Prices include 10% GST.\n- Payment: ${SHOP.paymentMethods.join(', ')}. Payment details are sent after the order is placed.\n- Bikes above 250W are for off-road and private property use only.\n- Full policies: \`https://${DOMAIN}/shipping/\`, \`https://${DOMAIN}/faq/\`. MCP tool: \`get_policies\`.\n` }
+]
+const SKILL_FILES = []
+const skillIndex = []
+for (const sk of skillDefs) {
+  const md = '---\nname: ' + sk.name + '\ndescription: ' + sk.description + '\n---\n\n' + sk.body
+  SKILL_FILES.push({ path: 'public/.well-known/agent-skills/' + sk.name + '/SKILL.md', content: md })
+  skillIndex.push({ name: sk.name, type: 'skill-md', description: sk.description, url: '/.well-known/agent-skills/' + sk.name + '/SKILL.md', digest: 'sha256:' + crypto.createHash('sha256').update(md).digest('hex') })
+}
+
+// ---- ARD catalogue and Poppy profile ----
+const AGENT_DISCOVERY_FILES = [
+  { path: 'public/.well-known/agent-skills/index.json', content: JSON.stringify({ '$schema': 'https://schemas.agentskills.io/discovery/0.2.0/schema.json', skills: skillIndex }, null, 2) },
+  { path: 'public/.well-known/ai-catalog.json', content: JSON.stringify({
+      specVersion: '1.0',
+      host: { displayName: SITE.name, identifier: DOMAIN, documentationUrl: `https://${DOMAIN}/llms.txt` },
+      entries: [
+        { id: `urn:air:${DOMAIN}:mcp:store`, displayName: `${SITE.name} store MCP server`, type: 'mcp-server', url: `https://${DOMAIN}/.well-known/mcp/server-card.json`,
+          representativeQueries: ['Find an electric dirt bike under $5000 in Australia', 'What is the price of the Sur-Ron Light Bee?', 'Prepare a cart for two Talaria Sting bikes'] },
+        { id: `urn:air:${DOMAIN}:skills:index`, displayName: `${SITE.name} agent skills`, type: 'agent-skills', url: `https://${DOMAIN}/.well-known/agent-skills/index.json`,
+          representativeQueries: ['How do I order from Torque E-Bikes?', 'What is the shipping cost and GST?', 'Does the store offer wholesale pricing?'] }
+      ]
+    }, null, 2) },
+  { path: 'public/.well-known/poppy.json', content: JSON.stringify({ protocol_version: '0.1', organization: { name: SITE.name, domain: DOMAIN }, web: {} }, null, 2) }
+]
 
 const files = [
   {
@@ -119,23 +156,8 @@ Orders are completed by a human via WhatsApp or the order form.`
       ]
     }, null, 2)
   },
-  {
-    path: 'public/.well-known/agent-skills/index.json',
-    content: JSON.stringify({
-      "$schema": "https://agentskills.io/schema/v0.2.0/index.json",
-      "name": SITE.name,
-      "url": `https://${DOMAIN}`,
-      "description": SITE.tagline,
-      "skills": [
-        { "name": "search-products", "type": "commerce", "description": "Search products by keyword, category, or price", "url": `https://${DOMAIN}/api/mcp`, "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" },
-        { "name": "browse-catalog", "type": "navigation", "description": "Browse the full product catalog by category", "url": `https://${DOMAIN}/shop/`, "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" },
-        { "name": "order-draft", "type": "commerce", "description": "Create a prefilled order draft. Human completes the order.", "url": `https://${DOMAIN}/api/mcp`, "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" },
-        { "name": "wholesale-inquiry", "type": "commerce", "description": "Wholesale pricing tiers and bulk ordering", "url": `https://${DOMAIN}/wholesale/`, "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" },
-        { "name": "product-education", "type": "content", "description": "Educational blog content", "url": `https://${DOMAIN}/blog/`, "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" },
-        { "name": "contact", "type": "support", "description": "Contact for product questions or support", "url": `https://${DOMAIN}/contact/`, "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" }
-      ]
-    }, null, 2)
-  },
+  ...SKILL_FILES,
+  ...AGENT_DISCOVERY_FILES,
   {
     path: 'public/.well-known/mcp/server-card.json',
     content: JSON.stringify({
@@ -177,10 +199,6 @@ Orders are completed by a human via WhatsApp or the order form.`
     content: JSON.stringify({ "protocol": { "name": "acp", "version": "0.1.0" }, "name": SITE.name, "description": BRAND.description, "api_base_url": `https://${DOMAIN}`, "homepage": `https://${DOMAIN}`, "transports": ["https"], "capabilities": { "services": ["product-catalog", "wholesale", "blog", "faq", "mcp-server"], "ordering": "human-assisted", "payment_methods": SHOP.paymentMethods, "currency": SITE.currency, "minimum_order_aud": SHOP.minOrder, "free_shipping_threshold_aud": SHOP.freeShippingThreshold }, "contact": { "whatsapp": `https://wa.me/${CONTACT.whatsapp.replace(/\+/g, '')}`, "email": CONTACT.email }, "legal": { "region": "Australia", "ships_to": "Australia", "product_type": "Electric Motos", "compliance": "Off-road only" } }, null, 2)
   },
   {
-    path: 'public/.well-known/ucp',
-    content: JSON.stringify({ "ucp": "1.0", "protocol_version": "1.0", "spec": "https://ucp.dev/specification/overview/", "schema": "https://ucp.dev/schema/v1.json", "site": `https://${DOMAIN}`, "name": SITE.name, "description": BRAND.description, "services": [ { "id": "product-catalog", "type": "catalog", "url": `https://${DOMAIN}/shop/`, "description": "Full product catalog" }, { "id": "mcp-server", "type": "mcp", "url": `https://${DOMAIN}/api/mcp`, "description": "MCP Streamable HTTP server" }, { "id": "order", "type": "commerce", "url": `https://wa.me/${CONTACT.whatsapp.replace(/\+/g, '')}`, "description": "Place orders via WhatsApp" }, { "id": "wholesale", "type": "b2b", "url": `https://${DOMAIN}/wholesale/`, "description": "Wholesale pricing and bulk ordering" } ], "capabilities": ["browse", "search", "inquiry", "wholesale", "content", "mcp"], "endpoints": { "mcp": `https://${DOMAIN}/api/mcp`, "catalog": `https://${DOMAIN}/shop/`, "contact": `https://${DOMAIN}/contact/`, "agent_skills": `https://${DOMAIN}/.well-known/agent-skills/index.json`, "mcp_server_card": `https://${DOMAIN}/.well-known/mcp/server-card.json`, "api_catalog": `https://${DOMAIN}/.well-known/api-catalog`, "llms_txt": `https://${DOMAIN}/llms.txt` }, "currency": SITE.currency, "minimum_order_aud": SHOP.minOrder, "payment_methods": SHOP.paymentMethods, "legal": { "product_type": "Electric Motos", "compliance": "Off-road only" } }, null, 2)
-  },
-  {
     path: `public/${SITE.indexNowKey}.txt`,
     content: SITE.indexNowKey
   },
@@ -208,7 +226,6 @@ Orders are completed by a human via WhatsApp or the order form.`
         { "source": "/.well-known/oauth-authorization-server", "headers": [{ "key": "Content-Type", "value": "application/json" }, { "key": "Access-Control-Allow-Origin", "value": "*" }] },
         { "source": "/.well-known/openid-configuration", "headers": [{ "key": "Content-Type", "value": "application/json" }, { "key": "Access-Control-Allow-Origin", "value": "*" }] },
         { "source": "/.well-known/acp.json", "headers": [{ "key": "Content-Type", "value": "application/json" }, { "key": "Access-Control-Allow-Origin", "value": "*" }] },
-        { "source": "/.well-known/ucp", "headers": [{ "key": "Content-Type", "value": "application/json" }, { "key": "Access-Control-Allow-Origin", "value": "*" }] },
         { "source": "/auth.md", "headers": [{ "key": "Content-Type", "value": "text/markdown; charset=utf-8" }, { "key": "Access-Control-Allow-Origin", "value": "*" }] },
         { "source": "/llms.txt", "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }, { "key": "Access-Control-Allow-Origin", "value": "*" }] },
         { "source": "/:path*.md", "headers": [{ "key": "Content-Type", "value": "text/markdown; charset=utf-8" }] },
@@ -218,6 +235,11 @@ Orders are completed by a human via WhatsApp or the order form.`
   }
 ];
 
+const EXTLESS = ['public/.well-known/api-catalog', 'public/.well-known/oauth-protected-resource', 'public/.well-known/oauth-authorization-server', 'public/.well-known/openid-configuration']
+const wellKnown = {}
+files.filter(x => EXTLESS.includes(x.path)).forEach(x => { wellKnown[x.path.split('/').pop()] = x.content; try { fs.unlinkSync(x.path) } catch {} })
+fs.writeFileSync('src/config/wellknown.generated.json', JSON.stringify(wellKnown))
+files.splice(0, files.length, ...files.filter(x => !EXTLESS.includes(x.path)))
 files.forEach(file => {
   const dir = path.dirname(file.path);
   if (dir !== '.' && !fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
