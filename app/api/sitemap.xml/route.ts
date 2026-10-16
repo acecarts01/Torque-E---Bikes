@@ -14,7 +14,12 @@ export async function GET() {
     '/faq/',
     '/contact/',
     '/wholesale/',
-    '/search/',
+    '/electric-bikes/',
+    '/electric-bikes/budget/',
+    '/brands/',
+    '/blog/',
+    '/tools/conversion-kit-finder/',
+    '/compare/',
     '/terms/',
     '/privacy/',
     '/shipping-returns/'
