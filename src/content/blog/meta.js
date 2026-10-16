@@ -113,7 +113,7 @@ export const BLOG_META = [
   "seoTitle": "E-Bike Brands in Australia Compared",
   "excerpt": "A plain-English look at e-bike brands people search for in Australia, what to compare between them, and where to find the brands Torque lists.",
   "category": "Buying Guides",
-  "date": "2026-11-13",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/e-bike-brands-in-australia.webp",
@@ -157,7 +157,7 @@ export const BLOG_META = [
   "seoTitle": "E-Bike Conversion Kits Explained",
   "excerpt": "What an e-bike conversion kit includes, how to match motor, battery and wheel to your bike, and the rules that apply in Australia.",
   "category": "Conversion Guides",
-  "date": "2026-10-23",
+  "date": "2026-10-16",
   "readTime": "16 min",
   "image": {
    "file": "blog/e-bike-conversion-kits-explained.webp",
@@ -249,7 +249,7 @@ export const BLOG_META = [
   "seoTitle": "Sur-Ron Models Explained: Light Bee to Ultra Bee",
   "excerpt": "How the Sur-Ron range is laid out, what separates the Light Bee, Storm Bee and Ultra Bee, and what to check before you choose a model.",
   "category": "Model Guides",
-  "date": "2026-11-13",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/sur-ron-models-explained.webp",
@@ -289,7 +289,7 @@ export const BLOG_META = [
   "seoTitle": "How Fast Does a Sur-Ron Go?",
   "excerpt": "What decides a Sur-Ron’s top speed and range, why maker figures differ from real riding, and how to read the specification before you buy.",
   "category": "Model Guides",
-  "date": "2026-12-25",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/how-fast-does-a-sur-ron-go.webp",
@@ -329,7 +329,7 @@ export const BLOG_META = [
   "seoTitle": "Talaria Electric Dirt Bikes: Range Guide",
   "excerpt": "How the Talaria range is organised, what to compare between models such as the Sting and XXX, and where to find them at Torque E-Bikes.",
   "category": "Model Guides",
-  "date": "2026-11-20",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/talaria-electric-dirt-bikes.webp",
@@ -369,7 +369,7 @@ export const BLOG_META = [
   "seoTitle": "Electric Mountain Bike Buying Guide",
   "excerpt": "How to choose an electric mountain bike in Australia: hardtail or full suspension, motor and battery, brakes, frame size and budget.",
   "category": "Buying Guides",
-  "date": "2026-10-23",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/electric-mountain-bike-buying-guide.webp",
@@ -413,7 +413,7 @@ export const BLOG_META = [
   "seoTitle": "Folding Electric Bikes: A Buyer’s Guide",
   "excerpt": "What to look for in a folding electric bike: folded size, weight, battery, fold mechanism and who they suit, with a comparison to full-size e-bikes.",
   "category": "Buying Guides",
-  "date": "2026-10-30",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/folding-electric-bikes.webp",
@@ -453,7 +453,7 @@ export const BLOG_META = [
   "seoTitle": "Electric Trikes for Adults: A Buyer’s Guide",
   "excerpt": "What to know before buying an adult electric trike: stability, loads, motor and battery, storage, and when a cargo bike is the better choice.",
   "category": "Buying Guides",
-  "date": "2026-10-23",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/electric-trikes-for-adults.webp",
@@ -493,7 +493,7 @@ export const BLOG_META = [
   "seoTitle": "Electric Cargo Bikes: What to Know Before Buying",
   "excerpt": "How electric cargo bikes work, longtail and front-loader types, load ratings, brakes and battery, and whether one can replace a car for local trips.",
   "category": "Buying Guides",
-  "date": "2026-11-13",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/electric-cargo-bikes.webp",
@@ -533,7 +533,7 @@ export const BLOG_META = [
   "seoTitle": "What Is an E-Moto? Electric Motorbikes Explained",
   "excerpt": "What an e-moto is, how it differs from an e-bike and an electric dirt bike, and what the rules mean for riders in Australia.",
   "category": "Explainers",
-  "date": "2026-12-25",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/what-is-an-e-moto.webp",
@@ -573,7 +573,7 @@ export const BLOG_META = [
   "seoTitle": "Helmets and Protective Gear for E-Bikes",
   "excerpt": "How to choose a helmet, gloves, goggles and body armour for e-bikes and electric dirt bikes, what standards to look for and how to check fit.",
   "category": "Buying Guides",
-  "date": "2026-11-20",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/helmets-and-protective-gear-for-e-bikes.webp",
@@ -617,7 +617,7 @@ export const BLOG_META = [
   "seoTitle": "E-Bike Lights: Choosing Front and Rear Lights",
   "excerpt": "How to choose e-bike lights: brightness, mounting, power source, USB versus wired lights and what you need to be seen at night.",
   "category": "Buying Guides",
-  "date": "2026-11-06",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/e-bike-lights.webp",
@@ -653,7 +653,7 @@ export const BLOG_META = [
   "seoTitle": "E-Bike and Dirt Bike Brakes Guide",
   "excerpt": "Hydraulic or mechanical, pad compounds, rotor sizes and when to upgrade the brakes on an e-bike or electric dirt bike.",
   "category": "Maintenance",
-  "date": "2026-10-30",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/e-bike-and-dirt-bike-brakes.webp",
@@ -733,7 +733,7 @@ export const BLOG_META = [
   "seoTitle": "How to Lock an E-Bike Securely",
   "excerpt": "How to lock an e-bike so it is hard to steal: lock types, where to lock, the battery, alarms and trackers, and what to do before theft happens.",
   "category": "Buying Guides",
-  "date": "2026-11-20",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/how-to-lock-an-e-bike.webp",
@@ -806,7 +806,7 @@ export const BLOG_META = [
   "seoTitle": "Pedal Assist vs Throttle on E-Bikes",
   "excerpt": "How pedal assist and throttle e-bikes differ, which suits your riding, how they relate to Australian rules and what to check before adding a throttle.",
   "category": "Explainers",
-  "date": "2026-12-18",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/pedal-assist-vs-throttle.webp",
@@ -846,7 +846,7 @@ export const BLOG_META = [
   "seoTitle": "Commuter E-Bikes: How to Choose One",
   "excerpt": "What to look for in a commuter e-bike: frame style, range, mudguards, lights, rack, brakes and lock, plus the rules for riding to work in Australia.",
   "category": "Buying Guides",
-  "date": "2026-11-06",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/commuter-e-bikes.webp",
@@ -926,7 +926,7 @@ export const BLOG_META = [
   "seoTitle": "How to Choose an E-Bike: A Step-by-Step Guide",
   "excerpt": "How to choose an e-bike in Australia in six steps: where you ride, motor power, battery range, frame size, brakes and budget, with what to ask before buying.",
   "category": "Buying Guides",
-  "date": "2026-10-30",
+  "date": "2026-10-16",
   "readTime": "16 min",
   "image": {
    "file": "blog/how-to-choose-an-e-bike.webp",
@@ -966,7 +966,7 @@ export const BLOG_META = [
   "seoTitle": "What Is an E-Bike? How Electric Bikes Work",
   "excerpt": "What an e-bike is, how the motor, battery and sensors work, the main types, and what makes an e-bike road legal in Australia.",
   "category": "Explainers",
-  "date": "2026-12-25",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/what-is-an-e-bike.webp",
@@ -1006,7 +1006,7 @@ export const BLOG_META = [
   "seoTitle": "Fat-Tyre E-Bikes: What to Know Before Buying",
   "excerpt": "What fat-tyre e-bikes are good for, how they compare with electric mountain bikes, and what to check on tyres, motor, battery and brakes.",
   "category": "Buying Guides",
-  "date": "2026-11-06",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/fat-tyre-e-bikes.webp",
@@ -1087,7 +1087,7 @@ export const BLOG_META = [
   "seoTitle": "Kids’ Electric Dirt Bikes: Age, Size and Safety",
   "excerpt": "How to choose a kids’ electric dirt bike: age and height, power limiter, brakes, safety gear and where children can ride in Australia.",
   "category": "Buying Guides",
-  "date": "2026-11-20",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/kids-electric-dirt-bikes.webp",
@@ -1127,7 +1127,7 @@ export const BLOG_META = [
   "seoTitle": "Electric vs Petrol Dirt Bikes Compared",
   "excerpt": "How electric and petrol dirt bikes compare on noise, maintenance, power delivery, ride time, cost and where you can ride in Australia.",
   "category": "Comparisons",
-  "date": "2026-11-27",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/electric-vs-petrol-dirt-bikes.webp",
@@ -1167,7 +1167,7 @@ export const BLOG_META = [
   "seoTitle": "Electric Balance Bikes: A Parent’s Guide",
   "excerpt": "What an electric balance bike is, who it suits, how it differs from a pedal balance bike, and what to check on speed, brakes and safety.",
   "category": "Buying Guides",
-  "date": "2026-11-27",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/electric-balance-bikes.webp",
@@ -1203,7 +1203,7 @@ export const BLOG_META = [
   "seoTitle": "Talaria X3, MX3 and MX4: What to Know",
   "excerpt": "How the Talaria X3, MX3 and MX4 fit in the range, what to compare between models, and which Talaria bikes Torque E-Bikes currently lists.",
   "category": "Model Guides",
-  "date": "2026-12-04",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/talaria-x3-mx3-and-mx4.webp",
@@ -1243,7 +1243,7 @@ export const BLOG_META = [
   "seoTitle": "Yozma IN10 Electric Mini Dirt Bike Guide",
   "excerpt": "What the Yozma IN10 electric mini dirt bike is, who it suits, how to set it up and ride it safely, and where to see it at Torque E-Bikes.",
   "category": "Model Guides",
-  "date": "2026-12-25",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/yozma-in10-electric-mini-dirt-bike.webp",
@@ -1283,7 +1283,7 @@ export const BLOG_META = [
   "seoTitle": "DiroDi Rover Gen 6: Buying and Setup Guide",
   "excerpt": "What to know about the DiroDi Rover Gen 6 fat-tyre electric bike: motor, battery, range, rules for riding and where to see it at Torque E-Bikes.",
   "category": "Model Guides",
-  "date": "2026-12-04",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/dirodi-rover-gen-6.webp",
@@ -1327,7 +1327,7 @@ export const BLOG_META = [
   "seoTitle": "Flight Risk FR505 and FR555 Compared",
   "excerpt": "How the Flight Risk FR505 and FR555 differ, what to compare between Flight Risk fat-tyre e-bikes, and which models Torque E-Bikes lists.",
   "category": "Model Guides",
-  "date": "2026-12-11",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/flight-risk-fr505-and-fr555.webp",
@@ -1371,7 +1371,7 @@ export const BLOG_META = [
   "seoTitle": "E-Bike Tyres and Tubes: Sizes and Pressure",
   "excerpt": "How to read an e-bike tyre size, choose tubes and valves, set tyre pressure, and know when to replace tyres on an e-bike or electric dirt bike.",
   "category": "Maintenance",
-  "date": "2026-12-18",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/e-bike-tyres-and-tubes.webp",
@@ -1407,7 +1407,7 @@ export const BLOG_META = [
   "seoTitle": "E-Bike Seats, Kickstands and Mudguards",
   "excerpt": "How to choose and fit an e-bike seat or saddle, seat post, kickstand and mudguards, and how to check that parts fit your bike.",
   "category": "Maintenance",
-  "date": "2026-12-04",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/e-bike-seats-saddles-kickstands-and-mudguards.webp",
@@ -1443,7 +1443,7 @@ export const BLOG_META = [
   "seoTitle": "E-Bike Grips, Pedals and Controls Guide",
   "excerpt": "How to choose grips, pedals and handlebar controls for an e-bike: sizes, thread types, throttle and brake lever compatibility and fitting tips.",
   "category": "Maintenance",
-  "date": "2026-12-11",
+  "date": "2026-10-16",
   "readTime": "7 min",
   "image": {
    "file": "blog/e-bike-grips-pedals-and-handlebar-controls.webp",
@@ -1479,7 +1479,7 @@ export const BLOG_META = [
   "seoTitle": "E-Bike Conversion Kit Finder",
   "excerpt": "Answer four questions about your bike and how you ride, and get pointed to the right type of e-bike conversion kit and the rules that apply.",
   "category": "Tools",
-  "date": "2026-11-27",
+  "date": "2026-10-16",
   "readTime": "5 min",
   "image": {
    "file": "blog/conversion-kit-finder.webp",
