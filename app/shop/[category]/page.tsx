@@ -39,7 +39,7 @@ export default async function Page({ params }: { params: Promise<{ category: str
       <AnnouncementBar />
       <Nav />
       <main className="flex-grow pt-32 pb-24">
-        <CategoryDetail slug={slug} intro={(CATEGORY_COPY as Record<string, string[]>)[slug]} products={PRODUCTS.filter(p => p.category === slug)} h1={getSeo(`/shop/${slug}/`)?.h1} faq={getPageFaq(`/shop/${slug}/`)} />
+        <CategoryDetail slug={slug} intro={(CATEGORY_COPY as Record<string, string[]>)[slug]} products={PRODUCTS.filter(p => p.category === slug).map(p => ({ slug: p.slug, name: p.name, price: p.price, comparePrice: p.comparePrice, bestPrice: p.bestPrice, category: p.category, compliance: p.compliance, badge: p.badge, power: p.power, voltage: p.voltage, compatibility: p.compatibility, stock: p.stock, images: p.images.slice(0, 1) }))} h1={getSeo(`/shop/${slug}/`)?.h1} faq={getPageFaq(`/shop/${slug}/`)} />
       </main>
       <Footer />
     </div>
