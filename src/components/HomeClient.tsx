@@ -167,11 +167,11 @@ export default function HomeClient({ featuredProducts, homeFaq }: { featuredProd
                 </p>
                 <div className="flex gap-10 border-t border-white/5 pt-8">
                   <div>
-                    <h4 className="text-3xl font-black text-brand-red italic tracking-tighter leading-none">17YRS</h4>
+                    <p className="text-3xl font-black text-brand-red italic tracking-tighter leading-none">17YRS</p>
                     <p className="text-[8px] uppercase font-black tracking-widest text-brand-gray mt-1">Aus Operations</p>
                   </div>
                   <div>
-                    <h4 className="text-3xl font-black text-brand-red italic tracking-tighter leading-none">BRIS</h4>
+                    <p className="text-3xl font-black text-brand-red italic tracking-tighter leading-none">BRIS</p>
                     <p className="text-[8px] uppercase font-black tracking-widest text-brand-gray mt-1">Tech Labs</p>
                   </div>
                 </div>

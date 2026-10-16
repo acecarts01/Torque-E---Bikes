@@ -87,8 +87,8 @@ export default function ShopFilters({
         isMobileOpen ? "translate-x-0" : "translate-x-full lg:translate-x-0"
       )}>
         <div className="flex justify-between items-center mb-8 lg:hidden">
-          <h3 className="text-xl font-black uppercase italic tracking-tighter">Shop Filters</h3>
-          <button onClick={() => setIsMobileOpen(false)} className="p-2 bg-white/5 rounded-full"><X className="w-6 h-6" /></button>
+          <p className="text-xl font-black uppercase italic tracking-tighter">Shop Filters</p>
+          <button onClick={() => setIsMobileOpen(false)} aria-label="Close filters" className="p-2 bg-white/5 rounded-full"><X className="w-6 h-6" /></button>
         </div>
 
         <div className="space-y-10">

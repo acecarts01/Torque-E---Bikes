@@ -88,11 +88,11 @@ export default function Hero() {
                   key={i}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.6 + (i * 0.1) }}
+                  transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1], delay: 0.1 + (i * 0.05) }}
                 >
-                  <h4 className="text-2xl md:text-3xl xl:text-4xl font-black text-white italic tracking-tighter">
+                  <p className="text-2xl md:text-3xl xl:text-4xl font-black text-white italic tracking-tighter">
                     {spec.value}<span className="text-brand-red">{spec.suffix}</span>
-                  </h4>
+                  </p>
                   <p className="text-[10px] uppercase font-bold tracking-[0.2em] text-brand-gray mt-1">{spec.label}</p>
                 </motion.div>
               ))}

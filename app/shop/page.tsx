@@ -105,7 +105,7 @@ export default function ShopPage() {
                 </div>
                 <div className="flex items-center gap-4 text-[10px] font-bold uppercase tracking-widest text-gray-500">
                   <span className="hidden sm:inline">Sort By:</span>
-                  <select className="bg-transparent border-none focus:ring-0 text-white cursor-pointer hover:text-[#ff6a1a] transition-colors uppercase font-black tracking-tighter">
+                  <select aria-label="Sort products" className="bg-transparent border-none focus:ring-0 text-white cursor-pointer hover:text-[#ff6a1a] transition-colors uppercase font-black tracking-tighter">
                     <option className="bg-[#16181b]">Newest First</option>
                     <option className="bg-[#16181b]">Price: Low-High</option>
                     <option className="bg-[#16181b]">Price: High-Low</option>
@@ -129,7 +129,7 @@ export default function ShopPage() {
                 <div className="py-24 text-center space-y-6 bg-[#0e0f11] rounded-sm border border-dashed border-white/10">
                   <ShieldAlert className="w-16 h-16 text-gray-700 mx-auto" />
                   <div className="space-y-2">
-                    <h3 className="text-xl font-black uppercase italic tracking-tighter">No Machines Found</h3>
+                    <p className="text-xl font-black uppercase italic tracking-tighter">No Machines Found</p>
                     <p className="text-sm text-gray-500 max-w-xs mx-auto font-medium">Try adjusting your filters or search criteria. Some custom power combos are built to order.</p>
                   </div>
                   <button 

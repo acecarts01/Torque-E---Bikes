@@ -192,6 +192,7 @@ export default function ContactPage() {
                         <label className="text-[10px] font-bold uppercase tracking-widest text-gray-500 ml-1">Inquiry Type</label>
                         <select 
                           name="type"
+                          aria-label="Inquiry type"
                           className="w-full bg-brand-dark border border-white/10 p-4 text-sm focus:outline-none focus:border-brand transition-colors rounded-sm"
                         >
                           <option>Sales Inquiry</option>
