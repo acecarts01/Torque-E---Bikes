@@ -61,7 +61,15 @@ const AGENT_DISCOVERY_FILES = [
   { path: 'public/.well-known/poppy.json', content: JSON.stringify({ protocol_version: '0.1', organization: { name: SITE.name, domain: DOMAIN }, web: {} }, null, 2) }
 ]
 
+// Light catalogue for the shop grid (only the fields cards and filters use), fetched by the browser after the first paint.
+const shopIndex = PRODUCTS.map(p => ({
+  slug: p.slug, name: p.name, price: p.price, comparePrice: p.comparePrice, bestPrice: p.bestPrice, category: p.category,
+  badge: p.badge, images: [p.images[0]], compliance: p.compliance, shortDescription: p.shortDescription, stock: p.stock,
+  power: p.power, voltage: p.voltage, compatibility: p.compatibility,
+}));
+
 const files = [
+  { path: 'public/shop-index.json', content: JSON.stringify(shopIndex) },
   {
     path: 'src/config/brand-redirects.generated.json',
     content: JSON.stringify(brandRedirects, null, 1)

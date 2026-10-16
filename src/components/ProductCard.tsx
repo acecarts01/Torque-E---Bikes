@@ -28,7 +28,7 @@ export default function ProductCard({ product }: ProductCardProps) {
   const isOutOfStock = product.stock === 'Out of Stock'
 
   return (
-    <div className="reveal group sheen flex flex-col h-full bg-[#1d2024] border border-white/5 rounded-sm overflow-hidden hover:border-[#ff6a1a]/40 hover:-translate-y-1 hover:shadow-[0_18px_40px_-18px_rgba(255,106,26,0.45)] transition-all duration-300 flex-shrink-0 min-h-0">
+    <div className="reveal group sheen [content-visibility:auto] [contain-intrinsic-size:auto_470px] flex flex-col h-full bg-[#1d2024] border border-white/5 rounded-sm overflow-hidden hover:border-[#ff6a1a]/40 hover:-translate-y-1 hover:shadow-[0_18px_40px_-18px_rgba(255,106,26,0.45)] transition-all duration-300 flex-shrink-0 min-h-0">
       <Link href={`/shop/${product.category}/${product.slug}/`} className="relative aspect-[4/3] bg-white p-6 block overflow-hidden">
         <SmartImage 
           src={product.images[0]} 

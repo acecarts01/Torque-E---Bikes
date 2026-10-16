@@ -6,13 +6,15 @@ import { motion, AnimatePresence } from 'motion/react'
 import { ShoppingCart, Menu, X, Search, Zap, ArrowRight } from 'lucide-react'
 import { SITE, CATEGORIES } from '@/src/config/site'
 import { cn } from '@/src/lib/utils'
-import SearchOverlay from './SearchOverlay'
+import dynamic from 'next/dynamic'
+const SearchOverlay = dynamic(() => import('./SearchOverlay'), { ssr: false })
 import { useCart } from '@/src/lib/cart'
 
 export default function Nav() {
   const cartCount = useCart().reduce((n, i) => n + i.qty, 0)
   const [isOpen, setIsOpen] = useState(false)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
+  const [searchLoaded, setSearchLoaded] = useState(false)
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
@@ -91,7 +93,7 @@ export default function Nav() {
           {/* Actions */}
           <div className="flex items-center gap-2">
             <button 
-              onClick={() => setIsSearchOpen(true)}
+              onClick={() => { setSearchLoaded(true); setIsSearchOpen(true) }}
               aria-label="Search products"
               className="p-2.5 hover:bg-white/5 rounded-full transition-colors hidden sm:block outline-none"
             >
@@ -155,7 +157,7 @@ export default function Nav() {
         )}
       </AnimatePresence>
 
-      <SearchOverlay isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
+      {searchLoaded && <SearchOverlay isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />}
     </header>
   )
 }
