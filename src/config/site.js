@@ -26,10 +26,8 @@ export const CONTACT = {
 
 export const SHOP = {
   minOrder: 499.99,
-  freeShippingThreshold: 199, // Base free shipping for smaller items if applicable, but user rules override for bulk
-  shippingFee: 14.95,
-  shippingDiscountThreshold: 9900,
-  shippingDiscountRate: 15,
+  shippingRate: 10, // shipping is this % of the order total (goods, GST-inclusive)
+  freeShippingThreshold: 9900, // orders of this amount or more ship free
   cryptoDiscount: 10,
   paymentMethods: ['bank-transfer', 'payid', 'crypto-BTC', 'crypto-USDT'],
   cryptoAddresses: {

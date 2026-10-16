@@ -19,7 +19,7 @@ export default function Page() {
       name="Budget Electric Bikes"
       eyebrow="Lowest-priced e-bikes"
       intro={`${cheap.length} of the ${all.length} e-bikes listed at Torque E-Bikes are ${aud(2000)} or less, starting from ${aud(all[0].price)}. Check the brakes, battery and warranty on each bike, and compare two or three models in the same price band before you order.`}
-      note="Prices are in Australian dollars. Freight is confirmed with you before payment."
+      note="Prices are in Australian dollars. Shipping is 10% of your order total, free on orders from $9,900."
       links={[{ href: '/electric-bikes/', label: 'All e-bikes' }, { href: '/shop/folding-e-bikes/', label: 'Folding e-bikes' }, { href: '/shop/commuter-and-urban-e-bikes/', label: 'Commuter e-bikes' }]}
       products={cheap.slice(0, 36)}
       gridHeading="Lowest-priced e-bikes"

@@ -20,11 +20,9 @@ export type Totals = {
 /** lineCents: price x quantity for each line, in cents. */
 export function calcTotals(lineCents: number[], paymentMethod: string): Totals {
   const subtotalC = lineCents.reduce((s, n) => s + n, 0)
-  const subtotalD = dollars(subtotalC)
 
-  const baseShipC = subtotalD > SHOP.freeShippingThreshold ? 0 : toCents(SHOP.shippingFee)
-  const shipDiscC = subtotalD >= SHOP.shippingDiscountThreshold ? Math.round(baseShipC * SHOP.shippingDiscountRate / 100) : 0
-  const shippingC = baseShipC - shipDiscC
+  // Shipping is a percentage of the goods total, and free from the threshold upwards.
+  const shippingC = subtotalC >= toCents(SHOP.freeShippingThreshold) ? 0 : Math.round(subtotalC * SHOP.shippingRate / 100)
 
   const beforeDiscC = subtotalC + shippingC
   const cryptoC = paymentMethod === 'crypto' ? Math.round(beforeDiscC * SHOP.cryptoDiscount / 100) : 0

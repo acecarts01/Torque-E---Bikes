@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useCallback, useEffect, useRef, useState } from 'react'
-import { REPLY, SITE } from '@/src/config/site'
+import { REPLY, SITE, SHOP } from '@/src/config/site'
 import { money, parsePaymentDetail, paymentMethodParts } from '@/src/lib/order'
 
 type Rec = any
@@ -197,7 +197,7 @@ function Detail({ kind, r, onStatus, onUpdated }: { kind: 'order' | 'enquiry'; r
       {kind === 'order' ? (
         <div className="space-y-1">
           {r.items.map((i: any) => <p key={i.slug} className="flex justify-between"><span>{i.qty} x {i.name}</span><span>{money(i.line)}</span></p>)}
-          <p className="flex justify-between text-gray-400"><span>Shipping</span><span>{r.shipping ? money(r.shipping) : 'Free'}</span></p>
+          <p className="flex justify-between text-gray-400"><span>{r.shipping ? `Shipping (${SHOP.shippingRate}% of order)` : 'Shipping'}</span><span>{r.shipping ? money(r.shipping) : 'Free'}</span></p>
           {r.cryptoDiscount > 0 && <p className="flex justify-between text-gray-400"><span>Crypto discount</span><span>-{money(r.cryptoDiscount)}</span></p>}
           {typeof r.gst === 'number' && (
             <p className="flex justify-between text-gray-400"><span>{r.gstMode === 'inclusive' ? `Total includes GST (${r.gstRate}%)` : `GST (${r.gstRate}%)`}</span><span>{money(r.gst)}</span></p>

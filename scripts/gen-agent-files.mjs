@@ -72,7 +72,7 @@ ${BRAND.description}
 Location: ${CONTACT.hq}
 Contact: WhatsApp ${CONTACT.whatsapp}, Email ${CONTACT.email}
 Min Order: ${SITE.currency} ${SHOP.minOrder}
-Free Shipping: Over ${SITE.currency} ${SHOP.freeShippingThreshold}
+Shipping: ${SHOP.shippingRate}% of the order total (GST-inclusive); free on orders from ${SITE.currency} ${SHOP.freeShippingThreshold}
 Payment Methods: ${SHOP.paymentMethods.join(', ')}
 Crypto Discount: ${SHOP.cryptoDiscount}%
 

@@ -27,7 +27,7 @@
     ],
     "currency": "AUD",
     "minimum_order_usd": 499.99,
-    "free_shipping_threshold_usd": 199
+    "free_shipping_threshold_usd": 9900
   },
   "contact": {
     "whatsapp": "https://wa.me/61480804189",

@@ -2,7 +2,7 @@
 // Branded HTML emails. LIGHT shell: white card, dark brand header band, brand colour as an accent only.
 // Every <table> and <td> carries an explicit bgcolor attribute AND a background-color style so Outlook, Apple Mail,
 // Zoho and Gmail cannot fall back to their own defaults. Inline CSS only.
-import { SITE, CONTACT, REPLY } from '@/src/config/site'
+import { SITE, CONTACT, REPLY, SHOP } from '@/src/config/site'
 import { money, paymentMethodParts, paymentTermsLines } from '@/src/lib/order'
 
 const C = { page: '#F2F4F0', card: '#FFFFFF', ink: '#1B2320', soft: '#6A746E', faint: '#9AA39D', rule: '#E2E5DF', tint: '#FFF4EC', mono: '#F6F7F5' }
@@ -79,7 +79,7 @@ const totalsTable = (o: Order) => {
     : row(`GST (${o.gstRate}%)`, money(o.gst as number))
   const totalLabel = hasGst ? 'Total payable (AUD, incl. GST)' : 'Total (AUD)'
   return table(
-    row(hasGst && !inclusive ? 'Subtotal (ex GST)' : 'Subtotal', money(o.subtotal)) + row('Shipping', o.shipping === 0 ? 'Free' : money(o.shipping)) +
+    row(hasGst && !inclusive ? 'Subtotal (ex GST)' : 'Subtotal', money(o.subtotal)) + row(o.shipping === 0 ? 'Shipping' : `Shipping (${SHOP.shippingRate}% of order)`, o.shipping === 0 ? 'Free' : money(o.shipping)) +
     (o.cryptoDiscount ? row('Crypto discount', `-${money(o.cryptoDiscount)}`) : '') +
     (inclusive ? '' : gstRow) +
     `<tr>${td(`<b>${totalLabel}</b>`, C.tint, `padding:10px;font-size:16px;border-top:2px solid ${ACCENT};`)}${td(`<b>${money(o.total)}</b>`, C.tint, `padding:10px;font-size:18px;text-align:right;border-top:2px solid ${ACCENT};`)}</tr>` +

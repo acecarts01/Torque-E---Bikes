@@ -130,7 +130,10 @@ export default function CheckoutPage() {
                     </div>
                   ))}
                   <div className="flex justify-between text-sm pt-2"><span className="text-gray-400">{t.gstMode === 'exclusive' ? 'Subtotal (ex GST)' : 'Subtotal'}</span><span>{formatCurrency(subtotal)}</span></div>
-                  <div className="flex justify-between text-sm"><span className="text-gray-400">Shipping</span><span className={shipping === 0 ? 'text-green-500 font-bold' : ''}>{shipping === 0 ? 'FREE' : formatCurrency(shipping)}</span></div>
+                  <div className="flex justify-between text-sm"><span className="text-gray-400">{shipping === 0 ? 'Shipping' : `Shipping (${SHOP.shippingRate}% of order)`}</span><span className={shipping === 0 ? 'text-green-500 font-bold' : ''}>{shipping === 0 ? 'FREE' : formatCurrency(shipping)}</span></div>
+                  {shipping > 0 && (
+                    <p className="text-[11px] text-gray-500">Free shipping on orders from {formatCurrency(SHOP.freeShippingThreshold)}. Add {formatCurrency(SHOP.freeShippingThreshold - subtotal)} more to ship free.</p>
+                  )}
                   {cryptoDiscount > 0 && (
                     <div className="flex justify-between text-sm text-[#ff6a1a]"><span>Crypto discount ({SHOP.cryptoDiscount}%)</span><span>-{formatCurrency(cryptoDiscount)}</span></div>
                   )}

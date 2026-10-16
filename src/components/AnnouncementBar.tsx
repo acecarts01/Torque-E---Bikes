@@ -7,7 +7,7 @@ import { Truck, Zap, ShieldCheck } from 'lucide-react'
 import { SHOP } from '@/src/config/site'
 
 const announcements = [
-  { text: `${SHOP.shippingDiscountRate}% OFF SHIPPING ON ORDERS OVER $${SHOP.shippingDiscountThreshold}`, icon: Truck },
+  { text: `FREE SHIPPING ON ORDERS FROM $${SHOP.freeShippingThreshold.toLocaleString('en-AU')}`, icon: Truck },
   { text: `${SHOP.cryptoDiscount}% CRYPTO DISCOUNT AUTOMATICALLY APPLIED ON BTC/USDT`, icon: Zap },
   { text: `MINIMUM ORDER $${SHOP.minOrder} AUD`, icon: ShieldCheck }
 ]
