@@ -2,7 +2,8 @@
 // Shared handler for the contact and wholesale forms: validate, store, email the owner, email the customer.
 import { randomBytes } from 'crypto'
 import { saveRecord, isStoreConfigured } from '@/src/lib/store'
-import { sendMail, shell, esc, nl2br, detailRow, detailTable, ownerAddress } from '@/src/lib/mailer'
+import { sendMail, ownerAddress } from '@/src/lib/mailer'
+import { enquiryNotificationEmail, enquiryAckEmail } from '@/src/lib/emailTemplates'
 import { CONTACT } from '@/src/config/site'
 
 export const EMAIL_RE = /^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]{2,}$/
@@ -41,32 +42,11 @@ export async function handleEnquiry(req: Request, kind: EnquiryKind) {
     try { await saveRecord('enquiry', reference, record); stored = true } catch (e) { console.error('store failed', e) }
   }
 
-  const title = kind === 'wholesale' ? 'New wholesale application' : 'New website enquiry'
-  const rows =
-    detailRow('Reference', esc(reference)) + detailRow('Name', esc(name)) +
-    detailRow('Email', `<a href="mailto:${esc(email)}">${esc(email)}</a>`) +
-    (phone ? detailRow('Phone', esc(phone)) : '') +
-    (type ? detailRow('Topic', esc(type)) : '') +
-    (kind === 'wholesale' ? detailRow('Business', esc(business)) + detailRow('ABN/ACN', esc(abn)) : '')
+  const ownerMail = enquiryNotificationEmail(record as any)
+  const owner = await sendMail({ to: ownerAddress(), replyTo: email, ...ownerMail })
 
-  const owner = await sendMail({
-    to: ownerAddress(),
-    replyTo: email,
-    subject: `${title} ${reference} - ${name}`,
-    html: shell(title, detailTable(rows) + `<p style="margin:0 0 6px;color:#6b7280;">Message</p><p style="margin:0;">${nl2br(message)}</p>`),
-  })
-
-  const ack = await sendMail({
-    to: email,
-    replyTo: CONTACT.email,
-    subject: `We received your ${kind === 'wholesale' ? 'wholesale application' : 'enquiry'} (${reference})`,
-    html: shell('Thanks, we have your message',
-      `<p>Hi ${esc(name)},</p>
-       <p>Thanks for contacting Torque E-Bikes. The Torque Team will reply from this address, usually within one business day (Mon-Fri, 9am-5pm AEST).</p>
-       ${detailTable(detailRow('Your reference', esc(reference)))}
-       <p style="margin:0 0 6px;color:#6b7280;">Your message</p><p style="margin:0 0 16px;">${nl2br(message)}</p>
-       <p>If it is urgent, call ${esc(CONTACT.phone)} or WhatsApp ${esc(CONTACT.whatsapp)}.</p>`),
-  })
+  const ackMail = enquiryAckEmail(record as any)
+  const ack = await sendMail({ to: email, replyTo: CONTACT.email, ...ackMail })
 
   if (!stored && !owner.sent) {
     return Response.json({ success: false, message: `We could not send your message. Please email ${CONTACT.email} or call ${CONTACT.phone}.` }, { status: 502 })

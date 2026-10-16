@@ -1,24 +1,28 @@
 'use client'
 
-import React, { useCallback, useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useRef, useState } from 'react'
+import { REPLY, SITE } from '@/src/config/site'
+import { money, parsePaymentDetail, paymentMethodParts } from '@/src/lib/order'
 
-type Order = any
-type Enquiry = any
+type Rec = any
 
 const STATUSES = ['new', 'awaiting-payment', 'paid', 'shipped', 'completed', 'cancelled']
-const money = (n: number) => new Intl.NumberFormat('en-AU', { style: 'currency', currency: 'AUD' }).format(n)
 const when = (iso: string) => new Date(iso).toLocaleString('en-AU', { dateStyle: 'medium', timeStyle: 'short' })
 const box = 'bg-[#1d2024] border border-white/10 rounded-sm'
 const input = 'w-full bg-[#16181b] border border-white/10 rounded-sm px-3 py-2 text-sm text-white outline-none focus:border-[#ff6a1a]'
+const lbl = 'block text-[10px] font-black uppercase tracking-widest text-gray-500 mb-1'
+const post = (url: string, body: unknown) =>
+  fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) }).then(async r => ({ status: r.status, data: await r.json().catch(() => ({})) }))
 
 export default function AdminPage() {
   const [state, setState] = useState<'loading' | 'login' | 'ready'>('loading')
   const [passcode, setPasscode] = useState('')
   const [msg, setMsg] = useState('')
   const [tab, setTab] = useState<'orders' | 'enquiries'>('orders')
-  const [orders, setOrders] = useState<Order[]>([])
-  const [enquiries, setEnquiries] = useState<Enquiry[]>([])
+  const [orders, setOrders] = useState<Rec[]>([])
+  const [enquiries, setEnquiries] = useState<Rec[]>([])
   const [open, setOpen] = useState<string | null>(null)
+  const deepLinked = useRef(false)
 
   const fetchData = useCallback(async () => {
     const res = await fetch('/api/admin/data/', { cache: 'no-store' })
@@ -30,6 +34,13 @@ export default function AdminPage() {
     if (r.unauthorised) { setState('login'); return }
     if (!r.data?.ok) { setMsg(r.data?.message || 'Could not load data.'); setState('ready'); return }
     setOrders(r.data.orders); setEnquiries(r.data.enquiries); setMsg(''); setState('ready')
+    // Deep link from the notification emails: /admin/?order=TQR-... or /admin/?enquiry=TQE-...
+    if (!deepLinked.current) {
+      deepLinked.current = true
+      const sp = new URLSearchParams(window.location.search)
+      const o = sp.get('order'), q = sp.get('enquiry')
+      if (o) { setTab('orders'); setOpen(o) } else if (q) { setTab('enquiries'); setOpen(q) }
+    }
   }, [])
 
   const load = useCallback(() => fetchData().then(apply), [fetchData, apply])
@@ -38,11 +49,14 @@ export default function AdminPage() {
     fetchData().then(apply).catch(() => { setMsg('Could not reach the server.'); setState('login') })
   }, [fetchData, apply])
 
+  useEffect(() => {
+    if (open) document.getElementById(`rec-${open}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }, [open, state])
+
   async function login(e: React.FormEvent) {
     e.preventDefault()
     setMsg('')
-    const res = await fetch('/api/admin/login/', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ passcode }) })
-    const data = await res.json().catch(() => ({}))
+    const { data } = await post('/api/admin/login/', { passcode })
     if (!data.ok) { setMsg(data.message || 'Login failed.'); return }
     setPasscode('')
     await load()
@@ -53,14 +67,13 @@ export default function AdminPage() {
     setOrders([]); setEnquiries([]); setState('login')
   }
 
-  const replace = (kind: 'order' | 'enquiry', rec: any) => {
-    const fn = (list: any[]) => list.map(r => (r.id === rec.id ? rec : r))
-    kind === 'order' ? setOrders(fn) : setEnquiries(fn)
+  const replace = (kind: 'order' | 'enquiry', rec: Rec) => {
+    const fn = (list: Rec[]) => list.map(r => (r.id === rec.id ? rec : r))
+    if (kind === 'order') setOrders(fn); else setEnquiries(fn)
   }
 
   async function setStatus(kind: 'order' | 'enquiry', id: string, status: string) {
-    const res = await fetch('/api/admin/update/', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ kind, id, status }) })
-    const data = await res.json().catch(() => ({}))
+    const { data } = await post('/api/admin/update/', { kind, id, status })
     if (data.ok) replace(kind, data.record); else setMsg(data.message || 'Update failed.')
   }
 
@@ -71,7 +84,7 @@ export default function AdminPage() {
       <main className="min-h-screen bg-[#16181b] flex items-center justify-center p-4">
         <form onSubmit={login} className={`${box} p-8 w-full max-w-sm space-y-4`}>
           <h1 className="text-xl font-black italic uppercase tracking-tighter text-white">Torque Admin</h1>
-          <label className="block text-[10px] font-black uppercase tracking-widest text-gray-500" htmlFor="pc">Passcode</label>
+          <label className={lbl} htmlFor="pc">Passcode</label>
           <input id="pc" type="password" autoComplete="current-password" value={passcode} onChange={e => setPasscode(e.target.value)} className={input} autoFocus />
           {msg && <p role="alert" className="text-sm text-red-400">{msg}</p>}
           <button className="w-full bg-[#ff6a1a] text-[#140800] py-3 rounded-sm font-black uppercase tracking-widest text-xs">Sign in</button>
@@ -81,7 +94,7 @@ export default function AdminPage() {
   }
 
   const rows = tab === 'orders' ? orders : enquiries
-  const newCount = (list: any[]) => list.filter(r => r.status === 'new').length
+  const newCount = (list: Rec[]) => list.filter(r => r.status === 'new').length
 
   return (
     <main className="min-h-screen bg-[#16181b] text-white p-4 md:p-8">
@@ -95,27 +108,32 @@ export default function AdminPage() {
         </div>
 
         <div className="flex gap-2">
-          {(['orders', 'enquiries'] as const).map(t => (
-            <button key={t} onClick={() => { setTab(t); setOpen(null) }}
-              className={`px-5 py-2 text-xs font-black uppercase tracking-widest rounded-sm ${tab === t ? 'bg-[#ff6a1a] text-[#140800]' : 'bg-white/5 text-gray-400'}`}>
-              {t} ({(t === 'orders' ? orders : enquiries).length}{newCount(t === 'orders' ? orders : enquiries) ? `, ${newCount(t === 'orders' ? orders : enquiries)} new` : ''})
-            </button>
-          ))}
+          {(['orders', 'enquiries'] as const).map(t => {
+            const list = t === 'orders' ? orders : enquiries
+            return (
+              <button key={t} onClick={() => { setTab(t); setOpen(null) }}
+                className={`px-5 py-2 text-xs font-black uppercase tracking-widest rounded-sm ${tab === t ? 'bg-[#ff6a1a] text-[#140800]' : 'bg-white/5 text-gray-400'}`}>
+                {t} ({list.length}{newCount(list) ? `, ${newCount(list)} new` : ''})
+              </button>
+            )
+          })}
         </div>
 
         {msg && <p role="alert" className="text-sm text-red-400">{msg}</p>}
         {rows.length === 0 && !msg && <p className="text-gray-500 text-sm">Nothing here yet.</p>}
+        {open && !rows.some(r => r.id === open) && <p className="text-sm text-yellow-400">Could not find {open}. Try Refresh, or check the other tab.</p>}
 
         <div className="space-y-3">
-          {rows.map((r: any) => {
+          {rows.map(r => {
             const kind = tab === 'orders' ? 'order' : 'enquiry'
             const isOpen = open === r.id
             return (
-              <div key={r.id} className={box}>
+              <div key={r.id} id={`rec-${r.id}`} className={`${box} ${isOpen ? 'border-[#ff6a1a]/60' : ''}`}>
                 <button onClick={() => setOpen(isOpen ? null : r.id)} className="w-full text-left p-4 flex flex-wrap items-center gap-x-6 gap-y-1">
                   <span className="font-black text-[#ff6a1a]">{r.id}</span>
                   <span className="font-bold">{r.name}</span>
                   {kind === 'order' && <span className="text-gray-300">{money(r.total)}</span>}
+                  {kind === 'enquiry' && <span className="text-xs text-gray-400">{r.kind === 'wholesale' ? 'Wholesale' : r.type || 'Enquiry'}</span>}
                   <span className="text-xs text-gray-500">{when(r.createdAt)}</span>
                   <span className={`ml-auto text-[10px] font-black uppercase tracking-widest px-2 py-1 rounded-sm ${r.status === 'new' ? 'bg-[#ff6a1a] text-[#140800]' : 'bg-white/10 text-gray-300'}`}>{r.status}</span>
                 </button>
@@ -129,39 +147,48 @@ export default function AdminPage() {
   )
 }
 
-function Detail({ kind, r, onStatus, onUpdated }: { kind: 'order' | 'enquiry'; r: any; onStatus: (k: 'order' | 'enquiry', id: string, s: string) => void; onUpdated: (rec: any) => void }) {
-  const [subject, setSubject] = useState(kind === 'order' ? `Payment details for order ${r.id}` : `Re: your enquiry ${r.id}`)
+function Detail({ kind, r, onStatus, onUpdated }: { kind: 'order' | 'enquiry'; r: Rec; onStatus: (k: 'order' | 'enquiry', id: string, s: string) => void; onUpdated: (rec: Rec) => void }) {
+  const [mode, setMode] = useState<'payment' | 'reply'>(kind === 'order' ? 'payment' : 'reply')
+  const [methodId, setMethodId] = useState<string>(r.paymentMethod || REPLY.paymentMethods[0].id)
+  const [details, setDetails] = useState('')
+  const [note, setNote] = useState('')
+  const [subject, setSubject] = useState(kind === 'order' ? `Re: order ${r.id} - Torque E-Bikes` : `Re: your enquiry ${r.id}`)
   const [message, setMessage] = useState('')
   const [sending, setSending] = useState(false)
-  const [note, setNote] = useState('')
+  const [result, setResult] = useState<{ ok: boolean; text: string } | null>(null)
+
+  const fields = parsePaymentDetail(details)
+  const parts = kind === 'order' ? paymentMethodParts(methodId, r.total, r.id) : null
+  const canSend = mode === 'payment' ? fields.length > 0 : message.trim().length > 0
+  const phoneDigits = String(r.phone || '').replace(/\D/g, '').replace(/^0/, '61')
+  const waText = parts
+    ? [`*${SITE.name}*`, '', `Hi ${String(r.name).split(' ')[0]}, payment details for order ${r.id}:`, '', `Amount due: ${money(r.total)}`, parts.opening, '', ...fields.map(f => `${f.label}: ${f.value}`), '', parts.closing].join('\n')
+    : ''
 
   async function send() {
-    setSending(true); setNote('')
-    const res = await fetch('/api/admin/reply/', {
-      method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ kind, id: r.id, subject, message, markAwaitingPayment: kind === 'order' }),
-    })
-    const data = await res.json().catch(() => ({}))
+    setSending(true); setResult(null)
+    const payload = mode === 'payment' ? { kind, id: r.id, type: 'payment', methodId, details, note } : { kind, id: r.id, type: 'reply', subject, message }
+    const { data } = await post('/api/admin/reply/', payload)
     setSending(false)
-    if (data.ok) { setNote('Sent.'); setMessage(''); onUpdated(data.record) } else setNote(data.message || 'Send failed.')
+    if (data.ok) {
+      setResult({ ok: true, text: `Sent to ${r.email}.` }); setMessage(''); setDetails(''); setNote(''); onUpdated(data.record)
+    } else setResult({ ok: false, text: data.message || 'Send failed.' })
   }
-
-  const wa = `https://wa.me/${String(r.phone || '').replace(/\D/g, '').replace(/^0/, '61')}`
 
   return (
     <div className="border-t border-white/10 p-4 space-y-5 text-sm">
       <div className="grid sm:grid-cols-2 gap-4">
         <div className="space-y-1">
           <p><span className="text-gray-500">Email:</span> <a className="underline" href={`mailto:${r.email}`}>{r.email}</a></p>
-          {r.phone && <p><span className="text-gray-500">Phone:</span> {r.phone} {kind === 'order' && <a className="underline text-[#ff6a1a] ml-2" href={wa} target="_blank" rel="noreferrer">WhatsApp</a>}</p>}
+          {r.phone && <p><span className="text-gray-500">Phone:</span> {r.phone}</p>}
           {kind === 'order' && <p><span className="text-gray-500">Deliver to:</span> {r.address.street}, {r.address.suburb} {r.address.state} {r.address.postcode}</p>}
-          {kind === 'order' && <p><span className="text-gray-500">Payment:</span> {r.paymentMethod}</p>}
+          {kind === 'order' && <p><span className="text-gray-500">Chosen payment:</span> {paymentMethodParts(r.paymentMethod, 0, '').label}</p>}
           {kind === 'enquiry' && r.business_name && <p><span className="text-gray-500">Business:</span> {r.business_name} (ABN/ACN {r.abn_acn})</p>}
           {kind === 'enquiry' && r.type && <p><span className="text-gray-500">Topic:</span> {r.type}</p>}
         </div>
         <div>
-          <label className="block text-[10px] font-black uppercase tracking-widest text-gray-500 mb-1">Status</label>
-          <select value={r.status} onChange={e => onStatus(kind, r.id, e.target.value)} className={input}>
+          <label className={lbl} htmlFor={`st-${r.id}`}>Status</label>
+          <select id={`st-${r.id}`} value={r.status} onChange={e => onStatus(kind, r.id, e.target.value)} className={input}>
             {STATUSES.map(s => <option key={s} value={s}>{s}</option>)}
           </select>
         </div>
@@ -176,26 +203,80 @@ function Detail({ kind, r, onStatus, onUpdated }: { kind: 'order' | 'enquiry'; r
           {r.notes && <p className="pt-2 text-gray-300"><span className="text-gray-500">Customer notes:</span> {r.notes}</p>}
         </div>
       ) : (
-        <p className="whitespace-pre-wrap text-gray-200">{r.message}</p>
+        <p className="whitespace-pre-wrap text-gray-200 bg-[#16181b] rounded-sm p-3">{r.message}</p>
       )}
 
       {r.replies?.length > 0 && (
         <div className="space-y-2">
-          <p className="text-[10px] font-black uppercase tracking-widest text-gray-500">Sent emails</p>
+          <p className={lbl}>Sent emails</p>
           {r.replies.map((x: any, i: number) => (
             <div key={i} className="bg-[#16181b] rounded-sm p-3"><p className="text-xs text-gray-500">{when(x.at)} - {x.subject}</p><p className="whitespace-pre-wrap">{x.message}</p></div>
           ))}
         </div>
       )}
 
-      <div className="space-y-2">
-        <p className="text-[10px] font-black uppercase tracking-widest text-gray-500">{kind === 'order' ? 'Email payment details to customer' : 'Reply to customer'}</p>
-        <input value={subject} onChange={e => setSubject(e.target.value)} className={input} aria-label="Subject" />
-        <textarea value={message} onChange={e => setMessage(e.target.value)} rows={6} className={input}
-          placeholder={kind === 'order' ? 'Paste the bank / PayID / crypto details here. Include the order reference as the payment reference.' : 'Write your reply...'} />
-        <div className="flex items-center gap-3">
-          <button onClick={send} disabled={sending || !message.trim()} className="bg-[#ff6a1a] text-[#140800] px-5 py-2 rounded-sm font-black uppercase tracking-widest text-xs disabled:opacity-50">{sending ? 'Sending...' : 'Send email'}</button>
-          {note && <span className="text-xs text-gray-300">{note}</span>}
+      <div className="space-y-3 border-t border-white/10 pt-4">
+        {kind === 'order' && (
+          <div className="flex gap-2">
+            {(['payment', 'reply'] as const).map(m => (
+              <button key={m} onClick={() => { setMode(m); setResult(null) }}
+                className={`px-4 py-2 text-[10px] font-black uppercase tracking-widest rounded-sm ${mode === m ? 'bg-[#ff6a1a] text-[#140800]' : 'bg-white/5 text-gray-400'}`}>
+                {m === 'payment' ? 'Send payment details' : 'General reply'}
+              </button>
+            ))}
+          </div>
+        )}
+
+        {mode === 'payment' && parts ? (
+          <div className="space-y-3">
+            <div>
+              <label className={lbl} htmlFor={`pm-${r.id}`}>Payment method</label>
+              <select id={`pm-${r.id}`} value={methodId} onChange={e => setMethodId(e.target.value)} className={input}>
+                {REPLY.paymentMethods.map(m => <option key={m.id} value={m.id}>{m.label}</option>)}
+              </select>
+            </div>
+            <div>
+              <label className={lbl} htmlFor={`pd-${r.id}`}>Paste the payment details (one per line, “Label: value”)</label>
+              <textarea id={`pd-${r.id}`} value={details} onChange={e => setDetails(e.target.value)} rows={5} className={`${input} font-mono`}
+                placeholder={'Account name: The Torque Team Pty Ltd\nBSB: 000-000\nAccount number: 12345678\nReference: ' + r.id} />
+            </div>
+            <div>
+              <label className={lbl} htmlFor={`pn-${r.id}`}>Extra note to the customer (optional)</label>
+              <textarea id={`pn-${r.id}`} value={note} onChange={e => setNote(e.target.value)} rows={2} className={input} />
+            </div>
+            <div className="bg-white rounded-sm p-4 text-[#1B2320]">
+              <p className="text-[10px] font-bold tracking-widest text-gray-500">PREVIEW: WHAT THE CUSTOMER SEES</p>
+              <p className="text-2xl font-bold mt-1">{money(r.total)} <span className="text-xs font-normal text-gray-500">due</span></p>
+              <p className="text-sm mt-2">{parts.opening}</p>
+              <div className="mt-2 border border-gray-200 bg-gray-50 rounded-sm">
+                {fields.length === 0 && <p className="p-3 text-xs text-gray-400">Fields appear here as you type.</p>}
+                {fields.map((f, i) => (
+                  <div key={i} className="flex gap-3 px-3 py-2 border-b border-gray-200 last:border-0">
+                    <span className="w-2/5 text-[10px] font-bold uppercase tracking-widest text-gray-500">{f.label}</span>
+                    <span className="font-mono text-sm break-all">{f.value}</span>
+                  </div>
+                ))}
+              </div>
+              <p className="text-sm mt-2">{parts.closing}</p>
+            </div>
+          </div>
+        ) : (
+          <div className="space-y-2">
+            <p className={lbl}>{kind === 'order' ? 'Email the customer' : 'Reply to the customer'}</p>
+            <input value={subject} onChange={e => setSubject(e.target.value)} className={input} aria-label="Subject" />
+            <textarea value={message} onChange={e => setMessage(e.target.value)} rows={6} className={input} placeholder="Write your reply..." aria-label="Message" />
+          </div>
+        )}
+
+        <div className="flex flex-wrap items-center gap-3">
+          <button onClick={send} disabled={sending || !canSend} className="bg-[#ff6a1a] text-[#140800] px-5 py-2 rounded-sm font-black uppercase tracking-widest text-xs disabled:opacity-50">
+            {sending ? 'Sending...' : mode === 'payment' ? 'Email payment details' : 'Send email'}
+          </button>
+          {mode === 'payment' && r.phone && canSend && (
+            <a className="px-5 py-2 rounded-sm font-black uppercase tracking-widest text-xs bg-white/5 hover:bg-white/10" target="_blank" rel="noreferrer"
+              href={`https://wa.me/${phoneDigits}?text=${encodeURIComponent(waText)}`}>Also send via WhatsApp</a>
+          )}
+          {result && <span role="status" className={`text-xs ${result.ok ? 'text-[#35c17a]' : 'text-red-400'}`}>{result.text}</span>}
         </div>
       </div>
     </div>

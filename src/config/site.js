@@ -152,3 +152,29 @@ export const REVIEWS = [
   { id: 7, author: "Liam K.", location: "Cairns", rating: 5, text: "Rugged components. I take my bike through some heavy bush and the Torque components haven't missed a beat.", date: "Mar 2024" },
   { id: 8, author: "Emma S.", location: "Hobart", rating: 5, text: "Transformed my old MTB with the 1000W hub kit. It's a completely different machine now. Great advice from the team.", date: "May 2025" }
 ]
+
+// Reply Portal: single source for emails, payment wording and admin deep links.
+export const REPLY = {
+  brand: { primary: '#ff6a1a', headerDark: '#16181b' },
+  currency: { code: 'AUD', symbol: '$', locale: 'en-AU' },
+  orderPrefix: 'TQR',
+  headerTagline: 'Power Lab Australia · Brisbane, QLD',
+  dispatchLine: 'We ship Australia-wide, usually within 24-48 hours of cleared payment.',
+  paymentMethods: [
+    {
+      id: 'bank-transfer', label: 'Bank transfer',
+      opening: 'Please pay {amount} by bank transfer (EFT) to the account below.',
+      closing: 'Use {ref} as the payment reference so we can match your payment straight away.',
+    },
+    {
+      id: 'payid', label: 'PayID / OSKO',
+      opening: 'Please pay {amount} using PayID / OSKO to the PayID below.',
+      closing: 'Include {ref} in the payment description so we can match your payment straight away.',
+    },
+    {
+      id: 'crypto', label: 'Crypto (BTC / USDT)',
+      opening: 'Please send the value of {amount} in BTC or USDT to the wallet below, on the network shown. Your crypto discount is already included in this amount.',
+      closing: 'Once sent, reply with the transaction hash (TXID) and quote {ref}. We mark the order paid after 3 network confirmations.',
+    },
+  ],
+}

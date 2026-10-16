@@ -1,32 +1,59 @@
 import { NextRequest } from 'next/server'
 import { isAdmin } from '@/src/lib/adminAuth'
 import { getRecord, updateRecord } from '@/src/lib/store'
-import { sendMail, shell, nl2br, esc } from '@/src/lib/mailer'
+import { sendMail } from '@/src/lib/mailer'
+import { paymentDetailsEmail, replyEmail } from '@/src/lib/emailTemplates'
+import { parsePaymentDetail, findMethod } from '@/src/lib/order'
 import { CONTACT } from '@/src/config/site'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
 
+// POST { kind, id, type: 'payment' | 'reply', ... }
+//  payment: { methodId, details, note? }   order only. Parses the pasted details into fields and sends the HTML payment email.
+//  reply:   { subject?, message }          orders and enquiries. Sends a branded HTML reply.
 export async function POST(req: NextRequest) {
   if (!(await isAdmin(req))) return Response.json({ ok: false }, { status: 401 })
-  const { kind, id, subject, message, markAwaitingPayment } = await req.json().catch(() => ({}))
-  if ((kind !== 'order' && kind !== 'enquiry') || !id || !String(message || '').trim()) return Response.json({ ok: false, message: 'Write a message first.' }, { status: 400 })
+  const body = await req.json().catch(() => ({}))
+  const { kind, id, type } = body
+  if ((kind !== 'order' && kind !== 'enquiry') || !id) return Response.json({ ok: false, message: 'Bad request.' }, { status: 400 })
 
   const rec: any = await getRecord(kind, String(id))
   if (!rec) return Response.json({ ok: false, message: 'Not found.' }, { status: 404 })
 
-  const sent = await sendMail({
-    to: rec.email,
-    replyTo: CONTACT.email,
-    subject: String(subject || '').trim().slice(0, 200) || `Re: ${rec.id} - Torque E-Bikes`,
-    html: shell(`Re: ${rec.id}`, `<p>Hi ${esc(rec.name)},</p><p>${nl2br(String(message).slice(0, 8000))}</p><p style="margin-top:20px;">Kind regards,<br>The Torque Team</p>`),
-  })
+  const now = new Date().toISOString()
+  let subject: string
+  let html: string
+  const patch: Record<string, unknown> = { updatedAt: now }
+  const logEntry: Record<string, unknown> = { at: now }
+
+  if (type === 'payment') {
+    if (kind !== 'order') return Response.json({ ok: false, message: 'Payment details only apply to orders.' }, { status: 400 })
+    const methodId = findMethod(String(body.methodId)) ? String(body.methodId) : rec.paymentMethod
+    const fields = parsePaymentDetail(String(body.details || '').slice(0, 4000))
+    if (!fields.length) return Response.json({ ok: false, message: 'Paste the payment details first.' }, { status: 400 })
+    const note = String(body.note || '').trim().slice(0, 2000)
+    const mail = paymentDetailsEmail({ id: rec.id, name: rec.name, amount: rec.total, methodId, fields, note })
+    subject = mail.subject
+    html = mail.html
+    patch.paymentDetails = { methodId, fields, sentAt: now }
+    if (['new', 'awaiting-payment'].includes(rec.status)) patch.status = 'awaiting-payment'
+    logEntry.subject = subject
+    logEntry.message = `Payment details (${methodId}):\n` + fields.map(f => `${f.label}: ${f.value}`).join('\n') + (note ? `\n\n${note}` : '')
+  } else {
+    const message = String(body.message || '').trim().slice(0, 8000)
+    if (!message) return Response.json({ ok: false, message: 'Write a message first.' }, { status: 400 })
+    subject = String(body.subject || '').trim().slice(0, 200) || `Re: ${rec.id} - Torque E-Bikes`
+    html = replyEmail({ id: rec.id, name: rec.name, message }).html
+    if (kind === 'enquiry' && rec.status === 'new') patch.status = 'completed'
+    logEntry.subject = subject
+    logEntry.message = message
+  }
+
+  const sent = await sendMail({ to: rec.email, replyTo: CONTACT.email, subject, html })
   if (!sent.sent) return Response.json({ ok: false, message: `Email failed: ${sent.error}` }, { status: 502 })
 
-  const log = [...(rec.replies || []), { at: new Date().toISOString(), subject: subject || '', message: String(message).slice(0, 8000) }]
-  const patch: Record<string, unknown> = { replies: log, updatedAt: new Date().toISOString() }
-  if (kind === 'order' && markAwaitingPayment && rec.status === 'new') patch.status = 'awaiting-payment'
-  if (kind === 'enquiry' && rec.status === 'new') patch.status = 'completed'
+  patch.replies = [...(rec.replies || []), logEntry]
   const next = await updateRecord(kind, String(id), patch)
   return Response.json({ ok: true, record: next })
 }

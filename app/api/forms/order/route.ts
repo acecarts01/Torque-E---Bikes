@@ -1,14 +1,15 @@
 // Order intake: prices are recalculated on the server from the catalogue, never trusted from the browser.
 import { PRODUCTS, SHOP, CONTACT } from '@/src/config/site'
 import { saveRecord, isStoreConfigured } from '@/src/lib/store'
-import { sendMail, shell, esc, nl2br, detailRow, detailTable, ownerAddress } from '@/src/lib/mailer'
+import { sendMail, ownerAddress } from '@/src/lib/mailer'
+import { orderNotificationEmail, orderConfirmationEmail } from '@/src/lib/emailTemplates'
+import { money } from '@/src/lib/order'
 import { EMAIL_RE, clean, makeRef } from '@/src/lib/enquiry'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
 
 const METHODS: Record<string, string> = { 'bank-transfer': 'Bank transfer', payid: 'PayID / OSKO', crypto: 'Crypto (BTC / USDT)' }
-const money = (n: number) => new Intl.NumberFormat('en-AU', { style: 'currency', currency: 'AUD' }).format(n)
 const round2 = (n: number) => Math.round(n * 100) / 100
 
 export async function POST(req: Request) {
@@ -61,41 +62,11 @@ export async function POST(req: Request) {
     try { await saveRecord('order', reference, record); stored = true } catch (e) { console.error('store failed', e) }
   }
 
-  const itemRows = items.map(i =>
-    `<tr><td style="padding:6px 8px 6px 0;border-bottom:1px solid #e5e7eb;">${esc(i.name)}</td><td style="padding:6px 8px;border-bottom:1px solid #e5e7eb;text-align:center;">${i.qty}</td><td style="padding:6px 0;border-bottom:1px solid #e5e7eb;text-align:right;">${money(i.line)}</td></tr>`).join('')
-  const totalsRows =
-    detailRow('Subtotal', money(subtotal)) + detailRow('Shipping', shipping === 0 ? 'Free' : money(shipping)) +
-    (cryptoDiscount ? detailRow(`Crypto discount (${SHOP.cryptoDiscount}%)`, `-${money(cryptoDiscount)}`) : '') +
-    detailRow('<b>Total (AUD)</b>', `<b>${money(total)}</b>`)
-  const itemsTable = `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-size:14px;margin:8px 0 12px;"><tr><th align="left" style="padding:6px 8px 6px 0;color:#6b7280;">Item</th><th style="padding:6px 8px;color:#6b7280;">Qty</th><th align="right" style="padding:6px 0;color:#6b7280;">Amount</th></tr>${itemRows}</table>`
-  const addrText = `${address.street}, ${address.suburb} ${address.state} ${address.postcode}`
   const offRoad = items.some(i => i.offRoad)
-
-  const owner = await sendMail({
-    to: ownerAddress(),
-    replyTo: email,
-    subject: `New order ${reference} - ${money(total)} - ${name}`,
-    html: shell(`New order ${reference}`,
-      detailTable(detailRow('Customer', esc(name)) + detailRow('Email', `<a href="mailto:${esc(email)}">${esc(email)}</a>`) + detailRow('Phone', esc(phone)) +
-        detailRow('Deliver to', esc(addrText)) + detailRow('Payment', esc(METHODS[method]))) +
-      itemsTable + detailTable(totalsRows) +
-      (notes ? `<p style="margin:0 0 6px;color:#6b7280;">Customer notes</p><p style="margin:0 0 12px;">${nl2br(notes)}</p>` : '') +
-      `<p style="margin:0;color:#6b7280;">Send payment details from the admin dashboard: ${esc(process.env.NEXT_PUBLIC_SITE_URL || 'https://torquee-bikesaustralia.com.au')}/admin/</p>`),
-  })
-
-  const ack = await sendMail({
-    to: email,
-    replyTo: CONTACT.email,
-    subject: `Order ${reference} received - Torque E-Bikes`,
-    html: shell('Thanks, we have your order',
-      `<p>Hi ${esc(name)},</p>
-       <p>We have received your order. <b>It is not paid yet.</b> The Torque Team will email you the payment details for your chosen method (${esc(METHODS[method])}) shortly, and will confirm stock and dispatch once payment clears.</p>
-       ${detailTable(detailRow('Order reference', `<b>${esc(reference)}</b>`) + detailRow('Deliver to', esc(addrText)))}
-       ${itemsTable}${detailTable(totalsRows)}
-       <p>Please quote <b>${esc(reference)}</b> as your payment reference.</p>
-       ${offRoad ? '<p style="font-size:13px;color:#6b7280;">Reminder: high-powered machines and kits in this order are for off-road, private property use only and are not for public roads or paths.</p>' : ''}
-       <p>Questions? Reply to this email, call ${esc(CONTACT.phone)} or WhatsApp ${esc(CONTACT.whatsapp)}.</p>`),
-  })
+  const ownerMail = orderNotificationEmail(record as any)
+  const owner = await sendMail({ to: ownerAddress(), replyTo: email, ...ownerMail })
+  const ackMail = orderConfirmationEmail(record as any, offRoad)
+  const ack = await sendMail({ to: email, replyTo: CONTACT.email, ...ackMail })
 
   if (!stored && !owner.sent) {
     return Response.json({ success: false, message: `We could not record your order. Please email ${CONTACT.email} or call ${CONTACT.phone}.` }, { status: 502 })
