@@ -1,4 +1,5 @@
 import { NextRequest } from 'next/server'
+import { randomBytes } from 'crypto'
 import { isAdmin } from '@/src/lib/adminAuth'
 import { getRecord, updateRecord } from '@/src/lib/store'
 import { sendMail } from '@/src/lib/mailer'
@@ -33,7 +34,9 @@ export async function POST(req: NextRequest) {
     const fields = parsePaymentDetail(String(body.details || '').slice(0, 4000))
     if (!fields.length) return Response.json({ ok: false, message: 'Paste the payment details first.' }, { status: 400 })
     const note = String(body.note || '').trim().slice(0, 2000)
-    const mail = paymentDetailsEmail({ id: rec.id, name: rec.name, amount: rec.total, methodId, fields, note })
+    const token: string = rec.token || randomBytes(12).toString('hex')
+    const mail = paymentDetailsEmail({ id: rec.id, name: rec.name, amount: rec.total, methodId, fields, note, token })
+    patch.token = token
     subject = mail.subject
     html = mail.html
     patch.paymentDetails = { methodId, fields, sentAt: now }

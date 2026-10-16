@@ -12,6 +12,7 @@ Disallow: /thank-you-contact/
 Disallow: /thank-you-order/
 Disallow: /thank-you-wholesale/
 Disallow: /admin/
+Disallow: /order/
 Disallow: /checkout/
 Sitemap: https://${DOMAIN}/sitemap.xml
 

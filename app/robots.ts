@@ -11,6 +11,7 @@ export default function robots() {
           '/thank-you-order/',
           '/thank-you-wholesale/',
           '/admin/',
+          '/order/',
           '/checkout/',
           '/api/'
         ],

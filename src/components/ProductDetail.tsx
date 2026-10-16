@@ -5,7 +5,7 @@ import { useParams, notFound } from 'next/navigation'
 import SmartImage from '@/src/components/SmartImage'
 import JsonLd from '@/src/components/JsonLd'
 import ProductZoom from '@/src/components/ProductZoom'
-import { PRODUCTS, CATEGORIES, SHOP } from '@/src/config/site'
+import { PRODUCTS, CATEGORIES, SHOP, GST } from '@/src/config/site'
 import { formatCurrency, cn } from '@/src/lib/utils'
 import { Zap, ShieldAlert, Truck, ChevronRight, CheckCircle2, Phone, ShoppingCart, ArrowLeft, Plus, Minus, Wrench, RotateCcw } from 'lucide-react'
 import Link from 'next/link'
@@ -142,6 +142,9 @@ export default function ProductDetail({ slug, copy }: ProductDetailProps) {
               <p className="text-[10px] font-black uppercase tracking-[0.2em] text-brand-gray">Investment</p>
               <p className="text-5xl font-black italic text-white tracking-tighter leading-none">
                 {formatCurrency(product.price)}
+              </p>
+              <p className="text-[11px] font-bold uppercase tracking-widest text-brand-gray pt-1">
+                {GST.mode === 'exclusive' ? `+ ${GST.rate}% GST added at checkout` : `Includes ${GST.rate}% GST`}
               </p>
               {(product as any).comparePrice && (product as any).comparePrice > product.price * 1.015 && (
                 <p className="text-sm font-bold text-[#35c17a] pt-2">

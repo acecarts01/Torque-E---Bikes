@@ -4,13 +4,14 @@ import { saveRecord, isStoreConfigured } from '@/src/lib/store'
 import { sendMail, ownerAddress } from '@/src/lib/mailer'
 import { orderNotificationEmail, orderConfirmationEmail } from '@/src/lib/emailTemplates'
 import { money } from '@/src/lib/order'
+import { calcTotals, toCents } from '@/src/lib/pricing'
+import { randomBytes } from 'crypto'
 import { EMAIL_RE, clean, makeRef } from '@/src/lib/enquiry'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
 
 const METHODS: Record<string, string> = { 'bank-transfer': 'Bank transfer', payid: 'PayID / OSKO', crypto: 'Crypto (BTC / USDT)' }
-const round2 = (n: number) => Math.round(n * 100) / 100
 
 export async function POST(req: Request) {
   let body: any
@@ -38,23 +39,21 @@ export async function POST(req: Request) {
     const p = PRODUCTS.find(x => x.slug === String(it?.slug))
     const qty = Math.floor(Number(it?.qty))
     if (!p || !(qty >= 1) || qty > 50) return []
-    return [{ slug: p.slug, name: p.name, category: p.category, offRoad: (p as any).compliance === 'off-road', qty, unit: Number(p.price), line: round2(Number(p.price) * qty) }]
+    return [{ slug: p.slug, name: p.name, category: p.category, offRoad: (p as any).compliance === 'off-road', qty, unit: Number(p.price), line: toCents(Number(p.price)) * qty / 100 }]
   })
   if (!items.length) return Response.json({ success: false, message: 'Your order is empty.' }, { status: 400 })
 
-  const subtotal = round2(items.reduce((s, i) => s + i.line, 0))
+  const t = calcTotals(items.map(i => Math.round(i.line * 100)), method)
+  const { subtotal, shipping, cryptoDiscount, gst, total } = t
   if (subtotal < SHOP.minOrder) {
-    return Response.json({ success: false, message: `The minimum order is ${money(SHOP.minOrder)}.` }, { status: 400 })
+    return Response.json({ success: false, message: `The minimum order is ${money(SHOP.minOrder)} (before GST).` }, { status: 400 })
   }
-  const baseShipping = subtotal > SHOP.freeShippingThreshold ? 0 : SHOP.shippingFee
-  const shipping = round2(baseShipping - (subtotal >= SHOP.shippingDiscountThreshold ? baseShipping * SHOP.shippingDiscountRate / 100 : 0))
-  const cryptoDiscount = method === 'crypto' ? round2((subtotal + shipping) * SHOP.cryptoDiscount / 100) : 0
-  const total = round2(subtotal + shipping - cryptoDiscount)
 
   const reference = makeRef('TQR')
   const record = {
     id: reference, status: 'new', createdAt: new Date().toISOString(),
-    name, email, phone, address, notes, paymentMethod: method, items, subtotal, shipping, cryptoDiscount, total,
+    name, email, phone, address, notes, paymentMethod: method, items, subtotal, shipping, cryptoDiscount, gst, gstRate: t.gstRate, gstMode: t.gstMode, total,
+    token: randomBytes(12).toString('hex'),
   }
 
   let stored = false

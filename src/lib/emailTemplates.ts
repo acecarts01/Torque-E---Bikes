@@ -59,6 +59,7 @@ type Order = {
   id: string; name: string; email: string; phone: string; paymentMethod: string; notes?: string
   address: { street: string; suburb: string; state: string; postcode: string }
   items: Item[]; subtotal: number; shipping: number; cryptoDiscount: number; total: number
+  gst?: number; gstRate?: number; gstMode?: 'exclusive' | 'inclusive'
 }
 
 const addressText = (a: Order['address']) => `${a.street}, ${a.suburb} ${a.state} ${a.postcode}`
@@ -71,10 +72,18 @@ const itemsTable = (items: Item[]) => table(
 const totalsTable = (o: Order) => {
   const row = (l: string, v: string, bold = false) =>
     `<tr>${td(l, C.card, `padding:4px 10px;font-size:14px;color:${bold ? C.ink : C.soft};${bold ? 'font-weight:bold;' : ''}`)}${td(v, C.card, `padding:4px 10px;font-size:14px;text-align:right;color:${C.ink};${bold ? 'font-weight:bold;' : ''}`)}</tr>`
+  const hasGst = typeof o.gst === 'number'
+  const inclusive = o.gstMode === 'inclusive'
+  const gstRow = !hasGst ? '' : inclusive
+    ? row(`Total includes GST (${o.gstRate}%)`, money(o.gst as number))
+    : row(`GST (${o.gstRate}%)`, money(o.gst as number))
+  const totalLabel = hasGst ? 'Total payable (AUD, incl. GST)' : 'Total (AUD)'
   return table(
-    row('Subtotal', money(o.subtotal)) + row('Shipping', o.shipping === 0 ? 'Free' : money(o.shipping)) +
+    row(hasGst && !inclusive ? 'Subtotal (ex GST)' : 'Subtotal', money(o.subtotal)) + row('Shipping', o.shipping === 0 ? 'Free' : money(o.shipping)) +
     (o.cryptoDiscount ? row('Crypto discount', `-${money(o.cryptoDiscount)}`) : '') +
-    `<tr>${td('<b>Total (AUD)</b>', C.tint, `padding:10px;font-size:16px;border-top:2px solid ${ACCENT};`)}${td(`<b>${money(o.total)}</b>`, C.tint, `padding:10px;font-size:18px;text-align:right;border-top:2px solid ${ACCENT};`)}</tr>`,
+    (inclusive ? '' : gstRow) +
+    `<tr>${td(`<b>${totalLabel}</b>`, C.tint, `padding:10px;font-size:16px;border-top:2px solid ${ACCENT};`)}${td(`<b>${money(o.total)}</b>`, C.tint, `padding:10px;font-size:18px;text-align:right;border-top:2px solid ${ACCENT};`)}</tr>` +
+    (inclusive ? gstRow : ''),
     C.card, 'margin:4px 0 16px;')
 }
 
@@ -151,7 +160,8 @@ export function enquiryAckEmail(e: Enquiry) {
 const mono = (v: string) => `<span style="font-family:'Courier New',Courier,monospace;font-size:14px;color:${C.ink};word-break:break-all;">${esc(v)}</span>`
 
 /** To the customer when the owner sends payment details from admin. */
-export function paymentDetailsEmail(p: { id: string; name: string; amount: number; methodId: string; fields: { label: string; value: string }[]; note?: string }) {
+export function paymentDetailsEmail(p: { id: string; name: string; amount: number; methodId: string; fields: { label: string; value: string }[]; note?: string; token: string }) {
+  const copyUrl = `${siteUrl()}/order/payment-details/?id=${encodeURIComponent(p.id)}&t=${encodeURIComponent(p.token)}`
   const { label: methodName, opening, closing } = paymentMethodParts(p.methodId, p.amount, p.id)
   const rows = p.fields.map(f => `<tr>${td(esc(f.label).toUpperCase(), C.mono, `padding:10px 12px;width:38%;font-size:10px;letter-spacing:1px;font-weight:bold;color:${C.soft};border-bottom:1px solid ${C.rule};`, 'valign="top"')}${td(mono(f.value), C.mono, `padding:10px 12px;border-bottom:1px solid ${C.rule};`)}</tr>`).join('')
   const reply = `mailto:${CONTACT.email}?subject=${encodeURIComponent(`Payment for order ${p.id}`)}`
@@ -160,9 +170,10 @@ export function paymentDetailsEmail(p: { id: string; name: string; amount: numbe
     eyebrow: 'Payment details', title: `Order ${p.id}`, meta: methodName,
     body:
       `<p style="margin:0 0 12px;">Hi ${esc(p.name.split(' ')[0])},</p>` +
-      table(`<tr>${td(`<div style="font-size:10px;letter-spacing:1.5px;font-weight:bold;color:${C.soft};">AMOUNT DUE (AUD)</div><div style="font-size:30px;font-weight:bold;color:${C.ink};margin-top:4px;">${money(p.amount)}</div>`, C.tint, `padding:16px 18px;border-left:4px solid ${ACCENT};`)}</tr>`, C.tint, 'margin:6px 0 16px;') +
+      table(`<tr>${td(`<div style="font-size:10px;letter-spacing:1.5px;font-weight:bold;color:${C.soft};">AMOUNT DUE (AUD, INCL. GST)</div><div style="font-size:30px;font-weight:bold;color:${C.ink};margin-top:4px;">${money(p.amount)}</div>`, C.tint, `padding:16px 18px;border-left:4px solid ${ACCENT};`)}</tr>`, C.tint, 'margin:6px 0 16px;') +
       `<p style="margin:0 0 12px;">${esc(opening)}</p>` +
       table(rows, C.mono, `border:1px solid ${C.rule};margin:0 0 14px;`) +
+      button(copyUrl, 'View & copy payment details') +
       `<p style="margin:0 0 6px;">${esc(closing)}</p>` +
       (p.note ? `<p style="margin:10px 0 0;">${nl2br(p.note)}</p>` : '') +
       callout(`<ul style="margin:0;padding-left:18px;">${paymentTermsLines(p.id).map(l => `<li style="margin:0 0 4px;">${esc(l)}</li>`).join('')}</ul>`) +

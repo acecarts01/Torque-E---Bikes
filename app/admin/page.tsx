@@ -199,11 +199,23 @@ function Detail({ kind, r, onStatus, onUpdated }: { kind: 'order' | 'enquiry'; r
           {r.items.map((i: any) => <p key={i.slug} className="flex justify-between"><span>{i.qty} x {i.name}</span><span>{money(i.line)}</span></p>)}
           <p className="flex justify-between text-gray-400"><span>Shipping</span><span>{r.shipping ? money(r.shipping) : 'Free'}</span></p>
           {r.cryptoDiscount > 0 && <p className="flex justify-between text-gray-400"><span>Crypto discount</span><span>-{money(r.cryptoDiscount)}</span></p>}
-          <p className="flex justify-between font-black border-t border-white/10 pt-2"><span>Total</span><span>{money(r.total)}</span></p>
+          {typeof r.gst === 'number' && (
+            <p className="flex justify-between text-gray-400"><span>{r.gstMode === 'inclusive' ? `Total includes GST (${r.gstRate}%)` : `GST (${r.gstRate}%)`}</span><span>{money(r.gst)}</span></p>
+          )}
+          <p className="flex justify-between font-black border-t border-white/10 pt-2"><span>Total payable{typeof r.gst === 'number' ? ' (incl. GST)' : ''}</span><span>{money(r.total)}</span></p>
           {r.notes && <p className="pt-2 text-gray-300"><span className="text-gray-500">Customer notes:</span> {r.notes}</p>}
         </div>
       ) : (
         <p className="whitespace-pre-wrap text-gray-200 bg-[#16181b] rounded-sm p-3">{r.message}</p>
+      )}
+
+      {kind === 'order' && r.paymentDetails && r.token && (
+        <p>
+          <a className="underline text-[#ff6a1a]" target="_blank" rel="noreferrer"
+            href={`/order/payment-details/?id=${encodeURIComponent(r.id)}&t=${encodeURIComponent(r.token)}`}>
+            Open the customer&apos;s tap-to-copy payment page
+          </a>
+        </p>
       )}
 
       {r.replies?.length > 0 && (

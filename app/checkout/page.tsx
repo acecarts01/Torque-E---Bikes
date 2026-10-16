@@ -10,6 +10,7 @@ import { formatCurrency, cn } from '@/src/lib/utils'
 import { Zap, Landmark, Truck, Wallet, ShieldCheck, Minus, Plus, Trash2, CheckCircle2, ShoppingCart } from 'lucide-react'
 import { SHOP, PRODUCTS, CONTACT } from '@/src/config/site'
 import { useCart, setQty, removeFromCart, clearCart } from '@/src/lib/cart'
+import { calcTotals, toCents, gstLabel } from '@/src/lib/pricing'
 
 const METHODS = [
   { id: 'crypto', title: 'Pay with Crypto', note: `Save ${SHOP.cryptoDiscount}% automatically`, icon: Wallet, highlight: true },
@@ -32,12 +33,9 @@ export default function CheckoutPage() {
     return p ? [{ product: p, qty: c.qty }] : []
   }), [cart])
 
-  const subtotal = lines.reduce((s, l) => s + Number(l.product.price) * l.qty, 0)
+  const t = calcTotals(lines.map(l => toCents(Number(l.product.price)) * l.qty), method)
+  const { subtotal, shipping, cryptoDiscount, gst, total } = t
   const isBelowMinOrder = subtotal < SHOP.minOrder
-  const baseShipping = subtotal > SHOP.freeShippingThreshold ? 0 : SHOP.shippingFee
-  const shipping = baseShipping - (subtotal >= SHOP.shippingDiscountThreshold ? baseShipping * SHOP.shippingDiscountRate / 100 : 0)
-  const cryptoDiscount = method === 'crypto' ? (subtotal + shipping) * SHOP.cryptoDiscount / 100 : 0
-  const total = subtotal + shipping - cryptoDiscount
 
   async function submit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
@@ -106,7 +104,7 @@ export default function CheckoutPage() {
                   <div className="p-4 bg-brand-red/10 border border-brand-red/20 rounded-sm flex items-center gap-3">
                     <Zap className="w-5 h-5 text-brand-red shrink-0" />
                     <p className="text-[10px] font-black uppercase tracking-widest text-white">
-                      Minimum order value is {formatCurrency(SHOP.minOrder)} AUD. Current: {formatCurrency(subtotal)}
+                      Minimum order value is {formatCurrency(SHOP.minOrder)} AUD (before GST). Current: {formatCurrency(subtotal)}
                     </p>
                   </div>
                 )}
@@ -131,15 +129,21 @@ export default function CheckoutPage() {
                       <span className="font-bold text-sm">{formatCurrency(Number(product.price) * qty)}</span>
                     </div>
                   ))}
-                  <div className="flex justify-between text-sm pt-2"><span className="text-gray-400">Subtotal</span><span>{formatCurrency(subtotal)}</span></div>
+                  <div className="flex justify-between text-sm pt-2"><span className="text-gray-400">{t.gstMode === 'exclusive' ? 'Subtotal (ex GST)' : 'Subtotal'}</span><span>{formatCurrency(subtotal)}</span></div>
                   <div className="flex justify-between text-sm"><span className="text-gray-400">Shipping</span><span className={shipping === 0 ? 'text-green-500 font-bold' : ''}>{shipping === 0 ? 'FREE' : formatCurrency(shipping)}</span></div>
                   {cryptoDiscount > 0 && (
                     <div className="flex justify-between text-sm text-[#ff6a1a]"><span>Crypto discount ({SHOP.cryptoDiscount}%)</span><span>-{formatCurrency(cryptoDiscount)}</span></div>
                   )}
+                  {t.gstMode === 'exclusive' && (
+                    <div className="flex justify-between text-sm"><span className="text-gray-400">{gstLabel(t)}</span><span>{formatCurrency(gst)}</span></div>
+                  )}
                   <div className="flex justify-between items-center pt-4 border-t-2 border-[#ff6a1a]">
-                    <span className="font-black uppercase tracking-widest italic">Total Payable</span>
+                    <span className="font-black uppercase tracking-widest italic">Total Payable <span className="block text-[9px] not-italic tracking-widest text-gray-500">AUD, incl. GST</span></span>
                     <span className="text-2xl font-black italic tracking-tighter">{formatCurrency(total)}</span>
                   </div>
+                  {t.gstMode === 'inclusive' && (
+                    <p className="text-xs text-gray-500 text-right">{gstLabel(t)}: {formatCurrency(gst)}</p>
+                  )}
                 </div>
 
                 <div className="flex items-center gap-2 p-4 bg-white/5 rounded-sm border border-white/5">
