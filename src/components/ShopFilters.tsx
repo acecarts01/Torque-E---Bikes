@@ -34,7 +34,7 @@ const FilterSection = ({ title, options, active, onChange, counts }: {
   counts?: Record<string, number>
 }) => options.length === 0 ? null : (
   <div className="space-y-4">
-    <h4 className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-500 border-b border-white/5 pb-2">{title}</h4>
+    <p className="text-[10px] font-black uppercase tracking-[0.2em] text-gray-500 border-b border-white/5 pb-2">{title}</p>
     <div className="flex flex-wrap lg:flex-col gap-2">
       {options.map(opt => (
         <button

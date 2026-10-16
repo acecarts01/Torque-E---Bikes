@@ -60,7 +60,7 @@ export default function BlogPage() {
               {/* Sidebar */}
               <aside className="w-full lg:w-64 flex-shrink-0 space-y-8">
                 <div className="space-y-4 sticky top-32">
-                  <h3 className="text-[10px] font-black uppercase tracking-[0.3em] text-brand-red px-4">Categories</h3>
+                  <p className="text-[10px] font-black uppercase tracking-[0.3em] text-brand-red px-4">Categories</p>
                   <div className="flex lg:flex-col gap-2 overflow-x-auto no-scrollbar pb-4 lg:pb-0">
                     {categories.map(cat => (
                       <button 
@@ -175,7 +175,7 @@ export default function BlogPage() {
                     className="flex-grow px-8 py-4 bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl text-white placeholder:text-white/40 focus:outline-none focus:ring-2 focus:ring-white/30 transition-all font-bold tracking-widest text-xs"
                     required
                   />
-                  <button className="px-10 py-4 bg-white text-brand-red font-black uppercase tracking-widest text-xs rounded-2xl hover:scale-[0.98] transition-transform shadow-xl">
+                  <button className="px-10 py-4 bg-white text-[#b43c00] font-black uppercase tracking-widest text-xs rounded-2xl hover:scale-[0.98] transition-transform shadow-xl">
                     Subscribe
                   </button>
                 </form>

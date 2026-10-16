@@ -17,8 +17,13 @@ export default function ShopPage() {
   const [activePower, setActivePower] = useState<string | null>(null)
   const [activeVoltage, setActiveVoltage] = useState<string | null>(null)
   const [activeCompatibility, setActiveCompatibility] = useState<string | null>(null)
+  const [sort, setSort] = useState<'default' | 'low' | 'high'>('default')
+  // Render the grid in pages: drawing all 490 cards at once blocks the main thread on phones.
+  const PAGE = 24
+  const [visible, setVisible] = useState(PAGE)
 
   const triggerLoading = () => {
+    setVisible(PAGE)
     setIsLoading(true)
     setTimeout(() => setIsLoading(false), 400)
   }
@@ -44,14 +49,15 @@ export default function ShopPage() {
   }
 
   const filteredProducts = useMemo(() => {
-    return PRODUCTS.filter(p => {
+    const list = PRODUCTS.filter(p => {
       const matchCat = !activeCategory || p.category === activeCategory
       const matchPower = !activePower || (p.power && p.power === activePower)
       const matchVoltage = !activeVoltage || (p.voltage && p.voltage === activeVoltage)
       const matchCompatibility = !activeCompatibility || (p.compatibility && (p.compatibility as string[]).includes(activeCompatibility))
       return matchCat && matchPower && matchVoltage && matchCompatibility
     })
-  }, [activeCategory, activePower, activeVoltage, activeCompatibility])
+    return sort === 'default' ? list : [...list].sort((a, b) => (sort === 'low' ? a.price - b.price : b.price - a.price))
+  }, [activeCategory, activePower, activeVoltage, activeCompatibility, sort])
 
   return (
     <div className="flex flex-col min-h-screen bg-[#16181b]">
@@ -105,10 +111,10 @@ export default function ShopPage() {
                 </div>
                 <div className="flex items-center gap-4 text-[10px] font-bold uppercase tracking-widest text-gray-500">
                   <span className="hidden sm:inline">Sort By:</span>
-                  <select aria-label="Sort products" className="bg-transparent border-none focus:ring-0 text-white cursor-pointer hover:text-[#ff6a1a] transition-colors uppercase font-black tracking-tighter">
-                    <option className="bg-[#16181b]">Newest First</option>
-                    <option className="bg-[#16181b]">Price: Low-High</option>
-                    <option className="bg-[#16181b]">Price: High-Low</option>
+                  <select aria-label="Sort products" value={sort} onChange={e => { setSort(e.target.value as 'default' | 'low' | 'high'); setVisible(PAGE) }} className="bg-transparent border-none focus:ring-0 text-white cursor-pointer hover:text-[#ff6a1a] transition-colors uppercase font-black tracking-tighter">
+                    <option value="default" className="bg-[#16181b]">Featured</option>
+                    <option value="low" className="bg-[#16181b]">Price: Low-High</option>
+                    <option value="high" className="bg-[#16181b]">Price: High-Low</option>
                   </select>
                 </div>
               </div>
@@ -121,10 +127,20 @@ export default function ShopPage() {
                 </div>
               ) : filteredProducts.length > 0 ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
-                  {filteredProducts.map(product => (
+                  {filteredProducts.slice(0, visible).map(product => (
                     <ProductCard key={product.slug} product={product} />
                   ))}
                 </div>
+                {filteredProducts.length > visible && (
+                  <div className="mt-10 text-center">
+                    <button
+                      onClick={() => setVisible(v => v + PAGE)}
+                      className="px-8 py-4 bg-[#ff6a1a] text-[#140800] font-black uppercase tracking-widest text-xs rounded-sm hover:bg-white transition-colors"
+                    >
+                      Show more ({filteredProducts.length - visible} left)
+                    </button>
+                  </div>
+                )}
               ) : (
                 <div className="py-24 text-center space-y-6 bg-[#0e0f11] rounded-sm border border-dashed border-white/10">
                   <ShieldAlert className="w-16 h-16 text-gray-700 mx-auto" />
@@ -153,7 +169,7 @@ export default function ShopPage() {
                   <ShieldAlert className="w-8 h-8 text-white" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-black uppercase tracking-widest text-white mb-2">Australian Regulatory & Safety Advisory</h4>
+                  <p className="text-sm font-black uppercase tracking-widest text-white mb-2">Australian Regulatory & Safety Advisory</p>
                   <p className="text-[10px] text-gray-400 font-medium leading-relaxed uppercase tracking-widest">
                     Electric dirt bikes, high-powered e-motos, and conversion kit setups exceeding 250W continuous rated power are engineered strictly for private property use. Lithium batteries are dispatched under Australian Dangerous Goods Class 9 guidelines.
                   </p>

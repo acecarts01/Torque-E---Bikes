@@ -179,7 +179,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 <div className="p-8 bg-brand-red rounded-[2rem] text-[#140800]">
                   <h4 className="text-xl font-black italic uppercase tracking-tighter mb-3 leading-none">Need a hand choosing?</h4>
                   <p className="text-xs font-bold mb-5 opacity-80">Message the team with your bike and where you ride.</p>
-                  <a href="https://wa.me/61480804189" className="inline-block px-5 py-3 bg-white text-brand-red font-black uppercase tracking-widest text-[10px] rounded-xl hover:scale-[0.98] transition-transform">
+                  <a href="https://wa.me/61480804189" className="inline-block px-5 py-3 bg-white text-[#b43c00] font-black uppercase tracking-widest text-[10px] rounded-xl hover:scale-[0.98] transition-transform">
                     WhatsApp 0480 804 189
                   </a>
                 </div>

@@ -42,7 +42,7 @@ export default function HomeClient({ featuredProducts, homeFaq }: { featuredProd
                 <stat.icon className="w-6 h-6 text-brand-red shrink-0" />
                 <div>
                   <p className="text-[8px] font-black uppercase tracking-[0.2em] text-brand-gray">{stat.label}</p>
-                  <h4 className="text-sm font-black italic uppercase tracking-tighter text-white">{stat.value}</h4>
+                  <p className="text-sm font-black italic uppercase tracking-tighter text-white">{stat.value}</p>
                 </div>
               </div>
             ))}
