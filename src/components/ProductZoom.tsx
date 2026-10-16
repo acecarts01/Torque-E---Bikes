@@ -42,6 +42,7 @@ export default function ProductZoom({ src, alt, className }: ProductZoomProps) {
           src={src} 
           alt={alt} 
           fill 
+          sizes="(min-width: 1024px) 45vw, 92vw"
           className={cn(
             "object-contain transition-transform duration-200 p-12",
             zoom ? "opacity-0" : "opacity-100"

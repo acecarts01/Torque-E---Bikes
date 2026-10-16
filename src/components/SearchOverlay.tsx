@@ -3,7 +3,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { motion, AnimatePresence } from 'motion/react'
 import { Search, X, Zap, ArrowRight, ShieldAlert } from 'lucide-react'
-import { PRODUCTS, SITE } from '@/src/config/site'
 import { formatCurrency, cn } from '@/src/lib/utils'
 import Link from 'next/link'
 import SmartImage from './SmartImage'
@@ -15,6 +14,7 @@ interface SearchOverlayProps {
 
 export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
   const [query, setQuery] = useState('')
+  const [fetched, setFetched] = useState<any[]>([])
   const inputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
@@ -31,13 +31,19 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
     onClose()
   }
 
-  const results = query.length > 1 
-    ? PRODUCTS.filter(p => 
-        p.name.toLowerCase().includes(query.toLowerCase()) || 
-        p.shortDescription?.toLowerCase().includes(query.toLowerCase()) ||
-        p.category.toLowerCase().includes(query.toLowerCase())
-      ).slice(0, 6)
-    : []
+  // Suggestions come from a small API route, so this component does not carry the catalogue.
+  useEffect(() => {
+    if (query.length < 2) return
+    const ctl = new AbortController()
+    const t = setTimeout(() => {
+      fetch(`/api/search-suggest/?q=${encodeURIComponent(query)}`, { signal: ctl.signal })
+        .then(r => (r.ok ? r.json() : []))
+        .then(setFetched)
+        .catch(() => {})
+    }, 150)
+    return () => { clearTimeout(t); ctl.abort() }
+  }, [query])
+  const results = query.length > 1 ? fetched : []
 
   return (
     <AnimatePresence>
@@ -95,7 +101,7 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
                         className="group flex gap-4 p-4 bg-white/5 hover:bg-white/10 border border-white/5 rounded-sm transition-all"
                       >
                         <div className="relative w-24 h-24 bg-white p-2 rounded-sm shrink-0 overflow-hidden">
-                          <SmartImage src={product.images[0]} alt={product.name} fill className="object-contain group-hover:scale-110 transition-transform" />
+                          <SmartImage src={product.image} alt={product.name} fill className="object-contain group-hover:scale-110 transition-transform" />
                         </div>
                         <div className="flex flex-col justify-between py-1">
                           <div className="space-y-1">

@@ -5,22 +5,27 @@ import { useParams, notFound } from 'next/navigation'
 import SmartImage from '@/src/components/SmartImage'
 import JsonLd from '@/src/components/JsonLd'
 import ProductZoom from '@/src/components/ProductZoom'
-import { PRODUCTS, CATEGORIES, SHOP, GST } from '@/src/config/site'
+import { CATEGORIES, SHOP, GST } from '@/src/config/site'
+import type { PRODUCTS } from '@/src/config/products'
 import { formatCurrency, cn } from '@/src/lib/utils'
 import { Zap, ShieldAlert, Truck, ChevronRight, CheckCircle2, Phone, ShoppingCart, ArrowLeft, Plus, Minus, Wrench, RotateCcw } from 'lucide-react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
 import { addToCart } from '@/src/lib/cart'
-import { getSeo } from '@/src/lib/seo'
 import PageFaq from '@/src/components/PageFaq'
 import RichText from '@/src/components/RichText'
 import RelatedGuides from '@/src/components/RelatedGuides'
-import { getPageFaq } from '@/src/lib/faq'
+import type { FaqItem } from '@/src/lib/faq'
 import { motion, AnimatePresence } from 'motion/react'
 
+type Product = (typeof PRODUCTS)[number]
+
 interface ProductDetailProps {
-  slug: string
+  product: Product
   copy?: string[]
+  h1?: string
+  alt?: string
+  faq?: FaqItem[]
 }
 
 const AccordionItem = ({ title, icon: Icon, children }: { title: string, icon: any, children: React.ReactNode }) => {
@@ -59,8 +64,7 @@ const AccordionItem = ({ title, icon: Icon, children }: { title: string, icon: a
   )
 }
 
-export default function ProductDetail({ slug, copy }: ProductDetailProps) {
-  const product = PRODUCTS.find(p => p.slug === slug)
+export default function ProductDetail({ product, copy, h1, alt, faq = [] }: ProductDetailProps) {
   const [activeImage, setActiveImage] = useState(0)
   const router = useRouter()
 
@@ -94,12 +98,12 @@ export default function ProductDetail({ slug, copy }: ProductDetailProps) {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
         {/* Visuals */}
         <motion.div 
-          initial={{ opacity: 0, x: -30 }}
+          initial={false}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           className="space-y-6"
         >
-          <ProductZoom src={product.images[activeImage]} alt={activeImage === 0 ? (getSeo(`/shop/${product.category}/${product.slug}/`)?.alt || product.name) : `${product.name} - view ${activeImage + 1}`} />
+          <ProductZoom src={product.images[activeImage]} alt={activeImage === 0 ? (alt || product.name) : `${product.name} - view ${activeImage + 1}`} />
           
           <div className="grid grid-cols-4 gap-4">
             {product.images.map((img, i) => (
@@ -119,7 +123,7 @@ export default function ProductDetail({ slug, copy }: ProductDetailProps) {
 
         {/* Config & Checkout */}
         <motion.div 
-          initial={{ opacity: 0, x: 30 }}
+          initial={false}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
           className="space-y-10"
@@ -130,7 +134,7 @@ export default function ProductDetail({ slug, copy }: ProductDetailProps) {
               <span className="text-[10px] font-black uppercase tracking-[0.4em] text-brand-red">Inventory Confirmed</span>
             </div>
             <h1 className="text-4xl md:text-6xl font-black italic uppercase tracking-tighter leading-[0.9] text-white">
-              {getSeo(`/shop/${product.category}/${product.slug}/`)?.h1 || product.name}
+              {h1 || product.name}
             </h1>
             <p className="text-xl text-brand-gray font-medium uppercase tracking-wider leading-relaxed">
               {product.shortDescription}
@@ -234,7 +238,7 @@ export default function ProductDetail({ slug, copy }: ProductDetailProps) {
       </div>
 
       <RelatedGuides path={`/shop/${product.category}/${product.slug}/`} />
-      <PageFaq items={getPageFaq(`/shop/${product.category}/${product.slug}/`)} heading={`${product.name} FAQs`} />
+      <PageFaq items={faq} heading={`${product.name} FAQs`} />
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { CATEGORIES } from '@/src/config/site'
+import { PRODUCTS } from '@/src/config/products'
 import CategoryDetail from '@/src/components/CategoryDetail'
 import CATEGORY_COPY from '@/src/config/category-copy.generated.json'
 import Nav from '@/src/components/Nav'
@@ -7,7 +8,8 @@ import Footer from '@/src/components/Footer'
 import AnnouncementBar from '@/src/components/AnnouncementBar'
 import { Metadata } from 'next'
 import { generatePageMetadata } from '@/src/lib/metadata'
-import JsonLd from '@/src/components/JsonLd'
+import { getSeo } from '@/src/lib/seo'
+import { getPageFaq } from '@/src/lib/faq'
 
 export async function generateStaticParams() {
   return CATEGORIES.map((c) => ({
@@ -37,15 +39,7 @@ export default async function Page({ params }: { params: Promise<{ category: str
       <AnnouncementBar />
       <Nav />
       <main className="flex-grow pt-32 pb-24">
-        <JsonLd 
-          type="BreadcrumbList" 
-          data={[
-            { name: 'Home', item: '/' },
-            { name: 'Shop', item: '/shop/' },
-            { name: category?.name || 'Category', item: `/shop/${slug}/` }
-          ]} 
-        />
-        <CategoryDetail slug={slug} intro={(CATEGORY_COPY as Record<string, string[]>)[slug]} />
+        <CategoryDetail slug={slug} intro={(CATEGORY_COPY as Record<string, string[]>)[slug]} products={PRODUCTS.filter(p => p.category === slug)} h1={getSeo(`/shop/${slug}/`)?.h1} faq={getPageFaq(`/shop/${slug}/`)} />
       </main>
       <Footer />
     </div>

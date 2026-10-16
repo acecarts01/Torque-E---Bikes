@@ -5,10 +5,9 @@ import { motion } from 'motion/react'
 import Link from 'next/link'
 import { ArrowRight, Zap, ShieldCheck, Gauge } from 'lucide-react'
 import SmartImage from '@/src/components/SmartImage'
-import { PRODUCTS, REVIEWS } from '@/src/config/site'
+import { REVIEWS } from '@/src/config/site'
 
-export default function Hero() {
-  const featuredProduct = PRODUCTS.find(p => p.featured) || PRODUCTS[0]
+export default function Hero({ featuredProduct }: { featuredProduct: any }) {
 
   return (
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-brand-dark">

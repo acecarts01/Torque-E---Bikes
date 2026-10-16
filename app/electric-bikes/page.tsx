@@ -3,7 +3,7 @@ import { Metadata } from 'next'
 import HubPage from '@/src/components/HubPage'
 import { generatePageMetadata } from '@/src/lib/metadata'
 import { allBikes, BIKE_CATEGORIES, aud } from '@/src/lib/hubs'
-import { PRODUCTS } from '@/src/config/site'
+import { PRODUCTS } from '@/src/config/products'
 
 export const metadata: Metadata = generatePageMetadata({
   title: 'Electric Bikes',

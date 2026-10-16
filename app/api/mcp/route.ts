@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { PRODUCTS, CATEGORIES, SHOP, SITE } from '@/src/config/site'
+import { CATEGORIES, SHOP, SITE } from '@/src/config/site'
+import { PRODUCTS } from '@/src/config/products'
 
 export async function POST(req: NextRequest) {
   try {

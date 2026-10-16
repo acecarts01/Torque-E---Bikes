@@ -5,7 +5,8 @@ import { motion, AnimatePresence } from 'motion/react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { X, Plus, Zap, Cpu, Maximize2, Trash2, ArrowRight } from 'lucide-react'
-import { PRODUCTS, SITE } from '@/src/config/site'
+import { SITE } from '@/src/config/site'
+import { PRODUCTS } from '@/src/config/products'
 import { formatCurrency, cn } from '@/src/lib/utils'
 
 export default function CompareTool() {

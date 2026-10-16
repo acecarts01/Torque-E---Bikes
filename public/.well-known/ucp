@@ -50,7 +50,7 @@
     "llms_txt": "https://torquee-bikesaustralia.com.au/llms.txt"
   },
   "currency": "AUD",
-  "minimum_order_usd": 499.99,
+  "minimum_order_aud": 499.99,
   "payment_methods": [
     "bank-transfer",
     "payid",
@@ -58,7 +58,6 @@
     "crypto-USDT"
   ],
   "legal": {
-    "age_restriction": "16+",
     "product_type": "Electric Motos",
     "compliance": "Off-road only"
   }

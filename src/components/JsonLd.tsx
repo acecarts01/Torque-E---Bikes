@@ -1,6 +1,7 @@
 // src/components/JsonLd.tsx
 import React from 'react'
-import { SITE, CONTACT, BRAND, PRODUCTS } from '@/src/config/site'
+import { SITE, CONTACT, BRAND } from '@/src/config/site'
+import PRICE_RANGE from '@/src/config/price-range.generated.json'
 
 export default function JsonLd({ type, data }: { type: string, data?: any }) {
   let schema: any = null
@@ -39,8 +40,8 @@ export default function JsonLd({ type, data }: { type: string, data?: any }) {
       "makesOffer": {
         "@type": "AggregateOffer",
         "priceCurrency": SITE.currency,
-        "lowPrice": Math.min(...PRODUCTS.map(p => p.price)),
-        "highPrice": Math.max(...PRODUCTS.map(p => p.price))
+        "lowPrice": PRICE_RANGE.low,
+        "highPrice": PRICE_RANGE.high
       }
     }
   }

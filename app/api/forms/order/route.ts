@@ -1,5 +1,6 @@
 // Order intake: prices are recalculated on the server from the catalogue, never trusted from the browser.
-import { PRODUCTS, SHOP, CONTACT } from '@/src/config/site'
+import { SHOP, CONTACT } from '@/src/config/site'
+import { PRODUCTS } from '@/src/config/products'
 import { saveRecord, isStoreConfigured } from '@/src/lib/store'
 import { sendMail, ownerAddress } from '@/src/lib/mailer'
 import { orderNotificationEmail, orderConfirmationEmail } from '@/src/lib/emailTemplates'

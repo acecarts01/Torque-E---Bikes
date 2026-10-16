@@ -6,21 +6,23 @@ import SmartImage from '@/src/components/SmartImage'
 import ProductCard from '@/src/components/ProductCard'
 import ShopFilters from '@/src/components/ShopFilters'
 import { ProductCardSkeleton } from '@/src/components/Skeleton'
-import { PRODUCTS, CATEGORIES } from '@/src/config/site'
+import { CATEGORIES } from '@/src/config/site'
 import { ShieldAlert, LayoutGrid } from 'lucide-react'
 import JsonLd from '@/src/components/JsonLd'
-import { getSeo } from '@/src/lib/seo'
 import PageFaq from '@/src/components/PageFaq'
 import RichText from '@/src/components/RichText'
 import RelatedGuides from '@/src/components/RelatedGuides'
-import { getPageFaq } from '@/src/lib/faq'
+import type { FaqItem } from '@/src/lib/faq'
 
 interface CategoryDetailProps {
   slug: string
   intro?: string[]
+  products: any[]
+  h1?: string
+  faq?: FaqItem[]
 }
 
-export default function CategoryDetail({ slug, intro }: CategoryDetailProps) {
+export default function CategoryDetail({ slug, intro, products, h1, faq = [] }: CategoryDetailProps) {
   const category = CATEGORIES.find(c => c.slug === slug)
   const router = useRouter()
 
@@ -54,14 +56,14 @@ export default function CategoryDetail({ slug, intro }: CategoryDetailProps) {
   }
 
   const filteredProducts = useMemo(() => {
-    return PRODUCTS.filter(p => {
+    return products.filter(p => {
       const matchCat = p.category === category.slug
       const matchPower = !activePower || (p.power && p.power === activePower)
       const matchVoltage = !activeVoltage || (p.voltage && p.voltage === activeVoltage)
       const matchCompatibility = !activeCompatibility || (p.compatibility && (p.compatibility as string[]).includes(activeCompatibility))
       return matchCat && matchPower && matchVoltage && matchCompatibility
     })
-  }, [category.slug, activePower, activeVoltage, activeCompatibility])
+  }, [products, category.slug, activePower, activeVoltage, activeCompatibility])
 
   return (
     <div className="container mx-auto px-4">
@@ -76,7 +78,7 @@ export default function CategoryDetail({ slug, intro }: CategoryDetailProps) {
            <div className="relative z-10">
              <p className="text-[10px] font-black uppercase tracking-[0.3em] text-brand-red mb-4">Category Hub</p>
              <h1 className="text-4xl md:text-6xl font-black italic uppercase tracking-tighter leading-none mb-6">
-               {getSeo(`/shop/${category.slug}/`)?.h1 || category.name}
+               {h1 || category.name}
              </h1>
              <p className="text-xl text-brand-gray font-medium uppercase tracking-wider max-w-xl">
                {category.description}
@@ -93,6 +95,7 @@ export default function CategoryDetail({ slug, intro }: CategoryDetailProps) {
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 items-start">
         <aside className="lg:sticky lg:top-28 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto lg:overscroll-contain lg:pr-2 [scrollbar-width:thin] [scrollbar-color:#ff6a1a_transparent]">
           <ShopFilters 
+            products={products}
             activeCategory={category.slug}
             activePower={activePower}
             activeVoltage={activeVoltage}
@@ -139,7 +142,7 @@ export default function CategoryDetail({ slug, intro }: CategoryDetailProps) {
       </div>
 
       <RelatedGuides path={`/shop/${category.slug}/`} />
-      <PageFaq items={getPageFaq(`/shop/${category.slug}/`)} heading={`${category.name} FAQs`} />
+      <PageFaq items={faq} heading={`${category.name} FAQs`} />
     </div>
   )
 }

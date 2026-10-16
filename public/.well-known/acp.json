@@ -26,15 +26,14 @@
       "crypto-USDT"
     ],
     "currency": "AUD",
-    "minimum_order_usd": 499.99,
-    "free_shipping_threshold_usd": 9900
+    "minimum_order_aud": 499.99,
+    "free_shipping_threshold_aud": 9900
   },
   "contact": {
     "whatsapp": "https://wa.me/61480804189",
     "email": "sales@torquee-bikesaustralia.com.au"
   },
   "legal": {
-    "age_restriction": "16+",
     "region": "Australia",
     "ships_to": "Australia",
     "product_type": "Electric Motos",

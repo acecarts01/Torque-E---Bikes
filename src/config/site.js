@@ -1,5 +1,5 @@
 // src/config/site.js
-import { CATALOG_CATEGORIES, CATALOG_PRODUCTS } from './catalog.generated.js'
+import { CATALOG_CATEGORIES } from './catalog.generated.js'
 import { BLOG_META } from '../content/blog/meta.js'
 export const SITE = {
   name: 'Torque E-Bikes',
@@ -77,7 +77,6 @@ export const BRAND = {
 
 export const CATEGORIES = CATALOG_CATEGORIES
 
-export const PRODUCTS = CATALOG_PRODUCTS
 
 // Published posts (generated from the keyword plan; see src/content/blog and src/lib/blog.ts).
 export const POSTS = BLOG_META

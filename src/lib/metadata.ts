@@ -4,6 +4,8 @@ import { SITE } from '@/src/config/site'
 import { KEYWORDS } from './keywords'
 import { getSeo } from './seo'
 
+const DEFAULT_OG = `https://${SITE.domain}/og-default.png`
+
 export function generatePageMetadata({
   title,
   description,
@@ -23,8 +25,8 @@ export function generatePageMetadata({
       title: override.abs ? { absolute: override.title } : override.title,
       description: override.meta,
       alternates: { canonical: url },
-      openGraph: { title: full, description: override.meta, url, siteName: SITE.name, images: image ? [{ url: image }] : undefined, type: 'website' },
-      twitter: { card: 'summary_large_image', title: full, description: override.meta, images: image ? [image] : undefined },
+      openGraph: { title: full, description: override.meta, url, siteName: SITE.name, images: [{ url: image || DEFAULT_OG }], type: 'website' },
+      twitter: { card: 'summary_large_image', title: full, description: override.meta, images: [image || DEFAULT_OG] },
     }
   }
   const seoTitle = `${title} | ${SITE.name}`
@@ -45,14 +47,14 @@ export function generatePageMetadata({
       description: seoDescription,
       url,
       siteName: SITE.name,
-      images: image ? [{ url: image }] : undefined,
+      images: [{ url: image || DEFAULT_OG }],
       type: 'website',
     },
     twitter: {
       card: 'summary_large_image',
       title: seoTitle,
       description: seoDescription,
-      images: image ? [image] : undefined,
+      images: [image || DEFAULT_OG],
     },
     other: {
       'og:updated_time': new Date().toISOString(),

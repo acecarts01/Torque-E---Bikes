@@ -34,3 +34,10 @@ React/Next.js ecommerce site for high-performance electric bikes and conversion 
 - Orders: composer sends a structured payment-details email (`parsePaymentDetail` splits pasted "Label: value" lines) or a general reply. Enquiries: reply composer. Wording and payment methods live in `REPLY` in `src/config/site.js`.
 - Storage is Upstash Redis via `src/lib/store.ts` (`KV_REST_API_URL/TOKEN`). Prices are always recalculated server-side in `app/api/forms/order/route.ts`.
 - Env vars (Vercel only, never in the repo): SMTP_HOST/PORT/USER/PASS/FROM, ORDER_NOTIFY_TO, ADMIN_PASSCODE, SESSION_SECRET, KV_*.
+
+## Bundle and data rules (do not regress)
+- The product catalogue lives in `src/config/products.js` (data in `catalog-products.generated.js`). Client components must NOT import it. Server pages pass the few products a client component needs as props, or the component fetches them from a small API route (`/api/search-suggest/`, `/api/cart-products/`). Only `/shop` and `/compare` carry the full catalogue.
+- `src/lib/faq.ts` and `src/lib/seo.ts` pull in large JSON files: import them only in server components and pass the result down as props.
+- Robots rules come only from `app/robots.ts` (allow-all, single group). Do not recreate `public/robots.txt`.
+- Do not add `initial={{ opacity: 0 }}` animation wrappers around above-the-fold content (it hides the largest image until JavaScript runs).
+- Brand image files are made by `scripts/gen-brand-assets.mjs` (logo, favicon, default social image).

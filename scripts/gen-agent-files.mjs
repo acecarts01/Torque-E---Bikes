@@ -1,65 +1,14 @@
 import fs from 'fs';
 import path from 'path';
-import { SITE, CONTACT, SHOP, BRAND, CATEGORIES, PRODUCTS, PAGES } from '../src/config/site.js';
+import { SITE, CONTACT, SHOP, BRAND, CATEGORIES, PAGES } from '../src/config/site.js';
+import { PRODUCTS } from '../src/config/products.js';
 
 const DOMAIN = SITE.domain;
 
 const files = [
   {
-    path: 'public/robots.txt',
-    content: `User-agent: *
-Disallow: /thank-you-contact/
-Disallow: /thank-you-order/
-Disallow: /thank-you-wholesale/
-Disallow: /admin/
-Disallow: /order/
-Disallow: /checkout/
-Sitemap: https://${DOMAIN}/sitemap.xml
-
-Content-Signal: search=yes, ai-input=yes, ai-train=no
-
-# AI crawlers
-User-agent: GPTBot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: Claude-Web
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: Applebot
-Allow: /
-
-User-agent: Amazonbot
-Allow: /
-
-User-agent: Bytespider
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
-User-agent: Meta-ExternalAgent
-Allow: /
-
-User-agent: cohere-ai
-Allow: /
-
-# Agent-readable resources
-# llms.txt: https://${DOMAIN}/llms.txt
-# API Catalog: https://${DOMAIN}/.well-known/api-catalog
-# Agent Skills: https://${DOMAIN}/.well-known/agent-skills/index.json
-# MCP Server Card: https://${DOMAIN}/.well-known/mcp/server-card.json`
+    path: 'src/config/price-range.generated.json',
+    content: JSON.stringify({ low: Math.min(...PRODUCTS.map(p => p.price)), high: Math.max(...PRODUCTS.map(p => p.price)) })
   },
   {
     path: 'public/llms.txt',
@@ -202,11 +151,11 @@ Orders are completed by a human via WhatsApp or the order form.`
   },
   {
     path: 'public/.well-known/acp.json',
-    content: JSON.stringify({ "protocol": { "name": "acp", "version": "0.1.0" }, "name": SITE.name, "description": BRAND.description, "api_base_url": `https://${DOMAIN}`, "homepage": `https://${DOMAIN}`, "transports": ["https"], "capabilities": { "services": ["product-catalog", "wholesale", "blog", "faq", "mcp-server"], "ordering": "human-assisted", "payment_methods": SHOP.paymentMethods, "currency": SITE.currency, "minimum_order_usd": SHOP.minOrder, "free_shipping_threshold_usd": SHOP.freeShippingThreshold }, "contact": { "whatsapp": `https://wa.me/${CONTACT.whatsapp.replace(/\+/g, '')}`, "email": CONTACT.email }, "legal": { "age_restriction": "16+", "region": "Australia", "ships_to": "Australia", "product_type": "Electric Motos", "compliance": "Off-road only" } }, null, 2)
+    content: JSON.stringify({ "protocol": { "name": "acp", "version": "0.1.0" }, "name": SITE.name, "description": BRAND.description, "api_base_url": `https://${DOMAIN}`, "homepage": `https://${DOMAIN}`, "transports": ["https"], "capabilities": { "services": ["product-catalog", "wholesale", "blog", "faq", "mcp-server"], "ordering": "human-assisted", "payment_methods": SHOP.paymentMethods, "currency": SITE.currency, "minimum_order_aud": SHOP.minOrder, "free_shipping_threshold_aud": SHOP.freeShippingThreshold }, "contact": { "whatsapp": `https://wa.me/${CONTACT.whatsapp.replace(/\+/g, '')}`, "email": CONTACT.email }, "legal": { "region": "Australia", "ships_to": "Australia", "product_type": "Electric Motos", "compliance": "Off-road only" } }, null, 2)
   },
   {
     path: 'public/.well-known/ucp',
-    content: JSON.stringify({ "ucp": "1.0", "protocol_version": "1.0", "spec": "https://ucp.dev/specification/overview/", "schema": "https://ucp.dev/schema/v1.json", "site": `https://${DOMAIN}`, "name": SITE.name, "description": BRAND.description, "services": [ { "id": "product-catalog", "type": "catalog", "url": `https://${DOMAIN}/shop/`, "description": "Full product catalog" }, { "id": "mcp-server", "type": "mcp", "url": `https://${DOMAIN}/api/mcp`, "description": "MCP Streamable HTTP server" }, { "id": "order", "type": "commerce", "url": `https://wa.me/${CONTACT.whatsapp.replace(/\+/g, '')}`, "description": "Place orders via WhatsApp" }, { "id": "wholesale", "type": "b2b", "url": `https://${DOMAIN}/wholesale/`, "description": "Wholesale pricing and bulk ordering" } ], "capabilities": ["browse", "search", "inquiry", "wholesale", "content", "mcp"], "endpoints": { "mcp": `https://${DOMAIN}/api/mcp`, "catalog": `https://${DOMAIN}/shop/`, "contact": `https://${DOMAIN}/contact/`, "agent_skills": `https://${DOMAIN}/.well-known/agent-skills/index.json`, "mcp_server_card": `https://${DOMAIN}/.well-known/mcp/server-card.json`, "api_catalog": `https://${DOMAIN}/.well-known/api-catalog`, "llms_txt": `https://${DOMAIN}/llms.txt` }, "currency": SITE.currency, "minimum_order_usd": SHOP.minOrder, "payment_methods": SHOP.paymentMethods, "legal": { "age_restriction": "16+", "product_type": "Electric Motos", "compliance": "Off-road only" } }, null, 2)
+    content: JSON.stringify({ "ucp": "1.0", "protocol_version": "1.0", "spec": "https://ucp.dev/specification/overview/", "schema": "https://ucp.dev/schema/v1.json", "site": `https://${DOMAIN}`, "name": SITE.name, "description": BRAND.description, "services": [ { "id": "product-catalog", "type": "catalog", "url": `https://${DOMAIN}/shop/`, "description": "Full product catalog" }, { "id": "mcp-server", "type": "mcp", "url": `https://${DOMAIN}/api/mcp`, "description": "MCP Streamable HTTP server" }, { "id": "order", "type": "commerce", "url": `https://wa.me/${CONTACT.whatsapp.replace(/\+/g, '')}`, "description": "Place orders via WhatsApp" }, { "id": "wholesale", "type": "b2b", "url": `https://${DOMAIN}/wholesale/`, "description": "Wholesale pricing and bulk ordering" } ], "capabilities": ["browse", "search", "inquiry", "wholesale", "content", "mcp"], "endpoints": { "mcp": `https://${DOMAIN}/api/mcp`, "catalog": `https://${DOMAIN}/shop/`, "contact": `https://${DOMAIN}/contact/`, "agent_skills": `https://${DOMAIN}/.well-known/agent-skills/index.json`, "mcp_server_card": `https://${DOMAIN}/.well-known/mcp/server-card.json`, "api_catalog": `https://${DOMAIN}/.well-known/api-catalog`, "llms_txt": `https://${DOMAIN}/llms.txt` }, "currency": SITE.currency, "minimum_order_aud": SHOP.minOrder, "payment_methods": SHOP.paymentMethods, "legal": { "product_type": "Electric Motos", "compliance": "Off-road only" } }, null, 2)
   },
   {
     path: `public/${SITE.indexNowKey}.txt`,
@@ -226,7 +175,7 @@ Orders are completed by a human via WhatsApp or the order form.`
           { "key": "X-Content-Type-Options", "value": "nosniff" },
           { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
           { "key": "Permissions-Policy", "value": "geolocation=(), microphone=(), camera=()" },
-          { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://api.web3forms.com; font-src 'self';" },
+          { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self'; font-src 'self';" },
           { "key": "Link", "value": "</.well-known/api-catalog>; rel=\"api-catalog\", </.well-known/agent-skills/index.json>; rel=\"describedby\", </llms.txt>; rel=\"describedby\", </.well-known/mcp/server-card.json>; rel=\"service-desc\", </auth.md>; rel=\"auth\", </.well-known/openid-configuration>; rel=\"openid-configuration\"" }
         ]},
         { "source": "/.well-known/api-catalog", "headers": [{ "key": "Content-Type", "value": "application/linkset+json" }, { "key": "Access-Control-Allow-Origin", "value": "*" }] },

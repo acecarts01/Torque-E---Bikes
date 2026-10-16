@@ -26,7 +26,7 @@ export default function SmartImage({
   height = 600,
   fill = false,
   sizes,
-  quality = 90
+  quality = 75
 }: SmartImageProps) {
   const [loaded, setLoaded] = useState(false)
   // Remote (http) and local (/...) sources are used as-is; bare names fall back to a placeholder
@@ -47,7 +47,8 @@ export default function SmartImage({
         onLoad={() => setLoaded(true)}
         className={cn(
           "object-contain transition-[opacity,transform] duration-700 ease-out hover:scale-105",
-          loaded ? "opacity-100" : "opacity-0",
+          // Above-the-fold (priority) images must not wait for JavaScript before they show: that delays LCP.
+          priority || loaded ? "opacity-100" : "opacity-0",
           fill ? "h-full w-full" : ""
         )}
         referrerPolicy="no-referrer"

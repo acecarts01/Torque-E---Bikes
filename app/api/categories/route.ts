@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server'
-import { CATEGORIES, PRODUCTS, SITE } from '@/src/config/site'
+import { CATEGORIES, SITE } from '@/src/config/site'
+import { PRODUCTS } from '@/src/config/products'
 
 export async function GET() {
   const categoriesWithCounts = CATEGORIES.map(c => ({

@@ -1,8 +1,8 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useMemo, useState } from 'react'
 import { Filter, X, ChevronRight } from 'lucide-react'
-import { CATEGORIES, PRODUCTS } from '@/src/config/site'
+import { CATEGORIES } from '@/src/config/site'
 import { cn } from '@/src/lib/utils'
 
 interface ShopFiltersProps {
@@ -14,6 +14,7 @@ interface ShopFiltersProps {
   onPowerChange: (power: string | null) => void
   onVoltageChange: (voltage: string | null) => void
   onCompatibilityChange: (comp: string | null) => void
+  products?: any[] // used to hide filter options no product has
 }
 
 const POWER_OPTIONS = ['250W', '1000W', '2000W', '3000W', '5kW', '7kW+']
@@ -22,11 +23,8 @@ const COMPATIBILITY_OPTIONS = ['Sur-Ron', 'Talaria', 'MTB', 'ETM', 'Strike', 'Un
 
 // Only offer power, voltage and compatibility options that at least one product actually has,
 // so choosing one never empties the grid.
-const has = (get: (p: any) => unknown, opt: string) => PRODUCTS.some(p => { const v = get(p); return Array.isArray(v) ? v.includes(opt) : v === opt })
-const POWER_AVAILABLE = POWER_OPTIONS.filter(o => has(p => p.power, o))
-const VOLTAGE_AVAILABLE = VOLTAGE_OPTIONS.filter(o => has(p => p.voltage, o))
-const COMPAT_AVAILABLE = COMPATIBILITY_OPTIONS.filter(o => has(p => p.compatibility, o))
-const CATEGORY_COUNTS: Record<string, number> = Object.fromEntries(CATEGORIES.map(c => [c.name, PRODUCTS.filter(p => p.category === c.slug).length]))
+const has = (products: any[], get: (p: any) => unknown, opt: string) => products.some(p => { const v = get(p); return Array.isArray(v) ? v.includes(opt) : v === opt })
+const CATEGORY_COUNTS: Record<string, number> = Object.fromEntries(CATEGORIES.map((c: any) => [c.name, c.count ?? 0]))
 
 const FilterSection = ({ title, options, active, onChange, counts }: {
   title: string,
@@ -65,9 +63,13 @@ export default function ShopFilters({
   onCategoryChange,
   onPowerChange,
   onVoltageChange,
-  onCompatibilityChange
+  onCompatibilityChange,
+  products = []
 }: ShopFiltersProps) {
   const [isMobileOpen, setIsMobileOpen] = useState(false)
+  const POWER_AVAILABLE = useMemo(() => POWER_OPTIONS.filter(o => has(products, p => p.power, o)), [products])
+  const VOLTAGE_AVAILABLE = useMemo(() => VOLTAGE_OPTIONS.filter(o => has(products, p => p.voltage, o)), [products])
+  const COMPAT_AVAILABLE = useMemo(() => COMPATIBILITY_OPTIONS.filter(o => has(products, p => p.compatibility, o)), [products])
 
   return (
     <>

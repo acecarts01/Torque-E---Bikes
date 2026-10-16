@@ -7,7 +7,8 @@ import AnnouncementBar from '@/src/components/AnnouncementBar'
 import ProductCard from '@/src/components/ProductCard'
 import ShopFilters from '@/src/components/ShopFilters'
 import { ProductCardSkeleton } from '@/src/components/Skeleton'
-import { PRODUCTS, CATEGORIES } from '@/src/config/site'
+import { CATEGORIES } from '@/src/config/site'
+import { PRODUCTS } from '@/src/config/products'
 import { Zap, ShieldAlert, LayoutGrid } from 'lucide-react'
 
 export default function ShopPage() {
@@ -80,6 +81,8 @@ export default function ShopPage() {
             {/* Sidebar */}
             <aside className="lg:sticky lg:top-28 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto lg:overscroll-contain lg:pr-2 [scrollbar-width:thin] [scrollbar-color:#ff6a1a_transparent]">
               <ShopFilters 
+                products={PRODUCTS}
+                
                 activeCategory={activeCategory}
                 activePower={activePower}
                 activeVoltage={activeVoltage}

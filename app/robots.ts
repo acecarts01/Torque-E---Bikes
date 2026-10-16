@@ -1,5 +1,7 @@
 import { SITE } from '@/src/config/site'
 
+// Allow every crawler (search, AI retrieval and AI training). Private areas stay off limits for all bots.
+// One group only: a bot with its own group would ignore the rules in the * group.
 export default function robots() {
   return {
     rules: [
@@ -16,10 +18,6 @@ export default function robots() {
           '/api/'
         ],
       },
-      {
-        userAgent: ['GPTBot', 'ChatGPT-User', 'ClaudeBot', 'Claude-Web', 'PerplexityBot'],
-        allow: '/',
-      }
     ],
     sitemap: `https://${SITE.domain}/sitemap.xml`,
   }

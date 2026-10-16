@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { PRODUCTS, POSTS, SITE } from '@/src/config/site'
+import { POSTS, SITE } from '@/src/config/site'
+import { PRODUCTS } from '@/src/config/products'
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url)

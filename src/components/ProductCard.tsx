@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import Link from 'next/link'
 import { ArrowRight, ShieldAlert, Zap, Cpu } from 'lucide-react'

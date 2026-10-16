@@ -1,0 +1,302 @@
+group,cluster,keyword,volume,kd,best_competitor,best_position,already_used
+electric,/shop/commuter-and-urban-e-bikes/,"ebike",33100,42,99bikes.com.au,1,true
+electric,/shop/commuter-and-urban-e-bikes/,"electric bike",27100,17,99bikes.com.au,1,false
+electric,/shop/commuter-and-urban-e-bikes/,"ebikes",8100,28,99bikes.com.au,1,false
+electric,/shop/commuter-and-urban-e-bikes/,"e bikes",8100,22,emovebikes.com.au,1,false
+electric,/shop/commuter-and-urban-e-bikes/,"electric bikes",5400,31,emovebikes.com.au,2,false
+electric,/shop/commuter-and-urban-e-bikes/,"e bike electric",5400,16,99bikes.com.au,1,true
+electric,/shop/racks-bags-and-trailers/,"motorcycle tow bar rack",320,7,ampdbros.com.au,4,false
+electric,/shop/racks-bags-and-trailers/,"scooter bag",260,10,emovebikes.com.au,3,false
+electric,/shop/racks-bags-and-trailers/,"electric bicycle trailer",210,7,ampdbros.com.au,1,false
+electric,/shop/racks-bags-and-trailers/,"electric scooter trailer",170,14,emovebikes.com.au,1,false
+electric,/shop/racks-bags-and-trailers/,"e scooter bag",140,6,emovebikes.com.au,3,false
+electric,/shop/racks-bags-and-trailers/,"electric scooter bag",140,9,emovebikes.com.au,3,false
+electric,/shop/phone-mounts-mirrors-and-audio/,"e scooter phone holder",140,7,emovebikes.com.au,8,false
+electric,/shop/phone-mounts-mirrors-and-audio/,"electric scooter phone holder",140,8,emovebikes.com.au,10,false
+electric,/shop/phone-mounts-mirrors-and-audio/,"pedal lynx 3c electric hardtail mountain bike",90,5,99bikes.com.au,1,false
+electric,/shop/phone-mounts-mirrors-and-audio/,"phone holder for electric scooter",90,8,emovebikes.com.au,9,false
+electric,/shop/phone-mounts-mirrors-and-audio/,"mountain electric cycle",2900,16,99bikes.com.au,1,true
+electric,/shop/phone-mounts-mirrors-and-audio/,"mountain electric bicycle",590,16,bikesonline.com.au,3,false
+electric,/shop/wheels-tyres-and-tubes/,"3 wheel electric bicycle",720,14,vamosbikes.com.au,2,false
+electric,/shop/wheels-tyres-and-tubes/,"fat wheel electric bicycle",320,15,emovebikes.com.au,1,false
+electric,/shop/wheels-tyres-and-tubes/,"motor in wheel hub",210,5,ampdbros.com.au,3,false
+electric,/shop/wheels-tyres-and-tubes/,"electric bicycle tire",210,16,bikesonline.com.au,1,false
+electric,/shop/wheels-tyres-and-tubes/,"electric 3 wheel bicycles",210,17,vamosbikes.com.au,3,false
+electric,/shop/wheels-tyres-and-tubes/,"electric three wheeler bikes",210,15,vamosbikes.com.au,3,false
+electric,/shop/kids-and-youth-e-bikes/,"childs e scooter",4400,17,pedl.com.au,9,false
+electric,/shop/kids-and-youth-e-bikes/,"childrens electric moped",3600,12,99bikes.com.au,4,false
+electric,/shop/kids-and-youth-e-bikes/,"kids electric scooter",3600,13,99bikes.com.au,4,false
+electric,/shop/kids-and-youth-e-bikes/,"electric scooter childrens",1900,12,pedl.com.au,4,false
+electric,/shop/kids-and-youth-e-bikes/,"electric scooter for kids",1600,11,pedl.com.au,1,false
+electric,/shop/kids-and-youth-e-bikes/,"children electric bike",1300,20,ampdbros.com.au,1,true
+electric,/shop/helmets-gloves-and-protection/,"e scooter helmet",390,13,pedl.com.au,6,false
+electric,/shop/helmets-gloves-and-protection/,"electric cycle helmet",70,6,ampdbros.com.au,2,false
+electric,/shop/helmets-gloves-and-protection/,"fox dirtpaw gloves",170,12,99bikes.com.au,3,false
+electric,/shop/helmets-gloves-and-protection/,"full face scooter helmet",90,5,99bikes.com.au,7,false
+electric,/shop/helmets-gloves-and-protection/,"bike frame protection kit",50,9,bikesonline.com.au,8,false
+electric,/shop/care-tools-and-hydration/,"e scooter repair",480,12,pedl.com.au,7,false
+electric,/shop/care-tools-and-hydration/,"e scooter repairs",390,9,pedl.com.au,7,false
+electric,/shop/care-tools-and-hydration/,"electric bicycle repair",260,9,pedl.com.au,2,false
+electric,/shop/care-tools-and-hydration/,"scooter repair",260,8,pedl.com.au,10,false
+electric,/shop/care-tools-and-hydration/,"escooter repair",210,17,pedl.com.au,8,false
+electric,/shop/care-tools-and-hydration/,"e scooter repairs adelaide",170,18,emovebikes.com.au,8,false
+electric,/brands/trek/,"trek ebike",1000,40,bikes.com.au,7,false
+electric,/brands/trek/,"trek electric bike",590,26,bikes.com.au,6,false
+electric,/brands/trek/,"trek electric bicycles",320,34,bikes.com.au,6,false
+electric,/brands/trek/,"trek electric mtb",320,19,bikes.com.au,5,true
+electric,/brands/trek/,"trek bicycle electric",210,32,bikes.com.au,4,true
+electric,/brands/trek/,"trek electric mountain bike",210,24,bikes.com.au,4,true
+electric,/shop/road-and-gravel-e-bikes/,"electric road bike",880,15,emovebikes.com.au,6,false
+electric,/shop/road-and-gravel-e-bikes/,"electric off roading bike",720,7,emovebikes.com.au,10,false
+electric,/shop/road-and-gravel-e-bikes/,"electric off road bike",590,11,emovebikes.com.au,2,false
+electric,/shop/road-and-gravel-e-bikes/,"off road electric bikes",480,9,emovebikes.com.au,2,false
+electric,/shop/road-and-gravel-e-bikes/,"off road ebike",480,8,bikesonline.com.au,2,true
+electric,/shop/road-and-gravel-e-bikes/,"off road ebikes",320,8,99bikes.com.au,1,false
+electric,/shop/motors-drivetrain-and-sprockets/,"bikes with a motor",1300,25,emovebikes.com.au,2,false
+electric,/shop/motors-drivetrain-and-sprockets/,"motorcycle electronic",1300,13,emovebikes.com.au,10,false
+electric,/shop/motors-drivetrain-and-sprockets/,"motorised scooter brisbane",390,14,emovebikes.com.au,5,false
+electric,/shop/motors-drivetrain-and-sprockets/,"motorised scooter sydney",390,23,pedl.com.au,6,false
+electric,/shop/motors-drivetrain-and-sprockets/,"motorised scooter perth",390,18,pedl.com.au,6,false
+electric,/shop/motors-drivetrain-and-sprockets/,"motorised scooter adelaide",320,22,emovebikes.com.au,1,false
+electric,/shop/controls-grips-and-pedals/,"electric pedal power",880,21,99bikes.com.au,2,false
+electric,/shop/controls-grips-and-pedals/,"electric pedal assist bike",320,13,99bikes.com.au,1,false
+electric,/shop/controls-grips-and-pedals/,"classicthrottleshop",320,40,ampdbros.com.au,10,false
+electric,/shop/controls-grips-and-pedals/,"pedal electric bicycle",260,20,99bikes.com.au,2,false
+electric,/shop/controls-grips-and-pedals/,"pedal bikes with electric assist",170,12,bikesonline.com.au,1,false
+electric,/shop/controls-grips-and-pedals/,"pedal brewer electric cruiser bike",170,10,99bikes.com.au,1,false
+electric,/shop/electric-dirt-bikes/,"electric dirt bike",8100,17,emovebikes.com.au,8,true
+electric,/shop/electric-dirt-bikes/,"electric motorbike",6600,15,emovebikes.com.au,8,false
+electric,/shop/electric-dirt-bikes/,"dirt bikes electric dirt bikes",4400,17,emovebikes.com.au,8,false
+electric,/shop/electric-dirt-bikes/,"electric dirt bike motorcycle",1600,23,ampdbros.com.au,1,true
+electric,/shop/electric-dirt-bikes/,"e-bike dirt",1600,12,emovebikes.com.au,1,false
+electric,/shop/electric-dirt-bikes/,"surrons",1600,23,pedl.com.au,1,false
+electric,/brands/sur-ron/,"surron",27100,28,emovebikes.com.au,4,true
+electric,/brands/sur-ron/,"surron ultra bee",6600,18,ampdbros.com.au,3,true
+electric,/brands/sur-ron/,"surron light bee x",4400,28,ampdbros.com.au,9,false
+electric,/brands/sur-ron/,"surron light bee",4400,23,ampdbros.com.au,10,true
+electric,/brands/sur-ron/,"surron lbx",3600,25,ampdbros.com.au,7,true
+electric,/brands/sur-ron/,"surron e bike",3600,7,mxrmotorsports.com.au,8,true
+electric,/shop/kids-electric-dirt-and-balance-bikes/,"kids electric bike",4400,20,ampdbros.com.au,4,true
+electric,/shop/kids-electric-dirt-and-balance-bikes/,"electric childrens scooters",2900,11,99bikes.com.au,5,false
+electric,/shop/kids-electric-dirt-and-balance-bikes/,"electric bike kids",480,23,ampdbros.com.au,2,false
+electric,/shop/kids-electric-dirt-and-balance-bikes/,"kids ebike",480,21,ampdbros.com.au,1,false
+electric,/shop/kids-electric-dirt-and-balance-bikes/,"kids electric bikes",170,6,ampdbros.com.au,1,false
+electric,/shop/kids-electric-dirt-and-balance-bikes/,"evo balance bike",170,9,ampdbros.com.au,4,false
+electric,/shop/folding-e-bikes/,"e bike folding electric bike",2900,17,pedl.com.au,5,false
+electric,/shop/folding-e-bikes/,"e bike folding bike",2400,9,pedl.com.au,7,true
+electric,/shop/folding-e-bikes/,"fold up electric bicycle",1900,17,99bikes.com.au,1,false
+electric,/shop/folding-e-bikes/,"foldable electric bicycle",1900,14,99bikes.com.au,4,true
+electric,/shop/folding-e-bikes/,"foldable electric bike",1600,12,99bikes.com.au,2,false
+electric,/shop/folding-e-bikes/,"folding e bike",1600,9,pedl.com.au,5,true
+electric,/shop/seats-fenders-and-body/,"electric bicycle seats",260,9,ampdbros.com.au,1,false
+electric,/shop/seats-fenders-and-body/,"electric bicycle 2 seater",70,9,99bikes.com.au,1,false
+electric,/shop/seats-fenders-and-body/,"segway seat",70,10,pedl.com.au,6,false
+electric,/shop/seats-fenders-and-body/,"seated segway",70,11,pedl.com.au,1,false
+electric,/shop/seats-fenders-and-body/,"electric scooter with seat australia",50,6,pedl.com.au,5,false
+electric,/shop/seats-fenders-and-body/,"2 seater electric bicycle",260,18,99bikes.com.au,1,false
+electric,/brands/merida/,"merida ebike",320,21,99bikes.com.au,2,false
+electric,/brands/merida/,"electric bike merida",210,17,99bikes.com.au,2,false
+electric,/brands/merida/,"merida electric mountain bike",210,19,99bikes.com.au,2,true
+electric,/brands/merida/,"merida e-bikes",110,14,99bikes.com.au,2,false
+electric,/brands/merida/,"merida electric bikes australia",90,13,99bikes.com.au,2,true
+electric,/brands/merida/,"merida electric bikes",70,16,99bikes.com.au,2,false
+electric,/shop/locks-and-security/,"electric bicycle lock",390,13,99bikes.com.au,1,false
+electric,/shop/locks-and-security/,"scooter lock",590,11,99bikes.com.au,9,false
+electric,/shop/locks-and-security/,"lock for a scooter",70,8,99bikes.com.au,1,false
+electric,/shop/lights-and-horns/,"electric bicycle light",210,8,ampdbros.com.au,1,false
+electric,/shop/lights-and-horns/,"electric bicycle horn",90,7,ampdbros.com.au,1,false
+electric,/shop/lights-and-horns/,"light weight scooters",70,6,pedl.com.au,2,false
+electric,/shop/lights-and-horns/,"light e scooter",70,8,pedl.com.au,4,false
+electric,/shop/lights-and-horns/,"electric horn for cycle",50,14,bikes.com.au,1,true
+electric,/shop/lights-and-horns/,"light weight electric scooter",50,7,pedl.com.au,3,false
+electric,/brands/segway/,"scooter by segway",2400,28,pedl.com.au,1,false
+electric,/brands/segway/,"segway e2 pro",1900,21,pedl.com.au,2,false
+electric,/brands/segway/,"segway zt3 pro",1600,14,pedl.com.au,3,false
+electric,/brands/segway/,"segway ninebot e2 pro",1300,23,pedl.com.au,2,false
+electric,/brands/segway/,"segway gt3 pro",720,17,pedl.com.au,3,false
+electric,/brands/segway/,"segway go kart",720,15,pedl.com.au,4,false
+electric,/shop/electric-mountain-bikes/,"ebike mtb",480,12,99bikes.com.au,2,true
+electric,/shop/electric-mountain-bikes/,"fat tyre mountain bike",210,14,99bikes.com.au,5,true
+electric,/shop/electric-mountain-bikes/,"electric mtb australia",170,10,99bikes.com.au,3,true
+electric,/shop/electric-mountain-bikes/,"best electric mountain bike under $3 000 australia",140,14,bikesonline.com.au,1,true
+electric,/shop/electric-mountain-bikes/,"cheap electric mountain bike",140,7,bikesonline.com.au,1,false
+electric,/shop/electric-mountain-bikes/,"electric mountain bike dual suspension",90,13,pedl.com.au,9,false
+electric,/shop/suspension-and-forks/,"electric dual suspension mountain bike",140,6,bikesonline.com.au,7,false
+electric,/shop/suspension-and-forks/,"dual suspension electric scooter",90,8,pedl.com.au,5,false
+electric,/shop/suspension-and-forks/,"dual suspension e scooter",50,6,pedl.com.au,3,false
+electric,/shop/suspension-and-forks/,"dual suspension dirt jumper",140,16,99bikes.com.au,1,false
+electric,/shop/suspension-and-forks/,"fork dirt jump",140,11,bikesonline.com.au,4,false
+electric,/shop/suspension-and-forks/,"full suspension dirt jumper",110,18,bikesonline.com.au,1,false
+electric,/shop/brakes/,"brake bleeding kit",1300,22,99bikes.com.au,2,false
+electric,/shop/brakes/,"bleed kit for brakes",480,14,99bikes.com.au,1,false
+electric,/shop/brakes/,"shimano brake bleed kit",320,11,99bikes.com.au,1,false
+electric,/shop/brakes/,"mtb brake bleed kit",170,12,99bikes.com.au,1,false
+electric,/shop/brakes/,"bleed brakes kit",170,12,99bikes.com.au,1,false
+electric,/shop/brakes/,"bicycle brake bleed kit",170,8,99bikes.com.au,1,false
+electric,/shop/cargo-bikes-and-e-trikes/,"bicycle trike",1300,12,99bikes.com.au,1,false
+electric,/shop/cargo-bikes-and-e-trikes/,"bike cargo trailer",390,14,ampdbros.com.au,4,false
+electric,/shop/cargo-bikes-and-e-trikes/,"etrike",390,8,pedl.com.au,1,false
+electric,/shop/cargo-bikes-and-e-trikes/,"bicycle bike cargo trailer",320,20,ampdbros.com.au,10,false
+electric,/shop/cargo-bikes-and-e-trikes/,"strike ebike",320,15,emovebikes.com.au,4,true
+electric,/shop/cargo-bikes-and-e-trikes/,"bicycle cargo trailer",260,10,ampdbros.com.au,5,false
+electric,/brands/polygon/,"polygon dirt jumper",210,12,bikesonline.com.au,2,false
+electric,/brands/polygon/,"polygon trid dirt jumper",110,11,bikesonline.com.au,1,false
+electric,/brands/polygon/,"polygon trid dirt jump",110,11,bikesonline.com.au,2,false
+electric,/brands/fatboy/,"fatboy scrambler",4400,24,pedl.com.au,7,true
+electric,/brands/fatboy/,"fatboy ebike",3600,26,emovebikes.com.au,4,true
+electric,/brands/fatboy/,"fatboy electric bike",1900,24,emovebikes.com.au,3,false
+electric,/brands/fatboy/,"fatboy electric bikes",1300,26,emovebikes.com.au,3,false
+electric,/brands/fatboy/,"fatboy scrambler v2",1300,19,pedl.com.au,5,true
+electric,/brands/fatboy/,"fatboy scrambler v3",1000,17,pedl.com.au,4,true
+electric,/brands/marin/,"marin dirt jumper",480,20,bikesonline.com.au,2,false
+electric,/brands/marin/,"marin alcatraz dirt jumper",390,12,bikesonline.com.au,1,false
+electric,/brands/marin/,"marin alcatraz dirt jump",210,15,bikesonline.com.au,2,false
+electric,/brands/marin/,"dirt jumper marin",50,12,bikesonline.com.au,2,false
+electric,/brands/talaria/,"talaria",6600,26,emovebikes.com.au,1,true
+electric,/brands/talaria/,"talaria x3",4400,15,emovebikes.com.au,1,true
+electric,/brands/talaria/,"talaria xxx",2400,18,emovebikes.com.au,1,true
+electric,/brands/talaria/,"talaria x3 pro",1900,10,emovebikes.com.au,1,true
+electric,/brands/talaria/,"talaria komodo",1300,12,pedl.com.au,1,true
+electric,/brands/talaria/,"talaria ebike",1000,23,emovebikes.com.au,1,true
+electric,/brands/cube/,"cube electric bicycles",720,21,99bikes.com.au,4,true
+electric,/brands/cube/,"cube electric bike",480,21,99bikes.com.au,2,false
+electric,/brands/cube/,"cube e bikes",260,17,99bikes.com.au,3,false
+electric,/brands/cube/,"cube electric mountain bike",210,14,99bikes.com.au,1,true
+electric,/brands/cube/,"cube electric mtb",170,16,99bikes.com.au,1,true
+electric,/brands/cube/,"cube ebikes",140,20,99bikes.com.au,2,false
+electric,/shop/fat-tyre-and-scrambler-e-bikes/,"fat tyre electric bicycle",1600,17,ampdbros.com.au,3,true
+electric,/shop/fat-tyre-and-scrambler-e-bikes/,"electric fat tire bicycles",1300,17,emovebikes.com.au,3,true
+electric,/shop/fat-tyre-and-scrambler-e-bikes/,"fat tyre ebike",1300,13,ampdbros.com.au,1,false
+electric,/shop/fat-tyre-and-scrambler-e-bikes/,"fat tire electric bicycle",1300,19,emovebikes.com.au,1,false
+electric,/shop/fat-tyre-and-scrambler-e-bikes/,"fat tire ebike",1000,17,emovebikes.com.au,1,false
+electric,/shop/fat-tyre-and-scrambler-e-bikes/,"fat tyre electric bike",1000,16,emovebikes.com.au,1,false
+electric,/shop/batteries-chargers-and-electronics/,"e cycle battery",1900,12,ampdbros.com.au,2,false
+electric,/shop/batteries-chargers-and-electronics/,"battery operated bicycle for adults",720,25,99bikes.com.au,1,false
+electric,/shop/batteries-chargers-and-electronics/,"electric scooter charger",720,10,pedl.com.au,2,false
+electric,/shop/batteries-chargers-and-electronics/,"battery electric bicycle",590,17,vamosbikes.com.au,2,false
+electric,/shop/batteries-chargers-and-electronics/,"battery for electric bicycle",590,9,99bikes.com.au,1,true
+electric,/shop/batteries-chargers-and-electronics/,"electric bicycle charger",480,6,vamosbikes.com.au,1,true
+electric,/brands/reid/,"reid electric bicycle",390,25,bikesonline.com.au,3,false
+electric,/brands/reid/,"reid electric bike",320,26,bikesonline.com.au,3,false
+electric,/brands/reid/,"reid electric bikes",170,23,bikesonline.com.au,3,true
+electric,/brands/reid/,"reid ebike",170,25,bikesonline.com.au,3,false
+electric,/brands/apollo/,"apollo e scooter",390,15,99bikes.com.au,4,false
+electric,/brands/apollo/,"apollo electric scooter",210,19,99bikes.com.au,6,false
+electric,/brands/apollo/,"apollo escooter",140,21,99bikes.com.au,5,false
+electric,/brands/apollo/,"apollo scooter australia",110,20,99bikes.com.au,5,false
+electric,/brands/apollo/,"apollo city pro e scooter",90,8,pedl.com.au,8,false
+electric,/brands/apollo/,"apollo dirt bike",90,31,mxrmotorsports.com.au,3,true
+electric,/brands/cannondale/,"cannondale ebike",170,17,pedl.com.au,2,true
+electric,/brands/cannondale/,"cannondale electric bicycles",170,18,pedl.com.au,3,false
+electric,/brands/cannondale/,"cannondale electric bikes",140,24,pedl.com.au,3,false
+electric,/brands/cannondale/,"cannondale electric bike",70,23,pedl.com.au,3,false
+electric,/brands/cannondale/,"cannondale electric mountain bike",50,22,pedl.com.au,3,false
+electric,/brands/cannondale/,"cannondale electric mountain bikes",50,11,pedl.com.au,3,true
+electric,/brands/cruzr/,"cruzr ebike",1600,22,emovebikes.com.au,2,true
+electric,/brands/cruzr/,"cruzr e bikes",880,17,emovebikes.com.au,2,false
+electric,/brands/cruzr/,"cruzr electric bike",320,17,emovebikes.com.au,5,false
+electric,/brands/cruzr/,"cruzr e-bike",140,2,pedl.com.au,1,false
+electric,/brands/cruzr/,"cruzr ebikes",140,17,emovebikes.com.au,2,false
+electric,/brands/cruzr/,"cruzr barrel ebike",90,15,emovebikes.com.au,3,true
+electric,/brands/ncm/,"ncm electric bikes",480,17,pedl.com.au,5,false
+electric,/brands/ncm/,"ncm ebikes",320,20,pedl.com.au,2,false
+electric,/brands/ncm/,"ncm electric bicycle",320,5,pedl.com.au,1,false
+electric,/brands/ncm/,"ncm electric bike",210,14,pedl.com.au,4,false
+electric,/brands/ncm/,"ebike ncm",170,10,emovebikes.com.au,3,false
+electric,/brands/ncm/,"ncm e bikes",90,16,emovebikes.com.au,1,false
+electric,/brands/mamba/,"mamba ebike",1000,12,mambabikes.com.au,1,true
+electric,/brands/mamba/,"mamba e bikes",590,17,mambabikes.com.au,1,false
+electric,/brands/mamba/,"mamba electric bikes",480,13,mambabikes.com.au,1,false
+electric,/brands/mamba/,"mamba electric bike",390,16,mambabikes.com.au,1,false
+electric,/brands/mamba/,"mamba sahara ebike",320,4,mambabikes.com.au,4,true
+electric,/brands/mamba/,"mamba e-bike",260,13,mambabikes.com.au,1,false
+electric,/brands/aventon/,"aventon ebike",880,25,bikesonline.com.au,3,true
+electric,/brands/aventon/,"aventon electric bikes",210,22,bikesonline.com.au,3,false
+electric,/brands/aventon/,"aventon electric bike",210,25,bikesonline.com.au,5,false
+electric,/brands/aventon/,"aventon ebike australia",140,11,bikesonline.com.au,4,true
+electric,/brands/aventon/,"aventon pace 4 step through electric bike",70,20,bikesonline.com.au,1,false
+electric,/brands/aventon/,"aventon soltera 2.5 ebike",70,12,pedl.com.au,2,false
+electric,/brands/100/,"electric scooter 100 km h",70,9,emovebikes.com.au,1,false
+electric,/brands/100/,"1000 watt electric bicycle",70,7,pedl.com.au,2,false
+electric,/brands/100/,"dirt jumpers under $1000",210,12,99bikes.com.au,1,false
+electric,/brands/100/,"dirt jumpers under 1000",110,12,99bikes.com.au,2,false
+electric,/brands/100/,"e scooter under $1000",70,17,99bikes.com.au,2,false
+electric,/brands/100/,"electric scooter under $1000",50,13,99bikes.com.au,3,false
+electric,/brands/ampd-bros/,"ampd bros ebike",1000,26,emovebikes.com.au,3,true
+electric,/brands/ampd-bros/,"ampd bros electric bikes",170,21,emovebikes.com.au,2,false
+electric,/brands/ampd-bros/,"ampd bros e bikes",110,25,emovebikes.com.au,3,false
+electric,/brands/vamos/,"vamos electric bikes",320,15,vamosbikes.com.au,1,true
+electric,/brands/vamos/,"vamos ebike",210,20,vamosbikes.com.au,1,false
+electric,/brands/vamos/,"vamos electric bike",170,21,vamosbikes.com.au,1,false
+electric,/brands/bonnell/,"bonnell conversion kit",90,14,pedl.com.au,3,false
+electric,/brands/bonnell/,"bonnell electric bicycle",70,12,pedl.com.au,3,false
+electric,/brands/bonnell/,"bonnell kit",70,14,pedl.com.au,3,true
+electric,/brands/torque/,"bike torque wrench kit",70,21,99bikes.com.au,7,false
+electric,/brands/canyon/,"canyon dirt jumper",390,24,bikesonline.com.au,8,false
+electric,/brands/specialized/,"specialized dirt jumpers",70,17,bikesonline.com.au,7,false
+electric,/brands/kalkhoff/,"kalkhoff electric bike",390,13,emovebikes.com.au,7,false
+electric,/brands/kalkhoff/,"kalkhoff e bikes",260,16,emovebikes.com.au,8,false
+electric,/brands/kalkhoff/,"kalkhoff ebike",140,15,emovebikes.com.au,2,false
+electric,/brands/bolzzen/,"bolzzen scooter",390,4,pedl.com.au,2,false
+electric,/brands/bolzzen/,"bolzzen scooters",260,17,pedl.com.au,2,false
+electric,/brands/bolzzen/,"bolzzen electric scooter",170,13,pedl.com.au,2,false
+electric,/brands/bolzzen/,"bolzzen e scooter",140,10,pedl.com.au,2,false
+electric,/brands/ktm/,"ktm electric bicycle",260,22,pedl.com.au,1,false
+electric,/brands/ktm/,"electric ktm motocross bike",170,17,pedl.com.au,8,false
+electric,/brands/ktm/,"ktm electric cycle",140,7,pedl.com.au,1,false
+electric,/brands/tebco/,"tebco electric bicycles",50,25,bikes.com.au,4,false
+electric,/brands/kristall/,"kristall ebike",210,8,pedl.com.au,1,false
+electric,/brands/kristall/,"kristall electric bike",170,6,pedl.com.au,3,false
+electric,/brands/lagads/,"lagads electric bicycle",170,8,pedl.com.au,1,false
+accessory,/shop/racks-bags-and-trailers/,"bike rack",12100,24,bikesonline.com.au,1,true
+accessory,/shop/racks-bags-and-trailers/,"vehicle bicycle racks",6600,16,99bikes.com.au,1,false
+accessory,/shop/racks-bags-and-trailers/,"bike rack for bicycle",6600,21,bikesonline.com.au,6,true
+accessory,/shop/racks-bags-and-trailers/,"bike and racks",5400,22,99bikes.com.au,1,false
+accessory,/shop/phone-mounts-mirrors-and-audio/,"mountain bike",14800,25,bikesonline.com.au,1,false
+accessory,/shop/phone-mounts-mirrors-and-audio/,"shokz headphones",9900,25,99bikes.com.au,7,false
+accessory,/shop/phone-mounts-mirrors-and-audio/,"biking mountain bike",8100,32,bikesonline.com.au,1,false
+accessory,/shop/phone-mounts-mirrors-and-audio/,"mountain mountain bike",6600,30,bikesonline.com.au,1,false
+accessory,/shop/wheels-tyres-and-tubes/,"tyres for cycles",2400,11,99bikes.com.au,1,true
+accessory,/shop/wheels-tyres-and-tubes/,"sclaverand valve",2400,22,99bikes.com.au,6,false
+accessory,/shop/wheels-tyres-and-tubes/,"bike tyres",1900,13,bikes.com.au,1,true
+accessory,/shop/wheels-tyres-and-tubes/,"3 wheel scooter",1900,11,99bikes.com.au,5,false
+accessory,/shop/helmets-gloves-and-protection/,"bike helmet",8100,16,bikes.com.au,5,true
+accessory,/shop/helmets-gloves-and-protection/,"bike cycle helmets",6600,24,bikesonline.com.au,4,true
+accessory,/shop/helmets-gloves-and-protection/,"full face helmet",3600,15,99bikes.com.au,1,false
+accessory,/shop/helmets-gloves-and-protection/,"fox helmet",3600,12,99bikes.com.au,2,false
+accessory,/shop/care-tools-and-hydration/,"bike stand",5400,12,99bikes.com.au,2,false
+accessory,/shop/care-tools-and-hydration/,"bike pump",4400,16,99bikes.com.au,2,false
+accessory,/shop/care-tools-and-hydration/,"bike repair close to me",3600,18,99bikes.com.au,1,false
+accessory,/shop/care-tools-and-hydration/,"bicycle repair close to me",3600,37,99bikes.com.au,3,false
+accessory,/shop/motors-drivetrain-and-sprockets/,"bike chain",2400,18,99bikes.com.au,2,true
+accessory,/shop/motors-drivetrain-and-sprockets/,"bike chain lube",1300,18,99bikes.com.au,1,false
+accessory,/shop/motors-drivetrain-and-sprockets/,"derailleur",1300,17,99bikes.com.au,1,false
+accessory,/shop/motors-drivetrain-and-sprockets/,"bikes with a motor",1300,25,emovebikes.com.au,2,false
+accessory,/shop/controls-grips-and-pedals/,"pedal",1900,28,99bikes.com.au,2,false
+accessory,/shop/controls-grips-and-pedals/,"pedal bike",1600,13,99bikes.com.au,1,false
+accessory,/shop/controls-grips-and-pedals/,"bike pedals",1600,16,99bikes.com.au,1,true
+accessory,/shop/controls-grips-and-pedals/,"mtb grips",1300,13,99bikes.com.au,1,true
+accessory,/shop/seats-fenders-and-body/,"infant bicycle seat",2900,21,99bikes.com.au,4,false
+accessory,/shop/seats-fenders-and-body/,"bike seat",1900,11,99bikes.com.au,1,true
+accessory,/shop/seats-fenders-and-body/,"baby bike seat",1600,18,bikesonline.com.au,1,false
+accessory,/shop/seats-fenders-and-body/,"cycling bike seat",1000,28,bikesonline.com.au,5,true
+accessory,/shop/locks-and-security/,"bike lock",6600,17,99bikes.com.au,1,true
+accessory,/shop/locks-and-security/,"lock",6600,13,99bikes.com.au,6,false
+accessory,/shop/locks-and-security/,"bike with lock",2900,17,99bikes.com.au,2,false
+accessory,/shop/locks-and-security/,"lock cycle",1900,21,99bikes.com.au,2,false
+accessory,/shop/lights-and-horns/,"bike lights",3600,22,99bikes.com.au,1,true
+accessory,/shop/lights-and-horns/,"bike bicycle light",2900,22,99bikes.com.au,1,false
+accessory,/shop/lights-and-horns/,"bike lights bicycle",2900,19,99bikes.com.au,1,false
+accessory,/shop/lights-and-horns/,"light on bicycle",2900,27,bikesonline.com.au,4,true
+accessory,/shop/suspension-and-forks/,"dual suspension mountain bike",5400,12,bikesonline.com.au,1,false
+accessory,/shop/suspension-and-forks/,"bike full suspension mtb",2400,12,bikesonline.com.au,2,false
+accessory,/shop/suspension-and-forks/,"full suspension mountain bike",1900,13,bikesonline.com.au,2,false
+accessory,/shop/suspension-and-forks/,"mtb bike full suspension",1900,9,bikesonline.com.au,1,false
+accessory,/shop/brakes/,"brake bleeding kit",1300,22,99bikes.com.au,2,false
+accessory,/shop/brakes/,"bike brake pads",720,13,99bikes.com.au,1,true
+accessory,/shop/brakes/,"disc brake disc",720,28,99bikes.com.au,9,false
+accessory,/shop/brakes/,"ultra bee brakes",720,16,ampdbros.com.au,1,false
+accessory,/shop/batteries-chargers-and-electronics/,"e cycle battery",1900,12,ampdbros.com.au,2,false
+accessory,/shop/batteries-chargers-and-electronics/,"battery operated bicycle for adults",720,25,99bikes.com.au,1,false
+accessory,/shop/batteries-chargers-and-electronics/,"electric scooter charger",720,10,pedl.com.au,2,false
+accessory,/shop/batteries-chargers-and-electronics/,"battery electric bicycle",590,17,vamosbikes.com.au,2,false

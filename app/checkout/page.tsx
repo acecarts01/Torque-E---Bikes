@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useMemo, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import Link from 'next/link'
 import Nav from '@/src/components/Nav'
 import Footer from '@/src/components/Footer'
@@ -8,7 +8,7 @@ import AnnouncementBar from '@/src/components/AnnouncementBar'
 import SmartImage from '@/src/components/SmartImage'
 import { formatCurrency, cn } from '@/src/lib/utils'
 import { Zap, Landmark, Truck, Wallet, ShieldCheck, Minus, Plus, Trash2, CheckCircle2, ShoppingCart } from 'lucide-react'
-import { SHOP, PRODUCTS, CONTACT } from '@/src/config/site'
+import { SHOP, CONTACT } from '@/src/config/site'
 import { useCart, setQty, removeFromCart, clearCart } from '@/src/lib/cart'
 import { calcTotals, toCents, gstLabel } from '@/src/lib/pricing'
 
@@ -28,10 +28,25 @@ export default function CheckoutPage() {
   const [error, setError] = useState('')
   const [done, setDone] = useState<{ ref: string; total: number } | null>(null)
 
+  // Only the products in the cart are loaded (from a small API), so the page does not carry the whole catalogue.
+  const [catalog, setCatalog] = useState<Record<string, any>>({})
+  const [fetchedKey, setFetchedKey] = useState('')
+  const slugsKey = cart.map(c => c.slug).sort().join(',')
+  useEffect(() => {
+    if (!slugsKey) return
+    const ctl = new AbortController()
+    fetch(`/api/cart-products/?slugs=${encodeURIComponent(slugsKey)}`, { signal: ctl.signal })
+      .then(r => (r.ok ? r.json() : []))
+      .then((arr: any[]) => { setCatalog(Object.fromEntries(arr.map(p => [p.slug, p]))); setFetchedKey(slugsKey) })
+      .catch(() => {})
+    return () => ctl.abort()
+  }, [slugsKey])
+  const loaded = !slugsKey || fetchedKey === slugsKey
+
   const lines = useMemo(() => cart.flatMap(c => {
-    const p = PRODUCTS.find(x => x.slug === c.slug)
-    return p ? [{ product: p, qty: c.qty }] : []
-  }), [cart])
+    const p = catalog[c.slug]
+    return p ? [{ product: { ...p, images: [p.image] }, qty: c.qty }] : []
+  }), [cart, catalog])
 
   const t = calcTotals(lines.map(l => toCents(Number(l.product.price)) * l.qty), method)
   const { subtotal, shipping, cryptoDiscount, gst, total } = t
@@ -87,6 +102,8 @@ export default function CheckoutPage() {
               </p>
               <Link href="/shop/" className="inline-block bg-[#ff6a1a] text-[#140800] px-8 py-4 rounded-sm font-black uppercase tracking-widest text-xs">Keep shopping</Link>
             </div>
+          ) : !loaded && cart.length > 0 && lines.length === 0 ? (
+            <p className="text-center text-gray-400 py-24">Loading your order...</p>
           ) : lines.length === 0 ? (
             <div className="max-w-xl mx-auto text-center space-y-6 py-16">
               <ShoppingCart className="w-14 h-14 text-gray-600 mx-auto" />

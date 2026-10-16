@@ -1,6 +1,7 @@
 // src/lib/hubs.ts
 // Helpers for hub pages (electric bikes, budget, brands) built from the live catalogue.
-import { PRODUCTS, CATEGORIES } from '@/src/config/site'
+import { CATEGORIES } from '@/src/config/site'
+import { PRODUCTS } from '@/src/config/products'
 
 export const slugify = (s: string) => s.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
 
