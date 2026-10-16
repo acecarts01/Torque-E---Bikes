@@ -109,3 +109,14 @@ Repeat Phase 0 after every confirmed Google core or spam update (status.search.g
 - FAQs: product pages now carry product-specific answers (price, saving, range, crypto discount) plus the existing "compare with similar bikes" answer; repeated shipping, payment and safety text removed from product pages.
 - Not applied (needs approval because URLs change): consolidating or noindexing thin brand pages (47 of 118 brands have one product).
 - Correction to the first report: /api/ucp and /api/acp are not advertised anywhere. The real routes are /api/ucp/services and /api/acp/catalog and both work.
+
+## Applied later on 16 Oct 2026: brand merge and agent readiness
+- 38 thin brand pages (under 5 products, except Dirodi and Flight Risk) merged: old URLs 308-redirect to the product, its category or the shop; their FAQ/SEO entries and the copy links to them were removed. Their keywords are now unassigned in docs/used-keywords.csv.
+- Hero product card removed from the home page.
+- Markdown for Agents: a request with `Accept: text/markdown` for any public page returns Markdown (middleware.ts -> app/api/md/route.ts, turndown). Browsers still get HTML.
+- robots.txt (app/robots.txt/route.ts): single allow-all group plus `Content-Signal: search=yes, ai-input=yes, ai-train=yes`.
+- Extensionless well-known files (api-catalog, oauth-*, openid-configuration) are served by route handlers with JSON content types; Vercel served the static copies as octet-stream.
+- Added `/.well-known/ai-catalog.json` (ARD) and `/.well-known/poppy.json`; agent skills are real SKILL.md files with real sha256 digests; the UCP profile and route were removed (the store is not on that programme).
+- MCP `create_order_draft` now validates slugs and returns a real `/checkout/?items=slug:qty` link with a GST-inclusive estimate; the checkout page fills the cart from it.
+- Accessibility: named icon buttons, sort select and carousel dots, removed dead `#` social links, lighter small grey text, heading order.
+- Not done: DNS-AID (needs DNS records), Auth.md (needs an OAuth server the store does not have), x402/MPP/UCP (optional commerce, not scored).
