@@ -7,9 +7,9 @@
   },
   "entries": [
     {
-      "id": "urn:air:torquee-bikesaustralia.com.au:mcp:store",
+      "identifier": "urn:air:torquee-bikesaustralia.com.au:mcp:store",
       "displayName": "Torque E-Bikes store MCP server",
-      "type": "mcp-server",
+      "type": "application/json",
       "url": "https://torquee-bikesaustralia.com.au/.well-known/mcp/server-card.json",
       "representativeQueries": [
         "Find an electric dirt bike under $5000 in Australia",
@@ -18,9 +18,9 @@
       ]
     },
     {
-      "id": "urn:air:torquee-bikesaustralia.com.au:skills:index",
+      "identifier": "urn:air:torquee-bikesaustralia.com.au:skills:index",
       "displayName": "Torque E-Bikes agent skills",
-      "type": "agent-skills",
+      "type": "application/json",
       "url": "https://torquee-bikesaustralia.com.au/.well-known/agent-skills/index.json",
       "representativeQueries": [
         "How do I order from Torque E-Bikes?",

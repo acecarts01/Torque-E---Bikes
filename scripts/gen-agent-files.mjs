@@ -52,9 +52,9 @@ const AGENT_DISCOVERY_FILES = [
       specVersion: '1.0',
       host: { displayName: SITE.name, identifier: DOMAIN, documentationUrl: `https://${DOMAIN}/llms.txt` },
       entries: [
-        { id: `urn:air:${DOMAIN}:mcp:store`, displayName: `${SITE.name} store MCP server`, type: 'mcp-server', url: `https://${DOMAIN}/.well-known/mcp/server-card.json`,
+        { identifier: `urn:air:${DOMAIN}:mcp:store`, displayName: `${SITE.name} store MCP server`, type: 'application/json', url: `https://${DOMAIN}/.well-known/mcp/server-card.json`,
           representativeQueries: ['Find an electric dirt bike under $5000 in Australia', 'What is the price of the Sur-Ron Light Bee?', 'Prepare a cart for two Talaria Sting bikes'] },
-        { id: `urn:air:${DOMAIN}:skills:index`, displayName: `${SITE.name} agent skills`, type: 'agent-skills', url: `https://${DOMAIN}/.well-known/agent-skills/index.json`,
+        { identifier: `urn:air:${DOMAIN}:skills:index`, displayName: `${SITE.name} agent skills`, type: 'application/json', url: `https://${DOMAIN}/.well-known/agent-skills/index.json`,
           representativeQueries: ['How do I order from Torque E-Bikes?', 'What is the shipping cost and GST?', 'Does the store offer wholesale pricing?'] }
       ]
     }, null, 2) },
