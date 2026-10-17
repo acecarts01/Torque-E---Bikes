@@ -34,8 +34,12 @@ export default function CategoryDetail({ slug, intro, products, h1, faq = [] }: 
   const [activePower, setActivePower] = useState<string | null>(null)
   const [activeVoltage, setActiveVoltage] = useState<string | null>(null)
   const [activeCompatibility, setActiveCompatibility] = useState<string | null>(null)
+  // Draw the grid in pages: rendering every card at once (up to 77) blocks the main thread on phones.
+  const PAGE = 24
+  const [visible, setVisible] = useState(PAGE)
 
   const triggerLoading = () => {
+    setVisible(PAGE)
     setIsLoading(true)
     setTimeout(() => setIsLoading(false), 400)
   }
@@ -125,7 +129,7 @@ export default function CategoryDetail({ slug, intro, products, h1, faq = [] }: 
             </div>
           ) : filteredProducts.length > 0 ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
-              {filteredProducts.map(product => (
+              {filteredProducts.slice(0, visible).map(product => (
                 <ProductCard key={product.slug} product={product} />
               ))}
             </div>
@@ -137,6 +141,26 @@ export default function CategoryDetail({ slug, intro, products, h1, faq = [] }: 
                 <p className="text-[10px] text-brand-gray max-w-xs mx-auto font-medium uppercase tracking-widest leading-relaxed">Try adjusting your filters. Some custom builds are restricted to order.</p>
               </div>
             </div>
+          )}
+          {!isLoading && filteredProducts.length > visible && (
+            <>
+              <div className="text-center">
+                <button
+                  onClick={() => setVisible(v => v + PAGE)}
+                  className="px-8 py-4 bg-brand-red text-[#140800] font-black uppercase tracking-widest text-xs rounded-sm hover:bg-white transition-colors"
+                >
+                  Show more ({filteredProducts.length - visible} left)
+                </button>
+              </div>
+              {/* Plain links to the products not drawn yet, so every product stays reachable from this page. */}
+              <nav aria-label={`More ${category.name}`} className="sr-only">
+                <ul>
+                  {filteredProducts.slice(visible).map(p => (
+                    <li key={p.slug}><a href={`/shop/${p.category}/${p.slug}/`}>{p.name}</a></li>
+                  ))}
+                </ul>
+              </nav>
+            </>
           )}
         </div>
       </div>
