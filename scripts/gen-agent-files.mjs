@@ -29,13 +29,13 @@ const brandRedirects = Object.keys(brandGroups)
 // ---- Agent skills (real SKILL.md files with sha256 digests) ----
 const skillDefs = [
   { name: 'browse-catalog', description: `Search and browse the ${SITE.name} product catalogue (electric bikes, e-motos, conversion kits, parts) by keyword, category or price.`,
-    body: `# Browse the catalogue\n\nUse these public, read-only endpoints. No sign-in is needed.\n\n- \`GET https://${DOMAIN}/api/search?q=<keyword>\` search products\n- \`GET https://${DOMAIN}/api/products\` product list (supports category and price filters)\n- \`GET https://${DOMAIN}/api/categories\` category list\n- MCP server: \`https://${DOMAIN}/api/mcp\` (tools: search_products, get_product, list_categories)\n\nPrices are in AUD and include 10% GST. High-powered bikes are for off-road and private property use only, and must not be described as road legal.\n` },
+    body: `# Browse the catalogue\n\nUse these public, read-only endpoints. No sign-in is needed.\n\n- \`GET https://${DOMAIN}/api/search?q=<keyword>\` search products\n- \`GET https://${DOMAIN}/api/products\` product list (supports category and price filters)\n- \`GET https://${DOMAIN}/api/categories\` category list\n- MCP server: \`https://${DOMAIN}/api/mcp\` (tools: search_products, get_product, list_categories)\n\nPrices are in AUD. High-powered bikes are for off-road and private property use only, and must not be described as road legal.\n` },
   { name: 'order-draft', description: `Prepare a pre-filled ${SITE.name} cart link for a human to review and complete. Agents never take payment.`,
-    body: `# Prepare an order draft\n\nCall the MCP tool \`create_order_draft\` at \`https://${DOMAIN}/api/mcp\` with \`items: [{ slug, quantity }]\`. It returns a checkout link of the form \`https://${DOMAIN}/checkout/?items=slug:qty\` and an estimate of the total (GST included, shipping 10% of the order, free from ${SHOP.freeShippingThreshold} AUD).\n\nThe customer opens the link, checks the cart and completes the order themselves. Payment details are sent by the store by email after the order is placed. Never ask for or enter card or bank details.\n` },
+    body: `# Prepare an order draft\n\nCall the MCP tool \`create_order_draft\` at \`https://${DOMAIN}/api/mcp\` with \`items: [{ slug, quantity }]\`. It returns a checkout link of the form \`https://${DOMAIN}/checkout/?items=slug:qty\` and an estimate of the total (shipping 10% of the order, free from ${SHOP.freeShippingThreshold} AUD).\n\nThe customer opens the link, checks the cart and completes the order themselves. Payment details are sent by the store by email after the order is placed. Never ask for or enter card or bank details.\n` },
   { name: 'wholesale-enquiry', description: `Explain ${SITE.name} wholesale and bulk ordering and point a human to the wholesale form.`,
     body: `# Wholesale\n\nWholesale pricing and bulk ordering are handled by a person. Direct the buyer to \`https://${DOMAIN}/wholesale/\` to submit an enquiry, or email ${CONTACT.email}.\n` },
-  { name: 'store-policies', description: `Shipping, payment, GST and compliance rules for ${SITE.name} (Australia).`,
-    body: `# Store policies\n\n- Ships Australia-wide. Lithium batteries are Class 9 dangerous goods and are shipped by certified carriers.\n- Shipping is 10% of the order total, free for orders from ${SHOP.freeShippingThreshold} AUD.\n- Prices include 10% GST.\n- Payment: ${SHOP.paymentMethods.join(', ')}. Payment details are sent after the order is placed.\n- Bikes above 250W are for off-road and private property use only.\n- Full policies: \`https://${DOMAIN}/shipping/\`, \`https://${DOMAIN}/faq/\`. MCP tool: \`get_policies\`.\n` }
+  { name: 'store-policies', description: `Shipping, payment and compliance rules for ${SITE.name} (Australia).`,
+    body: `# Store policies\n\n- Ships Australia-wide. Lithium batteries are Class 9 dangerous goods and are shipped by certified carriers.\n- Shipping is 10% of the order total, free for orders from ${SHOP.freeShippingThreshold} AUD.\n- Payment: ${SHOP.paymentMethods.join(', ')}. Payment details are sent after the order is placed.\n- Bikes above 250W are for off-road and private property use only.\n- Full policies: \`https://${DOMAIN}/shipping/\`, \`https://${DOMAIN}/faq/\`. MCP tool: \`get_policies\`.\n` }
 ]
 const SKILL_FILES = []
 const skillIndex = []
@@ -55,7 +55,7 @@ const AGENT_DISCOVERY_FILES = [
         { identifier: `urn:air:${DOMAIN}:mcp:store`, displayName: `${SITE.name} store MCP server`, type: 'application/json', url: `https://${DOMAIN}/.well-known/mcp/server-card.json`,
           representativeQueries: ['Find an electric dirt bike under $5000 in Australia', 'What is the price of the Sur-Ron Light Bee?', 'Prepare a cart for two Talaria Sting bikes'] },
         { identifier: `urn:air:${DOMAIN}:skills:index`, displayName: `${SITE.name} agent skills`, type: 'application/json', url: `https://${DOMAIN}/.well-known/agent-skills/index.json`,
-          representativeQueries: ['How do I order from Torque E-Bikes?', 'What is the shipping cost and GST?', 'Does the store offer wholesale pricing?'] }
+          representativeQueries: ['How do I order from Torque E-Bikes?', 'What is the shipping cost?', 'Does the store offer wholesale pricing?'] }
       ]
     }, null, 2) },
   { path: 'public/.well-known/poppy.json', content: JSON.stringify({ protocol_version: '0.1', organization: { name: SITE.name, domain: DOMAIN }, web: {} }, null, 2) }
@@ -89,7 +89,7 @@ ${BRAND.description}
 Location: ${CONTACT.hq}
 Contact: WhatsApp ${CONTACT.whatsapp}, Email ${CONTACT.email}
 Min Order: ${SITE.currency} ${SHOP.minOrder}
-Shipping: ${SHOP.shippingRate}% of the order total (GST-inclusive); free on orders from ${SITE.currency} ${SHOP.freeShippingThreshold}
+Shipping: ${SHOP.shippingRate}% of the order total ; free on orders from ${SITE.currency} ${SHOP.freeShippingThreshold}
 Payment Methods: ${SHOP.paymentMethods.join(', ')}
 Crypto Discount: ${SHOP.cryptoDiscount}%
 

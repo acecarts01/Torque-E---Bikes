@@ -9,9 +9,6 @@ type Data = {
   orderNumber: string
   firstName: string
   amountDue: number
-  gst: number | null
-  gstMode: string | null
-  gstRate: number | null
   methodLabel: string
   opening: string
   closing: string
@@ -129,12 +126,7 @@ export default function PaymentDetailsPage() {
             </div>
 
             <div className="bg-[#1d2024] border border-[#ff6a1a]/40 rounded-sm">
-              <CopyRow label="Amount due (AUD, incl. GST)" value={money(data.amountDue)} big />
-              {data.gst !== null && data.gstRate !== null && (
-                <p className="px-4 pb-3 text-xs text-gray-500">
-                  {data.gstMode === 'inclusive' ? `Includes GST of ${money(data.gst)}` : `Includes GST (${data.gstRate}%) of ${money(data.gst)}`}
-                </p>
-              )}
+              <CopyRow label="Amount due (AUD)" value={money(data.amountDue)} big />
             </div>
 
             <p className="text-sm text-gray-300">{data.opening}</p>

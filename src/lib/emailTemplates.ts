@@ -59,7 +59,6 @@ type Order = {
   id: string; name: string; email: string; phone: string; paymentMethod: string; notes?: string
   address: { street: string; suburb: string; state: string; postcode: string }
   items: Item[]; subtotal: number; shipping: number; cryptoDiscount: number; total: number
-  gst?: number; gstRate?: number; gstMode?: 'exclusive' | 'inclusive'
 }
 
 const addressText = (a: Order['address']) => `${a.street}, ${a.suburb} ${a.state} ${a.postcode}`
@@ -72,18 +71,11 @@ const itemsTable = (items: Item[]) => table(
 const totalsTable = (o: Order) => {
   const row = (l: string, v: string, bold = false) =>
     `<tr>${td(l, C.card, `padding:4px 10px;font-size:14px;color:${bold ? C.ink : C.soft};${bold ? 'font-weight:bold;' : ''}`)}${td(v, C.card, `padding:4px 10px;font-size:14px;text-align:right;color:${C.ink};${bold ? 'font-weight:bold;' : ''}`)}</tr>`
-  const hasGst = typeof o.gst === 'number'
-  const inclusive = o.gstMode === 'inclusive'
-  const gstRow = !hasGst ? '' : inclusive
-    ? row(`Total includes GST (${o.gstRate}%)`, money(o.gst as number))
-    : row(`GST (${o.gstRate}%)`, money(o.gst as number))
-  const totalLabel = hasGst ? 'Total payable (AUD, incl. GST)' : 'Total (AUD)'
+  const totalLabel = 'Total payable (AUD)'
   return table(
-    row(hasGst && !inclusive ? 'Subtotal (ex GST)' : 'Subtotal', money(o.subtotal)) + row(o.shipping === 0 ? 'Shipping' : `Shipping (${SHOP.shippingRate}% of order)`, o.shipping === 0 ? 'Free' : money(o.shipping)) +
+    row('Subtotal', money(o.subtotal)) + row(o.shipping === 0 ? 'Shipping' : `Shipping (${SHOP.shippingRate}% of order)`, o.shipping === 0 ? 'Free' : money(o.shipping)) +
     (o.cryptoDiscount ? row('Crypto discount', `-${money(o.cryptoDiscount)}`) : '') +
-    (inclusive ? '' : gstRow) +
-    `<tr>${td(`<b>${totalLabel}</b>`, C.tint, `padding:10px;font-size:16px;border-top:2px solid ${ACCENT};`)}${td(`<b>${money(o.total)}</b>`, C.tint, `padding:10px;font-size:18px;text-align:right;border-top:2px solid ${ACCENT};`)}</tr>` +
-    (inclusive ? gstRow : ''),
+    `<tr>${td(`<b>${totalLabel}</b>`, C.tint, `padding:10px;font-size:16px;border-top:2px solid ${ACCENT};`)}${td(`<b>${money(o.total)}</b>`, C.tint, `padding:10px;font-size:18px;text-align:right;border-top:2px solid ${ACCENT};`)}</tr>`,
     C.card, 'margin:4px 0 16px;')
 }
 
@@ -170,7 +162,7 @@ export function paymentDetailsEmail(p: { id: string; name: string; amount: numbe
     eyebrow: 'Payment details', title: `Order ${p.id}`, meta: methodName,
     body:
       `<p style="margin:0 0 12px;">Hi ${esc(p.name.split(' ')[0])},</p>` +
-      table(`<tr>${td(`<div style="font-size:10px;letter-spacing:1.5px;font-weight:bold;color:${C.soft};">AMOUNT DUE (AUD, INCL. GST)</div><div style="font-size:30px;font-weight:bold;color:${C.ink};margin-top:4px;">${money(p.amount)}</div>`, C.tint, `padding:16px 18px;border-left:4px solid ${ACCENT};`)}</tr>`, C.tint, 'margin:6px 0 16px;') +
+      table(`<tr>${td(`<div style="font-size:10px;letter-spacing:1.5px;font-weight:bold;color:${C.soft};">AMOUNT DUE (AUD)</div><div style="font-size:30px;font-weight:bold;color:${C.ink};margin-top:4px;">${money(p.amount)}</div>`, C.tint, `padding:16px 18px;border-left:4px solid ${ACCENT};`)}</tr>`, C.tint, 'margin:6px 0 16px;') +
       `<p style="margin:0 0 12px;">${esc(opening)}</p>` +
       table(rows, C.mono, `border:1px solid ${C.rule};margin:0 0 14px;`) +
       button(copyUrl, 'View & copy payment details') +

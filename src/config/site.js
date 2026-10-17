@@ -26,7 +26,7 @@ export const CONTACT = {
 
 export const SHOP = {
   minOrder: 499.99,
-  shippingRate: 10, // shipping is this % of the order total (goods, GST-inclusive)
+  shippingRate: 10, // shipping is this % of the order total (goods)
   freeShippingThreshold: 9900, // orders of this amount or more ship free
   cryptoDiscount: 10,
   paymentMethods: ['bank-transfer', 'payid', 'crypto-BTC', 'crypto-USDT'],
@@ -77,7 +77,6 @@ export const BRAND = {
 }
 
 export const CATEGORIES = CATALOG_CATEGORIES
-
 
 // Published posts (generated from the keyword plan; see src/content/blog and src/lib/blog.ts).
 export const POSTS = BLOG_META
@@ -177,6 +176,3 @@ export const REPLY = {
   ],
 }
 
-// GST. mode 'exclusive': 10% is added on top of the goods + shipping total (shown as its own line).
-// mode 'inclusive': listed prices already contain GST, and checkout shows the GST portion inside the total.
-export const GST = { rate: 10, mode: 'inclusive' }

@@ -6,14 +6,14 @@
       "type": "skill-md",
       "description": "Search and browse the Torque E-Bikes product catalogue (electric bikes, e-motos, conversion kits, parts) by keyword, category or price.",
       "url": "/.well-known/agent-skills/browse-catalog/SKILL.md",
-      "digest": "sha256:7b44dbce97fe1af3401346aa54f3dc2e71c676d1101741283c92a182624ed80f"
+      "digest": "sha256:aa705f1608a02711f9094464a1203d27ada29e98229b2ea854ae7e97093576fb"
     },
     {
       "name": "order-draft",
       "type": "skill-md",
       "description": "Prepare a pre-filled Torque E-Bikes cart link for a human to review and complete. Agents never take payment.",
       "url": "/.well-known/agent-skills/order-draft/SKILL.md",
-      "digest": "sha256:7f81f022c827af75a1506abd64ec7c3d1aca28c60cbc7d1dfdae6cf4399a4ac2"
+      "digest": "sha256:96535f28edd3007b379d0696d8fc4b68ee797014a70f0cde068d46a33fa31895"
     },
     {
       "name": "wholesale-enquiry",
@@ -25,9 +25,9 @@
     {
       "name": "store-policies",
       "type": "skill-md",
-      "description": "Shipping, payment, GST and compliance rules for Torque E-Bikes (Australia).",
+      "description": "Shipping, payment and compliance rules for Torque E-Bikes (Australia).",
       "url": "/.well-known/agent-skills/store-policies/SKILL.md",
-      "digest": "sha256:72271f73738bdb8a0655b152257794a75a7c494b13a4a1a14c4c6d2b65c3d7e5"
+      "digest": "sha256:db4e4ca634be852b6a0eba293757ab448c2b18d00d15814762e5861903c750c5"
     }
   ]
 }

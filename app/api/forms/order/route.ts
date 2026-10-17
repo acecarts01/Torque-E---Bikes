@@ -45,15 +45,15 @@ export async function POST(req: Request) {
   if (!items.length) return Response.json({ success: false, message: 'Your order is empty.' }, { status: 400 })
 
   const t = calcTotals(items.map(i => Math.round(i.line * 100)), method)
-  const { subtotal, shipping, cryptoDiscount, gst, total } = t
+  const { subtotal, shipping, cryptoDiscount, total } = t
   if (subtotal < SHOP.minOrder) {
-    return Response.json({ success: false, message: `The minimum order is ${money(SHOP.minOrder)} (before GST).` }, { status: 400 })
+    return Response.json({ success: false, message: `The minimum order is ${money(SHOP.minOrder)}.` }, { status: 400 })
   }
 
   const reference = makeRef('TQR')
   const record = {
     id: reference, status: 'new', createdAt: new Date().toISOString(),
-    name, email, phone, address, notes, paymentMethod: method, items, subtotal, shipping, cryptoDiscount, gst, gstRate: t.gstRate, gstMode: t.gstMode, total,
+    name, email, phone, address, notes, paymentMethod: method, items, subtotal, shipping, cryptoDiscount, total,
     token: randomBytes(12).toString('hex'),
   }
 

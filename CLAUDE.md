@@ -27,6 +27,7 @@ React/Next.js ecommerce site for high-performance electric bikes and conversion 
 - Ships: Australia-wide (DG Certified)
 - Payment: Bank Transfer, PayID, Crypto (10% discount)
 - No invented stats, awards or press mentions.
+- No GST wording anywhere (prices, checkout, emails, admin, FAQs, agent files): ABN Lookup shows The Torque Team Pty Ltd is not registered for GST (checked 17 Oct 2026). Totals = goods + shipping (10% of goods, free from $9,900) - crypto discount. Re-add GST only if the company registers.
 
 ## Orders, enquiries and the Reply Portal (do not regress)
 - All outbound email is branded HTML from `src/lib/emailTemplates.ts` (light shell, dark header band, explicit `bgcolor` + `background-color` on every table/td, `color-scheme: light`). Never send plain-text-only or dark-body emails. `src/lib/mailer.ts` adds the plain-text alternative automatically.

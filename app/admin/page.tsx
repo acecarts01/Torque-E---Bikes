@@ -199,10 +199,7 @@ function Detail({ kind, r, onStatus, onUpdated }: { kind: 'order' | 'enquiry'; r
           {r.items.map((i: any) => <p key={i.slug} className="flex justify-between"><span>{i.qty} x {i.name}</span><span>{money(i.line)}</span></p>)}
           <p className="flex justify-between text-gray-400"><span>{r.shipping ? `Shipping (${SHOP.shippingRate}% of order)` : 'Shipping'}</span><span>{r.shipping ? money(r.shipping) : 'Free'}</span></p>
           {r.cryptoDiscount > 0 && <p className="flex justify-between text-gray-400"><span>Crypto discount</span><span>-{money(r.cryptoDiscount)}</span></p>}
-          {typeof r.gst === 'number' && (
-            <p className="flex justify-between text-gray-400"><span>{r.gstMode === 'inclusive' ? `Total includes GST (${r.gstRate}%)` : `GST (${r.gstRate}%)`}</span><span>{money(r.gst)}</span></p>
-          )}
-          <p className="flex justify-between font-black border-t border-white/10 pt-2"><span>Total payable{typeof r.gst === 'number' ? ' (incl. GST)' : ''}</span><span>{money(r.total)}</span></p>
+          <p className="flex justify-between font-black border-t border-white/10 pt-2"><span>Total payable</span><span>{money(r.total)}</span></p>
           {r.notes && <p className="pt-2 text-gray-300"><span className="text-gray-500">Customer notes:</span> {r.notes}</p>}
         </div>
       ) : (

@@ -114,7 +114,7 @@ export async function POST(req: NextRequest) {
             result = { content: [{ type: 'text', text: JSON.stringify({
               checkout_url: url,
               items: lines.map(l => ({ slug: l.p.slug, name: l.p.name, quantity: l.qty, unit_price_aud: l.p.price })),
-              estimate_aud: { subtotal: t.subtotal, shipping: t.shipping, gst_included: t.gst, total: t.total },
+              estimate_aud: { subtotal: t.subtotal, shipping: t.shipping, total: t.total },
               unknown_slugs: unknown,
               note: 'Estimate for bank transfer or PayID. Crypto saves ' + SHOP.cryptoDiscount + '%. A person must open the link, review the cart and place the order. No payment is taken here.'
             }) }] }

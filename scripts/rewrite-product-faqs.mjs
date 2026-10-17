@@ -22,7 +22,7 @@ for (const key of Object.keys(bank.pages)) {
   const saving = p.comparePrice && p.comparePrice > p.price ? ` That is ${money(p.comparePrice - p.price)} below the compare-at price of ${money(p.comparePrice)}.` : ''
   const price = {
     q: `How much is the ${p.name} in Australia?`,
-    a: `The ${p.name} from ${p.brand} costs ${money(p.price)} AUD including GST, listed in our ${catName(p.category)} range.${saving} Paying by crypto takes 10% off the order total.` +
+    a: `The ${p.name} from ${p.brand} costs ${money(p.price)} AUD, listed in our ${catName(p.category)} range.${saving} Paying by crypto takes 10% off the order total.` +
        (p.compliance === 'off-road' ? ' It is for off-road and private property use only.' : ''),
   }
   const compare = (bank.pages[key] || []).find(x => /^How does the .* compare with similar/.test(x.q))
