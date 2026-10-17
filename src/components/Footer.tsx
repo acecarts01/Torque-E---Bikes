@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import { Zap, Mail, Phone, MapPin, ShieldCheck, BadgeCheck } from 'lucide-react'
+import { Mail, Phone, MapPin, ShieldCheck, BadgeCheck } from 'lucide-react'
+import BrandMark from '@/src/components/BrandMark'
 import { SITE, CONTACT, BRAND, CATEGORIES, SHOP } from '@/src/config/site'
 import TrustpilotFooter from './TrustpilotFooter'
 
@@ -14,7 +15,7 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="col-span-2 md:col-span-1 space-y-4">
             <Link href="/" className="flex items-center gap-2">
-              <Zap className="w-6 h-6 text-[#ff6a1a]" />
+              <BrandMark size={34} />
               <span className="text-xl font-black italic uppercase tracking-tighter italic">TORQUE <span className="text-[#ff6a1a]">E</span>-BIKES</span>
             </Link>
             <p className="text-gray-400 text-[10px] leading-relaxed max-w-xs uppercase tracking-wider">

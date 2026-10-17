@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { ShoppingCart, Menu, X, Search, Zap, ArrowRight } from 'lucide-react'
+import BrandMark from '@/src/components/BrandMark'
 import { SITE, CATEGORIES } from '@/src/config/site'
 import { cn } from '@/src/lib/utils'
 import dynamic from 'next/dynamic'
@@ -39,18 +40,18 @@ export default function Nav() {
           scrolled ? "bg-black/40 backdrop-blur-xl border border-white/5 shadow-2xl" : "bg-transparent border-transparent"
         )}>
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
+          <Link href="/" aria-label="Torque E-Bikes home" className="flex items-center gap-3 group">
             <div className="relative">
-              <div className="absolute inset-0 bg-brand-red blur-lg opacity-20 group-hover:opacity-100 transition-opacity" />
-              <div className="relative bg-brand-red p-2 rounded-lg transform group-hover:rotate-12 transition-transform shadow-lg">
-                <Zap className="w-5 h-5 text-white fill-white" />
-              </div>
+              <div className="absolute inset-0 rounded-full bg-brand-red blur-lg opacity-20 group-hover:opacity-70 transition-opacity" />
+              <BrandMark size={44} className="relative transition-transform duration-500 group-hover:rotate-[20deg]" />
             </div>
             <div className="flex flex-col">
-              <span className="text-xl font-black tracking-tighter leading-none uppercase italic">
-                TORQUE <span className="text-brand-red">E</span>-BIKES
+              <span className="text-2xl font-black tracking-tighter leading-none uppercase italic">TORQUE</span>
+              <span className="mt-1 flex items-center gap-2">
+                <span className="text-[11px] font-black italic uppercase tracking-[0.15em] leading-none text-brand-red">E-Bikes</span>
+                <span className="h-[2px] w-5 bg-brand-red" />
+                <span className="text-[8px] uppercase tracking-[0.3em] font-bold text-brand-gray">Australia</span>
               </span>
-              <span className="text-[8px] uppercase tracking-[0.4em] font-bold text-brand-gray">Power Lab Australia</span>
             </div>
           </Link>
 
@@ -117,7 +118,7 @@ export default function Nav() {
           >
             <div className="flex justify-between items-center mb-10">
               <Link href="/" onClick={() => setIsOpen(false)} className="flex items-center gap-3">
-                <Zap className="w-8 h-8 text-brand-red fill-brand-red" />
+                <BrandMark size={44} />
                 <span className="text-2xl font-black italic uppercase tracking-tighter">TORQUE <span className="text-brand-red">E</span>-BIKES</span>
               </Link>
               <button onClick={() => setIsOpen(false)} aria-label="Close menu" className="p-3 bg-white/5 rounded-full ring-1 ring-white/10">
