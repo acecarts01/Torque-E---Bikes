@@ -20,7 +20,7 @@ import { PUBLISHED } from '@/src/lib/blog'
 import { cn } from '@/src/lib/utils'
 
 // The server page (app/page.tsx) chooses the few products and FAQ items this page needs, so the browser never downloads the full catalogue.
-export default function HomeClient({ featuredProducts, homeFaq }: { featuredProducts: any[]; homeFaq: FaqItem[] }) {
+export default function HomeClient({ featuredProducts, homeFaq, abnSection }: { featuredProducts: any[]; homeFaq: FaqItem[]; abnSection?: React.ReactNode }) {
 
   return (
     <main className="flex-grow selection:bg-brand-red selection:text-[#140800]">
@@ -146,6 +146,8 @@ export default function HomeClient({ featuredProducts, homeFaq }: { featuredProd
           </div>
         </section>
       )}
+
+      {abnSection}
 
       <section className="bg-brand-dark px-4 pb-24">
         <PageFaq items={homeFaq} heading="Torque E-Bikes FAQs" />

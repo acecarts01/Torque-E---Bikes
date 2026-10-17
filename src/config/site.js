@@ -57,6 +57,7 @@ export const BRAND = {
   tradingName: 'Torque E-Bikes',
   acn: '126 064 668',
   abn: '27 126 064 668',
+  abnLookupUrl: 'https://abr.business.gov.au/ABN/View?abn=27126064668',
   foundingYear: '2007',
   foundingLocation: 'Brisbane City, QLD, Australia',
   description: 'Torque E-Bikes is a Brisbane-based Australian retailer of electric dirt bikes, e-bikes, performance conversion systems, parts and riding gear, shipped Australia-wide.',

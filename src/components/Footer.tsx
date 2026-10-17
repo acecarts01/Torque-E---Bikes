@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { Zap, Mail, Phone, MapPin, ShieldCheck } from 'lucide-react'
+import { Zap, Mail, Phone, MapPin, ShieldCheck, BadgeCheck } from 'lucide-react'
 import { SITE, CONTACT, BRAND, CATEGORIES, SHOP } from '@/src/config/site'
 import TrustpilotFooter from './TrustpilotFooter'
 
@@ -62,13 +62,27 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* ABN badge */}
+        <div className="flex justify-center mb-8">
+          <a
+            href={BRAND.abnLookupUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 border border-[#35c17a]/40 bg-[#35c17a]/10 text-[#35c17a] hover:bg-[#35c17a]/20 rounded-full px-5 py-2.5 text-[10px] font-black uppercase tracking-widest transition-colors"
+          >
+            <BadgeCheck className="w-4 h-4 shrink-0" aria-hidden="true" />
+            <span>ABN verified &middot; {BRAND.abn} &middot; Check it on ABN Lookup</span>
+            <span className="sr-only">(opens in a new tab)</span>
+          </a>
+        </div>
+
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 border-t border-white/5 pt-6">
           <div className="text-center md:text-left">
             <p className="text-[9px] text-gray-500 font-bold uppercase tracking-widest leading-relaxed">
               &copy; {currentYear} {BRAND.tradingName}, a trading name of {BRAND.entityName}.
               <span className="mx-2 text-white/20">|</span>
-              ABN {BRAND.abn} <span className="mx-2 text-white/20">|</span> ACN {BRAND.acn}
+              ABN <a href={BRAND.abnLookupUrl} target="_blank" rel="noopener noreferrer" className="text-[#ff6a1a] underline underline-offset-2 hover:text-white" aria-label={`ABN ${BRAND.abn}: verify on ABN Lookup (opens in a new tab)`}>{BRAND.abn}</a> <span className="mx-2 text-white/20">|</span> ACN {BRAND.acn}
             </p>
             <p className="text-[8px] text-gray-500 mt-1 uppercase tracking-[0.2em]">
               <Link href="/terms/" className="hover:text-[#ff6a1a]">Terms &amp; Conditions</Link>
