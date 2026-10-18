@@ -119,4 +119,5 @@ Repeat Phase 0 after every confirmed Google core or spam update (status.search.g
 - Added `/.well-known/ai-catalog.json` (ARD) and `/.well-known/poppy.json`; agent skills are real SKILL.md files with real sha256 digests; the UCP profile and route were removed (the store is not on that programme).
 - MCP `create_order_draft` now validates slugs and returns a real `/checkout/?items=slug:qty` link with a GST-inclusive estimate; the checkout page fills the cart from it.
 - Accessibility: named icon buttons, sort select and carousel dots, removed dead `#` social links, lighter small grey text, heading order.
-- Not done: DNS-AID (needs DNS records), Auth.md (needs an OAuth server the store does not have), x402/MPP/UCP (optional commerce, not scored).
+- DNS-AID added 2026-10-18 on Vercel DNS: HTTPS records `_index._agents` and `_mcp._agents` (priority 1, target the apex, alpn=h2,h3 port=443). Not DNSSEC-signed (Vercel DNS cannot sign), so the checker may still flag the DS requirement.
+- Not done: Auth.md (needs an OAuth server the store does not have), x402/MPP/UCP (optional commerce, not scored).
