@@ -179,11 +179,11 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Racks, Bags & Trailers — `/shop/racks-bags-and-trailers/`
 - **Primary:** bike rack (12,100/KD 24)
-- **Secondary:** foldable bike bag (2,900/KD 10); bike trailer (2,900/KD 6); thule bike rack (2,900/KD 17); bike basket (2,400/KD 8); bike bag (1,900/KD 7); bags cycling (1,600/KD 10); bike carrier (1,600/KD 13); bike cover (1,600/KD 17)
+- **Secondary:** foldable bike bag (2,900/KD 10); bike trailer (2,900/KD 6); thule bike rack (2,900/KD 17); bike basket (2,400/KD 8); bike bag (1,900/KD 7); bags cycling (1,600/KD 10); bike carrier (1,600/KD 13); bike cover (1,600/KD 17); bicycle bike trailer (1,900/KD 14); bike trailers (590/KD 11); bike cargo trailer (390/KD 14); ebike rack (320/KD 12); pannier bag bike (320/KD 13); ebike car rack (260/KD 10); bike pannier bag (210/KD 10); ebike racks (210/KD 10)
 - **Title:** Bike Racks — Buy Online | Torque E-Bikes (40)
 - **H1:** Bike Racks in Australia — 25 products
 - **Meta:** Bike rack: shop 25 products from $62 to $899 across 13 brands. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Shop now. (151)
-- **Supporting (LSI):** bike rack for bicycle, bike rack with bikes, thule bike rack carrier, bike trailer for bikes, bike carrier for bike, rear bike rack, bike on trailer, bike trailer for kids, bike racks for towbars, bicycle panniers, bike basket for rear, bike with basket
+- **Supporting (LSI):** bike rack for bicycle, bike rack with bikes, thule bike rack carrier, bike trailer for bikes, bike carrier for bike, rear bike rack, bike on trailer, bike trailer for kids, bike racks for towbars, bicycle panniers, bike basket for rear, bike with basket; bike carrier trailer hitch mount; bicycle bike cargo trailer; push bike trailer; bike and bike trailer; bike bike trailer; trailer hitch bike carrier; trailer hitch mount bike rack; trailer bike carrier; bike trailers for cargo; bike trailer hitch; bike and trailer hitch; trailer hitch bike rack; bike trailer tow hitch; ebike rack for car; bike rack with trailer hitch; bike rack trailer hitch; bike racks for ebikes; trailer hitches for bike racks; ebike bike rack; bike trailers for sale; bike hitch for trailer; ebike racks for cars; trailer hitch bike; bike trailer for sale melbourne; pannier bike bag; bike trailer for sale; bike trailer attachment; bike pannier bags; bike rack for ebike; pannier bags for bikes; car ebike rack; ebike rack tow bar; hitch mounted ebike rack; shotgun australia; basil australia; basil bike rack
 - **Image alt:** bike rack — Racks, Bags & Trailers range at Torque E-Bikes
 
 ### Motors, Drivetrain & Sprockets — `/shop/motors-drivetrain-and-sprockets/`
