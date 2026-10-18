@@ -84,9 +84,9 @@ export const CATALOG_CATEGORIES = [
   "slug": "batteries-chargers-and-electronics",
   "name": "Batteries, Chargers & Electronics",
   "group": "Parts",
-  "description": "Shop 13 batteries, chargers & electronics from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 28 batteries, chargers & electronics from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/79bike-battery-1.webp",
-  "count": 13
+  "count": 28
  },
  {
   "slug": "cargo-bikes-and-e-trikes",
