@@ -152,11 +152,11 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Cargo Bikes & E-Trikes — `/shop/cargo-bikes-and-e-trikes/`
 - **Primary:** cargo bike (1,900/KD 16)
-- **Secondary:** cargo ebike (880/KD 2); e trike (1,000/KD 12); e trikes electric tricycles (880/KD 10); electric cargo bicycle (880/KD 11); cargo ebike australia (170/KD 1); adult trike bicycle (260/KD 11); e cargo bike (210/KD 8); cargo bike australia (260/KD 13)
+- **Secondary:** cargo ebike (880/KD 2); e trike (1,000/KD 12); e trikes electric tricycles (880/KD 10); electric cargo bicycle (880/KD 11); cargo ebike australia (170/KD 1); adult trike bicycle (260/KD 11); e cargo bike (210/KD 8); cargo bike australia (260/KD 13); electric trike (1,300/KD 15); electric cargo bike (720/KD 28); electric tricycle for adults (480/KD 18); electric trikes (390/KD 14); electric trike australia (390/KD 18); electric trike tricycle (320/KD 7); e trike electric tricycle (320/KD 10); electric trikes for adults (320/KD 10)
 - **Title:** Cargo Bikes — Buy Online | Torque E-Bikes (41)
 - **H1:** Cargo Bikes in Australia — 25 products
 - **Meta:** Cargo bike: shop 25 products from $899 to $12,099 across 12 brands. Shipped Australia-wide from Brisbane. Pay by bank transfer, PayID or crypto. Shop now. (154)
-- **Supporting (LSI):** e trike australia, electric cargo bike australia, electric e-trike, e trike bike, adult trike australia, e trike for sale, adult tricycle electric, electric adult trike, childrens cargo bike, adult trike tricycle, foldable e trike, folding adult trike
+- **Supporting (LSI):** e trike australia, electric cargo bike australia, electric e-trike, e trike bike, adult trike australia, e trike for sale, adult tricycle electric, electric adult trike, childrens cargo bike, adult trike tricycle, foldable e trike, folding adult trike; cargo electric bikes; adult electric tricycle; electric trike bike; electric cargo bikes; electric trike bicycle; best electric tricycle for adults australia; electric cargo trike; cargo bike electric; electric tricycle for adults australia; cargo electric bike; electric trike for adults australia; electric tricycles for adults; electric trike for sale; adult electric trike; adult trikes electric; cargo electric bike australia; electric cargo bikes australia; electric trikes for sale; electric bike cargo; e cargo bike australia; electric cargo bike for sale; tricycle for adults electric; cargo e bike australia; electric trike bike australia; electric trikes australia; sunmono electric bike; eunorau max cargo
 - **Image alt:** cargo bike — Cargo Bikes & E-Trikes range at Torque E-Bikes
 
 ### Lights & Horns — `/shop/lights-and-horns/`
