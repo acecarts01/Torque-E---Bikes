@@ -96,11 +96,11 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Fat-Tyre & Scrambler E-Bikes — `/shop/fat-tyre-and-scrambler-e-bikes/`
 - **Primary:** electric fat bike (720/KD 11)
-- **Secondary:** electric bicycle fat bike (590/KD 5); buy electric fat bike [generated] (–/KD –); electric fat bike for sale [generated] (–/KD –); electric fat bike price [generated] (–/KD –); cheap electric fat bike [generated] (–/KD –)
+- **Secondary:** electric bicycle fat bike (590/KD 5); buy electric fat bike [generated] (–/KD –); electric fat bike for sale [generated] (–/KD –); electric fat bike price [generated] (–/KD –); cheap electric fat bike [generated] (–/KD –); fat tyre ebike (1,300/KD 13); fat tyre electric bike (1,000/KD 16); fat tyre electric bikes (390/KD 10); fat tyre ebikes (320/KD 17); electric bike fat tyre (210/KD 14); electric fat tyre bike (210/KD 15); fat tyre electric bike australia (140/KD 6); fat tyre ebike australia (140/KD 8)
 - **Title:** Electric Fat Bikes — Buy Online | Torque E-Bikes (48)
 - **H1:** Electric Fat Bikes in Australia — 41 products
 - **Meta:** Electric fat bike: shop 41 products from $1,609 to $4,849 across 11 brands. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Shop now. (149)
-- **Supporting (LSI):** electric fat bike australia, best fat tyre electric bike australia, best fat tyre ebike
+- **Supporting (LSI):** electric fat bike australia, best fat tyre electric bike australia, best fat tyre ebike; fat tyre e bikes australia; electric bike fat tyres; electric fat tyre bikes; best fat tyre ebike australia; fat tyres electric bike; fat tyre electric bikes australia; best fat tyre electric bike; fat tire ebike australia
 - **Image alt:** electric fat bike — Fat-Tyre & Scrambler E-Bikes range at Torque E-Bikes
 - **Notes:** 4 generated to reach the floor. 
 
