@@ -4,20 +4,24 @@ url,type,role,keyword,volume,kd,intent,source
 /,home,secondary,torque e-bikes australia,,,Navigational,generated
 /,home,secondary,torque e-bikes brisbane,,,Navigational,generated
 /shop/electric-dirt-bikes/,category,primary,electric dirt bike,8100,8,Commercial,KM
+/shop/electric-dirt-bikes/,category,secondary,electric bikes dirt,4400,8,Commercial,KM
+/shop/electric-dirt-bikes/,category,secondary,electric motocross bike,1300,17,Commercial,competitor
 /shop/electric-dirt-bikes/,category,secondary,e dirt bike,1000,6,Commercial,KM
 /shop/electric-dirt-bikes/,category,secondary,electric motocross motorcycle,1000,22,Commercial,competitor
 /shop/electric-dirt-bikes/,category,secondary,ebike dirt bikes,720,8,Commercial,KM
 /shop/electric-dirt-bikes/,category,secondary,electric pit bike,720,13,Commercial,KM
 /shop/electric-dirt-bikes/,category,secondary,off road ebike,480,4,Commercial,KM
-/shop/electric-dirt-bikes/,category,secondary,electric dirt bike australia,1300,21,Commercial,KM
+/shop/electric-dirt-bikes/,category,secondary,electric dirt bike for adults,320,13,Commercial,competitor
+/shop/electric-dirt-bikes/,category,lsi,electric dirt bike motorcycle,1600,20,Commercial,KM
+/shop/electric-dirt-bikes/,category,lsi,electric dirt bike australia,1300,21,Commercial,KM
 /shop/electric-dirt-bikes/,category,lsi,cheap electric dirt bikes,260,12,Transactional,KM
-/shop/electric-dirt-bikes/,category,secondary,adult electric dirt bike,260,13,Commercial,competitor
+/shop/electric-dirt-bikes/,category,lsi,adult electric dirt bike,260,13,Commercial,competitor
 /shop/electric-dirt-bikes/,category,lsi,electric offroad bike,210,12,Commercial,competitor
 /shop/electric-dirt-bikes/,category,lsi,e dirt bike australia,210,15,Commercial,KM
 /shop/electric-dirt-bikes/,category,lsi,electric dirt motorbike,210,16,Commercial,KM
 /shop/electric-dirt-bikes/,category,lsi,electric dirt motorcycle,210,17,Commercial,KM
 /shop/electric-dirt-bikes/,category,lsi,mini electric dirt bike,170,5,Commercial,KM
-/shop/electric-dirt-bikes/,category,secondary,electric dirt bike for sale,170,13,Transactional,KM
+/shop/electric-dirt-bikes/,category,lsi,electric dirt bike for sale,170,13,Transactional,KM
 /shop/electric-dirt-bikes/,category,lsi,cheap e dirt bike,140,13,Transactional,KM
 /shop/electric-dirt-bikes/,category,lsi,electric trials bike,140,16,Commercial,competitor
 /shop/electric-dirt-bikes/,category,lsi,best electric dirt bike,170,14,Commercial,competitor
@@ -26,44 +30,74 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-dirt-bikes/,category,secondary,electric dirt bikes,1000,15,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,secondary,electric off road bike,590,11,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,secondary,high performance electric dirt bike,590,23,Commercial,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,secondary,off road electric bikes,480,9,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,secondary,electric dirt bike motorcycles,480,20,Commercial,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,secondary,e bike off road,320,7,"Informational, Commercial",semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,secondary,electric trail bike,320,17,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,secondary,electric dirt bikes australia,260,17,Commercial,semrush-2026-10-18
-/shop/electric-dirt-bikes/,category,secondary,electric dirt bike electric,390,15,Commercial,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,electric dirt bikes electric dirt bikes,480,17,"Informational, Commercial",semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,electric dirt bike electric,390,15,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,zero motorcycles australia,320,20,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,off road electric bike,210,6,Commercial,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,off road e bikes,210,9,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,electric dirt bike adults,210,13,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,husqvarna electric bike,170,9,Commercial,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,off road e bike,140,6,"Informational, Commercial",semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,electric bike off road,140,7,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,cheap electric dirt bike,140,12,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,electric bike dirt bike,140,13,Commercial,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,dirt bike electric,140,17,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,good electric dirt bike,140,20,Commercial,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,off road electric bike australia,110,6,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,cheapest electric dirt bike,110,16,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,electric dirt bike perth,110,16,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,electric mini motocross bike,110,16,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,electric pit bikes,110,17,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,segway electric bike,110,19,Commercial,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,electric motocross bikes,110,20,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,budget friendly electric dirt bike,110,21,Commercial,semrush-2026-10-18
-/shop/electric-dirt-bikes/,category,secondary,electric dirt bikes for sale,110,24,Transactional,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,electric dirt bikes for sale,110,24,Transactional,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,electric off road bikes,90,3,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,best off-road electric bike australia,90,6,Commercial,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,electric dirt bike australia under $1000,90,8,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,electric dirt bike australia cheap,90,10,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,electric dirt bike australia for adults,90,10,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,fast electric dirt bike,90,11,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,electric mini dirt bike,90,12,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,electric dirt bike cheap,90,13,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,electric dirt bike mini,90,13,Commercial,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,off roading electric bike,70,5,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,electric off road bike australia,70,6,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,electric trail bike australia,70,6,Commercial,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,e dirt bike australia under $1500,70,7,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,72v electric dirt bikes,70,7,Commercial,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,dirt bikes that are electric,70,7,"Informational, Commercial",semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,electric dirt bike for 12 year olds,70,13,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,best electric off road bike,70,13,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,best off road electric bike,70,13,Commercial,semrush-2026-10-18
-/shop/electric-dirt-bikes/,category,secondary,electric dirt bike australia for sale,70,14,Transactional,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,electric dirt bike australia for sale,70,14,Transactional,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,electric dirt bike adult,70,15,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,e dirt bikes australia,70,17,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,electric pit bike australia,70,21,Commercial,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,tork australia,70,22,"Navigational, Commercial",semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,electric enduro bike,70,23,"Informational, Commercial",semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,ktm electric kids bike,70,25,"Informational, Transactional",semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,electric dirt bikes for adults,50,13,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,mini electric dirt bikes,50,13,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,best electric dirt bikes,50,14,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,lightweight electric dirt bike,50,16,Commercial,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,affordable electric dirt bike,50,17,"Informational, Commercial",semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,electric trail bikes,50,17,"Informational, Commercial",semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,electric motocross dirt bikes,50,19,"Informational, Commercial",semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,stark future electric dirt bike,30,10,"Informational, Transactional",semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,e ride pro electric dirt bike,20,5,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/,category,lsi,segway dirt ebike,20,17,Transactional,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,segway electric dirt bike,20,18,"Informational, Commercial",semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,rerode electric dirt bike,10,1,"Navigational, Commercial",semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,bonnell electric dirt bike,10,6,"Informational, Transactional",semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,husqvarna electric dirt bike,50,15,Informational,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,kayo electric dirt bike,30,12,Informational,semrush-2026-10-18
+/shop/electric-dirt-bikes/,category,lsi,tork electric dirt bike,10,8,Informational,semrush-2026-10-18
 /shop/kids-electric-dirt-and-balance-bikes/,category,primary,kids electric bike,4400,6,Commercial,competitor
 /shop/kids-electric-dirt-and-balance-bikes/,category,secondary,childrens electric dirt bike,1600,6,Commercial,KM
 /shop/kids-electric-dirt-and-balance-bikes/,category,secondary,electric balance bike,1600,12,Commercial,competitor
@@ -72,25 +106,36 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/kids-electric-dirt-and-balance-bikes/,category,secondary,childrens electric motor bike,590,14,Commercial,competitor
 /shop/kids-electric-dirt-and-balance-bikes/,category,secondary,electric bike for kids,390,5,Commercial,competitor
 /shop/kids-electric-dirt-and-balance-bikes/,category,secondary,electric dirt bike for kids,320,6,Commercial,competitor
-/shop/kids-electric-dirt-and-balance-bikes/,category,secondary,children's electric motorcycles,260,14,Commercial,competitor
+/shop/kids-electric-dirt-and-balance-bikes/,category,secondary,16 inch electric balance bike,110,4,Commercial,competitor
+/shop/kids-electric-dirt-and-balance-bikes/,category,lsi,children's electric motorcycles,260,14,Commercial,competitor
+/shop/kids-electric-dirt-and-balance-bikes/,category,lsi,electric motorbikes for kids,210,16,Commercial,competitor
 /shop/kids-electric-dirt-and-balance-bikes/,category,lsi,mini dirt bikes,210,24,Commercial,competitor
-/shop/kids-electric-dirt-and-balance-bikes/,category,secondary,kids electric balance bike,170,13,Commercial,competitor
-/shop/kids-electric-dirt-and-balance-bikes/,category,secondary,electric motorcycle for kids,140,7,Commercial,competitor
-/shop/kids-electric-dirt-and-balance-bikes/,category,secondary,kids electric motorbike australia,110,14,Commercial,competitor
-/shop/kids-electric-dirt-and-balance-bikes/,category,secondary,kids electric dirt bike australia,110,6,Commercial,competitor
+/shop/kids-electric-dirt-and-balance-bikes/,category,lsi,kids electric balance bike,170,13,Commercial,competitor
+/shop/kids-electric-dirt-and-balance-bikes/,category,lsi,electric motorcycle for kids,140,7,Commercial,competitor
+/shop/kids-electric-dirt-and-balance-bikes/,category,lsi,kids electric motorbike australia,110,14,Commercial,competitor
+/shop/kids-electric-dirt-and-balance-bikes/,category,lsi,kids electric dirt bike australia,110,6,Commercial,competitor
 /shop/kids-electric-dirt-and-balance-bikes/,category,lsi,childrens electric trike,110,6,Commercial,KM
-/shop/kids-electric-dirt-and-balance-bikes/,category,secondary,electric balance bike for kids,110,5,Commercial,competitor
+/shop/kids-electric-dirt-and-balance-bikes/,category,lsi,electric balance bike for kids,110,5,Commercial,competitor
+/shop/kids-electric-dirt-and-balance-bikes/,category,lsi,kids electric mountain bike,90,8,Commercial,competitor
 /shop/kids-electric-dirt-and-balance-bikes/,category,lsi,youth electric dirt bike,90,5,Commercial,KM
 /shop/kids-electric-dirt-and-balance-bikes/,category,lsi,kids electric bike australia,90,16,Commercial,competitor
+/shop/kids-electric-dirt-and-balance-bikes/,category,secondary,kids electric dirt bike,590,11,"Informational, Commercial",semrush-2026-10-18
 /shop/kids-electric-dirt-and-balance-bikes/,category,secondary,electric motorbike kids,590,12,Commercial,semrush-2026-10-18
 /shop/kids-electric-dirt-and-balance-bikes/,category,secondary,electric kids motorbike,390,11,Commercial,semrush-2026-10-18
-/shop/kids-electric-dirt-and-balance-bikes/,category,secondary,kids electric motorbikes,170,20,Commercial,semrush-2026-10-18
+/shop/kids-electric-dirt-and-balance-bikes/,category,secondary,razor electric dirt bike,320,16,"Informational, Transactional",semrush-2026-10-18
+/shop/kids-electric-dirt-and-balance-bikes/,category,secondary,electric balance bikes,260,13,"Informational, Commercial",semrush-2026-10-18
+/shop/kids-electric-dirt-and-balance-bikes/,category,secondary,childrens electric dirt bikes,210,10,"Informational, Commercial",semrush-2026-10-18
+/shop/kids-electric-dirt-and-balance-bikes/,category,secondary,razor dirt electric bike,210,10,"Transactional, Navigational",semrush-2026-10-18
+/shop/kids-electric-dirt-and-balance-bikes/,category,secondary,electric motorbike for kids,210,23,"Informational, Commercial",semrush-2026-10-18
+/shop/kids-electric-dirt-and-balance-bikes/,category,lsi,kids electric motorbikes,170,20,Commercial,semrush-2026-10-18
 /shop/kids-electric-dirt-and-balance-bikes/,category,lsi,electric dirt bike kids,110,13,Commercial,semrush-2026-10-18
 /shop/kids-electric-dirt-and-balance-bikes/,category,lsi,electric kids dirt bike,110,13,Commercial,semrush-2026-10-18
 /shop/kids-electric-dirt-and-balance-bikes/,category,lsi,childrens electric dirt bike australia,90,6,Commercial,semrush-2026-10-18
 /shop/kids-electric-dirt-and-balance-bikes/,category,lsi,balance bike electric,90,12,Commercial,semrush-2026-10-18
+/shop/kids-electric-dirt-and-balance-bikes/,category,lsi,electric balance bike 16 inch,70,4,"Informational, Commercial",semrush-2026-10-18
 /shop/kids-electric-dirt-and-balance-bikes/,category,lsi,electric dirt bikes for kids,70,6,Commercial,semrush-2026-10-18
 /shop/kids-electric-dirt-and-balance-bikes/,category,lsi,electric balance bike australia,70,8,Commercial,semrush-2026-10-18
+/shop/kids-electric-dirt-and-balance-bikes/,category,lsi,12 inch electric balance bike,70,13,"Informational, Commercial",semrush-2026-10-18
 /shop/kids-electric-dirt-and-balance-bikes/,category,lsi,kids motorbike electric,50,11,Commercial,semrush-2026-10-18
 /shop/kids-electric-dirt-and-balance-bikes/,category,lsi,kids electric dirt bikes,50,12,Commercial,semrush-2026-10-18
 /shop/kids-electric-dirt-and-balance-bikes/,category,lsi,electric motor bike kids,50,17,Commercial,semrush-2026-10-18
@@ -106,14 +151,18 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-mountain-bikes/,category,secondary,ebike mtb,480,12,Commercial,KM
 /shop/electric-mountain-bikes/,category,secondary,dual suspension ebike,320,7,Commercial,competitor
 /shop/electric-mountain-bikes/,category,secondary,emtb for sale,210,6,Transactional,competitor
-/shop/electric-mountain-bikes/,category,secondary,electric mountain bike for sale,260,10,Transactional,competitor
-/shop/electric-mountain-bikes/,category,secondary,giant electric mtb,260,18,Transactional,competitor
+/shop/electric-mountain-bikes/,category,lsi,electric mountain bikes australia,590,17,Commercial,competitor
+/shop/electric-mountain-bikes/,category,lsi,electric mountain bike for sale,260,10,Transactional,competitor
+/shop/electric-mountain-bikes/,category,lsi,giant electric mtb,260,18,Transactional,competitor
+/shop/electric-mountain-bikes/,category,lsi,full suspension electric mountain bike,210,9,Commercial,KM
 /shop/electric-mountain-bikes/,category,lsi,e mtb sale,210,11,Transactional,competitor
 /shop/electric-mountain-bikes/,category,lsi,e mtb for sale,210,10,Transactional,competitor
 /shop/electric-mountain-bikes/,category,lsi,emtb sale,210,7,Transactional,KM
 /shop/electric-mountain-bikes/,category,lsi,e mtb bike,170,4,Commercial,competitor
 /shop/electric-mountain-bikes/,category,lsi,electric mtb australia,170,7,Transactional,KM
+/shop/electric-mountain-bikes/,category,lsi,dual suspension electric mountain bike,170,6,Commercial,KM
 /shop/electric-mountain-bikes/,category,lsi,full suspension e mtb,170,13,Commercial,competitor
+/shop/electric-mountain-bikes/,category,lsi,the emtb store,170,28,Navigational,competitor
 /shop/electric-mountain-bikes/,category,lsi,best electric mountain bike,260,24,Commercial,competitor
 /shop/electric-mountain-bikes/,category,lsi,best emtb,260,30,Commercial,competitor
 /shop/electric-mountain-bikes/,category,lsi,best electric mountain bike under $3000 australia,170,22,Commercial,competitor
@@ -124,6 +173,8 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-mountain-bikes/,category,lsi,best emtb australia,110,24,Commercial,competitor
 /shop/electric-mountain-bikes/,category,lsi,best emtb 2026,70,24,Commercial,KM
 /shop/electric-mountain-bikes/,category,lsi,best electric mountain bikes 2026,50,26,Commercial,KM
+/shop/electric-mountain-bikes/,category,secondary,electric mountain bikes,880,18,"Informational, Commercial",semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,secondary,electric mountain bike australia,480,17,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,secondary,e mountain bikes australia,390,11,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,secondary,electric mountain bikes for sale,260,18,Transactional,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,secondary,bike electric mountain,260,18,Commercial,semrush-2026-10-18
@@ -137,14 +188,17 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-mountain-bikes/,category,lsi,mountain electric bikes,140,13,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,electric bikes mountain bike,140,21,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,best electric mountain bikes,140,24,Commercial,semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,lsi,cheap emtb,110,7,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,hardtail electric mountain bike,110,8,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,electric mountain bike sale,110,9,Transactional,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,scott electric mountain bike,110,19,Commercial,semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,lsi,lightest emtb,110,20,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,lightest electric mountain bike,110,21,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,emtb bikes,110,24,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,electric mountain bike dual suspension,90,6,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,electric full sus mountain bike,90,7,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,best e mountain bike australia,90,21,Commercial,semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,lsi,electric mountain bike with throttle,70,9,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,emtb sales,70,9,Transactional,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,electric hardtail mountain bike,70,11,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,electric mountain bikes sale,70,11,Transactional,semrush-2026-10-18
@@ -152,27 +206,42 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-mountain-bikes/,category,lsi,scott emtb,70,14,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,full sus emtb,70,15,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,electric assist mountain bike,70,17,Commercial,semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,lsi,electric dh mountain bike,70,17,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,electric mountain bike perth,70,18,Commercial,semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,lsi,lightweight emtb,70,19,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,hardtail emtb,70,23,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,high performance electric mountain bikes,70,24,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,27.5 electric mountain bike,50,5,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,emtb sale australia,50,6,Transactional,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,26 inch electric mountain bike,50,7,Commercial,semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,lsi,26 electric mountain bike,50,8,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,electric downhill mountain bike,50,12,Commercial,semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,lsi,250w electric mountain bikes,50,13,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,affordable electric mountain bike,50,13,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,lightweight electric mountain bike,50,17,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,electric mountain bikes melbourne,50,18,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,light emtb,50,18,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,best e mountain bike under $5000 australia,50,20,Commercial,semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,lsi,ladies electric mountain bike,50,20,"Informational, Commercial",semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,lsi,mens electric mountain bike,50,23,"Informational, Commercial",semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,best e mountain bikes australia,50,27,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,high performance electric mountain bike,50,28,Commercial,semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,lsi,ktm electric mountain bike,30,10,"Informational, Commercial",semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,lsi,husqvarna electric mountain bike,30,11,"Informational, Transactional",semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,yeti electric mountain bike,30,12,Commercial,semrush-2026-10-18
 /shop/electric-mountain-bikes/,category,lsi,pivot electric mountain bike,20,6,Commercial,semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,lsi,marin electric mountain bike,10,10,"Informational, Commercial",semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,lsi,marin electric bike,10,11,"Informational, Commercial",semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,lsi,scott australia,90,24,Navigational,semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,lsi,pivot australia,70,14,Navigational,semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,lsi,shogun australia,30,16,Informational,semrush-2026-10-18
+/shop/electric-mountain-bikes/,category,lsi,superior australia,20,12,Informational,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,primary,cruiser ebike,590,5,Commercial,competitor
 /shop/commuter-and-urban-e-bikes/,category,secondary,commuter e-bike,590,6,Commercial,KM
 /shop/commuter-and-urban-e-bikes/,category,secondary,e-bike commuting,480,7,Commercial,KM
 /shop/commuter-and-urban-e-bikes/,category,secondary,ebike trekking,480,8,Commercial,competitor
 /shop/commuter-and-urban-e-bikes/,category,secondary,step through ebike,390,6,Commercial,competitor
+/shop/commuter-and-urban-e-bikes/,category,secondary,hybrid electric bike,390,9,Commercial,KM
 /shop/commuter-and-urban-e-bikes/,category,secondary,bicycle hybrid electric,320,9,Commercial,KM
 /shop/commuter-and-urban-e-bikes/,category,secondary,urban ebike,110,5,Commercial,competitor
 /shop/commuter-and-urban-e-bikes/,category,secondary,retro bike electric,140,8,Commercial,competitor
@@ -186,8 +255,8 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/commuter-and-urban-e-bikes/,category,lsi,e bike touring,70,9,Commercial,competitor
 /shop/commuter-and-urban-e-bikes/,category,lsi,estate city e bike price,50,19,Transactional,competitor
 /shop/commuter-and-urban-e-bikes/,category,lsi,urban cruiser electric bike,40,9,Commercial,KM
-/shop/commuter-and-urban-e-bikes/,category,secondary,urban commuter electric bike,40,7,Transactional,KM
-/shop/commuter-and-urban-e-bikes/,category,secondary,commuter e bikes for sale,30,7,Transactional,KM
+/shop/commuter-and-urban-e-bikes/,category,lsi,urban commuter electric bike,40,7,Transactional,KM
+/shop/commuter-and-urban-e-bikes/,category,lsi,commuter e bikes for sale,30,7,Transactional,KM
 /shop/commuter-and-urban-e-bikes/,category,lsi,best electric cycle,1300,11,Commercial,competitor
 /shop/commuter-and-urban-e-bikes/,category,lsi,best electric bike australia,1300,6,Commercial,KM
 /shop/commuter-and-urban-e-bikes/,category,lsi,top rated electric bicycles,1000,16,Commercial,competitor
@@ -204,26 +273,35 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/commuter-and-urban-e-bikes/,category,lsi,smartmotion e city bike,20,,Commercial,KM
 /shop/commuter-and-urban-e-bikes/,category,secondary,best e bikes australia,880,8,Commercial,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,secondary,electric bike for commuters,590,7,Commercial,semrush-2026-10-18
+/shop/commuter-and-urban-e-bikes/,category,secondary,electric commuter bikes,480,17,"Informational, Commercial",semrush-2026-10-18
+/shop/commuter-and-urban-e-bikes/,category,secondary,step through electric bike,390,9,"Informational, Commercial",semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,secondary,best e bike australia,390,10,Commercial,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,secondary,electric hybrid bikes,260,10,Commercial,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,secondary,commuter electric bike,210,11,Commercial,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,secondary,step through electric bikes,170,6,Commercial,semrush-2026-10-18
+/shop/commuter-and-urban-e-bikes/,category,lsi,velectrix electric bike,390,16,"Navigational, Transactional",semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,electric hybrid bike,210,12,Commercial,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,cheap e bikes australia,170,27,Commercial,semrush-2026-10-18
+/shop/commuter-and-urban-e-bikes/,category,lsi,best e-bike australia,110,9,Commercial,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,gazelle electric bike,110,16,Commercial,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,electric bike commuter,110,16,Commercial,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,electric city bike,110,17,Commercial,semrush-2026-10-18
-/shop/commuter-and-urban-e-bikes/,category,secondary,e bike price in australia,110,23,Transactional,semrush-2026-10-18
+/shop/commuter-and-urban-e-bikes/,category,lsi,e bike price in australia,110,23,Transactional,semrush-2026-10-18
+/shop/commuter-and-urban-e-bikes/,category,lsi,electric step through bike,90,5,"Informational, Commercial",semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,best e bikes under $2000 australia,90,6,Commercial,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,electric bike step through,90,6,Commercial,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,e bike australia under $1000,90,8,Commercial,semrush-2026-10-18
+/shop/commuter-and-urban-e-bikes/,category,lsi,city electric bike,90,14,"Informational, Commercial",semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,best budget e bike australia,90,14,Commercial,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,step through electric bike australia,70,5,Commercial,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,hybrid electric bikes,70,8,Commercial,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,electric bike hybrid,70,11,Commercial,semrush-2026-10-18
+/shop/commuter-and-urban-e-bikes/,category,lsi,cheapest e bikes australia,70,12,"Informational, Commercial",semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,electric city bikes,70,13,Commercial,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,hybrid bikes electric,70,19,Commercial,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,australia e-bike,70,24,Commercial,semrush-2026-10-18
+/shop/commuter-and-urban-e-bikes/,category,lsi,electric commuter bike australia,50,9,"Informational, Commercial",semrush-2026-10-18
+/shop/commuter-and-urban-e-bikes/,category,lsi,cheapest e bike australia,50,12,"Informational, Commercial",semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,electric bike for commuting,50,14,Commercial,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,gazelle australia,20,14,Transactional,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/,category,lsi,kona electric bike,10,9,Transactional,semrush-2026-10-18
@@ -233,47 +311,63 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/road-and-gravel-e-bikes/,category,secondary,buy road ebike,,,Transactional,generated
 /shop/road-and-gravel-e-bikes/,category,secondary,road ebike for sale,,,Transactional,generated
 /shop/road-and-gravel-e-bikes/,category,secondary,road ebike price,,,Transactional,generated
-/shop/road-and-gravel-e-bikes/,category,secondary,electric road motorbike australia,140,29,Commercial,KM
+/shop/road-and-gravel-e-bikes/,category,lsi,electric road motorbike australia,140,29,Commercial,KM
 /shop/road-and-gravel-e-bikes/,category,lsi,electric motorbike road legal,70,18,Commercial,competitor
+/shop/road-and-gravel-e-bikes/,category,secondary,electric road bike,880,15,"Informational, Commercial",semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,secondary,electric gravel bike,320,16,Commercial,semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,secondary,electric road bikes,320,17,Commercial,semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,secondary,road e bikes,210,10,Commercial,semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,secondary,e road bike,210,12,Commercial,semrush-2026-10-18
+/shop/road-and-gravel-e-bikes/,category,secondary,electric road bike australia,170,8,"Informational, Commercial",semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,secondary,road e bike,170,15,Commercial,semrush-2026-10-18
+/shop/road-and-gravel-e-bikes/,category,secondary,electric road bikes australia,110,9,"Informational, Commercial",semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,lsi,electric gravel bikes australia,110,11,Commercial,semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,lsi,electric gravel bikes,110,13,Commercial,semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,lsi,e bike road bikes,90,6,Commercial,semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,lsi,e gravel bikes australia,90,8,Commercial,semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,lsi,road bikes electric,90,8,Commercial,semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,lsi,e road bikes,90,9,Commercial,semrush-2026-10-18
+/shop/road-and-gravel-e-bikes/,category,lsi,road e-bike,90,10,Commercial,semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,lsi,electric gravel bike australia,90,11,Commercial,semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,lsi,road bike electric,90,15,Commercial,semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,lsi,e bike road,70,8,Commercial,semrush-2026-10-18
+/shop/road-and-gravel-e-bikes/,category,lsi,e road bikes australia,70,9,"Informational, Commercial",semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,lsi,gravel electric bike,70,9,Commercial,semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,lsi,e gravel bike australia,70,10,Commercial,semrush-2026-10-18
+/shop/road-and-gravel-e-bikes/,category,lsi,e-road bike,70,12,"Informational, Commercial",semrush-2026-10-18
+/shop/road-and-gravel-e-bikes/,category,lsi,road electric bikes,50,6,"Informational, Commercial",semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,lsi,gravel e bikes australia,50,7,Commercial,semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,lsi,gravel electric bikes,50,8,Commercial,semrush-2026-10-18
 /shop/road-and-gravel-e-bikes/,category,lsi,road electric bike,50,8,Commercial,semrush-2026-10-18
-/shop/road-and-gravel-e-bikes/,category,secondary,e road bikes for sale,50,9,Transactional,semrush-2026-10-18
-/shop/road-and-gravel-e-bikes/,category,secondary,electric road bikes for sale,50,13,Transactional,semrush-2026-10-18
+/shop/road-and-gravel-e-bikes/,category,lsi,e road bikes for sale,50,9,Transactional,semrush-2026-10-18
+/shop/road-and-gravel-e-bikes/,category,lsi,electric bike road,50,12,"Informational, Commercial",semrush-2026-10-18
+/shop/road-and-gravel-e-bikes/,category,lsi,electric road bikes for sale,50,13,Transactional,semrush-2026-10-18
+/shop/road-and-gravel-e-bikes/,category,lsi,road e-bikes,50,17,Commercial,semrush-2026-10-18
 /shop/fat-tyre-and-scrambler-e-bikes/,category,primary,electric fat bike,720,11,Commercial,competitor
 /shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,electric bicycle fat bike,590,5,Commercial,KM
 /shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,buy electric fat bike,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,electric fat bike for sale,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,electric fat bike price,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,cheap electric fat bike,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,electric fat bike australia,90,6,Commercial,competitor
+/shop/fat-tyre-and-scrambler-e-bikes/,category,lsi,electric fat bike australia,90,6,Commercial,competitor
 /shop/fat-tyre-and-scrambler-e-bikes/,category,lsi,best fat tyre electric bike australia,320,7,Commercial,competitor
 /shop/fat-tyre-and-scrambler-e-bikes/,category,lsi,best fat tyre ebike,50,10,Commercial,competitor
+/shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,fat tyre ebike,1300,13,"Informational, Commercial",semrush-2026-10-18
+/shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,fat tyre electric bike,1000,16,"Informational, Commercial",semrush-2026-10-18
+/shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,fat tyre electric bikes,390,10,"Informational, Commercial",semrush-2026-10-18
+/shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,fat tyre ebikes,320,17,"Informational, Commercial",semrush-2026-10-18
 /shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,electric bike fat tyre,210,14,Commercial,semrush-2026-10-18
+/shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,electric fat tyre bike,210,15,"Informational, Commercial",semrush-2026-10-18
 /shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,fat tyre electric bike australia,140,6,Commercial,semrush-2026-10-18
 /shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,fat tyre ebike australia,140,8,Commercial,semrush-2026-10-18
-/shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,electric bike fat tyres,90,12,Commercial,semrush-2026-10-18
+/shop/fat-tyre-and-scrambler-e-bikes/,category,lsi,fat tyre e bikes australia,90,10,"Informational, Commercial",semrush-2026-10-18
+/shop/fat-tyre-and-scrambler-e-bikes/,category,lsi,electric bike fat tyres,90,12,Commercial,semrush-2026-10-18
+/shop/fat-tyre-and-scrambler-e-bikes/,category,lsi,electric fat tyre bikes,90,18,"Informational, Commercial",semrush-2026-10-18
 /shop/fat-tyre-and-scrambler-e-bikes/,category,lsi,best fat tyre ebike australia,70,6,Commercial,semrush-2026-10-18
-/shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,fat tyres electric bike,70,14,Commercial,semrush-2026-10-18
-/shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,fat tyre electric bikes australia,70,15,Commercial,semrush-2026-10-18
+/shop/fat-tyre-and-scrambler-e-bikes/,category,lsi,fat tyres electric bike,70,14,Commercial,semrush-2026-10-18
+/shop/fat-tyre-and-scrambler-e-bikes/,category,lsi,fat tyre electric bikes australia,70,15,Commercial,semrush-2026-10-18
 /shop/fat-tyre-and-scrambler-e-bikes/,category,lsi,best fat tyre electric bike,70,21,Commercial,semrush-2026-10-18
-/shop/fat-tyre-and-scrambler-e-bikes/,category,secondary,fat tire ebike australia,30,10,Commercial,semrush-2026-10-18
+/shop/fat-tyre-and-scrambler-e-bikes/,category,lsi,fat tire ebike australia,30,10,Commercial,semrush-2026-10-18
 /shop/kids-and-youth-e-bikes/,category,primary,boy electric bike for 10 year old,260,20,Commercial,competitor
 /shop/kids-and-youth-e-bikes/,category,secondary,youth electric bike,70,12,Commercial,competitor
 /shop/kids-and-youth-e-bikes/,category,secondary,youth electric,90,15,Commercial,competitor
@@ -282,15 +376,22 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/kids-and-youth-e-bikes/,category,secondary,buy boy electric bike for 10 year old,,,Transactional,generated
 /shop/folding-e-bikes/,category,primary,e bike folding bike,2400,9,Commercial,KM
 /shop/folding-e-bikes/,category,secondary,foldable electric bicycle,1900,9,Commercial,KM
+/shop/folding-e-bikes/,category,secondary,folding e bike,1600,3,Commercial,KM
+/shop/folding-e-bikes/,category,secondary,folding e bike australia,480,9,Commercial,KM
 /shop/folding-e-bikes/,category,secondary,electric folding bike,390,6,Commercial,KM
 /shop/folding-e-bikes/,category,secondary,foldable e cycle,480,11,Commercial,KM
+/shop/folding-e-bikes/,category,secondary,electric bikes fold away,390,10,Commercial,KM
 /shop/folding-e-bikes/,category,secondary,foldable electric bike australia,320,8,Commercial,KM
 /shop/folding-e-bikes/,category,secondary,e bike fold,390,16,Commercial,KM
-/shop/folding-e-bikes/,category,secondary,electric folding bicycles australia,260,11,Commercial,competitor
+/shop/folding-e-bikes/,category,lsi,electric folding bicycles australia,260,11,Commercial,competitor
+/shop/folding-e-bikes/,category,lsi,electric folding e bike,260,11,Commercial,competitor
 /shop/folding-e-bikes/,category,lsi,e bike collapsible,260,13,Commercial,KM
+/shop/folding-e-bikes/,category,lsi,lightweight folding electric bike australia,210,9,Commercial,competitor
 /shop/folding-e-bikes/,category,lsi,bike foldable electric,170,8,Commercial,KM
+/shop/folding-e-bikes/,category,lsi,compact electric bike,140,12,Commercial,KM
 /shop/folding-e-bikes/,category,lsi,electric fold up bike,110,12,Commercial,competitor
-/shop/folding-e-bikes/,category,secondary,foldable electric bikes for sale,90,8,Transactional,competitor
+/shop/folding-e-bikes/,category,lsi,electric folding trikes,90,2,Transactional,KM
+/shop/folding-e-bikes/,category,lsi,foldable electric bikes for sale,90,8,Transactional,competitor
 /shop/folding-e-bikes/,category,lsi,portable electric bike,70,16,Commercial,competitor
 /shop/folding-e-bikes/,category,lsi,foldable electric tricycle,70,6,Commercial,competitor
 /shop/folding-e-bikes/,category,lsi,folding electric tricycle,70,6,Commercial,competitor
@@ -301,27 +402,37 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/folding-e-bikes/,category,lsi,best foldable electric bike australia,40,8,Commercial,KM
 /shop/folding-e-bikes/,category,lsi,best electric folding bike australia,40,7,Commercial,KM
 /shop/folding-e-bikes/,category,lsi,e go electric folding bike review,10,7,Commercial,KM
+/shop/folding-e-bikes/,category,secondary,folding electric bike,1000,13,"Informational, Commercial",semrush-2026-10-18
+/shop/folding-e-bikes/,category,secondary,folding electric bikes,720,16,"Informational, Commercial",semrush-2026-10-18
+/shop/folding-e-bikes/,category,secondary,fold up electric bike,480,17,"Informational, Commercial",semrush-2026-10-18
 /shop/folding-e-bikes/,category,secondary,folding e bikes,390,10,Commercial,semrush-2026-10-18
 /shop/folding-e-bikes/,category,secondary,fold away e bike,390,18,Commercial,semrush-2026-10-18
 /shop/folding-e-bikes/,category,secondary,folding electric bikes australia,390,18,Commercial,semrush-2026-10-18
 /shop/folding-e-bikes/,category,secondary,fold up electric bikes,320,7,Commercial,semrush-2026-10-18
 /shop/folding-e-bikes/,category,secondary,electric folding bikes,320,11,Commercial,semrush-2026-10-18
-/shop/folding-e-bikes/,category,secondary,fold up e bike,260,9,Commercial,semrush-2026-10-18
-/shop/folding-e-bikes/,category,secondary,electric bikes folding,210,7,Commercial,semrush-2026-10-18
+/shop/folding-e-bikes/,category,lsi,fold up e bike,260,9,Commercial,semrush-2026-10-18
+/shop/folding-e-bikes/,category,lsi,electric bikes folding,210,7,Commercial,semrush-2026-10-18
 /shop/folding-e-bikes/,category,lsi,folding electric bike australia,210,10,Commercial,semrush-2026-10-18
 /shop/folding-e-bikes/,category,lsi,best folding electric bike australia,170,14,Commercial,semrush-2026-10-18
+/shop/folding-e-bikes/,category,lsi,bike folding electric,170,15,"Informational, Commercial",semrush-2026-10-18
+/shop/folding-e-bikes/,category,lsi,fold e bike,140,11,"Informational, Commercial",semrush-2026-10-18
 /shop/folding-e-bikes/,category,lsi,electric folding bike australia,110,9,Commercial,semrush-2026-10-18
 /shop/folding-e-bikes/,category,lsi,folding e bikes australia,110,15,Commercial,semrush-2026-10-18
 /shop/folding-e-bikes/,category,lsi,fold up e bikes,90,7,Commercial,semrush-2026-10-18
-/shop/folding-e-bikes/,category,secondary,folding e bikes for sale,90,9,Transactional,semrush-2026-10-18
+/shop/folding-e-bikes/,category,lsi,e bike folding,90,9,"Informational, Commercial",semrush-2026-10-18
+/shop/folding-e-bikes/,category,lsi,folding e bikes for sale,90,9,Transactional,semrush-2026-10-18
 /shop/folding-e-bikes/,category,lsi,foldable ebike australia,90,12,Commercial,semrush-2026-10-18
 /shop/folding-e-bikes/,category,lsi,best folding e bike,90,19,Commercial,semrush-2026-10-18
 /shop/folding-e-bikes/,category,lsi,foldable e bike australia,70,8,Commercial,semrush-2026-10-18
+/shop/folding-e-bikes/,category,lsi,20 inch folding electric bike,70,9,"Informational, Commercial",semrush-2026-10-18
 /shop/folding-e-bikes/,category,lsi,electric bike folding,70,9,Commercial,semrush-2026-10-18
-/shop/folding-e-bikes/,category,secondary,folding electric bike for sale,70,10,Transactional,semrush-2026-10-18
+/shop/folding-e-bikes/,category,lsi,folding electric bike for sale,70,10,Transactional,semrush-2026-10-18
+/shop/folding-e-bikes/,category,lsi,e folding bike,70,11,"Informational, Commercial",semrush-2026-10-18
 /shop/folding-e-bikes/,category,lsi,electric folding bikes australia,70,16,Commercial,semrush-2026-10-18
 /shop/folding-e-bikes/,category,lsi,folding fat tire electric bike,50,2,Commercial,semrush-2026-10-18
 /shop/folding-e-bikes/,category,lsi,folding electric bike perth,50,11,Commercial,semrush-2026-10-18
+/shop/folding-e-bikes/,category,lsi,best folding e bikes australia,50,12,"Informational, Commercial",semrush-2026-10-18
+/shop/folding-e-bikes/,category,lsi,integrated battery folding electric bikes,50,15,"Informational, Commercial",semrush-2026-10-18
 /shop/folding-e-bikes/,category,lsi,pedal australia,10,6,Transactional,semrush-2026-10-18
 /shop/helmets-gloves-and-protection/,category,primary,bike helmet,8100,6,Commercial,competitor
 /shop/helmets-gloves-and-protection/,category,secondary,bike cycle helmets,6600,23,Commercial,competitor
@@ -378,25 +489,38 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/seats-fenders-and-body/,category,lsi,road bicycle saddles,170,13,Commercial,competitor
 /shop/seats-fenders-and-body/,category,lsi,bike seat road,140,29,Commercial,competitor
 /shop/batteries-chargers-and-electronics/,category,primary,ebike battery,1600,6,Commercial,competitor
+/shop/batteries-chargers-and-electronics/,category,secondary,battery for a ebike,1300,6,Commercial,competitor
 /shop/batteries-chargers-and-electronics/,category,secondary,electric bicycle charger,480,6,Commercial,KM
+/shop/batteries-chargers-and-electronics/,category,secondary,ebike controller,320,6,Commercial,competitor
 /shop/batteries-chargers-and-electronics/,category,secondary,e-bike battery chargers,260,3,Commercial,KM
 /shop/batteries-chargers-and-electronics/,category,secondary,e bike battery replacement,210,7,Commercial,competitor
 /shop/batteries-chargers-and-electronics/,category,secondary,electric battery for bicycle,140,6,Commercial,competitor
 /shop/batteries-chargers-and-electronics/,category,secondary,mamba ebike charger,20,0,Transactional,KM
 /shop/batteries-chargers-and-electronics/,category,secondary,battery for an electric bike,260,14,Commercial,competitor
-/shop/batteries-chargers-and-electronics/,category,secondary,battery for electric bicycle,590,4,Commercial,competitor
-/shop/batteries-chargers-and-electronics/,category,secondary,battery for bicycle,110,6,Commercial,competitor
+/shop/batteries-chargers-and-electronics/,category,lsi,battery for electric bicycle,590,4,Commercial,competitor
+/shop/batteries-chargers-and-electronics/,category,lsi,battery for bicycle,110,6,Commercial,competitor
+/shop/batteries-chargers-and-electronics/,category,lsi,replacement battery for ebike,70,5,Commercial,competitor
 /shop/batteries-chargers-and-electronics/,category,lsi,60v ebike battery,70,15,Commercial,competitor
+/shop/batteries-chargers-and-electronics/,category,lsi,kalkhoff electric bike battery,20,5,Navigational,KM
 /shop/batteries-chargers-and-electronics/,category,lsi,kalkhoff electric bike battery replacement,20,9,Transactional,KM
 /shop/batteries-chargers-and-electronics/,category,lsi,kalkhoff electric bike charger,20,8,Transactional,KM
+/shop/batteries-chargers-and-electronics/,category,lsi,kristall ebike battery,20,4,Navigational,KM
+/shop/batteries-chargers-and-electronics/,category,lsi,battery for a razor dirt bike,20,25,Navigational,KM
+/shop/batteries-chargers-and-electronics/,category,lsi,battery for razor electric dirt bike,20,21,Navigational,KM
+/shop/batteries-chargers-and-electronics/,category,lsi,smart motion ebike battery,20,2,Navigational,KM
 /shop/batteries-chargers-and-electronics/,category,lsi,surron power cable,20,4,Transactional,KM
 /shop/batteries-chargers-and-electronics/,category,lsi,36v vs 48v ebike,20,6,Commercial,KM
+/shop/batteries-chargers-and-electronics/,category,secondary,ebike charger,480,8,"Informational, Commercial",semrush-2026-10-18
 /shop/batteries-chargers-and-electronics/,category,secondary,ebike battery charger,210,3,Commercial,semrush-2026-10-18
 /shop/batteries-chargers-and-electronics/,category,secondary,battery ebike,140,9,Commercial,semrush-2026-10-18
 /shop/batteries-chargers-and-electronics/,category,secondary,battery charger ebike,110,4,Commercial,semrush-2026-10-18
+/shop/batteries-chargers-and-electronics/,category,secondary,battery for ebike,110,4,"Informational, Commercial",semrush-2026-10-18
+/shop/batteries-chargers-and-electronics/,category,secondary,ebike batteries,90,7,"Informational, Commercial",semrush-2026-10-18
 /shop/batteries-chargers-and-electronics/,category,secondary,charger for ebike,90,6,Commercial,semrush-2026-10-18
 /shop/batteries-chargers-and-electronics/,category,secondary,controller ebike,90,7,Commercial,semrush-2026-10-18
-/shop/batteries-chargers-and-electronics/,category,secondary,ebike batteries australia,50,6,Commercial,semrush-2026-10-18
+/shop/batteries-chargers-and-electronics/,category,lsi,charger of ebike,90,5,"Informational, Commercial",semrush-2026-10-18
+/shop/batteries-chargers-and-electronics/,category,lsi,e bike batteries australia,90,13,"Informational, Commercial",semrush-2026-10-18
+/shop/batteries-chargers-and-electronics/,category,lsi,ebike batteries australia,50,6,Commercial,semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,primary,cargo bike,1900,16,Commercial,KM
 /shop/cargo-bikes-and-e-trikes/,category,secondary,cargo ebike,880,2,Commercial,KM
 /shop/cargo-bikes-and-e-trikes/,category,secondary,e trike,1000,12,Commercial,KM
@@ -408,9 +532,11 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/cargo-bikes-and-e-trikes/,category,secondary,cargo bike australia,260,13,Commercial,KM
 /shop/cargo-bikes-and-e-trikes/,category,lsi,e trike australia,260,18,Commercial,KM
 /shop/cargo-bikes-and-e-trikes/,category,lsi,electric cargo bike australia,210,1,Commercial,KM
+/shop/cargo-bikes-and-e-trikes/,category,lsi,electric e-trike,210,6,Commercial,KM
 /shop/cargo-bikes-and-e-trikes/,category,lsi,e trike bike,170,8,Commercial,KM
-/shop/cargo-bikes-and-e-trikes/,category,secondary,adult trike australia,140,15,Transactional,competitor
-/shop/cargo-bikes-and-e-trikes/,category,secondary,e trike for sale,140,10,Transactional,KM
+/shop/cargo-bikes-and-e-trikes/,category,lsi,adult trike australia,140,15,Transactional,competitor
+/shop/cargo-bikes-and-e-trikes/,category,lsi,e trike for sale,140,10,Transactional,KM
+/shop/cargo-bikes-and-e-trikes/,category,lsi,adult tricycle electric,110,10,Commercial,competitor
 /shop/cargo-bikes-and-e-trikes/,category,lsi,electric adult trike,110,6,Commercial,KM
 /shop/cargo-bikes-and-e-trikes/,category,lsi,childrens cargo bike,90,12,Commercial,KM
 /shop/cargo-bikes-and-e-trikes/,category,lsi,adult trike tricycle,90,8,Commercial,competitor
@@ -419,10 +545,12 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/cargo-bikes-and-e-trikes/,category,lsi,dutch cargo bikes australia,260,37,Commercial,KM
 /shop/cargo-bikes-and-e-trikes/,category,lsi,best electric cargo bike australia,110,6,Commercial,KM
 /shop/cargo-bikes-and-e-trikes/,category,secondary,electric trike,1300,15,Commercial,semrush-2026-10-18
+/shop/cargo-bikes-and-e-trikes/,category,secondary,electric cargo bike,720,28,"Informational, Commercial",semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,secondary,electric tricycle for adults,480,18,Commercial,semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,secondary,electric trikes,390,14,Commercial,semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,secondary,electric trike australia,390,18,Commercial,semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,secondary,electric trike tricycle,320,7,Commercial,semrush-2026-10-18
+/shop/cargo-bikes-and-e-trikes/,category,secondary,e trike electric tricycle,320,10,"Informational, Commercial",semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,secondary,electric trikes for adults,320,10,Commercial,semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,lsi,cargo electric bikes,320,11,Commercial,semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,lsi,adult electric tricycle,260,6,Commercial,semrush-2026-10-18
@@ -430,6 +558,8 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/cargo-bikes-and-e-trikes/,category,lsi,electric cargo bikes,210,21,Commercial,semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,lsi,electric trike bicycle,170,9,Commercial,semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,lsi,best electric tricycle for adults australia,170,16,Commercial,semrush-2026-10-18
+/shop/cargo-bikes-and-e-trikes/,category,lsi,electric cargo trike,140,14,"Informational, Commercial",semrush-2026-10-18
+/shop/cargo-bikes-and-e-trikes/,category,lsi,cargo bike electric,140,19,"Informational, Commercial",semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,lsi,electric tricycle for adults australia,140,22,Commercial,semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,lsi,cargo electric bike,110,8,Commercial,semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,lsi,electric trike for adults australia,90,8,Commercial,semrush-2026-10-18
@@ -441,9 +571,14 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/cargo-bikes-and-e-trikes/,category,lsi,electric cargo bikes australia,70,11,Commercial,semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,lsi,electric trikes for sale,70,17,Transactional,semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,lsi,electric bike cargo,70,27,Commercial,semrush-2026-10-18
+/shop/cargo-bikes-and-e-trikes/,category,lsi,e cargo bike australia,50,9,"Informational, Commercial",semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,lsi,electric cargo bike for sale,50,11,Transactional,semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,lsi,tricycle for adults electric,50,15,Commercial,semrush-2026-10-18
+/shop/cargo-bikes-and-e-trikes/,category,lsi,cargo e bike australia,50,17,"Informational, Commercial",semrush-2026-10-18
+/shop/cargo-bikes-and-e-trikes/,category,lsi,electric trike bike australia,50,17,"Navigational, Commercial",semrush-2026-10-18
 /shop/cargo-bikes-and-e-trikes/,category,lsi,electric trikes australia,50,17,Commercial,semrush-2026-10-18
+/shop/cargo-bikes-and-e-trikes/,category,lsi,sunmono electric bike,30,8,"Transactional, Navigational",semrush-2026-10-18
+/shop/cargo-bikes-and-e-trikes/,category,lsi,eunorau max cargo,30,11,Informational,semrush-2026-10-18
 /shop/lights-and-horns/,category,primary,bike lights,3600,11,Commercial,competitor
 /shop/lights-and-horns/,category,secondary,light on bicycle,2900,12,Commercial,competitor
 /shop/lights-and-horns/,category,secondary,rear bike light,590,8,Commercial,competitor
@@ -500,6 +635,8 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/wheels-tyres-and-tubes/,category,lsi,cycle fat tyre,390,6,Commercial,KM
 /shop/racks-bags-and-trailers/,category,primary,bike rack,12100,24,Commercial,competitor
 /shop/racks-bags-and-trailers/,category,secondary,foldable bike bag,2900,10,Commercial,competitor
+/shop/racks-bags-and-trailers/,category,secondary,bike trailer,2900,6,Commercial,competitor
+/shop/racks-bags-and-trailers/,category,secondary,thule bike rack,2900,17,Commercial,competitor
 /shop/racks-bags-and-trailers/,category,secondary,bike basket,2400,8,Commercial,competitor
 /shop/racks-bags-and-trailers/,category,secondary,bike bag,1900,7,Commercial,competitor
 /shop/racks-bags-and-trailers/,category,secondary,bags cycling,1600,10,Commercial,competitor
@@ -509,8 +646,9 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/racks-bags-and-trailers/,category,lsi,bike rack with bikes,3600,22,Commercial,competitor
 /shop/racks-bags-and-trailers/,category,lsi,thule bike rack carrier,2900,28,Commercial,competitor
 /shop/racks-bags-and-trailers/,category,lsi,bike trailer for bikes,2900,22,Commercial,competitor
-/shop/racks-bags-and-trailers/,category,secondary,bike carrier for bike,1300,16,Commercial,competitor
-/shop/racks-bags-and-trailers/,category,secondary,rear bike rack,1000,12,Commercial,competitor
+/shop/racks-bags-and-trailers/,category,lsi,bike carrier for bike,1300,16,Commercial,competitor
+/shop/racks-bags-and-trailers/,category,lsi,rear bike rack,1000,12,Commercial,competitor
+/shop/racks-bags-and-trailers/,category,lsi,bike on trailer,1000,12,Commercial,competitor
 /shop/racks-bags-and-trailers/,category,lsi,bike trailer for kids,880,6,Commercial,competitor
 /shop/racks-bags-and-trailers/,category,lsi,bike racks for towbars,880,14,Commercial,competitor
 /shop/racks-bags-and-trailers/,category,lsi,bicycle panniers,720,7,Commercial,competitor
@@ -519,34 +657,50 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/racks-bags-and-trailers/,category,lsi,cycle trailer,170,39,Commercial,competitor
 /shop/racks-bags-and-trailers/,category,lsi,best bike rack,140,28,Commercial,competitor
 /shop/racks-bags-and-trailers/,category,lsi,best bike carrier rack,110,18,Commercial,competitor
+/shop/racks-bags-and-trailers/,category,secondary,bicycle bike trailer,1900,14,"Informational, Commercial",semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,secondary,bike trailers,590,11,Commercial,semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,secondary,bike cargo trailer,390,14,Commercial,semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,secondary,ebike rack,320,12,Commercial,semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,secondary,pannier bag bike,320,13,Commercial,semrush-2026-10-18
+/shop/racks-bags-and-trailers/,category,secondary,ebike car rack,260,10,"Informational, Commercial",semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,secondary,bike pannier bag,210,10,Commercial,semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,secondary,ebike racks,210,10,Commercial,semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,bike carrier trailer hitch mount,320,19,Commercial,semrush-2026-10-18
+/shop/racks-bags-and-trailers/,category,lsi,bicycle bike cargo trailer,320,20,"Informational, Commercial",semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,push bike trailer,320,20,Commercial,semrush-2026-10-18
+/shop/racks-bags-and-trailers/,category,lsi,bike and bike trailer,260,7,"Informational, Commercial",semrush-2026-10-18
+/shop/racks-bags-and-trailers/,category,lsi,bike bike trailer,260,14,"Informational, Commercial",semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,trailer hitch bike carrier,260,17,Commercial,semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,trailer hitch mount bike rack,260,20,Commercial,semrush-2026-10-18
+/shop/racks-bags-and-trailers/,category,lsi,trailer bike carrier,210,5,"Informational, Commercial",semrush-2026-10-18
+/shop/racks-bags-and-trailers/,category,lsi,bike trailers for cargo,210,9,"Informational, Commercial",semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,bike trailer hitch,170,10,Commercial,semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,bike and trailer hitch,170,14,Commercial,semrush-2026-10-18
+/shop/racks-bags-and-trailers/,category,lsi,trailer hitch bike rack,170,14,"Informational, Commercial",semrush-2026-10-18
+/shop/racks-bags-and-trailers/,category,lsi,bike trailer tow hitch,140,9,"Informational, Commercial",semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,ebike rack for car,140,9,Commercial,semrush-2026-10-18
+/shop/racks-bags-and-trailers/,category,lsi,bike rack with trailer hitch,140,15,"Informational, Transactional",semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,bike rack trailer hitch,140,16,Commercial,semrush-2026-10-18
+/shop/racks-bags-and-trailers/,category,lsi,bike racks for ebikes,140,16,"Informational, Commercial",semrush-2026-10-18
+/shop/racks-bags-and-trailers/,category,lsi,trailer hitches for bike racks,140,18,"Informational, Commercial",semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,ebike bike rack,110,3,Commercial,semrush-2026-10-18
-/shop/racks-bags-and-trailers/,category,secondary,bike trailers for sale,110,6,Transactional,semrush-2026-10-18
+/shop/racks-bags-and-trailers/,category,lsi,bike trailers for sale,110,6,Transactional,semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,bike hitch for trailer,110,8,Commercial,semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,ebike racks for cars,110,9,Commercial,semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,trailer hitch bike,110,17,Commercial,semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,bike trailer for sale melbourne,90,3,Transactional,semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,pannier bike bag,90,7,Commercial,semrush-2026-10-18
-/shop/racks-bags-and-trailers/,category,secondary,bike trailer for sale,90,7,Transactional,semrush-2026-10-18
+/shop/racks-bags-and-trailers/,category,lsi,bike trailer for sale,90,7,Transactional,semrush-2026-10-18
+/shop/racks-bags-and-trailers/,category,lsi,bike trailer attachment,90,9,"Informational, Commercial",semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,bike pannier bags,90,10,Commercial,semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,bike rack for ebike,70,4,Commercial,semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,pannier bags for bikes,70,7,Commercial,semrush-2026-10-18
+/shop/racks-bags-and-trailers/,category,lsi,car ebike rack,70,11,"Informational, Commercial",semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,ebike rack tow bar,50,7,Commercial,semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,hitch mounted ebike rack,50,16,Commercial,semrush-2026-10-18
 /shop/racks-bags-and-trailers/,category,lsi,shotgun australia,20,5,Commercial,semrush-2026-10-18
+/shop/racks-bags-and-trailers/,category,lsi,basil australia,40,22,Navigational,semrush-2026-10-18
+/shop/racks-bags-and-trailers/,category,lsi,basil bike rack,20,6,Navigational,semrush-2026-10-18
 /shop/motors-drivetrain-and-sprockets/,category,primary,ebike conversion kit,6600,3,Commercial,competitor
 /shop/motors-drivetrain-and-sprockets/,category,secondary,bicycle conversion kit,2400,5,Commercial,competitor
 /shop/motors-drivetrain-and-sprockets/,category,secondary,bike chain,2400,10,Commercial,KM
@@ -556,9 +710,9 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/motors-drivetrain-and-sprockets/,category,secondary,electric engine for bicycle,880,31,Commercial,competitor
 /shop/motors-drivetrain-and-sprockets/,category,secondary,electric bike motor,480,12,Commercial,competitor
 /shop/motors-drivetrain-and-sprockets/,category,secondary,mountain bike chain,390,10,Commercial,KM
-/shop/motors-drivetrain-and-sprockets/,category,secondary,conversion kit for bike,1000,3,Commercial,competitor
-/shop/motors-drivetrain-and-sprockets/,category,secondary,motorised bicycle,720,33,Commercial,competitor
-/shop/motors-drivetrain-and-sprockets/,category,secondary,electric motor for bicycle,590,13,Commercial,competitor
+/shop/motors-drivetrain-and-sprockets/,category,lsi,conversion kit for bike,1000,3,Commercial,competitor
+/shop/motors-drivetrain-and-sprockets/,category,lsi,motorised bicycle,720,33,Commercial,competitor
+/shop/motors-drivetrain-and-sprockets/,category,lsi,electric motor for bicycle,590,13,Commercial,competitor
 /shop/motors-drivetrain-and-sprockets/,category,lsi,ebike conversion,590,26,Commercial,competitor
 /shop/motors-drivetrain-and-sprockets/,category,lsi,electric bike conversion kit australia,590,4,Commercial,competitor
 /shop/motors-drivetrain-and-sprockets/,category,lsi,e bike engine,390,17,Commercial,competitor
@@ -569,10 +723,14 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/motors-drivetrain-and-sprockets/,category,lsi,electric motor cross bikes,210,15,Commercial,KM
 /shop/motors-drivetrain-and-sprockets/,category,lsi,electric motor cycle,210,33,Commercial,competitor
 /shop/motors-drivetrain-and-sprockets/,category,secondary,conversion kit ebike,1900,6,Commercial,semrush-2026-10-18
+/shop/motors-drivetrain-and-sprockets/,category,secondary,ebike conversion kit australia,590,7,"Informational, Commercial",semrush-2026-10-18
 /shop/motors-drivetrain-and-sprockets/,category,secondary,ebike motor,480,16,Commercial,semrush-2026-10-18
 /shop/motors-drivetrain-and-sprockets/,category,secondary,ebike conversion kits,390,7,Commercial,semrush-2026-10-18
+/shop/motors-drivetrain-and-sprockets/,category,secondary,e bike conversion kits australia,260,10,"Informational, Commercial",semrush-2026-10-18
 /shop/motors-drivetrain-and-sprockets/,category,secondary,electric motor ebike,210,22,Commercial,semrush-2026-10-18
+/shop/motors-drivetrain-and-sprockets/,category,secondary,1000w ebike conversion kit,140,3,"Informational, Transactional",semrush-2026-10-18
 /shop/motors-drivetrain-and-sprockets/,category,secondary,500w ebike conversion kit,110,4,Commercial,semrush-2026-10-18
+/shop/motors-drivetrain-and-sprockets/,category,lsi,e bike conversion kit australia,210,6,"Informational, Commercial",semrush-2026-10-18
 /shop/motors-drivetrain-and-sprockets/,category,lsi,ebike conversion kits australia,170,4,Commercial,semrush-2026-10-18
 /shop/motors-drivetrain-and-sprockets/,category,lsi,cheap ebike conversion kit,170,5,Commercial,semrush-2026-10-18
 /shop/motors-drivetrain-and-sprockets/,category,lsi,conversion kit for ebike,170,6,Commercial,semrush-2026-10-18
@@ -581,10 +739,12 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/motors-drivetrain-and-sprockets/,category,lsi,e bike kit australia,110,12,Commercial,semrush-2026-10-18
 /shop/motors-drivetrain-and-sprockets/,category,lsi,best ebike conversion kit,110,14,Commercial,semrush-2026-10-18
 /shop/motors-drivetrain-and-sprockets/,category,lsi,ebike motor kit,110,15,Commercial,semrush-2026-10-18
+/shop/motors-drivetrain-and-sprockets/,category,lsi,e-bike conversion kit australia,90,6,"Informational, Commercial",semrush-2026-10-18
 /shop/motors-drivetrain-and-sprockets/,category,lsi,ebike motors,90,18,Commercial,semrush-2026-10-18
 /shop/motors-drivetrain-and-sprockets/,category,lsi,mountain bike electric conversion kit,90,23,Commercial,semrush-2026-10-18
 /shop/motors-drivetrain-and-sprockets/,category,lsi,conversion ebike kit,70,0,Commercial,semrush-2026-10-18
 /shop/motors-drivetrain-and-sprockets/,category,lsi,ebikes conversion kit,70,7,Commercial,semrush-2026-10-18
+/shop/motors-drivetrain-and-sprockets/,category,lsi,ebike conversion kit on bike,70,18,"Informational, Commercial",semrush-2026-10-18
 /shop/motors-drivetrain-and-sprockets/,category,lsi,ebike conversion kit cheap,50,2,Commercial,semrush-2026-10-18
 /shop/motors-drivetrain-and-sprockets/,category,lsi,electric bike conversion kits ebike kit,50,5,Commercial,semrush-2026-10-18
 /shop/motors-drivetrain-and-sprockets/,category,lsi,ebike chain,50,11,Commercial,semrush-2026-10-18
@@ -616,7 +776,7 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/phone-mounts-mirrors-and-audio/,category,secondary,quadlock mag ring,320,17,Transactional,competitor
 /shop/phone-mounts-mirrors-and-audio/,category,lsi,phone holder for bikes,1300,12,Commercial,competitor
 /shop/phone-mounts-mirrors-and-audio/,category,lsi,bike phone mount,720,17,Commercial,competitor
-/shop/phone-mounts-mirrors-and-audio/,category,secondary,quad lock handlebar mount,390,27,Transactional,competitor
+/shop/phone-mounts-mirrors-and-audio/,category,lsi,quad lock handlebar mount,390,27,Transactional,competitor
 /shop/phone-mounts-mirrors-and-audio/,category,lsi,quadlock handlebar mount,260,20,Transactional,competitor
 /shop/phone-mounts-mirrors-and-audio/,category,lsi,phone holder cycling,210,15,Commercial,competitor
 /shop/phone-mounts-mirrors-and-audio/,category,lsi,mtb phone mount,210,22,Commercial,competitor
@@ -628,6 +788,7 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/phone-mounts-mirrors-and-audio/,category,lsi,quad lock case jb hi fi,170,19,Commercial,competitor
 /shop/phone-mounts-mirrors-and-audio/,category,lsi,best bicycle phone holder,110,22,Commercial,competitor
 /shop/phone-mounts-mirrors-and-audio/,category,lsi,best bike phone mount,90,22,Commercial,competitor
+/shop/phone-mounts-mirrors-and-audio/,category,secondary,quad lock australia,1600,24,"Navigational, Commercial",semrush-2026-10-18
 /shop/phone-mounts-mirrors-and-audio/,category,secondary,bike mobile phone mount,390,25,Commercial,semrush-2026-10-18
 /shop/phone-mounts-mirrors-and-audio/,category,secondary,bike cell phone mount,320,19,Commercial,semrush-2026-10-18
 /shop/phone-mounts-mirrors-and-audio/,category,secondary,phone bike mount,260,24,Commercial,semrush-2026-10-18
@@ -635,9 +796,11 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/phone-mounts-mirrors-and-audio/,category,secondary,phone holder bike mount,140,7,Commercial,semrush-2026-10-18
 /shop/phone-mounts-mirrors-and-audio/,category,secondary,bike mount cell phone,140,24,Commercial,semrush-2026-10-18
 /shop/phone-mounts-mirrors-and-audio/,category,secondary,handlebar phone holder,110,10,Commercial,semrush-2026-10-18
+/shop/phone-mounts-mirrors-and-audio/,category,lsi,quad lock for bike,140,25,"Informational, Transactional",semrush-2026-10-18
 /shop/phone-mounts-mirrors-and-audio/,category,lsi,ebike mirrors,110,7,Commercial,semrush-2026-10-18
 /shop/phone-mounts-mirrors-and-audio/,category,lsi,bike mount for phone,110,17,Commercial,semrush-2026-10-18
 /shop/phone-mounts-mirrors-and-audio/,category,lsi,bike mounts for phones,110,23,Commercial,semrush-2026-10-18
+/shop/phone-mounts-mirrors-and-audio/,category,lsi,bike quad lock,110,25,"Informational, Transactional",semrush-2026-10-18
 /shop/phone-mounts-mirrors-and-audio/,category,lsi,bike phone mount holder,70,7,Commercial,semrush-2026-10-18
 /shop/phone-mounts-mirrors-and-audio/,category,lsi,phone holder handlebar,70,7,Commercial,semrush-2026-10-18
 /shop/phone-mounts-mirrors-and-audio/,category,lsi,bike phone mounts,70,15,Commercial,semrush-2026-10-18
@@ -646,6 +809,7 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/phone-mounts-mirrors-and-audio/,category,lsi,phone mount on bike,70,17,Commercial,semrush-2026-10-18
 /shop/phone-mounts-mirrors-and-audio/,category,lsi,bike mount for cell phone,70,26,Commercial,semrush-2026-10-18
 /shop/phone-mounts-mirrors-and-audio/,category,lsi,ebike mirror,50,6,Commercial,semrush-2026-10-18
+/shop/phone-mounts-mirrors-and-audio/,category,lsi,quad lock bike phone mount,20,8,"Informational, Commercial",semrush-2026-10-18
 /shop/controls-grips-and-pedals/,category,primary,bike pedals,1600,10,Commercial,competitor
 /shop/controls-grips-and-pedals/,category,secondary,throttle bikes electric,1300,10,Commercial,competitor
 /shop/controls-grips-and-pedals/,category,secondary,mtb grips,1300,11,Commercial,competitor
@@ -658,9 +822,10 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/controls-grips-and-pedals/,category,lsi,bike pedals mountain bike,1000,22,Commercial,competitor
 /shop/controls-grips-and-pedals/,category,lsi,electric bike with throttle,590,6,Commercial,KM
 /shop/controls-grips-and-pedals/,category,lsi,mountain bike pedals,480,11,Commercial,competitor
+/shop/controls-grips-and-pedals/,category,lsi,pedal for a bike,390,18,Commercial,competitor
 /shop/controls-grips-and-pedals/,category,lsi,pedal cycle,320,7,Commercial,competitor
 /shop/controls-grips-and-pedals/,category,lsi,mtb bike pedals,320,17,Commercial,competitor
-/shop/controls-grips-and-pedals/,category,secondary,flat bicycle pedals,260,20,Commercial,competitor
+/shop/controls-grips-and-pedals/,category,lsi,flat bicycle pedals,260,20,Commercial,competitor
 /shop/controls-grips-and-pedals/,category,lsi,flat cycle pedals,260,21,Commercial,competitor
 /shop/controls-grips-and-pedals/,category,lsi,bicycle handlebar grips,260,7,Commercial,competitor
 /shop/controls-grips-and-pedals/,category,lsi,handlebar grips for bicycle,260,9,Commercial,competitor
@@ -677,14 +842,19 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/controls-grips-and-pedals/,category,secondary,pedal for bikes,210,12,Commercial,semrush-2026-10-18
 /shop/controls-grips-and-pedals/,category,secondary,pedals for bike,210,12,Commercial,semrush-2026-10-18
 /shop/controls-grips-and-pedals/,category,secondary,flat bike pedals,210,20,Commercial,semrush-2026-10-18
+/shop/controls-grips-and-pedals/,category,secondary,throttle ebike,210,9,"Informational, Commercial",semrush-2026-10-18
 /shop/controls-grips-and-pedals/,category,secondary,ebike thumb throttle,90,7,Commercial,semrush-2026-10-18
 /shop/controls-grips-and-pedals/,category,secondary,ebike grips,90,8,Commercial,semrush-2026-10-18
 /shop/controls-grips-and-pedals/,category,lsi,e bike pedals,260,9,Commercial,semrush-2026-10-18
 /shop/controls-grips-and-pedals/,category,lsi,e-bike pedal,260,16,Commercial,semrush-2026-10-18
 /shop/controls-grips-and-pedals/,category,lsi,throttle ebikes,170,9,Commercial,semrush-2026-10-18
+/shop/controls-grips-and-pedals/,category,lsi,e bike pedal,140,8,Commercial,semrush-2026-10-18
+/shop/controls-grips-and-pedals/,category,lsi,crank brothers bike pedals,140,17,"Transactional, Navigational",semrush-2026-10-18
+/shop/controls-grips-and-pedals/,category,lsi,ebike controls,90,8,"Informational, Commercial",semrush-2026-10-18
 /shop/controls-grips-and-pedals/,category,lsi,thumb throttle ebike,90,9,Commercial,semrush-2026-10-18
 /shop/controls-grips-and-pedals/,category,lsi,full twist throttle ebike,70,6,Commercial,semrush-2026-10-18
 /shop/controls-grips-and-pedals/,category,lsi,throttle for ebike,70,7,Commercial,semrush-2026-10-18
+/shop/controls-grips-and-pedals/,category,lsi,crankbrothers australia,20,7,"Transactional, Navigational",semrush-2026-10-18
 /shop/care-tools-and-hydration/,category,primary,cycling water bottle,590,10,Commercial,competitor
 /shop/care-tools-and-hydration/,category,secondary,bike water bottle,480,11,Commercial,competitor
 /shop/care-tools-and-hydration/,category,secondary,bike degreaser,480,12,Commercial,competitor
@@ -703,7 +873,7 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/locks-and-security/,category,secondary,e bike locks australia,50,4,Commercial,competitor
 /shop/locks-and-security/,category,secondary,dirt bike lock,70,9,Commercial,competitor
 /shop/locks-and-security/,category,secondary,alarmed bike lock,50,13,Commercial,competitor
-/shop/locks-and-security/,category,secondary,bike lock for folding bike,320,11,Commercial,competitor
+/shop/locks-and-security/,category,lsi,bike lock for folding bike,320,11,Commercial,competitor
 /shop/locks-and-security/,category,lsi,abus folding lock,70,16,Commercial,competitor
 /shop/locks-and-security/,category,lsi,chain lock for bikes,50,11,Commercial,competitor
 /shop/locks-and-security/,category,lsi,bike locks and chains,50,8,Commercial,competitor
@@ -715,16 +885,26 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/locks-and-security/,category,lsi,best bike lock for electric bike,50,21,Commercial,competitor
 /shop/locks-and-security/,category,secondary,bike locks,1300,19,Commercial,semrush-2026-10-18
 /shop/locks-and-security/,category,secondary,bike cycle lock,390,9,Commercial,semrush-2026-10-18
+/shop/locks-and-security/,category,secondary,lock for the bike,390,9,"Informational, Commercial",semrush-2026-10-18
 /shop/locks-and-security/,category,secondary,collapsible bike lock,260,9,Commercial,semrush-2026-10-18
 /shop/locks-and-security/,category,secondary,foldable bike lock,210,13,Commercial,semrush-2026-10-18
+/shop/locks-and-security/,category,secondary,lock alarm bike,210,15,"Informational, Commercial",semrush-2026-10-18
+/shop/locks-and-security/,category,secondary,bike lock with alarm,170,14,"Informational, Commercial",semrush-2026-10-18
 /shop/locks-and-security/,category,secondary,bike lock and key,110,7,Commercial,semrush-2026-10-18
 /shop/locks-and-security/,category,lsi,best rated bike lock,720,28,Commercial,semrush-2026-10-18
+/shop/locks-and-security/,category,lsi,locks bikes,390,12,"Informational, Commercial",semrush-2026-10-18
 /shop/locks-and-security/,category,lsi,best bike lock australia,170,19,Commercial,semrush-2026-10-18
-/shop/locks-and-security/,category,secondary,on guard bike lock,110,17,Commercial,semrush-2026-10-18
+/shop/locks-and-security/,category,lsi,lock bike,140,16,"Informational, Commercial",semrush-2026-10-18
+/shop/locks-and-security/,category,lsi,lock for bike,110,15,"Informational, Commercial",semrush-2026-10-18
+/shop/locks-and-security/,category,lsi,on guard bike lock,110,17,Commercial,semrush-2026-10-18
 /shop/locks-and-security/,category,lsi,great bike locks,110,28,Commercial,semrush-2026-10-18
-/shop/locks-and-security/,category,secondary,bike alarm lock,90,4,Commercial,semrush-2026-10-18
+/shop/locks-and-security/,category,lsi,bike alarm lock,90,4,Commercial,semrush-2026-10-18
+/shop/locks-and-security/,category,lsi,bike lock key,90,10,"Informational, Commercial",semrush-2026-10-18
 /shop/locks-and-security/,category,lsi,better bike lock,90,25,Commercial,semrush-2026-10-18
 /shop/locks-and-security/,category,lsi,good locks for bikes,90,28,Commercial,semrush-2026-10-18
+/shop/locks-and-security/,category,lsi,kovix australia,20,11,Navigational,semrush-2026-10-18
+/shop/locks-and-security/,category,lsi,mastiff australia,20,12,Informational,semrush-2026-10-18
+/shop/locks-and-security/,category,lsi,onguard australia,20,14,Navigational,semrush-2026-10-18
 /shop/sur-ron-spares/,category,primary,surron seat,880,6,Commercial,competitor
 /shop/sur-ron-spares/,category,secondary,surron forks,260,6,Commercial,competitor
 /shop/sur-ron-spares/,category,secondary,surron throttle for conversion kit,140,2,Commercial,competitor
@@ -734,11 +914,17 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/sur-ron-spares/,category,secondary,72v 55ah surron battery,20,0,Transactional,KM
 /shop/sur-ron-spares/,category,secondary,carbon surron battery cover,20,0,Transactional,KM
 /shop/sur-ron-spares/,category,secondary,surron seat for mtb,90,5,Commercial,competitor
+/shop/sur-ron-spares/,category,lsi,surron battery,390,6,Navigational,KM
+/shop/sur-ron-spares/,category,lsi,surron parts,260,11,Navigational,competitor
 /shop/sur-ron-spares/,category,lsi,surron pegs,110,8,Commercial,competitor
+/shop/sur-ron-spares/,category,lsi,sur ron upgrades,90,6,Navigational,competitor
 /shop/sur-ron-spares/,category,lsi,sur ron grips,90,6,Commercial,competitor
+/shop/sur-ron-spares/,category,lsi,surron tyres,70,7,Informational,competitor
 /shop/sur-ron-spares/,category,lsi,surron brake pads,70,7,Commercial,competitor
+/shop/sur-ron-spares/,category,lsi,sur ron batteries,70,7,Commercial,competitor
 /shop/sur-ron-spares/,category,lsi,surron throttle for fatboy,70,6,Commercial,competitor
 /shop/sur-ron-spares/,category,lsi,72v sur ron battery,70,6,Commercial,competitor
+/shop/sur-ron-spares/,category,lsi,surron parts australia,50,2,Navigational,competitor
 /shop/sur-ron-spares/,category,lsi,sur ron light bee charger,20,2,Transactional,KM
 /shop/brakes/,category,primary,bike brake pads,720,10,Commercial,competitor
 /shop/brakes/,category,secondary,bike with brakes,480,10,Transactional,competitor
@@ -760,6 +946,7 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/brakes/,category,lsi,mtb disc brakes,110,21,Commercial,competitor
 /shop/brakes/,category,lsi,brake pads for bikes,110,11,Commercial,competitor
 /shop/brakes/,category,lsi,brake pads cycling,110,9,Commercial,competitor
+/shop/brakes/,category,lsi,surron brakes,110,7,Informational,competitor
 /shop/brakes/,category,lsi,best brakes mountain bike,70,29,Commercial,competitor
 /shop/brakes/,category,lsi,mtb best brakes,70,32,Commercial,competitor
 /shop/brakes/,category,lsi,best brake pads for electric bike,20,8,Commercial,KM
@@ -778,6 +965,7 @@ url,type,role,keyword,volume,kd,intent,source
 /electric-bikes/,new-hub,secondary,ebike fastest,1300,8,Commercial,competitor
 /electric-bikes/,new-hub,lsi,bicycle bike electric,5400,32,Commercial,competitor
 /electric-bikes/,new-hub,lsi,electric cycle for adults,1000,14,Commercial,competitor
+/electric-bikes/,new-hub,lsi,e bike that folds,1000,17,Commercial,KM
 /electric-bikes/,new-hub,lsi,ebike commute,1000,7,Commercial,KM
 /electric-bikes/,new-hub,lsi,e bikes sale,1000,14,Transactional,competitor
 /electric-bikes/,new-hub,lsi,mini e bike,1000,6,Commercial,competitor
@@ -803,6 +991,7 @@ url,type,role,keyword,volume,kd,intent,source
 /electric-bikes/budget/,new-hub,secondary,cheap electric bikes australia,390,6,Transactional,KM
 /electric-bikes/budget/,new-hub,lsi,entry level electric bicycle,390,8,Commercial,competitor
 /electric-bikes/budget/,new-hub,lsi,e-bikes under $1 000,390,10,Commercial,competitor
+/electric-bikes/budget/,new-hub,lsi,affordable e-bike australia,320,12,Transactional,KM
 /electric-bikes/budget/,new-hub,lsi,cheapest electric bike australia,210,10,Transactional,KM
 /electric-bikes/budget/,new-hub,lsi,best affordable electric bicycle,210,15,Transactional,competitor
 /electric-bikes/budget/,new-hub,lsi,cheapest best electric bike,210,16,Transactional,competitor
@@ -840,6 +1029,8 @@ url,type,role,keyword,volume,kd,intent,source
 /electric-bikes/brisbane/,local,secondary,electric bikes qld,110,21,Commercial,competitor
 /electric-bikes/brisbane/,local,secondary,electric bikes brisbane milton,50,18,Commercial,competitor
 /electric-bikes/brisbane/,local,secondary,ebikes queensland,70,25,Commercial,competitor
+/electric-bikes/brisbane/,local,lsi,electric bikes in brisbane,260,27,Navigational,competitor
+/electric-bikes/brisbane/,local,lsi,f1 ebikes brisbane,50,16,Navigational,competitor
 /brands/79bike/,brand-hub,primary,79 bike,1000,22,Navigational,competitor
 /brands/79bike/,brand-hub,secondary,79bike,480,17,Navigational,competitor
 /brands/79bike/,brand-hub,secondary,79bike falcon pro discount code,20,13,Transactional,KM
@@ -1140,6 +1331,7 @@ url,type,role,keyword,volume,kd,intent,source
 /brands/flight-risk/,brand-hub,secondary,flight risk mascot reviews,90,32,Commercial,competitor
 /brands/flight-risk/,brand-hub,lsi,flight risk ebike reviews,70,9,Navigational,competitor
 /brands/giant/,brand-hub,primary,giant australia,,,Navigational,generated
+/brands/giant/,brand-hub,secondary,giant australia,,,Navigational,generated
 /brands/giant/,brand-hub,secondary,giant electric bikes,,,Navigational,generated
 /brands/giant/,brand-hub,secondary,giant bikes australia,,,Navigational,generated
 /brands/giant/,brand-hub,secondary,giant models,,,Navigational,generated
@@ -1212,6 +1404,7 @@ url,type,role,keyword,volume,kd,intent,source
 /brands/mamba/,brand-hub,lsi,mamba ebike australia,10,14,Navigational,KM
 /brands/mamba/,brand-hub,lsi,black mamba e bike,10,6,Transactional,KM
 /brands/marin/,brand-hub,primary,marin australia,,,Navigational,generated
+/brands/marin/,brand-hub,secondary,marin australia,,,Navigational,generated
 /brands/marin/,brand-hub,secondary,marin electric bikes,,,Navigational,generated
 /brands/marin/,brand-hub,secondary,marin bikes australia,,,Navigational,generated
 /brands/marin/,brand-hub,secondary,marin models,,,Navigational,generated
@@ -1283,6 +1476,7 @@ url,type,role,keyword,volume,kd,intent,source
 /brands/razor/,brand-hub,lsi,razor electric bike frame,20,25,Transactional,KM
 /brands/razor/,brand-hub,lsi,razor electric bike review,20,12,Commercial,KM
 /brands/reid/,brand-hub,primary,reid australia,,,Navigational,generated
+/brands/reid/,brand-hub,secondary,reid australia,,,Navigational,generated
 /brands/reid/,brand-hub,secondary,reid electric bikes,,,Navigational,generated
 /brands/reid/,brand-hub,secondary,reid bikes australia,,,Navigational,generated
 /brands/reid/,brand-hub,secondary,reid models,,,Navigational,generated
@@ -1294,6 +1488,7 @@ url,type,role,keyword,volume,kd,intent,source
 /brands/santa-cruz/,brand-hub,secondary,santa cruz bikes australia,,,Navigational,generated
 /brands/santa-cruz/,brand-hub,secondary,santa cruz models,,,Navigational,generated
 /brands/seat-drip/,brand-hub,primary,seat drip australia,,,Navigational,generated
+/brands/seat-drip/,brand-hub,secondary,seat drip australia,,,Navigational,generated
 /brands/seat-drip/,brand-hub,secondary,seat drip electric bikes,,,Navigational,generated
 /brands/seat-drip/,brand-hub,secondary,seat drip bikes australia,,,Navigational,generated
 /brands/seat-drip/,brand-hub,secondary,seat drip models,,,Navigational,generated
@@ -4020,6 +4215,7 @@ url,type,role,keyword,volume,kd,intent,source
 /blog/commuter-e-bikes/,blog,secondary,retro cruiser electric bike for beginners,,,Informational,generated
 /blog/commuter-e-bikes/,blog,secondary,retro cruiser electric bike tips,,,Informational,generated
 /blog/best-phone-mounts-for-e-bikes/,blog,primary,phone mounts for e-bikes guide,,,Informational,generated
+/blog/best-phone-mounts-for-e-bikes/,blog,secondary,phone mounts for e-bikes guide,,,Informational,generated
 /blog/best-phone-mounts-for-e-bikes/,blog,secondary,how to choose phone mounts for e-bikes,,,Informational,generated
 /blog/best-phone-mounts-for-e-bikes/,blog,secondary,phone mounts for e-bikes explained,,,Informational,generated
 /blog/best-phone-mounts-for-e-bikes/,blog,secondary,phone mounts for e-bikes tips,,,Informational,generated
@@ -4043,21 +4239,25 @@ url,type,role,keyword,volume,kd,intent,source
 /blog/fat-tyre-e-bikes/,blog,secondary,cruzr stoke af,90,5,Navigational,competitor
 /blog/fat-tyre-e-bikes/,blog,secondary,bolzzen phoenix,90,2,Navigational,competitor
 /blog/electric-moto-maintenance-lithium-safety/,blog,primary,e-bike batteries guide,,,Informational,generated
+/blog/electric-moto-maintenance-lithium-safety/,blog,secondary,e-bike batteries guide,,,Informational,generated
 /blog/electric-moto-maintenance-lithium-safety/,blog,secondary,how to choose e-bike batteries,,,Informational,generated
 /blog/electric-moto-maintenance-lithium-safety/,blog,secondary,e-bike batteries explained,,,Informational,generated
 /blog/electric-moto-maintenance-lithium-safety/,blog,secondary,e-bike batteries for beginners,,,Informational,generated
 /blog/electric-moto-maintenance-lithium-safety/,blog,secondary,e-bike batteries tips,,,Informational,generated
 /blog/kids-electric-dirt-bikes/,blog,primary,kids’ electric dirt bikes guide,,,Informational,generated
+/blog/kids-electric-dirt-bikes/,blog,secondary,kids’ electric dirt bikes guide,,,Informational,generated
 /blog/kids-electric-dirt-bikes/,blog,secondary,how to choose kids’ electric dirt bikes,,,Informational,generated
 /blog/kids-electric-dirt-bikes/,blog,secondary,kids’ electric dirt bikes explained,,,Informational,generated
 /blog/kids-electric-dirt-bikes/,blog,secondary,kids’ electric dirt bikes for beginners,,,Informational,generated
 /blog/kids-electric-dirt-bikes/,blog,secondary,kids’ electric dirt bikes tips,,,Informational,generated
 /blog/electric-vs-petrol-dirt-bikes/,blog,primary,electric vs petrol dirt bikes guide,,,Informational,generated
+/blog/electric-vs-petrol-dirt-bikes/,blog,secondary,electric vs petrol dirt bikes guide,,,Informational,generated
 /blog/electric-vs-petrol-dirt-bikes/,blog,secondary,how to choose electric vs petrol dirt bikes,,,Informational,generated
 /blog/electric-vs-petrol-dirt-bikes/,blog,secondary,electric vs petrol dirt bikes explained,,,Informational,generated
 /blog/electric-vs-petrol-dirt-bikes/,blog,secondary,electric vs petrol dirt bikes for beginners,,,Informational,generated
 /blog/electric-vs-petrol-dirt-bikes/,blog,secondary,electric vs petrol dirt bikes tips,,,Informational,generated
 /blog/electric-balance-bikes/,blog,primary,electric balance bikes guide,,,Informational,generated
+/blog/electric-balance-bikes/,blog,secondary,electric balance bikes guide,,,Informational,generated
 /blog/electric-balance-bikes/,blog,secondary,how to choose electric balance bikes,,,Informational,generated
 /blog/electric-balance-bikes/,blog,secondary,electric balance bikes explained,,,Informational,generated
 /blog/electric-balance-bikes/,blog,secondary,electric balance bikes for beginners,,,Informational,generated
