@@ -19,7 +19,7 @@ No authentication required. All resources are publicly accessible.
 {
   "agent_auth": {
     "register_uri": null,
-    "identity_types_supported": ["none"],
+    "identity_types_supported": ["anonymous"],
     "credential_types_supported": ["none"],
     "notes": "No authentication required. All resources are public."
   }
