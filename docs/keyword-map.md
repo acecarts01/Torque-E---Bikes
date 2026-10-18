@@ -34,7 +34,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Title:** E-Bikes — Buy Online | Torque E-Bikes (37)
 - **H1:** E-Bikes — compare and buy in Australia
 - **Meta:** E-bike: compare e-bikes by type and price and buy online. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Browse the range. (154)
-- **Supporting (LSI):** bicycle bike electric, electric cycle for adults, e bike that folds, ebike commute, e bikes sale, mini e bike, electric bicycle adults, ebike in australia, fast electric bicycles, e-bikes under $1000, bicycle adult electric, electric bicycle mountain bike
+- **Supporting (LSI):** bicycle bike electric; electric cycle for adults; ebike commute; e bikes sale; mini e bike; electric bicycle adults; ebike in australia; fast electric bicycles; e-bikes under $1000; bicycle adult electric; electric bicycle mountain bike
 - **Image alt:** ebike — e-bikes available from Torque E-Bikes
 
 ### Budget Electric Bikes — `/electric-bikes/budget/`
@@ -43,64 +43,64 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Title:** Low Cost Electric Bicycles — Budget E-Bikes | Torque E-Bikes (60)
 - **H1:** Low Cost Electric Bicycles — compare and buy in Australia
 - **Meta:** Low cost electric bicycle: compare e-bikes by type and price and buy online. Shipped Australia-wide from Brisbane. Browse the range. (132)
-- **Supporting (LSI):** entry level electric bicycle, e-bikes under $1 000, affordable e-bike australia, cheapest electric bike australia, best affordable electric bicycle, cheapest best electric bike, budget electric bike, e bikes for cheap, the cheap e bike, cheapest bike electric, best budget electric bike, best budget electric bike australia
+- **Supporting (LSI):** entry level electric bicycle; e-bikes under $1 000; cheapest electric bike australia; best affordable electric bicycle; cheapest best electric bike; budget electric bike; e bikes for cheap; the cheap e bike; cheapest bike electric; best budget electric bike; best budget electric bike australia
 - **Image alt:** low cost electric bicycle — e-bikes available from Torque E-Bikes
 
 ## Category pages (23)
 
 ### Electric Dirt Bikes — `/shop/electric-dirt-bikes/`
 - **Primary:** electric dirt bike (8,100/KD 8)
-- **Secondary:** electric bikes dirt (4,400/KD 8); electric motocross bike (1,300/KD 17); e dirt bike (1,000/KD 6); electric motocross motorcycle (1,000/KD 22); ebike dirt bikes (720/KD 8); electric pit bike (720/KD 13); off road ebike (480/KD 4); electric dirt bike for adults (320/KD 13); electric dirt bikes (1,000/KD 15); electric off road bike (590/KD 11); high performance electric dirt bike (590/KD 23); off road electric bikes (480/KD 9); electric dirt bike motorcycles (480/KD 20); e bike off road (320/KD 7); electric trail bike (320/KD 17); electric dirt bikes australia (260/KD 17)
+- **Secondary:** e dirt bike (1,000/KD 6); electric motocross motorcycle (1,000/KD 22); ebike dirt bikes (720/KD 8); electric pit bike (720/KD 13); off road ebike (480/KD 4); electric dirt bikes (1,000/KD 15); electric off road bike (590/KD 11); high performance electric dirt bike (590/KD 23); electric dirt bike motorcycles (480/KD 20); electric dirt bikes australia (260/KD 17); electric dirt bike for sale (170/KD 13); electric dirt bikes for sale (110/KD 24); electric dirt bike australia for sale (70/KD 14); electric dirt bike australia (1,300/KD 21); electric dirt bike electric (390/KD 15); adult electric dirt bike (260/KD 13)
 - **Title:** Electric Dirt Bikes — Off-Road Only | Torque E-Bikes (52)
 - **H1:** Electric Dirt Bikes in Australia — 49 products
 - **Meta:** Electric dirt bike: shop 49 products from $949 to $26,849 across 23 brands. Dirt bikes are off-road and private property use only. Shop now. (140)
-- **Supporting (LSI):** electric dirt bike motorcycle, electric dirt bike australia, cheap electric dirt bikes, adult electric dirt bike, electric offroad bike, e dirt bike australia, electric dirt motorbike, electric dirt motorcycle, mini electric dirt bike, electric dirt bike for sale, cheap e dirt bike, electric trials bike; electric dirt bikes electric dirt bikes; electric dirt bike electric; zero motorcycles australia; off road electric bike; off road e bikes; electric dirt bike adults; husqvarna electric bike; off road e bike; electric bike off road; cheap electric dirt bike; electric bike dirt bike; dirt bike electric; good electric dirt bike; off road electric bike australia; cheapest electric dirt bike; electric dirt bike perth; electric mini motocross bike; electric pit bikes; segway electric bike; electric motocross bikes; budget friendly electric dirt bike; electric dirt bikes for sale; electric off road bikes; best off-road electric bike australia; electric dirt bike australia under $1000; electric dirt bike australia cheap; electric dirt bike australia for adults; fast electric dirt bike; electric mini dirt bike; electric dirt bike cheap; electric dirt bike mini; off roading electric bike; electric off road bike australia; electric trail bike australia; e dirt bike australia under $1500; 72v electric dirt bikes; dirt bikes that are electric; electric dirt bike for 12 year olds; best electric off road bike; best off road electric bike; electric dirt bike australia for sale; electric dirt bike adult; e dirt bikes australia; electric pit bike australia; tork australia; electric enduro bike; ktm electric kids bike; electric dirt bikes for adults; mini electric dirt bikes; best electric dirt bikes; lightweight electric dirt bike; affordable electric dirt bike; electric trail bikes; electric motocross dirt bikes; stark future electric dirt bike; e ride pro electric dirt bike; segway dirt ebike; segway electric dirt bike; rerode electric dirt bike; bonnell electric dirt bike; husqvarna electric dirt bike; kayo electric dirt bike; tork electric dirt bike
+- **Supporting (LSI):** cheap electric dirt bikes; electric offroad bike; e dirt bike australia; electric dirt motorbike; electric dirt motorcycle; mini electric dirt bike; cheap e dirt bike; electric trials bike; zero motorcycles australia; off road electric bike; electric dirt bike adults; husqvarna electric bike; cheap electric dirt bike; electric bike dirt bike; good electric dirt bike; cheapest electric dirt bike; electric dirt bike perth; electric mini motocross bike; electric pit bikes; segway electric bike; budget friendly electric dirt bike; best off-road electric bike australia; electric dirt bike australia cheap; electric dirt bike australia for adults; fast electric dirt bike; electric mini dirt bike; electric dirt bike cheap; electric dirt bike mini; electric off road bike australia; electric trail bike australia; 72v electric dirt bikes; best electric off road bike; best off road electric bike; e dirt bikes australia; electric pit bike australia; electric dirt bikes for adults; mini electric dirt bikes; best electric dirt bikes; lightweight electric dirt bike; e ride pro electric dirt bike; segway dirt ebike
 - **Image alt:** electric dirt bike — Electric Dirt Bikes range at Torque E-Bikes
 
 ### Kids Electric Dirt & Balance Bikes — `/shop/kids-electric-dirt-and-balance-bikes/`
 - **Primary:** kids electric bike (4,400/KD 6)
-- **Secondary:** childrens electric dirt bike (1,600/KD 6); electric balance bike (1,600/KD 12); kids electric motorbike (1,300/KD 11); children electric bike (1,300/KD 20); childrens electric motor bike (590/KD 14); electric bike for kids (390/KD 5); electric dirt bike for kids (320/KD 6); 16 inch electric balance bike (110/KD 4); kids electric dirt bike (590/KD 11); electric motorbike kids (590/KD 12); electric kids motorbike (390/KD 11); razor electric dirt bike (320/KD 16); electric balance bikes (260/KD 13); childrens electric dirt bikes (210/KD 10); razor dirt electric bike (210/KD 10); electric motorbike for kids (210/KD 23)
+- **Secondary:** childrens electric dirt bike (1,600/KD 6); electric balance bike (1,600/KD 12); kids electric motorbike (1,300/KD 11); children electric bike (1,300/KD 20); childrens electric motor bike (590/KD 14); electric bike for kids (390/KD 5); electric dirt bike for kids (320/KD 6); electric motorbike kids (590/KD 12); electric kids motorbike (390/KD 11); children's electric motorcycles (260/KD 14); kids electric balance bike (170/KD 13); kids electric motorbikes (170/KD 20); electric motorcycle for kids (140/KD 7); kids electric motorbike australia (110/KD 14); kids electric dirt bike australia (110/KD 6); electric balance bike for kids (110/KD 5)
 - **Title:** Kids Electric Bikes — Kids & Youth | Torque E-Bikes (51)
 - **H1:** Kids Electric Bikes in Australia — 29 products
 - **Meta:** Kids electric bike: shop 29 products from $469 to $8,709 across 15 brands. Dirt bikes are off-road and private property use only. Shop now. (139)
-- **Supporting (LSI):** children's electric motorcycles, electric motorbikes for kids, mini dirt bikes, kids electric balance bike, electric motorcycle for kids, kids electric motorbike australia, kids electric dirt bike australia, childrens electric trike, electric balance bike for kids, kids electric mountain bike, youth electric dirt bike, kids electric bike australia; kids electric motorbikes; electric dirt bike kids; electric kids dirt bike; childrens electric dirt bike australia; balance bike electric; electric balance bike 16 inch; electric dirt bikes for kids; electric balance bike australia; 12 inch electric balance bike; kids motorbike electric; kids electric dirt bikes; electric motor bike kids; kids electric motor bike; rxf dna 16"; electric motorbike for teenager
+- **Supporting (LSI):** mini dirt bikes; childrens electric trike; youth electric dirt bike; kids electric bike australia; electric dirt bike kids; electric kids dirt bike; childrens electric dirt bike australia; balance bike electric; electric dirt bikes for kids; electric balance bike australia; kids motorbike electric; kids electric dirt bikes; electric motor bike kids; kids electric motor bike; rxf dna 16"; electric motorbike for teenager
 - **Image alt:** kids electric bike — Kids Electric Dirt & Balance Bikes range at Torque E-Bikes
 
 ### Electric Mountain Bikes — `/shop/electric-mountain-bikes/`
 - **Primary:** electric mountain bike (3,600/KD 10)
-- **Secondary:** mountain electric cycle (2,900/KD 7); emtb (2,400/KD 34); e mtb (1,300/KD 11); electric mtb (1,000/KD 9); emtb australia (720/KD 15); ebike mtb (480/KD 12); dual suspension ebike (320/KD 7); emtb for sale (210/KD 6); electric mountain bikes (880/KD 18); electric mountain bike australia (480/KD 17); e mountain bikes australia (390/KD 11); electric mountain bikes for sale (260/KD 18); bike electric mountain (260/KD 18); electric mountain bike sales (170/KD 7); mountain bike electric (170/KD 10); mountain electric bike (170/KD 14)
+- **Secondary:** mountain electric cycle (2,900/KD 7); emtb (2,400/KD 34); e mtb (1,300/KD 11); electric mtb (1,000/KD 9); emtb australia (720/KD 15); ebike mtb (480/KD 12); dual suspension ebike (320/KD 7); emtb for sale (210/KD 6); e mountain bikes australia (390/KD 11); electric mountain bikes for sale (260/KD 18); bike electric mountain (260/KD 18); electric mountain bike sales (170/KD 7); mountain bike electric (170/KD 10); mountain electric bike (170/KD 14); electric mountain bike for sale (260/KD 10); giant electric mtb (260/KD 18)
 - **Title:** Electric Mountain Bikes — Buy Online | Torque E-Bikes (53)
 - **H1:** Electric Mountain Bikes in Australia — 57 products
 - **Meta:** Electric mountain bike: shop 57 products from $1,039 to $20,879 across 22 brands. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Shop now. (155)
-- **Supporting (LSI):** electric mountain bikes australia, electric mountain bike for sale, giant electric mtb, full suspension electric mountain bike, e mtb sale, e mtb for sale, emtb sale, e mtb bike, electric mtb australia, dual suspension electric mountain bike, full suspension e mtb, the emtb store; santa cruz heckler; e mountain bike australia; electric dual suspension mountain bike; cheap electric mountain bike; mountain electric bikes; electric bikes mountain bike; best electric mountain bikes; cheap emtb; hardtail electric mountain bike; electric mountain bike sale; scott electric mountain bike; lightest emtb; lightest electric mountain bike; emtb bikes; electric mountain bike dual suspension; electric full sus mountain bike; best e mountain bike australia; electric mountain bike with throttle; emtb sales; electric hardtail mountain bike; electric mountain bikes sale; fat tyre electric mountain bike; scott emtb; full sus emtb; electric assist mountain bike; electric dh mountain bike; electric mountain bike perth; lightweight emtb; hardtail emtb; high performance electric mountain bikes; 27.5 electric mountain bike; emtb sale australia; 26 inch electric mountain bike; 26 electric mountain bike; electric downhill mountain bike; 250w electric mountain bikes; affordable electric mountain bike; lightweight electric mountain bike; electric mountain bikes melbourne; light emtb; best e mountain bike under $5000 australia; ladies electric mountain bike; mens electric mountain bike; best e mountain bikes australia; high performance electric mountain bike; ktm electric mountain bike; husqvarna electric mountain bike; yeti electric mountain bike; pivot electric mountain bike; marin electric mountain bike; marin electric bike; scott australia; pivot australia; shogun australia; superior australia
+- **Supporting (LSI):** e mtb sale; e mtb for sale; emtb sale; e mtb bike; electric mtb australia; full suspension e mtb; santa cruz heckler; e mountain bike australia; electric dual suspension mountain bike; cheap electric mountain bike; mountain electric bikes; electric bikes mountain bike; best electric mountain bikes; hardtail electric mountain bike; electric mountain bike sale; scott electric mountain bike; lightest electric mountain bike; emtb bikes; electric mountain bike dual suspension; electric full sus mountain bike; best e mountain bike australia; emtb sales; electric hardtail mountain bike; electric mountain bikes sale; fat tyre electric mountain bike; scott emtb; full sus emtb; electric assist mountain bike; electric mountain bike perth; hardtail emtb; high performance electric mountain bikes; 27.5 electric mountain bike; emtb sale australia; 26 inch electric mountain bike; electric downhill mountain bike; affordable electric mountain bike; lightweight electric mountain bike; electric mountain bikes melbourne; light emtb; best e mountain bike under $5000 australia; best e mountain bikes australia; high performance electric mountain bike; yeti electric mountain bike; pivot electric mountain bike
 - **Image alt:** electric mountain bike — Electric Mountain Bikes range at Torque E-Bikes
 
 ### Commuter & Urban E-Bikes — `/shop/commuter-and-urban-e-bikes/`
 - **Primary:** cruiser ebike (590/KD 5)
-- **Secondary:** commuter e-bike (590/KD 6); e-bike commuting (480/KD 7); ebike trekking (480/KD 8); step through ebike (390/KD 6); hybrid electric bike (390/KD 9); bicycle hybrid electric (320/KD 9); urban ebike (110/KD 5); retro bike electric (140/KD 8); best e bikes australia (880/KD 8); electric bike for commuters (590/KD 7); electric commuter bikes (480/KD 17); step through electric bike (390/KD 9); best e bike australia (390/KD 10); electric hybrid bikes (260/KD 10); commuter electric bike (210/KD 11); step through electric bikes (170/KD 6)
+- **Secondary:** commuter e-bike (590/KD 6); e-bike commuting (480/KD 7); ebike trekking (480/KD 8); step through ebike (390/KD 6); bicycle hybrid electric (320/KD 9); urban ebike (110/KD 5); retro bike electric (140/KD 8); best e bikes australia (880/KD 8); electric bike for commuters (590/KD 7); best e bike australia (390/KD 10); electric hybrid bikes (260/KD 10); commuter electric bike (210/KD 11); step through electric bikes (170/KD 6); e bike price in australia (110/KD 23); urban commuter electric bike (40/KD 7); commuter e bikes for sale (30/KD 7)
 - **Title:** Cruiser E-Bikes — Buy Online | Torque E-Bikes (45)
 - **H1:** Cruiser E-Bikes in Australia — 77 products
 - **Meta:** Cruiser ebike: shop 77 products from $849 to $16,379 across 22 brands. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Shop now. (144)
-- **Supporting (LSI):** ebikes city, e bikes for commuting, e bike retro, cruiser e bikes australia, step through e bikes australia, commuter ebike australia, urban bike electric, e bike touring, estate city e bike price, urban cruiser electric bike, urban commuter electric bike, commuter e bikes for sale; velectrix electric bike; electric hybrid bike; cheap e bikes australia; best e-bike australia; gazelle electric bike; electric bike commuter; electric city bike; e bike price in australia; electric step through bike; best e bikes under $2000 australia; electric bike step through; e bike australia under $1000; city electric bike; best budget e bike australia; step through electric bike australia; hybrid electric bikes; electric bike hybrid; cheapest e bikes australia; electric city bikes; hybrid bikes electric; australia e-bike; electric commuter bike australia; cheapest e bike australia; electric bike for commuting; gazelle australia; kona electric bike
+- **Supporting (LSI):** ebikes city; e bikes for commuting; e bike retro; cruiser e bikes australia; step through e bikes australia; commuter ebike australia; urban bike electric; e bike touring; estate city e bike price; urban cruiser electric bike; electric hybrid bike; cheap e bikes australia; best e-bike australia; gazelle electric bike; electric bike commuter; electric city bike; best e bikes under $2000 australia; electric bike step through; e bike australia under $1000; best budget e bike australia; step through electric bike australia; hybrid electric bikes; electric bike hybrid; electric city bikes; hybrid bikes electric; australia e-bike; electric bike for commuting; gazelle australia; kona electric bike
 - **Image alt:** cruiser ebike — Commuter & Urban E-Bikes range at Torque E-Bikes
 
 ### Road & Gravel E-Bikes — `/shop/road-and-gravel-e-bikes/`
 - **Primary:** road ebike (320/KD 6)
-- **Secondary:** electric road motorbike (170/KD 17); electric motorcycle road legal (90/KD 19); buy road ebike [generated] (–/KD –); road ebike for sale [generated] (–/KD –); road ebike price [generated] (–/KD –); electric road bike (880/KD 15); electric gravel bike (320/KD 16); electric road bikes (320/KD 17); road e bikes (210/KD 10); e road bike (210/KD 12); electric road bike australia (170/KD 8); road e bike (170/KD 15); electric road bikes australia (110/KD 9)
+- **Secondary:** electric road motorbike (170/KD 17); electric motorcycle road legal (90/KD 19); buy road ebike [generated] (–/KD –); road ebike for sale [generated] (–/KD –); road ebike price [generated] (–/KD –); electric gravel bike (320/KD 16); electric road bikes (320/KD 17); road e bikes (210/KD 10); road e bike (170/KD 15); e road bikes for sale (50/KD 9); electric road bikes for sale (50/KD 13); electric road motorbike australia (140/KD 29)
 - **Title:** Road E-Bikes — Buy Online | Torque E-Bikes (42)
 - **H1:** Road E-Bikes in Australia — 7 products
 - **Meta:** Road ebike: shop 7 products from $3,999 to $12,809 across 4 brands. Shipped Australia-wide from Brisbane. Pay by bank transfer, PayID or crypto. Shop now. (154)
-- **Supporting (LSI):** electric road motorbike australia, electric motorbike road legal; electric gravel bikes australia; electric gravel bikes; e bike road bikes; e gravel bikes australia; road bikes electric; e road bikes; road e-bike; electric gravel bike australia; road bike electric; e bike road; e road bikes australia; gravel electric bike; e gravel bike australia; e-road bike; road electric bikes; gravel e bikes australia; gravel electric bikes; road electric bike; e road bikes for sale; electric bike road; electric road bikes for sale; road e-bikes
+- **Supporting (LSI):** electric motorbike road legal; electric gravel bikes australia; electric gravel bikes; e bike road bikes; e gravel bikes australia; road bikes electric; e road bikes; road e-bike; electric gravel bike australia; road bike electric; e bike road; gravel electric bike; e gravel bike australia; gravel e bikes australia; gravel electric bikes; road electric bike; road e-bikes
 - **Image alt:** road ebike — Road & Gravel E-Bikes range at Torque E-Bikes
 - **Notes:** 3 generated to reach the floor. 
 
 ### Fat-Tyre & Scrambler E-Bikes — `/shop/fat-tyre-and-scrambler-e-bikes/`
 - **Primary:** electric fat bike (720/KD 11)
-- **Secondary:** electric bicycle fat bike (590/KD 5); buy electric fat bike [generated] (–/KD –); electric fat bike for sale [generated] (–/KD –); electric fat bike price [generated] (–/KD –); cheap electric fat bike [generated] (–/KD –); fat tyre ebike (1,300/KD 13); fat tyre electric bike (1,000/KD 16); fat tyre electric bikes (390/KD 10); fat tyre ebikes (320/KD 17); electric bike fat tyre (210/KD 14); electric fat tyre bike (210/KD 15); fat tyre electric bike australia (140/KD 6); fat tyre ebike australia (140/KD 8)
+- **Secondary:** electric bicycle fat bike (590/KD 5); buy electric fat bike [generated] (–/KD –); electric fat bike for sale [generated] (–/KD –); electric fat bike price [generated] (–/KD –); cheap electric fat bike [generated] (–/KD –); electric bike fat tyre (210/KD 14); fat tyre electric bike australia (140/KD 6); fat tyre ebike australia (140/KD 8); electric fat bike australia (90/KD 6); electric bike fat tyres (90/KD 12); fat tyres electric bike (70/KD 14); fat tyre electric bikes australia (70/KD 15); fat tire ebike australia (30/KD 10)
 - **Title:** Electric Fat Bikes — Buy Online | Torque E-Bikes (48)
 - **H1:** Electric Fat Bikes in Australia — 41 products
 - **Meta:** Electric fat bike: shop 41 products from $1,609 to $4,849 across 11 brands. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Shop now. (149)
-- **Supporting (LSI):** electric fat bike australia, best fat tyre electric bike australia, best fat tyre ebike; fat tyre e bikes australia; electric bike fat tyres; electric fat tyre bikes; best fat tyre ebike australia; fat tyres electric bike; fat tyre electric bikes australia; best fat tyre electric bike; fat tire ebike australia
+- **Supporting (LSI):** best fat tyre electric bike australia; best fat tyre ebike; best fat tyre ebike australia; best fat tyre electric bike
 - **Image alt:** electric fat bike — Fat-Tyre & Scrambler E-Bikes range at Torque E-Bikes
 - **Notes:** 4 generated to reach the floor. 
 
@@ -116,11 +116,11 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Folding E-Bikes — `/shop/folding-e-bikes/`
 - **Primary:** e bike folding bike (2,400/KD 9)
-- **Secondary:** foldable electric bicycle (1,900/KD 9); folding e bike (1,600/KD 3); folding e bike australia (480/KD 9); electric folding bike (390/KD 6); foldable e cycle (480/KD 11); electric bikes fold away (390/KD 10); foldable electric bike australia (320/KD 8); e bike fold (390/KD 16); folding electric bike (1,000/KD 13); folding electric bikes (720/KD 16); fold up electric bike (480/KD 17); folding e bikes (390/KD 10); fold away e bike (390/KD 18); folding electric bikes australia (390/KD 18); fold up electric bikes (320/KD 7); electric folding bikes (320/KD 11)
+- **Secondary:** foldable electric bicycle (1,900/KD 9); electric folding bike (390/KD 6); foldable e cycle (480/KD 11); foldable electric bike australia (320/KD 8); e bike fold (390/KD 16); folding e bikes (390/KD 10); fold away e bike (390/KD 18); folding electric bikes australia (390/KD 18); fold up electric bikes (320/KD 7); electric folding bikes (320/KD 11); foldable electric bikes for sale (90/KD 8); folding e bikes for sale (90/KD 9); folding electric bike for sale (70/KD 10); electric folding bicycles australia (260/KD 11); fold up e bike (260/KD 9); electric bikes folding (210/KD 7)
 - **Title:** E-Bike Folding Bikes — Buy Online | Torque E-Bikes (50)
 - **H1:** E-Bike Folding Bikes in Australia — 21 products
 - **Meta:** E bike folding bike: shop 21 products from $659 to $2,999 across 13 brands. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Shop now. (149)
-- **Supporting (LSI):** electric folding bicycles australia, electric folding e bike, e bike collapsible, lightweight folding electric bike australia, bike foldable electric, compact electric bike, electric fold up bike, electric folding trikes, foldable electric bikes for sale, portable electric bike, foldable electric tricycle, folding electric tricycle; fold up e bike; electric bikes folding; folding electric bike australia; best folding electric bike australia; bike folding electric; fold e bike; electric folding bike australia; folding e bikes australia; fold up e bikes; e bike folding; folding e bikes for sale; foldable ebike australia; best folding e bike; foldable e bike australia; 20 inch folding electric bike; electric bike folding; folding electric bike for sale; e folding bike; electric folding bikes australia; folding fat tire electric bike; folding electric bike perth; best folding e bikes australia; integrated battery folding electric bikes; pedal australia
+- **Supporting (LSI):** e bike collapsible; bike foldable electric; electric fold up bike; portable electric bike; foldable electric tricycle; folding electric tricycle; folding electric bike australia; best folding electric bike australia; electric folding bike australia; folding e bikes australia; fold up e bikes; foldable ebike australia; best folding e bike; foldable e bike australia; electric bike folding; electric folding bikes australia; folding fat tire electric bike; folding electric bike perth; pedal australia
 - **Image alt:** e bike folding bike — Folding E-Bikes range at Torque E-Bikes
 
 ### Helmets, Gloves & Protection — `/shop/helmets-gloves-and-protection/`
@@ -143,20 +143,20 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Batteries, Chargers & Electronics — `/shop/batteries-chargers-and-electronics/`
 - **Primary:** ebike battery (1,600/KD 6)
-- **Secondary:** battery for a ebike (1,300/KD 6); electric bicycle charger (480/KD 6); ebike controller (320/KD 6); e-bike battery chargers (260/KD 3); e bike battery replacement (210/KD 7); electric battery for bicycle (140/KD 6); mamba ebike charger (20/KD 0); battery for an electric bike (260/KD 14); ebike charger (480/KD 8); ebike battery charger (210/KD 3); battery ebike (140/KD 9); battery charger ebike (110/KD 4); battery for ebike (110/KD 4); ebike batteries (90/KD 7); charger for ebike (90/KD 6); controller ebike (90/KD 7)
+- **Secondary:** electric bicycle charger (480/KD 6); e-bike battery chargers (260/KD 3); e bike battery replacement (210/KD 7); electric battery for bicycle (140/KD 6); mamba ebike charger (20/KD 0); battery for an electric bike (260/KD 14); ebike battery charger (210/KD 3); battery ebike (140/KD 9); battery charger ebike (110/KD 4); charger for ebike (90/KD 6); controller ebike (90/KD 7); battery for electric bicycle (590/KD 4); battery for bicycle (110/KD 6); ebike batteries australia (50/KD 6)
 - **Title:** E-Bike Batteries — Buy Online | Torque E-Bikes (46)
 - **H1:** E-Bike Batteries in Australia — 13 products
 - **Meta:** E-bike battery: shop 13 products from $24 to $1,799 across 5 brands. Shipped Australia-wide from Brisbane. Pay by bank transfer, PayID or crypto. Shop now. (155)
-- **Supporting (LSI):** battery for electric bicycle, battery for bicycle, replacement battery for ebike, 60v ebike battery, kalkhoff electric bike battery, kalkhoff electric bike battery replacement, kalkhoff electric bike charger, kristall ebike battery, battery for a razor dirt bike, battery for razor electric dirt bike, smart motion ebike battery, surron power cable; charger of ebike; e bike batteries australia; ebike batteries australia
+- **Supporting (LSI):** 60v ebike battery; kalkhoff electric bike battery replacement; kalkhoff electric bike charger; surron power cable
 - **Image alt:** ebike battery — Batteries, Chargers & Electronics range at Torque E-Bikes
 
 ### Cargo Bikes & E-Trikes — `/shop/cargo-bikes-and-e-trikes/`
 - **Primary:** cargo bike (1,900/KD 16)
-- **Secondary:** cargo ebike (880/KD 2); e trike (1,000/KD 12); e trikes electric tricycles (880/KD 10); electric cargo bicycle (880/KD 11); cargo ebike australia (170/KD 1); adult trike bicycle (260/KD 11); e cargo bike (210/KD 8); cargo bike australia (260/KD 13); electric trike (1,300/KD 15); electric cargo bike (720/KD 28); electric tricycle for adults (480/KD 18); electric trikes (390/KD 14); electric trike australia (390/KD 18); electric trike tricycle (320/KD 7); e trike electric tricycle (320/KD 10); electric trikes for adults (320/KD 10)
+- **Secondary:** cargo ebike (880/KD 2); e trike (1,000/KD 12); e trikes electric tricycles (880/KD 10); electric cargo bicycle (880/KD 11); cargo ebike australia (170/KD 1); adult trike bicycle (260/KD 11); e cargo bike (210/KD 8); cargo bike australia (260/KD 13); electric trike (1,300/KD 15); electric tricycle for adults (480/KD 18); electric trikes (390/KD 14); electric trike australia (390/KD 18); electric trike tricycle (320/KD 7); electric trikes for adults (320/KD 10); adult trike australia (140/KD 15); e trike for sale (140/KD 10)
 - **Title:** Cargo Bikes — Buy Online | Torque E-Bikes (41)
 - **H1:** Cargo Bikes in Australia — 25 products
 - **Meta:** Cargo bike: shop 25 products from $899 to $12,099 across 12 brands. Shipped Australia-wide from Brisbane. Pay by bank transfer, PayID or crypto. Shop now. (154)
-- **Supporting (LSI):** e trike australia, electric cargo bike australia, electric e-trike, e trike bike, adult trike australia, e trike for sale, adult tricycle electric, electric adult trike, childrens cargo bike, adult trike tricycle, foldable e trike, folding adult trike; cargo electric bikes; adult electric tricycle; electric trike bike; electric cargo bikes; electric trike bicycle; best electric tricycle for adults australia; electric cargo trike; cargo bike electric; electric tricycle for adults australia; cargo electric bike; electric trike for adults australia; electric tricycles for adults; electric trike for sale; adult electric trike; adult trikes electric; cargo electric bike australia; electric cargo bikes australia; electric trikes for sale; electric bike cargo; e cargo bike australia; electric cargo bike for sale; tricycle for adults electric; cargo e bike australia; electric trike bike australia; electric trikes australia; sunmono electric bike; eunorau max cargo
+- **Supporting (LSI):** e trike australia; electric cargo bike australia; e trike bike; electric adult trike; childrens cargo bike; adult trike tricycle; foldable e trike; folding adult trike; cargo electric bikes; adult electric tricycle; electric trike bike; electric cargo bikes; electric trike bicycle; best electric tricycle for adults australia; electric tricycle for adults australia; cargo electric bike; electric trike for adults australia; electric tricycles for adults; electric trike for sale; adult electric trike; adult trikes electric; cargo electric bike australia; electric cargo bikes australia; electric trikes for sale; electric bike cargo; electric cargo bike for sale; tricycle for adults electric; electric trikes australia
 - **Image alt:** cargo bike — Cargo Bikes & E-Trikes range at Torque E-Bikes
 
 ### Lights & Horns — `/shop/lights-and-horns/`
@@ -179,20 +179,20 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Racks, Bags & Trailers — `/shop/racks-bags-and-trailers/`
 - **Primary:** bike rack (12,100/KD 24)
-- **Secondary:** foldable bike bag (2,900/KD 10); bike trailer (2,900/KD 6); thule bike rack (2,900/KD 17); bike basket (2,400/KD 8); bike bag (1,900/KD 7); bags cycling (1,600/KD 10); bike carrier (1,600/KD 13); bike cover (1,600/KD 17); bicycle bike trailer (1,900/KD 14); bike trailers (590/KD 11); bike cargo trailer (390/KD 14); ebike rack (320/KD 12); pannier bag bike (320/KD 13); ebike car rack (260/KD 10); bike pannier bag (210/KD 10); ebike racks (210/KD 10)
+- **Secondary:** foldable bike bag (2,900/KD 10); bike basket (2,400/KD 8); bike bag (1,900/KD 7); bags cycling (1,600/KD 10); bike carrier (1,600/KD 13); bike cover (1,600/KD 17); bike trailers (590/KD 11); bike cargo trailer (390/KD 14); ebike rack (320/KD 12); pannier bag bike (320/KD 13); bike pannier bag (210/KD 10); ebike racks (210/KD 10); bike trailers for sale (110/KD 6); bike trailer for sale (90/KD 7); bike carrier for bike (1,300/KD 16); rear bike rack (1,000/KD 12)
 - **Title:** Bike Racks — Buy Online | Torque E-Bikes (40)
 - **H1:** Bike Racks in Australia — 25 products
 - **Meta:** Bike rack: shop 25 products from $62 to $899 across 13 brands. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Shop now. (151)
-- **Supporting (LSI):** bike rack for bicycle, bike rack with bikes, thule bike rack carrier, bike trailer for bikes, bike carrier for bike, rear bike rack, bike on trailer, bike trailer for kids, bike racks for towbars, bicycle panniers, bike basket for rear, bike with basket; bike carrier trailer hitch mount; bicycle bike cargo trailer; push bike trailer; bike and bike trailer; bike bike trailer; trailer hitch bike carrier; trailer hitch mount bike rack; trailer bike carrier; bike trailers for cargo; bike trailer hitch; bike and trailer hitch; trailer hitch bike rack; bike trailer tow hitch; ebike rack for car; bike rack with trailer hitch; bike rack trailer hitch; bike racks for ebikes; trailer hitches for bike racks; ebike bike rack; bike trailers for sale; bike hitch for trailer; ebike racks for cars; trailer hitch bike; bike trailer for sale melbourne; pannier bike bag; bike trailer for sale; bike trailer attachment; bike pannier bags; bike rack for ebike; pannier bags for bikes; car ebike rack; ebike rack tow bar; hitch mounted ebike rack; shotgun australia; basil australia; basil bike rack
+- **Supporting (LSI):** bike rack for bicycle; bike rack with bikes; thule bike rack carrier; bike trailer for bikes; bike trailer for kids; bike racks for towbars; bicycle panniers; bike basket for rear; bike with basket; bike carrier trailer hitch mount; push bike trailer; trailer hitch bike carrier; trailer hitch mount bike rack; bike trailer hitch; bike and trailer hitch; ebike rack for car; bike rack trailer hitch; ebike bike rack; bike hitch for trailer; ebike racks for cars; trailer hitch bike; bike trailer for sale melbourne; pannier bike bag; bike pannier bags; bike rack for ebike; pannier bags for bikes; ebike rack tow bar; hitch mounted ebike rack; shotgun australia
 - **Image alt:** bike rack — Racks, Bags & Trailers range at Torque E-Bikes
 
 ### Motors, Drivetrain & Sprockets — `/shop/motors-drivetrain-and-sprockets/`
 - **Primary:** ebike conversion kit (6,600/KD 3)
-- **Secondary:** bicycle conversion kit (2,400/KD 5); bike chain (2,400/KD 10); electric bike kit (880/KD 3); electric motor bikes (1,000/KD 17); motorized bike (1,000/KD 22); electric engine for bicycle (880/KD 31); electric bike motor (480/KD 12); mountain bike chain (390/KD 10); conversion kit ebike (1,900/KD 6); ebike conversion kit australia (590/KD 7); ebike motor (480/KD 16); ebike conversion kits (390/KD 7); e bike conversion kits australia (260/KD 10); electric motor ebike (210/KD 22); 1000w ebike conversion kit (140/KD 3); 500w ebike conversion kit (110/KD 4)
+- **Secondary:** bicycle conversion kit (2,400/KD 5); bike chain (2,400/KD 10); electric bike kit (880/KD 3); electric motor bikes (1,000/KD 17); motorized bike (1,000/KD 22); electric engine for bicycle (880/KD 31); electric bike motor (480/KD 12); mountain bike chain (390/KD 10); conversion kit ebike (1,900/KD 6); ebike motor (480/KD 16); ebike conversion kits (390/KD 7); electric motor ebike (210/KD 22); 500w ebike conversion kit (110/KD 4); conversion kit for bike (1,000/KD 3); motorised bicycle (720/KD 33); electric motor for bicycle (590/KD 13)
 - **Title:** E-Bike Conversion Kits — Buy Online | Torque E-Bikes (52)
 - **H1:** E-Bike Conversion Kits in Australia — 10 products
 - **Meta:** E-bike conversion kit: shop 10 products from $29 to $859 across 4 brands. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Shop now. (147)
-- **Supporting (LSI):** conversion kit for bike, motorised bicycle, electric motor for bicycle, ebike conversion, electric bike conversion kit australia, e bike engine, e bike electric motor, conversion kit on bike, bike motor kit, mountain bike conversion kit, electric motor cross bikes, electric motor cycle; e bike conversion kit australia; ebike conversion kits australia; cheap ebike conversion kit; conversion kit for ebike; e bike kits australia; electric motor for ebike; e bike kit australia; best ebike conversion kit; ebike motor kit; e-bike conversion kit australia; ebike motors; mountain bike electric conversion kit; conversion ebike kit; ebikes conversion kit; ebike conversion kit on bike; ebike conversion kit cheap; electric bike conversion kits ebike kit; ebike chain
+- **Supporting (LSI):** ebike conversion; electric bike conversion kit australia; e bike engine; e bike electric motor; conversion kit on bike; bike motor kit; mountain bike conversion kit; electric motor cross bikes; electric motor cycle; ebike conversion kits australia; cheap ebike conversion kit; conversion kit for ebike; e bike kits australia; electric motor for ebike; e bike kit australia; best ebike conversion kit; ebike motor kit; ebike motors; mountain bike electric conversion kit; conversion ebike kit; ebikes conversion kit; ebike conversion kit cheap; electric bike conversion kits ebike kit; ebike chain
 - **Image alt:** ebike conversion kit — Motors, Drivetrain & Sprockets range at Torque E-Bikes
 
 ### Suspension & Forks — `/shop/suspension-and-forks/`
@@ -206,20 +206,20 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Phone Mounts, Mirrors & Audio — `/shop/phone-mounts-mirrors-and-audio/`
 - **Primary:** bike phone holder (1,900/KD 16)
-- **Secondary:** phone mount for bike (880/KD 19); mirror on bicycle (590/KD 7); bicycle mirrors (590/KD 9); quad lock phone mount (590/KD 10); quad lock mag ring (590/KD 20); cycling phone mount (590/KD 20); quad lock stem mount (480/KD 23); quadlock mag ring (320/KD 17); quad lock australia (1,600/KD 24); bike mobile phone mount (390/KD 25); bike cell phone mount (320/KD 19); phone bike mount (260/KD 24); phone mount bike (170/KD 17); phone holder bike mount (140/KD 7); bike mount cell phone (140/KD 24); handlebar phone holder (110/KD 10)
+- **Secondary:** phone mount for bike (880/KD 19); mirror on bicycle (590/KD 7); bicycle mirrors (590/KD 9); quad lock phone mount (590/KD 10); quad lock mag ring (590/KD 20); cycling phone mount (590/KD 20); quad lock stem mount (480/KD 23); quadlock mag ring (320/KD 17); bike mobile phone mount (390/KD 25); bike cell phone mount (320/KD 19); phone bike mount (260/KD 24); phone mount bike (170/KD 17); phone holder bike mount (140/KD 7); bike mount cell phone (140/KD 24); handlebar phone holder (110/KD 10); quad lock handlebar mount (390/KD 27)
 - **Title:** Bike Phone Holders — Buy Online | Torque E-Bikes (48)
 - **H1:** Bike Phone Holders in Australia — 10 products
 - **Meta:** Bike phone holder: shop 10 products from $38 to $239 across 5 brands. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Shop now. (143)
-- **Supporting (LSI):** phone holder for bikes, bike phone mount, quad lock handlebar mount, quadlock handlebar mount, phone holder cycling, mtb phone mount, bicycle phone mount holder, quad lock fork stem mount, bike handlebar mount, quad lock desk mount, mountain bike phone mount, quad lock case jb hi fi; quad lock for bike; ebike mirrors; bike mount for phone; bike mounts for phones; bike quad lock; bike phone mount holder; phone holder handlebar; bike phone mounts; mount phone to bike; phone mount for a bike; phone mount on bike; bike mount for cell phone; ebike mirror; quad lock bike phone mount
+- **Supporting (LSI):** phone holder for bikes; bike phone mount; quadlock handlebar mount; phone holder cycling; mtb phone mount; bicycle phone mount holder; quad lock fork stem mount; bike handlebar mount; quad lock desk mount; mountain bike phone mount; quad lock case jb hi fi; ebike mirrors; bike mount for phone; bike mounts for phones; bike phone mount holder; phone holder handlebar; bike phone mounts; mount phone to bike; phone mount for a bike; phone mount on bike; bike mount for cell phone; ebike mirror
 - **Image alt:** bike phone holder — Phone Mounts, Mirrors & Audio range at Torque E-Bikes
 
 ### Controls, Grips & Pedals — `/shop/controls-grips-and-pedals/`
 - **Primary:** bike pedals (1,600/KD 10)
-- **Secondary:** throttle bikes electric (1,300/KD 10); mtb grips (1,300/KD 11); pedal ebike (1,000/KD 8); bike grips (1,000/KD 8); ebike throttle (880/KD 6); mtb pedals (1,000/KD 14); mountain bike grips (880/KD 12); pedal of bike (880/KD 14); pedals bike (590/KD 14); bike pedal (480/KD 15); pedal for bikes (210/KD 12); pedals for bike (210/KD 12); flat bike pedals (210/KD 20); throttle ebike (210/KD 9); ebike thumb throttle (90/KD 7); ebike grips (90/KD 8)
+- **Secondary:** throttle bikes electric (1,300/KD 10); mtb grips (1,300/KD 11); pedal ebike (1,000/KD 8); bike grips (1,000/KD 8); ebike throttle (880/KD 6); mtb pedals (1,000/KD 14); mountain bike grips (880/KD 12); pedal of bike (880/KD 14); pedals bike (590/KD 14); bike pedal (480/KD 15); pedal for bikes (210/KD 12); pedals for bike (210/KD 12); flat bike pedals (210/KD 20); ebike thumb throttle (90/KD 7); ebike grips (90/KD 8); flat bicycle pedals (260/KD 20)
 - **Title:** Bike Pedals — Buy Online | Torque E-Bikes (41)
 - **H1:** Bike Pedals in Australia — 12 products
 - **Meta:** Bike pedals: shop 12 products from $24 to $119 across 7 brands. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Shop now. (152)
-- **Supporting (LSI):** bike pedals mountain bike, electric bike with throttle, mountain bike pedals, pedal for a bike, pedal cycle, mtb bike pedals, flat bicycle pedals, flat cycle pedals, bicycle handlebar grips, handlebar grips for bicycle, mtb flat pedals, mountain bike flat pedals; e bike pedals; e-bike pedal; throttle ebikes; e bike pedal; crank brothers bike pedals; ebike controls; thumb throttle ebike; full twist throttle ebike; throttle for ebike; crankbrothers australia
+- **Supporting (LSI):** bike pedals mountain bike; electric bike with throttle; mountain bike pedals; pedal cycle; mtb bike pedals; flat cycle pedals; bicycle handlebar grips; handlebar grips for bicycle; mtb flat pedals; mountain bike flat pedals; e bike pedals; e-bike pedal; throttle ebikes; e bike pedal; thumb throttle ebike; full twist throttle ebike; throttle for ebike
 - **Image alt:** bike pedals — Controls, Grips & Pedals range at Torque E-Bikes
 
 ### Care, Tools & Hydration — `/shop/care-tools-and-hydration/`
@@ -233,11 +233,11 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Locks & Security — `/shop/locks-and-security/`
 - **Primary:** bike lock (6,600/KD 15)
-- **Secondary:** cycle bike locks (1,600/KD 17); cycle chain lock (320/KD 10); bike lock chain (320/KD 11); folding bike lock (320/KD 12); bike locks australia (90/KD 6); e bike locks australia (50/KD 4); dirt bike lock (70/KD 9); alarmed bike lock (50/KD 13); bike locks (1,300/KD 19); bike cycle lock (390/KD 9); lock for the bike (390/KD 9); collapsible bike lock (260/KD 9); foldable bike lock (210/KD 13); lock alarm bike (210/KD 15); bike lock with alarm (170/KD 14); bike lock and key (110/KD 7)
+- **Secondary:** cycle bike locks (1,600/KD 17); cycle chain lock (320/KD 10); bike lock chain (320/KD 11); folding bike lock (320/KD 12); bike locks australia (90/KD 6); e bike locks australia (50/KD 4); dirt bike lock (70/KD 9); alarmed bike lock (50/KD 13); bike locks (1,300/KD 19); bike cycle lock (390/KD 9); collapsible bike lock (260/KD 9); foldable bike lock (210/KD 13); bike lock and key (110/KD 7); bike lock for folding bike (320/KD 11); on guard bike lock (110/KD 17); bike alarm lock (90/KD 4)
 - **Title:** Bike Locks — Buy Online | Torque E-Bikes (40)
 - **H1:** Bike Locks in Australia — 4 products
 - **Meta:** Bike lock: shop 4 products from $39 to $109 across 4 brands. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Shop now. (149)
-- **Supporting (LSI):** bike lock for folding bike, abus folding lock, chain lock for bikes, bike locks and chains, bike lock with chain, sur ron gps tracker, best bike lock, best bike locks australia, best ebike lock, best bike lock for electric bike; best rated bike lock; locks bikes; best bike lock australia; lock bike; lock for bike; on guard bike lock; great bike locks; bike alarm lock; bike lock key; better bike lock; good locks for bikes; kovix australia; mastiff australia; onguard australia
+- **Supporting (LSI):** abus folding lock; chain lock for bikes; bike locks and chains; bike lock with chain; sur ron gps tracker; best bike lock; best bike locks australia; best ebike lock; best bike lock for electric bike; best rated bike lock; best bike lock australia; great bike locks; better bike lock; good locks for bikes
 - **Image alt:** bike lock — Locks & Security range at Torque E-Bikes
 
 ### Sur-Ron Spares — `/shop/sur-ron-spares/`
@@ -246,7 +246,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Title:** Sur-Ron Seats — Buy Online | Torque E-Bikes (43)
 - **H1:** Sur-Ron Seats in Australia — 9 products
 - **Meta:** Sur-Ron seat: shop 9 products from $4 to $3,779 across 2 brands. Dirt bikes are off-road and private property use only. Ask the team on WhatsApp. Shop now. (155)
-- **Supporting (LSI):** surron battery, surron parts, surron pegs, sur ron upgrades, sur ron grips, surron tyres, surron brake pads, sur ron batteries, surron throttle for fatboy, 72v sur ron battery, surron parts australia, sur ron light bee charger
+- **Supporting (LSI):** surron pegs; sur ron grips; surron brake pads; surron throttle for fatboy; 72v sur ron battery; sur ron light bee charger
 - **Image alt:** surron seat — Sur-Ron Spares range at Torque E-Bikes
 
 ### Brakes — `/shop/brakes/`
@@ -255,7 +255,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Title:** Bike Brake Pads — Buy Online | Torque E-Bikes (45)
 - **H1:** Bike Brake Pads in Australia — 19 products
 - **Meta:** Bike brake pads: shop 19 products from $23 to $409 across 6 brands. Shipped Australia-wide from Brisbane. Pay by bank transfer, PayID or crypto. Shop now. (154)
-- **Supporting (LSI):** mountain bike brake pads, mountain bike disc brakes, bike disc brake pads, mtb hydraulic brake set, mountain bike hydraulic brakes, cycle disc brake pads, brake pads for cycle, mtb hydraulic brakes, mtb disc brakes, brake pads for bikes, brake pads cycling, surron brakes
+- **Supporting (LSI):** mountain bike brake pads; mountain bike disc brakes; bike disc brake pads; mtb hydraulic brake set; mountain bike hydraulic brakes; cycle disc brake pads; brake pads for cycle; mtb hydraulic brakes; mtb disc brakes; brake pads for bikes; brake pads cycling
 - **Image alt:** bike brake pads — Brakes range at Torque E-Bikes
 
 ## Local page (conditional) (1)
@@ -266,7 +266,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Title:** Electric Bikes Brisbane — Brisbane | Torque E-Bikes (51)
 - **H1:** 
 - **Meta:**  (0)
-- **Supporting (LSI):** electric bikes in brisbane, f1 ebikes brisbane
+- **Supporting (LSI):** 
 - **Notes:** Only build this if Torque has a real customer-facing Brisbane location or pickup. The contact page shows "Brisbane City, QLD 4000" only. Local keywords: 9
 
 ## Brand hubs (64)
@@ -863,7 +863,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Sur-Ron Ultra Bee — `/shop/electric-dirt-bikes/sur-ron-ultra-bee/`
 - **Primary:** surron ultra bee (6,600/KD 7)
-- **Secondary:** surron ultra bee electric dirt bike (390/KD 9); surron ultra bee top speed (390/KD 19); surron ultra bee for sale (70/KD 5); ultra b surron (140/KD 18)
+- **Secondary:** surron ultra bee top speed (390/KD 19); surron ultra bee for sale (70/KD 5); ultra b surron (140/KD 18); sur ron ultra bee price australia [generated] (–/KD –)
 - **Title:** Sur-Ron Ultra Bee — Buy in Australia | Torque E-Bikes (53)
 - **H1:** Sur-Ron Ultra Bee — shipped Australia-wide
 - **Meta:** Sur-Ron Ultra Bee: electric dirt bike from $9,969 at Torque E-Bikes. Dirt bikes are off-road and private property use only. Order now. (134)
@@ -1503,7 +1503,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Cube Stereo Hybrid 160 — `/shop/electric-mountain-bikes/cube-stereo-hybrid-160/`
 - **Primary:** cube stereo (170/KD 12)
-- **Secondary:** cube stereo hybrid (70/KD 8); buy cube stereo hybrid 160 [generated] (–/KD –); cube stereo hybrid 160 for sale [generated] (–/KD –); cube stereo hybrid 160 review [generated] (–/KD –)
+- **Secondary:** buy cube stereo hybrid 160 [generated] (–/KD –); cube stereo hybrid 160 for sale [generated] (–/KD –); cube stereo hybrid 160 review [generated] (–/KD –); cube stereo hybrid 160 price australia [generated] (–/KD –)
 - **Title:** Cube Stereo Hybrid 160 — Buy in Australia | Torque E-Bikes (58)
 - **H1:** Cube Stereo Hybrid 160 — shipped Australia-wide
 - **Meta:** Cube Stereo Hybrid 160: electric mountain bike from $9,214 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (152)
@@ -1822,16 +1822,16 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** DYU A5 Smart Electric Bike — folding e-bikes side view
 
 ### Bolzzen Bandit — `/shop/fat-tyre-and-scrambler-e-bikes/bolzzen-bandit/`
-- **Primary:** bolzzen bandit (170/KD 6)
-- **Secondary:** bolzzen bandit e bike (50/KD 4); buy bolzzen bandit [generated] (–/KD –); bolzzen bandit for sale [generated] (–/KD –); bolzzen bandit review [generated] (–/KD –)
+- **Primary:** bolzzen bandit e bike (50/KD 4)
+- **Secondary:** buy bolzzen bandit [generated] (–/KD –); bolzzen bandit for sale [generated] (–/KD –); bolzzen bandit review [generated] (–/KD –); bolzzen bandit price australia [generated] (–/KD –)
 - **Title:** Bolzzen Bandit — Buy in Australia | Torque E-Bikes (50)
 - **H1:** Bolzzen Bandit — shipped Australia-wide
 - **Meta:** Bolzzen Bandit: fat-tyre & scrambler e-bike from $2,369 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (149)
 - **Image alt:** Bolzzen Bandit — fat-tyre & scrambler e-bikes side view
 
 ### Pacific Bike Trailer — `/shop/racks-bags-and-trailers/pacific-bike-trailer/`
-- **Primary:** pacific bike trailer (170/KD 5)
-- **Secondary:** buy pacific bike trailer [generated] (–/KD –); pacific bike trailer for sale [generated] (–/KD –); pacific bike trailer review [generated] (–/KD –); pacific bike trailer online [generated] (–/KD –)
+- **Primary:** buy pacific bike trailer [generated] (–/KD –)
+- **Secondary:** pacific bike trailer for sale [generated] (–/KD –); pacific bike trailer review [generated] (–/KD –); pacific bike trailer online [generated] (–/KD –); pacific bike trailer price australia [generated] (–/KD –)
 - **Title:** Pacific Bike Trailer — Buy in Australia | Torque E-Bikes (56)
 - **H1:** Pacific Bike Trailer — shipped Australia-wide
 - **Meta:** Pacific Bike Trailer: racks, bags & trailer from $279 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (147)
@@ -2302,8 +2302,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Fatboy The Bagus V2 E-Bike — fat-tyre & scrambler e-bikes side view
 
 ### Fatboy Harlem V2 E-Bike — `/shop/fat-tyre-and-scrambler-e-bikes/fatboy-harlem-v2-e-bike/`
-- **Primary:** fatboy harlem v2 (170/KD 14)
-- **Secondary:** fatboy v2 (110/KD 23); buy fatboy harlem v2 e-bike [generated] (–/KD –); fatboy harlem v2 e-bike for sale [generated] (–/KD –); fatboy harlem v2 e-bike review [generated] (–/KD –)
+- **Primary:** fatboy v2 (110/KD 23)
+- **Secondary:** buy fatboy harlem v2 e-bike [generated] (–/KD –); fatboy harlem v2 e-bike for sale [generated] (–/KD –); fatboy harlem v2 e-bike review [generated] (–/KD –); fatboy harlem v2 e bike price australia [generated] (–/KD –)
 - **Title:** Fatboy Harlem V2 E-Bike — Buy in Australia | Torque E-Bikes (59)
 - **H1:** Fatboy Harlem V2 E-Bike — shipped Australia-wide
 - **Meta:** Fatboy Harlem V2 E-Bike: fat-tyre & scrambler e-bike from $3,039 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (132)
@@ -2390,8 +2390,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Abus Macator Helmet — helmets, gloves & protection side view
 
 ### OnGuard Chain Lock — `/shop/locks-and-security/onguard-chain-lock/`
-- **Primary:** onguard bike lock (210/KD 9)
-- **Secondary:** buy onguard chain lock [generated] (–/KD –); onguard chain lock for sale [generated] (–/KD –); onguard chain lock review [generated] (–/KD –); onguard chain lock online [generated] (–/KD –)
+- **Primary:** buy onguard chain lock [generated] (–/KD –)
+- **Secondary:** onguard chain lock for sale [generated] (–/KD –); onguard chain lock review [generated] (–/KD –); onguard chain lock online [generated] (–/KD –); onguard chain lock price australia [generated] (–/KD –)
 - **Title:** OnGuard Chain Lock — Buy in Australia | Torque E-Bikes (54)
 - **H1:** OnGuard Chain Lock — shipped Australia-wide
 - **Meta:** OnGuard Chain Lock: locks & security from $39 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Order now. (154)
@@ -2486,8 +2486,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Pilot Water Bottle — care, tools & hydration side view
 
 ### Flight Risk FR777 — `/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr777/`
-- **Primary:** flight risk fr777 (110/KD 29)
-- **Secondary:** buy flight risk fr777 [generated] (–/KD –); flight risk fr777 for sale [generated] (–/KD –); flight risk fr777 review [generated] (–/KD –); flight risk fr777 online [generated] (–/KD –)
+- **Primary:** buy flight risk fr777 [generated] (–/KD –)
+- **Secondary:** flight risk fr777 for sale [generated] (–/KD –); flight risk fr777 review [generated] (–/KD –); flight risk fr777 online [generated] (–/KD –); flight risk fr777 price australia [generated] (–/KD –)
 - **Title:** Flight Risk FR777 — Buy in Australia | Torque E-Bikes (53)
 - **H1:** Flight Risk FR777 — shipped Australia-wide
 - **Meta:** Flight Risk FR777: fat-tyre & scrambler e-bike from $4,849 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (152)
@@ -2503,7 +2503,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Amflow PX Carbon — `/shop/electric-mountain-bikes/amflow-px-carbon/`
 - **Primary:** amflow px (210/KD 17)
-- **Secondary:** amflow px carbon (170/KD 22); buy amflow px carbon [generated] (–/KD –); amflow px carbon for sale [generated] (–/KD –); amflow px carbon review [generated] (–/KD –)
+- **Secondary:** buy amflow px carbon [generated] (–/KD –); amflow px carbon for sale [generated] (–/KD –); amflow px carbon review [generated] (–/KD –); amflow px carbon price australia [generated] (–/KD –)
 - **Title:** Amflow PX Carbon — Buy in Australia | Torque E-Bikes (52)
 - **H1:** Amflow PX Carbon — shipped Australia-wide
 - **Meta:** Amflow PX Carbon: electric mountain bike from $9,359 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (146)
@@ -2583,7 +2583,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Sur-Ron Hyper Bee 2026 — `/shop/electric-dirt-bikes/sur-ron-hyper-bee-2026/`
 - **Primary:** surron hyper bee (1,900/KD 8)
-- **Secondary:** surron hyper bee electric dirt bike (170/KD 6); surron hyper bee top speed (260/KD 13); buy sur-ron hyper bee 2026 [generated] (–/KD –); sur-ron hyper bee 2026 for sale [generated] (–/KD –)
+- **Secondary:** surron hyper bee top speed (260/KD 13); buy sur-ron hyper bee 2026 [generated] (–/KD –); sur-ron hyper bee 2026 for sale [generated] (–/KD –); sur ron hyper bee 2026 price australia [generated] (–/KD –)
 - **Title:** Sur-Ron Hyper Bee 2026 — Buy in Australia | Torque E-Bikes (58)
 - **H1:** Sur-Ron Hyper Bee 2026 — shipped Australia-wide
 - **Meta:** Sur-Ron Hyper Bee 2026: electric dirt bike from $3,699 at Torque E-Bikes. Dirt bikes are off-road and private property use only. Order now. (139)
@@ -3238,8 +3238,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** ACE-X Demon S5 Dual Electric Bike — fat-tyre & scrambler e-bikes side view
 
 ### DiroDi Rover Plus Gen 6 E-Bike — `/shop/fat-tyre-and-scrambler-e-bikes/dirodi-rover-plus-gen-6-e-bike/`
-- **Primary:** dirodi rover plus (170/KD 18)
-- **Secondary:** buy dirodi rover plus gen 6 e-bike [generated] (–/KD –); dirodi rover plus gen 6 e-bike for sale [generated] (–/KD –); dirodi rover plus gen 6 e-bike review [generated] (–/KD –); dirodi rover plus gen 6 e-bike online [generated] (–/KD –)
+- **Primary:** buy dirodi rover plus gen 6 e-bike [generated] (–/KD –)
+- **Secondary:** dirodi rover plus gen 6 e-bike for sale [generated] (–/KD –); dirodi rover plus gen 6 e-bike review [generated] (–/KD –); dirodi rover plus gen 6 e-bike online [generated] (–/KD –); dirodi rover plus gen 6 e bike price australia [generated] (–/KD –)
 - **Title:** DiroDi Rover Plus Gen 6 E-Bike — Buy Online | Torque E-Bikes (60)
 - **H1:** DiroDi Rover Plus Gen 6 E-Bike — shipped Australia-wide
 - **Meta:** DiroDi Rover Plus Gen 6 E-Bike: fat-tyre & scrambler e-bike from $2,359 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (139)
@@ -4206,8 +4206,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Kristall EX200 E-Trike — cargo bikes & e-trikes side view
 
 ### Livall BH60SE Smart Helmet — `/shop/helmets-gloves-and-protection/livall-bh60se-smart-helmet/`
-- **Primary:** livall helmet (90/KD 17)
-- **Secondary:** buy livall bh60se smart helmet [generated] (–/KD –); livall bh60se smart helmet for sale [generated] (–/KD –); livall bh60se smart helmet review [generated] (–/KD –); livall bh60se smart helmet online [generated] (–/KD –)
+- **Primary:** buy livall bh60se smart helmet [generated] (–/KD –)
+- **Secondary:** livall bh60se smart helmet for sale [generated] (–/KD –); livall bh60se smart helmet review [generated] (–/KD –); livall bh60se smart helmet online [generated] (–/KD –); livall bh60se smart helmet price australia [generated] (–/KD –)
 - **Title:** Livall BH60SE Smart Helmet — Buy Online | Torque E-Bikes (56)
 - **H1:** Livall BH60SE Smart Helmet — shipped Australia-wide
 - **Meta:** Livall BH60SE Smart Helmet: helmets, gloves & protection from $169 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (134)
@@ -4574,8 +4574,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Kona Dew HD — commuter & urban e-bikes side view
 
 ### Aventon Abound LR — `/shop/cargo-bikes-and-e-trikes/aventon-abound-lr/`
-- **Primary:** aventon abound lr (210/KD 28)
-- **Secondary:** aventon abound (170/KD 21); buy aventon abound lr [generated] (–/KD –); aventon abound lr for sale [generated] (–/KD –); aventon abound lr review [generated] (–/KD –)
+- **Primary:** aventon abound (170/KD 21)
+- **Secondary:** buy aventon abound lr [generated] (–/KD –); aventon abound lr for sale [generated] (–/KD –); aventon abound lr review [generated] (–/KD –); aventon abound lr price australia [generated] (–/KD –)
 - **Title:** Aventon Abound LR — Buy in Australia | Torque E-Bikes (53)
 - **H1:** Aventon Abound LR — shipped Australia-wide
 - **Meta:** Aventon Abound LR: cargo bikes & e-trike from $3,299 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (146)
