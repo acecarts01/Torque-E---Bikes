@@ -125,7 +125,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Helmets, Gloves & Protection — `/shop/helmets-gloves-and-protection/`
 - **Primary:** bike helmet (8,100/KD 6)
-- **Secondary:** bike cycle helmets (6,600/KD 23); helmet youth bike (3,600/KD 6); mtb helmet (2,400/KD 8); helmet for cycle (2,400/KD 18); mountain bike helmet (1,600/KD 5); bike gloves (1,300/KD 9); gloves for bicycle (1,300/KD 10); bicycle helmet road (1,300/KD 15)
+- **Secondary:** bike cycle helmets (6,600/KD 23); helmet youth bike (3,600/KD 6); mtb helmet (2,400/KD 8); helmet for cycle (2,400/KD 18); mountain bike helmet (1,600/KD 5); bike gloves (1,300/KD 9); gloves for bicycle (1,300/KD 10); bicycle helmet road (1,300/KD 15); mx helmets australia (70/KD 10); dirt bike protective gear (40/KD 9); livall australia (20/KD 4)
 - **Title:** Bike Helmets — Buy Online | Torque E-Bikes (42)
 - **H1:** Bike Helmets in Australia — 14 products
 - **Meta:** Bike helmet: shop 14 products from $37 to $279 across 7 brands. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Shop now. (152)
