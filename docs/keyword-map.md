@@ -143,11 +143,11 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Batteries, Chargers & Electronics — `/shop/batteries-chargers-and-electronics/`
 - **Primary:** ebike battery (1,600/KD 6)
-- **Secondary:** battery for a ebike (1,300/KD 6); electric bicycle charger (480/KD 6); ebike controller (320/KD 6); e-bike battery chargers (260/KD 3); e bike battery replacement (210/KD 7); electric battery for bicycle (140/KD 6); mamba ebike charger (20/KD 0); battery for an electric bike (260/KD 14)
+- **Secondary:** battery for a ebike (1,300/KD 6); electric bicycle charger (480/KD 6); ebike controller (320/KD 6); e-bike battery chargers (260/KD 3); e bike battery replacement (210/KD 7); electric battery for bicycle (140/KD 6); mamba ebike charger (20/KD 0); battery for an electric bike (260/KD 14); ebike charger (480/KD 8); ebike battery charger (210/KD 3); battery ebike (140/KD 9); battery charger ebike (110/KD 4); battery for ebike (110/KD 4); ebike batteries (90/KD 7); charger for ebike (90/KD 6); controller ebike (90/KD 7)
 - **Title:** E-Bike Batteries — Buy Online | Torque E-Bikes (46)
 - **H1:** E-Bike Batteries in Australia — 13 products
 - **Meta:** E-bike battery: shop 13 products from $24 to $1,799 across 5 brands. Shipped Australia-wide from Brisbane. Pay by bank transfer, PayID or crypto. Shop now. (155)
-- **Supporting (LSI):** battery for electric bicycle, battery for bicycle, replacement battery for ebike, 60v ebike battery, kalkhoff electric bike battery, kalkhoff electric bike battery replacement, kalkhoff electric bike charger, kristall ebike battery, battery for a razor dirt bike, battery for razor electric dirt bike, smart motion ebike battery, surron power cable
+- **Supporting (LSI):** battery for electric bicycle, battery for bicycle, replacement battery for ebike, 60v ebike battery, kalkhoff electric bike battery, kalkhoff electric bike battery replacement, kalkhoff electric bike charger, kristall ebike battery, battery for a razor dirt bike, battery for razor electric dirt bike, smart motion ebike battery, surron power cable; charger of ebike; e bike batteries australia; ebike batteries australia
 - **Image alt:** ebike battery — Batteries, Chargers & Electronics range at Torque E-Bikes
 
 ### Cargo Bikes & E-Trikes — `/shop/cargo-bikes-and-e-trikes/`
