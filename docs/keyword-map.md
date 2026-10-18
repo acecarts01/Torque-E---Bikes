@@ -242,7 +242,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Sur-Ron Spares — `/shop/sur-ron-spares/`
 - **Primary:** surron seat (880/KD 6)
-- **Secondary:** surron forks (260/KD 6); surron throttle for conversion kit (140/KD 2); sur ron seat cover (90/KD 3); surron controller (170/KD 8); 60 volt surron battery (20/KD 0); 72v 55ah surron battery (20/KD 0); carbon surron battery cover (20/KD 0); surron seat for mtb (90/KD 5)
+- **Secondary:** surron forks (260/KD 6); surron throttle for conversion kit (140/KD 2); sur ron seat cover (90/KD 3); surron controller (170/KD 8); 60 volt surron battery (20/KD 0); 72v 55ah surron battery (20/KD 0); carbon surron battery cover (20/KD 0); surron seat for mtb (90/KD 5); sur ron parts (50/KD 3); sur ron parts australia (50/KD 5); sur ron light bee parts (20/KD 1); sur ron upgrade parts (20/KD 5)
 - **Title:** Sur-Ron Seats — Buy Online | Torque E-Bikes (43)
 - **H1:** Sur-Ron Seats in Australia — 9 products
 - **Meta:** Sur-Ron seat: shop 9 products from $4 to $3,779 across 2 brands. Dirt bikes are off-road and private property use only. Ask the team on WhatsApp. Shop now. (155)
