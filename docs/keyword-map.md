@@ -106,11 +106,11 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Kids & Youth E-Bikes — `/shop/kids-and-youth-e-bikes/`
 - **Primary:** boy electric bike for 10 year old (260/KD 20)
-- **Secondary:** youth electric bike (70/KD 12); youth electric (90/KD 15); ebike for teenager (70/KD 17); e bike teenager (50/KD 27); buy boy electric bike for 10 year old [generated] (–/KD –)
+- **Secondary:** youth electric bike (70/KD 12); youth electric (90/KD 15); ebike for teenager (70/KD 17); e bike teenager (50/KD 27); buy boy electric bike for 10 year old [generated] (–/KD –); electric bike kids (590/KD 23); electric kids bike (480/KD 10); best electric bike for 10 year old (210/KD 17); kids electric bikes (170/KD 6); electric bikes for kids (110/KD 9); woom australia (70/KD 9); electric kids bikes (50/KD 14); best kids electric bike (50/KD 6)
 - **Title:** Boy Electric Bike for 10 Year Olds | Torque E-Bikes (51)
 - **H1:** Boy Electric Bike for 10 Year Olds in Australia — 11 products
 - **Meta:** Boy electric bike for 10 year old: shop 11 products from $949 to $4,399 across 7 brands. Shipped Australia-wide from Brisbane. Shop now. (136)
-- **Supporting (LSI):** none
+- **Supporting (LSI):** none; best electric bikes for 10 year olds; electric bike for teenager
 - **Image alt:** boy electric bike for 10 year old — Kids & Youth E-Bikes range at Torque E-Bikes
 - **Notes:** 1 generated to reach the floor. 
 
