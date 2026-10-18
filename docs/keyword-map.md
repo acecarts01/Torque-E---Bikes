@@ -77,11 +77,11 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Commuter & Urban E-Bikes — `/shop/commuter-and-urban-e-bikes/`
 - **Primary:** cruiser ebike (590/KD 5)
-- **Secondary:** commuter e-bike (590/KD 6); e-bike commuting (480/KD 7); ebike trekking (480/KD 8); step through ebike (390/KD 6); hybrid electric bike (390/KD 9); bicycle hybrid electric (320/KD 9); urban ebike (110/KD 5); retro bike electric (140/KD 8)
+- **Secondary:** commuter e-bike (590/KD 6); e-bike commuting (480/KD 7); ebike trekking (480/KD 8); step through ebike (390/KD 6); hybrid electric bike (390/KD 9); bicycle hybrid electric (320/KD 9); urban ebike (110/KD 5); retro bike electric (140/KD 8); best e bikes australia (880/KD 8); electric bike for commuters (590/KD 7); electric commuter bikes (480/KD 17); step through electric bike (390/KD 9); best e bike australia (390/KD 10); electric hybrid bikes (260/KD 10); commuter electric bike (210/KD 11); step through electric bikes (170/KD 6)
 - **Title:** Cruiser E-Bikes — Buy Online | Torque E-Bikes (45)
 - **H1:** Cruiser E-Bikes in Australia — 77 products
 - **Meta:** Cruiser ebike: shop 77 products from $849 to $16,379 across 22 brands. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Shop now. (144)
-- **Supporting (LSI):** ebikes city, e bikes for commuting, e bike retro, cruiser e bikes australia, step through e bikes australia, commuter ebike australia, urban bike electric, e bike touring, estate city e bike price, urban cruiser electric bike, urban commuter electric bike, commuter e bikes for sale
+- **Supporting (LSI):** ebikes city, e bikes for commuting, e bike retro, cruiser e bikes australia, step through e bikes australia, commuter ebike australia, urban bike electric, e bike touring, estate city e bike price, urban cruiser electric bike, urban commuter electric bike, commuter e bikes for sale; velectrix electric bike; electric hybrid bike; cheap e bikes australia; best e-bike australia; gazelle electric bike; electric bike commuter; electric city bike; e bike price in australia; electric step through bike; best e bikes under $2000 australia; electric bike step through; e bike australia under $1000; city electric bike; best budget e bike australia; step through electric bike australia; hybrid electric bikes; electric bike hybrid; cheapest e bikes australia; electric city bikes; hybrid bikes electric; australia e-bike; electric commuter bike australia; cheapest e bike australia; electric bike for commuting; gazelle australia; kona electric bike
 - **Image alt:** cruiser ebike — Commuter & Urban E-Bikes range at Torque E-Bikes
 
 ### Road & Gravel E-Bikes — `/shop/road-and-gravel-e-bikes/`
