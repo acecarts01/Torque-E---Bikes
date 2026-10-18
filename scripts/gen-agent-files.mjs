@@ -139,7 +139,7 @@ No authentication required. All resources are publicly accessible.
 {
   "agent_auth": {
     "register_uri": null,
-    "identity_types_supported": ["anonymous"],
+    "identity_types_supported": ["none"],
     "credential_types_supported": ["none"],
     "notes": "No authentication required. All resources are public."
   }
@@ -192,11 +192,11 @@ Orders are completed by a human via WhatsApp or the order form.`
   },
   {
     path: 'public/.well-known/oauth-protected-resource',
-    content: JSON.stringify({ "resource": `https://${DOMAIN}`, "resource_name": `${SITE.name} Public Catalog`, "authorization_servers": [`https://${DOMAIN}`], "scopes_supported": [], "bearer_methods_supported": [], "resource_documentation": `https://${DOMAIN}/auth.md`, "resource_policy_uri": `https://${DOMAIN}/terms/`, "tls_client_certificate_bound_access_tokens": false, "note": `All resources on ${DOMAIN} are publicly accessible. No OAuth tokens required.` }, null, 2)
+    content: JSON.stringify({ "resource": `https://${DOMAIN}`, "resource_name": `${SITE.name} Public Catalog`, "authorization_servers": [], "scopes_supported": [], "bearer_methods_supported": [], "resource_documentation": `https://${DOMAIN}/auth.md`, "resource_policy_uri": `https://${DOMAIN}/terms/`, "tls_client_certificate_bound_access_tokens": false, "note": `All resources on ${DOMAIN} are publicly accessible. No OAuth tokens required.` }, null, 2)
   },
   {
     path: 'public/.well-known/oauth-authorization-server',
-    content: JSON.stringify({ "issuer": `https://${DOMAIN}`, "authorization_endpoint": null, "token_endpoint": null, "jwks_uri": null, "grant_types_supported": [], "response_types_supported": [], "scopes_supported": [], "note": `${SITE.name} has no protected APIs. All resources publicly accessible.`, "public_resources": [`https://${DOMAIN}/shop/`, `https://${DOMAIN}/blog/`, `https://${DOMAIN}/faq/`, `https://${DOMAIN}/wholesale/`, `https://${DOMAIN}/llms.txt`, `https://${DOMAIN}/.well-known/api-catalog`, `https://${DOMAIN}/.well-known/agent-skills/index.json`, `https://${DOMAIN}/.well-known/mcp/server-card.json`], "agent_auth": { "skill": `https://${DOMAIN}/auth.md`, "register_uri": null, "identity_types_supported": ["anonymous"], "credential_types_supported": ["none"], "notes": "No registration required. All content publicly accessible to agents." } }, null, 2)
+    content: JSON.stringify({ "issuer": `https://${DOMAIN}`, "authorization_endpoint": null, "token_endpoint": null, "jwks_uri": null, "grant_types_supported": [], "response_types_supported": [], "scopes_supported": [], "note": `${SITE.name} has no protected APIs. All resources publicly accessible.`, "public_resources": [`https://${DOMAIN}/shop/`, `https://${DOMAIN}/blog/`, `https://${DOMAIN}/faq/`, `https://${DOMAIN}/wholesale/`, `https://${DOMAIN}/llms.txt`, `https://${DOMAIN}/.well-known/api-catalog`, `https://${DOMAIN}/.well-known/agent-skills/index.json`, `https://${DOMAIN}/.well-known/mcp/server-card.json`], "agent_auth": { "register_uri": null, "identity_types_supported": ["none"], "credential_types_supported": ["none"], "notes": "No registration required. All content publicly accessible to agents." } }, null, 2)
   },
   {
     path: 'public/.well-known/openid-configuration',
