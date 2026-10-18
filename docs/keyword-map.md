@@ -206,11 +206,11 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Phone Mounts, Mirrors & Audio — `/shop/phone-mounts-mirrors-and-audio/`
 - **Primary:** bike phone holder (1,900/KD 16)
-- **Secondary:** phone mount for bike (880/KD 19); mirror on bicycle (590/KD 7); bicycle mirrors (590/KD 9); quad lock phone mount (590/KD 10); quad lock mag ring (590/KD 20); cycling phone mount (590/KD 20); quad lock stem mount (480/KD 23); quadlock mag ring (320/KD 17)
+- **Secondary:** phone mount for bike (880/KD 19); mirror on bicycle (590/KD 7); bicycle mirrors (590/KD 9); quad lock phone mount (590/KD 10); quad lock mag ring (590/KD 20); cycling phone mount (590/KD 20); quad lock stem mount (480/KD 23); quadlock mag ring (320/KD 17); quad lock australia (1,600/KD 24); bike mobile phone mount (390/KD 25); bike cell phone mount (320/KD 19); phone bike mount (260/KD 24); phone mount bike (170/KD 17); phone holder bike mount (140/KD 7); bike mount cell phone (140/KD 24); handlebar phone holder (110/KD 10)
 - **Title:** Bike Phone Holders — Buy Online | Torque E-Bikes (48)
 - **H1:** Bike Phone Holders in Australia — 10 products
 - **Meta:** Bike phone holder: shop 10 products from $38 to $239 across 5 brands. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Shop now. (143)
-- **Supporting (LSI):** phone holder for bikes, bike phone mount, quad lock handlebar mount, quadlock handlebar mount, phone holder cycling, mtb phone mount, bicycle phone mount holder, quad lock fork stem mount, bike handlebar mount, quad lock desk mount, mountain bike phone mount, quad lock case jb hi fi
+- **Supporting (LSI):** phone holder for bikes, bike phone mount, quad lock handlebar mount, quadlock handlebar mount, phone holder cycling, mtb phone mount, bicycle phone mount holder, quad lock fork stem mount, bike handlebar mount, quad lock desk mount, mountain bike phone mount, quad lock case jb hi fi; quad lock for bike; ebike mirrors; bike mount for phone; bike mounts for phones; bike quad lock; bike phone mount holder; phone holder handlebar; bike phone mounts; mount phone to bike; phone mount for a bike; phone mount on bike; bike mount for cell phone; ebike mirror; quad lock bike phone mount
 - **Image alt:** bike phone holder — Phone Mounts, Mirrors & Audio range at Torque E-Bikes
 
 ### Controls, Grips & Pedals — `/shop/controls-grips-and-pedals/`
