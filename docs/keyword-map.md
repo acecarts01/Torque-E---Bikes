@@ -233,11 +233,11 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Locks & Security — `/shop/locks-and-security/`
 - **Primary:** bike lock (6,600/KD 15)
-- **Secondary:** cycle bike locks (1,600/KD 17); cycle chain lock (320/KD 10); bike lock chain (320/KD 11); folding bike lock (320/KD 12); bike locks australia (90/KD 6); e bike locks australia (50/KD 4); dirt bike lock (70/KD 9); alarmed bike lock (50/KD 13)
+- **Secondary:** cycle bike locks (1,600/KD 17); cycle chain lock (320/KD 10); bike lock chain (320/KD 11); folding bike lock (320/KD 12); bike locks australia (90/KD 6); e bike locks australia (50/KD 4); dirt bike lock (70/KD 9); alarmed bike lock (50/KD 13); bike locks (1,300/KD 19); bike cycle lock (390/KD 9); lock for the bike (390/KD 9); collapsible bike lock (260/KD 9); foldable bike lock (210/KD 13); lock alarm bike (210/KD 15); bike lock with alarm (170/KD 14); bike lock and key (110/KD 7)
 - **Title:** Bike Locks — Buy Online | Torque E-Bikes (40)
 - **H1:** Bike Locks in Australia — 4 products
 - **Meta:** Bike lock: shop 4 products from $39 to $109 across 4 brands. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Shop now. (149)
-- **Supporting (LSI):** bike lock for folding bike, abus folding lock, chain lock for bikes, bike locks and chains, bike lock with chain, sur ron gps tracker, best bike lock, best bike locks australia, best ebike lock, best bike lock for electric bike
+- **Supporting (LSI):** bike lock for folding bike, abus folding lock, chain lock for bikes, bike locks and chains, bike lock with chain, sur ron gps tracker, best bike lock, best bike locks australia, best ebike lock, best bike lock for electric bike; best rated bike lock; locks bikes; best bike lock australia; lock bike; lock for bike; on guard bike lock; great bike locks; bike alarm lock; bike lock key; better bike lock; good locks for bikes; kovix australia; mastiff australia; onguard australia
 - **Image alt:** bike lock — Locks & Security range at Torque E-Bikes
 
 ### Sur-Ron Spares — `/shop/sur-ron-spares/`
