@@ -224,7 +224,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Care, Tools & Hydration — `/shop/care-tools-and-hydration/`
 - **Primary:** cycling water bottle (590/KD 10)
-- **Secondary:** bike water bottle (480/KD 11); bike degreaser (480/KD 12); cycle degreaser (210/KD 14); mtb water bottle (90/KD 10); water bottle cycle (90/KD 10); degreaser for bike (50/KD 12)
+- **Secondary:** bike water bottle (480/KD 11); bike degreaser (480/KD 12); cycle degreaser (210/KD 14); mtb water bottle (90/KD 10); water bottle cycle (90/KD 10); degreaser for bike (50/KD 12); ebike tools (20/KD 6)
 - **Title:** Cycling Water Bottles — Buy Online | Torque E-Bikes (51)
 - **H1:** Cycling Water Bottles in Australia — 5 products
 - **Meta:** Cycling water bottle: shop 5 products from $14 to $33 across 4 brands. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Shop now. (144)
