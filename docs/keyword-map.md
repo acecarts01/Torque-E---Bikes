@@ -215,11 +215,11 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Controls, Grips & Pedals — `/shop/controls-grips-and-pedals/`
 - **Primary:** bike pedals (1,600/KD 10)
-- **Secondary:** throttle bikes electric (1,300/KD 10); mtb grips (1,300/KD 11); pedal ebike (1,000/KD 8); bike grips (1,000/KD 8); ebike throttle (880/KD 6); mtb pedals (1,000/KD 14); mountain bike grips (880/KD 12); pedal of bike (880/KD 14)
+- **Secondary:** throttle bikes electric (1,300/KD 10); mtb grips (1,300/KD 11); pedal ebike (1,000/KD 8); bike grips (1,000/KD 8); ebike throttle (880/KD 6); mtb pedals (1,000/KD 14); mountain bike grips (880/KD 12); pedal of bike (880/KD 14); pedals bike (590/KD 14); bike pedal (480/KD 15); pedal for bikes (210/KD 12); pedals for bike (210/KD 12); flat bike pedals (210/KD 20); throttle ebike (210/KD 9); ebike thumb throttle (90/KD 7); ebike grips (90/KD 8)
 - **Title:** Bike Pedals — Buy Online | Torque E-Bikes (41)
 - **H1:** Bike Pedals in Australia — 12 products
 - **Meta:** Bike pedals: shop 12 products from $24 to $119 across 7 brands. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Shop now. (152)
-- **Supporting (LSI):** bike pedals mountain bike, electric bike with throttle, mountain bike pedals, pedal for a bike, pedal cycle, mtb bike pedals, flat bicycle pedals, flat cycle pedals, bicycle handlebar grips, handlebar grips for bicycle, mtb flat pedals, mountain bike flat pedals
+- **Supporting (LSI):** bike pedals mountain bike, electric bike with throttle, mountain bike pedals, pedal for a bike, pedal cycle, mtb bike pedals, flat bicycle pedals, flat cycle pedals, bicycle handlebar grips, handlebar grips for bicycle, mtb flat pedals, mountain bike flat pedals; e bike pedals; e-bike pedal; throttle ebikes; e bike pedal; crank brothers bike pedals; ebike controls; thumb throttle ebike; full twist throttle ebike; throttle for ebike; crankbrothers australia
 - **Image alt:** bike pedals — Controls, Grips & Pedals range at Torque E-Bikes
 
 ### Care, Tools & Hydration — `/shop/care-tools-and-hydration/`
