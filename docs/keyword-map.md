@@ -134,11 +134,11 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Seats, Fenders & Body — `/shop/seats-fenders-and-body/`
 - **Primary:** bike seat (1,900/KD 11)
-- **Secondary:** bike saddle (720/KD 10); cycling bike seat (1,000/KD 28); bike seat for kids (480/KD 6); bicycle kickstand (480/KD 9); mountain bike seat (480/KD 12); cycle saddle cover (480/KD 13); saddle bike seat (390/KD 8); bicycle seat cover (390/KD 9)
+- **Secondary:** bike saddle (720/KD 10); cycling bike seat (1,000/KD 28); bike seat for kids (480/KD 6); bicycle kickstand (480/KD 9); mountain bike seat (480/KD 12); cycle saddle cover (480/KD 13); saddle bike seat (390/KD 8); bicycle seat cover (390/KD 9); ebike seat (210/KD 7); dirt bike plastics (170/KD 12); plastics for dirt bikes (90/KD 6)
 - **Title:** Bike Seats — Buy Online | Torque E-Bikes (40)
 - **H1:** Bike Seats in Australia — 23 products
 - **Meta:** Bike seat: shop 23 products from $14 to $139 across 7 brands. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Shop now. (150)
-- **Supporting (LSI):** mtb saddle, thule bike seat, saddle bike seat cover, bicycle saddle cover, cycle fender, mtb bike saddles, bicycle fenders, mountain bike saddle, mtb bike seat, cycle saddle, road bicycle saddles, bike seat road
+- **Supporting (LSI):** mtb saddle, thule bike seat, saddle bike seat cover, bicycle saddle cover, cycle fender, mtb bike saddles, bicycle fenders, mountain bike saddle, mtb bike seat, cycle saddle, road bicycle saddles, bike seat road; dirt bike plastics and graphics
 - **Image alt:** bike seat — Seats, Fenders & Body range at Torque E-Bikes
 
 ### Batteries, Chargers & Electronics — `/shop/batteries-chargers-and-electronics/`
