@@ -86,11 +86,11 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Road & Gravel E-Bikes — `/shop/road-and-gravel-e-bikes/`
 - **Primary:** road ebike (320/KD 6)
-- **Secondary:** electric road motorbike (170/KD 17); electric motorcycle road legal (90/KD 19); buy road ebike [generated] (–/KD –); road ebike for sale [generated] (–/KD –); road ebike price [generated] (–/KD –)
+- **Secondary:** electric road motorbike (170/KD 17); electric motorcycle road legal (90/KD 19); buy road ebike [generated] (–/KD –); road ebike for sale [generated] (–/KD –); road ebike price [generated] (–/KD –); electric road bike (880/KD 15); electric gravel bike (320/KD 16); electric road bikes (320/KD 17); road e bikes (210/KD 10); e road bike (210/KD 12); electric road bike australia (170/KD 8); road e bike (170/KD 15); electric road bikes australia (110/KD 9)
 - **Title:** Road E-Bikes — Buy Online | Torque E-Bikes (42)
 - **H1:** Road E-Bikes in Australia — 7 products
 - **Meta:** Road ebike: shop 7 products from $3,999 to $12,809 across 4 brands. Shipped Australia-wide from Brisbane. Pay by bank transfer, PayID or crypto. Shop now. (154)
-- **Supporting (LSI):** electric road motorbike australia, electric motorbike road legal
+- **Supporting (LSI):** electric road motorbike australia, electric motorbike road legal; electric gravel bikes australia; electric gravel bikes; e bike road bikes; e gravel bikes australia; road bikes electric; e road bikes; road e-bike; electric gravel bike australia; road bike electric; e bike road; e road bikes australia; gravel electric bike; e gravel bike australia; e-road bike; road electric bikes; gravel e bikes australia; gravel electric bikes; road electric bike; e road bikes for sale; electric bike road; electric road bikes for sale; road e-bikes
 - **Image alt:** road ebike — Road & Gravel E-Bikes range at Torque E-Bikes
 - **Notes:** 3 generated to reach the floor. 
 
