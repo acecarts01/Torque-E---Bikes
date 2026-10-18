@@ -161,7 +161,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Lights & Horns — `/shop/lights-and-horns/`
 - **Primary:** bike lights (3,600/KD 11)
-- **Secondary:** light on bicycle (2,900/KD 12); rear bike light (590/KD 8); bike headlight (480/KD 11); bike horn (390/KD 6); bicycle front light (320/KD 4); rechargeable lights for bicycles (390/KD 10); rear cycle light (320/KD 9); rechargeable bicycle headlight (390/KD 14)
+- **Secondary:** light on bicycle (2,900/KD 12); rear bike light (590/KD 8); bike headlight (480/KD 11); bike horn (390/KD 6); bicycle front light (320/KD 4); rechargeable lights for bicycles (390/KD 10); rear cycle light (320/KD 9); rechargeable bicycle headlight (390/KD 14); ebike headlight (110/KD 7); bike light set (170/KD 10); electric bike horn (50/KD 10); bike light setting (140/KD 17)
 - **Title:** Bike Lights — Buy Online | Torque E-Bikes (41)
 - **H1:** Bike Lights in Australia — 9 products
 - **Meta:** Bike lights: shop 9 products from $26 to $219 across 6 brands. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Shop now. (151)
