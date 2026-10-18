@@ -188,11 +188,11 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Motors, Drivetrain & Sprockets — `/shop/motors-drivetrain-and-sprockets/`
 - **Primary:** ebike conversion kit (6,600/KD 3)
-- **Secondary:** bicycle conversion kit (2,400/KD 5); bike chain (2,400/KD 10); electric bike kit (880/KD 3); electric motor bikes (1,000/KD 17); motorized bike (1,000/KD 22); electric engine for bicycle (880/KD 31); electric bike motor (480/KD 12); mountain bike chain (390/KD 10)
+- **Secondary:** bicycle conversion kit (2,400/KD 5); bike chain (2,400/KD 10); electric bike kit (880/KD 3); electric motor bikes (1,000/KD 17); motorized bike (1,000/KD 22); electric engine for bicycle (880/KD 31); electric bike motor (480/KD 12); mountain bike chain (390/KD 10); conversion kit ebike (1,900/KD 6); ebike conversion kit australia (590/KD 7); ebike motor (480/KD 16); ebike conversion kits (390/KD 7); e bike conversion kits australia (260/KD 10); electric motor ebike (210/KD 22); 1000w ebike conversion kit (140/KD 3); 500w ebike conversion kit (110/KD 4)
 - **Title:** E-Bike Conversion Kits — Buy Online | Torque E-Bikes (52)
 - **H1:** E-Bike Conversion Kits in Australia — 10 products
 - **Meta:** E-bike conversion kit: shop 10 products from $29 to $859 across 4 brands. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Shop now. (147)
-- **Supporting (LSI):** conversion kit for bike, motorised bicycle, electric motor for bicycle, ebike conversion, electric bike conversion kit australia, e bike engine, e bike electric motor, conversion kit on bike, bike motor kit, mountain bike conversion kit, electric motor cross bikes, electric motor cycle
+- **Supporting (LSI):** conversion kit for bike, motorised bicycle, electric motor for bicycle, ebike conversion, electric bike conversion kit australia, e bike engine, e bike electric motor, conversion kit on bike, bike motor kit, mountain bike conversion kit, electric motor cross bikes, electric motor cycle; e bike conversion kit australia; ebike conversion kits australia; cheap ebike conversion kit; conversion kit for ebike; e bike kits australia; electric motor for ebike; e bike kit australia; best ebike conversion kit; ebike motor kit; e-bike conversion kit australia; ebike motors; mountain bike electric conversion kit; conversion ebike kit; ebikes conversion kit; ebike conversion kit on bike; ebike conversion kit cheap; electric bike conversion kits ebike kit; ebike chain
 - **Image alt:** ebike conversion kit — Motors, Drivetrain & Sprockets range at Torque E-Bikes
 
 ### Suspension & Forks — `/shop/suspension-and-forks/`
