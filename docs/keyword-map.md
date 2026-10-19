@@ -170,7 +170,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Wheels, Tyres & Tubes — `/shop/wheels-tyres-and-tubes/`
 - **Primary:** tyres for cycles (2,400/KD 11)
-- **Secondary:** bike tyres (1,900/KD 6); cycle bike tyres (1,900/KD 12); fat tyre electric bicycle (1,600/KD 8); electric fat tire bicycles (1,300/KD 10); wheel of bicycle (1,000/KD 6); bike tube (1,000/KD 11); bike with wheels (880/KD 6); bike wheel 3 (720/KD 6)
+- **Secondary:** bike tyres (1,900/KD 6); cycle bike tyres (1,900/KD 12); fat tyre electric bicycle (1,600/KD 8); electric fat tire bicycles (1,300/KD 10); wheel of bicycle (1,000/KD 6); bike tube (1,000/KD 11); bike with wheels (880/KD 6); bike wheel 3 (720/KD 6); ebike wheels (50/KD 8); vee tire co australia (20/KD 6)
 - **Title:** Tyres for Cycles — Buy Online | Torque E-Bikes (46)
 - **H1:** Tyres for Cycles in Australia — 8 products
 - **Meta:** Tyres for cycles: shop 8 products from $12 to $299 across 4 brands. Shipped Australia-wide from Brisbane. Pay by bank transfer, PayID or crypto. Shop now. (154)
