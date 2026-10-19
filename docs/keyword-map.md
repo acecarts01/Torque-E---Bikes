@@ -251,7 +251,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Brakes — `/shop/brakes/`
 - **Primary:** bike brake pads (720/KD 10)
-- **Secondary:** bike with brakes (480/KD 10); brake mountain bike (390/KD 10); mtb brakes (390/KD 11); cycle brake pads (390/KD 11); mtb brake pads (260/KD 10); cycle hydraulic brakes (260/KD 10); mtb bike disc brakes (210/KD 12); cycle brake (320/KD 19)
+- **Secondary:** bike with brakes (480/KD 10); brake mountain bike (390/KD 10); mtb brakes (390/KD 11); cycle brake pads (390/KD 11); mtb brake pads (260/KD 10); cycle hydraulic brakes (260/KD 10); mtb bike disc brakes (210/KD 12); cycle brake (320/KD 19); dirt bike brake rotor (10/KD 6)
 - **Title:** Bike Brake Pads — Buy Online | Torque E-Bikes (45)
 - **H1:** Bike Brake Pads in Australia — 19 products
 - **Meta:** Bike brake pads: shop 19 products from $23 to $409 across 6 brands. Shipped Australia-wide from Brisbane. Pay by bank transfer, PayID or crypto. Shop now. (154)
