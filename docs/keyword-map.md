@@ -855,15 +855,15 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Sur-Ron Light Bee X — `/shop/electric-dirt-bikes/sur-ron-light-bee-x/`
 - **Primary:** surron light bee (4,400/KD 17)
-- **Secondary:** surron lbx (3,600/KD 25); sur-ron light bee x electric dirt bike (170/KD 0); 2025 surron light bee x (260/KD 8); surron light bee x price (170/KD 6)
+- **Secondary:** surron lbx (3,600/KD 25); sur-ron light bee x electric dirt bike (170/KD 0); surron light bee x price (170/KD 6); surron light bee x price australia (90/KD 5)
 - **Title:** Sur-Ron Light Bee X — Buy in Australia | Torque E-Bikes (55)
 - **H1:** Sur-Ron Light Bee X — shipped Australia-wide
 - **Meta:** Sur-Ron Light Bee X: electric dirt bike from $6,169 at Torque E-Bikes. Dirt bikes are off-road and private property use only. Order now. (136)
 - **Image alt:** Sur-Ron Light Bee X — electric dirt bikes side view
 
 ### Sur-Ron Ultra Bee — `/shop/electric-dirt-bikes/sur-ron-ultra-bee/`
-- **Primary:** surron ultra bee (6,600/KD 7)
-- **Secondary:** surron ultra bee top speed (390/KD 19); surron ultra bee for sale (70/KD 5); ultra b surron (140/KD 18); sur ron ultra bee price australia [generated] (–/KD –)
+- **Primary:** surron ultra bee for sale (70/KD 5)
+- **Secondary:** surron ultra bee e bike (70/KD 14); surron ultra bee (6,600/KD 7); surron ultra bee top speed (390/KD 19); ultra b surron (140/KD 18)
 - **Title:** Sur-Ron Ultra Bee — Buy in Australia | Torque E-Bikes (53)
 - **H1:** Sur-Ron Ultra Bee — shipped Australia-wide
 - **Meta:** Sur-Ron Ultra Bee: electric dirt bike from $9,969 at Torque E-Bikes. Dirt bikes are off-road and private property use only. Order now. (134)
@@ -878,16 +878,16 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Sur-Ron Storm Bee — electric dirt bikes side view
 
 ### Talaria Sting R MX5 Pro — `/shop/electric-dirt-bikes/talaria-sting-r-mx5-pro/`
-- **Primary:** talaria mx5 (880/KD 9)
-- **Secondary:** talaria sting (590/KD 16); talaria sting r (320/KD 11); talaria sting australia price (20/KD 1); talaria mx5 pro (90/KD 6)
+- **Primary:** talaria sting australia price (20/KD 1)
+- **Secondary:** talaria mx5 (880/KD 9); talaria sting (590/KD 16); talaria sting r (320/KD 11); talaria mx5 pro (90/KD 6)
 - **Title:** Talaria Sting R MX5 Pro — Buy in Australia | Torque E-Bikes (59)
 - **H1:** Talaria Sting R MX5 Pro — shipped Australia-wide
 - **Meta:** Talaria Sting R MX5 Pro: electric dirt bike from $3,799 at Torque E-Bikes. Dirt bikes are off-road and private property use only. Order now. (140)
 - **Image alt:** Talaria Sting R MX5 Pro — electric dirt bikes side view
 
 ### Talaria Komodo — `/shop/electric-dirt-bikes/talaria-komodo/`
-- **Primary:** talaria komodo (1,300/KD 11)
-- **Secondary:** talaria komodo top speed (90/KD 9); komodo talaria price (20/KD 6); talaria komodo australia (110/KD 33); buy talaria komodo [generated] (–/KD –)
+- **Primary:** komodo talaria price (20/KD 6)
+- **Secondary:** price talaria komodo (10/KD 6); talaria komodo (1,300/KD 11); talaria komodo australia (110/KD 33); talaria komodo top speed (90/KD 9)
 - **Title:** Talaria Komodo — Buy in Australia | Torque E-Bikes (50)
 - **H1:** Talaria Komodo — shipped Australia-wide
 - **Meta:** Talaria Komodo: electric dirt bike from $8,549 at Torque E-Bikes. Dirt bikes are off-road and private property use only. Order now. (131)
@@ -974,8 +974,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Altis Sigma — electric dirt bikes side view
 
 ### Bonnell 775 MX — `/shop/electric-dirt-bikes/bonnell-775-mx/`
-- **Primary:** bonnell 775 mx (1,900/KD 6)
-- **Secondary:** bonnel 775 mx (390/KD 15); bonnell 775 mx top speed (170/KD 7); bonnell 775 (170/KD 15); bonnell 775 australia (20/KD 6)
+- **Primary:** bonnell 775 (170/KD 15)
+- **Secondary:** bonnell 775 mx australia for sale (30/KD 9); bonnell 775 australia (20/KD 6); bonnell 775 mx (1,900/KD 6); bonnel 775 mx (390/KD 15)
 - **Title:** Bonnell 775 MX — Buy in Australia | Torque E-Bikes (50)
 - **H1:** Bonnell 775 MX — shipped Australia-wide
 - **Meta:** Bonnell 775 MX: electric dirt bike from $8,069 at Torque E-Bikes. Dirt bikes are off-road and private property use only. Order now. (131)
@@ -998,8 +998,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** SSR SR-E15 Pro — electric dirt bikes side view
 
 ### 79Bike Falcon Pro — `/shop/electric-dirt-bikes/79bike-falcon-pro/`
-- **Primary:** 79bike falcon pro (480/KD 9)
-- **Secondary:** 79 bike falcon pro (320/KD 14); 79bike falcon pro for sale (20/KD 6); 79bike falcon pro electric dirt bike (50/KD 18); buy 79bike falcon pro [generated] (–/KD –)
+- **Primary:** 79bike falcon pro electric dirt bike (50/KD 18)
+- **Secondary:** 79bike falcon pro for sale (20/KD 6); 79bike falcon pro (480/KD 9); 79 bike falcon pro (320/KD 14); buy 79bike falcon pro [generated] (–/KD –)
 - **Title:** 79Bike Falcon Pro — Buy in Australia | Torque E-Bikes (53)
 - **H1:** 79Bike Falcon Pro — shipped Australia-wide
 - **Meta:** 79Bike Falcon Pro: electric dirt bike from $5,599 at Torque E-Bikes. Dirt bikes are off-road and private property use only. Order now. (134)
@@ -1318,8 +1318,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Trek Domane+ LT 9 — commuter & urban e-bikes side view
 
 ### Trek Domane+ HP — `/shop/commuter-and-urban-e-bikes/trek-domane-hp/`
-- **Primary:** trek domane (1,300/KD 9)
-- **Secondary:** trek bicycle domane (480/KD 10); buy trek domane (20/KD 17); 2023 trek domane (20/KD 11); buy trek domane+ hp [generated] (–/KD –)
+- **Primary:** trek bicycle domane (480/KD 10)
+- **Secondary:** buy trek domane (20/KD 17); trek domane (1,300/KD 9); 2023 trek domane (20/KD 11); trek domane hp (10/KD 11)
 - **Title:** Trek Domane+ HP — Buy in Australia | Torque E-Bikes (51)
 - **H1:** Trek Domane+ HP — shipped Australia-wide
 - **Meta:** Trek Domane+ HP: commuter & urban e-bike from $9,489 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (146)
@@ -1334,8 +1334,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Trek FX+ 2 — commuter & urban e-bikes side view
 
 ### Trek Allant+ 7 — `/shop/commuter-and-urban-e-bikes/trek-allant-7/`
-- **Primary:** trek allant+ 7 price australia [generated] (–/KD –)
-- **Secondary:** buy trek allant+ 7 [generated] (–/KD –); trek allant+ 7 for sale [generated] (–/KD –); trek allant+ 7 review [generated] (–/KD –); trek allant+ 7 online [generated] (–/KD –)
+- **Primary:** trek allant 7 (40/KD 17)
+- **Secondary:** trek allant+ 7 price australia [generated] (–/KD –); buy trek allant+ 7 [generated] (–/KD –); trek allant+ 7 for sale [generated] (–/KD –); trek allant+ 7 review [generated] (–/KD –)
 - **Title:** Trek Allant+ 7 — Buy in Australia | Torque E-Bikes (50)
 - **H1:** Trek Allant+ 7 — shipped Australia-wide
 - **Meta:** Trek Allant+ 7: commuter & urban e-bike from $4,939 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (145)
@@ -1358,8 +1358,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Aventon Pace 500.3 Step-Through — commuter & urban e-bikes side view
 
 ### Aventon Level 3 — `/shop/commuter-and-urban-e-bikes/aventon-level-3/`
-- **Primary:** aventon level e bike (90/KD 16)
-- **Secondary:** buy aventon level 3 [generated] (–/KD –); aventon level 3 for sale [generated] (–/KD –); aventon level 3 review [generated] (–/KD –); aventon level 3 online [generated] (–/KD –)
+- **Primary:** aventon level 3 e-bike (40/KD 21)
+- **Secondary:** aventon level e bike (90/KD 16); buy aventon level 3 [generated] (–/KD –); aventon level 3 for sale [generated] (–/KD –); aventon level 3 review [generated] (–/KD –)
 - **Title:** Aventon Level 3 — Buy in Australia | Torque E-Bikes (51)
 - **H1:** Aventon Level 3 — shipped Australia-wide
 - **Meta:** Aventon Level 3: commuter & urban e-bike from $2,499 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (146)
@@ -1367,15 +1367,15 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Aventon Aventure.2 — `/shop/commuter-and-urban-e-bikes/aventon-aventure-2/`
 - **Primary:** aventon aventure.2 (70/KD 18)
-- **Secondary:** aventon aventure m (50/KD 13); aventon aventure (50/KD 26); buy aventon aventure.2 [generated] (–/KD –); aventon aventure.2 for sale [generated] (–/KD –)
+- **Secondary:** aventon aventure m (50/KD 13); aventon aventure (50/KD 26); aventon aventure 2 ebike (40/KD 16); buy aventon aventure.2 [generated] (–/KD –)
 - **Title:** Aventon Aventure.2 — Buy in Australia | Torque E-Bikes (54)
 - **H1:** Aventon Aventure.2 — shipped Australia-wide
 - **Meta:** Aventon Aventure.2: commuter & urban e-bike from $2,999 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (149)
 - **Image alt:** Aventon Aventure.2 — commuter & urban e-bikes side view
 
 ### Aventon Soltera.2 — `/shop/commuter-and-urban-e-bikes/aventon-soltera-2/`
-- **Primary:** aventon soltera 2.5 (140/KD 20)
-- **Secondary:** aventon soltera (70/KD 26); buy aventon soltera.2 [generated] (–/KD –); aventon soltera.2 for sale [generated] (–/KD –); aventon soltera.2 review [generated] (–/KD –)
+- **Primary:** aventon soltera 2 electric bike (40/KD 22)
+- **Secondary:** aventon soltera 2.5 (140/KD 20); aventon soltera (70/KD 26); aventon soltera 2 ebike (40/KD 22); buy aventon soltera.2 [generated] (–/KD –)
 - **Title:** Aventon Soltera.2 — Buy in Australia | Torque E-Bikes (53)
 - **H1:** Aventon Soltera.2 — shipped Australia-wide
 - **Meta:** Aventon Soltera.2: commuter & urban e-bike from $2,299 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (148)
@@ -1398,8 +1398,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Segway Myon — commuter & urban e-bikes side view
 
 ### Segway Muxi — `/shop/commuter-and-urban-e-bikes/segway-muxi/`
-- **Primary:** segway muxi price australia [generated] (–/KD –)
-- **Secondary:** buy segway muxi [generated] (–/KD –); segway muxi for sale [generated] (–/KD –); segway muxi review [generated] (–/KD –); segway muxi online [generated] (–/KD –)
+- **Primary:** segway muxi (30/KD 20)
+- **Secondary:** segway muxi price australia [generated] (–/KD –); buy segway muxi [generated] (–/KD –); segway muxi for sale [generated] (–/KD –); segway muxi review [generated] (–/KD –)
 - **Title:** Segway Muxi — Buy in Australia | Torque E-Bikes (47)
 - **H1:** Segway Muxi — shipped Australia-wide
 - **Meta:** Segway Muxi: commuter & urban e-bike from $2,679 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Pay by bank transfer, PayID or crypto. Order now. (155)
@@ -1566,8 +1566,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Canyon Pathlite:ON — commuter & urban e-bikes side view
 
 ### Canyon Torque:ON — `/shop/commuter-and-urban-e-bikes/canyon-torque-on/`
-- **Primary:** canyon torque:on price australia [generated] (–/KD –)
-- **Secondary:** buy canyon torque:on [generated] (–/KD –); canyon torque:on for sale [generated] (–/KD –); canyon torque:on review [generated] (–/KD –); canyon torque:on online [generated] (–/KD –)
+- **Primary:** canyon torque on (40/KD 17)
+- **Secondary:** canyon torque:on price australia [generated] (–/KD –); buy canyon torque:on [generated] (–/KD –); canyon torque:on for sale [generated] (–/KD –); canyon torque:on review [generated] (–/KD –)
 - **Title:** Canyon Torque:ON — Buy in Australia | Torque E-Bikes (52)
 - **H1:** Canyon Torque:ON — shipped Australia-wide
 - **Meta:** Canyon Torque:ON: commuter & urban e-bike from $5,149 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (147)
@@ -1647,7 +1647,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Fatboy Scrambler E-Bike — `/shop/fat-tyre-and-scrambler-e-bikes/fatboy-scrambler-e-bike/`
 - **Primary:** fatboy scrambler (4,400/KD 17)
-- **Secondary:** fat boy scrambler (480/KD 20); fatboy scrambler review (50/KD 7); fatboy scrambler ebike (170/KD 18); fatboy scrambler for sale (70/KD 14)
+- **Secondary:** fat boy scrambler (480/KD 20); fatboy scrambler ebike (170/KD 18); fatboy scrambler for sale (70/KD 14); fatboy scrambler review (50/KD 7)
 - **Title:** Fatboy Scrambler E-Bike — Buy in Australia | Torque E-Bikes (59)
 - **H1:** Fatboy Scrambler E-Bike — shipped Australia-wide
 - **Meta:** Fatboy Scrambler E-Bike: fat-tyre & scrambler e-bike from $3,269 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (132)
@@ -1742,8 +1742,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** FAT Bandit Step Over — fat-tyre & scrambler e-bikes side view
 
 ### ACE Pro Electric Bike — `/shop/fat-tyre-and-scrambler-e-bikes/ace-pro-electric-bike/`
-- **Primary:** ampd bros ace (170/KD 17)
-- **Secondary:** ampd bros ace-x pro (140/KD 8); ampd bros ace s pro (20/KD 12); buy ace pro electric bike [generated] (–/KD –); ace pro electric bike for sale [generated] (–/KD –)
+- **Primary:** ampd bros ace-x pro (140/KD 8)
+- **Secondary:** ampd bros ace s pro (20/KD 12); ampd bros ace (170/KD 17); buy ace pro electric bike [generated] (–/KD –); ace pro electric bike for sale [generated] (–/KD –)
 - **Title:** ACE Pro Electric Bike — Buy in Australia | Torque E-Bikes (57)
 - **H1:** ACE Pro Electric Bike — shipped Australia-wide
 - **Meta:** ACE Pro Electric Bike: fat-tyre & scrambler e-bike from $2,879 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (130)
@@ -1958,8 +1958,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** SRPNT Z27 — electric dirt bikes side view
 
 ### SRPNT X8 — `/shop/electric-dirt-bikes/srpnt-x8/`
-- **Primary:** srpnt x8 price australia [generated] (–/KD –)
-- **Secondary:** buy srpnt x8 [generated] (–/KD –); srpnt x8 for sale [generated] (–/KD –); srpnt x8 review [generated] (–/KD –); srpnt x8 online [generated] (–/KD –)
+- **Primary:** srpnt x8 (10/KD 14)
+- **Secondary:** srpnt x8 price australia [generated] (–/KD –); buy srpnt x8 [generated] (–/KD –); srpnt x8 for sale [generated] (–/KD –); srpnt x8 review [generated] (–/KD –)
 - **Title:** SRPNT X8 — Buy in Australia | Torque E-Bikes (44)
 - **H1:** SRPNT X8 — shipped Australia-wide
 - **Meta:** SRPNT X8: electric dirt bike from $7,129 at Torque E-Bikes. Dirt bikes are off-road and private property use only. Ask the team on WhatsApp. Order now. (151)
@@ -2135,7 +2135,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Fatboy The DNA V3 — `/shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-dna-v3/`
 - **Primary:** fatboy v3 (390/KD 15)
-- **Secondary:** fatboy dna v3 review (70/KD 9); fatboy dna (260/KD 17); buy fatboy the dna v3 [generated] (–/KD –); fatboy the dna v3 for sale [generated] (–/KD –)
+- **Secondary:** fatboy dna (260/KD 17); fatboy dna v3 review (70/KD 9); buy fatboy the dna v3 [generated] (–/KD –); fatboy the dna v3 for sale [generated] (–/KD –)
 - **Title:** Fatboy The DNA V3 — Buy in Australia | Torque E-Bikes (53)
 - **H1:** Fatboy The DNA V3 — shipped Australia-wide
 - **Meta:** Fatboy The DNA V3: fat-tyre & scrambler e-bike from $2,259 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (152)
@@ -2143,7 +2143,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Fatboy The Harlem V3 — `/shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-harlem-v3/`
 - **Primary:** fatboy harlem (720/KD 20)
-- **Secondary:** fat boy harlem (210/KD 21); fatboy harlem v3 (110/KD 13); fatboy harlem ebike (140/KD 17); buy fatboy the harlem v3 [generated] (–/KD –)
+- **Secondary:** fat boy harlem (210/KD 21); fatboy harlem ebike (140/KD 17); fatboy harlem v3 (110/KD 13); buy fatboy the harlem v3 [generated] (–/KD –)
 - **Title:** Fatboy The Harlem V3 — Buy in Australia | Torque E-Bikes (56)
 - **H1:** Fatboy The Harlem V3 — shipped Australia-wide
 - **Meta:** Fatboy The Harlem V3: fat-tyre & scrambler e-bike from $3,209 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (155)
@@ -2278,8 +2278,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Flight Risk FR505 — fat-tyre & scrambler e-bikes side view
 
 ### Fatboy The Scrambler V2 E-Bike — `/shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-scrambler-v2-e-bike/`
-- **Primary:** fatboy scrambler v2 (1,300/KD 17)
-- **Secondary:** fat boy scrambler v2 (110/KD 17); fatboy scrambler v2 top speed (70/KD 19); buy fatboy the scrambler v2 e-bike [generated] (–/KD –); fatboy the scrambler v2 e-bike for sale [generated] (–/KD –)
+- **Primary:** fat boy scrambler v2 (110/KD 17)
+- **Secondary:** fatboy scrambler v2 (1,300/KD 17); fatboy scrambler v2 top speed (70/KD 19); buy fatboy the scrambler v2 e-bike [generated] (–/KD –); fatboy the scrambler v2 e-bike for sale [generated] (–/KD –)
 - **Title:** Fatboy The Scrambler V2 E-Bike — Buy Online | Torque E-Bikes (60)
 - **H1:** Fatboy The Scrambler V2 E-Bike — shipped Australia-wide
 - **Meta:** Fatboy The Scrambler V2 E-Bike: fat-tyre & scrambler e-bike from $3,269 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (139)
@@ -2350,8 +2350,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Azonic Flow 20 — kids electric dirt & balance bikes side view
 
 ### Azonic Pure 12 — `/shop/kids-electric-dirt-and-balance-bikes/azonic-pure-12/`
-- **Primary:** azonic pure 12 price australia [generated] (–/KD –)
-- **Secondary:** buy azonic pure 12 [generated] (–/KD –); azonic pure 12 for sale [generated] (–/KD –); azonic pure 12 review [generated] (–/KD –); azonic pure 12 online [generated] (–/KD –)
+- **Primary:** azonic pure 12 (20/KD 2)
+- **Secondary:** azonic pure 12 price australia [generated] (–/KD –); buy azonic pure 12 [generated] (–/KD –); azonic pure 12 for sale [generated] (–/KD –); azonic pure 12 review [generated] (–/KD –)
 - **Title:** Azonic Pure 12 — Buy in Australia | Torque E-Bikes (50)
 - **H1:** Azonic Pure 12 — shipped Australia-wide
 - **Meta:** Azonic Pure 12: kids electric dirt & balance bike from $619 at Torque E-Bikes. Dirt bikes are off-road and private property use only. Order now. (144)
@@ -2830,8 +2830,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Sur-Ron USB Charging Port — sur-ron spares side view
 
 ### Sur-Ron 60V 10A Charger — `/shop/batteries-chargers-and-electronics/sur-ron-60v-10a-charger/`
-- **Primary:** surron charger (90/KD 4)
-- **Secondary:** surron 60v charger (20/KD 1); sur ron battery charger (20/KD 2); sur ron electric bike charger (20/KD 3); sur ron fast charger (20/KD 4)
+- **Primary:** surron 60v charger (20/KD 1)
+- **Secondary:** sur ron battery charger (20/KD 2); sur ron electric bike charger (20/KD 3); sur ron fast charger (20/KD 4); surron charger (90/KD 4)
 - **Title:** Sur-Ron 60V 10A Charger — Buy in Australia | Torque E-Bikes (59)
 - **H1:** Sur-Ron 60V 10A Charger — shipped Australia-wide
 - **Meta:** Sur-Ron 60V 10A Charger: batteries, chargers & electronic from $35 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (134)
@@ -2871,7 +2871,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Mamba Venom All-Rounder E-Bike — `/shop/electric-mountain-bikes/mamba-venom-all-rounder-e-bike/`
 - **Primary:** mamba venom ebike (210/KD 5)
-- **Secondary:** venom mamba (170/KD 5); mamba venom bike (20/KD 5); buy mamba venom all-rounder e-bike [generated] (–/KD –); mamba venom all-rounder e-bike for sale [generated] (–/KD –)
+- **Secondary:** mamba venom bike (20/KD 5); venom mamba (170/KD 5); buy mamba venom all-rounder e-bike [generated] (–/KD –); mamba venom all-rounder e-bike for sale [generated] (–/KD –)
 - **Title:** Mamba Venom All-Rounder E-Bike — Buy Online | Torque E-Bikes (60)
 - **H1:** Mamba Venom All-Rounder E-Bike — shipped Australia-wide
 - **Meta:** Mamba Venom All-Rounder E-Bike: electric mountain bike from $1,709 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (134)
@@ -2894,8 +2894,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Cannondale Compact Neo OS — commuter & urban e-bikes side view
 
 ### Azur Cargo Bike Double Pannier — `/shop/racks-bags-and-trailers/azur-cargo-bike-double-pannier/`
-- **Primary:** azur cargo bike double pannier price australia [generated] (–/KD –)
-- **Secondary:** azur panniers (20/KD 6); azur bike panniers (20/KD 7); azur panniers review (20/KD 13); buy azur cargo bike double pannier [generated] (–/KD –)
+- **Primary:** azur panniers (20/KD 6)
+- **Secondary:** azur bike panniers (20/KD 7); azur panniers review (20/KD 13); azur cargo bike double pannier price australia [generated] (–/KD –); buy azur cargo bike double pannier [generated] (–/KD –)
 - **Title:** Azur Cargo Bike Double Pannier — Buy Online | Torque E-Bikes (60)
 - **H1:** Azur Cargo Bike Double Pannier — shipped Australia-wide
 - **Meta:** Azur Cargo Bike Double Pannier: racks, bags & trailer from $179 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (131)
@@ -3102,8 +3102,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Strike Shadow 60V/5kW — electric dirt bikes side view
 
 ### E Ride Pro SS 3.0 — `/shop/electric-dirt-bikes/e-ride-pro-ss-3-0/`
-- **Primary:** e ride pro ss 3.0 price australia [generated] (–/KD –)
-- **Secondary:** buy e ride pro ss 3.0 [generated] (–/KD –); e ride pro ss 3.0 for sale [generated] (–/KD –); e ride pro ss 3.0 review [generated] (–/KD –); e ride pro ss 3.0 online [generated] (–/KD –)
+- **Primary:** e ride pro ss 3.0 australia (70/KD 6)
+- **Secondary:** e ride pro ss 3.0 price australia [generated] (–/KD –); buy e ride pro ss 3.0 [generated] (–/KD –); e ride pro ss 3.0 for sale [generated] (–/KD –); e ride pro ss 3.0 review [generated] (–/KD –)
 - **Title:** E Ride Pro SS 3.0 — Buy in Australia | Torque E-Bikes (53)
 - **H1:** E Ride Pro SS 3.0 — shipped Australia-wide
 - **Meta:** E Ride Pro SS 3.0: electric dirt bike from $7,029 at Torque E-Bikes. Dirt bikes are off-road and private property use only. Order now. (134)
@@ -3334,8 +3334,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** 79Bike Falcon GT Brake Lever — brakes side view
 
 ### 79 Bike Falcon Pro Brake Pads — `/shop/brakes/79-bike-falcon-pro-brake-pads/`
-- **Primary:** 79 bike falcon pro brake pads price australia [generated] (–/KD –)
-- **Secondary:** 79bike falcon pro brake pads (20/KD 15); buy 79 bike falcon pro brake pads [generated] (–/KD –); 79 bike falcon pro brake pads for sale [generated] (–/KD –); 79 bike falcon pro brake pads review [generated] (–/KD –)
+- **Primary:** 79bike falcon pro brake pads (20/KD 15)
+- **Secondary:** 79 bike falcon pro brake pads price australia [generated] (–/KD –); buy 79 bike falcon pro brake pads [generated] (–/KD –); 79 bike falcon pro brake pads for sale [generated] (–/KD –); 79 bike falcon pro brake pads review [generated] (–/KD –)
 - **Title:** 79 Bike Falcon Pro Brake Pads — Buy Online | Torque E-Bikes (59)
 - **H1:** 79 Bike Falcon Pro Brake Pads — shipped Australia-wide
 - **Meta:** 79 Bike Falcon Pro Brake Pads: brake from $33 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Order now. (154)
@@ -3374,8 +3374,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Kalkhoff K26 Endeavour C Move+ — commuter & urban e-bikes side view
 
 ### Kalkhoff K26 Endeavour 3 Move — `/shop/commuter-and-urban-e-bikes/kalkhoff-k26-endeavour-3-move/`
-- **Primary:** kalkhoff endeavour (140/KD 11)
-- **Secondary:** kalkhoff endeavour l move (20/KD 4); kalkhoff endeavour move ebikes (20/KD 4); buy kalkhoff k26 endeavour 3 move [generated] (–/KD –); kalkhoff k26 endeavour 3 move for sale [generated] (–/KD –)
+- **Primary:** kalkhoff endeavour l move (20/KD 4)
+- **Secondary:** kalkhoff endeavour move ebikes (20/KD 4); kalkhoff endeavour (140/KD 11); buy kalkhoff k26 endeavour 3 move [generated] (–/KD –); kalkhoff k26 endeavour 3 move for sale [generated] (–/KD –)
 - **Title:** Kalkhoff K26 Endeavour 3 Move — Buy Online | Torque E-Bikes (59)
 - **H1:** Kalkhoff K26 Endeavour 3 Move — shipped Australia-wide
 - **Meta:** Kalkhoff K26 Endeavour 3 Move: commuter & urban e-bike from $4,465 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (134)
@@ -3414,8 +3414,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Apollo Thunder 150CC OIL Filter — seats, fenders & body side view
 
 ### Azur Optic Mirror Anti Glare — `/shop/phone-mounts-mirrors-and-audio/azur-optic-mirror-anti-glare/`
-- **Primary:** azur optic mirror anti glare price australia [generated] (–/KD –)
-- **Secondary:** azur bike mirror (20/KD 7); buy azur optic mirror anti glare [generated] (–/KD –); azur optic mirror anti glare for sale [generated] (–/KD –); azur optic mirror anti glare review [generated] (–/KD –)
+- **Primary:** azur bike mirror (20/KD 7)
+- **Secondary:** azur optic mirror anti glare price australia [generated] (–/KD –); buy azur optic mirror anti glare [generated] (–/KD –); azur optic mirror anti glare for sale [generated] (–/KD –); azur optic mirror anti glare review [generated] (–/KD –)
 - **Title:** Azur Optic Mirror Anti Glare — Buy Online | Torque E-Bikes (58)
 - **H1:** Azur Optic Mirror Anti Glare — shipped Australia-wide
 - **Meta:** Azur Optic Mirror Anti Glare: phone mounts, mirrors & audio from $38 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (136)
@@ -3495,7 +3495,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Quad Lock MAG Samsung Galaxy S24 Case — `/shop/phone-mounts-mirrors-and-audio/quad-lock-mag-samsung-galaxy-s24-case/`
 - **Primary:** quadlock case (2,900/KD 28)
-- **Secondary:** quad lock mag case (320/KD 23); quadlock mag (140/KD 17); s24 quad lock case (50/KD 17); quadlock case australia (50/KD 18)
+- **Secondary:** quad lock mag case (320/KD 23); s24 quad lock case (50/KD 17); quadlock mag (140/KD 17); quadlock case australia (50/KD 18)
 - **Title:** Quad Lock MAG Samsung Galaxy S24 Case | Torque E-Bikes (54)
 - **H1:** Quad Lock MAG Samsung Galaxy S24 Case — shipped Australia-wide
 - **Meta:** Quad Lock MAG Samsung Galaxy S24 Case: phone mounts, mirrors & audio from $47 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (145)
@@ -3503,7 +3503,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Quad Lock Out-Front Mount — `/shop/phone-mounts-mirrors-and-audio/quad-lock-out-front-mount/`
 - **Primary:** quad lock bike mount (2,400/KD 17)
-- **Secondary:** quad lock out front mount (210/KD 16); quadlock bike mount (320/KD 28); quadlock out front mount (70/KD 15); buy quad lock out-front mount [generated] (–/KD –)
+- **Secondary:** quadlock bike mount (320/KD 28); quad lock out front mount (210/KD 16); quadlock out front mount (70/KD 15); buy quad lock out-front mount [generated] (–/KD –)
 - **Title:** Quad Lock Out-Front Mount — Buy Online | Torque E-Bikes (55)
 - **H1:** Quad Lock Out-Front Mount — shipped Australia-wide
 - **Meta:** Quad Lock Out-Front Mount: phone mounts, mirrors & audio from $47 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (133)
@@ -3742,8 +3742,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** DHZ 20" Electric Balance Bike, Rear Brushless Motor — kids & youth e-bikes side view
 
 ### Talaria XXX Pro Electric Off-road Motor Bike — `/shop/electric-dirt-bikes/talaria-xxx-pro-electric-off-road-motor-bike/`
-- **Primary:** talaria xxx pro (880/KD 17)
-- **Secondary:** talaria x pro price (20/KD 6); buy talaria xxx pro electric off-road motor bike [generated] (–/KD –); talaria xxx pro electric off-road motor bike for sale [generated] (–/KD –); talaria xxx pro electric off-road motor bike review [generated] (–/KD –)
+- **Primary:** talaria x pro price (20/KD 6)
+- **Secondary:** talaria xxx pro (880/KD 17); buy talaria xxx pro electric off-road motor bike [generated] (–/KD –); talaria xxx pro electric off-road motor bike for sale [generated] (–/KD –); talaria xxx pro electric off-road motor bike review [generated] (–/KD –)
 - **Title:** Talaria XXX Pro Electric Off-road Motor Bike — Buy Online (57)
 - **H1:** Talaria XXX Pro Electric Off-road Motor Bike — shipped Australia-wide
 - **Meta:** Talaria XXX Pro Electric Off-road Motor Bike: electric dirt bike from $5,199 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (144)
@@ -3830,8 +3830,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Mamba Taureg Folding Fat Tyre E-Bike (16"x3.0) — folding e-bikes side view
 
 ### Azur Saddle Cover Road Memory Foam — `/shop/seats-fenders-and-body/azur-saddle-cover-road-memory-foam/`
-- **Primary:** azur saddle cover road memory foam price australia [generated] (–/KD –)
-- **Secondary:** azur bike cover (20/KD 5); azur saddle (20/KD 6); buy azur saddle cover road memory foam [generated] (–/KD –); azur saddle cover road memory foam for sale [generated] (–/KD –)
+- **Primary:** azur bike cover (20/KD 5)
+- **Secondary:** azur saddle (20/KD 6); azur saddle cover road memory foam price australia [generated] (–/KD –); buy azur saddle cover road memory foam [generated] (–/KD –); azur saddle cover road memory foam for sale [generated] (–/KD –)
 - **Title:** Azur Saddle Cover Road Memory Foam — Price | Torque E-Bikes (59)
 - **H1:** Azur Saddle Cover Road Memory Foam — shipped Australia-wide
 - **Meta:** Azur Saddle Cover Road Memory Foam: seats, fenders & body from $38 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (134)
@@ -4054,8 +4054,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Azur Alloy Touring Carrier Disc Brake Compatible — racks, bags & trailers side view
 
 ### Azur Touring Handlebar Bag with Phone Pouch Grey — `/shop/racks-bags-and-trailers/azur-touring-handlebar-bag-with-phone-pouch-grey/`
-- **Primary:** azur touring handlebar bag with phone pouch grey price australia [generated] (–/KD –)
-- **Secondary:** azur bike bag (20/KD 4); buy azur touring handlebar bag with phone pouch grey [generated] (–/KD –); azur touring handlebar bag with phone pouch grey for sale [generated] (–/KD –); azur touring handlebar bag with phone pouch grey review [generated] (–/KD –)
+- **Primary:** azur bike bag (20/KD 4)
+- **Secondary:** azur touring handlebar bag with phone pouch grey price australia [generated] (–/KD –); buy azur touring handlebar bag with phone pouch grey [generated] (–/KD –); azur touring handlebar bag with phone pouch grey for sale [generated] (–/KD –); azur touring handlebar bag with phone pouch grey review [generated] (–/KD –)
 - **Title:** Azur Touring Handlebar Bag with Phone Pouch Grey — Price (56)
 - **H1:** Azur Touring Handlebar Bag with Phone Pouch Grey
 - **Meta:** Azur Touring Handlebar Bag with Phone Pouch Grey: racks, bags & trailer from $75 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (148)
@@ -4078,8 +4078,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** NiteRider Lumina 1200 Boost LED Rechargeable Headlight — lights & horns side view
 
 ### Mamba Sahara Fat-Tyre E-Bike (2026) — `/shop/racks-bags-and-trailers/mamba-sahara-fat-tyre-e-bike-2026/`
-- **Primary:** mamba sahara (1,300/KD 5)
-- **Secondary:** mamba sahara ebike (320/KD 0); mamba sahara 2025 (50/KD 1); mamba sahara 2024 (30/KD 1); mamba sahara fat tyre (20/KD 0)
+- **Primary:** mamba sahara 2024 (30/KD 1)
+- **Secondary:** mamba sahara fat tyre (20/KD 0); mamba sahara (1,300/KD 5); mamba sahara ebike (320/KD 0); mamba sahara 2025 (50/KD 1)
 - **Title:** Mamba Sahara Fat-Tyre E-Bike (2026) — Price | Torque E-Bikes (60)
 - **H1:** Mamba Sahara Fat-Tyre E-Bike (2026) — shipped Australia-wide
 - **Meta:** Mamba Sahara Fat-Tyre E-Bike (2026): racks, bags & trailer from $169 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (136)
@@ -4118,8 +4118,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Azur Commuter Rear Pannier Bag Pair 48L Black — racks, bags & trailers side view
 
 ### Azur Alien2 100 lm USB Rechargeable Rear Light — `/shop/lights-and-horns/azur-alien2-100-lm-usb-rechargeable-rear-light/`
-- **Primary:** azur alien2 100 lm usb rechargeable rear light price australia [generated] (–/KD –)
-- **Secondary:** azur rear bike light (20/KD 5); azur bike light usb (20/KD 7); buy azur alien2 100 lm usb rechargeable rear light [generated] (–/KD –); azur alien2 100 lm usb rechargeable rear light for sale [generated] (–/KD –)
+- **Primary:** azur rear bike light (20/KD 5)
+- **Secondary:** azur bike light usb (20/KD 7); azur alien2 100 lm usb rechargeable rear light price australia [generated] (–/KD –); buy azur alien2 100 lm usb rechargeable rear light [generated] (–/KD –); azur alien2 100 lm usb rechargeable rear light for sale [generated] (–/KD –)
 - **Title:** Azur Alien2 100 lm USB Rechargeable Rear Light — Buy Online (59)
 - **H1:** Azur Alien2 100 lm USB Rechargeable Rear Light
 - **Meta:** Azur Alien2 100 lm USB Rechargeable Rear Light: lights & horn from $28 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (138)
@@ -4142,8 +4142,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Crankbrothers Pedal Stamp 1 Small GEN 2 Orange — controls, grips & pedals side view
 
 ### Kristall RX20 Folding Fat-Tyre E-Bike — `/shop/folding-e-bikes/kristall-rx20-folding-fat-tyre-e-bike/`
-- **Primary:** kristall rx20 folding fat-tyre e-bike price australia [generated] (–/KD –)
-- **Secondary:** kristall rx20 (40/KD 6); buy kristall rx20 folding fat-tyre e-bike [generated] (–/KD –); kristall rx20 folding fat-tyre e-bike for sale [generated] (–/KD –); kristall rx20 folding fat-tyre e-bike review [generated] (–/KD –)
+- **Primary:** kristall rx20 (40/KD 6)
+- **Secondary:** kristall rx20 folding fat-tyre e-bike price australia [generated] (–/KD –); buy kristall rx20 folding fat-tyre e-bike [generated] (–/KD –); kristall rx20 folding fat-tyre e-bike for sale [generated] (–/KD –); kristall rx20 folding fat-tyre e-bike review [generated] (–/KD –)
 - **Title:** Kristall RX20 Folding Fat-Tyre E-Bike | Torque E-Bikes (54)
 - **H1:** Kristall RX20 Folding Fat-Tyre E-Bike — shipped Australia-wide
 - **Meta:** Kristall RX20 Folding Fat-Tyre E-Bike: folding e-bike from $1,899 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (133)
@@ -4246,8 +4246,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Sur-Ron Front Wheel Axle Nut (Light Bee / Hyper Bee) — sur-ron spares side view
 
 ### Velectrix Urban — `/shop/commuter-and-urban-e-bikes/velectrix-urban/`
-- **Primary:** velectrix urban (90/KD 9)
-- **Secondary:** velectrix urban electric bike (70/KD 7); buy velectrix urban [generated] (–/KD –); velectrix urban for sale [generated] (–/KD –); velectrix urban review [generated] (–/KD –)
+- **Primary:** velectrix urban electric bike (70/KD 7)
+- **Secondary:** velectrix urban (90/KD 9); buy velectrix urban [generated] (–/KD –); velectrix urban for sale [generated] (–/KD –); velectrix urban review [generated] (–/KD –)
 - **Title:** Velectrix Urban — Buy in Australia | Torque E-Bikes (51)
 - **H1:** Velectrix Urban — shipped Australia-wide
 - **Meta:** Velectrix Urban: commuter & urban e-bike from $2,179 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (146)
@@ -4262,8 +4262,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Merida eOne Sixty 900 — electric mountain bikes side view
 
 ### Merida eSpresso 500 — `/shop/commuter-and-urban-e-bikes/merida-espresso-500/`
-- **Primary:** merida dirt 500 (320/KD 17)
-- **Secondary:** merida espresso (260/KD 17); merida 500 (70/KD 14); buy merida espresso 500 [generated] (–/KD –); merida espresso 500 for sale [generated] (–/KD –)
+- **Primary:** merida espresso (260/KD 17)
+- **Secondary:** merida 500 (70/KD 14); merida dirt 500 (320/KD 17); buy merida espresso 500 [generated] (–/KD –); merida espresso 500 for sale [generated] (–/KD –)
 - **Title:** Merida eSpresso 500 — Buy in Australia | Torque E-Bikes (55)
 - **H1:** Merida eSpresso 500 — shipped Australia-wide
 - **Meta:** Merida eSpresso 500: commuter & urban e-bike from $3,600 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (150)
@@ -4319,7 +4319,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Cube Reaction Hybrid HPA Pro 500 — `/shop/electric-mountain-bikes/cube-reaction-hybrid-hpa-pro-500/`
 - **Primary:** cube reaction hybrid pro 500 (170/KD 9)
-- **Secondary:** cube reaction pro (140/KD 10); cube reaction hybrid (110/KD 8); cube reaction (140/KD 12); buy cube reaction hybrid hpa pro 500 [generated] (–/KD –)
+- **Secondary:** cube reaction pro (140/KD 10); cube reaction (140/KD 12); cube reaction hybrid (110/KD 8); buy cube reaction hybrid hpa pro 500 [generated] (–/KD –)
 - **Title:** Cube Reaction Hybrid HPA Pro 500 — Price | Torque E-Bikes (57)
 - **H1:** Cube Reaction Hybrid HPA Pro 500 — shipped Australia-wide
 - **Meta:** Cube Reaction Hybrid HPA Pro 500: electric mountain bike from $3,199 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now. (136)
@@ -4366,8 +4366,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Polygon Tambora AE-N — electric mountain bikes side view
 
 ### Kona Coco HD — `/shop/commuter-and-urban-e-bikes/kona-coco-hd/`
-- **Primary:** kona coco hd price australia [generated] (–/KD –)
-- **Secondary:** buy kona coco hd [generated] (–/KD –); kona coco hd for sale [generated] (–/KD –); kona coco hd review [generated] (–/KD –); kona coco hd online [generated] (–/KD –)
+- **Primary:** kona coco hd (30/KD 17)
+- **Secondary:** kona coco hd price australia [generated] (–/KD –); buy kona coco hd [generated] (–/KD –); kona coco hd for sale [generated] (–/KD –); kona coco hd review [generated] (–/KD –)
 - **Title:** Kona Coco HD — Buy in Australia | Torque E-Bikes (48)
 - **H1:** Kona Coco HD — shipped Australia-wide
 - **Meta:** Kona Coco HD: commuter & urban e-bike from $1,419 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (143)
@@ -4422,8 +4422,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Superior eXF 9019 — electric mountain bikes side view
 
 ### Aventon Aventure 3 — `/shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-3/`
-- **Primary:** aventon aventure 3 price australia [generated] (–/KD –)
-- **Secondary:** buy aventon aventure 3 [generated] (–/KD –); aventon aventure 3 for sale [generated] (–/KD –); aventon aventure 3 review [generated] (–/KD –); aventon aventure 3 online [generated] (–/KD –)
+- **Primary:** aventon aventure 3 australia (50/KD 15)
+- **Secondary:** aventon aventure 3 price australia [generated] (–/KD –); buy aventon aventure 3 [generated] (–/KD –); aventon aventure 3 for sale [generated] (–/KD –); aventon aventure 3 review [generated] (–/KD –)
 - **Title:** Aventon Aventure 3 — Buy in Australia | Torque E-Bikes (54)
 - **H1:** Aventon Aventure 3 — shipped Australia-wide
 - **Meta:** Aventon Aventure 3: fat-tyre & scrambler e-bike from $2,669 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (153)
@@ -4510,8 +4510,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Aventon Aventure M — fat-tyre & scrambler e-bikes side view
 
 ### Aventon Ramblas ADV — `/shop/electric-mountain-bikes/aventon-ramblas-adv/`
-- **Primary:** aventon ramblas (210/KD 26)
-- **Secondary:** aventon ramblas e bike (40/KD 7); aventon ramblas australia (70/KD 23); buy aventon ramblas adv [generated] (–/KD –); aventon ramblas adv for sale [generated] (–/KD –)
+- **Primary:** aventon ramblas e bike (40/KD 7)
+- **Secondary:** aventon ramblas (210/KD 26); aventon ramblas australia (70/KD 23); buy aventon ramblas adv [generated] (–/KD –); aventon ramblas adv for sale [generated] (–/KD –)
 - **Title:** Aventon Ramblas ADV — Buy in Australia | Torque E-Bikes (55)
 - **H1:** Aventon Ramblas ADV — shipped Australia-wide
 - **Meta:** Aventon Ramblas ADV: electric mountain bike from $4,999 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (149)
@@ -4558,8 +4558,8 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 - **Image alt:** Superior eXF 8089 — electric mountain bikes side view
 
 ### Marin Lombard E1 — `/shop/commuter-and-urban-e-bikes/marin-lombard-e1/`
-- **Primary:** marin lombard e1 price australia [generated] (–/KD –)
-- **Secondary:** buy marin lombard e1 [generated] (–/KD –); marin lombard e1 for sale [generated] (–/KD –); marin lombard e1 review [generated] (–/KD –); marin lombard e1 online [generated] (–/KD –)
+- **Primary:** marin lombard e1 (30/KD 18)
+- **Secondary:** marin lombard e1 price australia [generated] (–/KD –); buy marin lombard e1 [generated] (–/KD –); marin lombard e1 for sale [generated] (–/KD –); marin lombard e1 review [generated] (–/KD –)
 - **Title:** Marin Lombard E1 — Buy in Australia | Torque E-Bikes (52)
 - **H1:** Marin Lombard E1 — shipped Australia-wide
 - **Meta:** Marin Lombard E1: commuter & urban e-bike from $3,609 at Torque E-Bikes. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Order now. (147)
