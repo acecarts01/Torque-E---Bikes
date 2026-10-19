@@ -273,7 +273,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### 79Bike — `/brands/79bike/`
 - **Primary:** 79 bike (1,000/KD 22)
-- **Secondary:** 79bike (480/KD 17); 79bike falcon pro discount code (20/KD 13); 79bike falcon pro accessories (20/KD 3); 79bike falcon pro aftermarket parts (20/KD 5); 79bike australia [generated] (–/KD –)
+- **Secondary:** 79bike (480/KD 17); 79bike falcon pro discount code (20/KD 13); 79bike falcon pro accessories (20/KD 3); 79bike falcon pro aftermarket parts (20/KD 5); 79bike australia [generated] (–/KD –); 79bike parts (10/KD 0)
 - **Title:** 79 Bike — 58 Models | Torque E-Bikes (36)
 - **H1:** 79Bike in Australia — 58 products
 - **Meta:** 79 bike: shop 58 79Bike products, bikes from $949. Dirt bikes are off-road and private property use only. Ask the team on WhatsApp. Browse the range. (149)
@@ -354,7 +354,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Azur — `/brands/azur/`
 - **Primary:** azur (480/KD 10)
-- **Secondary:** azur bike case (20/KD 4); azur bike website (20/KD 4); azur commuter gps bike computer (20/KD 5); azur bike (50/KD 8); azur bike accessories (20/KD 6); azur bike computer (30/KD 12)
+- **Secondary:** azur bike case (20/KD 4); azur bike website (20/KD 4); azur commuter gps bike computer (20/KD 5); azur bike (50/KD 8); azur bike accessories (20/KD 6); azur bike computer (30/KD 12); azur bike rack (30/KD 8); azur australia (20/KD 4)
 - **Title:** Azur — 13 Models | Torque E-Bikes (33)
 - **H1:** Azur in Australia — 13 products
 - **Meta:** Azur: shop 13 Azur products, priced from $28. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Browse the range. (142)
@@ -399,7 +399,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Canyon — `/brands/canyon/`
 - **Primary:** canyon electric bike (320/KD 17)
-- **Secondary:** canyon e mtb (140/KD 17); canyon ebikes australia (90/KD 15); canyon emtb (210/KD 24); canyon emtb australia (90/KD 19); canyon electric mountain bike (30/KD 15); canyon road ebike (30/KD 23)
+- **Secondary:** canyon e mtb (140/KD 17); canyon ebikes australia (90/KD 15); canyon emtb (210/KD 24); canyon emtb australia (90/KD 19); canyon electric mountain bike (30/KD 15); canyon road ebike (30/KD 23); canyon e bikes australia (170/KD 23); canyon e bike australia (50/KD 21)
 - **Title:** Canyon Electric Bike — 5 Models | Torque E-Bikes (48)
 - **H1:** Canyon in Australia — 5 products
 - **Meta:** Canyon electric bike: shop 5 Canyon products, bikes from $4,409. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Browse the range. (146)
@@ -444,7 +444,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### DiroDi — `/brands/dirodi/`
 - **Primary:** dirodi (9,900/KD 27)
-- **Secondary:** dirodi electric bike (2,400/KD 19); dirodi rover (1,600/KD 19); dirodi bikes (720/KD 20); dirodi accessories (170/KD 16); dirodi battery (110/KD 14); dirodi charger (90/KD 15); dirodi parts (50/KD 14); dirodi rover e bike (90/KD 17)
+- **Secondary:** dirodi electric bike (2,400/KD 19); dirodi rover (1,600/KD 19); dirodi bikes (720/KD 20); dirodi accessories (170/KD 16); dirodi battery (110/KD 14); dirodi charger (90/KD 15); dirodi parts (50/KD 14); dirodi rover e bike (90/KD 17); dirodi rover plus (170/KD 18)
 - **Title:** Dirodi — 3 Models | Torque E-Bikes (34)
 - **H1:** DiroDi in Australia — 3 products
 - **Meta:** Dirodi: shop 3 DiroDi products, bikes from $2,359. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Browse the range. (147)
@@ -516,7 +516,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Flight Risk — `/brands/flight-risk/`
 - **Primary:** flight risk ebike (2,400/KD 7)
-- **Secondary:** flight risk bikes (1,000/KD 8); flightrisk (880/KD 19); flightrisk ebikes (140/KD 10); flightrisk bike (90/KD 14); flight risk mascot reviews (90/KD 32)
+- **Secondary:** flight risk bikes (1,000/KD 8); flightrisk (880/KD 19); flightrisk ebikes (140/KD 10); flightrisk bike (90/KD 14); flight risk mascot reviews (90/KD 32); flight risk australia (20/KD 12)
 - **Title:** Flight Risk E-Bike — 3 Models | Torque E-Bikes (46)
 - **H1:** Flight Risk in Australia — 3 products
 - **Meta:** Flight risk ebike: shop 3 Flight Risk products, bikes from $2,429. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Browse the range. (148)
@@ -553,7 +553,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Kalkhoff — `/brands/kalkhoff/`
 - **Primary:** kalkhoff e bike (480/KD 6)
-- **Secondary:** kalkhoff (260/KD 14); kalkhoff bikes (140/KD 12); kalkhoff e bike price (20/KD 4); kalkhoff agattu electric bike (20/KD 4); kalkhoff e bike accessories (20/KD 4); kalkhoff endeavor e bike (20/KD 4); kalkhoff endeavour excite lt (20/KD 4); kalkhoff bikes price (20/KD 5)
+- **Secondary:** kalkhoff (260/KD 14); kalkhoff bikes (140/KD 12); kalkhoff e bike price (20/KD 4); kalkhoff agattu electric bike (20/KD 4); kalkhoff e bike accessories (20/KD 4); kalkhoff endeavor e bike (20/KD 4); kalkhoff endeavour excite lt (20/KD 4); kalkhoff bikes price (20/KD 5); kalkhoff electric bike (390/KD 13); kalkhoff australia (30/KD 6)
 - **Title:** Kalkhoff E-Bike — 6 Models | Torque E-Bikes (43)
 - **H1:** Kalkhoff in Australia — 6 products
 - **Meta:** Kalkhoff e bike: shop 6 Kalkhoff products, bikes from $4,465. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Browse the range. (143)
@@ -598,7 +598,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Mamba — `/brands/mamba/`
 - **Primary:** mamba ebike (1,000/KD 8)
-- **Secondary:** mamba ebike parts (20/KD 0); mamba sahara accessories (20/KD 0); mamba battery (20/KD 1); mamba bike (110/KD 9); mamba bike price (20/KD 12)
+- **Secondary:** mamba ebike parts (20/KD 0); mamba sahara accessories (20/KD 0); mamba battery (20/KD 1); mamba bike (110/KD 9); mamba bike price (20/KD 12); mamba electric bike (390/KD 16); mamba australia (20/KD 6)
 - **Title:** Mamba E-Bike — 6 Models | Torque E-Bikes (40)
 - **H1:** Mamba in Australia — 6 products
 - **Meta:** Mamba ebike: shop 6 Mamba products, bikes from $1,709. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Browse the range. (151)
@@ -671,7 +671,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Reid — `/brands/reid/`
 - **Primary:** reid australia [generated] (–/KD –)
-- **Secondary:** reid australia [generated] (–/KD –); reid electric bikes [generated] (–/KD –); reid bikes australia [generated] (–/KD –); reid models [generated] (–/KD –); buy reid [generated] (–/KD –)
+- **Secondary:** reid australia [generated] (–/KD –); reid electric bikes [generated] (–/KD –); reid bikes australia [generated] (–/KD –); reid models [generated] (–/KD –); buy reid [generated] (–/KD –); reid electric bike (320/KD 26)
 - **Title:** Reid Australia — 10 Models | Torque E-Bikes (43)
 - **H1:** Reid in Australia — 10 products
 - **Meta:** Reid australia: shop 10 Reid products, bikes from $1,229. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Browse the range. (154)
@@ -727,7 +727,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### SmartMotion — `/brands/smartmotion/`
 - **Primary:** smart motion ebike (320/KD 5)
-- **Secondary:** smartmotion e bike (260/KD 6); smart motion bikes australia (20/KD 2); smart motion battery (20/KD 3); smartmotion (110/KD 15); smart motion (110/KD 15)
+- **Secondary:** smartmotion e bike (260/KD 6); smart motion bikes australia (20/KD 2); smart motion battery (20/KD 3); smartmotion (110/KD 15); smart motion (110/KD 15); smartmotion electric bike (40/KD 6); smartmotion australia (20/KD 6)
 - **Title:** Smart Motion E-Bike — 6 Models | Torque E-Bikes (47)
 - **H1:** SmartMotion in Australia — 6 products
 - **Meta:** Smart motion ebike: shop 6 SmartMotion products, bikes from $1,229. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Browse the range. (149)
@@ -817,7 +817,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Vamos — `/brands/vamos/`
 - **Primary:** vamos bikes (480/KD 15)
-- **Secondary:** vamos electric bikes (320/KD 12); vamos australia [generated] (–/KD –); vamos bikes australia [generated] (–/KD –); vamos models [generated] (–/KD –); buy vamos [generated] (–/KD –)
+- **Secondary:** vamos electric bikes (320/KD 12); vamos australia [generated] (–/KD –); vamos bikes australia [generated] (–/KD –); vamos models [generated] (–/KD –); buy vamos [generated] (–/KD –); vamos electric bike (170/KD 21); vamos amigo plus (30/KD 4)
 - **Title:** Vamos Bikes — 6 Models | Torque E-Bikes (39)
 - **H1:** Vamos in Australia — 6 products
 - **Meta:** Vamos bikes: shop 6 Vamos products, bikes from $2,659. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Browse the range. (151)
