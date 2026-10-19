@@ -525,11 +525,11 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Giant — `/brands/giant/`
 - **Primary:** giant australia [generated] (–/KD –)
-- **Secondary:** giant australia [generated] (–/KD –); giant electric bikes [generated] (–/KD –); giant bikes australia [generated] (–/KD –); giant models [generated] (–/KD –); buy giant [generated] (–/KD –)
+- **Secondary:** giant australia [generated] (–/KD –); giant electric bikes [generated] (–/KD –); giant bikes australia [generated] (–/KD –); giant models [generated] (–/KD –); buy giant [generated] (–/KD –); giant trance x (880/KD 21); giant electric mountain bike (260/KD 17); giant mountain bike electric (260/KD 23); giant emtb (170/KD 20); giant e bikes australia (140/KD 22); giant electric mountain bikes (50/KD 12); electric giant mountain bike (50/KD 17)
 - **Title:** Giant Australia — 5 Models | Torque E-Bikes (43)
 - **H1:** Giant in Australia — 5 products
 - **Meta:** Giant australia: shop 5 Giant products, bikes from $6,029. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Browse the range. (155)
-- **Supporting (LSI):** none
+- **Supporting (LSI):** none; giant e bike australia; giant electric road bike
 - **Image alt:** giant australia — Giant range at Torque E-Bikes
 - **Notes:** No real-volume brand keyword; primary generated.
 
@@ -736,11 +736,11 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Specialized — `/brands/specialized/`
 - **Primary:** specialized ebike (590/KD 32)
-- **Secondary:** specialized e mtb (50/KD 12); specialized electric mtb (210/KD 31); specialized emtb (170/KD 34); specialized australia [generated] (–/KD –); specialized bikes australia [generated] (–/KD –)
+- **Secondary:** specialized e mtb (50/KD 12); specialized electric mtb (210/KD 31); specialized emtb (170/KD 34); specialized australia [generated] (–/KD –); specialized bikes australia [generated] (–/KD –); specialized turbo levo (480/KD 16); specialized e bikes australia (140/KD 19); specialized electric mountain bike (140/KD 28); specialized turbo vado (110/KD 22); specialised electric mountain bike (70/KD 13); specialised emtb (70/KD 17); specialized turbo como (20/KD 17); specialized turbo kenevo (20/KD 17)
 - **Title:** Specialized E-Bike — 10 Models | Torque E-Bikes (47)
 - **H1:** Specialized in Australia — 10 products
 - **Meta:** Specialized ebike: shop 10 Specialized products, bikes from $4,679. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Browse the range. (149)
-- **Supporting (LSI):** none
+- **Supporting (LSI):** none; specialized electric road bike; specialized turbo creo
 - **Image alt:** specialized ebike — Specialized range at Torque E-Bikes
 
 ### Stark Future — `/brands/stark-future/`
@@ -772,7 +772,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Sur-Ron — `/brands/sur-ron/`
 - **Primary:** surron (27,100/KD 17)
-- **Secondary:** surron e bike (3,600/KD 7); surron bike (1,900/KD 15); surron e bicycle (1,600/KD 28); surron australia (1,300/KD 16); cheap surron (480/KD 8); surron price (480/KD 15); mini surron (390/KD 6); cheapest surron (480/KD 19)
+- **Secondary:** surron e bike (3,600/KD 7); surron bike (1,900/KD 15); surron e bicycle (1,600/KD 28); surron australia (1,300/KD 16); cheap surron (480/KD 8); surron price (480/KD 15); mini surron (390/KD 6); cheapest surron (480/KD 19); sur ron australia (390/KD 19); sur ron electric dirt bike (260/KD 14); surron throttle for ebike (140/KD 13); sur-ron hyper bee (140/KD 14); sur-ron electric dirt bikes (140/KD 19); surron hyper bee electric dirt bike (110/KD 12); sur-ron light bee (110/KD 17); surron electric dirt bikes (70/KD 21)
 - **Title:** Sur-Ron — 16 Models | Torque E-Bikes (36)
 - **H1:** Sur-Ron in Australia — 16 products
 - **Meta:** Sur-Ron: shop 16 Sur-Ron products, bikes from $3,699. Dirt bikes are off-road and private property use only. Ask the team on WhatsApp. Browse the range. (152)
@@ -781,7 +781,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Talaria — `/brands/talaria/`
 - **Primary:** talaria (6,600/KD 26)
-- **Secondary:** talaria ebike (1,000/KD 5); talaria au (480/KD 11); cheap talaria (110/KD 7); talaria price (50/KD 6); price talaria ebike (20/KD 4); talaria australia price (20/KD 4); surron talaria price (20/KD 6); talaria bike price (20/KD 6)
+- **Secondary:** talaria ebike (1,000/KD 5); talaria au (480/KD 11); cheap talaria (110/KD 7); talaria price (50/KD 6); price talaria ebike (20/KD 4); talaria australia price (20/KD 4); surron talaria price (20/KD 6); talaria bike price (20/KD 6); talaria australia (480/KD 20); talaria sting pro (30/KD 6); talaria electric dirt bike (30/KD 12); talaria sting mx (20/KD 5)
 - **Title:** Talaria — 9 Models | Torque E-Bikes (35)
 - **H1:** Talaria in Australia — 9 products
 - **Meta:** Talaria: shop 9 Talaria products, bikes from $1,229. Dirt bikes are off-road and private property use only. Ask the team on WhatsApp. Browse the range. (151)
@@ -808,7 +808,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Trek — `/brands/trek/`
 - **Primary:** trek e bike (1,300/KD 12)
-- **Secondary:** e bike mtb trek (390/KD 17); trek electric mtb (320/KD 19); trek emtb (260/KD 20); trek e bikes australia (320/KD 23); trek electric mountain bike (210/KD 24); trek marlin electric bike (50/KD 14); trek domane al (110/KD 17); trek e mtb (90/KD 18)
+- **Secondary:** e bike mtb trek (390/KD 17); trek electric mtb (320/KD 19); trek emtb (260/KD 20); trek e bikes australia (320/KD 23); trek electric mountain bike (210/KD 24); trek marlin electric bike (50/KD 14); trek domane al (110/KD 17); trek e mtb (90/KD 18); trek australia (2,900/KD 28); trek electric bike (720/KD 20); trek e bike australia (50/KD 17); trek electric road bike (30/KD 17)
 - **Title:** Trek E-Bike — 9 Models | Torque E-Bikes (39)
 - **H1:** Trek in Australia — 9 products
 - **Meta:** Trek e bike: shop 9 Trek products, bikes from $2,999. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Browse the range. (150)
