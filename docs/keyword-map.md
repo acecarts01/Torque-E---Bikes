@@ -197,7 +197,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Suspension & Forks — `/shop/suspension-and-forks/`
 - **Primary:** mountain bike forks (480/KD 26)
-- **Secondary:** bike forks (390/KD 19); mountain bike shocks (140/KD 9); mtb suspension fork (210/KD 14); dirt bike forks (50/KD 8); suspension forks for bikes (90/KD 11); rear shock mtb (70/KD 12); bike shocks (110/KD 16); bicycle front fork suspension (90/KD 17)
+- **Secondary:** bike forks (390/KD 19); mountain bike shocks (140/KD 9); mtb suspension fork (210/KD 14); dirt bike forks (50/KD 8); suspension forks for bikes (90/KD 11); rear shock mtb (70/KD 12); bike shocks (110/KD 16); bicycle front fork suspension (90/KD 17); ebike suspension fork (20/KD 7); dirt bike suspension upgrade (20/KD 10)
 - **Title:** Mountain Bike Forks — Buy Online | Torque E-Bikes (49)
 - **H1:** Mountain Bike Forks in Australia — 12 products
 - **Meta:** Mountain bike forks: shop 12 products from $67 to $1,289 across 3 brands. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Shop now. (147)
