@@ -84,9 +84,9 @@ export const CATALOG_CATEGORIES = [
   "slug": "batteries-chargers-and-electronics",
   "name": "Batteries, Chargers & Electronics",
   "group": "Parts",
-  "description": "Shop 28 batteries, chargers & electronics from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 30 batteries, chargers & electronics from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/79bike-battery-1.webp",
-  "count": 28
+  "count": 30
  },
  {
   "slug": "cargo-bikes-and-e-trikes",
@@ -156,9 +156,9 @@ export const CATALOG_CATEGORIES = [
   "slug": "care-tools-and-hydration",
   "name": "Care, Tools & Hydration",
   "group": "Accessories",
-  "description": "Shop 5 care, tools & hydration from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 8 care, tools & hydration from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/krush-rotor-revive-1.webp",
-  "count": 5
+  "count": 8
  },
  {
   "slug": "locks-and-security",
