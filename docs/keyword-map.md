@@ -336,7 +336,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Aventon — `/brands/aventon/`
 - **Primary:** aventon ebike (880/KD 22)
-- **Secondary:** aventon bikes australia (140/KD 9); aventon ebike australia (140/KD 11); aventon (590/KD 33); aventon bikes (260/KD 17); aventon australia (170/KD 17); aventon electric mountain bike (40/KD 16); aventon ebikes for sale (30/KD 20); aventon ramblas emtb (70/KD 23)
+- **Secondary:** aventon bikes australia (140/KD 9); aventon ebike australia (140/KD 11); aventon (590/KD 33); aventon bikes (260/KD 17); aventon australia (170/KD 17); aventon electric mountain bike (40/KD 16); aventon ebikes for sale (30/KD 20); aventon ramblas emtb (70/KD 23); aventon electric bike (210/KD 25); aventon e bikes australia (50/KD 9); aventon level 4 (50/KD 20)
 - **Title:** Aventon E-Bike — 22 Models | Torque E-Bikes (43)
 - **H1:** Aventon in Australia — 22 products
 - **Meta:** Aventon ebike: shop 22 Aventon products, bikes from $2,199. Shipped Australia-wide from Brisbane. Pay by bank transfer, PayID or crypto. Browse the range. (154)
@@ -390,7 +390,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Cannondale — `/brands/cannondale/`
 - **Primary:** cannondale ebike (170/KD 15)
-- **Secondary:** cannondale electric mountain bikes (50/KD 11); cannondale emtb (70/KD 27); cannondale australia [generated] (–/KD –); cannondale bikes australia [generated] (–/KD –); cannondale models [generated] (–/KD –)
+- **Secondary:** cannondale electric mountain bikes (50/KD 11); cannondale emtb (70/KD 27); cannondale australia [generated] (–/KD –); cannondale bikes australia [generated] (–/KD –); cannondale models [generated] (–/KD –); cannondale electric bike (70/KD 23); cannondale electric mountain bike (50/KD 17); cannondale electric road bike (20/KD 7); cannondale moterra 3 (20/KD 9); cannondale moterra neo (20/KD 21); cannondale topstone neo (20/KD 24)
 - **Title:** Cannondale E-Bike — 14 Models | Torque E-Bikes (46)
 - **H1:** Cannondale in Australia — 14 products
 - **Meta:** Cannondale ebike: shop 14 Cannondale products, bikes from $2,199. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Browse the range. (147)
@@ -417,7 +417,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Cube — `/brands/cube/`
 - **Primary:** cube electric bicycles (720/KD 10)
-- **Secondary:** cube electric mountain bike (210/KD 7); cube reaction hybrid pro 600 (140/KD 8); cube electric bikes australia (140/KD 7); cube electric mtb (170/KD 9); cube cargo bike (70/KD 6); cube reaction hybrid performance 500 (90/KD 7); cube reaction tm one (70/KD 6); cube aim pro (140/KD 10)
+- **Secondary:** cube electric mountain bike (210/KD 7); cube reaction hybrid pro 600 (140/KD 8); cube electric bikes australia (140/KD 7); cube electric mtb (170/KD 9); cube cargo bike (70/KD 6); cube reaction hybrid performance 500 (90/KD 7); cube reaction tm one (70/KD 6); cube aim pro (140/KD 10); cube electric bike (480/KD 21); cube e bikes australia (140/KD 14); cube australia (140/KD 17); cube stereo hybrid (70/KD 8); cube kathmandu hybrid (30/KD 11); cube touring hybrid (30/KD 12)
 - **Title:** Cube Electric Bicycles — 12 Models | Torque E-Bikes (51)
 - **H1:** Cube in Australia — 12 products
 - **Meta:** Cube electric bicycles: shop 12 Cube products, bikes from $2,889. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Browse the range. (147)
@@ -507,7 +507,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Fatboy — `/brands/fatboy/`
 - **Primary:** fatboy bikes (8,100/KD 18)
-- **Secondary:** fatboy ebike (3,600/KD 16); fat boy electric bike (1,000/KD 12); electric fatboy bike (720/KD 15); fatboy electric bike for sale (480/KD 14); fat boy bikes (480/KD 17); fatboy mini bike for sale (90/KD 2); dirodi vs fatboy (90/KD 3); fatboy scrambler v2 vs v3 (50/KD 6)
+- **Secondary:** fatboy ebike (3,600/KD 16); fat boy electric bike (1,000/KD 12); electric fatboy bike (720/KD 15); fatboy electric bike for sale (480/KD 14); fat boy bikes (480/KD 17); fatboy mini bike for sale (90/KD 2); dirodi vs fatboy (90/KD 3); fatboy scrambler v2 vs v3 (50/KD 6); fatboy australia (110/KD 23); fatboy e bike australia (50/KD 21); fatboy ebike battery (20/KD 6); fatboy bike rack (20/KD 6)
 - **Title:** Fatboy Bikes — 30 Models | Torque E-Bikes (41)
 - **H1:** Fatboy in Australia — 30 products
 - **Meta:** Fatboy bikes: shop 30 Fatboy products, bikes from $2,259. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Browse the range. (154)
@@ -617,7 +617,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Merida — `/brands/merida/`
 - **Primary:** merida electric bicycle (880/KD 11)
-- **Secondary:** merida reacto 8000 (390/KD 12); merida scultura 8000 (320/KD 9); merida silex 700 (260/KD 12); merida electric bike price (30/KD 5); merida one sixty 500 (90/KD 12); merida one twenty 300 (170/KD 19); merida speeder 500 (110/KD 14); merida electric mountain bike (210/KD 19)
+- **Secondary:** merida reacto 8000 (390/KD 12); merida scultura 8000 (320/KD 9); merida silex 700 (260/KD 12); merida electric bike price (30/KD 5); merida one sixty 500 (90/KD 12); merida one twenty 300 (170/KD 19); merida speeder 500 (110/KD 14); merida electric mountain bike (210/KD 19); merida electric bike (480/KD 17); merida australia (480/KD 21); merida e bikes australia (90/KD 12)
 - **Title:** Merida Electric Bicycle — 5 Models | Torque E-Bikes (51)
 - **H1:** Merida in Australia — 5 products
 - **Meta:** Merida electric bicycle: shop 5 Merida products, bikes from $3,439. Shipped Australia-wide from Brisbane. Ask the team on WhatsApp. Browse the range. (149)
@@ -635,7 +635,7 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### NCM — `/brands/ncm/`
 - **Primary:** ncm (1,000/KD 30)
-- **Secondary:** e bike ncm (880/KD 5); ncm bikes (390/KD 9); e bike ncm prague (90/KD 7); ncm e bike review (90/KD 6); ncm electric bikes australia (70/KD 13); ncm bikes australia (50/KD 20)
+- **Secondary:** e bike ncm (880/KD 5); ncm bikes (390/KD 9); e bike ncm prague (90/KD 7); ncm e bike review (90/KD 6); ncm electric bikes australia (70/KD 13); ncm bikes australia (50/KD 20); ncm electric bike (210/KD 14); ncm electric mountain bike (20/KD 10); ncm australia (20/KD 4)
 - **Title:** NCM — 9 Models | Torque E-Bikes (31)
 - **H1:** NCM in Australia — 9 products
 - **Meta:** Ncm: shop 9 NCM products, bikes from $1,229. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Browse the range. (141)
