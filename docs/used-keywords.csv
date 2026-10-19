@@ -4412,3 +4412,7 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/brakes/,category,secondary,dirt bike brake rotor,10,6,Transactional,semrush-2026-10-18
 /shop/suspension-and-forks/,category,secondary,ebike suspension fork,20,7,Transactional,semrush-2026-10-18
 /shop/suspension-and-forks/,category,secondary,dirt bike suspension upgrade,20,10,Commercial,semrush-2026-10-18
+/electric-bikes/,category,secondary,pedal electric bike,720,14,Commercial,semrush-2026-10-18
+/electric-bikes/,category,secondary,pedal e bike,590,17,Commercial,semrush-2026-10-18
+/electric-bikes/,category,secondary,pedal electric bikes,480,15,Commercial,semrush-2026-10-18
+/electric-bikes/,category,lsi,pedal e bikes,140,15,Commercial,semrush-2026-10-18

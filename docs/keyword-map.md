@@ -30,11 +30,11 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ### Electric Bikes (all e-bikes hub) — `/electric-bikes/`
 - **Primary:** ebike (33,100/KD 17)
-- **Secondary:** e bike electric (5,400/KD 16); bicycle electric bicycle (5,400/KD 17); electric commuter bike (1,900/KD 13); electric bikes australia (1,900/KD 17); good electric bicycle (1,600/KD 15); e moto (1,300/KD 19); cool electric bicycle (1,600/KD 20); ebike fastest (1,300/KD 8)
+- **Secondary:** e bike electric (5,400/KD 16); bicycle electric bicycle (5,400/KD 17); electric commuter bike (1,900/KD 13); electric bikes australia (1,900/KD 17); good electric bicycle (1,600/KD 15); e moto (1,300/KD 19); cool electric bicycle (1,600/KD 20); ebike fastest (1,300/KD 8); pedal electric bike (720/KD 14); pedal e bike (590/KD 17); pedal electric bikes (480/KD 15)
 - **Title:** E-Bikes — Buy Online | Torque E-Bikes (37)
 - **H1:** E-Bikes — compare and buy in Australia
 - **Meta:** E-bike: compare e-bikes by type and price and buy online. Shipped Australia-wide from Brisbane. Battery freight is Class 9 DG certified. Browse the range. (154)
-- **Supporting (LSI):** bicycle bike electric, electric cycle for adults, e bike that folds, ebike commute, e bikes sale, mini e bike, electric bicycle adults, ebike in australia, fast electric bicycles, e-bikes under $1000, bicycle adult electric, electric bicycle mountain bike
+- **Supporting (LSI):** bicycle bike electric, electric cycle for adults, e bike that folds, ebike commute, e bikes sale, mini e bike, electric bicycle adults, ebike in australia, fast electric bicycles, e-bikes under $1000, bicycle adult electric, electric bicycle mountain bike; pedal e bikes
 - **Image alt:** ebike — e-bikes available from Torque E-Bikes
 
 ### Budget Electric Bikes — `/electric-bikes/budget/`
