@@ -77,9 +77,9 @@
 
 ## Best Electric Dirt Bikes in Australia: Choosing by Rider and Terrain
 - **URL:** `/blog/best-electric-dirt-bikes-in-australia/` · **Type:** Listicle / buyer guide · **Funnel:** Bottom · **Week:** 1 · **Target length:** 1500 words · **Status:** new
-- **Primary:** electric dirt bikes guide [generated] (–/KD –)
-- **Secondary:** electric dirt bikes in guide [generated] (–/KD –); how to choose electric dirt bikes in [generated] (–/KD –); electric dirt bikes in explained [generated] (–/KD –); electric dirt bikes in for beginners [generated] (–/KD –); electric dirt bikes in tips [generated] (–/KD –)
-- **Cluster demand:** 0 monthly searches (0 real keywords)
+- **Primary:** off road electric dirt bike (70/KD 16)
+- **Secondary:** electric dirt bikes guide [generated] (–/KD –); electric dirt bikes in guide [generated] (–/KD –); how to choose electric dirt bikes in [generated] (–/KD –); electric dirt bikes in explained [generated] (–/KD –); electric dirt bikes in for beginners [generated] (–/KD –)
+- **Cluster demand:** 70 monthly searches (1 real keywords)
 - **Aim:** Rank electric dirt bikes by rider type and terrain using the catalogue. Compliance: every bike is off-road and private property use only.
 - **Definition hook:** The best electric dirt bike depends on rider size, terrain and budget. Lightweight models suit beginners and trails, while higher-power bikes suit experienced riders on tracks.
 - **SERP notes:** No SERP-feature data in the export
@@ -168,8 +168,8 @@
 ## E-Bike Conversion Kits Explained: Motors, Batteries and What to Buy
 - **URL:** `/blog/e-bike-conversion-kits-explained/` · **Type:** Guide (pillar) · **Funnel:** Middle · **Week:** 2 · **Target length:** 3200 words · **Status:** new
 - **Primary:** conversion kit (5,400/KD 6)
-- **Secondary:** cycle conversion kit (170/KD 5); conversion kit with bike (70/KD 6); conversion kit guide [generated] (–/KD –); how to choose conversion kit [generated] (–/KD –); conversion kit explained [generated] (–/KD –)
-- **Cluster demand:** 5,640 monthly searches (3 real keywords)
+- **Secondary:** cycle conversion kit (170/KD 5); e bike conversion kit with battery australia (90/KD 1); conversion kit with bike (70/KD 6); conversion kit guide [generated] (–/KD –); how to choose conversion kit [generated] (–/KD –)
+- **Cluster demand:** 5,730 monthly searches (4 real keywords)
 - **Aim:** Capture the very low-difficulty "conversion kit" searches and route buyers to the conversion kit category. Must state that kits above 250W are off-road only. Link the existing DIY 2000W post for the step-by-step.
 - **Definition hook:** An e-bike conversion kit adds a motor, battery and controller to an existing bicycle. Kits above 250W are for off-road and private property use only in Australia.
 - **SERP notes:** People also ask: fold the matching PAA questions into the FAQ · Video: embed or link one explainer video · AI Overview: open with a fact-first definition hook
@@ -199,8 +199,8 @@
 ## Electric Mountain Bike Buying Guide: Hardtail vs Full-Suspension E-MTBs
 - **URL:** `/blog/electric-mountain-bike-buying-guide/` · **Type:** Guide · **Funnel:** Middle · **Week:** 2 · **Target length:** 1500 words · **Status:** new
 - **Primary:** mountain e cycle (1,900/KD 17)
-- **Secondary:** electric mountain (90/KD 13); mountain e cycle guide [generated] (–/KD –); how to choose mountain e cycle [generated] (–/KD –); mountain e cycle explained [generated] (–/KD –); mountain e cycle for beginners [generated] (–/KD –)
-- **Cluster demand:** 1,990 monthly searches (2 real keywords)
+- **Secondary:** electric mountain (90/KD 13); electric full suspension mtb (40/KD 6); electric mountain bike with full suspension (40/KD 17); mountain e cycle guide [generated] (–/KD –); how to choose mountain e cycle [generated] (–/KD –)
+- **Cluster demand:** 2,070 monthly searches (4 real keywords)
 - **Aim:** Capture e-MTB searches and send readers to the e-mountain bikes category. Real brands are in the catalogue; no ratings or awards.
 - **Definition hook:** An electric mountain bike is a mountain bike with a pedal-assist motor and battery. Hardtails suit smoother trails and budgets, while full-suspension e-MTBs suit rough terrain.
 - **SERP notes:** People also ask: fold the matching PAA questions into the FAQ · Image pack: add a well-named hero image with keyword alt text · Video: embed or link one explainer video · AI Overview: open with a fact-first definition hook · Reviews: only show verified reviews
@@ -260,8 +260,8 @@
 ## Folding Electric Bikes: Are They Worth It? A Buyer’s Guide
 - **URL:** `/blog/folding-electric-bikes/` · **Type:** Guide · **Funnel:** Middle · **Week:** 3 · **Target length:** 1500 words · **Status:** new
 - **Primary:** electric folding cycle (590/KD 6)
-- **Secondary:** bag for foldable bike (170/KD 8); electric folding cycle guide [generated] (–/KD –); how to choose electric folding cycle [generated] (–/KD –); electric folding cycle explained [generated] (–/KD –); electric folding cycle for beginners [generated] (–/KD –)
-- **Cluster demand:** 760 monthly searches (2 real keywords)
+- **Secondary:** ebike that folds (480/KD 24); e bikes folding (390/KD 8); fold it bike (210/KD 21); foldable bike folded (210/KD 18); bag for foldable bike (170/KD 8)
+- **Cluster demand:** 2,050 monthly searches (6 real keywords)
 - **Aim:** Capture folding e-bike searches and funnel to the folding category.
 - **Definition hook:** A folding e-bike is an electric bike with a hinged frame that folds for storage and transport. It suits small homes, car boots and mixed-mode commuting.
 - **SERP notes:** People also ask: fold the matching PAA questions into the FAQ · Image pack: add a well-named hero image with keyword alt text · Popular products: add Product schema and link to the matching category · Video: embed or link one explainer video · AI Overview: open with a fact-first definition hook · Reviews: only show verified reviews
@@ -350,8 +350,8 @@
 ## E-Bike Lights: How to Choose Front and Rear Lights
 - **URL:** `/blog/e-bike-lights/` · **Type:** Guide · **Funnel:** Middle · **Week:** 4 · **Target length:** 1500 words · **Status:** new
 - **Primary:** led light on bike (140/KD 14)
-- **Secondary:** headlight of bike (140/KD 16); dirt bike headlight (110/KD 8); led light bike headlight (90/KD 8); electric horn for cycle (50/KD 14); led light on bike guide [generated] (–/KD –)
-- **Cluster demand:** 530 monthly searches (5 real keywords)
+- **Secondary:** headlight of bike (140/KD 16); dirt bike headlight (110/KD 8); led light bike headlight (90/KD 8); bike with headlight (90/KD 17); electric horn for cycle (50/KD 14)
+- **Cluster demand:** 620 monthly searches (6 real keywords)
 - **Aim:** Capture bike light searches for the lights and horns category.
 - **Definition hook:** E-bike lights make you visible and let you see the path. A front light and a rear light should both be bright enough for the conditions and mounted securely.
 - **SERP notes:** People also ask: fold the matching PAA questions into the FAQ · Image pack: add a well-named hero image with keyword alt text · Popular products: add Product schema and link to the matching category · Video: embed or link one explainer video · AI Overview: open with a fact-first definition hook
@@ -380,8 +380,8 @@
 ## Commuter E-Bikes: Step-Through, Hybrid and City Models Compared
 - **URL:** `/blog/commuter-e-bikes/` · **Type:** Guide · **Funnel:** Middle · **Week:** 4 · **Target length:** 1500 words · **Status:** new
 - **Primary:** retro cruiser electric bike (90/KD 5)
-- **Secondary:** retro cruiser electric bike guide [generated] (–/KD –); how to choose retro cruiser electric bike [generated] (–/KD –); retro cruiser electric bike explained [generated] (–/KD –); retro cruiser electric bike for beginners [generated] (–/KD –); retro cruiser electric bike tips [generated] (–/KD –)
-- **Cluster demand:** 90 monthly searches (1 real keywords)
+- **Secondary:** hybrid bike what is (260/KD 20); hybrid commuter bikes (90/KD 17); hybrid bike australia (90/KD 9); commuter bikes australia (90/KD 10); bike hybrids (70/KD 20)
+- **Cluster demand:** 690 monthly searches (6 real keywords)
 - **Aim:** Capture commuter and city e-bike searches.
 - **Definition hook:** A commuter e-bike is a pedal-assist bike built for daily city riding, with mudguards, lights and a rack. Step-through frames make mounting easy.
 - **SERP notes:** People also ask: fold the matching PAA questions into the FAQ · Image pack: add a well-named hero image with keyword alt text · Popular products: add Product schema and link to the matching category · Video: embed or link one explainer video · AI Overview: open with a fact-first definition hook · Reviews: only show verified reviews
@@ -437,9 +437,9 @@
 
 ## E-Bike Brands in Australia: A Plain-English Comparison
 - **URL:** `/blog/e-bike-brands-in-australia/` · **Type:** Comparison · **Funnel:** Middle · **Week:** 5 · **Target length:** 1500 words · **Status:** new
-- **Primary:** e-bike brands guide [generated] (–/KD –)
+- **Primary:** ebike brands australia (50/KD 13)
 - **Secondary:** norco (8,100/KD 22); ebox (4,400/KD 15); focus bikes (1,300/KD 20); orbea (1,300/KD 23); malvern star bike (1,000/KD 9)
-- **Cluster demand:** 16,100 monthly searches (5 real keywords)
+- **Cluster demand:** 16,150 monthly searches (6 real keywords)
 - **Aim:** Compare e-bike brands by what they make, not by hype. Only describe brands the shop lists, using catalogue facts; no ratings or awards.
 - **Definition hook:** E-bike brands differ mainly by bike type, price band and parts quality. This guide groups the brands listed at Torque E-Bikes by what each one makes.
 - **SERP notes:** No SERP-feature data in the export
@@ -467,8 +467,8 @@
 ## Sur-Ron Models Explained: Light Bee, Ultra Bee, Storm Bee and Hyper Bee
 - **URL:** `/blog/sur-ron-models-explained/` · **Type:** Explainer / comparison · **Funnel:** Middle · **Week:** 5 · **Target length:** 1500 words · **Status:** new
 - **Primary:** surron lightbee (480/KD 23)
-- **Secondary:** surron hyperbee (210/KD 8); surron ultra bee hp (170/KD 11); e bikes ultra bee (70/KD 11); surron lightbee x (50/KD 25); surron lightbee guide [generated] (–/KD –)
-- **Cluster demand:** 980 monthly searches (5 real keywords)
+- **Secondary:** sur ron bikes (720/KD 27); e bikes ultra bee (70/KD 11); surron hyperbee (210/KD 8); surron ultra bee hp (170/KD 11); surron lightbee x (50/KD 25)
+- **Cluster demand:** 1,700 monthly searches (6 real keywords)
 - **Aim:** Serve the many "light bee / ultra bee / hyper bee" searches and funnel to the Sur-Ron hub and product pages. Specifications must be copied from the manufacturer page and cited; none are assumed here.
 - **Definition hook:** Sur-Ron makes several electric off-road bike models, including the Light Bee, Ultra Bee, Storm Bee and Hyper Bee. They differ in power, battery and intended use.
 - **SERP notes:** People also ask: fold the matching PAA questions into the FAQ · Video: embed or link one explainer video · AI Overview: open with a fact-first definition hook · Reviews: only show verified reviews
@@ -498,8 +498,8 @@
 ## Electric Cargo Bikes: What to Know Before You Buy
 - **URL:** `/blog/electric-cargo-bikes/` · **Type:** Guide · **Funnel:** Middle · **Week:** 5 · **Target length:** 1500 words · **Status:** new
 - **Primary:** e bike with cargo trailer (50/KD 14)
-- **Secondary:** e bike with cargo trailer guide [generated] (–/KD –); how to choose e bike with cargo trailer [generated] (–/KD –); e bike with cargo trailer explained [generated] (–/KD –); e bike with cargo trailer for beginners [generated] (–/KD –); e bike with cargo trailer tips [generated] (–/KD –)
-- **Cluster demand:** 50 monthly searches (1 real keywords)
+- **Secondary:** cargo bikes australia (170/KD 17); ebike with cargo (70/KD 28); cargo e bikes australia (30/KD 4); electric bikes with cargo (30/KD 26); front cargo bike (30/KD 3)
+- **Cluster demand:** 380 monthly searches (6 real keywords)
 - **Aim:** Capture electric cargo bike searches.
 - **Definition hook:** An electric cargo bike is an e-bike built to carry loads, children or shopping. Longtail and box designs trade length and handling for capacity.
 - **SERP notes:** People also ask: fold the matching PAA questions into the FAQ · Image pack: add a well-named hero image with keyword alt text · Popular products: add Product schema and link to the matching category · Video: embed or link one explainer video · AI Overview: open with a fact-first definition hook · Reviews: only show verified reviews
@@ -557,9 +557,9 @@
 
 ## Best Helmets and Protective Gear for E-Bikes and Electric Dirt Bikes
 - **URL:** `/blog/helmets-and-protective-gear-for-e-bikes/` · **Type:** Listicle / guide · **Funnel:** Middle · **Week:** 6 · **Target length:** 1500 words · **Status:** new
-- **Primary:** ebike helmet guide [generated] (–/KD –)
-- **Secondary:** how to choose a bike helmet [generated] (–/KD –); bike helmet sizing [generated] (–/KD –); what to wear when riding an ebike [generated] (–/KD –); dirt bike gear for beginners [generated] (–/KD –); ebike protective gear guide [generated] (–/KD –)
-- **Cluster demand:** 0 monthly searches (0 real keywords)
+- **Primary:** e bike helmet australia (70/KD 6)
+- **Secondary:** electric dirt bike helmet (20/KD 7); ebike helmet guide [generated] (–/KD –); how to choose a bike helmet [generated] (–/KD –); bike helmet sizing [generated] (–/KD –); what to wear when riding an ebike [generated] (–/KD –)
+- **Cluster demand:** 90 monthly searches (2 real keywords)
 - **Aim:** Capture the bike helmet and protective-gear searches that fit the stocked helmets and protection range (MX, kids, smart helmets, goggles, gloves, armour).
 - **Definition hook:** The right helmet depends on how you ride. E-bike commuters need a certified bike helmet, while electric dirt bike riders need a full-face motocross helmet plus goggles, gloves and body armour.
 - **SERP notes:** No SERP-feature data in the export
@@ -677,9 +677,9 @@
 
 ## Electric Balance Bikes: What They Are and How to Choose One
 - **URL:** `/blog/electric-balance-bikes/` · **Type:** Guide · **Funnel:** Middle · **Week:** 7 · **Target length:** 1500 words · **Status:** new
-- **Primary:** electric balance bikes guide [generated] (–/KD –)
-- **Secondary:** electric balance bikes guide [generated] (–/KD –); how to choose electric balance bikes [generated] (–/KD –); electric balance bikes explained [generated] (–/KD –); electric balance bikes for beginners [generated] (–/KD –); electric balance bikes tips [generated] (–/KD –)
-- **Cluster demand:** 0 monthly searches (0 real keywords)
+- **Primary:** balance and pedal bike (140/KD 8)
+- **Secondary:** balance bike to pedal bike (140/KD 7); electric balance bikes guide [generated] (–/KD –); electric balance bikes guide [generated] (–/KD –); how to choose electric balance bikes [generated] (–/KD –); electric balance bikes explained [generated] (–/KD –)
+- **Cluster demand:** 280 monthly searches (2 real keywords)
 - **Aim:** Catalogue-derived guide for electric balance bike searches (many in the category cluster).
 - **Definition hook:** An electric balance bike is a pedal-free kids’ bike with a small motor. It helps children learn balance and throttle control with limited power.
 - **SERP notes:** No SERP-feature data in the export
@@ -823,8 +823,8 @@
 ## Chain, Sprocket and Drivetrain Care for E-Bikes and Dirt Bikes
 - **URL:** `/blog/chain-alignment-high-torque-motors/` · **Type:** How-to guide · **Funnel:** Top · **Week:** 9 · **Target length:** 1500 words · **Status:** refresh (existing: chain-alignment-high-torque-motors)
 - **Primary:** cycle sprocket (170/KD 11)
-- **Secondary:** sprocket in bike (170/KD 13); new bike chain (90/KD 12); ebike maintenance (50/KD 13); cycle sprocket guide [generated] (–/KD –); how to choose cycle sprocket [generated] (–/KD –)
-- **Cluster demand:** 480 monthly searches (4 real keywords)
+- **Secondary:** bike and chain (390/KD 10); sprocket in bike (170/KD 13); chain for bike (110/KD 16); new bike chain (90/KD 12); ebike maintenance (50/KD 13)
+- **Cluster demand:** 980 monthly searches (6 real keywords)
 - **Aim:** Refresh the existing chain alignment post to also cover sprocket, chain and maintenance searches, and link to the drivetrain products.
 - **Definition hook:** E-bike and electric dirt bike chains and sprockets wear faster under motor torque. Keep the chain clean, lightly lubricated and correctly tensioned, and replace worn sprockets as a set.
 - **SERP notes:** People also ask: fold the matching PAA questions into the FAQ · Image pack: add a well-named hero image with keyword alt text · Popular products: add Product schema and link to the matching category · Video: embed or link one explainer video · Reviews: only show verified reviews
@@ -881,8 +881,8 @@
 ## E-Bike Grips, Pedals and Handlebar Controls: What Fits
 - **URL:** `/blog/e-bike-grips-pedals-and-handlebar-controls/` · **Type:** How-to guide · **Funnel:** Top · **Week:** 9 · **Target length:** 1500 words · **Status:** new
 - **Primary:** pedal of a bike (320/KD 10)
-- **Secondary:** cycle grip (260/KD 13); pedal on a bike (260/KD 18); bikes with pedals (140/KD 9); pedal of a bike guide [generated] (–/KD –); how to choose pedal of a bike [generated] (–/KD –)
-- **Cluster demand:** 980 monthly searches (4 real keywords)
+- **Secondary:** cycle grip (260/KD 13); pedal on a bike (260/KD 18); bikes with pedals (140/KD 9); bike throttle control (20/KD 7); pedal of a bike guide [generated] (–/KD –)
+- **Cluster demand:** 1,000 monthly searches (5 real keywords)
 - **Aim:** Capture grip, pedal and handlebar searches and link to the controls, grips and pedals category.
 - **Definition hook:** Grips, pedals and handlebar controls are the contact points on an e-bike. Match the grip diameter, pedal thread and controller connector to your bike before you order.
 - **SERP notes:** People also ask: fold the matching PAA questions into the FAQ · Image pack: add a well-named hero image with keyword alt text · Popular products: add Product schema and link to the matching category · Video: embed or link one explainer video
@@ -940,8 +940,8 @@
 ## Pedal Assist vs Throttle: How E-Bike Motors Deliver Power
 - **URL:** `/blog/pedal-assist-vs-throttle/` · **Type:** Explainer · **Funnel:** Top · **Week:** 10 · **Target length:** 1500 words · **Status:** new
 - **Primary:** throttle bike (90/KD 6)
-- **Secondary:** throttle of bike (70/KD 7); throttle bike guide [generated] (–/KD –); how to choose throttle bike [generated] (–/KD –); throttle bike explained [generated] (–/KD –); throttle bike for beginners [generated] (–/KD –)
-- **Cluster demand:** 160 monthly searches (2 real keywords)
+- **Secondary:** pedal assist electric bike (1,000/KD 21); electric pedal assist bike (320/KD 13); pedal assist e bike (170/KD 12); pedal bikes with electric assist (170/KD 19); throttle of bike (70/KD 7)
+- **Cluster demand:** 1,820 monthly searches (6 real keywords)
 - **Aim:** Capture throttle and pedal-assist searches and link to controls and commuter e-bikes.
 - **Definition hook:** A pedal-assist e-bike adds motor power as you pedal, while a throttle e-bike adds power when you twist or press a throttle. Some bikes offer both.
 - **SERP notes:** People also ask: fold the matching PAA questions into the FAQ · Image pack: add a well-named hero image with keyword alt text · Popular products: add Product schema and link to the matching category · Video: embed or link one explainer video · AI Overview: open with a fact-first definition hook · Reviews: only show verified reviews
@@ -1029,8 +1029,8 @@
 ## What Is an E-Moto? Electric Motorbikes vs E-Bikes Explained
 - **URL:** `/blog/what-is-an-e-moto/` · **Type:** Explainer · **Funnel:** Top · **Week:** 11 · **Target length:** 1500 words · **Status:** new
 - **Primary:** emoto (1,000/KD 24)
-- **Secondary:** emoto guide [generated] (–/KD –); how to choose emoto [generated] (–/KD –); emoto explained [generated] (–/KD –); emoto for beginners [generated] (–/KD –); emoto tips [generated] (–/KD –)
-- **Cluster demand:** 1,000 monthly searches (1 real keywords)
+- **Secondary:** emoto bikes (40/KD 13); emoto electric bike (10/KD 11); emoto guide [generated] (–/KD –); how to choose emoto [generated] (–/KD –); emoto explained [generated] (–/KD –)
+- **Cluster demand:** 1,050 monthly searches (3 real keywords)
 - **Aim:** Capture "emoto / e moto / electric motorbike" searches and clarify off-road status.
 - **Definition hook:** An e-moto is an electric motorbike-style machine with a throttle and no pedal-assist limit. In Australia, e-motos are for off-road and private property use only.
 - **SERP notes:** People also ask: fold the matching PAA questions into the FAQ · Video: embed or link one explainer video · AI Overview: open with a fact-first definition hook · Reviews: only show verified reviews
@@ -1115,9 +1115,9 @@
 
 ## E-Bike Batteries: Voltage, Charging and Lithium Safety
 - **URL:** `/blog/electric-moto-maintenance-lithium-safety/` · **Type:** Guide · **Funnel:** Top · **Week:** 12 · **Target length:** 1500 words · **Status:** refresh (existing: electric-moto-maintenance-lithium-safety)
-- **Primary:** e-bike batteries guide [generated] (–/KD –)
-- **Secondary:** e-bike batteries guide [generated] (–/KD –); how to choose e-bike batteries [generated] (–/KD –); e-bike batteries explained [generated] (–/KD –); e-bike batteries for beginners [generated] (–/KD –); e-bike batteries tips [generated] (–/KD –)
-- **Cluster demand:** 0 monthly searches (0 real keywords)
+- **Primary:** e bike battery charging (140/KD 6)
+- **Secondary:** e-bike batteries guide [generated] (–/KD –); e-bike batteries guide [generated] (–/KD –); how to choose e-bike batteries [generated] (–/KD –); e-bike batteries explained [generated] (–/KD –); e-bike batteries for beginners [generated] (–/KD –)
+- **Cluster demand:** 140 monthly searches (1 real keywords)
 - **Aim:** Refresh the existing lithium safety post to capture voltage and battery questions (36V vs 48V, 52V, 72V) and link to the batteries category. Few exported keywords, so label as partly catalogue-derived.
 - **Definition hook:** An e-bike battery is a rechargeable lithium pack rated in volts and amp-hours. Voltage affects power delivery and capacity affects range.
 - **SERP notes:** No SERP-feature data in the export
