@@ -12,6 +12,7 @@ export const metadata: Metadata = generatePageMetadata({
 export default function PrivacyPage() {
   return (
     <LegalPage
+      path="/privacy/"
       title="Privacy Policy"
       updated="13 October 2026"
       intro={`${BRAND.entityName} (ABN ${BRAND.abn}), trading as ${BRAND.tradingName}, handles personal information in line with the Privacy Act 1988 (Cth) and the Australian Privacy Principles.`}

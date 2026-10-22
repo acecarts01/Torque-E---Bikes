@@ -12,6 +12,7 @@ export const metadata: Metadata = generatePageMetadata({
 export default function ShippingReturnsPage() {
   return (
     <LegalPage
+      path="/shipping-returns/"
       title="Shipping & Returns"
       updated="13 October 2026"
       intro={`${BRAND.tradingName} ships Australia-wide from ${CONTACT.hq}. This policy forms part of our Terms & Conditions.`}

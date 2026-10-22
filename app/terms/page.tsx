@@ -12,6 +12,7 @@ export const metadata: Metadata = generatePageMetadata({
 export default function TermsPage() {
   return (
     <LegalPage
+      path="/terms/"
       title="Terms & Conditions"
       updated="13 October 2026"
       intro={`These terms apply to all purchases from ${SITE.domain}. In them, "we", "us" and "our" mean ${BRAND.entityName} (ABN ${BRAND.abn}, ACN ${BRAND.acn}) trading as ${BRAND.tradingName}. By placing an order you agree to these terms.`}
