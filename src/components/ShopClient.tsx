@@ -10,7 +10,7 @@ import { ProductCardSkeleton } from '@/src/components/Skeleton'
 import { CATEGORIES } from '@/src/config/site'
 import { Zap, ShieldAlert, LayoutGrid } from 'lucide-react'
 
-export default function ShopClient({ initial, total }: { initial: any[]; total: number }) {
+export default function ShopClient({ initial, total, children }: { initial: any[]; total: number; children?: React.ReactNode }) {
   const [PRODUCTS, setAll] = useState<any[]>(initial)
   const [loaded, setLoaded] = useState(false)
   useEffect(() => {
@@ -190,6 +190,7 @@ export default function ShopClient({ initial, total }: { initial: any[]; total: 
             </div>
           </div>
         </section>
+        <div className="container mx-auto px-4">{children}</div>
       </main>
 
       <Footer />
