@@ -6,7 +6,7 @@ import { Truck, Zap, ShieldCheck, BadgeCheck } from 'lucide-react'
 import { SHOP, BRAND } from '@/src/config/site'
 
 const announcements: { text: string; icon: typeof Truck; href?: string }[] = [
-  { text: `ABN VERIFIED · ${BRAND.abn} · CHECK IT ON ABN LOOKUP`, icon: BadgeCheck, href: BRAND.abnLookupUrl },
+  { text: `ABN VERIFIED · ${BRAND.abn} · CHECK IT ON ABN LOOKUP`, icon: BadgeCheck, href: BRAND.abnCheckPath },
   { text: `FREE SHIPPING ON ORDERS FROM $${SHOP.freeShippingThreshold.toLocaleString('en-AU')}`, icon: Truck },
   { text: `${SHOP.cryptoDiscount}% CRYPTO DISCOUNT AUTOMATICALLY APPLIED ON BTC/USDT`, icon: Zap },
   { text: `MINIMUM ORDER $${SHOP.minOrder} AUD`, icon: ShieldCheck }

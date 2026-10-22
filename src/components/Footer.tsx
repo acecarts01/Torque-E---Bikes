@@ -66,7 +66,7 @@ export default function Footer() {
         {/* ABN badge */}
         <div className="flex justify-center mb-8">
           <a
-            href={BRAND.abnLookupUrl}
+            href={BRAND.abnCheckPath}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 border border-[#35c17a]/40 bg-[#35c17a]/10 text-[#35c17a] hover:bg-[#35c17a]/20 rounded-full px-5 py-2.5 text-[10px] font-black uppercase tracking-widest transition-colors"
@@ -83,7 +83,7 @@ export default function Footer() {
             <p className="text-[9px] text-gray-500 font-bold uppercase tracking-widest leading-relaxed">
               &copy; {currentYear} {BRAND.tradingName}, a trading name of {BRAND.entityName}.
               <span className="mx-2 text-white/20">|</span>
-              ABN <a href={BRAND.abnLookupUrl} target="_blank" rel="noopener noreferrer" className="text-[#ff6a1a] underline underline-offset-2 hover:text-white" aria-label={`ABN ${BRAND.abn}: verify on ABN Lookup (opens in a new tab)`}>{BRAND.abn}</a> <span className="mx-2 text-white/20">|</span> ACN {BRAND.acn}
+              ABN <a href={BRAND.abnCheckPath} target="_blank" rel="noopener noreferrer" className="text-[#ff6a1a] underline underline-offset-2 hover:text-white" aria-label={`ABN ${BRAND.abn}: verify on ABN Lookup (opens in a new tab)`}>{BRAND.abn}</a> <span className="mx-2 text-white/20">|</span> ACN {BRAND.acn}
             </p>
             <p className="text-[8px] text-gray-500 mt-1 uppercase tracking-[0.2em]">
               <Link href="/terms/" className="hover:text-[#ff6a1a]">Terms &amp; Conditions</Link>

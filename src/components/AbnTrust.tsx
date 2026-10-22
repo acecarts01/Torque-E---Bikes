@@ -23,7 +23,7 @@ export default function AbnTrust() {
               lookup is free and open to anyone.
             </p>
             <a
-              href={BRAND.abnLookupUrl}
+              href={BRAND.abnCheckPath}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-brand-red text-[#140800] font-black uppercase tracking-widest text-xs px-6 py-4 rounded-sm hover:bg-white transition-colors"

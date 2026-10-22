@@ -16,6 +16,7 @@ export function GET() {
     'Disallow: /order/',
     'Disallow: /checkout/',
     'Disallow: /api/',
+    'Disallow: /abn-lookup/',
     '',
     `Sitemap: https://${SITE.domain}/sitemap.xml`,
     ''
