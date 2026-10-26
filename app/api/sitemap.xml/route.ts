@@ -5,7 +5,7 @@ import { brandSlugs } from '@/src/lib/hubs'
 import { getSeo } from '@/src/lib/seo'
 
 // Date the catalogue and prices were last changed. Update it when products or prices change; it is a real date, not "today".
-const CATALOGUE_UPDATED = '2026-10-16'
+const CATALOGUE_UPDATED = '2026-10-26'
 
 const esc = (t: string) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 const url = (loc: string, lastmod?: string, images = '') =>

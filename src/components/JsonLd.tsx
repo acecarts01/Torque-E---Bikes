@@ -1,6 +1,6 @@
 // src/components/JsonLd.tsx
 import React from 'react'
-import { SITE, CONTACT, BRAND } from '@/src/config/site'
+import { SITE, CONTACT, BRAND, SHOP } from '@/src/config/site'
 import PRICE_RANGE from '@/src/config/price-range.generated.json'
 
 export default function JsonLd({ type, data }: { type: string, data?: any }) {
@@ -61,7 +61,23 @@ export default function JsonLd({ type, data }: { type: string, data?: any }) {
         "priceCurrency": SITE.currency,
         "price": data.price,
         "availability": "https://schema.org/InStock",
-        "seller": { "@type": "Organization", "name": SITE.name }
+        "seller": { "@type": "Organization", "name": SITE.name },
+        // mirrors /shipping-returns/: shipping is a % of goods and free above the threshold; returns are agreed case by case
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": data.price >= SHOP.freeShippingThreshold ? 0 : Math.round(data.price * SHOP.shippingRate) / 100,
+            "currency": SITE.currency
+          },
+          "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "AU" }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "AU",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnUnspecified",
+          "url": `https://${SITE.domain}/shipping-returns/`
+        }
       }
     }
   }
