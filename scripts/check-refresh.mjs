@@ -11,13 +11,14 @@ const P = JSON.parse(S.match(/CATALOG_PRODUCTS = (\[[\s\S]*\])/)[1].replace(/;\s
 const ok = new Set([...P.map(p => `/shop/${p.category}/${p.slug}/`), ...P.map(p => `/shop/${p.category}/`), '/shop/', '/electric-bikes/', '/electric-bikes/budget/', '/faq/', '/contact/', '/about/', '/blog/', '/tools/conversion-kit-finder/', '/shipping-returns/', '/wholesale/'])
 const brands = fs.readFileSync('docs/keyword-ranking.csv', 'utf8') + fs.readFileSync('docs/used-keywords.csv', 'utf8')
 const allMeta = [...BLOG_META, ...NEW_META].filter(m => !isMerged(m.slug)).map(m => applyMeta(m, REFRESH_META[m.slug]))
+const brandSlugs = new Set(P.map(p => String(p.brand).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')))
 const postUrls = new Set(allMeta.map(m => m.url))
 const subjects = allMeta.filter(m => m.focus)
 let bad = 0
 for (const m of subjects) {
   const b = applyBody({ ...BLOG_BODIES, ...NEW_BODIES }[m.slug], REFRESH_BODY[m.slug])
   const hrefs = [...JSON.stringify([b.intro, b.sections, b.faq]).matchAll(/\]\(([^)]+)\)/g)].map(x => x[1]).concat((m.related || []).map(r => r.href), (m.links.to || []).map(l => l[0]), (m.links.from || []).map(l => l[0]))
-  const miss = [...new Set(hrefs.filter(h => h.startsWith('/') && !ok.has(h) && !postUrls.has(h) && !(h.startsWith('/brands/') && brands.includes(h))))]
+  const miss = [...new Set(hrefs.filter(h => h.startsWith('/') && !ok.has(h) && !postUrls.has(h) && !(h.startsWith('/brands/') && (brands.includes(h) || brandSlugs.has(h.split('/')[2])))))]
   const imgs = [m.image.file, ...b.sections.filter(s => s.img).map(s => s.img.file)].filter(f => !fs.existsSync('public/images/' + f))
   if (miss.length || imgs.length) { bad++; console.log('PROBLEM', m.slug, 'missing links', miss, 'missing images', imgs) }
 }

@@ -51,7 +51,7 @@ export const body = {
         head: ['Type of bike', 'Public roads and paths?', 'Example from our range'],
         rows: [
           ['Pedal-assist e-bike, 250W, EN 15194 label', 'Yes, subject to state rules', '[DYU C6 Electric Bike](/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/) $849'],
-          ['E-bike with a motor over 250W', 'No: private property only', 'Ask us for the motor rating before you buy'],
+          ['E-bike with a motor over 250W', 'Not on Queensland public roads or paths; NSW allows up to 500W until 1 March 2029; our bikes above 250W are private property only', 'Ask us for the motor rating before you buy'],
           ['Electric dirt bike or e-moto (no pedals)', 'No: off-road and private property only', '[79Bike Viper S](/shop/electric-dirt-bikes/79bike-viper-s-electric-dirt-bike/) $949'],
           ['Conversion kit fitted to a bicycle', 'No: not compliant with EN 15194 in Queensland', '[E bike conversion kit guide](/blog/e-bike-conversion-kits-explained/)'],
         ],
@@ -76,6 +76,14 @@ export const body = {
         'Exemptions apply. A rider under 16, or aged 16 to 17 without a licence, can ride if supervised by a parent, grandparent or legal guardian within a safe distance to give instructions. In recreational areas with low pedestrian traffic, such as rail trails, mountain bike trails and private recreational bicycle facilities, no specific age or licence is required. There is also a medical or disability exemption.',
         'The page also says riders must always wear a helmet, that footpath speed is limited to 12 km/h, and that from 1 July 2026 parents and guardians can be fined for allowing a child to ride an illegal device. It states that after-market conversion kits are not compliant with EN 15194 and make the device illegal to ride in public, and that a high-powered bike locked by software is still an illegal device.',
         'Other states and territories have their own rules, so check your state road authority before you buy or ride.',
+      ],
+    },
+    {
+      h: 'New South Wales rules: 500W now, 250W from 1 March 2029',
+      p: [
+        'Transport for NSW\'s [e-bike page](https://www.transport.nsw.gov.au/roadsafety/bicycle-riders/ebikes) shows how much the rules differ by state. It says road-legal e-bikes in NSW must have a maximum continuous rated power of 500 watts, a throttle-only function that cuts out at 6 km/h, and a motor that provides no power above 25 km/h, and that from 1 March 2029 the limit becomes 250 watts and only EN 15194 certified e-bikes will be allowed on NSW roads.',
+        'It also says an e-bike that exceeds any limit is illegal even if its power or speed is restricted by an app, switch or code, that hacking or tampering can make an e-bike illegal, that riders must wear an approved, securely fitted helmet and may only carry the passengers the bike is designed for, and that new seizure and crushing laws came into effect on 21 August 2026. It recommends choosing a bike that complies with EN 15194, which it says is legal now and in the future.',
+        'Whatever your state, our e-bikes above 250W are sold for off-road and private property use only, so ask us for the motor rating and compliance label before you buy anything for public roads.',
       ],
     },
     {

@@ -5,7 +5,7 @@
    "diy",
    "conv"
   ],
-  "re": "2000|1500|3000|1000w|hub|kw"
+  "re": "2000|2kw|1500|3000"
  },
  {
   "slug": "flight-risk-fr505-and-fr555",
@@ -19,21 +19,23 @@
   "pools": [
    "throttle"
   ],
-  "re": "throttle|pedal assist|pas"
+  "re": "pedal|assist|throttle"
  },
  {
   "slug": "electric-vs-petrol-dirt-bikes",
   "pools": [
    "dirt"
   ],
-  "re": "petrol|dirt bike|motocross|off road|off-road"
+  "re": "dirt|pit bike|motocross|mx"
  },
  {
   "slug": "kids-electric-dirt-bikes",
   "pools": [
-   "kidsdirt"
+   "kidsdirt",
+   "balance",
+   "yozma"
   ],
-  "re": "kid|child|youth|boy|girl|junior"
+  "re": "kid|child|youth|boy|girl|junior|mini|pit bike|dirtbike"
  },
  {
   "slug": "how-fast-does-a-sur-ron-go",
@@ -59,45 +61,44 @@
  {
   "slug": "electric-moto-maintenance-lithium-safety",
   "pools": [
-   "emoto",
-   "chain"
+   "maint"
   ],
-  "re": "maint|service|battery|charger|lithium"
+  "re": "service|repair|maint"
  },
  {
   "slug": "best-electric-dirt-bikes-in-australia",
   "pools": [
    "dirt"
   ],
-  "re": "dirt|best|motocross|off road"
+  "re": "dirt|pit bike|motocross|mx"
  },
  {
   "slug": "electric-balance-bikes",
   "pools": [
    "balance"
   ],
-  "re": "balance|kids|toddler|strider"
+  "re": "balance|kids|child|teen|year old|age limit|miniature|toy"
  },
  {
   "slug": "e-bike-brands-in-australia",
   "pools": [
    "brands"
   ],
-  "re": "brand|best|top"
+  "re": "brand|best|top|good"
  },
  {
   "slug": "helmets-and-protective-gear-for-e-bikes",
   "pools": [
    "helmet"
   ],
-  "re": "helmet|gear|protect|armour|glove"
+  "re": "helmet"
  },
  {
   "slug": "yozma-in10-electric-mini-dirt-bike",
   "pools": [
    "yozma"
   ],
-  "re": "yozma|mini|in10"
+  "re": "yozma|mini|pit bike|small"
  },
  {
   "slug": "chain-alignment-high-torque-motors",

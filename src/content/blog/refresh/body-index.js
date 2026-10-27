@@ -23,6 +23,10 @@ import { body as eBikeGripsPedalsAndHandlebarControls } from './e-bike-grips-ped
 import { body as bestPhoneMountsForEBikes } from './best-phone-mounts-for-e-bikes.js'
 import { body as chainAlignmentHighTorqueMotors } from './chain-alignment-high-torque-motors.js'
 import { body as howFastDoesASurRonGo } from './how-fast-does-a-sur-ron-go.js'
+import { body as helmetsAndProtectiveGearForEBikes } from './helmets-and-protective-gear-for-e-bikes.js'
+import { body as pedalAssistVsThrottle } from './pedal-assist-vs-throttle.js'
+import { body as eBikeBrandsInAustralia } from './e-bike-brands-in-australia.js'
+import { body as electricVsPetrolDirtBikes } from './electric-vs-petrol-dirt-bikes.js'
 
 export const REFRESH_BODY = {
   'e-bike-conversion-kits-explained': conversionKits,
@@ -49,4 +53,8 @@ export const REFRESH_BODY = {
   'best-phone-mounts-for-e-bikes': bestPhoneMountsForEBikes,
   'chain-alignment-high-torque-motors': chainAlignmentHighTorqueMotors,
   'how-fast-does-a-sur-ron-go': howFastDoesASurRonGo,
+  'helmets-and-protective-gear-for-e-bikes': helmetsAndProtectiveGearForEBikes,
+  'pedal-assist-vs-throttle': pedalAssistVsThrottle,
+  'e-bike-brands-in-australia': eBikeBrandsInAustralia,
+  'electric-vs-petrol-dirt-bikes': electricVsPetrolDirtBikes,
 }
