@@ -31,6 +31,8 @@ import { meta as yozmaIn10ElectricMiniDirtBike } from './yozma-in10-electric-min
 import { meta as kidsElectricDirtBikes } from './kids-electric-dirt-bikes.js'
 import { meta as diy2000wConversionGuide } from './diy-2000w-conversion-guide.js'
 import { meta as dirodiRoverGen6 } from './dirodi-rover-gen-6.js'
+import { meta as flightRiskFr505AndFr555 } from './flight-risk-fr505-and-fr555.js'
+import { meta as electricMotoMaintenanceLithiumSafety } from './electric-moto-maintenance-lithium-safety.js'
 
 export const REFRESH_META = {
   'e-bike-conversion-kits-explained': conversionKits,
@@ -65,4 +67,6 @@ export const REFRESH_META = {
   'kids-electric-dirt-bikes': kidsElectricDirtBikes,
   'diy-2000w-conversion-guide': diy2000wConversionGuide,
   'dirodi-rover-gen-6': dirodiRoverGen6,
+  'flight-risk-fr505-and-fr555': flightRiskFr505AndFr555,
+  'electric-moto-maintenance-lithium-safety': electricMotoMaintenanceLithiumSafety,
 }

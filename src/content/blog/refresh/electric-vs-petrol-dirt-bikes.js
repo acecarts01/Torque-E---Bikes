@@ -1,6 +1,8 @@
 // Refresh of /blog/electric-vs-petrol-dirt-bikes/ written to the blog-post rule (27 Oct 2026).
 // Electric dirt bike category: 49 models, $949 to $19,990 (catalogue). We do not sell petrol bikes, so no petrol prices are claimed.
 // Rules from qld.gov.au e-bike rules (checked 27 Oct 2026). Our electric dirt bikes are for off-road and private property use only.
+import { MERGED_PETROL_SECTIONS, MERGED_PETROL_FAQ } from './merged-petrol.js'
+
 export const slug = 'electric-vs-petrol-dirt-bikes'
 
 export const meta = {
@@ -60,6 +62,7 @@ export const body = {
   ],
   drop: ['Quick recap', 'A last word on electric and petrol', 'Environmental and neighbour considerations', 'Environment and neighbours'],
   append: [
+    ...MERGED_PETROL_SECTIONS,
     {
       h: 'Where you can ride an electric dirtbike: the rules',
       p: [
@@ -75,6 +78,7 @@ export const body = {
     },
   ],
   faqAppend: [
+    ...MERGED_PETROL_FAQ,
     {
       q: 'How much is an electric dirtbike in Australia?',
       a: 'In our range, electric dirt bikes cost from $949 for the 79Bike Viper S to $19,990 for the Stark Varg EX, with the SSR SR-E8 Pro at $1,490 and the Sur-Ron Light Bee X at $6,169. All are for off-road and private property use only. Delivery is 10% of the goods total and free from $9,900.',

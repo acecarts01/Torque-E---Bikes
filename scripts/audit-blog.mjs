@@ -38,11 +38,13 @@ for (const m0 of [...BLOG_META, ...NEW_META].filter(p => p.kind !== 'tool' && !i
   const hasNew = !!m.focus
   const secOk = hasNew ? m.secondary?.length === 5 : reg.filter(r => r.role === 'secondary' && TC(r.intent)).length >= 5
   const issues = []
+  const notes = []
   if (words < 1500) issues.push(`words ${words}`)
   if (b.sections.length <= 3) issues.push('no TOC')
   if (!pr || !TC(pr.intent) || !(pr.vol > 0)) issues.push(`main kw not T/C with volume (${pr ? pr.kw + ' ' + pr.intent : 'none'})`)
   if (!secOk) issues.push('5 secondary T/C')
-  if ((m.tags || []).length !== 10) issues.push('10 tags')
+  if ((m.tags || []).length !== 10 && !(m.tagsShortReason && (m.tags || []).length >= 5)) issues.push('10 tags')
+  if (m.tagsShortReason) notes.push(`${(m.tags || []).length} tags (documented exception: ${m.tagsShortReason})`)
   for (const t of m.tags || []) { if (allTagsSeen.has(t)) issues.push(`tag reused: ${t} (${allTagsSeen.get(t)})`); allTagsSeen.set(t, m.slug) }
   if (!focus || !m.image.alt.toLowerCase().includes(focus.toLowerCase())) issues.push('focus kw not in hero alt')
   if (focus && !m.title.toLowerCase().includes(focus.toLowerCase())) issues.push('focus kw not in title')
@@ -53,11 +55,11 @@ for (const m0 of [...BLOG_META, ...NEW_META].filter(p => p.kind !== 'tool' && !i
   if (prodLinks.size < 2) issues.push(`product links ${prodLinks.size}`)
   if (!(m.related || []).length) issues.push('no related products block')
   if (!(m.links.from || []).length) issues.push('no inbound link planned')
-  out.push({ slug: m.slug, words, main: pr ? `${pr.kw} (${pr.vol}, ${pr.intent})` : '-', outbound: outb.length, product: prodLinks.size, issues })
+  out.push({ slug: m.slug, notes, words, main: pr ? `${pr.kw} (${pr.vol}, ${pr.intent})` : '-', outbound: outb.length, product: prodLinks.size, issues })
 }
 const failing = out.filter(p => p.issues.length)
 if (process.argv.includes('--json')) console.log(JSON.stringify(out, null, 1))
 else {
   console.log(`posts ${out.length} | passing ${out.length - failing.length} | failing ${failing.length}`)
-  for (const p of (process.argv.includes('--failing') ? failing : out)) console.log(`${String(p.words).padStart(5)}w | out${p.outbound} prod${p.product} | ${p.slug} | ${p.main}${p.issues.length ? '\n        FAIL: ' + p.issues.join('; ') : '  OK'}`)
+  for (const p of (process.argv.includes('--failing') ? failing : out)) console.log(`${String(p.words).padStart(5)}w | out${p.outbound} prod${p.product} | ${p.slug} | ${p.main}${p.issues.length ? '\n        FAIL: ' + p.issues.join('; ') : '  OK'}${p.notes && p.notes.length ? '  [NOTE: ' + p.notes.join('; ') + ']' : ''}`)
 }

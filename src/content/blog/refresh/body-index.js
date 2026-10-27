@@ -31,6 +31,8 @@ import { body as yozmaIn10ElectricMiniDirtBike } from './yozma-in10-electric-min
 import { body as kidsElectricDirtBikes } from './kids-electric-dirt-bikes.js'
 import { body as diy2000wConversionGuide } from './diy-2000w-conversion-guide.js'
 import { body as dirodiRoverGen6 } from './dirodi-rover-gen-6.js'
+import { body as flightRiskFr505AndFr555 } from './flight-risk-fr505-and-fr555.js'
+import { body as electricMotoMaintenanceLithiumSafety } from './electric-moto-maintenance-lithium-safety.js'
 
 export const REFRESH_BODY = {
   'e-bike-conversion-kits-explained': conversionKits,
@@ -65,4 +67,6 @@ export const REFRESH_BODY = {
   'kids-electric-dirt-bikes': kidsElectricDirtBikes,
   'diy-2000w-conversion-guide': diy2000wConversionGuide,
   'dirodi-rover-gen-6': dirodiRoverGen6,
+  'flight-risk-fr505-and-fr555': flightRiskFr505AndFr555,
+  'electric-moto-maintenance-lithium-safety': electricMotoMaintenanceLithiumSafety,
 }

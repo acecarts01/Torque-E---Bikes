@@ -1,6 +1,8 @@
 // Refresh of /blog/kids-electric-dirt-bikes/ written to the blog-post rule (27 Oct 2026).
 // Kids electric dirt and balance bikes category: 29 models, $499 to $8,495 (catalogue); no specifications claimed. Sources checked 27 Oct 2026:
 // qld.gov.au e-bike rules (parents can be fined from 1 Jul 2026; devices that are not legal e-bikes are private property only) and ACCC bicycle helmets standard page.
+import { MERGED_KIDS_SECTIONS, MERGED_KIDS_FAQ } from './merged-kids.js'
+
 export const slug = 'kids-electric-dirt-bikes'
 
 export const meta = {
@@ -22,7 +24,6 @@ export const meta = {
   links: {
     to: [
       ['/shop/kids-electric-dirt-and-balance-bikes/', 'kids electric dirt bikes'],
-      ['/blog/electric-balance-bikes/', 'electric balance bike guide'],
       ['/blog/yozma-in10-electric-mini-dirt-bike/', 'mini electric bike guide'],
       ['/blog/childs-electric-bike/', 'childs electric bike guide'],
       ['/blog/helmets-and-protective-gear-for-e-bikes/', 'e bike helmet and protective gear'],
@@ -64,11 +65,12 @@ export const body = {
   ],
   drop: ['Quick recap', 'A last word for parents', 'Choosing protective gear for children'],
   append: [
+    ...MERGED_KIDS_SECTIONS,
     {
       h: 'The rules for children and electric motorbikes',
       p: [
         'The Queensland Government\'s [e-bike rules page](https://www.qld.gov.au/transport/safety/rules/wheeled-devices/electric-bicycle-rules) says that dirt bikes and similar vehicles without pedals are treated as motorcycles, that devices that do not meet the rules must only be used on private property, and that from 1 July 2026 parents and guardians can be fined for allowing a child to ride an illegal device. Police can also seize and destroy illegal devices.',
-        'So a childrens electric motorbike goes on private property or at an approved venue, with the landowner\'s permission, adult supervision and full protective gear. Rules differ between states, so check yours. For younger children see our [electric balance bike guide](/blog/electric-balance-bikes/), and for a mini dirt bike see our [mini electric bike guide](/blog/yozma-in10-electric-mini-dirt-bike/).',
+        'So a childrens electric motorbike goes on private property or at an approved venue, with the landowner\'s permission, adult supervision and full protective gear. Rules differ between states, so check yours. Electric balance bikes for younger children are covered below, and for a mini dirt bike see our [mini electric bike guide](/blog/yozma-in10-electric-mini-dirt-bike/).',
       ],
     },
     {
@@ -79,6 +81,7 @@ export const body = {
     },
   ],
   faqAppend: [
+    ...MERGED_KIDS_FAQ,
     {
       q: 'How much is a childrens electric motorbike?',
       a: 'In our range, kids electric dirt bikes start at $499 for the Razor MX350, with the Revvi 16" Junior at $799, the Talaria Junior 12 at $1,229 and the Razor MX650 at $1,299, up to $8,495 for the KTM SX-E 5. All are for off-road and private property use only.',

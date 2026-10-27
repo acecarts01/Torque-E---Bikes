@@ -23,7 +23,11 @@ function applyBodyRaw(body, p) {
 }
 
 // Posts that were merged into another post: removed from the blog index and sitemap, redirected in next.config.ts.
-export const MERGED_POSTS = { 'talaria-electric-dirt-bikes': 'talaria-x3-mx3-and-mx4' }
+export const MERGED_POSTS = {
+  'talaria-electric-dirt-bikes': 'talaria-x3-mx3-and-mx4',
+  'electric-balance-bikes': 'kids-electric-dirt-bikes',
+  'best-electric-dirt-bikes-in-australia': 'electric-vs-petrol-dirt-bikes',
+}
 export const isMerged = slug => Object.prototype.hasOwnProperty.call(MERGED_POSTS, slug)
 const REWRITE = Object.entries(MERGED_POSTS).map(([from, to]) => [`/blog/${from}/`, `/blog/${to}/`])
 // Points links to a merged post at the post it was merged into.

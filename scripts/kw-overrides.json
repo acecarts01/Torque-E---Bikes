@@ -43,5 +43,25 @@
     "vol": "590",
     "kd": "15",
     "intent": "CI"
+  },
+  "72v battery": {
+    "vol": "480",
+    "kd": "2",
+    "intent": "CI"
+  },
+  "48v electric bicycle battery": {
+    "vol": "390",
+    "kd": "7",
+    "intent": "C"
+  },
+  "battery electric bicycle": {
+    "vol": "590",
+    "kd": "17",
+    "intent": "C"
+  },
+  "e bike battery charging": {
+    "vol": "140",
+    "kd": "6",
+    "intent": "IC"
   }
 }
