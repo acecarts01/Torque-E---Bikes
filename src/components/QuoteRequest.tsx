@@ -28,7 +28,6 @@ export default function QuoteRequest({ slug, name, price }: Props) {
     document.body.style.overflow = 'hidden'
     setTimeout(() => firstField.current?.focus(), 50)
     return () => { document.removeEventListener('keydown', onKey); document.body.style.overflow = '' }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open])
 
   function close() { setOpen(false); opener.current?.focus() }

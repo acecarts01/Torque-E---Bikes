@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import React, { useCallback, useEffect, useRef, useState } from 'react'
 import { REPLY, SHOP } from '@/src/config/site'
 import { money, parsePaymentDetail, paymentMethodParts } from '@/src/lib/order'
 import { toCents } from '@/src/lib/pricing'
@@ -90,9 +90,7 @@ export default function InvoiceBuilder() {
   const setC = (k: keyof typeof client) => (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => setClient(c => ({ ...c, [k]: e.target.value }))
 
   const lineTotals = lines.map(l => (Number(l.unit) >= 0 && l.qty >= 1 ? toCents(Number(l.unit)) * l.qty : 0))
-  const totals = useMemo(() => docTotals(lineTotals, methodId, { shipping: shipping === '' ? null : Number(shipping), discount: discount === '' ? null : Number(discount) }),
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    [JSON.stringify(lineTotals), methodId, shipping, discount])
+  const totals = docTotals(lineTotals, methodId, { shipping: shipping === '' ? null : Number(shipping), discount: discount === '' ? null : Number(discount) })
   const fields = parsePaymentDetail(payDetails)
   const ref = `${DOC_PREFIX[docType]}-XXXXXXXX`
   const parts = paymentMethodParts(methodId, totals.total, ref)
