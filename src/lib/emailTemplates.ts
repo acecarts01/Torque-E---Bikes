@@ -5,8 +5,8 @@
 import { SITE, CONTACT, REPLY, SHOP } from '@/src/config/site'
 import { money, paymentMethodParts, paymentTermsLines } from '@/src/lib/order'
 
-const C = { page: '#F2F4F0', card: '#FFFFFF', ink: '#1B2320', soft: '#6A746E', faint: '#9AA39D', rule: '#E2E5DF', tint: '#FFF4EC', mono: '#F6F7F5' }
-const ACCENT = REPLY.brand.primary
+export const C = { page: '#F2F4F0', card: '#FFFFFF', ink: '#1B2320', soft: '#6A746E', faint: '#9AA39D', rule: '#E2E5DF', tint: '#FFF4EC', mono: '#F6F7F5' }
+export const ACCENT = REPLY.brand.primary
 const HEADER = REPLY.brand.headerDark
 const FONT = "font-family:Arial,Helvetica,sans-serif;"
 
@@ -17,9 +17,9 @@ export const nl2br = (s: string) => esc(s).replace(/\r?\n/g, '<br>')
 export const siteUrl = () => `https://${SITE.domain}`
 export const adminUrl = (kind: 'order' | 'enquiry', id: string) => `${siteUrl()}/admin/?${kind}=${encodeURIComponent(id)}`
 
-const table = (inner: string, bg: string, style = '', attrs = 'width="100%"') =>
+export const table = (inner: string, bg: string, style = '', attrs = 'width="100%"') =>
   `<table role="presentation" ${attrs} cellpadding="0" cellspacing="0" border="0" bgcolor="${bg}" style="background-color:${bg};border-collapse:collapse;${style}">${inner}</table>`
-const td = (inner: string, bg: string, style = '', attrs = '') =>
+export const td = (inner: string, bg: string, style = '', attrs = '') =>
   `<td ${attrs} bgcolor="${bg}" style="background-color:${bg};${FONT}${style}">${inner}</td>`
 
 export const label = (t: string) =>
@@ -37,7 +37,7 @@ export const button = (href: string, text: string, primary = true) =>
   table(`<tr>${td(`<a href="${esc(href)}" style="${FONT}display:inline-block;padding:13px 24px;font-size:14px;font-weight:bold;text-decoration:none;color:${primary ? '#140800' : '#FFFFFF'};">${esc(text)} &rarr;</a>`,
     primary ? ACCENT : HEADER, 'border-radius:999px;')}</tr>`, C.card, 'margin:6px 0;', 'width="auto"')
 
-function shell({ eyebrow, title, meta, body }: { eyebrow: string; title: string; meta?: string; body: string }) {
+export function shell({ eyebrow, title, meta, body }: { eyebrow: string; title: string; meta?: string; body: string }) {
   const header = table(
     `<tr>${td(`<div style="font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:bold;color:${ACCENT};">${esc(eyebrow)}</div>
       <div style="font-size:22px;font-weight:bold;color:#FFFFFF;margin-top:6px;line-height:1.25;">${esc(title)}</div>
@@ -63,7 +63,7 @@ type Order = {
 
 const addressText = (a: Order['address']) => `${a.street}, ${a.suburb} ${a.state} ${a.postcode}`
 
-const itemsTable = (items: Item[]) => table(
+export const itemsTable = (items: Item[]) => table(
   `<tr>${td('ITEM', C.mono, `padding:8px 10px;font-size:10px;letter-spacing:1px;font-weight:bold;color:${C.soft};`)}${td('QTY', C.mono, `padding:8px 10px;font-size:10px;letter-spacing:1px;font-weight:bold;color:${C.soft};text-align:center;`)}${td('AMOUNT', C.mono, `padding:8px 10px;font-size:10px;letter-spacing:1px;font-weight:bold;color:${C.soft};text-align:right;`)}</tr>` +
   items.map(i => `<tr>${td(esc(i.name), C.card, `padding:10px;border-bottom:1px solid ${C.rule};font-size:14px;`)}${td(String(i.qty), C.card, `padding:10px;border-bottom:1px solid ${C.rule};text-align:center;font-size:14px;`)}${td(money(i.line), C.card, `padding:10px;border-bottom:1px solid ${C.rule};text-align:right;font-size:14px;`)}</tr>`).join(''),
   C.card, 'margin:8px 0 4px;')
@@ -149,7 +149,7 @@ export function enquiryAckEmail(e: Enquiry) {
   return { subject: `We received your ${e.kind === 'wholesale' ? 'wholesale application' : 'enquiry'} (${e.id})`, html }
 }
 
-const mono = (v: string) => `<span style="font-family:'Courier New',Courier,monospace;font-size:14px;color:${C.ink};word-break:break-all;">${esc(v)}</span>`
+export const mono = (v: string) => `<span style="font-family:'Courier New',Courier,monospace;font-size:14px;color:${C.ink};word-break:break-all;">${esc(v)}</span>`
 
 /** To the customer when the owner sends payment details from admin. */
 export function paymentDetailsEmail(p: { id: string; name: string; amount: number; methodId: string; fields: { label: string; value: string }[]; note?: string; token: string }) {

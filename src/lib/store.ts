@@ -19,7 +19,7 @@ export async function redis<T = unknown>(command: (string | number)[]): Promise<
   return data.result as T
 }
 
-export type RecordKind = 'order' | 'enquiry'
+export type RecordKind = 'order' | 'enquiry' | 'quote' | 'document'
 
 const key = (kind: RecordKind, id: string) => `torque:${kind}:${id}`
 const index = (kind: RecordKind) => `torque:${kind}s`

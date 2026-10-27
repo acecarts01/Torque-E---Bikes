@@ -18,9 +18,11 @@ export default function AdminPage() {
   const [state, setState] = useState<'loading' | 'login' | 'ready'>('loading')
   const [passcode, setPasscode] = useState('')
   const [msg, setMsg] = useState('')
-  const [tab, setTab] = useState<'orders' | 'enquiries'>('orders')
+  const [tab, setTab] = useState<'orders' | 'enquiries' | 'quotes' | 'documents'>('orders')
   const [orders, setOrders] = useState<Rec[]>([])
   const [enquiries, setEnquiries] = useState<Rec[]>([])
+  const [quotes, setQuotes] = useState<Rec[]>([])
+  const [documents, setDocuments] = useState<Rec[]>([])
   const [open, setOpen] = useState<string | null>(null)
   const deepLinked = useRef(false)
 
@@ -33,13 +35,13 @@ export default function AdminPage() {
   const apply = useCallback((r: { unauthorised: boolean; data: any }) => {
     if (r.unauthorised) { setState('login'); return }
     if (!r.data?.ok) { setMsg(r.data?.message || 'Could not load data.'); setState('ready'); return }
-    setOrders(r.data.orders); setEnquiries(r.data.enquiries); setMsg(''); setState('ready')
+    setOrders(r.data.orders); setEnquiries(r.data.enquiries); setQuotes(r.data.quotes || []); setDocuments(r.data.documents || []); setMsg(''); setState('ready')
     // Deep link from the notification emails: /admin/?order=TQR-... or /admin/?enquiry=TQE-...
     if (!deepLinked.current) {
       deepLinked.current = true
       const sp = new URLSearchParams(window.location.search)
-      const o = sp.get('order'), q = sp.get('enquiry')
-      if (o) { setTab('orders'); setOpen(o) } else if (q) { setTab('enquiries'); setOpen(q) }
+      const o = sp.get('order'), q = sp.get('enquiry'), qr = sp.get('quote')
+      if (o) { setTab('orders'); setOpen(o) } else if (q) { setTab('enquiries'); setOpen(q) } else if (qr) { setTab('quotes'); setOpen(qr) }
     }
   }, [])
 
@@ -64,15 +66,15 @@ export default function AdminPage() {
 
   async function logout() {
     await fetch('/api/admin/logout/', { method: 'POST' })
-    setOrders([]); setEnquiries([]); setState('login')
+    setOrders([]); setEnquiries([]); setQuotes([]); setDocuments([]); setState('login')
   }
 
-  const replace = (kind: 'order' | 'enquiry', rec: Rec) => {
+  const replace = (kind: 'order' | 'enquiry' | 'quote', rec: Rec) => {
     const fn = (list: Rec[]) => list.map(r => (r.id === rec.id ? rec : r))
-    if (kind === 'order') setOrders(fn); else setEnquiries(fn)
+    if (kind === 'order') setOrders(fn); else if (kind === 'quote') setQuotes(fn); else setEnquiries(fn)
   }
 
-  async function setStatus(kind: 'order' | 'enquiry', id: string, status: string) {
+  async function setStatus(kind: 'order' | 'enquiry' | 'quote', id: string, status: string) {
     const { data } = await post('/api/admin/update/', { kind, id, status })
     if (data.ok) replace(kind, data.record); else setMsg(data.message || 'Update failed.')
   }
@@ -93,7 +95,8 @@ export default function AdminPage() {
     )
   }
 
-  const rows = tab === 'orders' ? orders : enquiries
+  const listFor = (t: string) => (t === 'orders' ? orders : t === 'enquiries' ? enquiries : t === 'quotes' ? quotes : documents)
+  const rows = listFor(tab)
   const newCount = (list: Rec[]) => list.filter(r => r.status === 'new').length
 
   return (
@@ -102,18 +105,19 @@ export default function AdminPage() {
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-black italic uppercase tracking-tighter">Torque Admin</h1>
           <div className="flex gap-2">
+            <a href="/admin/invoice/" className="px-4 py-2 text-xs font-black uppercase tracking-widest bg-[#ff6a1a] text-[#140800] rounded-sm hover:brightness-110">New quote / invoice</a>
             <button onClick={load} className="px-4 py-2 text-xs font-black uppercase tracking-widest bg-white/5 rounded-sm hover:bg-white/10">Refresh</button>
             <button onClick={logout} className="px-4 py-2 text-xs font-black uppercase tracking-widest bg-white/5 rounded-sm hover:bg-white/10">Sign out</button>
           </div>
         </div>
 
-        <div className="flex gap-2">
-          {(['orders', 'enquiries'] as const).map(t => {
-            const list = t === 'orders' ? orders : enquiries
+        <div className="flex flex-wrap gap-2">
+          {(['orders', 'enquiries', 'quotes', 'documents'] as const).map(t => {
+            const list = listFor(t)
             return (
               <button key={t} onClick={() => { setTab(t); setOpen(null) }}
                 className={`px-5 py-2 text-xs font-black uppercase tracking-widest rounded-sm ${tab === t ? 'bg-[#ff6a1a] text-[#140800]' : 'bg-white/5 text-gray-400'}`}>
-                {t} ({list.length}{newCount(list) ? `, ${newCount(list)} new` : ''})
+                {t === 'quotes' ? 'quote requests' : t} ({list.length}{newCount(list) ? `, ${newCount(list)} new` : ''})
               </button>
             )
           })}
@@ -125,19 +129,23 @@ export default function AdminPage() {
 
         <div className="space-y-3">
           {rows.map(r => {
-            const kind = tab === 'orders' ? 'order' : 'enquiry'
+            const kind = tab === 'orders' ? 'order' : tab === 'enquiries' ? 'enquiry' : tab === 'quotes' ? 'quote' : 'document'
             const isOpen = open === r.id
             return (
               <div key={r.id} id={`rec-${r.id}`} className={`${box} ${isOpen ? 'border-[#ff6a1a]/60' : ''}`}>
                 <button onClick={() => setOpen(isOpen ? null : r.id)} className="w-full text-left p-4 flex flex-wrap items-center gap-x-6 gap-y-1">
                   <span className="font-black text-[#ff6a1a]">{r.id}</span>
-                  <span className="font-bold">{r.name}</span>
+                  <span className="font-bold">{r.name || r.client?.name}</span>
                   {kind === 'order' && <span className="text-gray-300">{money(r.total)}</span>}
+                  {kind === 'quote' && <span className="text-gray-300">{money(r.subtotal)} <span className="text-xs text-gray-400">{r.docType === 'invoice' ? 'invoice' : 'quote'} requested</span></span>}
+                  {kind === 'document' && <span className="text-gray-300">{money(r.total)} <span className="text-xs text-gray-400">{r.docType}</span></span>}
                   {kind === 'enquiry' && <span className="text-xs text-gray-400">{r.kind === 'wholesale' ? 'Wholesale' : r.type || 'Enquiry'}</span>}
                   <span className="text-xs text-gray-500">{when(r.createdAt)}</span>
                   <span className={`ml-auto text-[10px] font-black uppercase tracking-widest px-2 py-1 rounded-sm ${r.status === 'new' ? 'bg-[#ff6a1a] text-[#140800]' : 'bg-white/10 text-gray-300'}`}>{r.status}</span>
                 </button>
-                {isOpen && <Detail kind={kind} r={r} onStatus={setStatus} onUpdated={rec => replace(kind, rec)} />}
+                {isOpen && (kind === 'quote' || kind === 'document'
+                  ? <DocDetail kind={kind} r={r} onStatus={setStatus} />
+                  : <Detail kind={kind} r={r} onStatus={setStatus} onUpdated={rec => replace(kind, rec)} />)}
               </div>
             )
           })}
@@ -287,6 +295,56 @@ function Detail({ kind, r, onStatus, onUpdated }: { kind: 'order' | 'enquiry'; r
           )}
           {result && <span role="status" className={`text-xs ${result.ok ? 'text-[#35c17a]' : 'text-red-400'}`}>{result.text}</span>}
         </div>
+      </div>
+    </div>
+  )
+}
+
+function DocDetail({ kind, r, onStatus }: { kind: 'quote' | 'document'; r: Rec; onStatus: (k: 'order' | 'enquiry' | 'quote', id: string, s: string) => void }) {
+  const c = kind === 'document' ? r.client : r
+  const a = c.address || {}
+  return (
+    <div className="border-t border-white/10 p-4 space-y-5 text-sm">
+      <div className="grid sm:grid-cols-2 gap-4">
+        <div className="space-y-1">
+          <p><span className="text-gray-500">Email:</span> <a className="underline" href={`mailto:${c.email}`}>{c.email}</a></p>
+          {c.phone && <p><span className="text-gray-500">Phone:</span> {c.phone}</p>}
+          {c.business && <p><span className="text-gray-500">Business:</span> {c.business}{c.abn ? ` (ABN ${c.abn})` : ''}</p>}
+          {a.street && <p><span className="text-gray-500">Deliver to:</span> {a.street}, {a.suburb} {a.state} {a.postcode}</p>}
+          {kind === 'document' && <p><span className="text-gray-500">Issued:</span> {r.issueDate} &middot; <span className="text-gray-500">{r.docType === 'invoice' ? 'Due' : 'Valid until'}:</span> {r.dueDate}</p>}
+        </div>
+        {kind === 'quote' && (
+          <div>
+            <label className={lbl} htmlFor={`st-${r.id}`}>Status</label>
+            <select id={`st-${r.id}`} value={r.status} onChange={e => onStatus('quote', r.id, e.target.value)} className={input}>
+              {STATUSES.map(s => <option key={s} value={s}>{s}</option>)}
+            </select>
+          </div>
+        )}
+      </div>
+      <div className="space-y-1">
+        {r.items.map((i: any, n: number) => <p key={n} className="flex justify-between"><span>{i.qty} x {i.name}</span><span>{money(i.line)}</span></p>)}
+        {kind === 'document' && (
+          <>
+            <p className="flex justify-between text-gray-400"><span>Shipping</span><span>{r.shipping ? money(r.shipping) : 'Free'}</span></p>
+            {r.discount > 0 && <p className="flex justify-between text-gray-400"><span>Discount</span><span>-{money(r.discount)}</span></p>}
+            <p className="flex justify-between font-black border-t border-white/10 pt-2"><span>Total</span><span>{money(r.total)}</span></p>
+          </>
+        )}
+        {r.notes && <p className="pt-2 text-gray-300"><span className="text-gray-500">Notes:</span> {r.notes}</p>}
+      </div>
+      <div className="flex flex-wrap gap-3">
+        {kind === 'quote' && (
+          <a className="bg-[#ff6a1a] text-[#140800] px-5 py-2 rounded-sm font-black uppercase tracking-widest text-xs" href={`/admin/invoice/?quote=${encodeURIComponent(r.id)}`}>
+            Build the {r.docType === 'invoice' ? 'invoice' : 'quote'}
+          </a>
+        )}
+        {kind === 'document' && (
+          <a className="bg-white/5 hover:bg-white/10 px-5 py-2 rounded-sm font-black uppercase tracking-widest text-xs" href={`/admin/invoice/?doc=${encodeURIComponent(r.id)}`}>
+            Re-issue as a new document
+          </a>
+        )}
+        {kind === 'quote' && r.documentId && <span className="text-xs text-gray-400 self-center">Sent as {r.documentId}</span>}
       </div>
     </div>
   )

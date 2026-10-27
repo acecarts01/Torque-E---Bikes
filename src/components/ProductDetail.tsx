@@ -15,6 +15,7 @@ import { addToCart } from '@/src/lib/cart'
 import PageFaq from '@/src/components/PageFaq'
 import RichText from '@/src/components/RichText'
 import RelatedGuides from '@/src/components/RelatedGuides'
+import QuoteRequest from '@/src/components/QuoteRequest'
 import type { FaqItem } from '@/src/lib/faq'
 import { motion, AnimatePresence } from 'motion/react'
 import '@/src/lib/motion-setup'
@@ -179,6 +180,7 @@ export default function ProductDetail({ product, copy, h1, alt, faq = [] }: Prod
               <ShoppingCart className="w-5 h-5 fill-white" />
               Add to Order &amp; Checkout
             </button>
+            <QuoteRequest slug={product.slug} name={product.name} price={product.price} />
             
             <div className="grid grid-cols-2 gap-4">
               <a 
