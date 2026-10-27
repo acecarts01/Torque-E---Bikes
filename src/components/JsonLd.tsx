@@ -70,7 +70,12 @@ export default function JsonLd({ type, data }: { type: string, data?: any }) {
             "value": data.price >= SHOP.freeShippingThreshold ? 0 : Math.round(data.price * SHOP.shippingRate) / 100,
             "currency": SITE.currency
           },
-          "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "AU" }
+          "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "AU" },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" },
+            "transitTime": { "@type": "QuantitativeValue", "minValue": 3, "maxValue": 5, "unitCode": "DAY" }
+          }
         },
         "hasMerchantReturnPolicy": {
           "@type": "MerchantReturnPolicy",

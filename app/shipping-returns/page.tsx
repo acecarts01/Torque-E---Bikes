@@ -17,7 +17,7 @@ export default function ShippingReturnsPage() {
       updated="13 October 2026"
       intro={`${BRAND.tradingName} ships Australia-wide from ${CONTACT.hq}. This policy forms part of our Terms & Conditions.`}
       sections={[
-        { heading: 'Delivery', body: ['We ship to addresses across Australia. Shipping is 10% of your order total, shown at checkout, and orders of $9,900 or more ship free. Estimated timeframes are confirmed by our team before dispatch. Large items such as complete bikes are sent by freight and may need someone to receive them.'] },
+        { heading: 'Delivery', body: ['We ship to addresses across Australia. Shipping is 10% of your order total, shown at checkout, and orders of $9,900 or more ship free. Orders are dispatched within 24 to 48 hours of cleared payment, and delivery usually takes 3 to 5 days after dispatch. Our team confirms the timeframe for your address before dispatch. Large items such as complete bikes are sent by freight and may need someone to receive them.'] },
         { heading: 'Dangerous goods (lithium batteries)', body: ['Lithium batteries and products containing them are Class 9 Dangerous Goods and travel only with carriers approved for DG freight. This can affect delivery times and some remote locations.'] },
         { heading: 'Damaged or incorrect items', body: ['Check your order on arrival. If anything is damaged, faulty or not as ordered, email us within 48 hours of delivery with your order number and photos so we can arrange a remedy.'] },
         { heading: 'Your rights', body: ['You have rights under the Australian Consumer Law to a repair, replacement or refund for faulty goods, as set out in our Terms & Conditions. These rights cannot be excluded.'] },

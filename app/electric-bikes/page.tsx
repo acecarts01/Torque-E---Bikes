@@ -21,7 +21,7 @@ export default function Page() {
       path="/electric-bikes/"
       name="Electric Bikes"
       eyebrow="All e-bikes"
-      intro={`Torque E-Bikes lists ${bikes.length} electric bikes across ${BIKE_CATEGORIES.length} categories, from ${aud(bikes[0].price)} to ${aud(bikes[bikes.length - 1].price)}. Choose by how you ride, then compare models in each category. Prices are in Australian dollars and shipping is Australia-wide from Brisbane.`}
+      intro={`Torque E-Bikes lists ${bikes.length} electric bikes across ${BIKE_CATEGORIES.length} categories, from ${aud(bikes[0].price)} to ${aud(bikes[bikes.length - 1].price)}. Whether you want an electric bicycle for the commute, the trail or the school run, choose by how you ride, then compare models in each category. Bike e bikes here range from budget commuters to full-suspension electric mountain bikes. Prices are in Australian dollars and shipping is Australia-wide from Brisbane.`}
       note="Pedal-assist e-bikes at 250W can be used on public roads, subject to state rules. Electric dirt bikes and bikes above 250W are for off-road and private property use only."
       links={[...counts, { href: '/electric-bikes/budget/', label: 'Budget e-bikes' }]}
       products={feature}
