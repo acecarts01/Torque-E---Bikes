@@ -184,7 +184,8 @@ export default function ProductDetail({ product, copy, h1, alt, faq = [] }: Prod
             
             <div className="grid grid-cols-2 gap-4">
               <a 
-                href={`/whatsapp/?text=${encodeURIComponent(`Hi Torque Team, I'm interested in the ${product.name}.`)}`}
+                href="/whatsapp/"
+                onClick={e => { e.preventDefault(); window.open(`/whatsapp/?text=${encodeURIComponent(`Hi Torque Team, I'm interested in the ${product.name}.`)}`, '_blank', 'noopener') }}
                 className="flex items-center justify-center gap-3 py-4 glass-card rounded-2xl text-[10px] font-black uppercase tracking-widest text-brand-gray hover:text-white transition-all border border-white/5"
               >
                 <Phone className="w-4 h-4 text-brand-red" /> Tech Concierge

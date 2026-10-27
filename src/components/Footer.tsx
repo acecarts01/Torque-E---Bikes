@@ -31,6 +31,8 @@ export default function Footer() {
               <li><Link href="/wholesale/" className="text-gray-400 hover:text-[#ff6a1a] text-[10px] transition-colors uppercase font-bold tracking-wider">Wholesale</Link></li>
               <li><Link href="/blog/" className="text-gray-400 hover:text-[#ff6a1a] text-[10px] transition-colors uppercase font-bold tracking-wider">Education</Link></li>
               <li><Link href="/about/" className="text-gray-400 hover:text-[#ff6a1a] text-[10px] transition-colors uppercase font-bold tracking-wider">About Us</Link></li>
+              <li><Link href="/brands/" className="text-gray-400 hover:text-[#ff6a1a] text-[10px] transition-colors uppercase font-bold tracking-wider">Brands</Link></li>
+              <li><Link href="/faq/" className="text-gray-400 hover:text-[#ff6a1a] text-[10px] transition-colors uppercase font-bold tracking-wider">FAQ</Link></li>
             </ul>
           </div>
 
