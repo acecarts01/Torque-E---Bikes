@@ -20,6 +20,9 @@ import { body as eBikeAndDirtBikeBrakes } from './e-bike-and-dirt-bike-brakes.js
 import { body as eBikeTyresAndTubes } from './e-bike-tyres-and-tubes.js'
 import { body as eBikeSeatsSaddlesKickstandsAndMudguards } from './e-bike-seats-saddles-kickstands-and-mudguards.js'
 import { body as eBikeGripsPedalsAndHandlebarControls } from './e-bike-grips-pedals-and-handlebar-controls.js'
+import { body as bestPhoneMountsForEBikes } from './best-phone-mounts-for-e-bikes.js'
+import { body as chainAlignmentHighTorqueMotors } from './chain-alignment-high-torque-motors.js'
+import { body as howFastDoesASurRonGo } from './how-fast-does-a-sur-ron-go.js'
 
 export const REFRESH_BODY = {
   'e-bike-conversion-kits-explained': conversionKits,
@@ -43,4 +46,7 @@ export const REFRESH_BODY = {
   'e-bike-tyres-and-tubes': eBikeTyresAndTubes,
   'e-bike-seats-saddles-kickstands-and-mudguards': eBikeSeatsSaddlesKickstandsAndMudguards,
   'e-bike-grips-pedals-and-handlebar-controls': eBikeGripsPedalsAndHandlebarControls,
+  'best-phone-mounts-for-e-bikes': bestPhoneMountsForEBikes,
+  'chain-alignment-high-torque-motors': chainAlignmentHighTorqueMotors,
+  'how-fast-does-a-sur-ron-go': howFastDoesASurRonGo,
 }
