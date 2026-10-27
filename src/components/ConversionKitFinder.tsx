@@ -100,7 +100,7 @@ export default function ConversionKitFinder() {
             <div className="flex flex-wrap gap-3">
               <Link href="/shop/motors-drivetrain-and-sprockets/" className="px-6 py-3 bg-brand-red text-[#140800] rounded-xl font-black uppercase tracking-widest text-xs">See conversion kits and drivetrain parts</Link>
               <Link href="/shop/batteries-chargers-and-electronics/" className="px-6 py-3 bg-white/5 border border-white/10 rounded-xl font-black uppercase tracking-widest text-xs text-white">See batteries and chargers</Link>
-              <a href="https://wa.me/61480804189" className="px-6 py-3 bg-white/5 border border-white/10 rounded-xl font-black uppercase tracking-widest text-xs text-white">Ask the team on WhatsApp</a>
+              <a href="/whatsapp/" className="px-6 py-3 bg-white/5 border border-white/10 rounded-xl font-black uppercase tracking-widest text-xs text-white">Ask the team on WhatsApp</a>
             </div>
             <p className="text-xs text-brand-gray">This is a guide, not a guarantee of fit. Confirm compatibility with the product page or the team before you order.</p>
           </div>

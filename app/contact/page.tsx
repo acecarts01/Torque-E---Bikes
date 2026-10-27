@@ -50,7 +50,7 @@ export default function ContactPage() {
       icon: <MessageSquare className="w-5 h-5 text-brand" />,
       title: "WhatsApp",
       value: CONTACT.whatsapp,
-      link: `https://wa.me/${CONTACT.whatsapp.replace(/\+/g, '')}`
+      link: '/whatsapp/'
     },
     {
       icon: <Mail className="w-5 h-5 text-brand" />,

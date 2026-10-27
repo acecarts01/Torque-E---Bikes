@@ -2,12 +2,11 @@
 
 // src/components/WhatsAppWidget.tsx
 import React, { useState } from 'react'
-import { CONTACT, BRAND } from '@/src/config/site'
+import { BRAND } from '@/src/config/site'
 
 export default function WhatsAppWidget() {
   const [hover, setHover] = useState(false)
-  const number = CONTACT.whatsapp.replace(/\D/g, '')
-  const href = `https://wa.me/${number}?text=${encodeURIComponent(`Hi ${BRAND.tradingName}, I have a question about a product.`)}`
+  const href = `/whatsapp/?text=${encodeURIComponent(`Hi ${BRAND.tradingName}, I have a question about a product.`)}`
 
   return (
     <div className="fixed z-[70] right-4 bottom-4 sm:right-6 sm:bottom-6 flex items-center gap-3">

@@ -963,7 +963,7 @@ export const BLOG_META = [
   "slug": "what-is-an-e-bike",
   "url": "/blog/what-is-an-e-bike/",
   "title": "What Is an E-Bike? How Electric Bikes Work",
-  "seoTitle": "What Is an E-Bike? How Electric Bikes Work",
+  "seoTitle": "What Is an E-Bike? How Electric Bikes Work | Torque",
   "excerpt": "What an e-bike is, how the motor, battery and sensors work, the main types, and what makes an e-bike road legal in Australia.",
   "category": "Explainers",
   "date": "2026-10-16",

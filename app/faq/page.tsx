@@ -104,7 +104,7 @@ export default function FAQPage() {
                 <Link href="/contact/" className="px-8 py-4 bg-brand-red text-[#140800] rounded-2xl font-black uppercase tracking-widest text-xs hover:scale-105 transition-transform flex items-center gap-3 shadow-xl shadow-brand-red/20">
                   Contact Engineer <Zap className="w-4 h-4 fill-white" />
                 </Link>
-                <a href="https://wa.me/61480804189" className="px-8 py-4 bg-white/5 text-white rounded-2xl font-black uppercase tracking-widest text-xs hover:bg-white/10 transition-all flex items-center gap-3 border border-white/10">
+                <a href="/whatsapp/" className="px-8 py-4 bg-white/5 text-white rounded-2xl font-black uppercase tracking-widest text-xs hover:bg-white/10 transition-all flex items-center gap-3 border border-white/10">
                   WhatsApp Support <ArrowRight className="w-4 h-4" />
                 </a>
               </div>
