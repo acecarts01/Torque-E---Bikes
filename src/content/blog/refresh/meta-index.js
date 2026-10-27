@@ -15,6 +15,11 @@ import { meta as commuterEBikes } from './commuter-e-bikes.js'
 import { meta as fatTyreEBikes } from './fat-tyre-e-bikes.js'
 import { meta as eBikeLights } from './e-bike-lights.js'
 import { meta as howToLockAnEBike } from './how-to-lock-an-e-bike.js'
+import { meta as whatIsAnEBike } from './what-is-an-e-bike.js'
+import { meta as eBikeAndDirtBikeBrakes } from './e-bike-and-dirt-bike-brakes.js'
+import { meta as eBikeTyresAndTubes } from './e-bike-tyres-and-tubes.js'
+import { meta as eBikeSeatsSaddlesKickstandsAndMudguards } from './e-bike-seats-saddles-kickstands-and-mudguards.js'
+import { meta as eBikeGripsPedalsAndHandlebarControls } from './e-bike-grips-pedals-and-handlebar-controls.js'
 
 export const REFRESH_META = {
   'e-bike-conversion-kits-explained': conversionKits,
@@ -33,4 +38,9 @@ export const REFRESH_META = {
   'fat-tyre-e-bikes': fatTyreEBikes,
   'e-bike-lights': eBikeLights,
   'how-to-lock-an-e-bike': howToLockAnEBike,
+  'what-is-an-e-bike': whatIsAnEBike,
+  'e-bike-and-dirt-bike-brakes': eBikeAndDirtBikeBrakes,
+  'e-bike-tyres-and-tubes': eBikeTyresAndTubes,
+  'e-bike-seats-saddles-kickstands-and-mudguards': eBikeSeatsSaddlesKickstandsAndMudguards,
+  'e-bike-grips-pedals-and-handlebar-controls': eBikeGripsPedalsAndHandlebarControls,
 }

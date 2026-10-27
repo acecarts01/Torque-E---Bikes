@@ -8,20 +8,6 @@
   "re": "2000|1500|3000|1000w|hub|kw"
  },
  {
-  "slug": "what-is-an-e-bike",
-  "pools": [
-   "whatis"
-  ],
-  "re": "ebike|e bike|e-bike|electric bike|electric bicycle"
- },
- {
-  "slug": "e-bike-and-dirt-bike-brakes",
-  "pools": [
-   "brakes"
-  ],
-  "re": "brake|rotor|disc"
- },
- {
   "slug": "flight-risk-fr505-and-fr555",
   "pools": [
    "fr"
@@ -36,25 +22,11 @@
   "re": "throttle|pedal assist|pas"
  },
  {
-  "slug": "e-bike-lights",
-  "pools": [
-   "lights"
-  ],
-  "re": "light|lamp|headlight|tail"
- },
- {
   "slug": "electric-vs-petrol-dirt-bikes",
   "pools": [
    "dirt"
   ],
   "re": "petrol|dirt bike|motocross|off road|off-road"
- },
- {
-  "slug": "e-bike-grips-pedals-and-handlebar-controls",
-  "pools": [
-   "grips"
-  ],
-  "re": "grip|pedal|handlebar|handle bar"
  },
  {
   "slug": "kids-electric-dirt-bikes",
@@ -78,54 +50,11 @@
   "re": "phone|mount|holder"
  },
  {
-  "slug": "e-bike-seats-saddles-kickstands-and-mudguards",
-  "pools": [
-   "seat"
-  ],
-  "re": "saddle|seat|kickstand|stand|mudguard|fender"
- },
- {
-  "slug": "commuter-e-bikes",
-  "pools": [
-   "commuter",
-   "best"
-  ],
-  "re": "commut|city|urban|step through|cruiser|retro"
- },
- {
-  "slug": "e-bike-tyres-and-tubes",
-  "pools": [
-   "tyres"
-  ],
-  "re": "tyre|tire|tube|puncture"
- },
- {
-  "slug": "fat-tyre-e-bikes",
-  "pools": [
-   "fat"
-  ],
-  "re": "fat"
- },
- {
   "slug": "dirodi-rover-gen-6",
   "pools": [
    "dirodi"
   ],
   "re": "dirodi|rover"
- },
- {
-  "slug": "electric-cargo-bikes",
-  "pools": [
-   "cargo"
-  ],
-  "re": "cargo|trailer|delivery|family"
- },
- {
-  "slug": "how-to-lock-an-e-bike",
-  "pools": [
-   "lock"
-  ],
-  "re": "lock|chain|security"
  },
  {
   "slug": "electric-moto-maintenance-lithium-safety",
