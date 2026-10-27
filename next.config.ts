@@ -3,7 +3,6 @@ import brandRedirects from './src/config/brand-redirects.generated.json'
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   trailingSlash: true,
-  experimental: { cpus: 1 },
   reactStrictMode: true,
   images: {
     formats: ['image/avif', 'image/webp'],
