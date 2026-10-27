@@ -5,6 +5,7 @@ import { REFRESH_META } from '../src/content/blog/refresh/meta-index.js'
 const kv = s => { s = String(s || '').replace(/,/g, ''); return /K$/i.test(s) ? parseFloat(s) * 1000 : parseFloat(s) || 0 }
 const look = new Map()
 for (const l of fs.readFileSync(process.argv[2], 'utf8').trim().split('\n').map(JSON.parse)) if (l.tag) for (const r of l.rows) look.set(r.kw.toLowerCase().trim(), r)
+if (fs.existsSync('scripts/kw-overrides.json')) for (const [k, v] of Object.entries(JSON.parse(fs.readFileSync('scripts/kw-overrides.json', 'utf8')))) look.set(k.toLowerCase(), v)
 const q = s => (/,/.test(s) ? `"${s}"` : s)
 const only = process.argv.slice(3)
 const lines = fs.readFileSync('docs/used-keywords.csv', 'utf8').split(/\r?\n/)

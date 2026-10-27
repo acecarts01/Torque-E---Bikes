@@ -1,0 +1,27 @@
+{
+  "talaria x3": {
+    "vol": "4400",
+    "kd": "16",
+    "intent": "CI"
+  },
+  "talaria x3 pro": {
+    "vol": "1900",
+    "kd": "10",
+    "intent": "CI"
+  },
+  "talaria x3 australia": {
+    "vol": "320",
+    "kd": "6",
+    "intent": "N"
+  },
+  "talaria 3x": {
+    "vol": "210",
+    "kd": "19",
+    "intent": "N"
+  },
+  "how fast do electric bikes go": {
+    "vol": "260",
+    "kd": "10",
+    "intent": "I"
+  }
+}
