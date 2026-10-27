@@ -23,5 +23,25 @@
     "vol": "260",
     "kd": "10",
     "intent": "I"
+  },
+  "commuter ebike": {
+    "vol": "480",
+    "kd": "11",
+    "intent": "CI"
+  },
+  "step through e bike": {
+    "vol": "260",
+    "kd": "7",
+    "intent": "CI"
+  },
+  "e bike lightweight": {
+    "vol": "210",
+    "kd": "10",
+    "intent": ""
+  },
+  "electric cruiser bicycles": {
+    "vol": "590",
+    "kd": "15",
+    "intent": "CI"
   }
 }

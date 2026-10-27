@@ -10,6 +10,11 @@ import { meta as electricTrikesForAdults } from './electric-trikes-for-adults.js
 import { meta as whatIsAnEMoto } from './what-is-an-e-moto.js'
 import { meta as foldingElectricBikes } from './folding-electric-bikes.js'
 import { meta as offRoadVsStreetLegalAustralia } from './off-road-vs-street-legal-australia.js'
+import { meta as electricCargoBikes } from './electric-cargo-bikes.js'
+import { meta as commuterEBikes } from './commuter-e-bikes.js'
+import { meta as fatTyreEBikes } from './fat-tyre-e-bikes.js'
+import { meta as eBikeLights } from './e-bike-lights.js'
+import { meta as howToLockAnEBike } from './how-to-lock-an-e-bike.js'
 
 export const REFRESH_META = {
   'e-bike-conversion-kits-explained': conversionKits,
@@ -23,4 +28,9 @@ export const REFRESH_META = {
   'what-is-an-e-moto': whatIsAnEMoto,
   'folding-electric-bikes': foldingElectricBikes,
   'off-road-vs-street-legal-australia': offRoadVsStreetLegalAustralia,
+  'electric-cargo-bikes': electricCargoBikes,
+  'commuter-e-bikes': commuterEBikes,
+  'fat-tyre-e-bikes': fatTyreEBikes,
+  'e-bike-lights': eBikeLights,
+  'how-to-lock-an-e-bike': howToLockAnEBike,
 }
