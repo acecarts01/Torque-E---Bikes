@@ -49,11 +49,13 @@ export async function POST(req: Request) {
     try { await saveRecord('quote', reference, record); stored = true } catch (e) { console.error('store failed', e) }
   }
 
-  const owner = await sendMail({ to: ownerAddress(), replyTo: email, ...quoteRequestNotificationEmail(record as any) })
+  const ownerMail = quoteRequestNotificationEmail(record as any)
+  let owner = await sendMail({ to: ownerAddress(), replyTo: email, ...ownerMail })
+  if (!owner.sent) owner = await sendMail({ to: ownerAddress(), replyTo: email, ...ownerMail }) // one retry so a hiccup never loses the alert
   const ack = await sendMail({ to: email, replyTo: CONTACT.email, ...quoteAckEmail(record as any) })
 
   if (!stored && !owner.sent) {
     return Response.json({ success: false, message: `We could not record your request. Please email ${CONTACT.email} or call ${CONTACT.phone}.` }, { status: 502 })
   }
-  return Response.json({ success: true, reference, acknowledged: ack.sent })
+  return Response.json({ success: true, reference, acknowledged: ack.sent, notified: owner.sent, stored })
 }

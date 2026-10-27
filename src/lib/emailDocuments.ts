@@ -119,7 +119,7 @@ export function documentEmail(d: IssuedDoc) {
       (d.notes ? field('Notes', nl2br(d.notes)) : '') + payment + after +
       divider + `<p style="margin:0 0 6px;">${isInvoice ? 'Once you have paid, let us know:' : 'Ready to go ahead?'}</p>` +
       button(wa, isInvoice ? "I've paid - confirm on WhatsApp" : 'Go ahead on WhatsApp') + button(reply, 'Reply to us', false) +
-      `<p style="margin:14px 0 0;font-size:12px;color:${C.soft};">Shipping and returns policy: ${esc(siteUrl())}/shipping-returns/</p>`,
+      `<p style="margin:14px 0 0;font-size:12px;color:${C.soft};">Returns are accepted within 14 days of delivery for unused items in original packaging; a 20% restocking fee applies to large items. Full shipping and returns policy: ${esc(siteUrl())}/shipping-returns/</p>`,
   })
   return { subject: `${kind} ${d.id} from Torque E-Bikes - ${money(d.total)}`, html }
 }

@@ -62,7 +62,7 @@ export default function JsonLd({ type, data }: { type: string, data?: any }) {
         "price": data.price,
         "availability": "https://schema.org/InStock",
         "seller": { "@type": "Organization", "name": SITE.name },
-        // mirrors /shipping-returns/: shipping is a % of goods and free above the threshold; returns are agreed case by case
+        // mirrors /shipping-returns/: shipping is a % of goods and free above the threshold; returns are accepted within 14 days, with a 20% restocking fee on large items
         "shippingDetails": {
           "@type": "OfferShippingDetails",
           "shippingRate": {
@@ -75,7 +75,9 @@ export default function JsonLd({ type, data }: { type: string, data?: any }) {
         "hasMerchantReturnPolicy": {
           "@type": "MerchantReturnPolicy",
           "applicableCountry": "AU",
-          "returnPolicyCategory": "https://schema.org/MerchantReturnUnspecified",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 14,
+          "returnFees": "https://schema.org/RestockingFees",
           "url": `https://${SITE.domain}/shipping-returns/`
         }
       }
