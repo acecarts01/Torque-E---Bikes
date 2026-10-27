@@ -2,6 +2,8 @@
 // Server-only: full post bodies (intro, sections, FAQ) merged with the light metadata.
 import { BLOG_BODIES } from '@/src/content/blog/bodies.js'
 import { NEW_BODIES } from '@/src/content/blog/new/index.js'
+import { REFRESH_BODY } from '@/src/content/blog/refresh/body-index.js'
+import { applyBody } from '@/src/content/blog/refresh/apply.js'
 import { getPost, getTool, type BlogMeta } from './blog'
 
 export type BlogSection = {
@@ -21,7 +23,8 @@ export type BlogBody = {
 }
 export type FullPost = BlogMeta & BlogBody
 
-const BODIES = { ...BLOG_BODIES, ...NEW_BODIES } as unknown as Record<string, BlogBody>
+const ALL_BODIES = { ...BLOG_BODIES, ...NEW_BODIES } as unknown as Record<string, BlogBody>
+const BODIES: Record<string, BlogBody> = Object.fromEntries(Object.entries(ALL_BODIES).map(([slug, b]) => [slug, applyBody(b, (REFRESH_BODY as Record<string, unknown>)[slug]) as BlogBody]))
 
 const merge = (m: BlogMeta | undefined): FullPost | undefined => {
   if (!m) return undefined

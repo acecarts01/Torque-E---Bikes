@@ -1,6 +1,6 @@
 // Fetches each new post from a running server and checks structure + that every internal link answers 200.
 const base = process.argv[2] || 'http://localhost:3200'
-const slugs = ['lubricant-for-bike-chains', 'e-bike-batteries', 'e-bike-battery-charger', 'childs-electric-bike', 'sur-ron-for-sale']
+const slugs = process.argv[3] ? process.argv[3].split(',') : ['lubricant-for-bike-chains', 'e-bike-batteries', 'e-bike-battery-charger', 'childs-electric-bike', 'sur-ron-for-sale']
 for (const s of slugs) {
   const h = await (await fetch(`${base}/blog/${s}/`)).text()
   const count = re => (h.match(re) || []).length

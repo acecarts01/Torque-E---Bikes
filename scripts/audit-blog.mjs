@@ -1,52 +1,63 @@
 // Audits every blog post against the owner's blog-post rule (see ~/.claude/skills/blog-post/SKILL.md).
-// Usage: node scripts/audit-blog.mjs [--json]
+// Applies the refresh patches first, so it reports the state that is published.
+// Usage: node scripts/audit-blog.mjs [--json] [--failing]
 import fs from 'node:fs'
 import { BLOG_META } from '../src/content/blog/meta.js'
 import { BLOG_BODIES } from '../src/content/blog/bodies.js'
+import { NEW_META, NEW_BODIES } from '../src/content/blog/new/index.js'
+import { REFRESH_META } from '../src/content/blog/refresh/meta-index.js'
+import { REFRESH_BODY } from '../src/content/blog/refresh/body-index.js'
+import { applyMeta, applyBody } from '../src/content/blog/refresh/apply.js'
 
-const reg = fs.readFileSync(new URL('../docs/used-keywords.csv', import.meta.url), 'utf8').split(/\r?\n/).slice(1).filter(Boolean)
-const parseRow = l => { const m = l.match(/^([^,]*),([^,]*),([^,]*),(.*)$/); if (!m) return null; const rest = m[4]; const mm = rest.match(/^(.*?),(\d+),(\d+),("[^"]*"|[^,]*),(.*)$/); return mm ? { url: m[1], type: m[2], role: m[3], kw: mm[1], vol: +mm[2], kd: +mm[3], intent: mm[4].replace(/"/g, '') } : null }
-const rows = reg.map(parseRow).filter(Boolean)
-const byUrl = u => rows.filter(r => r.url === u)
-const TC = i => /Transactional|Commercial/.test(i) && !/Informational|Navigational/.test(i.replace(/Transactional|Commercial/g, '')) || /Transactional|Commercial/.test(i)
+const rows = fs.readFileSync(new URL('../docs/used-keywords.csv', import.meta.url), 'utf8').split(/\r?\n/).slice(1).filter(Boolean).map(l => {
+  const m = l.match(/^([^,]*),([^,]*),([^,]*),(.*)$/); if (!m) return null
+  const mm = m[4].match(/^(.*?),(\d*),(\d*),("[^"]*"|[^,]*),(.*)$/)
+  return mm ? { url: m[1], role: m[3], kw: mm[1].toLowerCase(), vol: +mm[2], intent: mm[4].replace(/"/g, '') } : null
+}).filter(Boolean)
+const TC = i => /Transactional|Commercial/.test(i)
+const catUrls = new Set(rows.filter(r => r.url.startsWith('/shop/')).map(r => r.url))
+const plain = t => t.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*/g, '')
+const allTagsSeen = new Map()
 
 const out = []
-for (const m of BLOG_META.filter(p => p.kind !== 'tool')) {
-  const b = BLOG_BODIES[m.slug]
+for (const m0 of [...BLOG_META, ...NEW_META].filter(p => p.kind !== 'tool')) {
+  const m = applyMeta(m0, REFRESH_META[m0.slug])
+  const b = applyBody({ ...BLOG_BODIES, ...NEW_BODIES }[m.slug], REFRESH_BODY[m.slug])
   if (!b) continue
-  const text = [b.hook, ...b.intro, ...b.sections.flatMap(s => [s.h, ...(s.p || []), ...(s.ul || [])]), ...b.faq.flatMap(f => [f.q, f.a])].join(' ')
-  const body = [...b.intro, ...b.sections.flatMap(s => [...(s.p || []), ...(s.ul || [])])].join(' ')
-  const plain = t => t.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-  const words = plain(body).split(/\s+/).filter(Boolean).length + b.faq.reduce((n, f) => n + plain(f.a).split(/\s+/).length, 0)
-  const links = [...text.matchAll(/\]\(([^)]+)\)/g)].map(x => x[1])
-  const outb = links.filter(l => /^https?:/.test(l))
+  const texts = [...b.intro, ...b.sections.flatMap(s => [...(s.p || []), ...(s.ul || [])]), ...b.faq.map(f => f.a)]
+  const words = texts.map(plain).join(' ').split(/\s+/).filter(Boolean).length
+  const all = JSON.stringify([b.intro, b.sections, b.faq])
+  const links = [...all.matchAll(/\]\(([^)]+)\)/g)].map(x => x[1])
+  const outb = [...new Set(links.filter(l => /^https?:/.test(l)))]
   const inb = links.filter(l => l.startsWith('/'))
-  const prod = inb.filter(l => /^\/shop\/[^/]+\/[^/]+\/$/.test(l))
-  const cat = inb.filter(l => /^\/shop\/[^/]+\/$/.test(l))
-  const regRows = byUrl(m.url)
-  const primary = b.keywords && b.keywords.primary
-  const pr = regRows.find(r => r.role === 'primary')
-  const sec = regRows.filter(r => r.role === 'secondary')
-  const alt = (m.image && m.image.alt || '').toLowerCase()
-  const kwInAlt = primary ? alt.includes(primary.toLowerCase()) : false
+  const prodLinks = new Set([...inb, ...(m.related || []).map(r => r.href)].filter(l => /^\/shop\/[^/]+\/[^/]+\/$/.test(l)))
+  const catLinks = new Set([...inb, ...(m.related || []).map(r => r.href)].filter(l => /^\/shop\/[^/]+\/$/.test(l)))
+  const focus = m.focus || b.keywords?.primary
+  const reg = rows.filter(r => r.url === m.url)
+  const pr = reg.find(r => r.role === 'primary')
+  const hasNew = !!m.focus
+  const secOk = hasNew ? m.secondary?.length === 5 : reg.filter(r => r.role === 'secondary' && TC(r.intent)).length >= 5
   const issues = []
-  if (words < 1500) issues.push(`words ${words} < 1500`)
-  if (b.sections.length <= 3) issues.push('no TOC (needs 4+ sections)')
-  if (!pr || !TC(pr.intent)) issues.push(`main kw not T/C (${pr ? pr.kw + ' ' + pr.intent : 'none'})`)
-  const secTC = sec.filter(r => TC(r.intent)).length
-  if (secTC < 5) issues.push(`secondary T/C ${secTC}/5`)
-  issues.push('no 10 tags') // tags field does not exist yet on any post
-  if (!kwInAlt) issues.push('focus kw not in hero alt')
-  if (outb.length < 2) issues.push(`outbound ${outb.length} < 2`)
-  if (cat.length < 1) issues.push('no category link')
-  if (prod.length < 2) issues.push(`product links ${prod.length} < 2`)
-  out.push({ slug: m.slug, title: m.title, date: m.date, words, sections: b.sections.length, faq: b.faq.length, main: pr ? `${pr.kw} (${pr.vol}/KD${pr.kd}, ${pr.intent})` : primary || '-', secTC, outbound: outb.length, product: prod.length, category: cat.length, kwInAlt, issues })
+  if (words < 1500) issues.push(`words ${words}`)
+  if (b.sections.length <= 3) issues.push('no TOC')
+  if (!pr || !TC(pr.intent) || !(pr.vol > 0)) issues.push(`main kw not T/C with volume (${pr ? pr.kw + ' ' + pr.intent : 'none'})`)
+  if (!secOk) issues.push('5 secondary T/C')
+  if ((m.tags || []).length !== 10) issues.push('10 tags')
+  for (const t of m.tags || []) { if (allTagsSeen.has(t)) issues.push(`tag reused: ${t} (${allTagsSeen.get(t)})`); allTagsSeen.set(t, m.slug) }
+  if (!focus || !m.image.alt.toLowerCase().includes(focus.toLowerCase())) issues.push('focus kw not in hero alt')
+  if (focus && !m.title.toLowerCase().includes(focus.toLowerCase())) issues.push('focus kw not in title')
+  if (focus && !plain(b.intro.join(' ')).split(/\s+/).slice(0, 100).join(' ').toLowerCase().includes(focus.toLowerCase())) issues.push('focus kw not in first 100 words')
+  if (focus && !b.sections.some(s => s.h.toLowerCase().includes(focus.toLowerCase().split(' ').slice(0, 3).join(' ')))) issues.push('no H2 with focus kw')
+  if (outb.length < 2 || outb.length > 4) issues.push(`outbound ${outb.length}`)
+  if (catLinks.size < 1) issues.push('no category link')
+  if (prodLinks.size < 2) issues.push(`product links ${prodLinks.size}`)
+  if (!(m.related || []).length) issues.push('no related products block')
+  if (!(m.links.from || []).length) issues.push('no inbound link planned')
+  out.push({ slug: m.slug, words, main: pr ? `${pr.kw} (${pr.vol}, ${pr.intent})` : '-', outbound: outb.length, product: prodLinks.size, issues })
 }
-out.sort((a, b) => b.issues.length - a.issues.length || (a.words - b.words))
+const failing = out.filter(p => p.issues.length)
 if (process.argv.includes('--json')) console.log(JSON.stringify(out, null, 1))
 else {
-  console.log('posts', out.length)
-  const s = f => out.filter(f).length
-  console.log('under 1500 words:', s(p => p.words < 1500), '| no/thin TOC:', s(p => p.sections <= 3), '| main kw not T/C:', s(p => p.issues.some(i => i.startsWith('main kw'))), '| outbound<2:', s(p => p.outbound < 2), '| product links<2:', s(p => p.product < 2), '| focus kw missing in alt:', s(p => !p.kwInAlt))
-  for (const p of out) console.log(`${p.words}w | s${p.sections} f${p.faq} | out${p.outbound} prod${p.product} cat${p.category} | secTC${p.secTC} | ${p.slug} | main: ${p.main}\n     ${p.issues.join('; ')}`)
+  console.log(`posts ${out.length} | passing ${out.length - failing.length} | failing ${failing.length}`)
+  for (const p of (process.argv.includes('--failing') ? failing : out)) console.log(`${String(p.words).padStart(5)}w | out${p.outbound} prod${p.product} | ${p.slug} | ${p.main}${p.issues.length ? '\n        FAIL: ' + p.issues.join('; ') : '  OK'}`)
 }
