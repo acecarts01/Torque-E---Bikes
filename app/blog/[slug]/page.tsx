@@ -56,7 +56,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
           image: hasImage ? `https://${SITE.domain}/images/${post.image.file}` : undefined,
           datePublished: post.date,
           dateModified: post.updated || post.date,
-          author: { '@type': 'Organization', name: SITE.name },
+          ...(post.tags ? { keywords: [post.focus, ...(post.secondary || []), ...post.tags].filter(Boolean).join(', ') } : {}),
+          author: { '@type': 'Organization', name: SITE.name, url: `https://${SITE.domain}/about/` },
           publisher: { '@type': 'Organization', name: SITE.name },
           mainEntityOfPage: `https://${SITE.domain}${post.url}`,
         }}
@@ -80,6 +81,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               <div className="flex flex-wrap items-center gap-3">
                 <span className="px-3 py-1 bg-brand-red text-[#140800] text-[10px] font-black uppercase tracking-[0.2em] rounded-full">{post.category}</span>
                 <div className="flex items-center gap-4 text-[10px] font-bold text-brand-gray uppercase tracking-widest ml-2">
+                  <span>By <Link href="/about/" className="hover:text-brand-red">{SITE.name}</Link></span>
                   <span className="flex items-center gap-1.5"><Calendar className="w-3 h-3" /> {post.updated ? `Updated ${post.updated}` : post.date}</span>
                   <span className="flex items-center gap-1.5"><Clock className="w-3 h-3" /> {post.readTime}</span>
                 </div>
@@ -132,6 +134,29 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                       <h2 className="text-2xl md:text-3xl font-black italic uppercase tracking-tighter text-white mb-5">{s.h}</h2>
                       <div className="space-y-5 text-gray-300 leading-relaxed">
                         {(s.p || []).map((t, i) => <p key={i}><RichText text={t} /></p>)}
+                        {s.table && (
+                          <div className="overflow-x-auto rounded-2xl border border-white/10">
+                            <table className="w-full text-left text-sm">
+                              <thead className="bg-white/5 text-white">
+                                <tr>{s.table.head.map(h => <th key={h} scope="col" className="px-4 py-3 font-black uppercase tracking-wider text-[11px]">{h}</th>)}</tr>
+                              </thead>
+                              <tbody>
+                                {s.table.rows.map((r, ri) => (
+                                  <tr key={ri} className="border-t border-white/5">
+                                    {r.map((c, ci) => ci === 0
+                                      ? <th key={ci} scope="row" className="px-4 py-3 font-bold text-white"><RichText text={c} /></th>
+                                      : <td key={ci} className="px-4 py-3"><RichText text={c} /></td>)}
+                                  </tr>
+                                ))}
+                              </tbody>
+                            </table>
+                          </div>
+                        )}
+                        {s.img && (
+                          <figure className="m-0">
+                            <Image src={`/images/${s.img.file}`} alt={s.img.alt} width={s.img.w} height={s.img.h} sizes="(min-width: 1024px) 760px, 100vw" loading="lazy" className="w-full h-auto rounded-2xl border border-white/5" />
+                          </figure>
+                        )}
                         {s.ul && (
                           <ul className="list-disc pl-6 space-y-2 marker:text-brand-red">
                             {s.ul.map((t, i) => <li key={i}><RichText text={t} /></li>)}
@@ -143,6 +168,29 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 </article>
 
                 <PageFaq items={post.faq} heading="Frequently asked questions" />
+
+                {post.related && post.related.length > 0 && (
+                  <section aria-labelledby="related-products" className="mt-14">
+                    <h2 id="related-products" className="text-2xl md:text-3xl font-black italic uppercase tracking-tighter text-white mb-5">Related products</h2>
+                    <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 list-none p-0 m-0">
+                      {post.related.map(r => (
+                        <li key={r.href}>
+                          <Link href={r.href} className="block h-full p-5 bg-[#16181b] rounded-2xl border border-white/5 hover:border-brand-red/40 transition-colors">
+                            <p className="font-black text-white m-0">{r.name}</p>
+                            {r.price != null && <p className="text-brand-red font-black m-0 mt-1">${r.price.toLocaleString('en-AU')}</p>}
+                            {r.note && <p className="text-sm text-gray-400 m-0 mt-2">{r.note}</p>}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </section>
+                )}
+
+                {post.tags && post.tags.length > 0 && (
+                  <ul aria-label="Tags" className="mt-10 flex flex-wrap gap-2 list-none p-0 m-0">
+                    {post.tags.map(t => <li key={t} className="px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-brand-gray bg-white/5 border border-white/5 rounded-full">{t}</li>)}
+                  </ul>
+                )}
               </div>
 
               <aside className="lg:col-span-4 space-y-8">

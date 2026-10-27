@@ -1,0 +1,13 @@
+[
+  { "type": "hero", "name": "lubricant-for-bike-chains", "files": ["rock-n-roll-gold-chain-lube-117ml", "rock-n-roll-absolute-dry-chain-lube-117ml", "rock-n-roll-extreme-blue-chain-lube-117ml"] },
+  { "type": "single", "name": "lubricant-for-bike-chains-rock-n-roll-gold", "files": ["rock-n-roll-gold-chain-lube-117ml"] },
+  { "type": "single", "name": "lubricant-for-bike-chains-drivetrain-degreaser", "files": ["krush-ultra-drivetrain-degreaser"] },
+  { "type": "hero", "name": "e-bike-batteries", "files": ["vamos-hefe-battery-48v-15ah", "vamos-battery-52v-20ah-samsung-cells", "vamos-doblez-2023-2024-battery-36v-13ah"] },
+  { "type": "single", "name": "e-bike-batteries-vamos-52v-20ah", "files": ["vamos-battery-52v-20ah-samsung-cells"] },
+  { "type": "hero", "name": "e-bike-battery-charger", "files": ["fatboy-charger-48v-v1", "fatboy-charger-52v", "e-bike-charger-au-plug"] },
+  { "type": "single", "name": "e-bike-battery-charger-fatboy-52v", "files": ["fatboy-charger-52v"] },
+  { "type": "hero", "name": "childs-electric-bike", "files": ["velectrix-hurricane-24-kids-e-bike", "pedal-warrior-2-24-electric-mountain-bike-red", "ace-s-19-youth-electric-bike"] },
+  { "type": "single", "name": "childs-electric-bike-velectrix-hurricane-24", "files": ["velectrix-hurricane-24-kids-e-bike"] },
+  { "type": "hero", "name": "sur-ron-for-sale", "files": ["sur-ron-light-bee-x", "sur-ron-hyper-bee-2026", "sur-ron-ultra-bee"] },
+  { "type": "single", "name": "sur-ron-for-sale-light-bee-x", "files": ["sur-ron-light-bee-x"] }
+]

@@ -1,9 +1,16 @@
 // src/lib/blogFull.ts
 // Server-only: full post bodies (intro, sections, FAQ) merged with the light metadata.
 import { BLOG_BODIES } from '@/src/content/blog/bodies.js'
+import { NEW_BODIES } from '@/src/content/blog/new/index.js'
 import { getPost, getTool, type BlogMeta } from './blog'
 
-export type BlogSection = { h: string; p?: string[]; ul?: string[] }
+export type BlogSection = {
+  h: string
+  p?: string[]
+  ul?: string[]
+  table?: { head: string[]; rows: string[][] }
+  img?: { file: string; alt: string; w: number; h: number }
+}
 export type BlogBody = {
   hook: string
   intro: string[]
@@ -14,7 +21,7 @@ export type BlogBody = {
 }
 export type FullPost = BlogMeta & BlogBody
 
-const BODIES = BLOG_BODIES as unknown as Record<string, BlogBody>
+const BODIES = { ...BLOG_BODIES, ...NEW_BODIES } as unknown as Record<string, BlogBody>
 
 const merge = (m: BlogMeta | undefined): FullPost | undefined => {
   if (!m) return undefined

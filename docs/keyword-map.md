@@ -4775,3 +4775,16 @@ Generated 2026-10-16 from 85 Semrush exports (143,451 rows, 46,156 unique keywor
 
 ## Revisit in 6 months (KD 35–54, volume 2,000+)
 See the approval page, "Held back" section, for the current list.
+
+## Blog posts written to the blog-post rule (27 Oct 2026)
+Main keyword Transactional/Commercial, 5 secondary T/C, 10 unique tags; every keyword is in `docs/used-keywords.csv` with volume, KD and intent.
+
+| Post | Main keyword (vol / KD) | Category linked | Inbound links from |
+|---|---|---|---|
+| `/blog/lubricant-for-bike-chains/` | lubricant for bike chains (320 / 12) | care-tools-and-hydration | category, Rock N Roll Gold, Krush degreaser |
+| `/blog/e-bike-batteries/` | e bike batteries (590 / 7) | batteries-chargers-and-electronics | category, Vamos 52V 20Ah, Vamos Amigo |
+| `/blog/e-bike-battery-charger/` | e bike battery charger (260 / 4) | batteries-chargers-and-electronics | category, Fatboy 52V charger, AU plug charger |
+| `/blog/childs-electric-bike/` | childs electric bike (390 / 12) | kids-and-youth-e-bikes | category, VelectriX Hurricane, ACE-S 19 |
+| `/blog/sur-ron-for-sale/` | sur ron for sale (140 / 14) | electric-dirt-bikes | category, Light Bee X, Sur-Ron spares |
+
+Source files: `src/content/blog/new/*.js` (one per post). Images are built from the shop's own product photos by `scripts/make-blog-images.mjs`. Checks: `node scripts/check-new-posts.mjs`.

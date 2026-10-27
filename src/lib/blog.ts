@@ -2,6 +2,7 @@
 // Light blog metadata (safe for client bundles). Full post bodies live in src/lib/blogFull.ts (server only).
 // Posts are released on their planned date: only posts dated on or before the build date are published.
 import { BLOG_META } from '@/src/content/blog/meta.js'
+import { NEW_META } from '@/src/content/blog/new/index.js'
 
 export type BlogMeta = {
   id: string
@@ -17,9 +18,14 @@ export type BlogMeta = {
   image: { file: string; alt: string; query?: string; credit?: string | null }
   links: { to: [string, string][]; from: [string, string][] }
   kind: 'post' | 'tool'
+  // blog-post rule fields (new posts): focus keyword, 5 secondary keywords, 10 tags, related product cards
+  focus?: string
+  secondary?: string[]
+  tags?: string[]
+  related?: { href: string; name: string; price?: number; note?: string }[]
 }
 
-const ALL = BLOG_META as unknown as BlogMeta[]
+const ALL = [...BLOG_META, ...NEW_META] as unknown as BlogMeta[]
 
 export const TOOL_PAGES: BlogMeta[] = ALL.filter(p => p.kind === 'tool')
 
