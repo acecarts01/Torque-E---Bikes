@@ -4100,24 +4100,6 @@ url,type,role,keyword,volume,kd,intent,source
 /blog/electric-moto-maintenance-lithium-safety/,blog,secondary,how to choose e-bike batteries,,,Informational,generated
 /blog/electric-moto-maintenance-lithium-safety/,blog,secondary,e-bike batteries explained,,,Informational,generated
 /blog/electric-moto-maintenance-lithium-safety/,blog,secondary,e-bike batteries for beginners,,,Informational,generated
-/blog/kids-electric-dirt-bikes/,blog,primary,kids’ electric dirt bikes guide,,,Informational,generated
-/blog/kids-electric-dirt-bikes/,blog,secondary,kids’ electric dirt bikes guide,,,Informational,generated
-/blog/kids-electric-dirt-bikes/,blog,secondary,how to choose kids’ electric dirt bikes,,,Informational,generated
-/blog/kids-electric-dirt-bikes/,blog,secondary,kids’ electric dirt bikes explained,,,Informational,generated
-/blog/kids-electric-dirt-bikes/,blog,secondary,kids’ electric dirt bikes for beginners,,,Informational,generated
-/blog/kids-electric-dirt-bikes/,blog,secondary,kids’ electric dirt bikes tips,,,Informational,generated
-/blog/yozma-in10-electric-mini-dirt-bike/,blog,primary,yozma in10,590,30,Informational,competitor
-/blog/yozma-in10-electric-mini-dirt-bike/,blog,secondary,yozma in 10 australia,390,30,Navigational,competitor
-/blog/yozma-in10-electric-mini-dirt-bike/,blog,secondary,yozma in10 electric bike,170,10,Navigational,competitor
-/blog/yozma-in10-electric-mini-dirt-bike/,blog,secondary,yozma in 10 electric bike,110,18,Navigational,competitor
-/blog/yozma-in10-electric-mini-dirt-bike/,blog,secondary,yozma in 10 pro electric dirt bike,90,15,Informational,competitor
-/blog/yozma-in10-electric-mini-dirt-bike/,blog,secondary,yozma in10 guide,,,Informational,generated
-/blog/dirodi-rover-gen-6/,blog,primary,dirodi gen 6,720,8,Informational,competitor
-/blog/dirodi-rover-gen-6/,blog,secondary,dirodi rover v6,170,17,Navigational,competitor
-/blog/dirodi-rover-gen-6/,blog,secondary,dirodi rover plus gen 6,170,11,Informational,competitor
-/blog/dirodi-rover-gen-6/,blog,secondary,dirodi rover gen 3,90,18,Navigational,competitor
-/blog/dirodi-rover-gen-6/,blog,secondary,dirodi rover pro 1000w,70,16,Informational,competitor
-/blog/dirodi-rover-gen-6/,blog,secondary,dirodi rover gen 5,70,13,Informational,competitor
 /blog/flight-risk-fr505-and-fr555/,blog,primary,flight risk 505,390,12,Informational,competitor
 /blog/flight-risk-fr505-and-fr555/,blog,secondary,flight risk 555,320,6,Informational,competitor
 /blog/flight-risk-fr505-and-fr555/,blog,secondary,flight risk fr555,210,9,Informational,competitor
@@ -4875,3 +4857,67 @@ url,type,role,keyword,volume,kd,intent,source
 /blog/electric-vs-petrol-dirt-bikes/,blog,tag,electric motor cross bike,50,16,"Informational, Commercial",semrush-keyword-magic-2026-10-27
 /blog/electric-vs-petrol-dirt-bikes/,blog,tag,dirt bike vs e bike,50,7,Commercial,semrush-keyword-magic-2026-10-27
 /blog/electric-vs-petrol-dirt-bikes/,blog,tag,electric dirtbike australia,90,16,"Informational, Commercial",semrush-keyword-magic-2026-10-27
+/blog/yozma-in10-electric-mini-dirt-bike/,blog,primary,mini electric bike,590,14,Commercial,semrush-keyword-magic-2026-10-27
+/blog/yozma-in10-electric-mini-dirt-bike/,blog,secondary,electric mini bike,590,17,Commercial,semrush-keyword-magic-2026-10-27
+/blog/yozma-in10-electric-mini-dirt-bike/,blog,secondary,mini dirt bike,590,28,Commercial,semrush-keyword-magic-2026-10-27
+/blog/yozma-in10-electric-mini-dirt-bike/,blog,secondary,electric mini bike motorcycle,480,15,Commercial,semrush-keyword-magic-2026-10-27
+/blog/yozma-in10-electric-mini-dirt-bike/,blog,secondary,mini bike for sale,170,13,Transactional,semrush-keyword-magic-2026-10-27
+/blog/yozma-in10-electric-mini-dirt-bike/,blog,secondary,mini bikes for sale,170,10,Transactional,semrush-keyword-magic-2026-10-27
+/blog/yozma-in10-electric-mini-dirt-bike/,blog,tag,bike mini bike,1600,17,"Informational, Commercial",semrush-keyword-magic-2026-10-27
+/blog/yozma-in10-electric-mini-dirt-bike/,blog,tag,electric mini bikes,110,14,"Informational, Commercial",semrush-keyword-magic-2026-10-27
+/blog/yozma-in10-electric-mini-dirt-bike/,blog,tag,mini motor bike,260,22,Commercial,semrush-keyword-magic-2026-10-27
+/blog/yozma-in10-electric-mini-dirt-bike/,blog,tag,mini mini dirt bike,480,19,Commercial,semrush-keyword-magic-2026-10-27
+/blog/yozma-in10-electric-mini-dirt-bike/,blog,tag,mini bike dirt bike,590,13,"Informational, Commercial",semrush-keyword-magic-2026-10-27
+/blog/yozma-in10-electric-mini-dirt-bike/,blog,tag,mini e dirt bike,70,13,Commercial,semrush-keyword-magic-2026-10-27
+/blog/yozma-in10-electric-mini-dirt-bike/,blog,tag,mini electric motor bike,50,14,Commercial,semrush-keyword-magic-2026-10-27
+/blog/yozma-in10-electric-mini-dirt-bike/,blog,tag,mini pit bike,90,25,Commercial,semrush-keyword-magic-2026-10-27
+/blog/yozma-in10-electric-mini-dirt-bike/,blog,tag,pit bike mini,70,26,Commercial,semrush-keyword-magic-2026-10-27
+/blog/yozma-in10-electric-mini-dirt-bike/,blog,tag,buy electric motorbike,50,19,Transactional,semrush-keyword-magic-2026-10-27
+/blog/kids-electric-dirt-bikes/,blog,primary,childrens electric motorbike,1300,17,"Informational, Commercial",semrush-keyword-magic-2026-10-27
+/blog/kids-electric-dirt-bikes/,blog,secondary,childs electric motorbike,140,16,"Informational, Commercial",semrush-keyword-magic-2026-10-27
+/blog/kids-electric-dirt-bikes/,blog,secondary,electric children's motorcycle,110,14,"Informational, Commercial",semrush-keyword-magic-2026-10-27
+/blog/kids-electric-dirt-bikes/,blog,secondary,kids dirtbike,170,22,"Informational, Commercial",semrush-keyword-magic-2026-10-27
+/blog/kids-electric-dirt-bikes/,blog,secondary,kids electric dirtbike,70,10,"Informational, Commercial",semrush-keyword-magic-2026-10-27
+/blog/kids-electric-dirt-bikes/,blog,secondary,childs e bike,480,11,Commercial,semrush-keyword-magic-2026-10-27
+/blog/kids-electric-dirt-bikes/,blog,tag,e balance bike,110,13,Commercial,semrush-keyword-magic-2026-10-27
+/blog/kids-electric-dirt-bikes/,blog,tag,16 inch electric bike,140,12,Commercial,semrush-keyword-magic-2026-10-27
+/blog/kids-electric-dirt-bikes/,blog,tag,miniature electric bike,170,11,Commercial,semrush-keyword-magic-2026-10-27
+/blog/kids-electric-dirt-bikes/,blog,tag,e bike toy,110,9,Commercial,semrush-keyword-magic-2026-10-27
+/blog/kids-electric-dirt-bikes/,blog,tag,e bikes for 10 year olds,140,21,"Informational, Commercial",semrush-keyword-magic-2026-10-27
+/blog/kids-electric-dirt-bikes/,blog,tag,teenage electric bikes,90,17,Commercial,semrush-keyword-magic-2026-10-27
+/blog/kids-electric-dirt-bikes/,blog,tag,ebike age limit,90,32,Informational,semrush-keyword-magic-2026-10-27
+/blog/kids-electric-dirt-bikes/,blog,tag,electric bike age limit,70,25,Informational,semrush-keyword-magic-2026-10-27
+/blog/kids-electric-dirt-bikes/,blog,tag,childs electric bicycle,480,18,Commercial,semrush-keyword-magic-2026-10-27
+/blog/kids-electric-dirt-bikes/,blog,tag,electric childs bike,480,20,Commercial,semrush-keyword-magic-2026-10-27
+/blog/diy-2000w-conversion-guide/,blog,primary,2000w ebike,390,17,Commercial,semrush-keyword-magic-2026-10-27
+/blog/diy-2000w-conversion-guide/,blog,secondary,2000w electric bike,260,14,"Informational, Commercial",semrush-keyword-magic-2026-10-27
+/blog/diy-2000w-conversion-guide/,blog,secondary,e bike 2000w,210,11,Commercial,semrush-keyword-magic-2026-10-27
+/blog/diy-2000w-conversion-guide/,blog,secondary,2000w electric bike kit,170,10,Commercial,semrush-keyword-magic-2026-10-27
+/blog/diy-2000w-conversion-guide/,blog,secondary,2000w e bike,70,8,Commercial,semrush-keyword-magic-2026-10-27
+/blog/diy-2000w-conversion-guide/,blog,secondary,electric bicycle 2000w,170,7,Commercial,semrush-keyword-magic-2026-10-27
+/blog/diy-2000w-conversion-guide/,blog,tag,electric bicycle conversion kit,260,6,"Informational, Commercial",semrush-keyword-magic-2026-10-27
+/blog/diy-2000w-conversion-guide/,blog,tag,conversion kit electric bike,260,6,Commercial,semrush-keyword-magic-2026-10-27
+/blog/diy-2000w-conversion-guide/,blog,tag,conversion kit e bike,210,6,Commercial,semrush-keyword-magic-2026-10-27
+/blog/diy-2000w-conversion-guide/,blog,tag,electric bicycle e bike conversion kits,260,6,Commercial,semrush-keyword-magic-2026-10-27
+/blog/diy-2000w-conversion-guide/,blog,tag,e bike kits,260,6,Commercial,semrush-keyword-magic-2026-10-27
+/blog/diy-2000w-conversion-guide/,blog,tag,electric bicycle conversion kit with battery,260,4,Commercial,semrush-keyword-magic-2026-10-27
+/blog/diy-2000w-conversion-guide/,blog,tag,convert bicycle to electric bike,260,11,Commercial,semrush-keyword-magic-2026-10-27
+/blog/diy-2000w-conversion-guide/,blog,tag,motorized bike kit,260,15,Commercial,semrush-keyword-magic-2026-10-27
+/blog/diy-2000w-conversion-guide/,blog,tag,powered bicycle kit,320,31,Commercial,semrush-keyword-magic-2026-10-27
+/blog/diy-2000w-conversion-guide/,blog,tag,conversion kit with battery,320,10,Commercial,semrush-keyword-magic-2026-10-27
+/blog/dirodi-rover-gen-6/,blog,primary,dirodi bike,590,20,"Transactional, Navigational",semrush-keyword-magic-2026-10-27
+/blog/dirodi-rover-gen-6/,blog,secondary,dirodi e bikes,390,19,"Informational, Transactional",semrush-keyword-magic-2026-10-27
+/blog/dirodi-rover-gen-6/,blog,secondary,dirodi pro,210,7,Commercial,semrush-keyword-magic-2026-10-27
+/blog/dirodi-rover-gen-6/,blog,secondary,rover v6 electric bike,70,6,"Informational, Commercial",semrush-keyword-magic-2026-10-27
+/blog/dirodi-rover-gen-6/,blog,secondary,dirodi gen 6 1000w,50,13,"Informational, Transactional",semrush-keyword-magic-2026-10-27
+/blog/dirodi-rover-gen-6/,blog,secondary,dirodi v6,50,14,Transactional,semrush-keyword-magic-2026-10-27
+/blog/dirodi-rover-gen-6/,blog,tag,dirodi gen 7,70,13,Navigational,semrush-keyword-magic-2026-10-27
+/blog/dirodi-rover-gen-6/,blog,tag,dirodi rover pro 1000w,70,16,Informational,semrush-keyword-magic-2026-10-27
+/blog/dirodi-rover-gen-6/,blog,tag,dirodi seat,70,12,"Transactional, Navigational",semrush-keyword-magic-2026-10-27
+/blog/dirodi-rover-gen-6/,blog,tag,dirodi nova,50,18,Informational,semrush-keyword-magic-2026-10-27
+/blog/dirodi-rover-gen-6/,blog,tag,dirodi rover gen 6 1000w,50,10,Informational,semrush-keyword-magic-2026-10-27
+/blog/dirodi-rover-gen-6/,blog,tag,dirodi rover gen 6 review,50,15,Commercial,semrush-keyword-magic-2026-10-27
+/blog/dirodi-rover-gen-6/,blog,tag,ebike rover,50,7,Commercial,semrush-keyword-magic-2026-10-27
+/blog/dirodi-rover-gen-6/,blog,tag,are dirodi bikes legal in nsw,70,16,Informational,semrush-keyword-magic-2026-10-27
+/blog/dirodi-rover-gen-6/,blog,tag,derodi ebike,50,19,"Navigational, Commercial",semrush-keyword-magic-2026-10-27
+/blog/dirodi-rover-gen-6/,blog,tag,dorodi ebike,50,14,"Navigational, Commercial",semrush-keyword-magic-2026-10-27

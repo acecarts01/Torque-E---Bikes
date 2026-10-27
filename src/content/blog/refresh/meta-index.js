@@ -27,6 +27,10 @@ import { meta as helmetsAndProtectiveGearForEBikes } from './helmets-and-protect
 import { meta as pedalAssistVsThrottle } from './pedal-assist-vs-throttle.js'
 import { meta as eBikeBrandsInAustralia } from './e-bike-brands-in-australia.js'
 import { meta as electricVsPetrolDirtBikes } from './electric-vs-petrol-dirt-bikes.js'
+import { meta as yozmaIn10ElectricMiniDirtBike } from './yozma-in10-electric-mini-dirt-bike.js'
+import { meta as kidsElectricDirtBikes } from './kids-electric-dirt-bikes.js'
+import { meta as diy2000wConversionGuide } from './diy-2000w-conversion-guide.js'
+import { meta as dirodiRoverGen6 } from './dirodi-rover-gen-6.js'
 
 export const REFRESH_META = {
   'e-bike-conversion-kits-explained': conversionKits,
@@ -57,4 +61,8 @@ export const REFRESH_META = {
   'pedal-assist-vs-throttle': pedalAssistVsThrottle,
   'e-bike-brands-in-australia': eBikeBrandsInAustralia,
   'electric-vs-petrol-dirt-bikes': electricVsPetrolDirtBikes,
+  'yozma-in10-electric-mini-dirt-bike': yozmaIn10ElectricMiniDirtBike,
+  'kids-electric-dirt-bikes': kidsElectricDirtBikes,
+  'diy-2000w-conversion-guide': diy2000wConversionGuide,
+  'dirodi-rover-gen-6': dirodiRoverGen6,
 }
