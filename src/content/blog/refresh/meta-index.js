@@ -5,6 +5,11 @@ import { meta as bestElectricBikesInAustralia } from './best-electric-bikes-in-a
 import { meta as howToChooseAnEBike } from './how-to-choose-an-e-bike.js'
 import { meta as surRonModelsExplained } from './sur-ron-models-explained.js'
 import { meta as electricMountainBikeBuyingGuide } from './electric-mountain-bike-buying-guide.js'
+import { meta as bikeRacksBasketsAndTrailers } from './bike-racks-baskets-and-trailers.js'
+import { meta as electricTrikesForAdults } from './electric-trikes-for-adults.js'
+import { meta as whatIsAnEMoto } from './what-is-an-e-moto.js'
+import { meta as foldingElectricBikes } from './folding-electric-bikes.js'
+import { meta as offRoadVsStreetLegalAustralia } from './off-road-vs-street-legal-australia.js'
 
 export const REFRESH_META = {
   'e-bike-conversion-kits-explained': conversionKits,
@@ -13,4 +18,9 @@ export const REFRESH_META = {
   'how-to-choose-an-e-bike': howToChooseAnEBike,
   'sur-ron-models-explained': surRonModelsExplained,
   'electric-mountain-bike-buying-guide': electricMountainBikeBuyingGuide,
+  'bike-racks-baskets-and-trailers': bikeRacksBasketsAndTrailers,
+  'electric-trikes-for-adults': electricTrikesForAdults,
+  'what-is-an-e-moto': whatIsAnEMoto,
+  'folding-electric-bikes': foldingElectricBikes,
+  'off-road-vs-street-legal-australia': offRoadVsStreetLegalAustralia,
 }

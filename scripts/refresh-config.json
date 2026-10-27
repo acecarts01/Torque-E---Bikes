@@ -1,39 +1,258 @@
 [
- {"slug":"e-bike-conversion-kits-explained","pools":["conv"],"re":"kit|conver|motor","main":"e bike conversion kit"},
- {"slug":"talaria-x3-mx3-and-mx4","pools":["talaria"],"re":"talaria|x3|mx3|mx4|sting"},
- {"slug":"best-electric-bikes-in-australia","pools":["best"],"re":"^(best|top|cheap|buy|good)|australia|sale|price"},
- {"slug":"how-to-choose-an-e-bike","pools":["choose"],"re":"adult|long range|range|women|men|senior|heavy|tall|short|best|for"},
- {"slug":"sur-ron-models-explained","pools":["surron"],"re":"light bee|ultra|storm|hyper|model|sur ?ron"},
- {"slug":"electric-mountain-bike-buying-guide","pools":["emtb"],"re":"mountain|mtb|e-?mtb"},
- {"slug":"bike-racks-baskets-and-trailers","pools":["racks"],"re":"basket|rack|trailer|carrier|pannier"},
- {"slug":"electric-trikes-for-adults","pools":["trike"],"re":"trike|three wheel|3 wheel|tricycle"},
- {"slug":"what-is-an-e-moto","pools":["emoto"],"re":"motorbike|motorcycle|moto|electric bike"},
- {"slug":"off-road-vs-street-legal-australia","pools":["dirt"],"re":"legal|road|street|registr|licen"},
- {"slug":"folding-electric-bikes","pools":["fold"],"re":"fold"},
- {"slug":"diy-2000w-conversion-guide","pools":["diy","conv"],"re":"2000|1500|3000|1000w|hub|kw"},
- {"slug":"what-is-an-e-bike","pools":["whatis"],"re":"ebike|e bike|e-bike|electric bike|electric bicycle"},
- {"slug":"e-bike-and-dirt-bike-brakes","pools":["brakes"],"re":"brake|rotor|disc"},
- {"slug":"flight-risk-fr505-and-fr555","pools":["fr"],"re":"flight|risk|fr"},
- {"slug":"pedal-assist-vs-throttle","pools":["throttle"],"re":"throttle|pedal assist|pas"},
- {"slug":"e-bike-lights","pools":["lights"],"re":"light|lamp|headlight|tail"},
- {"slug":"electric-vs-petrol-dirt-bikes","pools":["dirt"],"re":"petrol|dirt bike|motocross|off road|off-road"},
- {"slug":"e-bike-grips-pedals-and-handlebar-controls","pools":["grips"],"re":"grip|pedal|handlebar|handle bar"},
- {"slug":"kids-electric-dirt-bikes","pools":["kidsdirt"],"re":"kid|child|youth|boy|girl|junior"},
- {"slug":"how-fast-does-a-sur-ron-go","pools":["surron"],"re":"sur ?ron|light bee|ultra bee|storm bee"},
- {"slug":"best-phone-mounts-for-e-bikes","pools":["phone"],"re":"phone|mount|holder"},
- {"slug":"talaria-electric-dirt-bikes","pools":["talaria"],"re":"talaria|sting|dirt|electric"},
- {"slug":"e-bike-seats-saddles-kickstands-and-mudguards","pools":["seat"],"re":"saddle|seat|kickstand|stand|mudguard|fender"},
- {"slug":"commuter-e-bikes","pools":["commuter","best"],"re":"commut|city|urban|step through|cruiser|retro"},
- {"slug":"e-bike-tyres-and-tubes","pools":["tyres"],"re":"tyre|tire|tube|puncture"},
- {"slug":"fat-tyre-e-bikes","pools":["fat"],"re":"fat"},
- {"slug":"dirodi-rover-gen-6","pools":["dirodi"],"re":"dirodi|rover"},
- {"slug":"electric-cargo-bikes","pools":["cargo"],"re":"cargo|trailer|delivery|family"},
- {"slug":"how-to-lock-an-e-bike","pools":["lock"],"re":"lock|chain|security"},
- {"slug":"electric-moto-maintenance-lithium-safety","pools":["emoto","chain"],"re":"maint|service|battery|charger|lithium"},
- {"slug":"best-electric-dirt-bikes-in-australia","pools":["dirt"],"re":"dirt|best|motocross|off road"},
- {"slug":"electric-balance-bikes","pools":["balance"],"re":"balance|kids|toddler|strider"},
- {"slug":"e-bike-brands-in-australia","pools":["brands"],"re":"brand|best|top"},
- {"slug":"helmets-and-protective-gear-for-e-bikes","pools":["helmet"],"re":"helmet|gear|protect|armour|glove"},
- {"slug":"yozma-in10-electric-mini-dirt-bike","pools":["yozma"],"re":"yozma|mini|in10"},
- {"slug":"chain-alignment-high-torque-motors","pools":["chain"],"re":"chain|sprocket|cog|cassette|gear"}
+ {
+  "slug": "e-bike-conversion-kits-explained",
+  "pools": [
+   "conv"
+  ],
+  "re": "kit|conver|motor",
+  "main": "e bike conversion kit"
+ },
+ {
+  "slug": "talaria-x3-mx3-and-mx4",
+  "pools": [
+   "talaria"
+  ],
+  "re": "talaria|x3|mx3|mx4|sting"
+ },
+ {
+  "slug": "best-electric-bikes-in-australia",
+  "pools": [
+   "best"
+  ],
+  "re": "^(best|top|cheap|buy|good)|australia|sale|price"
+ },
+ {
+  "slug": "how-to-choose-an-e-bike",
+  "pools": [
+   "choose"
+  ],
+  "re": "adult|long range|range|women|men|senior|heavy|tall|short|best|for"
+ },
+ {
+  "slug": "sur-ron-models-explained",
+  "pools": [
+   "surron"
+  ],
+  "re": "light bee|ultra|storm|hyper|model|sur ?ron"
+ },
+ {
+  "slug": "electric-mountain-bike-buying-guide",
+  "pools": [
+   "emtb"
+  ],
+  "re": "mountain|mtb|e-?mtb"
+ },
+ {
+  "slug": "bike-racks-baskets-and-trailers",
+  "pools": [
+   "racks"
+  ],
+  "re": "basket|rack|trailer|carrier|pannier"
+ },
+ {
+  "slug": "electric-trikes-for-adults",
+  "pools": [
+   "trike"
+  ],
+  "re": "trike|three wheel|3 wheel|tricycle"
+ },
+ {
+  "slug": "what-is-an-e-moto",
+  "pools": [
+   "emoto"
+  ],
+  "re": "motorbike|motorcycle|moto|electric bike"
+ },
+ {
+  "slug": "off-road-vs-street-legal-australia",
+  "pools": [
+   "dirt"
+  ],
+  "re": "legal|road|street|registr|licen"
+ },
+ {
+  "slug": "folding-electric-bikes",
+  "pools": [
+   "fold"
+  ],
+  "re": "fold"
+ },
+ {
+  "slug": "diy-2000w-conversion-guide",
+  "pools": [
+   "diy",
+   "conv"
+  ],
+  "re": "2000|1500|3000|1000w|hub|kw"
+ },
+ {
+  "slug": "what-is-an-e-bike",
+  "pools": [
+   "whatis"
+  ],
+  "re": "ebike|e bike|e-bike|electric bike|electric bicycle"
+ },
+ {
+  "slug": "e-bike-and-dirt-bike-brakes",
+  "pools": [
+   "brakes"
+  ],
+  "re": "brake|rotor|disc"
+ },
+ {
+  "slug": "flight-risk-fr505-and-fr555",
+  "pools": [
+   "fr"
+  ],
+  "re": "flight|risk|fr"
+ },
+ {
+  "slug": "pedal-assist-vs-throttle",
+  "pools": [
+   "throttle"
+  ],
+  "re": "throttle|pedal assist|pas"
+ },
+ {
+  "slug": "e-bike-lights",
+  "pools": [
+   "lights"
+  ],
+  "re": "light|lamp|headlight|tail"
+ },
+ {
+  "slug": "electric-vs-petrol-dirt-bikes",
+  "pools": [
+   "dirt"
+  ],
+  "re": "petrol|dirt bike|motocross|off road|off-road"
+ },
+ {
+  "slug": "e-bike-grips-pedals-and-handlebar-controls",
+  "pools": [
+   "grips"
+  ],
+  "re": "grip|pedal|handlebar|handle bar"
+ },
+ {
+  "slug": "kids-electric-dirt-bikes",
+  "pools": [
+   "kidsdirt"
+  ],
+  "re": "kid|child|youth|boy|girl|junior"
+ },
+ {
+  "slug": "how-fast-does-a-sur-ron-go",
+  "pools": [
+   "surron"
+  ],
+  "re": "sur ?ron|light bee|ultra bee|storm bee"
+ },
+ {
+  "slug": "best-phone-mounts-for-e-bikes",
+  "pools": [
+   "phone"
+  ],
+  "re": "phone|mount|holder"
+ },
+ {
+  "slug": "e-bike-seats-saddles-kickstands-and-mudguards",
+  "pools": [
+   "seat"
+  ],
+  "re": "saddle|seat|kickstand|stand|mudguard|fender"
+ },
+ {
+  "slug": "commuter-e-bikes",
+  "pools": [
+   "commuter",
+   "best"
+  ],
+  "re": "commut|city|urban|step through|cruiser|retro"
+ },
+ {
+  "slug": "e-bike-tyres-and-tubes",
+  "pools": [
+   "tyres"
+  ],
+  "re": "tyre|tire|tube|puncture"
+ },
+ {
+  "slug": "fat-tyre-e-bikes",
+  "pools": [
+   "fat"
+  ],
+  "re": "fat"
+ },
+ {
+  "slug": "dirodi-rover-gen-6",
+  "pools": [
+   "dirodi"
+  ],
+  "re": "dirodi|rover"
+ },
+ {
+  "slug": "electric-cargo-bikes",
+  "pools": [
+   "cargo"
+  ],
+  "re": "cargo|trailer|delivery|family"
+ },
+ {
+  "slug": "how-to-lock-an-e-bike",
+  "pools": [
+   "lock"
+  ],
+  "re": "lock|chain|security"
+ },
+ {
+  "slug": "electric-moto-maintenance-lithium-safety",
+  "pools": [
+   "emoto",
+   "chain"
+  ],
+  "re": "maint|service|battery|charger|lithium"
+ },
+ {
+  "slug": "best-electric-dirt-bikes-in-australia",
+  "pools": [
+   "dirt"
+  ],
+  "re": "dirt|best|motocross|off road"
+ },
+ {
+  "slug": "electric-balance-bikes",
+  "pools": [
+   "balance"
+  ],
+  "re": "balance|kids|toddler|strider"
+ },
+ {
+  "slug": "e-bike-brands-in-australia",
+  "pools": [
+   "brands"
+  ],
+  "re": "brand|best|top"
+ },
+ {
+  "slug": "helmets-and-protective-gear-for-e-bikes",
+  "pools": [
+   "helmet"
+  ],
+  "re": "helmet|gear|protect|armour|glove"
+ },
+ {
+  "slug": "yozma-in10-electric-mini-dirt-bike",
+  "pools": [
+   "yozma"
+  ],
+  "re": "yozma|mini|in10"
+ },
+ {
+  "slug": "chain-alignment-high-torque-motors",
+  "pools": [
+   "chain"
+  ],
+  "re": "chain|sprocket|cog|cassette|gear"
+ }
 ]

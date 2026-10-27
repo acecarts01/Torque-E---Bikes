@@ -5,12 +5,12 @@ import { BLOG_BODIES } from '../src/content/blog/bodies.js'
 import { NEW_META, NEW_BODIES } from '../src/content/blog/new/index.js'
 import { REFRESH_META } from '../src/content/blog/refresh/meta-index.js'
 import { REFRESH_BODY } from '../src/content/blog/refresh/body-index.js'
-import { applyMeta, applyBody } from '../src/content/blog/refresh/apply.js'
+import { applyMeta, applyBody, isMerged } from '../src/content/blog/refresh/apply.js'
 const S = fs.readFileSync('src/config/catalog-products.generated.js', 'utf8')
 const P = JSON.parse(S.match(/CATALOG_PRODUCTS = (\[[\s\S]*\])/)[1].replace(/;\s*$/, ''))
 const ok = new Set([...P.map(p => `/shop/${p.category}/${p.slug}/`), ...P.map(p => `/shop/${p.category}/`), '/shop/', '/electric-bikes/', '/electric-bikes/budget/', '/faq/', '/contact/', '/about/', '/blog/', '/tools/conversion-kit-finder/', '/shipping-returns/', '/wholesale/'])
 const brands = fs.readFileSync('docs/keyword-ranking.csv', 'utf8') + fs.readFileSync('docs/used-keywords.csv', 'utf8')
-const allMeta = [...BLOG_META, ...NEW_META].map(m => applyMeta(m, REFRESH_META[m.slug]))
+const allMeta = [...BLOG_META, ...NEW_META].filter(m => !isMerged(m.slug)).map(m => applyMeta(m, REFRESH_META[m.slug]))
 const postUrls = new Set(allMeta.map(m => m.url))
 const subjects = allMeta.filter(m => m.focus)
 let bad = 0

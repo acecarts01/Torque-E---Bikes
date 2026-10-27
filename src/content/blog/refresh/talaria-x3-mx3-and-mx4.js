@@ -1,6 +1,8 @@
 // Refresh of /blog/talaria-x3-mx3-and-mx4/ written to the blog-post rule (27 Oct 2026).
 // Keywords: "talaria x3" is kept as the main keyword (it is the post's existing target and Semrush shows it as Commercial/Informational).
 // The X3, MX3 and MX4 are NOT stocked: the post says so, shows the Talaria models we do list (catalogue prices) and asks for quotes.
+import { MERGED_SECTIONS, MERGED_FAQ } from './talaria-merged.js'
+
 export const slug = 'talaria-x3-mx3-and-mx4'
 
 export const meta = {
@@ -24,7 +26,6 @@ export const meta = {
       ['/brands/talaria/', 'Talaria bikes'],
       ['/shop/electric-dirt-bikes/', 'electric dirt bikes'],
       ['/blog/off-road-vs-street-legal-australia/', 'off-road rules'],
-      ['/blog/talaria-electric-dirt-bikes/', 'Talaria range guide'],
     ],
     from: [
       ['/brands/talaria/', 'Talaria X3 and MX models explained'],
@@ -64,6 +65,7 @@ export const body = {
   },
   drop: ['Quick recap', 'Ask the team', 'Asking about a model that is not listed', 'Why model names cause confusion', 'Keeping your expectations realistic'],
   append: [
+    ...MERGED_SECTIONS,
     {
       h: 'Talaria X3 price: how to get a real landed figure',
       p: [
@@ -87,6 +89,7 @@ export const body = {
     },
   ],
   faqAppend: [
+    ...MERGED_FAQ,
     {
       q: 'How much is a Talaria X3 in Australia?',
       a: 'We do not currently list the Talaria X3, so we cannot quote a catalogue price. The Talaria models we do list run from $4,749 for the Sting R-mx TL4000 to $9,499 for the Komodo 2026 Edition. Message us the model and year and we will reply with availability and a delivered price.',

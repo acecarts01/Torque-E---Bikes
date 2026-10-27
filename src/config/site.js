@@ -2,6 +2,7 @@
 import { CATALOG_CATEGORIES } from './catalog.generated.js'
 import { BLOG_META } from '../content/blog/meta.js'
 import { NEW_META } from '../content/blog/new/index.js'
+import { isMerged } from '../content/blog/refresh/apply.js'
 export const SITE = {
   name: 'Torque E-Bikes',
   tagline: 'Australia’s Home of High-Torque E-Motos, Performance Conversion Kits & Custom Upgrades',
@@ -81,7 +82,7 @@ export const BRAND = {
 export const CATEGORIES = CATALOG_CATEGORIES
 
 // Published posts (generated from the keyword plan; see src/content/blog and src/lib/blog.ts).
-export const POSTS = [...NEW_META, ...BLOG_META]
+export const POSTS = [...NEW_META, ...BLOG_META].filter(p => !isMerged(p.slug))
   .filter(p => p.kind !== 'tool' && (process.env.PUBLISH_ALL === '1' || new Date(p.date + 'T00:00:00Z') <= new Date()))
   .sort((a, b) => (a.date < b.date ? 1 : -1))
   .map(p => ({ slug: p.slug, title: p.title, excerpt: p.excerpt, category: p.category, date: p.date, readTime: p.readTime, image: p.image.file }))

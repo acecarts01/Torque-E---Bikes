@@ -7,7 +7,7 @@ import { BLOG_BODIES } from '../src/content/blog/bodies.js'
 import { NEW_META, NEW_BODIES } from '../src/content/blog/new/index.js'
 import { REFRESH_META } from '../src/content/blog/refresh/meta-index.js'
 import { REFRESH_BODY } from '../src/content/blog/refresh/body-index.js'
-import { applyMeta, applyBody } from '../src/content/blog/refresh/apply.js'
+import { applyMeta, applyBody, isMerged } from '../src/content/blog/refresh/apply.js'
 
 const rows = fs.readFileSync(new URL('../docs/used-keywords.csv', import.meta.url), 'utf8').split(/\r?\n/).slice(1).filter(Boolean).map(l => {
   const m = l.match(/^([^,]*),([^,]*),([^,]*),(.*)$/); if (!m) return null
@@ -20,7 +20,7 @@ const plain = t => t.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').replace(/\*\*/g, ''
 const allTagsSeen = new Map()
 
 const out = []
-for (const m0 of [...BLOG_META, ...NEW_META].filter(p => p.kind !== 'tool')) {
+for (const m0 of [...BLOG_META, ...NEW_META].filter(p => p.kind !== 'tool' && !isMerged(p.slug))) {
   const m = applyMeta(m0, REFRESH_META[m0.slug])
   const b = applyBody({ ...BLOG_BODIES, ...NEW_BODIES }[m.slug], REFRESH_BODY[m.slug])
   if (!b) continue

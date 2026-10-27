@@ -4,7 +4,7 @@
 import { BLOG_META } from '@/src/content/blog/meta.js'
 import { NEW_META } from '@/src/content/blog/new/index.js'
 import { REFRESH_META } from '@/src/content/blog/refresh/meta-index.js'
-import { applyMeta } from '@/src/content/blog/refresh/apply.js'
+import { applyMeta, isMerged } from '@/src/content/blog/refresh/apply.js'
 
 export type BlogMeta = {
   id: string
@@ -27,7 +27,7 @@ export type BlogMeta = {
   related?: { href: string; name: string; price?: number; note?: string }[]
 }
 
-const ALL = [...BLOG_META, ...NEW_META].map(m => applyMeta(m, (REFRESH_META as Record<string, unknown>)[m.slug])) as unknown as BlogMeta[]
+const ALL = [...BLOG_META, ...NEW_META].filter(m => !isMerged(m.slug)).map(m => applyMeta(m, (REFRESH_META as Record<string, unknown>)[m.slug])) as unknown as BlogMeta[]
 
 export const TOOL_PAGES: BlogMeta[] = ALL.filter(p => p.kind === 'tool')
 

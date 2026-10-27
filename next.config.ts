@@ -13,9 +13,10 @@ const nextConfig = {
     ],
     deviceSizes: [390, 640, 750, 828, 1080, 1200, 1920],
   },
-  // Thin brand pages were merged: send their old URLs to the product, category or shop (permanent).
+  // Thin brand pages and merged blog posts: send their old URLs to the page that replaced them (permanent).
   async redirects() {
-    return (brandRedirects as { source: string; destination: string }[]).map(r => ({ source: r.source, destination: r.destination, permanent: true }))
+    const merged = [{ source: '/blog/talaria-electric-dirt-bikes', destination: '/blog/talaria-x3-mx3-and-mx4/' }]
+    return [...(brandRedirects as { source: string; destination: string }[]), ...merged].map(r => ({ source: r.source, destination: r.destination, permanent: true }))
   },
   async rewrites() {
     return [{ source: '/sitemap.xml', destination: '/api/sitemap.xml' }]
