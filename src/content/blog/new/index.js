@@ -11,7 +11,13 @@ import * as bone from './bone-conduction-headphones.js'
 import * as bottle from './bicycle-water-bottle.js'
 import * as cover from './bicycle-cover.js'
 
-const POSTS = [lubricant, batteries, charger, kids, surron, panniers, mirror, bone, bottle, cover]
+import * as trailers from './bicycle-trailers.js'
+import * as basket from './bicycle-basket.js'
+import * as gloves from './bicycle-gloves.js'
+import * as goggles from './motorbike-goggles.js'
+import * as alarm from './bike-alarm.js'
+
+const POSTS = [lubricant, batteries, charger, kids, surron, panniers, mirror, bone, bottle, cover, trailers, basket, gloves, goggles, alarm]
 
 export const NEW_META = POSTS.map(p => p.meta)
 export const NEW_BODIES = Object.fromEntries(POSTS.map(p => [p.meta.slug, p.body]))
