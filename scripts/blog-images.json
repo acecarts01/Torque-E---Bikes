@@ -29,5 +29,15 @@
   {"type": "hero", "name": "motorbike-goggles", "files":[ "79bike-off-road-goggles", "apollo-rxf-motocross-helmet", "79bike-protective-armour"]},
   {"type": "single", "name": "motorbike-goggles-79bike-off-road", "files":[ "79bike-off-road-goggles"]},
   {"type": "hero", "name": "bike-alarm", "files":[ "kovix-steel-thunder-alarmed-folding-lock", "mastiff-chain-lock-keyed", "multitag-mount-and-airtag"]},
-  {"type": "single", "name": "bike-alarm-kovix-folding-lock", "files":[ "kovix-steel-thunder-alarmed-folding-lock"]}
+  {"type": "single", "name": "bike-alarm-kovix-folding-lock", "files":[ "kovix-steel-thunder-alarmed-folding-lock"]},
+  {"type": "hero", "name": "bike-seat-cover", "files":[ "azur-saddle-cover-road-memory-foam", "azur-pro-range-kappa-memory-foam", "seat-drip-seat-cover-camo-stealth"]},
+  {"type": "single", "name": "bike-seat-cover-azur-kappa", "files":[ "azur-pro-range-kappa-memory-foam"]},
+  {"type": "hero", "name": "flat-pedals", "files":[ "flat-pedals-orange", "crankbrothers-pedal-stamp-1-small-gen-2-orange", "crankbrothers-pedal-stamp-1-large-gen-2-black"]},
+  {"type": "single", "name": "flat-pedals-stamp-1-small-orange", "files":[ "crankbrothers-pedal-stamp-1-small-gen-2-orange"]},
+  {"type": "hero", "name": "e-bike-throttle", "files":[ "ampd-bros-twist-throttle-kit", "ampd-bros-thumb-throttle-kit", "plug-and-play-sur-ron-style-throttle"]},
+  {"type": "single", "name": "e-bike-throttle-ampd-twist", "files":[ "ampd-bros-twist-throttle-kit"]},
+  {"type": "hero", "name": "childs-helmet", "files":[ "abus-smiley-3-0-ace-led-kids-helmet-royal-blue", "velectrix-hurricane-24-kids-e-bike", "ace-s-19-youth-electric-bike"]},
+  {"type": "single", "name": "childs-helmet-abus-smiley", "files":[ "abus-smiley-3-0-ace-led-kids-helmet-royal-blue"]},
+  {"type": "hero", "name": "child-bike-seat", "files":[ "kids-ride-shotgun-seat-black", "kids-ride-shotgun-2-0-seat-black", "kids-ride-shotgun-seat-handlebar-combo-black"]},
+  {"type": "single", "name": "child-bike-seat-kids-ride-shotgun", "files":[ "kids-ride-shotgun-seat-handlebar-combo-black"]}
 ]
