@@ -16,3 +16,22 @@ Our plan: one hub with an AUD price table of accessories we actually stock, each
 Strengths: clear category structure, FAQ on range/charging/laws, links to all eight state rule pages (99 Bikes).
 Weaknesses: no buying checklist (Wh, torque, weight, frame size, warranty); no AUD price bands or comparison table; few named models; shallow battery and ownership content; no sizing or test-ride advice; mis-pointed category links and visible template errors; no updated date.
 Our plan: price bands from our own catalogue with named models, comparison table by type, battery watt-hour explanation and replacement price examples from our range, sizing and fit, consumer guarantees (ACCC), Queensland and NSW rules in plain English, how buying from us works (Australia-wide DG-certified shipping, payment methods).
+
+## 2nd hand / used electric bikes (SERP review 28 Oct 2026: ebikesdownunder, Tern, Fiido, pedelecs.co.uk, Fonzmoto)
+Strengths: battery-first advice, error-code check, original charger check, buy-from-a-shop tip.
+Weaknesses: much of the Australian coverage is about cars; no price comparison with new bikes; no Australian rules or official sources; no battery safety authority; no serial-number or theft advice; no checklist table.
+Our plan: second-hand vs new price comparison from our own catalogue, Fire and Rescue NSW advice on second-hand batteries, Queensland Police serial-number advice, EN 15194 label check, inspection checklist; no listings are claimed.
+
+## electric bike price (SERP review: gyroorboard, ebikesdownunder, finder.com.au, bairbikes, bikeexchange)
+Strengths: price bands, under-$2,000 lists, ownership-cost angle (Bair).
+Weaknesses: retailer blogs with conflicting bands, dated (2019 and 2023) examples, no real model prices, no running-cost worked example, no battery replacement prices.
+Our plan: price bands from our catalogue, named models, battery pack prices ($539 to $1,419), worked first-year budget, charging cost formula (assumption stated), consumer rights.
+
+## Ampd Bros / amps ebikes (SERP review: ampdbros.com.au blogs, ebikesdownunder brand page)
+Strengths: official model detail, large catalogue.
+Weaknesses: brand pages are promotional; prices and model names differ between pages; no independent review or range testing; no legal explanation; no cross-brand comparison.
+Our plan: honest model table with our current prices and categories, what the ACE, Riptide, Stubbie and Chubbie families are, legal/label checks, no unsourced ratings or range claims.
+
+## top rated ebike, mini ebike, electric motorcycle bikes, ebike parts (SERP reviews 28 Oct 2026)
+Common weaknesses: unsourced "best" claims, no price context, mixed scooter content, no official sources, no compatibility advice for parts, no legal framing for off-road bikes.
+Our plan: criteria-based guides with our own prices, honest legal framing, no invented ratings or reviews.

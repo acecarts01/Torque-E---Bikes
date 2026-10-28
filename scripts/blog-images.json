@@ -83,5 +83,21 @@
   {"type":"hero","name":"electric-bike-australia","files":["aventon-pace-4","cube-touring-hybrid-one-400","merida-espresso-500"]},
   {"type":"single","name":"electric-bike-australia-aventon-pace-4","files":["aventon-pace-4"]},
   {"type":"hero","name":"ebike-accessories","files":["abus-macator-helmet","azur-alien2-100-lm-usb-rechargeable-rear-light","onguard-chain-lock"]},
-  {"type":"single","name":"ebike-accessories-abus-macator","files":["abus-macator-helmet"]}
+  {"type":"single","name":"ebike-accessories-abus-macator","files":["abus-macator-helmet"]},
+  {"type":"hero","name":"electric-bike-price","files":["dyu-c6-electric-bike","aventon-pace-4","cube-touring-hybrid-one-400"]},
+  {"type":"single","name":"electric-bike-price-aventon-pace-4","files":["aventon-pace-4"]},
+  {"type":"hero","name":"mini-ebike","files":["ampd-bros-ace-mini-electric-bike-series-5","yozma-in-10-electric-mini-dirt-bike","dhz-electric-kids-mini-dirt-bike-3-speeds-control"]},
+  {"type":"single","name":"mini-ebike-ampd-ace-mini","files":["ampd-bros-ace-mini-electric-bike-series-5"]},
+  {"type":"hero","name":"electric-motorcycle-bikes","files":["sur-ron-light-bee-x","segway-xaber-300","talaria-sting-r-mx5-pro"]},
+  {"type":"single","name":"electric-motorcycle-bikes-sur-ron-light-bee-x","files":["sur-ron-light-bee-x"]},
+  {"type":"hero","name":"top-rated-ebike","files":["aventon-pace-4","merida-espresso-500","trek-checkpoint-sl-5"]},
+  {"type":"single","name":"top-rated-ebike-aventon-pace-4","files":["aventon-pace-4"]},
+  {"type":"hero","name":"ebike-parts","files":["fatboy-controller-v1-bagus-and-v2-models","display-colour-lcd","ampd-bros-thumb-throttle-kit"]},
+  {"type":"single","name":"ebike-parts-fatboy-controller","files":["fatboy-controller-v1-bagus-and-v2-models"]},
+  {"type":"hero","name":"2nd-hand-electric-bikes","files":["dyu-d3-smart-electric-bike-black","dyu-c6-electric-bike","vamos-hefe-battery-48v-15ah"]},
+  {"type":"single","name":"2nd-hand-electric-bikes-dyu-d3","files":["dyu-d3-smart-electric-bike-black"]},
+  {"type":"hero","name":"used-electric-bicycles","files":["dyu-c6-electric-bike","aventon-pace-4"]},
+  {"type":"single","name":"used-electric-bicycles-aventon-pace-4","files":["aventon-pace-4"]},
+  {"type":"hero","name":"amps-ebikes","files":["riptide-3-electric-bike","stubbie-s-s3-electric-bike","ace-pro-electric-bike"]},
+  {"type":"single","name":"amps-ebikes-ace-pro","files":["ace-pro-electric-bike"]}
 ]

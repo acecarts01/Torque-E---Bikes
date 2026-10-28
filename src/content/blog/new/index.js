@@ -49,7 +49,16 @@ import * as sale from './e-bike-sale.js'
 import * as aus from './electric-bike-australia.js'
 import * as accs from './ebike-accessories.js'
 
-const POSTS = [lubricant, batteries, charger, kids, surron, panniers, mirror, bone, bottle, cover, trailers, basket, gloves, goggles, alarm, seatcover, pedals, throttle, helmet, seat, lowcost, women, razor, light, padlock, motor, kit, trike3, middrive, stepthru, hybrid, cube, merida, ncm, cruiser, aventon, roadbike, fastest, forsale, sale, aus, accs]
+import * as price from './electric-bike-price.js'
+import * as mini from './mini-ebike.js'
+import * as emoto from './electric-motorcycle-bikes.js'
+import * as toprated from './top-rated-ebike.js'
+import * as parts from './ebike-parts.js'
+import * as secondhand from './2nd-hand-electric-bikes.js'
+import * as used from './used-electric-bicycles.js'
+import * as ampd from './amps-ebikes.js'
+
+const POSTS = [lubricant, batteries, charger, kids, surron, panniers, mirror, bone, bottle, cover, trailers, basket, gloves, goggles, alarm, seatcover, pedals, throttle, helmet, seat, lowcost, women, razor, light, padlock, motor, kit, trike3, middrive, stepthru, hybrid, cube, merida, ncm, cruiser, aventon, roadbike, fastest, forsale, sale, aus, accs, price, mini, emoto, toprated, parts, secondhand, used, ampd]
 
 export const NEW_META = POSTS.map(p => p.meta)
 export const NEW_BODIES = Object.fromEntries(POSTS.map(p => [p.meta.slug, p.body]))
