@@ -73,5 +73,15 @@
   {"type":"hero","name":"aventon-e-bike","files":["aventon-pace-4","aventon-level-3","aventon-soltera-2"]},
   {"type":"single","name":"aventon-e-bike-level-3","files":["aventon-level-3"]},
   {"type":"hero","name":"electric-road-bicycle","files":["trek-checkpoint-sl-5","trek-domane-alr-5","giant-revolt-e-pro"]},
-  {"type":"single","name":"electric-road-bicycle-trek-checkpoint","files":["trek-checkpoint-sl-5"]}
+  {"type":"single","name":"electric-road-bicycle-trek-checkpoint","files":["trek-checkpoint-sl-5"]},
+  {"type":"hero","name":"fastest-e-bike","files":["sur-ron-hyper-bee-2026","sur-ron-light-bee-x","segway-xaber-300"]},
+  {"type":"single","name":"fastest-e-bike-sur-ron-hyper-bee","files":["sur-ron-hyper-bee-2026"]},
+  {"type":"hero","name":"electric-bikes-for-sale","files":["dyu-c6-electric-bike","ncm-m3","cube-reaction-hybrid-hpa-pro-500"]},
+  {"type":"single","name":"electric-bikes-for-sale-ncm-m3","files":["ncm-m3"]},
+  {"type":"hero","name":"e-bike-sale","files":["dyu-c6-electric-bike","aventon-level-3","cube-stereo-hybrid-140"]},
+  {"type":"single","name":"e-bike-sale-aventon-level-3","files":["aventon-level-3"]},
+  {"type":"hero","name":"electric-bike-australia","files":["aventon-pace-4","cube-touring-hybrid-one-400","merida-espresso-500"]},
+  {"type":"single","name":"electric-bike-australia-aventon-pace-4","files":["aventon-pace-4"]},
+  {"type":"hero","name":"ebike-accessories","files":["abus-macator-helmet","azur-alien2-100-lm-usb-rechargeable-rear-light","onguard-chain-lock"]},
+  {"type":"single","name":"ebike-accessories-abus-macator","files":["abus-macator-helmet"]}
 ]
