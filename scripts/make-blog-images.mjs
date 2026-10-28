@@ -3,7 +3,7 @@
 import sharp from 'sharp'
 import fs from 'node:fs'
 
-const P = f => `public/products/${f}-1.webp`
+const P = f => (f.endsWith('.webp') ? `public/products/${f}` : `public/products/${f}-1.webp`)
 const OUT = 'public/images/blog'
 fs.mkdirSync(OUT, { recursive: true })
 
