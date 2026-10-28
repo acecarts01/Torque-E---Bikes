@@ -63,5 +63,15 @@
   {"type":"hero","name":"hybrid-ebike","files":["cube-touring-hybrid-one-400","cube-town-sport-hybrid-one-400","merida-espresso-city-300-eq-hybrid-e-bike"]},
   {"type":"single","name":"hybrid-ebike-cube-touring","files":["cube-touring-hybrid-one-400"]},
   {"type":"hero","name":"cube-e-bike","files":["cube-reaction-hybrid-hpa-pro-500","cube-touring-hybrid-pro-500","cube-stereo-hybrid-140"]},
-  {"type":"single","name":"cube-e-bike-stereo-140","files":["cube-stereo-hybrid-140"]}
+  {"type":"single","name":"cube-e-bike-stereo-140","files":["cube-stereo-hybrid-140"]},
+  {"type":"hero","name":"merida-e-bike","files":["merida-espresso-city-300-eq-hybrid-e-bike","merida-espresso-500","merida-eone-sixty-700-e-mtb"]},
+  {"type":"single","name":"merida-e-bike-espresso-500","files":["merida-espresso-500"]},
+  {"type":"hero","name":"ncm-ebike","files":["ncm-t3s","ncm-milano-step-through-trekking-e-bike","ncm-paris-folding-e-bike"]},
+  {"type":"single","name":"ncm-ebike-milano","files":["ncm-milano-step-through-trekking-e-bike"]},
+  {"type":"hero","name":"e-cruiser","files":["cruzr-trigger-gen3","cruzr-barrel-2027","cruzr-swell-electric-bike"]},
+  {"type":"single","name":"e-cruiser-cruzr-barrel","files":["cruzr-barrel-2027"]},
+  {"type":"hero","name":"aventon-e-bike","files":["aventon-pace-4","aventon-level-3","aventon-soltera-2"]},
+  {"type":"single","name":"aventon-e-bike-level-3","files":["aventon-level-3"]},
+  {"type":"hero","name":"electric-road-bicycle","files":["trek-checkpoint-sl-5","trek-domane-alr-5","giant-revolt-e-pro"]},
+  {"type":"single","name":"electric-road-bicycle-trek-checkpoint","files":["trek-checkpoint-sl-5"]}
 ]
