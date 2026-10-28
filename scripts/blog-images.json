@@ -59,5 +59,9 @@
   {"type":"hero","name":"mid-drive-ebike","files":["smartmotion-pacer-mid-drive-step-through-e-bike","full-suspension-e-mtb-orange-motinova-mid-drive","cannondale-cargowagen-neo-bosch-e-bike"]},
   {"type":"single","name":"mid-drive-ebike-smartmotion-pacer","files":["smartmotion-pacer-mid-drive-step-through-e-bike"]},
   {"type":"hero","name":"e-bike-step-thru","files":["folding-step-through-e-bike-white","mamba-savannah-26-step-through-commuter","ncm-milano-step-through-trekking-e-bike"]},
-  {"type":"single","name":"e-bike-step-thru-mamba-savannah","files":["mamba-savannah-26-step-through-commuter"]}
+  {"type":"single","name":"e-bike-step-thru-mamba-savannah","files":["mamba-savannah-26-step-through-commuter"]},
+  {"type":"hero","name":"hybrid-ebike","files":["cube-touring-hybrid-one-400","cube-town-sport-hybrid-one-400","merida-espresso-city-300-eq-hybrid-e-bike"]},
+  {"type":"single","name":"hybrid-ebike-cube-touring","files":["cube-touring-hybrid-one-400"]},
+  {"type":"hero","name":"cube-e-bike","files":["cube-reaction-hybrid-hpa-pro-500","cube-touring-hybrid-pro-500","cube-stereo-hybrid-140"]},
+  {"type":"single","name":"cube-e-bike-stereo-140","files":["cube-stereo-hybrid-140"]}
 ]

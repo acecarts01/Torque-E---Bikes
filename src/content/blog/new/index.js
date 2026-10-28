@@ -34,7 +34,10 @@ import * as trike3 from './3-wheel-electric-bike.js'
 import * as middrive from './mid-drive-ebike.js'
 import * as stepthru from './e-bike-step-thru.js'
 
-const POSTS = [lubricant, batteries, charger, kids, surron, panniers, mirror, bone, bottle, cover, trailers, basket, gloves, goggles, alarm, seatcover, pedals, throttle, helmet, seat, lowcost, women, razor, light, padlock, motor, kit, trike3, middrive, stepthru]
+import * as hybrid from './hybrid-ebike.js'
+import * as cube from './cube-e-bike.js'
+
+const POSTS = [lubricant, batteries, charger, kids, surron, panniers, mirror, bone, bottle, cover, trailers, basket, gloves, goggles, alarm, seatcover, pedals, throttle, helmet, seat, lowcost, women, razor, light, padlock, motor, kit, trike3, middrive, stepthru, hybrid, cube]
 
 export const NEW_META = POSTS.map(p => p.meta)
 export const NEW_BODIES = Object.fromEntries(POSTS.map(p => [p.meta.slug, p.body]))
