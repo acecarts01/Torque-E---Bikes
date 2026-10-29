@@ -83,3 +83,18 @@ Weaknesses: tube lists with no sizing method, no valve-hole matching, no width w
 
 ## bike pump (retailer category pages, Park Tool, forums)
 Weaknesses: pump lists with no valve explanation, no pressure advice tied to the sidewall, no fat-tyre and e-bike notes. Plan: pump types table, Park Tool valve facts, routine and troubleshooting.
+
+## lightest electric bicycle (BikeExchange, Omafiets, Specialized Retail, BikeNow, German reviews)
+Weaknesses: single-model "lightest" claims with no source, weights that differ between pages, a "15 kg" figure that is the rack rating on some listings, no battery trade-off. Plan: no unprovable "lightest" claim; how to compare weights, Specialized AU figures (Levo SL 2 320 Wh vs Levo 4 840 Wh), where weight matters.
+
+## bike repair stand (retailer category pages, Park Tool, Decathlon)
+Weaknesses: product lists with no capacity sums, no e-bike weight warning, no clamp cautions. Plan: Park Tool stand types and capacities, e-bike weight check, clamps, no-stand alternatives.
+
+## bike wall mount (retailer category pages, storage blogs)
+Weaknesses: hook and rack lists with no wall-type advice, no weight warning for e-bikes, no charging safety, no theft advice. Plan: mount types, wall and fixing checks, Fire and Rescue NSW charging advice, Queensland Police theft advice.
+
+## cycling sunglasses (retailer category pages, cycling magazines)
+Weaknesses: brand lists with no Australian standard, no lens category explanation, no note that sports eyewear can sit outside the mandatory standard, no dusk advice. Plan: ACCC mandatory standard (categories 0 to 4) and ARPANSA advice, helmet fit checklist.
+
+## cycling backpack (retailer category pages, Ampd Bros commuting posts)
+Weaknesses: backpack lists with no panniers comparison, no hydration or heat advice, no waterproofing checklist. Plan: backpack versus pannier table, Better Health Channel hydration and heat guidance, fit and load checklist.

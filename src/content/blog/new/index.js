@@ -76,7 +76,13 @@ import * as degreaser from './bike-chain-degreaser.js'
 import * as tubes from './bike-tubes.js'
 import * as pump from './bike-pump.js'
 
-const POSTS = [lubricant, batteries, charger, kids, surron, panniers, mirror, bone, bottle, cover, trailers, basket, gloves, goggles, alarm, seatcover, pedals, throttle, helmet, seat, lowcost, women, razor, light, padlock, motor, kit, trike3, middrive, stepthru, hybrid, cube, merida, ncm, cruiser, aventon, roadbike, fastest, forsale, sale, aus, accs, price, mini, emoto, toprated, parts, secondhand, used, ampd, gpsT, foldbag, carrack, toolkit, puncture, susp, hbag, dualsus, fatboy, specz, varg, cruiserbeach, degreaser, tubes, pump]
+import * as lightest from './lightest-electric-bicycle.js'
+import * as stand from './bike-repair-stand.js'
+import * as wallmount from './bike-wall-mount.js'
+import * as sunglasses from './cycling-sunglasses.js'
+import * as backpack from './cycling-backpack.js'
+
+const POSTS = [lubricant, batteries, charger, kids, surron, panniers, mirror, bone, bottle, cover, trailers, basket, gloves, goggles, alarm, seatcover, pedals, throttle, helmet, seat, lowcost, women, razor, light, padlock, motor, kit, trike3, middrive, stepthru, hybrid, cube, merida, ncm, cruiser, aventon, roadbike, fastest, forsale, sale, aus, accs, price, mini, emoto, toprated, parts, secondhand, used, ampd, gpsT, foldbag, carrack, toolkit, puncture, susp, hbag, dualsus, fatboy, specz, varg, cruiserbeach, degreaser, tubes, pump, lightest, stand, wallmount, sunglasses, backpack]
 
 export const NEW_META = POSTS.map(p => p.meta)
 export const NEW_BODIES = Object.fromEntries(POSTS.map(p => [p.meta.slug, p.body]))

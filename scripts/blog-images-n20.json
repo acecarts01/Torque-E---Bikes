@@ -1,12 +1,12 @@
 [
-  {"type":"hero","name":"stark-varg","files":["stark-varg","stark-varg-ex"]},
-  {"type":"single","name":"stark-varg-bike","files":["stark-varg"]},
-  {"type":"hero","name":"electric-beach-cruiser-bicycle","files":["cruzr-trigger-gen3","cruzr-barrel-2027","reid-harbour-urban"]},
-  {"type":"single","name":"electric-beach-cruiser-bicycle-cruzr","files":["cruzr-trigger-gen3"]},
-  {"type":"hero","name":"bike-chain-degreaser","files":["krush-ultra-drivetrain-degreaser","krush-rotor-revive","rock-n-roll-gold-chain-lube-117ml"]},
-  {"type":"single","name":"bike-chain-degreaser-krush","files":["krush-ultra-drivetrain-degreaser"]},
-  {"type":"hero","name":"bike-tubes","files":["79bike-inner-tube","79bike-tyre","lezyne-lever-kit-light-grey"]},
-  {"type":"single","name":"bike-tubes-79bike","files":["79bike-inner-tube"]},
-  {"type":"hero","name":"bike-pump","files":["79bike-inner-tube","lezyne-lever-kit-light-grey","79bike-tyre"]},
-  {"type":"single","name":"bike-pump-tube","files":["79bike-inner-tube"]}
+  {"type":"hero","name":"lightest-electric-bicycle","files":["specialized-turbo-vado-sl-4-0","specialized-turbo-como-sl-4-0","smartmotion-folding-step-through-e-bike"]},
+  {"type":"single","name":"lightest-electric-bicycle-vado","files":["specialized-turbo-vado-sl-4-0"]},
+  {"type":"hero","name":"bike-repair-stand","files":["lezyne-lever-kit-light-grey","krush-ultra-drivetrain-degreaser","rock-n-roll-gold-chain-lube-117ml"]},
+  {"type":"single","name":"bike-repair-stand-lezyne","files":["lezyne-lever-kit-light-grey"]},
+  {"type":"hero","name":"bike-wall-mount","files":["onguard-chain-lock","mastiff-chain-lock-keyed","multitag-mount-and-airtag"]},
+  {"type":"single","name":"bike-wall-mount-onguard","files":["onguard-chain-lock"]},
+  {"type":"hero","name":"cycling-sunglasses","files":["abus-macator-helmet","livall-bh60se-smart-helmet","79bike-off-road-goggles"]},
+  {"type":"single","name":"cycling-sunglasses-helmet","files":["abus-macator-helmet"]},
+  {"type":"hero","name":"cycling-backpack","files":["azur-cargo-bike-double-pannier","azur-cargo-bike-waterproof-pannier-single","basil-bicycle-crate-medium-29-5l-black"]},
+  {"type":"single","name":"cycling-backpack-pannier","files":["azur-cargo-bike-double-pannier"]}
 ]
