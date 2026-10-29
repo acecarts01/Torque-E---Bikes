@@ -68,3 +68,18 @@ Weaknesses: seller write-ups with no official sources, no prices in the comparis
 
 ## specialized e bike (BikeExchange, Omafiets, Specialized Retail, BikeNow, The Cycling Fix, iRide)
 Weaknesses: single-model 2020 reviews, prices that differ by $1,500 between shops, "15 kg" rack rating read as bike weight, no family comparison, no 250 W note. Plan: ten models with our prices, Specialized AU figures (Levo 4 810 W / 840 Wh, Levo SL 2 320 W / 320 Wh), what to ask before buying.
+
+## stark varg (Melbourne Powered demo days, dealer pages, forums)
+Weaknesses: overseas prices, European "street legal" claims applied to Australia, no gear or charging advice. Plan: our two bikes in AUD, Stark Future's published figures (80 hp, 7.2 kWh on the MX 1.2, 978 Nm), off-road and private property only statement, premium comparison table, Queensland gear advice.
+
+## electric beach cruiser bicycle (Ampd Bros Chubbie 3, Fatfish coast guide, Melbourne Powered)
+Weaknesses: brand-led pitches, no AUD price comparison across brands, no salt-air and sand care, no legal wording. Plan: six models with prices, 250 W rule, Park Tool wash advice, sand and storage checklist.
+
+## bike chain degreaser (retailer category pages, Muc-Off, Park Tool)
+Weaknesses: product lists with no method, no wear check first, no rotor and bearing cautions. Plan: Park Tool method and wear check, protect rotors and bearings, items we stock.
+
+## bike tubes (retailer category pages, Park Tool)
+Weaknesses: tube lists with no sizing method, no valve-hole matching, no width warning. Plan: Park Tool fit standards, ETRTO walk-through, valve and rim depth rules, items we stock.
+
+## bike pump (retailer category pages, Park Tool, forums)
+Weaknesses: pump lists with no valve explanation, no pressure advice tied to the sidewall, no fat-tyre and e-bike notes. Plan: pump types table, Park Tool valve facts, routine and troubleshooting.
