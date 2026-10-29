@@ -10,7 +10,7 @@ export const meta = {
   url: '/blog/bag-for-handlebars/',
   title: 'Bag for Handlebars: Choosing a Bike Handlebar Bag',
   seoTitle: 'Bag for Handlebars: Choosing a Bike Handlebar Bag',
-  excerpt: 'Choosing a bag for handlebars? Learn safe load limits, how to check clearance for cables and lights, the Queensland front light rule and the mounts and bags we stock from $46.95.',
+  excerpt: 'Choosing a bag for handlebars? Learn safe load limits, clearance checks for cables and lights, the Queensland front light rule and mounts from $46.95.',
   category: 'Buying Guides',
   date: '2026-10-29',
   readTime: '9 min',
