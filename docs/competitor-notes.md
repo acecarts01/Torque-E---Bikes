@@ -53,3 +53,18 @@ Weaknesses: opinion lists without sizes, no e-bike safety note. Plan: trailside 
 
 ## bike puncture repair kit (Cycling Weekly, BikeRadar, 99 Bikes, Woolworths, BikesOnline)
 Weaknesses: tubeless warning missing on retail pages, patches sold without the temporary-fix caveat, no e-bike rear wheel caution. Plan: Park Tool steps and warnings, patch vs tube sense, tubeless caveat.
+
+## suspension seat post (Redshift, Cane Creek, Jasion, Punkride, retailer pages)
+Weaknesses: brand-led, no fit steps, weight limits buried, no cheaper comfort fixes. Plan: Cane Creek figures (113 kg / 150 kg, 27.2 / 30.9 / 31.6 mm), Park Tool insertion rule (2.5 x diameter), comfort options we stock.
+
+## bag for handlebars (Cycling UK group test, Topeak, Carradice, retailer guides)
+Weaknesses: bikepacking-only, no front light rule, no e-bike note. Plan: Cycling UK 3 to 5 kg and 5 to 8 L, Queensland 200 m front light rule, clearance checklist.
+
+## dual suspension electric bike (Canyon, Haibike, Halfords, Upway, Amflow, Eunorau, Freesky)
+Weaknesses: overseas stock, no AUD prices, no Australian rules, no servicing warning. Plan: Canyon travel bands, AUD price table of full suspension e-MTBs we stock, 250 W road rule.
+
+## fatboy electric bike (E-Ozzie, Melbourne Powered, Twelve Board Store, Fatboy's own site)
+Weaknesses: seller write-ups with no official sources, no prices in the comparison, vague passenger and legal wording, no DNA coverage, no parts pricing. Plan: AUD table for every model, what Fatboy publishes (EN 15194 certified variants, 2 year / 10,000 km warranty, no wattage on collection page), Queensland and NSW rules, parts and accessories.
+
+## specialized e bike (BikeExchange, Omafiets, Specialized Retail, BikeNow, The Cycling Fix, iRide)
+Weaknesses: single-model 2020 reviews, prices that differ by $1,500 between shops, "15 kg" rack rating read as bike weight, no family comparison, no 250 W note. Plan: ten models with our prices, Specialized AU figures (Levo 4 810 W / 840 Wh, Levo SL 2 320 W / 320 Wh), what to ask before buying.
