@@ -9,7 +9,7 @@ for (const l of fs.readFileSync('scripts/.km-cache.jsonl', 'utf8').trim().split(
   if (!l.tag || !tags.some(t => l.tag.startsWith(t))) continue
   for (const r of l.rows) {
     const k = r.kw.toLowerCase().trim()
-    if (seen.has(k) || !/^[INCT]+$/.test(r.intent) || kv(r.vol) < 20 || !/^\d+$/.test(String(r.kd)) || used.includes(',' + k + ',')) continue
+    if (seen.has(k) || !/^[INCT]+$/.test(r.intent) || kv(r.vol) < 20 || !/^\d+$/.test(String(r.kd)) || +r.kd > 28 || used.includes(',' + k + ',')) continue
     seen.set(k, r)
   }
 }

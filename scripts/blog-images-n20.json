@@ -1,0 +1,12 @@
+[
+  {"type":"hero","name":"gps-tracker-for-bike","files":["multitag-mount-and-airtag","kovix-steel-thunder-alarmed-folding-lock","mastiff-chain-lock-keyed"]},
+  {"type":"single","name":"gps-tracker-for-bike-multitag","files":["multitag-mount-and-airtag"]},
+  {"type":"hero","name":"folding-bike-bag","files":["smartmotion-folding-step-through-e-bike","vamos-doblez-folding-e-bike-2025","foo-f1-folding-e-bike"]},
+  {"type":"single","name":"folding-bike-bag-foo-f1","files":["foo-f1-folding-e-bike"]},
+  {"type":"hero","name":"car-bike-rack","files":["thule-euroway-g2-2-bike-towbar-carrier","fatboy-longboard-bike-rack"]},
+  {"type":"single","name":"car-bike-rack-thule","files":["thule-euroway-g2-2-bike-towbar-carrier"]},
+  {"type":"hero","name":"bike-tool-kit","files":["lezyne-lever-kit-light-grey","krush-ultra-drivetrain-degreaser","rock-n-roll-absolute-dry-chain-lube-117ml"]},
+  {"type":"single","name":"bike-tool-kit-lezyne","files":["lezyne-lever-kit-light-grey"]},
+  {"type":"hero","name":"bike-puncture-repair-kit","files":["lezyne-lever-kit-light-grey","79bike-inner-tube"]},
+  {"type":"single","name":"bike-puncture-repair-kit-tube","files":["79bike-inner-tube"]}
+]

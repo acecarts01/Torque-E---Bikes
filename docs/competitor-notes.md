@@ -35,3 +35,21 @@ Our plan: honest model table with our current prices and categories, what the AC
 ## top rated ebike, mini ebike, electric motorcycle bikes, ebike parts (SERP reviews 28 Oct 2026)
 Common weaknesses: unsourced "best" claims, no price context, mixed scooter content, no official sources, no compatibility advice for parts, no legal framing for off-road bikes.
 Our plan: criteria-based guides with our own prices, honest legal framing, no invented ratings or reviews.
+
+# Batch 2 (29 Oct 2026): 20 new posts. Rule: every keyword KD 28 or lower, T/C intent, tied to products we stock.
+Competitor blogs reviewed for topics: Ampd Bros (app with GPS tracking, trailers, parts, accessories, road safety, delivery, test ride, first ebike), Melbourne Powered (seniors, Victoria laws, volts/watts/amps, conversion kits worth it, Tern and NCM reviews), Fatfish/rideelectric (school safety checklist, gifts, compliant e-bikes in NSW, beach/coast/country e-bikes, women's e-bikes, rebate scheme), 99 Bikes (gifting guides, accessories), Bair Bikes (buying and laws guides). Our topics are the ones they touch that we had not written, backed by Semrush T/C keywords (KD <= 28) and products in our catalogue.
+
+## gps tracker for bike (Ampd app/GPS, Bair Find My tracker, forums, spam-style pages)
+Strengths: AirTag vs cellular comparison, cheap-tracker advice. Weaknesses: no Australian sources, no unwanted-tracking safety, no 2G/3G network warning, no layered security. Our plan: comparison table, Apple support page, Queensland Police and Bicycle Queensland advice, honest note that we stock the tag mount only.
+
+## folding bike bag (Bobbin Bikes, Brompton, Downtube, Ivanhoe Cycles)
+Weaknesses: overseas rules, no Australian transport limits, nothing on folding e-bike weight and batteries. Plan: TransLink 90 x 70 x 36 cm rule, sizing checklist, battery caution, folding e-bikes we stock (no bags stocked).
+
+## car bike rack (BikeExchange, Ivanhoe Cycles, Roofracks Galore, Carsales)
+Weaknesses: UK pages quoted, no Queensland plate/light rules in one place, no weight sums. Plan: Queensland transporting bicycles + accessory plate rules, tow bar vs roof table, Thule and Fatboy racks.
+
+## bike tool kit (forum threads, Bikes.com.au, Decathlon)
+Weaknesses: opinion lists without sizes, no e-bike safety note. Plan: trailside and home kits, Park Tool lever advice, items we stock.
+
+## bike puncture repair kit (Cycling Weekly, BikeRadar, 99 Bikes, Woolworths, BikesOnline)
+Weaknesses: tubeless warning missing on retail pages, patches sold without the temporary-fix caveat, no e-bike rear wheel caution. Plan: Park Tool steps and warnings, patch vs tube sense, tubeless caveat.

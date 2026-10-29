@@ -15,7 +15,7 @@ for (const m of NEW_META) {
   body = body.filter(l => !l.startsWith(m.url + ','))
   const add = (kw, role) => {
     const r = look.get(kw.toLowerCase()); if (!r) throw new Error(`no Semrush data for "${kw}" (${m.slug})`)
-    body.push([m.url, 'blog', role, kw, kv(r.vol), r.kd, q(r.intent.split('').map(c => I[c]).join(', ')), 'semrush-keyword-magic-2026-10-27'].join(',')); added++
+    body.push([m.url, 'blog', role, kw, kv(r.vol), r.kd, q(r.intent.split('').map(c => I[c]).join(', ')), 'semrush-keyword-magic-2026-10-29'].join(',')); added++
   }
   add(m.focus, 'primary'); m.secondary.forEach(k => add(k, 'secondary')); m.tags.forEach(k => add(k, 'tag'))
 }
