@@ -28,6 +28,8 @@ interface ProductDetailProps {
   h1?: string
   alt?: string
   faq?: FaqItem[]
+  extrasTop?: React.ReactNode
+  extrasBottom?: React.ReactNode
 }
 
 const AccordionItem = ({ title, icon: Icon, children }: { title: string, icon: any, children: React.ReactNode }) => {
@@ -66,7 +68,7 @@ const AccordionItem = ({ title, icon: Icon, children }: { title: string, icon: a
   )
 }
 
-export default function ProductDetail({ product, copy, h1, alt, faq = [] }: ProductDetailProps) {
+export default function ProductDetail({ product, copy, h1, alt, faq = [], extrasTop, extrasBottom }: ProductDetailProps) {
   const [activeImage, setActiveImage] = useState(0)
   const router = useRouter()
 
@@ -221,8 +223,10 @@ export default function ProductDetail({ product, copy, h1, alt, faq = [] }: Prod
         </motion.div>
       </div>
 
+      {extrasTop}
+
       {/* Description */}
-      <div className="mt-32 pt-20 border-t border-white/5 max-w-4xl mx-auto space-y-10 text-center">
+      <div id="overview" className="mt-16 pt-12 border-t border-white/5 max-w-4xl mx-auto space-y-10 text-center">
          <div className="space-y-4">
            <span className="text-[10px] font-black uppercase tracking-[0.5em] text-brand-red">Product overview</span>
            <h2 className="text-3xl md:text-5xl font-black italic uppercase tracking-tighter text-white">About the {product.name}</h2>
@@ -238,6 +242,7 @@ export default function ProductDetail({ product, copy, h1, alt, faq = [] }: Prod
          )}
       </div>
 
+      {extrasBottom}
       <RelatedGuides path={`/shop/${product.category}/${product.slug}/`} />
       <PageFaq items={faq} heading={`${product.name} FAQs`} />
     </div>

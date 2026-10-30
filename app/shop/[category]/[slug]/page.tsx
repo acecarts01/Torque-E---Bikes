@@ -11,6 +11,8 @@ import { getSeo } from '@/src/lib/seo'
 import { getPageFaq } from '@/src/lib/faq'
 import NOINDEX from '@/src/config/noindex-products.json'
 import { notFound } from 'next/navigation'
+import { ProductToc, ProductExtras } from '@/src/components/ProductExtras'
+import { guideLinks } from '@/src/lib/blog'
 
 export async function generateStaticParams() {
   return PRODUCTS.map((p) => ({
@@ -40,13 +42,26 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   if (!product) notFound()
   const path = `/shop/${product.category}/${product.slug}/`
   const seo = getSeo(path)
-  
+  const faq = getPageFaq(path)
+  // Hero alt text: the product's transactional focus keyword first, then the descriptive part of the existing alt.
+  const focus = ((seo?.kw as string[] | undefined) || [])[0]
+  const rest = (seo?.alt || '').split(' — ')[1]
+  const cap = (s: string) => s.replace(/\baustralia\b/g, 'Australia').replace(/\b(\w)/, c => c.toUpperCase())
+  const heroAlt = focus && rest ? `${cap(focus)} — ${rest}` : seo?.alt
+  const toc = [
+    { id: 'overview', label: `About the ${product.name}` },
+    { id: 'cost-to-your-door', label: 'Cost to your door' },
+    { id: 'related-products', label: 'Related products' },
+    ...(guideLinks(path).length ? [{ id: 'related-guides', label: 'Guides' }] : []),
+    ...(faq.length ? [{ id: 'page-faq-heading', label: 'FAQs' }] : []),
+  ]
+
   return (
     <div className="flex flex-col min-h-screen bg-brand-dark">
       <AnnouncementBar />
       <Nav />
       <main className="flex-grow pt-32 pb-24">
-        <ProductDetail product={product} copy={(PRODUCT_COPY as Record<string, string[]>)[slug]} h1={seo?.h1} alt={seo?.alt} faq={getPageFaq(path)} />
+        <ProductDetail product={product} copy={(PRODUCT_COPY as Record<string, string[]>)[slug]} h1={seo?.h1} alt={heroAlt} faq={faq} extrasTop={<ProductToc items={toc} />} extrasBottom={<ProductExtras product={product} />} />
       </main>
       <Footer />
     </div>
