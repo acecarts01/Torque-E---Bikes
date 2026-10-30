@@ -9,7 +9,7 @@ export const meta = {
   url: '/blog/electric-bike-price/',
   title: 'Electric Bike Price: What E-Bikes Really Cost in Australia',
   seoTitle: 'Electric Bike Price: What E-Bikes Really Cost',
-  excerpt: 'Electric bike price in Australia explained: price bands by type with real models from $849, battery replacement costs from $539, running costs and a worked first-year budget.',
+  excerpt: "Electric bike price in Australia explained: price bands by type from $849, battery replacement from $539, running costs and a worked first-year budget.",
   category: 'Buying Guides',
   date: '2026-10-28',
   readTime: '10 min',

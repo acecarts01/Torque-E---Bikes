@@ -9,7 +9,7 @@ export const meta = {
   url: '/blog/used-electric-bicycles/',
   title: 'Used Electric Bicycles: Inspection and Test Ride Checklist',
   seoTitle: 'Used Electric Bicycles: Inspection and Test Ride Checklist',
-  excerpt: 'Buying used electric bicycles? Follow this inspection and test ride checklist for the battery, motor, brakes and frame, plus how to spot online listing red flags.',
+  excerpt: "Buying used electric bicycles? Follow this inspection and test ride checklist for the battery, motor, brakes and frame, and spot online listing red flags.",
   category: 'Buying Guides',
   date: '2026-10-28',
   readTime: '9 min',

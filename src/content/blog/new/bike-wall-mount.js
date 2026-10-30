@@ -9,7 +9,7 @@ export const meta = {
   url: '/blog/bike-wall-mount/',
   title: 'Bike Wall Mount: Racks, Hooks and E-Bike Storage Tips',
   seoTitle: 'Bike Wall Mount: Racks, Hooks and E-Bike Storage Tips',
-  excerpt: 'Choosing a bike wall mount? Compare hooks, racks and hangers, check wall type and weight for e-bikes, store and charge safely, and lock up with items from $38.95.',
+  excerpt: "Choosing a bike wall mount? Compare hooks, racks and hangers, check wall type and e-bike weight, store and charge safely, and lock up from $38.95.",
   category: 'Buying Guides',
   date: '2026-10-29',
   readTime: '10 min',

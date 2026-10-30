@@ -9,7 +9,7 @@ export const meta = {
   url: '/blog/bike-tool-kit/',
   title: 'Bike Tool Kit: What to Carry for Roadside Repairs',
   seoTitle: 'Bike Tool Kit: What to Carry for Roadside Repairs',
-  excerpt: 'Building a bike tool kit? See what to carry for trailside repairs and e-bike checks, which items we stock from $18.95, and a home toolkit list that avoids wasted spend.',
+  excerpt: "Building a bike tool kit? See what to carry for roadside repairs and e-bike checks, which items we stock from $18.95, and a home toolkit list.",
   category: 'Buying Guides',
   date: '2026-10-29',
   readTime: '10 min',

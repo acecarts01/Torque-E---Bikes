@@ -9,7 +9,7 @@ export const meta = {
   url: '/blog/fatboy-electric-bike/',
   title: 'Fatboy Electric Bike: DNA, Harlem, Scrambler and Bagus',
   seoTitle: 'Fatboy Electric Bike: DNA, Harlem, Scrambler and Bagus',
-  excerpt: 'Choosing a Fatboy electric bike? Compare DNA, Harlem, Scrambler and Bagus prices from $2,259, check the legal rules, and see parts and accessories we stock for each model.',
+  excerpt: "Choosing a Fatboy electric bike? Compare DNA, Harlem, Scrambler and Bagus prices from $2,259, check the legal rules and see parts we stock.",
   category: 'Buying Guides',
   date: '2026-10-29',
   readTime: '11 min',

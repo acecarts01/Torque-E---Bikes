@@ -10,7 +10,7 @@ export const meta = {
   url: '/blog/dual-suspension-electric-bike/',
   title: 'Dual Suspension Electric Bike: Full Suspension E-MTB Guide',
   seoTitle: 'Dual Suspension Electric Bike: Full Suspension E-MTB Guide',
-  excerpt: 'Compare dual suspension electric bike options from $3,699, learn how travel, weight and servicing differ from a hardtail, and check the 250 W road rule before you buy.',
+  excerpt: "Compare dual suspension electric bike options from $3,699, see how travel, weight and servicing differ from a hardtail, and check the 250 W road rule.",
   category: 'Buying Guides',
   date: '2026-10-29',
   readTime: '11 min',

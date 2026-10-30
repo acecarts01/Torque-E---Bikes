@@ -8,7 +8,7 @@ export const meta = {
   url: '/blog/fastest-e-bike/',
   title: 'Fastest E Bike: Legal Speed Limits and Fast Off-Road Bikes',
   seoTitle: 'Fastest E Bike: Legal Speed Limits and Fast Bikes',
-  excerpt: 'Looking for the fastest e bike? See the legal Australian speed limits, why fast e-bikes are off-road only, and fast electric dirt bikes in our range from $3,699.',
+  excerpt: "Looking for the fastest e bike? See Australia's legal speed limits, why fast e-bikes are off-road only, and fast electric dirt bikes from $3,699.",
   category: 'Buying Guides',
   date: '2026-10-28',
   readTime: '10 min',

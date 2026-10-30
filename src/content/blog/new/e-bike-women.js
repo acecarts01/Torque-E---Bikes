@@ -8,7 +8,7 @@ export const meta = {
   url: '/blog/e-bike-women/',
   title: 'E Bike Women: How to Choose a Women\'s Electric Bike',
   seoTitle: 'E Bike Women: How to Choose a Women\'s Electric Bike',
-  excerpt: 'Choosing an e bike women love riding? Compare step-through ladies electric bikes from $1,799, learn fit, frame and battery basics, and check the Queensland rules.',
+  excerpt: "Choosing an e bike women love riding? Compare step-through ladies electric bikes from $1,799, learn fit, frame and battery basics, and Queensland rules.",
   category: 'Buying Guides',
   date: '2026-10-28',
   readTime: '10 min',

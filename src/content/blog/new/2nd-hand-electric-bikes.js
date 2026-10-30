@@ -9,7 +9,7 @@ export const meta = {
   url: '/blog/2nd-hand-electric-bikes/',
   title: '2nd Hand Electric Bikes: Buy Second Hand or New?',
   seoTitle: '2nd Hand Electric Bikes: Buy Second Hand or New?',
-  excerpt: 'Considering 2nd hand electric bikes? Compare second hand and new prices with a battery worked example, see what to check, and when a new e-bike from $659 is the better buy.',
+  excerpt: "Considering 2nd hand electric bikes? Compare second hand and new prices with a battery example, see what to check, and when a new e-bike from $659 wins.",
   category: 'Buying Guides',
   date: '2026-10-28',
   readTime: '10 min',

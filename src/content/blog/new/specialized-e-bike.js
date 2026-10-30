@@ -10,7 +10,7 @@ export const meta = {
   url: '/blog/specialized-e-bike/',
   title: 'Specialized E Bike: Turbo Vado, Como, Levo and Creo',
   seoTitle: 'Specialized E Bike: Turbo Vado, Como, Levo and Creo',
-  excerpt: 'Choosing a Specialized e bike? Compare Turbo Vado, Como, Levo, Kenevo and Creo prices from $5,500, see Specialized\'s own power figures and learn the 250 W road rule.',
+  excerpt: "Choosing a Specialized e bike? Compare Turbo Vado, Como, Levo, Kenevo and Creo from $5,500, see Specialized's own power figures and the 250 W road rule.",
   category: 'Buying Guides',
   date: '2026-10-29',
   readTime: '11 min',

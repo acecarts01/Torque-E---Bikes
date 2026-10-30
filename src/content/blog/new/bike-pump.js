@@ -9,7 +9,7 @@ export const meta = {
   url: '/blog/bike-pump/',
   title: 'Bike Pump: Floor, Mini and Hand Pump Buying Guide',
   seoTitle: 'Bike Pump: Floor, Mini and Hand Pump Buying Guide',
-  excerpt: 'Choosing a bike pump? Compare floor, mini and foot pumps, match the head to Presta or Schrader valves, set tyre pressure correctly and see the tubes and levers we stock.',
+  excerpt: "Choosing a bike pump? Compare floor, mini and foot pumps, match the head to Presta or Schrader valves, set pressure correctly and see our tubes and levers.",
   category: 'Buying Guides',
   date: '2026-10-29',
   readTime: '10 min',

@@ -11,7 +11,7 @@ export const meta = {
   url: '/blog/bike-tubes/',
   title: 'Bike Tubes: How to Choose the Right Inner Tube Size',
   seoTitle: 'Bike Tubes: How to Choose the Right Inner Tube Size',
-  excerpt: 'Buying bike tubes? Learn how to read tyre sizes, match the valve to your rim, choose width and length, and see the 79Bike inner tube at $38.95 and wheels we stock.',
+  excerpt: "Buying bike tubes? Learn to read tyre sizes, match the valve to your rim, choose width and length, and see the 79Bike inner tube at $38.95.",
   category: 'Buying Guides',
   date: '2026-10-29',
   readTime: '10 min',

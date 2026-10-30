@@ -9,7 +9,7 @@ export const meta = {
   url: '/blog/cycling-backpack/',
   title: 'Cycling Backpack: Backpack vs Pannier for Commuters',
   seoTitle: 'Cycling Backpack: Backpack vs Pannier for Commuters',
-  excerpt: 'Choosing a cycling backpack? Compare backpacks with panniers, learn fit, load and hydration tips, how to stay cool and dry, and the panniers and bottles we stock from $13.95.',
+  excerpt: "Choosing a cycling backpack? Compare backpacks with panniers, learn fit, load and hydration tips, and see the panniers and bottles we stock from $13.95.",
   category: 'Buying Guides',
   date: '2026-10-29',
   readTime: '10 min',

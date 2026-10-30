@@ -187,7 +187,7 @@ Orders are completed by a human via WhatsApp or the order form.`
         ],
         "commerce": { "ordering": "human-assisted-whatsapp-or-form", "payment": SHOP.paymentMethods, "currency": SITE.currency, "minimumOrder": SHOP.minOrder, "freeShipping": SHOP.freeShippingThreshold }
       },
-      "legal": { "ageRestriction": "16+", "productType": "Electric Motos & Conversion Kits", "compliance": "Off-road and private property use only" }
+      "legal": { "ageRestriction": "16+", "productType": "Electric dirt bikes, e-bikes, conversion kits, parts and riding gear", "compliance": "Dirt bikes and any bike above 250W are for off-road and private property use only; only 250W pedal-assist e-bikes that meet state rules are road legal" }
     }, null, 2)
   },
   {
@@ -204,7 +204,7 @@ Orders are completed by a human via WhatsApp or the order form.`
   },
   {
     path: 'public/.well-known/acp.json',
-    content: JSON.stringify({ "protocol": { "name": "acp", "version": "0.1.0" }, "name": SITE.name, "description": BRAND.description, "api_base_url": `https://${DOMAIN}`, "homepage": `https://${DOMAIN}`, "transports": ["https"], "capabilities": { "services": ["product-catalog", "wholesale", "blog", "faq", "mcp-server"], "ordering": "human-assisted", "payment_methods": SHOP.paymentMethods, "currency": SITE.currency, "minimum_order_aud": SHOP.minOrder, "free_shipping_threshold_aud": SHOP.freeShippingThreshold }, "contact": { "whatsapp": `https://wa.me/${CONTACT.whatsapp.replace(/\+/g, '')}`, "email": CONTACT.email }, "legal": { "region": "Australia", "ships_to": "Australia", "product_type": "Electric Motos", "compliance": "Off-road only" } }, null, 2)
+    content: JSON.stringify({ "protocol": { "name": "acp", "version": "0.1.0" }, "name": SITE.name, "description": BRAND.description, "api_base_url": `https://${DOMAIN}`, "homepage": `https://${DOMAIN}`, "transports": ["https"], "capabilities": { "services": ["product-catalog", "wholesale", "blog", "faq", "mcp-server"], "ordering": "human-assisted", "payment_methods": SHOP.paymentMethods, "currency": SITE.currency, "minimum_order_aud": SHOP.minOrder, "free_shipping_threshold_aud": SHOP.freeShippingThreshold }, "contact": { "whatsapp": `https://wa.me/${CONTACT.whatsapp.replace(/\+/g, '')}`, "email": CONTACT.email }, "legal": { "region": "Australia", "ships_to": "Australia", "product_type": "Electric dirt bikes, e-bikes, conversion kits, parts and riding gear", "compliance": "Dirt bikes and any bike above 250W are for off-road and private property use only; only 250W pedal-assist e-bikes that meet state rules are road legal" } }, null, 2)
   },
   {
     path: `public/${SITE.indexNowKey}.txt`,

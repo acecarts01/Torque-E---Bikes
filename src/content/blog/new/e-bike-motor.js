@@ -8,7 +8,7 @@ export const meta = {
   url: '/blog/e-bike-motor/',
   title: 'E Bike Motor: Hub Motors, Torque Arms and Legal Limits',
   seoTitle: 'E Bike Motor: Hub Motors, Torque Arms and Legal Limits',
-  excerpt: 'Choosing an e bike motor? Learn how hub motors work, what torque arms do, how watts and volts relate, and what Queensland and NSW say, with Torque kits from $329.',
+  excerpt: "Choosing an e bike motor? Learn how hub motors work, what torque arms do, how watts and volts relate and the Queensland and NSW limits. Kits from $329.",
   category: 'Buying Guides',
   date: '2026-10-28',
   readTime: '10 min',

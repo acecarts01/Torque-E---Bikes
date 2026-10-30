@@ -9,7 +9,7 @@ export const meta = {
   url: '/blog/bike-repair-stand/',
   title: 'Bike Repair Stand: Capacity, Clamps and E-Bike Weight',
   seoTitle: 'Bike Repair Stand: Capacity, Clamps and E-Bike Weight',
-  excerpt: 'Choosing a bike repair stand? Compare folding, fixed and assist-lift stands, check capacity against e-bike weight, learn clamp care and see the care items we stock.',
+  excerpt: "Choosing a bike repair stand? Compare folding, fixed and assist-lift stands, check capacity against e-bike weight and see the care items we stock.",
   category: 'Buying Guides',
   date: '2026-10-29',
   readTime: '10 min',

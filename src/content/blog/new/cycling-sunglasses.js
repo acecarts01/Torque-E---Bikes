@@ -9,7 +9,7 @@ export const meta = {
   url: '/blog/cycling-sunglasses/',
   title: 'Cycling Sunglasses: UV Standards and Lens Categories',
   seoTitle: 'Cycling Sunglasses: UV Standards and Lens Categories',
-  excerpt: 'Choosing cycling sunglasses? Learn the Australian lens categories 0 to 4, why tint colour is not UV protection, fit with a helmet, and the helmets and goggles we stock.',
+  excerpt: "Choosing cycling sunglasses? Learn Australian lens categories 0 to 4, why tint is not UV protection, helmet fit, and the helmets and goggles we stock.",
   category: 'Buying Guides',
   date: '2026-10-29',
   readTime: '10 min',

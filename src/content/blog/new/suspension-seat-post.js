@@ -9,7 +9,7 @@ export const meta = {
   url: '/blog/suspension-seat-post/',
   title: 'Suspension Seat Post: Comfort Upgrades and Fit Guide',
   seoTitle: 'Suspension Seat Post: Comfort Upgrades and Fit Guide',
-  excerpt: 'Thinking of a suspension seat post? See how one works, rider weight limits, diameters, the Park Tool insertion rule and cheaper comfort upgrades we stock from $55.95.',
+  excerpt: "Thinking of a suspension seat post? See how one works, rider weight limits, diameters, the Park Tool insertion rule and comfort upgrades from $55.95.",
   category: 'Buying Guides',
   date: '2026-10-29',
   readTime: '10 min',

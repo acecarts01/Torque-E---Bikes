@@ -9,7 +9,7 @@ export const meta = {
   url: '/blog/child-bike-seat/',
   title: 'Child Bike Seat: How to Choose and Fit a Kids Bike Seat',
   seoTitle: 'Child Bike Seat: How to Choose and Fit a Kids Bike Seat',
-  excerpt: 'Choosing a child bike seat? Compare Kids Ride Shotgun seats and combos from $179, check mounting, weight limits and helmet rules, and fit a kids bike seat safely.',
+  excerpt: "Choosing a child bike seat? Compare Kids Ride Shotgun seats and combos from $179, check mounting, weight limits and helmet rules, and fit it safely.",
   category: 'Buying Guides',
   date: '2026-10-27',
   readTime: '10 min',

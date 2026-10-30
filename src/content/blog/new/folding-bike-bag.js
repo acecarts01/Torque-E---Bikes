@@ -10,7 +10,7 @@ export const meta = {
   url: '/blog/folding-bike-bag/',
   title: 'Folding Bike Bag: Size, Fit and Rules for Trains',
   seoTitle: 'Folding Bike Bag: Size, Fit and Rules for Trains',
-  excerpt: 'Need a folding bike bag? See the 90 x 70 x 36 cm TransLink limit, how to size a carry bag, what folded e-bikes weigh on your back and which folding e-bikes we stock.',
+  excerpt: "Need a folding bike bag? See the 90 x 70 x 36 cm TransLink limit, how to size a carry bag, folded e-bike weight and the folding e-bikes we stock.",
   category: 'Buying Guides',
   date: '2026-10-29',
   readTime: '10 min',

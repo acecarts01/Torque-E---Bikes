@@ -10,7 +10,7 @@ export const meta = {
   url: '/blog/lightest-electric-bicycle/',
   title: 'Lightest Electric Bicycle: How to Compare E-Bike Weights',
   seoTitle: 'Lightest Electric Bicycle: How to Compare E-Bike Weights',
-  excerpt: 'Looking for the lightest electric bicycle? Learn how to compare e-bike weights fairly, the battery trade-off, where weight matters, and light-system models from $5,500.',
+  excerpt: "Looking for the lightest electric bicycle? Learn to compare e-bike weights fairly, the battery trade-off, where weight matters and light models from $5,500.",
   category: 'Buying Guides',
   date: '2026-10-29',
   readTime: '11 min',

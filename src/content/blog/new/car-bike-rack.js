@@ -10,7 +10,7 @@ export const meta = {
   url: '/blog/car-bike-rack/',
   title: 'Car Bike Rack: Tow Bar vs Roof Rack for E-Bikes',
   seoTitle: 'Car Bike Rack: Tow Bar vs Roof Rack for E-Bikes',
-  excerpt: 'Choosing a car bike rack for an e-bike? Compare tow bar and roof racks, check Queensland number plate and light rules, do the weight sums and see our $229 and $759 racks.',
+  excerpt: "Choosing a car bike rack for an e-bike? Compare tow bar and roof racks, check Queensland plate and light rules, do the weight sums and see our racks.",
   category: 'Buying Guides',
   date: '2026-10-29',
   readTime: '11 min',

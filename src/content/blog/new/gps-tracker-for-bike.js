@@ -10,7 +10,7 @@ export const meta = {
   url: '/blog/gps-tracker-for-bike/',
   title: 'GPS Tracker for Bike: AirTag Mounts vs Cellular Trackers',
   seoTitle: 'GPS Tracker for Bike: AirTag Mounts vs Cellular Trackers',
-  excerpt: 'Choosing a GPS tracker for your bike? Compare AirTag-style mounts with cellular trackers, see our $93.95 Multitag option, hiding spots, privacy rules and theft advice.',
+  excerpt: "Choosing a GPS tracker for your bike? Compare AirTag-style mounts with cellular trackers, see our $93.95 Multitag option, hiding spots and theft advice.",
   category: 'Buying Guides',
   date: '2026-10-29',
   readTime: '10 min',

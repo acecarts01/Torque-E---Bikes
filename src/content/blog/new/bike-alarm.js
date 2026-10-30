@@ -8,7 +8,7 @@ export const meta = {
   url: '/blog/bike-alarm/',
   title: 'Bike Alarm: Alarmed Locks and Trackers to Stop Bike Theft',
   seoTitle: 'Bike Alarm: Alarmed Locks and Trackers to Stop Bike Theft',
-  excerpt: 'Looking for a bike alarm? Compare the Kovix alarmed folding lock at $109, chain locks and an AirTag mount, and layer your bike security the Queensland Police way.',
+  excerpt: "Looking for a bike alarm? Compare the $109 Kovix alarmed folding lock, chain locks and an AirTag mount, and layer your security the Queensland Police way.",
   category: 'Buying Guides',
   date: '2026-10-27',
   readTime: '9 min',

@@ -10,7 +10,7 @@ export const meta = {
   url: '/blog/bike-chain-degreaser/',
   title: 'Bike Chain Degreaser: How to Clean a Drivetrain Safely',
   seoTitle: 'Bike Chain Degreaser: How to Clean a Drivetrain Safely',
-  excerpt: 'Choosing a bike chain degreaser? Learn the Park Tool method, why to check chain wear first, how to protect rotors and bearings, and the Krush degreaser we stock at $23.95.',
+  excerpt: "Choosing a bike chain degreaser? Learn the Park Tool method, why to check chain wear first, how to protect rotors and bearings, and our $23.95 Krush.",
   category: 'Buying Guides',
   date: '2026-10-29',
   readTime: '10 min',
