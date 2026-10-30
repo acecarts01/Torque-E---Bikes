@@ -36,7 +36,7 @@ Comparing GSC and GA4 curves with these dates was not possible: Search Console w
 2. **Scaled content risk.** About 490 product pages carry templated FAQ text (527 identical answers on 16 Oct) and the blog now has 104 posts. The 70 new posts are individually researched, but product FAQ templating is the exposure under the scaled content abuse policy.
 3. **robots.txt has no AI-agent policy.** Single `User-agent: *` group, no search-versus-training decision for OAI-SearchBot, GPTBot, ClaudeBot, Google-Extended and others.
 4. **Trust signals.** Guides are credited to "Torque E-Bikes" (Organization), Organization `sameAs` is empty and testimonials are unverified.
-5. **Sitemap `lastmod` is the build date.** 566 of 679 URLs share 2026-10-26, so lastmod gives Google no useful change signal.
+5. **Page indexing (Search Console, data to 23 Oct):** 136 indexed, 488 not: 458 Discovered - currently not indexed (never crawled yet), 23 Crawled - currently not indexed (all product pages), 5 redirects (4 intended brand merges plus the http home), 1 noindex (/search/, intended), 1 blocked by robots (/abn-lookup/, intended). Only the 481 Google-quality statuses need work.
 
 Fixed since 16 Oct (verified today): logo.png 200, favicon.ico 200 and icon links present, default og:image present, product pages carry one BreadcrumbList plus shipping and return-policy markup, http and www redirect (308) to the canonical host, llms.txt 200.
 
@@ -47,8 +47,8 @@ Fixed since 16 Oct (verified today): logo.png 200, favicon.ico 200 and icon link
 | P1 | Product FAQ (`src/lib/faq.ts`, `faq.generated.json`) | About 527 identical answers across 490 pages | Template generation | Keep only answers that are product-specific; drop FAQ blocks that repeat | M | Lowers scaled-content risk | **Needs approval** (removes visible content) | Diff of rendered FAQs, count of unique answers |
 | P1 | `app/robots.txt` | Single wildcard group | No AI policy | See robots proposal below | S | Clear AI access policy | **Needs approval** (robots rules) | robots tester, curl, Bing and GSC fetch |
 | P1 | Authors and entity (`src/config/site.js`, article schema) | Guides credit the Organization; `sameAs` empty | No named people or profiles supplied | Add real named author or reviewer and real profile URLs once you provide them | S | Trust and E-E-A-T | None | Schema Markup Validator |
-| P2 | Sitemap generator | 566 of 679 URLs share one lastmod | Build date used | Use file or content modification dates; keep trailing slash on the home loc | S | Crawl efficiency | Low | Compare lastmod before and after |
-| P2 | Apple touch icon | `/apple-touch-icon.png` 404 | Not generated | Add 180x180 from `scripts/gen-brand-assets.mjs` | S | Icon on iOS | None | curl 200 |
+| Done | Sitemap generator | Checked in code: lastmod is the catalogue update date (2026-10-26), blog posts use their own dates, fixed pages carry none | Earlier finding was wrong | None needed | - | - | - | - |
+| Done | Apple touch icon | Served as /apple-icon.png with a link rel=apple-touch-icon in the head | Earlier finding was wrong | None needed | - | - | - | - |
 | P2 | `/api/ucp`, `/api/acp` | Redirect (308) to a trailing-slash URL that returns 404 | Routes advertised but not implemented | Remove any agent-file claim that points at them (16 Oct finding still open) | S | Truthfulness | Touches agent files | curl each advertised endpoint |
 | P2 | Meta descriptions | 21 new posts have descriptions of 166 to 174 characters | Written to fit 175 limit | Trim to 150 to 160 | S | Cleaner snippets | None | final-check |
 | P2 | Titles | 3-wheel-electric-bike 62, merida 61, e-cruiser 64, aventon 63, for-sale 66, e-bike-sale 63, mini-ebike 61, amps-ebikes 65 characters | Long titles | Trim to 60 or fewer | S | Snippet display | Changing titles can move rankings slightly | Re-crawl |
@@ -122,3 +122,7 @@ Do not claim FAQ rich results, SearchAction features, UCP or ACP support, or any
 
 ## Re-run triggers
 After every confirmed core or spam update on the Search Status Dashboard, and at least monthly. Next due: after the next dashboard event, or 30 Nov 2026.
+
+## Applied 30 Oct 2026 (approved)
+- robots.txt rebuilt in four groups: search crawlers allowed; AI search and retrieval agents (OAI-SearchBot, ChatGPT-User, Claude-SearchBot, Claude-User, PerplexityBot, Perplexity-User, Applebot) allowed; training tokens (Google-Extended, GPTBot, ClaudeBot, CCBot, Applebot-Extended) disallowed; everyone else allowed. Private paths are repeated in every allow group. OpenAI, Anthropic and Perplexity names checked on their documentation pages today; Applebot-Extended and CCBot from the vendors' standard tokens (Apple's page 404'd).
+- Product FAQ: 61 answers that were identical across product pages removed (no page left without FAQ). The "How much is X" and "How does X compare" items stay because they carry product-specific prices.
