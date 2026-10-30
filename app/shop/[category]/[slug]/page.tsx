@@ -47,7 +47,9 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   const focus = ((seo?.kw as string[] | undefined) || [])[0]
   const rest = (seo?.alt || '').split(' — ')[1]
   const cap = (s: string) => s.replace(/\baustralia\b/g, 'Australia').replace(/\b(\w)/, c => c.toUpperCase())
-  const heroAlt = focus && rest ? `${cap(focus)} — ${rest}` : seo?.alt
+  const nameLc = product.name.toLowerCase()
+  const focusAlt = focus ? (focus.startsWith(nameLc) ? product.name + focus.slice(nameLc.length).replace(/\baustralia\b/g, 'Australia') : cap(focus)) : ''
+  const heroAlt = focusAlt && rest ? `${focusAlt} — ${rest}` : seo?.alt
   const toc = [
     { id: 'overview', label: `About the ${product.name}` },
     { id: 'cost-to-your-door', label: 'Cost to your door' },

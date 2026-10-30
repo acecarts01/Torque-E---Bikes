@@ -119,7 +119,7 @@ export default function ProductDetail({ product, copy, h1, alt, faq = [], extras
                   activeImage === i ? "border-brand-red ring-1 ring-brand-red/50" : "border-white/5 hover:border-white/20"
                 )}
               >
-                <SmartImage src={img} alt={`${product.name} - ${i}`} fill className="object-contain" />
+                <SmartImage src={img} alt={`${product.name} - view ${i + 1}`} fill className="object-contain" />
               </button>
             ))}
           </div>
