@@ -3,6 +3,7 @@ import { CATEGORIES, POSTS, SITE } from '@/src/config/site'
 import { PRODUCTS } from '@/src/config/products'
 import { brandSlugs } from '@/src/lib/hubs'
 import { getSeo } from '@/src/lib/seo'
+import NOINDEX from '@/src/config/noindex-products.json'
 
 // Date the catalogue and prices were last changed. Update it when products or prices change; it is a real date, not "today".
 const CATALOGUE_UPDATED = '2026-10-26'
@@ -32,7 +33,7 @@ export async function GET() {
   }${
     brandSlugs().filter(b => getSeo(`/brands/${b}/`)).map(b => url(`${domain}/brands/${b}/`, CATALOGUE_UPDATED)).join('')
   }${
-    PRODUCTS.map(prod => url(
+    PRODUCTS.filter(prod => !(NOINDEX as string[]).includes(prod.slug)).map(prod => url(
       `${domain}/shop/${prod.category}/${prod.slug}/`,
       CATALOGUE_UPDATED,
       prod.images.map(img => `

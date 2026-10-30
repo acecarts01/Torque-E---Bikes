@@ -9,6 +9,7 @@ import { Metadata } from 'next'
 import { generatePageMetadata } from '@/src/lib/metadata'
 import { getSeo } from '@/src/lib/seo'
 import { getPageFaq } from '@/src/lib/faq'
+import NOINDEX from '@/src/config/noindex-products.json'
 import { notFound } from 'next/navigation'
 
 export async function generateStaticParams() {
@@ -23,12 +24,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const product = PRODUCTS.find(p => p.slug === slug)
   if (!product) return { title: 'Machine Not Found' }
 
-  return generatePageMetadata({
+  const meta = generatePageMetadata({
     title: product.name,
     description: product.shortDescription,
     path: `/shop/${product.category}/${product.slug}/`,
     image: product.images[0]
   })
+  // Parts-only pages with no supplier specifications and no guide linking to them stay live for customers but are kept out of the index (list built by scripts/thin-products.mjs).
+  return (NOINDEX as string[]).includes(product.slug) ? { ...meta, robots: { index: false, follow: true } } : meta
 }
 
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
