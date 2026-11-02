@@ -9,7 +9,7 @@
     "lint": "next lint",
     "crosscheck": "node scripts/crosscheck.mjs",
     "gen": "node scripts/gen-agent-files.mjs",
-    "prebuild": "node scripts/gen-agent-files.mjs"
+    "prebuild": "node scripts/gen-agent-files.mjs && node scripts/gen-blog-index.mjs"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",

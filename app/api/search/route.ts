@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { POSTS, SITE } from '@/src/config/site'
+import { SITE } from '@/src/config/site'
+import { POSTS } from '@/src/config/posts'
 import { PRODUCTS } from '@/src/config/products'
 
 export async function GET(req: NextRequest) {

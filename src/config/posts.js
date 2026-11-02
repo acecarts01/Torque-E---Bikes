@@ -1,0 +1,103 @@
+// Published posts. Kept out of site.js because site.js is imported by client components and this list drags every post body into the browser bundle. Import only from server code.
+import { BLOG_META } from '../content/blog/meta.js'
+import { NEW_META } from '../content/blog/new/index.js'
+import { isMerged } from '../content/blog/refresh/apply.js'
+
+// Published posts (generated from the keyword plan; see src/content/blog and src/lib/blog.ts).
+export const POSTS = [...NEW_META, ...BLOG_META].filter(p => !isMerged(p.slug))
+  .filter(p => p.kind !== 'tool' && (process.env.PUBLISH_ALL === '1' || new Date(p.date + 'T00:00:00Z') <= new Date()))
+  .sort((a, b) => (a.date < b.date ? 1 : -1))
+  .map(p => ({ slug: p.slug, title: p.title, excerpt: p.excerpt, category: p.category, date: p.date, readTime: p.readTime, image: p.image.file }))
+
+export const PAGES = {
+  about: true,
+  faq: true,
+  blog: true,
+  wholesale: true,
+  tracking: true,
+  compare: true,
+  search: true,
+}
+
+export const FAQ = [
+  {
+    question: 'Are high-powered electric dirt bikes legal on Australian roads?',
+    answer: 'No. Any electric bike with more than 250W continuous rated power or a throttle that works above 6 km/h is classified as a motorbike and must be ADR compliant, registered, and insured for road use. Our high-output models are sold strictly for private property and closed-circuit use only.'
+  },
+  {
+    question: 'How do you ship large lithium batteries across Australia?',
+    answer: 'Lithium batteries are classified as Class 9 Dangerous Goods. We use certified DG couriers (like TNT/FedEx) and comply with all Australian Dangerous Goods (ADG) 7.8 guidelines to ensure safe nationwide delivery to your door.'
+  },
+  {
+    question: 'What is the 10% crypto discount?',
+    answer: 'We offer an automatic 10% discount on your entire order when paying via Bitcoin (BTC) or Tether (USDT). This reflects the lower transaction fees compared to traditional banking systems. Simply select "Cryptocurrency" at checkout to apply the savings.'
+  }
+]
+
+export const COMPLIANCE = {
+  bannedTerms: [
+    "Road legal everywhere",
+    "Street legal without license",
+    "Ride anywhere in Australia",
+    "Footpath legal dirt bike",
+    "Bypass road laws",
+    "Unrestricted street legal",
+    "No license needed for 72V"
+  ],
+  requiredFramings: [
+    "Private property and closed circuit use only",
+    "Check your local state road authority (Transport for NSW, VicRoads, TMR QLD, DoT WA) regulations",
+    "EPAC EN 15194 compliant 250W pedelec",
+    "Dangerous Goods Class 9 UN 3480 compliant freight"
+  ],
+  prohibitedClaims: [
+    "Legal for all roads",
+    "No registration required for 3000W"
+  ],
+  ageGate: true,
+  ageMinimum: 16,
+  gdpr: false, // Australian Privacy Principles instead
+  disclaimer: 'AUSTRALIAN REGULATORY & SAFETY ADVISORY: Electric dirt bikes, high-powered e-motos, and conversion kit setups exceeding 250W continuous rated power or 25 km/h throttle actuation (including E Ride Pro, Strike Shadows, ETM RTR, SRPNT, and 1000W–5000W conversion combos) are engineered strictly for closed-course competition, private property, and off-road trail riding. They do not meet EN 15194 EPAC standards and cannot be operated on public roads, footpaths, or cycle lanes without ADR compliance and registration. Only specifically rated 250W EPAC pedal-assist kits are street legal across Australian states. Lithium batteries are dispatched under Australian Dangerous Goods Class 9 guidelines.',
+}
+
+// Real purchase/activity entries for the pop-up, e.g. { text: 'Order placed: <product>', location: 'Perth WA', when: '2 hours ago' }.
+// Leave empty until you have genuine orders to show; the pop-up then shows reviews only.
+export const ACTIVITY = []
+
+export const REVIEWS = [
+  { id: 1, author: "Jake T.", location: "Gold Coast", rating: 5, text: "The 3000W kit is insane. Torque Team Brisbane matched the battery connectors perfectly. Shipping was surprisingly fast for a DG battery.", date: "Oct 2026" },
+  { id: 2, author: "Sarah M.", location: "Sydney", rating: 5, text: "Got the 250W street legal kit for my commute. Super clean install and the pedal assist is very smooth. Highly recommend Torque E-Bikes.", date: "Sep 2026" },
+  { id: 3, author: "Mike R.", location: "Perth", rating: 5, text: "ETM RTR Sport is a beast. Handles the trails better than any petrol bike I've owned. Service from the Brisbane shop was 10/10.", date: "Aug 2026" },
+  { id: 4, author: "David L.", location: "Melbourne", rating: 5, text: "Finally an Aus shop that knows their 72V stuff. The Sabvoton controller setup they recommended fixed all my power issues.", date: "July 2026" },
+  { id: 5, author: "Chris P.", location: "Adelaide", rating: 5, text: "Fast delivery to SA. Battery arrived in a proper DG crate. Very impressed with the safety standards and tech support.", date: "Jun 2026" },
+  { id: 6, author: "Ben H.", location: "Brisbane", rating: 5, text: "Best customer service in the e-moto industry. Fixed a minor motor issue over WhatsApp in 10 minutes.", date: "Feb 2024" },
+  { id: 7, author: "Liam K.", location: "Cairns", rating: 5, text: "Rugged components. I take my bike through some heavy bush and the Torque components haven't missed a beat.", date: "Mar 2024" },
+  { id: 8, author: "Emma S.", location: "Hobart", rating: 5, text: "Transformed my old MTB with the 1000W hub kit. It's a completely different machine now. Great advice from the team.", date: "May 2025" }
+]
+
+// Reply Portal: single source for emails, payment wording and admin deep links.
+export const REPLY = {
+  brand: { primary: '#ff6a1a', headerDark: '#16181b' },
+  currency: { code: 'AUD', symbol: '$', locale: 'en-AU' },
+  orderPrefix: 'TQR',
+  headerTagline: 'Power Lab Australia · Brisbane, QLD',
+  dispatchLine: 'We ship Australia-wide, usually within 24-48 hours of cleared payment.',
+  paymentMethods: [
+    {
+      id: 'bank-transfer', label: 'Bank transfer',
+      opening: 'Please pay {amount} by bank transfer (EFT) to the account below.',
+      closing: 'Use {ref} as the payment reference so we can match your payment straight away.',
+    },
+    {
+      id: 'payid', label: 'PayID / OSKO',
+      opening: 'Please pay {amount} using PayID / OSKO to the PayID below.',
+      closing: 'Include {ref} in the payment description so we can match your payment straight away.',
+    },
+    {
+      id: 'crypto', label: 'Crypto (BTC / USDT)',
+      opening: 'Please send the value of {amount} in BTC or USDT to the wallet below, on the network shown. Your crypto discount is already included in this amount.',
+      closing: 'Once sent, reply with the transaction hash (TXID) and quote {ref}. We mark the order paid after 3 network confirmations.',
+    },
+  ],
+}
+

@@ -16,7 +16,7 @@ import { ArrowRight, ShieldAlert, Cpu, Wrench, Package, Radio, Gauge } from 'luc
 import { CATEGORIES, BRAND } from '@/src/config/site'
 import PageFaq from '@/src/components/PageFaq'
 import type { FaqItem } from '@/src/lib/faq'
-import { PUBLISHED } from '@/src/lib/blog'
+import { latestPosts } from '@/src/lib/blogIndex'
 import { cn } from '@/src/lib/utils'
 
 // The server page (app/page.tsx) chooses the few products and FAQ items this page needs, so the browser never downloads the full catalogue.
@@ -128,12 +128,12 @@ export default function HomeClient({ featuredProducts, homeFaq, abnSection }: { 
 
       <ReviewSlider />
 
-      {PUBLISHED.length > 0 && (
+      {latestPosts.length > 0 && (
         <section className="bg-brand-dark px-4 pb-16" aria-labelledby="home-guides">
           <div className="container mx-auto max-w-5xl">
             <h2 id="home-guides" className="text-3xl md:text-4xl font-black italic uppercase tracking-tighter text-white mb-8">Latest guides</h2>
             <ul className="grid grid-cols-1 md:grid-cols-3 gap-4 list-none p-0 m-0">
-              {PUBLISHED.slice(0, 3).map(p => (
+              {latestPosts.map(p => (
                 <li key={p.slug}>
                   <Link href={p.url} className="block h-full rounded-2xl border border-white/10 bg-white/5 p-5 hover:border-brand-red transition-colors">
                     <span className="text-[10px] font-black uppercase tracking-widest text-brand-red">{p.category}</span>

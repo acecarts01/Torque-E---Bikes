@@ -1,5 +1,6 @@
 // app/api/sitemap.xml/route.ts
-import { CATEGORIES, POSTS, SITE } from '@/src/config/site'
+import { CATEGORIES, SITE } from '@/src/config/site'
+import { POSTS } from '@/src/config/posts'
 import { PRODUCTS } from '@/src/config/products'
 import { brandSlugs } from '@/src/lib/hubs'
 import { getSeo } from '@/src/lib/seo'

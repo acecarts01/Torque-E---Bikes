@@ -2,7 +2,7 @@
 // Renders a string with [label](/path/) links and **bold**. Links to unpublished blog posts render as plain text.
 import React from 'react'
 import Link from 'next/link'
-import { isLive } from '@/src/lib/blog'
+import { isLive } from '@/src/lib/blogIndex'
 
 const TOKEN = /(\[[^\]]+\]\([^)]+\)|\*\*[^*]+\*\*)/g
 

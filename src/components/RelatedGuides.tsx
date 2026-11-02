@@ -2,7 +2,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { BookOpen } from 'lucide-react'
-import { guideLinks } from '@/src/lib/blog'
+import { guideLinks } from '@/src/lib/blogIndex'
 
 export default function RelatedGuides({ path, heading = 'Guides' }: { path: string; heading?: string }) {
   const links = guideLinks(path)
