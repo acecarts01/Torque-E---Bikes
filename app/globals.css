@@ -122,3 +122,7 @@
   .animate-float, .animate-toast-in, .animate-announce, .animate-menu-in, .reveal, .sheen:hover::after { animation: none !important; }
   html { scroll-behavior: auto; }
 }
+
+@keyframes hero-hint-in { from { opacity: 0 } to { opacity: 1 } }
+.hero-hint { animation: hero-hint-in 0.6s ease 2s both }
+@media (prefers-reduced-motion: reduce) { .hero-hint { animation: none } }

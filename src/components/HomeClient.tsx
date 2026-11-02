@@ -1,8 +1,4 @@
-'use client'
-
 import React from 'react'
-import { motion } from 'motion/react'
-import '@/src/lib/motion-setup'
 import Nav from '@/src/components/Nav'
 import Hero from '@/src/components/Hero'
 import Footer from '@/src/components/Footer'
@@ -71,13 +67,7 @@ export default function HomeClient({ featuredProducts, homeFaq, abnSection }: { 
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
             {CATEGORIES.map((cat, i) => (
-              <motion.div
-                key={cat.slug}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: (i % 4) * 0.05 }}
-              >
+              <div key={cat.slug}>
                 <Link
                   href={`/shop/${cat.slug}/`}
                   className="group block overflow-hidden rounded-2xl border border-white/5 bg-brand-accent hover:border-brand-red/40 transition-colors"
@@ -90,7 +80,7 @@ export default function HomeClient({ featuredProducts, homeFaq, abnSection }: { 
                     <p className="text-[9px] text-brand-gray font-bold uppercase tracking-wider mt-1">{cat.count} products</p>
                   </div>
                 </Link>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
@@ -106,15 +96,9 @@ export default function HomeClient({ featuredProducts, homeFaq, abnSection }: { 
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12">
             {featuredProducts.map((p, idx) => (
-              <motion.div
-                key={p.slug}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: idx * 0.1 }}
-              >
+              <div key={p.slug}>
                 <ProductCard product={p} />
-              </motion.div>
+              </div>
             ))}
           </div>
           

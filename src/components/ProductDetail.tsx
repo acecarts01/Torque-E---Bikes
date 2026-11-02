@@ -17,8 +17,6 @@ import RichText from '@/src/components/RichText'
 import RelatedGuides from '@/src/components/RelatedGuides'
 import QuoteRequest from '@/src/components/QuoteRequest'
 import type { FaqItem } from '@/src/lib/faq'
-import { motion, AnimatePresence } from 'motion/react'
-import '@/src/lib/motion-setup'
 
 type Product = (typeof PRODUCTS)[number]
 
@@ -48,22 +46,15 @@ const AccordionItem = ({ title, icon: Icon, children }: { title: string, icon: a
         </div>
         {isOpen ? <Minus className="w-4 h-4 text-brand-red" /> : <Plus className="w-4 h-4 text-brand-gray" />}
       </button>
-      <AnimatePresence>
-        {isOpen && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: 'auto', opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            className="overflow-hidden"
-          >
+      {isOpen && (
+          <div className="overflow-hidden">
             <div className="pb-8 pt-2 pl-14 pr-4">
               <div className="text-[10px] text-brand-gray font-medium uppercase tracking-widest leading-loose">
                 {children}
               </div>
             </div>
-          </motion.div>
+          </div>
         )}
-      </AnimatePresence>
     </div>
   )
 }
@@ -101,12 +92,7 @@ export default function ProductDetail({ product, copy, h1, alt, faq = [], extras
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-start">
         {/* Visuals */}
-        <motion.div 
-          initial={false}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-          className="space-y-6"
-        >
+        <div className="space-y-6">
           <ProductZoom src={product.images[activeImage]} alt={activeImage === 0 ? (alt || product.name) : `${product.name} - view ${activeImage + 1}`} />
           
           <div className="grid grid-cols-4 gap-4">
@@ -123,15 +109,10 @@ export default function ProductDetail({ product, copy, h1, alt, faq = [], extras
               </button>
             ))}
           </div>
-        </motion.div>
+        </div>
 
         {/* Config & Checkout */}
-        <motion.div 
-          initial={false}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
-          className="space-y-10"
-        >
+        <div className="space-y-10">
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <div className="w-1.5 h-1.5 rounded-full bg-brand-red animate-pulse" />
@@ -220,7 +201,7 @@ export default function ProductDetail({ product, copy, h1, alt, faq = [], extras
               Returns accepted within 14 days for unused parts in original packaging. 20% restocking fee applies to large items. Class 9 Dangerous Goods returns must use our certified couriers.
             </AccordionItem>
           </div>
-        </motion.div>
+        </div>
       </div>
 
       {extrasTop}
