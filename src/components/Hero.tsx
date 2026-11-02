@@ -8,9 +8,11 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-brand-dark">
       {/* Photo background: dark overlay keeps the text readable */}
       <picture className="absolute inset-0 block">
-        <source media="(min-width: 768px)" srcSet="/images/hero-home.webp" />
+        <source media="(min-width: 768px)" type="image/avif" srcSet="/images/hero-home.avif" />
+        <source media="(min-width: 768px)" srcSet="/images/hero-home-1600.webp" />
+        <source type="image/avif" srcSet="/images/hero-home-mobile.avif" />
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/images/hero-home-mobile.webp" alt="Rider on an off-road dirt bike on a dirt trail with mountains behind" className="h-full w-full object-cover" fetchPriority="high" decoding="async" />
+        <img src="/images/hero-home-mobile-720.webp" width={720} height={960} alt="Rider on an off-road dirt bike on a dirt trail with mountains behind" className="h-full w-full object-cover" fetchPriority="high" decoding="async" />
       </picture>
       <div className="absolute inset-0 bg-brand-dark/80 md:bg-transparent md:bg-gradient-to-r md:from-brand-dark md:via-brand-dark/80 md:to-brand-dark/25 pointer-events-none" />
       {/* Dynamic Background */}
