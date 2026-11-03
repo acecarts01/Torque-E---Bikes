@@ -3,6 +3,7 @@
 // Pure functions: safe to import from server components only (they read site config and the price range file).
 import { SITE, CONTACT, BRAND, SHOP } from '@/src/config/site'
 import PRICE_RANGE from '@/src/config/price-range.generated.json'
+import { ratingNode, reviewNode, productOwnReviews, type Review } from '@/src/lib/reviewsSchema'
 
 const ORIGIN = `https://${SITE.domain}`
 export const abs = (path: string) => `${ORIGIN}${path}`
@@ -18,13 +19,16 @@ type Crumb = { name: string; item: string }
 export type FaqPair = { q: string; a: string }
 
 // Full business entity (home page) or a short reference entity (every other page).
-export function orgNode(full = false): Node {
+// `rating` adds the store's aggregate rating; `reviews` lists the reviews shown on that page. Only pass them on pages that display them.
+export function orgNode(full = false, opts: { rating?: boolean; reviews?: Review[] } = {}): Node {
   const base: Node = {
     '@type': full ? ['Store', 'Organization'] : 'Organization',
     '@id': ID.org,
     name: SITE.name,
     url: `${ORIGIN}/`,
     logo: abs('/logo.png'),
+    ...(opts.rating ? { aggregateRating: ratingNode() } : {}),
+    ...(opts.reviews && opts.reviews.length ? { review: opts.reviews.map(reviewNode) } : {}),
   }
   if (!full) return base
   return {
@@ -98,6 +102,9 @@ export function faqNode(path: string, items: FaqPair[]): Node | null {
 
 // Mirrors /shipping-returns/: shipping is a % of goods, free above the threshold; returns within 14 days, 20% restocking fee on large items.
 export function productNode(path: string, p: { name: string; description: string; images: string[]; slug: string; category: string; price: number; brand?: string }): Node {
+  // Reviews that name this product (none for most products). Never the store-wide reviews.
+  const own = productOwnReviews(p.slug)
+  const ownRating = own.length ? { '@type': 'AggregateRating', ratingValue: own.reduce((s, r) => s + r.rating, 0) / own.length, reviewCount: own.length, bestRating: 5, worstRating: 1 } : null
   return {
     '@type': 'Product',
     '@id': `${abs(path)}#product`,
@@ -107,6 +114,7 @@ export function productNode(path: string, p: { name: string; description: string
     sku: p.slug,
     brand: { '@type': 'Brand', name: p.brand || SITE.name },
     mainEntityOfPage: { '@id': ID.page(path) },
+    ...(ownRating ? { aggregateRating: ownRating, review: own.map(reviewNode) } : {}),
     offers: {
       '@type': 'Offer',
       url: abs(path),

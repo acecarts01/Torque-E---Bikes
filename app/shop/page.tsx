@@ -1,6 +1,6 @@
 import ShopClient from '@/src/components/ShopClient'
 import { PRODUCTS } from '@/src/config/products'
-import JsonLd from '@/src/components/JsonLd'
+import PageGraph from '@/src/components/PageGraph'
 import PageFaq from '@/src/components/PageFaq'
 import { getPageFaq } from '@/src/lib/faq'
 
@@ -14,7 +14,7 @@ export default function ShopPage() {
   })
   return (
     <ShopClient initial={PRODUCTS.slice(0, 24).map(light)} total={PRODUCTS.length}>
-      <JsonLd type="Breadcrumb" data={[{ name: 'Home', item: '/' }, { name: 'Shop', item: '/shop/' }]} />
+      <PageGraph path="/shop/" type="CollectionPage" name="Shop electric dirt bikes, e-bikes and parts" crumbs={[{ name: 'Home', item: '/' }, { name: 'Shop', item: '/shop/' }]} faq={getPageFaq('/shop/')} />
       <PageFaq items={getPageFaq('/shop/')} heading="Shop FAQs" />
     </ShopClient>
   )

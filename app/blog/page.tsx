@@ -10,7 +10,8 @@ import { SITE } from '@/src/config/site'
 import { allPosts as POSTS } from '@/src/lib/blogIndex'
 import Nav from '@/src/components/Nav'
 import Footer from '@/src/components/Footer'
-import JsonLd from '@/src/components/JsonLd'
+import PageGraph from '@/src/components/PageGraph'
+import { ID } from '@/src/lib/schemaGraph'
 
 export default function BlogPage() {
   const [activeCategory, setActiveCategory] = React.useState('All')
@@ -22,14 +23,7 @@ export default function BlogPage() {
 
   return (
     <div className="min-h-screen bg-brand-dark text-white selection:bg-brand-red selection:text-[#140800]">
-      <JsonLd 
-        type="Blog" 
-        data={{
-          name: `${SITE.name} Tech Blog`,
-          description: 'DIY E-Bike conversion guides, motor maintenance, and lithium battery safety for the Australian market.',
-          url: `https://${SITE.domain}/blog/`,
-        }}
-      />
+      <PageGraph path="/blog/" type="CollectionPage" name={`${SITE.name} Tech Blog`} description="DIY E-Bike conversion guides, motor maintenance, and lithium battery safety for the Australian market." crumbs={[{ name: 'Home', item: '/' }, { name: 'Blog', item: '/blog/' }]} extra={[{ '@type': 'Blog', '@id': `https://${SITE.domain}/blog/#blog`, name: `${SITE.name} Tech Blog`, url: `https://${SITE.domain}/blog/`, inLanguage: SITE.locale, publisher: { '@id': ID.org } }]} />
       
       <Nav />
 

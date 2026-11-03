@@ -160,7 +160,7 @@ export default function CategoryDetail({ slug, intro, products, h1, faq = [] }: 
       </div>
 
       <RelatedGuides path={`/shop/${category.slug}/`} />
-      <PageFaq items={faq} heading={`${category.name} FAQs`} schema={false} />
+      <PageFaq items={faq} heading={`${category.name} FAQs`} />
     </div>
   )
 }

@@ -7,7 +7,7 @@ import { SITE, CONTACT, BRAND, FORMS } from '@/src/config/site'
 import { Package, Truck, ShieldCheck, Headphones, ArrowRight, Building2, Globe2, Zap } from 'lucide-react'
 import Nav from '@/src/components/Nav'
 import Footer from '@/src/components/Footer'
-import JsonLd from '@/src/components/JsonLd'
+import PageGraph from '@/src/components/PageGraph'
 
 export default function WholesalePage() {
   const [isSubmitting, setIsSubmitting] = React.useState(false)
@@ -64,13 +64,7 @@ export default function WholesalePage() {
 
   return (
     <div className="min-h-screen bg-brand-dark selection:bg-brand selection:text-[#140800]">
-      <JsonLd 
-        type="AboutPage" 
-        data={{
-          name: `Wholesale Supply Portal | ${SITE.name}`,
-          description: "Wholesale opportunities for Australian e-bike retailers and workshops."
-        }} 
-      />
+      <PageGraph path="/wholesale/" name={`Wholesale Supply Portal | ${SITE.name}`} description="Wholesale opportunities for Australian e-bike retailers and workshops." crumbs={[{ name: 'Home', item: '/' }, { name: 'Wholesale', item: '/wholesale/' }]} />
       
       <Nav />
 

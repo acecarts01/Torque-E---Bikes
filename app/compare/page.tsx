@@ -6,20 +6,13 @@ import '@/src/lib/motion-setup'
 import Nav from '@/src/components/Nav'
 import Footer from '@/src/components/Footer'
 import CompareTool from '@/src/components/Compare'
-import JsonLd from '@/src/components/JsonLd'
+import PageGraph from '@/src/components/PageGraph'
 import { SITE } from '@/src/config/site'
 
 export default function ComparePage() {
   return (
     <div className="min-h-screen bg-brand-dark text-white selection:bg-brand-red selection:text-[#140800]">
-      <JsonLd 
-        type="WebPage" 
-        data={{
-          name: `Compare Products | ${SITE.name}`,
-          description: 'Compare high-performance electric motors, batteries, and conversion kits side-by-side. Technical spec breakdown for E-Moto builders.',
-          url: `https://${SITE.domain}/compare/`,
-        }}
-      />
+      <PageGraph path="/compare/" name={`Compare Products | ${SITE.name}`} description="Compare high-performance electric motors, batteries, and conversion kits side-by-side. Technical spec breakdown for E-Moto builders." crumbs={[{ name: 'Home', item: '/' }, { name: 'Compare', item: '/compare/' }]} />
       
       <Nav />
 

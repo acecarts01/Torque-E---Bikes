@@ -7,7 +7,7 @@ import { SITE, CONTACT, CHAT, FORMS } from '@/src/config/site'
 import { MessageSquare, Phone, Mail, MapPin, ArrowRight, Clock, Send } from 'lucide-react'
 import Nav from '@/src/components/Nav'
 import Footer from '@/src/components/Footer'
-import JsonLd from '@/src/components/JsonLd'
+import PageGraph from '@/src/components/PageGraph'
 
 export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = React.useState(false)
@@ -68,13 +68,7 @@ export default function ContactPage() {
 
   return (
     <div className="min-h-screen bg-brand-dark selection:bg-brand selection:text-[#140800]">
-      <JsonLd 
-        type="ContactPage" 
-        data={{
-          name: `Contact Us | ${SITE.name}`,
-          description: "Get in touch with the Torque E-Bikes team in Brisbane for sales, support and conversion advice."
-        }} 
-      />
+      <PageGraph path="/contact/" type="ContactPage" name={`Contact Us | ${SITE.name}`} description="Get in touch with the Torque E-Bikes team in Brisbane for sales, support and conversion advice." crumbs={[{ name: 'Home', item: '/' }, { name: 'Contact', item: '/contact/' }]} />
       
       <Nav />
 

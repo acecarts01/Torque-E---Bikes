@@ -16,6 +16,7 @@ import { guideLinks } from '@/src/lib/blog'
 import GraphLd from '@/src/components/GraphLd'
 import { buildGraph, orgNode, websiteNode, webPageNode, breadcrumbNode, productNode, faqNode } from '@/src/lib/schemaGraph'
 import { CATEGORIES } from '@/src/config/site'
+import { reviewsForProduct } from '@/src/lib/reviewsSchema'
 
 export async function generateStaticParams() {
   return PRODUCTS.map((p) => ({
@@ -56,6 +57,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   const toc = [
     { id: 'overview', label: `About the ${product.name}` },
     { id: 'cost-to-your-door', label: 'Cost to your door' },
+    { id: 'customer-reviews', label: 'What customers say' },
     { id: 'related-products', label: 'Related products' },
     ...(guideLinks(path).length ? [{ id: 'related-guides', label: 'Guides' }] : []),
     ...(faq.length ? [{ id: 'page-faq-heading', label: 'FAQs' }] : []),
@@ -67,7 +69,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
       <Nav />
       <main className="flex-grow pt-32 pb-24">
         <GraphLd graph={buildGraph([
-          orgNode(), websiteNode(),
+          orgNode(false, { rating: true, reviews: reviewsForProduct(product.slug, product.compliance === 'off-road') }), websiteNode(),
           webPageNode(path, { type: 'ItemPage', name: seo?.title || product.name, description: seo?.meta }),
           breadcrumbNode(path, [{ name: 'Home', item: '/' }, { name: 'Inventory', item: '/shop/' }, { name: CATEGORIES.find(c => c.slug === product.category)?.name || product.category, item: '/shop/' + product.category + '/' }, { name: product.name, item: path }]),
           productNode(path, product),

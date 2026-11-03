@@ -11,6 +11,7 @@ import ReviewSlider from '@/src/components/ReviewSlider'
 import Link from 'next/link'
 import { ArrowRight, ShieldAlert, Cpu, Wrench, Package, Radio, Gauge } from 'lucide-react'
 import { CATEGORIES, BRAND, SITE } from '@/src/config/site'
+import { reviewSummary } from '@/src/lib/reviewsSchema'
 import PageFaq from '@/src/components/PageFaq'
 import type { FaqItem } from '@/src/lib/faq'
 import { latestPosts } from '@/src/lib/blogIndex'
@@ -21,7 +22,7 @@ export default function HomeClient({ featuredProducts, homeFaq, abnSection }: { 
 
   return (
     <main className="flex-grow selection:bg-brand-red selection:text-[#140800]">
-      <GraphLd graph={buildGraph([orgNode(true), websiteNode(), webPageNode('/', { name: SITE.name, description: SITE.tagline, crumbs: false }), faqNode('/', homeFaq)])} />
+      <GraphLd graph={buildGraph([orgNode(true, { rating: true }), websiteNode(), webPageNode('/', { name: SITE.name, description: SITE.tagline, crumbs: false }), faqNode('/', homeFaq)])} />
       <AnnouncementBar />
       <Nav />
       <Hero />
@@ -112,6 +113,7 @@ export default function HomeClient({ featuredProducts, homeFaq, abnSection }: { 
       </section>
 
       <ReviewSlider />
+      <p className="container mx-auto px-4 -mt-6 mb-12 text-center text-sm text-brand-gray">Rated {reviewSummary().value.toFixed(1)} out of 5 from {reviewSummary().count} verified customer reviews of Torque E-Bikes.</p>
 
       {latestPosts.length > 0 && (
         <section className="bg-brand-dark px-4 pb-16" aria-labelledby="home-guides">
@@ -135,7 +137,7 @@ export default function HomeClient({ featuredProducts, homeFaq, abnSection }: { 
       {abnSection}
 
       <section className="bg-brand-dark px-4 pb-24">
-        <PageFaq items={homeFaq} heading="Torque E-Bikes FAQs" schema={false} />
+        <PageFaq items={homeFaq} heading="Torque E-Bikes FAQs" />
       </section>
 
       {/* Heritage Section - Compacted */}

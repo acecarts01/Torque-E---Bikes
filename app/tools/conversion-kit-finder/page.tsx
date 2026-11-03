@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation'
 import Nav from '@/src/components/Nav'
 import Footer from '@/src/components/Footer'
 import AnnouncementBar from '@/src/components/AnnouncementBar'
-import JsonLd from '@/src/components/JsonLd'
+import PageGraph from '@/src/components/PageGraph'
 import PageFaq from '@/src/components/PageFaq'
 import RichText from '@/src/components/RichText'
 import ConversionKitFinder from '@/src/components/ConversionKitFinder'
@@ -28,7 +28,7 @@ export default function Page() {
       <AnnouncementBar />
       <Nav />
       <main className="flex-grow pt-32 pb-24">
-        <JsonLd type="BreadcrumbList" data={[{ name: 'Home', item: '/' }, { name: 'Tools', item: URL_PATH }, { name: 'Conversion kit finder', item: URL_PATH }]} />
+        <PageGraph path={URL_PATH} name={t.title} crumbs={[{ name: 'Home', item: '/' }, { name: 'Tools', item: URL_PATH }, { name: 'Conversion kit finder', item: URL_PATH }]} faq={t.faq} />
         <div className="container mx-auto px-4 max-w-4xl">
           <p className="text-[10px] font-black uppercase tracking-[0.3em] text-brand-red mb-4">Free tool</p>
           <h1 className="text-4xl md:text-6xl font-black italic uppercase tracking-tighter leading-none mb-6">{t.title}</h1>

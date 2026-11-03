@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Nav from '@/src/components/Nav'
 import Footer from '@/src/components/Footer'
 import AnnouncementBar from '@/src/components/AnnouncementBar'
-import JsonLd from '@/src/components/JsonLd'
+import PageGraph from '@/src/components/PageGraph'
 import ProductCard from '@/src/components/ProductCard'
 import PageFaq from '@/src/components/PageFaq'
 import RelatedGuides from '@/src/components/RelatedGuides'
@@ -32,7 +32,7 @@ export default function HubPage({
       <AnnouncementBar />
       <Nav />
       <main className="flex-grow pt-32 pb-24">
-        <JsonLd type="BreadcrumbList" data={crumbs} />
+        <PageGraph path={path} type="CollectionPage" name={seo?.title || name} description={seo?.meta || intro} crumbs={crumbs} faq={getPageFaq(path)} />
         <div className="container mx-auto px-4">
           <section className="mb-12">
             <div className="bg-brand-accent p-8 md:p-12 border border-white/5 rounded-3xl relative overflow-hidden">

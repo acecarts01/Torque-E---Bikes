@@ -7,54 +7,14 @@ import { Zap, ShieldCheck, Truck, Trophy, MapPin, Calendar, Users, Award, Chevro
 import Nav from '@/src/components/Nav'
 import Footer from '@/src/components/Footer'
 import { SITE, BRAND, CONTACT, CATEGORIES } from '@/src/config/site'
-import JsonLd from '@/src/components/JsonLd'
+import PageGraph from '@/src/components/PageGraph'
 import Link from 'next/link'
 import Image from 'next/image'
 
 export default function AboutPage() {
-  const organizationSchema = {
-    "@context": "https://schema.org",
-    "@type": ["Store", "Organization"],
-    "name": SITE.name,
-    "description": BRAND.description,
-    "foundingDate": BRAND.foundingYear,
-    "foundingLocation": {
-      "@type": "Place",
-      "name": BRAND.foundingLocation
-    },
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": CONTACT.address.split(',')[0],
-      "addressLocality": "Brisbane",
-      "addressRegion": "QLD",
-      "postalCode": "4000",
-      "addressCountry": "AU"
-    },
-    "url": `https://${SITE.domain}/`,
-    "logo": `https://${SITE.domain}/logo.png`,
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": CONTACT.phone,
-      "contactType": "sales",
-      "areaServed": "AU",
-      "availableLanguage": "en"
-    },
-    "sameAs": BRAND.sameAs,
-    "brand": {
-      "@type": "Brand",
-      "name": SITE.name
-    }
-  }
-
-  const aboutPageSchema = {
-    "@context": "https://schema.org",
-    "@type": "AboutPage",
-    "mainEntity": organizationSchema
-  }
-
   return (
     <div className="min-h-screen bg-brand-dark text-white selection:bg-brand-red selection:text-[#140800]">
-      <JsonLd type="AboutPage" data={aboutPageSchema} />
+      <PageGraph path="/about/" type="AboutPage" name={`About ${SITE.name}`} description={BRAND.description} fullOrg crumbs={[{ name: 'Home', item: '/' }, { name: 'About', item: '/about/' }]} pageExtra={{ mainEntity: { '@id': `https://${SITE.domain}/#organization` } }} />
       <Nav />
 
       <main>

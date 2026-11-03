@@ -10,7 +10,7 @@ import { SITE } from '@/src/config/site'
 import { FAQ_GROUPS } from '@/src/lib/faq'
 
 const FAQ = FAQ_GROUPS.flatMap(g => g.items.map(i => ({ question: i.q, answer: i.a })))
-import JsonLd from '@/src/components/JsonLd'
+import PageGraph from '@/src/components/PageGraph'
 import Link from 'next/link'
 
 const AccordionItem = ({ question, answer }: { question: string, answer: string }) => {
@@ -50,7 +50,7 @@ const AccordionItem = ({ question, answer }: { question: string, answer: string 
 export default function FAQPage() {
   return (
     <div className="min-h-screen bg-brand-dark text-white selection:bg-brand-red selection:text-[#140800]">
-      <JsonLd type="FAQ" data={FAQ} />
+      <PageGraph path="/faq/" name={`FAQ | ${SITE.name}`} crumbs={[{ name: 'Home', item: '/' }, { name: 'FAQ', item: '/faq/' }]} faq={FAQ.map(i => ({ q: i.question, a: i.answer }))} />
       <Nav />
 
       <main id="main">

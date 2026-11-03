@@ -159,7 +159,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                   ))}
                 </article>
 
-                <PageFaq items={post.faq} heading="Frequently asked questions" schema={false} />
+                <PageFaq items={post.faq} heading="Frequently asked questions" />
 
                 {post.related && post.related.length > 0 && (
                   <section aria-labelledby="related-products" className="mt-14">

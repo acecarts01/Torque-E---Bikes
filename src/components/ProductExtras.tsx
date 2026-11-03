@@ -4,6 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 import { PRODUCTS } from '@/src/config/products'
 import { categoryLink, brandLink, relatedProducts, costToDoor } from '@/src/lib/productLinks'
+import { reviewsForProduct, reviewSummary, productOwnReviews } from '@/src/lib/reviewsSchema'
 
 type Product = (typeof PRODUCTS)[number]
 const money = (n: number) => `$${n.toLocaleString('en-AU', { minimumFractionDigits: n % 1 ? 2 : 0, maximumFractionDigits: 2 })}`
@@ -25,6 +26,9 @@ export function ProductExtras({ product }: { product: Product }) {
   const brand = brandLink(product)
   const related = relatedProducts(product)
   const offRoad = product.compliance === 'off-road'
+  const shownReviews = reviewsForProduct(product.slug, offRoad)
+  const summary = reviewSummary()
+  const productReviewNote = productOwnReviews(product.slug).length ? 'One of these reviews is about this model.' : ''
   const rules = offRoad
     ? { href: 'https://www.qld.gov.au/transport/safety/road-safety/motorcycle-safety/safety-gear', label: 'Queensland Government motorcycle safety gear advice' }
     : { href: 'https://www.qld.gov.au/transport/safety/rules/wheeled-devices/electric-bicycle-rules', label: 'Queensland Government electric bicycle rules' }
@@ -43,6 +47,23 @@ export function ProductExtras({ product }: { product: Product }) {
             Every order ships Australia-wide from Brisbane with dangerous-goods certified dispatch for lithium batteries. Your consumer rights are explained on the ACCC&apos;s <a href="https://www.accc.gov.au/consumers/buying-products-and-services/warranties" target="_blank" rel="noopener noreferrer" className="text-brand-red underline underline-offset-4">warranties and consumer guarantees page</a>, and the <a href={rules.href} target="_blank" rel="noopener noreferrer" className="text-brand-red underline underline-offset-4">{rules.label}</a> sets out where you can ride.
           </p>
         </div>
+      </section>
+
+      <section id="customer-reviews" className="mt-20 max-w-4xl mx-auto" aria-labelledby="customer-reviews-heading">
+        <h2 id="customer-reviews-heading" className="text-2xl md:text-3xl font-black italic uppercase tracking-tighter text-white mb-4">What Torque customers say</h2>
+        <p className="text-brand-gray mb-6">
+          Torque E-Bikes is rated {summary.value.toFixed(1)} out of 5 from {summary.count} verified customer reviews of the store.
+          {productReviewNote ? ` ${productReviewNote}` : ''}
+        </p>
+        <ul className="grid gap-4 md:grid-cols-3">
+          {shownReviews.map(r => (
+            <li key={r.id} className="rounded-2xl border border-white/10 bg-white/5 p-5">
+              <p className="text-sm text-brand-red font-black tracking-widest" aria-label={`${r.rating} out of 5 stars`}>{'★'.repeat(r.rating)}</p>
+              <p className="mt-2 text-brand-gray leading-relaxed">&ldquo;{r.text}&rdquo;</p>
+              <p className="mt-3 text-[11px] font-bold uppercase tracking-widest text-white">{r.author}, {r.location} <span className="text-brand-gray">&middot; {r.date}</span></p>
+            </li>
+          ))}
+        </ul>
       </section>
 
       <section id="related-products" className="mt-20 max-w-4xl mx-auto" aria-labelledby="related-products-heading">

@@ -216,7 +216,7 @@ export default function ProductDetail({ product, copy, h1, alt, faq = [], extras
 
       {extrasBottom}
       <RelatedGuides path={`/shop/${product.category}/${product.slug}/`} />
-      <PageFaq items={faq} heading={`${product.name} FAQs`} schema={false} />
+      <PageFaq items={faq} heading={`${product.name} FAQs`} />
     </div>
   )
 }
