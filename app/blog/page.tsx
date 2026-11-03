@@ -98,7 +98,7 @@ export default function BlogPage() {
                       className="group flex flex-col bg-[#16181b] rounded-3xl overflow-hidden border border-white/5 hover:border-brand-red/30 transition-all duration-500"
                     >
                       <Link href={`/blog/${post.slug}/`} className="relative aspect-[16/10] overflow-hidden">
-                        <BlogCardImage src={`/images/${post.image}`} alt={post.title} />
+                        <BlogCardImage src={`/images/${post.image.file}`} alt={post.title} />
                         <div className="absolute top-4 left-4">
                           <span className="px-3 py-1 bg-brand-red text-[#140800] text-[8px] font-black uppercase tracking-[0.2em] rounded-full">
                             {post.category}

@@ -1,14 +1,19 @@
+import { H1_TITLES } from '../h1-titles.js'
+
 // Applies a refresh patch (written to the blog-post rule) on top of an existing generated post.
 // meta patch: any of title, seoTitle, excerpt, focus, secondary, tags, related, updated, imageAlt, links { to, from }.
 // body patch: { replace: true, ...fullBody } or { hook, intro, prepend: [sections], append: [sections], rename: { oldH: newH }, drop: [h], faqAppend: [{q,a}] }.
 export function applyMeta(meta, patch) {
-  if (!patch) return rewriteLinks(meta)
+  if (!patch) return rewriteLinks(withH1(meta))
   const { imageAlt, links, ...rest } = patch
   const out = { ...meta, ...rest }
   if (imageAlt) out.image = { ...meta.image, alt: imageAlt }
   if (links) out.links = { to: links.to || meta.links.to, from: links.from || meta.links.from }
-  return rewriteLinks(out)
+  return rewriteLinks(withH1(out))
 }
+
+// The page H1 must differ from the title tag (seoTitle): see h1-titles.js.
+const withH1 = m => (H1_TITLES[m.slug] ? { ...m, title: H1_TITLES[m.slug] } : m)
 
 export function applyBody(body, p) {
   return rewriteLinks(applyBodyRaw(body, p))

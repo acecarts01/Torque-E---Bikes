@@ -57,6 +57,25 @@ function scanDir(dir) {
 
 scanDir(buildDir);
 
+// C1: a prerendered page must never contain a stringified object or an undefined value in a URL (broken images and links).
+const builtDir = '.next/server/app';
+if (fs.existsSync(builtDir)) {
+  const badPatterns = ['[object Object]', '%5Bobject%20Object%5D', '/images/undefined', '/images/null', 'href="undefined"', 'src="undefined"'];
+  const scanBuilt = dir => {
+    for (const file of fs.readdirSync(dir)) {
+      const p = path.join(dir, file);
+      if (fs.statSync(p).isDirectory()) scanBuilt(p);
+      else if (file.endsWith('.html')) {
+        const html = fs.readFileSync(p, 'utf8');
+        badPatterns.forEach(bad => {
+          if (html.includes(bad)) { console.error(`❌ C1: broken value "${bad}" in ${p}`); failures++; }
+        });
+      }
+    }
+  };
+  scanBuilt(builtDir);
+}
+
 if (failures > 0) {
   console.error(`\nTotal Failures: ${failures}`);
   process.exit(1);

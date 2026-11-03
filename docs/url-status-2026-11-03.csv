@@ -1,0 +1,616 @@
+url,type,google_status,last_crawled,gsc_clicks_3m,gsc_impressions_3m,semrush_keywords,best_ranking_keyword,best_position,register_primary,primary_volume,primary_kd,primary_source
+/,home,indexed,"Oct 19, 2026",1,355,5,"torque ebike",51,"torque ebikes",3600,20,competitor
+/shop/,other,indexed,"Oct 18, 2026",1,127,24,"pedal lynx 3",46,"e bikes for sale",2400,23,competitor
+/electric-bikes/,other,indexed,"Oct 20, 2026",1,767,27,"torque ebikes",42,"ebike",33100,17,competitor
+/electric-bikes/budget/,other,discovered-not-indexed,"",0,0,0,"",,"low cost electric bicycle",3600,17,competitor
+/brands/,brands-index,indexed,"Oct 20, 2026",0,2,1,"torque bikes",71,"",,,
+/compare/,other,indexed,"Oct 18, 2026",0,19,3,"torque ebikes",55,"",,,
+/about/,other,indexed,"Oct 16, 2026",0,18,2,"torque ebikes",62,"",,,
+/faq/,other,discovered-not-indexed,"",0,0,0,"",,"",,,
+/contact/,other,indexed,"Oct 17, 2026",0,12,0,"",,"",,,
+/wholesale/,other,indexed,"Oct 17, 2026",0,4,2,"torque ebikes",60,"",,,
+/blog/,blog-index,indexed,"Oct 17, 2026",0,9,3,"torque ebikes",58,"",,,
+/tools/conversion-kit-finder/,other,discovered-not-indexed,"",0,2,0,"",,"ebike conversion kit finder",0,,generated
+/terms/,other,discovered-not-indexed,"",0,0,0,"",,"",,,
+/privacy/,other,indexed,"Oct 17, 2026",0,1,0,"",,"",,,
+/shipping-returns/,other,indexed,"Oct 22, 2026",0,24,0,"",,"",,,
+/shop/electric-dirt-bikes/,category,indexed,"Oct 16, 2026",1,187,16,"electric scrambler bike",48,"electric dirt bike",8100,8,KM
+/shop/kids-electric-dirt-and-balance-bikes/,category,discovered-not-indexed,"",0,0,0,"",,"kids electric bike",4400,6,competitor
+/shop/electric-mountain-bikes/,category,indexed,"Oct 23, 2026",0,17,2,"e bike mountain bikes",68,"electric mountain bike",3600,10,KM
+/shop/commuter-and-urban-e-bikes/,category,indexed,"Oct 23, 2026",0,127,3,"canyon emtb australia",70,"cruiser ebike",590,5,competitor
+/shop/road-and-gravel-e-bikes/,category,indexed,"Oct 17, 2026",0,90,1,"e gravel bike",69,"road ebike",320,6,competitor
+/shop/fat-tyre-and-scrambler-e-bikes/,category,discovered-not-indexed,"",0,0,0,"",,"electric fat bike",720,11,competitor
+/shop/kids-and-youth-e-bikes/,category,indexed,"Oct 17, 2026",0,51,0,"",,"boy electric bike for 10 year old",260,20,competitor
+/shop/folding-e-bikes/,category,indexed,"Oct 23, 2026",0,410,7,"electric folding scooter bike",60,"e bike folding bike",2400,9,KM
+/shop/helmets-gloves-and-protection/,category,discovered-not-indexed,"",0,0,0,"",,"bike helmet",8100,6,competitor
+/shop/seats-fenders-and-body/,category,indexed,"Oct 17, 2026",0,15,0,"",,"bike seat",1900,11,competitor
+/shop/batteries-chargers-and-electronics/,category,indexed,"Oct 18, 2026",0,130,6,"ebike batteries",41,"ebike battery",1600,6,competitor
+/shop/cargo-bikes-and-e-trikes/,category,indexed,"Oct 18, 2026",0,206,5,"electric cargo bikes australia",52,"cargo bike",1900,16,KM
+/shop/lights-and-horns/,category,indexed,"Oct 17, 2026",1,68,1,"dirt bike lights",42,"bike lights",3600,11,competitor
+/shop/wheels-tyres-and-tubes/,category,indexed,"Oct 17, 2026",0,32,0,"",,"tyres for cycles",2400,11,competitor
+/shop/racks-bags-and-trailers/,category,indexed,"Oct 17, 2026",1,33,2,"bike cargo rack",55,"bike rack",12100,24,competitor
+/shop/motors-drivetrain-and-sprockets/,category,indexed,"Oct 17, 2026",2,51,10,"e conversion kit",48,"ebike conversion kit",6600,3,competitor
+/shop/suspension-and-forks/,category,discovered-not-indexed,"",0,0,0,"",,"mountain bike forks",480,26,competitor
+/shop/phone-mounts-mirrors-and-audio/,category,discovered-not-indexed,"",0,0,0,"",,"bike phone holder",1900,16,competitor
+/shop/controls-grips-and-pedals/,category,indexed,"Oct 18, 2026",0,0,0,"",,"bike pedals",1600,10,competitor
+/shop/care-tools-and-hydration/,category,indexed,"Oct 17, 2026",0,8,1,"water bottle for bike",71,"cycling water bottle",590,10,competitor
+/shop/locks-and-security/,category,indexed,"Oct 19, 2026",0,50,5,"dirt bike lock",45,"bike lock",6600,15,competitor
+/shop/sur-ron-spares/,category,indexed,"Oct 18, 2026",0,9,0,"",,"sur ron parts",50,3,semrush-2026-10-18
+/shop/brakes/,category,indexed,"Oct 17, 2026",0,43,4,"bike breaks",53,"bike brake pads",720,10,competitor
+/brands/sur-ron/,brand,indexed,"Oct 17, 2026",0,234,7,"surron",43,"surron",27100,17,KM
+/brands/talaria/,brand,indexed,"Oct 17, 2026",0,58,6,"cheapest talaria",44,"talaria",6600,26,competitor
+/brands/e-ride-pro/,brand,discovered-not-indexed,"",0,0,0,"",,"e ride pro",2900,8,KM
+/brands/79bike/,brand,indexed,"Oct 24, 2026",0,1,0,"",,"79 bike",1000,22,competitor
+/brands/specialized/,brand,indexed,"Oct 18, 2026",0,22,2,"specialized ebike",38,"specialized ebike",590,32,KM
+/brands/trek/,brand,discovered-not-indexed,"",0,0,0,"",,"trek e bike",1300,12,competitor
+/brands/giant/,brand,discovered-not-indexed,"",0,0,0,"",,"giant australia",0,,generated
+/brands/cannondale/,brand,indexed,"Oct 18, 2026",0,26,4,"cannondale",35,"cannondale ebike",170,15,competitor
+/brands/aventon/,brand,discovered-not-indexed,"",0,0,0,"",,"aventon ebike",880,22,competitor
+/brands/cube/,brand,discovered-not-indexed,"",0,0,0,"",,"cube electric bicycles",720,10,KM
+/brands/canyon/,brand,discovered-not-indexed,"",0,0,0,"",,"canyon electric bike",320,17,KM
+/brands/smartmotion/,brand,discovered-not-indexed,"",0,0,0,"",,"smart motion ebike",320,5,KM
+/brands/fatboy/,brand,discovered-not-indexed,"",0,0,0,"",,"fatboy bikes",8100,18,KM
+/brands/ncm/,brand,discovered-not-indexed,"",0,0,0,"",,"ncm",1000,30,competitor
+/brands/ampd-bros/,brand,discovered-not-indexed,"",0,0,0,"",,"ampd bros",3600,19,competitor
+/brands/cruzr/,brand,discovered-not-indexed,"",0,0,0,"",,"cruzee balance bike",3600,19,competitor
+/brands/seat-drip/,brand,discovered-not-indexed,"",0,0,0,"",,"seat drip australia",0,,generated
+/brands/dirodi/,brand,discovered-not-indexed,"",0,0,0,"",,"dirodi",9900,27,competitor
+/brands/flight-risk/,brand,discovered-not-indexed,"",0,0,0,"",,"flight risk ebike",2400,7,competitor
+/brands/mamba/,brand,discovered-not-indexed,"",0,0,0,"",,"mamba ebike",1000,8,KM
+/brands/azur/,brand,discovered-not-indexed,"",0,0,0,"",,"azur",480,10,competitor
+/brands/vamos/,brand,discovered-not-indexed,"",0,0,0,"",,"vamos bikes",480,15,competitor
+/brands/apollo/,brand,discovered-not-indexed,"",0,0,0,"",,"apollo bike",390,16,competitor
+/brands/kristall/,brand,discovered-not-indexed,"",0,0,0,"",,"kristall e bike",260,6,KM
+/brands/kalkhoff/,brand,discovered-not-indexed,"",0,0,0,"",,"kalkhoff e bike",480,6,KM
+/brands/merida/,brand,discovered-not-indexed,"",0,0,0,"",,"merida electric bicycle",880,11,KM
+/brands/reid/,brand,indexed,"Oct 16, 2026",0,20,2,"reid",58,"reid australia",0,,generated
+/shop/electric-dirt-bikes/sur-ron-light-bee-x/,product,discovered-not-indexed,"",0,0,0,"",,"surron light bee",4400,17,competitor
+/shop/electric-dirt-bikes/sur-ron-ultra-bee/,product,discovered-not-indexed,"",0,0,0,"",,"surron ultra bee for sale",70,5,competitor
+/shop/electric-dirt-bikes/sur-ron-storm-bee/,product,discovered-not-indexed,"",0,0,0,"",,"surron storm bee",880,15,competitor
+/shop/electric-dirt-bikes/talaria-sting-r-mx5-pro/,product,discovered-not-indexed,"",0,0,0,"",,"talaria sting australia price",20,1,KM
+/shop/electric-dirt-bikes/talaria-komodo/,product,discovered-not-indexed,"",0,0,0,"",,"komodo talaria price",20,6,KM
+/shop/electric-dirt-bikes/zero-xb/,product,discovered-not-indexed,"",0,0,0,"",,"zero xb price australia",0,,generated
+/shop/electric-dirt-bikes/zero-xe/,product,discovered-not-indexed,"",0,0,0,"",,"zero xe price australia",0,,generated
+/shop/electric-dirt-bikes/zero-fx/,product,discovered-not-indexed,"",0,0,0,"",,"zero fx price australia",0,,generated
+/shop/electric-dirt-bikes/stark-varg/,product,discovered-not-indexed,"",0,0,0,"",,"stark varg price australia",0,,generated
+/shop/electric-dirt-bikes/stark-varg-ex/,product,discovered-not-indexed,"",0,0,0,"",,"stark varg ex price australia",0,,generated
+/shop/electric-dirt-bikes/ktm-freeride-e-xc/,product,discovered-not-indexed,"",0,0,0,"",,"ktm freeride e-xc price australia",0,,generated
+/shop/electric-dirt-bikes/segway-xaber-300/,product,discovered-not-indexed,"",0,0,0,"",,"segway xaber 300 price australia",0,,generated
+/shop/electric-dirt-bikes/e-ride-pro-sr/,product,discovered-not-indexed,"",0,0,0,"",,"eride pro sr",590,9,competitor
+/shop/electric-dirt-bikes/e-ride-pro-ss-2-0/,product,discovered-not-indexed,"",0,0,0,"",,"eride pro ss 3.0",480,16,competitor
+/shop/electric-dirt-bikes/altis-sigma/,product,indexed,"Oct 20, 2026",0,71,1,"atlas sigma mx",44,"altis sigma price australia",0,,generated
+/shop/electric-dirt-bikes/bonnell-775-mx/,product,discovered-not-indexed,"",0,0,0,"",,"bonnell 775",170,15,competitor
+/shop/electric-dirt-bikes/ssr-sr-e8-pro/,product,discovered-not-indexed,"",0,0,0,"",,"ssr sr-e8 pro price australia",0,,generated
+/shop/electric-dirt-bikes/ssr-sr-e15-pro/,product,discovered-not-indexed,"",0,0,0,"",,"ssr sr-e15 pro price australia",0,,generated
+/shop/electric-dirt-bikes/79bike-falcon-pro/,product,indexed,"Oct 16, 2026",0,13,5,"79bike falcon pro electric dirt bike",34,"79bike falcon pro electric dirt bike",50,18,KM
+/shop/electric-dirt-bikes/happyrun-g300-pro/,product,discovered-not-indexed,"",0,0,0,"",,"happyrun g300 pro price australia",0,,generated
+/shop/electric-dirt-bikes/happyrun-suv-e-bike/,product,indexed,"Oct 18, 2026",0,11,0,"",,"happyrun suv e-bike price australia",0,,generated
+/shop/electric-dirt-bikes/electro-and-co-etm-rtr/,product,discovered-not-indexed,"",0,0,0,"",,"electro & co etm rtr price australia",0,,generated
+/shop/electric-dirt-bikes/rfn-warrior-pro/,product,discovered-not-indexed,"",0,0,0,"",,"rfn warrior",110,7,competitor
+/shop/electric-dirt-bikes/tork-base-model/,product,discovered-not-indexed,"",0,0,0,"",,"tork base model price australia",0,,generated
+/shop/electric-dirt-bikes/kayo-ec2i/,product,discovered-not-indexed,"",0,0,0,"",,"kayo ec2i price australia",0,,generated
+/shop/electric-dirt-bikes/husqvarna-ee-5/,product,discovered-not-indexed,"",0,0,0,"",,"husqvarna ee 5 price australia",0,,generated
+/shop/electric-dirt-bikes/emortal-rogue-mx-01/,product,discovered-not-indexed,"",0,0,0,"",,"emortal rogue mx-01 price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/razor-mx350/,product,discovered-not-indexed,"",0,0,0,"",,"razor mx350 price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/razor-mx400/,product,discovered-not-indexed,"",0,0,0,"",,"razor mx400 price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/razor-mx500/,product,discovered-not-indexed,"",0,0,0,"",,"razor mx500 price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/razor-mx650/,product,crawled-not-indexed,"Oct 24, 2026",0,0,0,"",,"razor mx650 price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/ktm-sx-e-5/,product,discovered-not-indexed,"",0,0,0,"",,"ktm sx-e 5 price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/gasgas-mc-e-5/,product,discovered-not-indexed,"",0,0,0,"",,"gasgas mc-e 5 price australia",0,,generated
+/shop/electric-mountain-bikes/specialized-turbo-levo-sl-comp-carbon/,product,indexed,"Oct 20, 2026",0,0,0,"",,"specialized turbo levo sl comp carbon price australia",0,,generated
+/shop/electric-mountain-bikes/specialized-turbo-levo-sl-expert-carbon/,product,discovered-not-indexed,"",0,0,0,"",,"specialized turbo levo sl expert carbon price australia",0,,generated
+/shop/electric-mountain-bikes/specialized-turbo-kenevo-sl-expert/,product,discovered-not-indexed,"",0,0,0,"",,"specialized turbo kenevo sl expert price australia",0,,generated
+/shop/electric-mountain-bikes/specialized-turbo-kenevo-expert/,product,discovered-not-indexed,"",0,0,0,"",,"specialized turbo kenevo expert price australia",0,,generated
+/shop/electric-mountain-bikes/trek-rail-7/,product,discovered-not-indexed,"",0,0,0,"",,"trek rail",480,16,competitor
+/shop/electric-mountain-bikes/trek-rail-9-8-xt/,product,discovered-not-indexed,"",0,0,0,"",,"trek rail 9.8 xt price australia",0,,generated
+/shop/electric-mountain-bikes/trek-rail-9-9-xtr/,product,indexed,"Oct 24, 2026",0,2,0,"",,"trek rail 9.9 xtr price australia",0,,generated
+/shop/electric-mountain-bikes/giant-trance-x-e-1-pro/,product,discovered-not-indexed,"",0,0,0,"",,"giant trance x e+ 1 pro price australia",0,,generated
+/shop/electric-mountain-bikes/giant-trance-x-e-elite/,product,crawled-not-indexed,"Oct 24, 2026",0,0,0,"",,"giant trance x e+ elite price australia",0,,generated
+/shop/electric-mountain-bikes/giant-reign-e-pro/,product,discovered-not-indexed,"",0,0,0,"",,"giant reign e+ pro price australia",0,,generated
+/shop/electric-mountain-bikes/giant-fathom-e-1-pro/,product,discovered-not-indexed,"",0,0,0,"",,"giant fathom e+ 1 pro price australia",0,,generated
+/shop/electric-mountain-bikes/cannondale-moterra-neo-carbon-1/,product,discovered-not-indexed,"",0,0,0,"",,"cannondale moterra neo carbon 1 price australia",0,,generated
+/shop/electric-mountain-bikes/cannondale-moterra-neo-carbon-2/,product,discovered-not-indexed,"",0,2,0,"",,"cannondale moterra neo carbon 2 price australia",0,,generated
+/shop/electric-mountain-bikes/cannondale-moterra-neo-3/,product,discovered-not-indexed,"",0,0,0,"",,"cannondale moterra neo 3 price australia",0,,generated
+/shop/electric-mountain-bikes/santa-cruz-heckler-sl-cc-x0-axs/,product,discovered-not-indexed,"",0,0,0,"",,"santa cruz heckler sl cc x0 axs price australia",0,,generated
+/shop/electric-mountain-bikes/santa-cruz-heckler-sl-c-gx-axs/,product,discovered-not-indexed,"",0,0,0,"",,"santa cruz heckler sl c gx axs price australia",0,,generated
+/shop/electric-mountain-bikes/santa-cruz-bullit-cc-x0-axs/,product,discovered-not-indexed,"",0,0,0,"",,"santa cruz bullit cc x0 axs price australia",0,,generated
+/shop/electric-mountain-bikes/yeti-160e-t2/,product,discovered-not-indexed,"",0,0,0,"",,"yeti 160e t2 price australia",0,,generated
+/shop/electric-mountain-bikes/scott-patron-eride-900-tuned/,product,discovered-not-indexed,"",0,0,0,"",,"scott patron eride 900 tuned price australia",0,,generated
+/shop/electric-mountain-bikes/pivot-shuttle-lt-team-xtr/,product,indexed,"Oct 24, 2026",0,2,0,"",,"pivot shuttle lt team xtr price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-4-0/,product,indexed,"Oct 18, 2026",0,4,0,"",,"specialized turbo vado sl 4.0 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-5-0/,product,discovered-not-indexed,"",0,2,0,"",,"specialized turbo vado sl 5.0 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-4-0/,product,discovered-not-indexed,"",0,0,0,"",,"specialized turbo como sl 4.0 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-5-0/,product,discovered-not-indexed,"",0,0,0,"",,"specialized turbo como sl 5.0 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/trek-domane-lt-9/,product,discovered-not-indexed,"",0,0,0,"",,"trek domane+ lt 9 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/trek-domane-hp/,product,crawled-not-indexed,"Oct 24, 2026",0,0,0,"",,"trek bicycle domane",480,10,KM
+/shop/commuter-and-urban-e-bikes/trek-fx-2/,product,discovered-not-indexed,"",0,0,0,"",,"trek fx",480,19,competitor
+/shop/commuter-and-urban-e-bikes/trek-allant-7/,product,discovered-not-indexed,"",0,0,0,"",,"trek allant 7",40,17,semrush-2026-10-18
+/shop/commuter-and-urban-e-bikes/aventon-pace-500-3/,product,discovered-not-indexed,"",0,0,0,"",,"aventon pace 500.3",30,18,KM
+/shop/commuter-and-urban-e-bikes/aventon-pace-500-3-step-through/,product,indexed,"Oct 18, 2026",0,1,1,"aventon pace 500.3 electric bike",57,"aventon pace 500.3 step-through price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/aventon-level-3/,product,discovered-not-indexed,"",0,0,0,"",,"aventon level 3 e-bike",40,21,semrush-2026-10-18
+/shop/commuter-and-urban-e-bikes/aventon-aventure-2/,product,indexed,"Oct 18, 2026",0,11,0,"",,"aventon aventure.2",70,18,competitor
+/shop/commuter-and-urban-e-bikes/aventon-soltera-2/,product,discovered-not-indexed,"",0,0,0,"",,"aventon soltera 2 electric bike",40,22,semrush-2026-10-18
+/shop/commuter-and-urban-e-bikes/aventon-sinch-2-folding/,product,discovered-not-indexed,"",0,0,0,"",,"aventon sinch 2.5",50,15,competitor
+/shop/commuter-and-urban-e-bikes/segway-myon/,product,discovered-not-indexed,"",0,0,0,"",,"segway myon price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/segway-muxi/,product,discovered-not-indexed,"",0,0,0,"",,"segway muxi",30,20,semrush-2026-10-18
+/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-expert-evo/,product,discovered-not-indexed,"",0,0,0,"",,"specialized turbo creo sl expert evo price australia",0,,generated
+/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-comp-carbon/,product,discovered-not-indexed,"",0,0,0,"",,"specialized turbo creo sl comp carbon price australia",0,,generated
+/shop/road-and-gravel-e-bikes/trek-domane-alr-5/,product,discovered-not-indexed,"",0,0,0,"",,"trek domane+ alr 5 price australia",0,,generated
+/shop/road-and-gravel-e-bikes/trek-checkpoint-sl-5/,product,discovered-not-indexed,"",0,0,0,"",,"trek checkpoint",1300,17,competitor
+/shop/road-and-gravel-e-bikes/cannondale-topstone-neo-carbon-1/,product,crawled-not-indexed,"Oct 24, 2026",0,1,0,"",,"cannondale topstone neo carbon 1 price australia",0,,generated
+/shop/road-and-gravel-e-bikes/cannondale-topstone-neo-carbon-3/,product,discovered-not-indexed,"",0,0,0,"",,"cannondale topstone neo carbon 3 price australia",0,,generated
+/shop/road-and-gravel-e-bikes/giant-revolt-e-pro/,product,discovered-not-indexed,"",0,0,0,"",,"giant revolt e+ pro price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-2-fat-tire/,product,discovered-not-indexed,"",0,0,0,"",,"aventon aventure.2 fat tire price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/emortal-rogue-mx-01-fat-tire/,product,discovered-not-indexed,"",0,0,0,"",,"emortal rogue mx-01 fat tire price australia",0,,generated
+/shop/kids-and-youth-e-bikes/woom-up-5/,product,discovered-not-indexed,"",0,0,0,"",,"woom up 5 price australia",0,,generated
+/shop/kids-and-youth-e-bikes/woom-up-6/,product,discovered-not-indexed,"",0,0,0,"",,"woom up 6 price australia",0,,generated
+/shop/electric-mountain-bikes/mondraker-crafty-carbon/,product,discovered-not-indexed,"",0,0,0,"",,"mondraker crafty carbon price australia",0,,generated
+/shop/electric-mountain-bikes/cube-stereo-hybrid-160/,product,discovered-not-indexed,"",0,0,0,"",,"cube stereo",170,12,competitor
+/shop/electric-dirt-bikes/arctic-leopard-xe-pro/,product,discovered-not-indexed,"",0,11,0,"",,"arctic leopard xe pro s",390,6,competitor
+/shop/kids-electric-dirt-and-balance-bikes/tott-e1022-kids-electric-trial-bike/,product,discovered-not-indexed,"",0,0,0,"",,"tott e1022 kids electric trial bike price australia",0,,generated
+/shop/electric-mountain-bikes/husqvarna-mountain-cross-mc5/,product,discovered-not-indexed,"",0,1,0,"",,"husqvarna mountain cross mc5 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/husqvarna-eco-city/,product,indexed,"Oct 18, 2026",0,3,0,"",,"husqvarna eco city price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/canyon-citylite-on/,product,discovered-not-indexed,"",0,0,0,"",,"canyon citylite:on price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/canyon-grand-canyon-on/,product,discovered-not-indexed,"",0,0,0,"",,"canyon grand canyon:on price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/canyon-pathlite-on/,product,discovered-not-indexed,"",0,0,0,"",,"canyon pathlite:on price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/canyon-torque-on/,product,discovered-not-indexed,"",0,0,0,"",,"canyon torque on",40,17,semrush-2026-10-18
+/shop/commuter-and-urban-e-bikes/canyon-strive-on/,product,discovered-not-indexed,"",0,2,0,"",,"canyon strive:on price australia",0,,generated
+/shop/folding-e-bikes/smartmotion-folding-step-through-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"smartmotion folding step-through e-bike price australia",0,,generated
+/shop/folding-e-bikes/folding-step-through-e-bike-white/,product,indexed,"Oct 23, 2026",0,15,1,"e bike step through",71,"folding step-through e-bike white price australia",0,,generated
+/shop/folding-e-bikes/folding-step-through-e-bike-navy/,product,discovered-not-indexed,"",0,0,0,"",,"folding step-through e-bike navy price australia",0,,generated
+/shop/seats-fenders-and-body/79bike-seat/,product,crawled-not-indexed,"Oct 24, 2026",0,0,0,"",,"79bike seat price australia",0,,generated
+/shop/folding-e-bikes/foo-f1-folding-e-bike/,product,indexed,"Oct 24, 2026",0,5,0,"",,"foo f1 folding e-bike price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/fatboy-scrambler-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy scrambler",4400,17,competitor
+/shop/commuter-and-urban-e-bikes/smartmotion-city-step-through-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"smart motion e city e bike",20,11,KM
+/shop/folding-e-bikes/ncm-paris-folding-e-bike/,product,indexed,"Oct 24, 2026",0,0,0,"",,"ncm paris",110,6,competitor
+/shop/commuter-and-urban-e-bikes/smartmotion-citi-step-through-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"smartmotion citi step-through e-bike price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/electric-folding-trike-blue/,product,discovered-not-indexed,"",0,0,0,"",,"electric folding trike blue price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/electric-step-through-trike-grey/,product,discovered-not-indexed,"",0,0,0,"",,"electric step-through trike grey price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/ncm-milano-step-through-trekking-e-bike/,product,indexed,"Oct 18, 2026",0,10,0,"",,"ncm milano",210,13,competitor
+/shop/folding-e-bikes/et-cycle-f1000/,product,discovered-not-indexed,"",0,0,0,"",,"et cycle f1000",140,10,competitor
+/shop/commuter-and-urban-e-bikes/ncm-t3s/,product,discovered-not-indexed,"",0,0,0,"",,"ncm t3s",210,14,competitor
+/shop/electric-mountain-bikes/ncm-m3/,product,discovered-not-indexed,"",0,0,0,"",,"ncm m3",110,6,competitor
+/shop/commuter-and-urban-e-bikes/ncm-t7s-step-thru-trekking-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"ncm t7s",110,13,competitor
+/shop/fat-tyre-and-scrambler-e-bikes/fat-bandit-step-over/,product,discovered-not-indexed,"",0,0,0,"",,"fat bandit step over price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/ace-pro-electric-bike/,product,discovered-not-indexed,"",0,0,0,"",,"ampd bros ace-x pro",140,8,competitor
+/shop/fat-tyre-and-scrambler-e-bikes/riptide-3-electric-bike/,product,discovered-not-indexed,"",0,0,0,"",,"riptide 3 electric bike price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/fatboy-bagus-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy bagus",1300,19,competitor
+/shop/folding-e-bikes/et-cycle-f720-foldable-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"et cycle f720",90,6,competitor
+/shop/fat-tyre-and-scrambler-e-bikes/cruzr-stoke-electric-bike/,product,discovered-not-indexed,"",0,0,0,"",,"cruzr stoke",320,6,KM
+/shop/wheels-tyres-and-tubes/79bike-tyre/,product,discovered-not-indexed,"",0,0,0,"",,"79bike tyre price australia",0,,generated
+/shop/electric-dirt-bikes/bonnell-805/,product,discovered-not-indexed,"",0,2,0,"",,"bonnell 805",70,7,competitor
+/shop/folding-e-bikes/dyu-a5-smart-electric-bike/,product,discovered-not-indexed,"",0,0,0,"",,"dyu a5 smart electric bike price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/bolzzen-bandit/,product,discovered-not-indexed,"",0,0,0,"",,"bolzzen bandit e bike",50,4,competitor
+/shop/racks-bags-and-trailers/pacific-bike-trailer/,product,discovered-not-indexed,"",0,0,0,"",,"buy pacific bike trailer",0,,generated
+/shop/racks-bags-and-trailers/blastoff-bike-cover/,product,discovered-not-indexed,"",0,0,0,"",,"blastoff bike cover price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/electric-trike-various/,product,discovered-not-indexed,"",0,0,0,"",,"electric trike various price australia",0,,generated
+/shop/seats-fenders-and-body/seat-drip-seat-cover-bubblegum-checkered/,product,discovered-not-indexed,"",0,0,0,"",,"seat drip seat cover - bubblegum checkered price australia",0,,generated
+/shop/seats-fenders-and-body/seat-drip-seat-cover-camo-stealth/,product,discovered-not-indexed,"",0,0,0,"",,"seat drip seat cover - camo stealth price australia",0,,generated
+/shop/seats-fenders-and-body/seat-drip-seat-cover-comic-blast/,product,discovered-not-indexed,"",0,0,0,"",,"seat drip seat cover - comic blast price australia",0,,generated
+/shop/seats-fenders-and-body/seat-drip-seat-cover-diamond-aqua/,product,discovered-not-indexed,"",0,0,0,"",,"seat drip seat cover - diamond aqua price australia",0,,generated
+/shop/seats-fenders-and-body/seat-drip-seat-cover-manga-rush/,product,discovered-not-indexed,"",0,0,0,"",,"seat drip seat cover - manga rush price australia",0,,generated
+/shop/wheels-tyres-and-tubes/fat-bike-wheel/,product,discovered-not-indexed,"",0,0,0,"",,"fat bike wheel price australia",0,,generated
+/shop/folding-e-bikes/pedal-derby-electric-folding-bike/,product,discovered-not-indexed,"",0,0,0,"",,"pedal derby electric folding bike",110,10,competitor
+/shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-2-step-through-electric-bike/,product,discovered-not-indexed,"",0,0,0,"",,"aventon aventure.2 step through electric bike price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/,product,discovered-not-indexed,"",0,0,0,"",,"dyu c6 electric bike",50,15,competitor
+/shop/cargo-bikes-and-e-trikes/tebco-transporter/,product,discovered-not-indexed,"",0,0,0,"",,"tebco transporter price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/cruzr-swell-electric-bike/,product,crawled-not-indexed,"Oct 24, 2026",0,0,0,"",,"cruzr swell electric bike price australia",0,,generated
+/shop/electric-dirt-bikes/srpnt-z27/,product,discovered-not-indexed,"",0,0,0,"",,"srpnt z27 price australia",0,,generated
+/shop/electric-dirt-bikes/srpnt-x8/,product,discovered-not-indexed,"",0,0,0,"",,"srpnt x8",10,14,semrush-2026-10-18
+/shop/electric-dirt-bikes/79bike-lynx-electric-dirt-bike/,product,discovered-not-indexed,"",0,0,0,"",,"79bike lynx electric dirt bike price australia",0,,generated
+/shop/motors-drivetrain-and-sprockets/79bike-drive-chain/,product,discovered-not-indexed,"",0,0,0,"",,"79bike drive chain price australia",0,,generated
+/shop/motors-drivetrain-and-sprockets/79bike-rear-sprocket/,product,discovered-not-indexed,"",0,0,0,"",,"79bike rear sprocket price australia",0,,generated
+/shop/phone-mounts-mirrors-and-audio/79bike-phone-handlebar-mount/,product,discovered-not-indexed,"",0,0,0,"",,"79bike phone handlebar mount price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/gobike-12-ebike-for-kids/,product,discovered-not-indexed,"",0,0,0,"",,"gobike 12 ebike for kids price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/gobike-16-electric-bike-for-kids/,product,discovered-not-indexed,"",0,0,0,"",,"go bike 16",70,4,competitor
+/shop/kids-electric-dirt-and-balance-bikes/gobike-24-electric-bike-for-teens/,product,discovered-not-indexed,"",0,0,0,"",,"gobike 24 electric bike for teens price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/smartmotion-all-terrain-step-through-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"smartmotion all-terrain step-through e-bike price australia",0,,generated
+/shop/batteries-chargers-and-electronics/e-bike-charger-au-plug/,product,indexed,"Oct 24, 2026",0,3,0,"",,"e-bike charger au plug price australia",0,,generated
+/shop/electric-mountain-bikes/hardtail-e-mtb-black/,product,discovered-not-indexed,"",0,0,0,"",,"hardtail e-mtb black price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/electric-folding-trike-red-with-backrest/,product,discovered-not-indexed,"",0,0,0,"",,"electric folding trike red with backrest price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/electric-trike-green-with-seat/,product,discovered-not-indexed,"",0,0,0,"",,"electric trike green with seat price australia",0,,generated
+/shop/folding-e-bikes/ncm-folding-fat-tyre-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"ncm folding fat-tyre e-bike price australia",0,,generated
+/shop/controls-grips-and-pedals/display-colour-lcd/,product,discovered-not-indexed,"",0,0,0,"",,"display colour lcd price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-dna-v3/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy v3",390,15,competitor
+/shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-harlem-v3/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy harlem",720,20,competitor
+/shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-bagus-v3/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy the bagus v3 price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/ncm-cg7-cargo/,product,discovered-not-indexed,"",0,0,0,"",,"ncm cg7 cargo price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/cruzr-barrel-2027/,product,discovered-not-indexed,"",0,0,0,"",,"cruzr barrel",720,8,KM
+/shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-scrambler-v3/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy scrambler v3",1000,13,competitor
+/shop/fat-tyre-and-scrambler-e-bikes/stubbie-s-s3-electric-bike/,product,discovered-not-indexed,"",0,0,0,"",,"stubbie-s s3 electric bike price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/dirodi-rover-gen6/,product,discovered-not-indexed,"",0,0,0,"",,"dirodi rover gen6 price australia",0,,generated
+/shop/helmets-gloves-and-protection/79bike-protective-armour/,product,discovered-not-indexed,"",0,0,0,"",,"79bike protective armour price australia",0,,generated
+/shop/wheels-tyres-and-tubes/79bike-inner-tube/,product,discovered-not-indexed,"",0,0,0,"",,"79bike inner tube price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/dirodi-rover-pro/,product,discovered-not-indexed,"",0,0,0,"",,"dirodi rover pro",880,16,competitor
+/shop/phone-mounts-mirrors-and-audio/79bike-rearview-mirror/,product,discovered-not-indexed,"",0,0,0,"",,"79bike rearview mirror price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/cruzr-trigger-gen3/,product,discovered-not-indexed,"",0,0,0,"",,"cruzr trigger",110,8,KM
+/shop/kids-and-youth-e-bikes/cruzr-grom-gen2/,product,discovered-not-indexed,"",0,0,0,"",,"cruzer grom",320,8,competitor
+/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr505/,product,discovered-not-indexed,"",0,0,0,"",,"flight risk fr505",90,15,competitor
+/shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-scrambler-v2-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"fat boy scrambler v2",110,17,competitor
+/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr888/,product,indexed,"Oct 23, 2026",0,0,0,"",,"flight risk fr888 price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-bagus-v2-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy bagus v2",390,21,competitor
+/shop/fat-tyre-and-scrambler-e-bikes/fatboy-harlem-v2-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy v2",110,23,competitor
+/shop/kids-electric-dirt-and-balance-bikes/e-ride-pro-mini/,product,discovered-not-indexed,"",0,0,0,"",,"e ride pro mini price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/dhz-2200e-electric-dirt-bike/,product,discovered-not-indexed,"",0,0,0,"",,"dhz 2200e",390,10,competitor
+/shop/care-tools-and-hydration/krush-rotor-revive/,product,indexed,"Oct 23, 2026",0,0,0,"",,"krush rotor revive price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/azonic-flow-16/,product,discovered-not-indexed,"",0,0,0,"",,"azonic flow 16 price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/azonic-flow-20/,product,discovered-not-indexed,"",0,0,0,"",,"azonic flow 20 price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/azonic-pure-12/,product,discovered-not-indexed,"",0,0,0,"",,"azonic pure 12",20,2,semrush-2026-10-18
+/shop/electric-mountain-bikes/mamba-antidote-trekking-commuter-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"mamba antidote",50,3,competitor
+/shop/fat-tyre-and-scrambler-e-bikes/fat-scrambler-e-bike-cream/,product,indexed,"Oct 19, 2026",0,6,0,"",,"fat scrambler e-bike cream price australia",0,,generated
+/shop/electric-dirt-bikes/rerode-r1-electric-dirt-bike/,product,discovered-not-indexed,"",0,0,0,"",,"rerode r1 electric dirt bike price australia",0,,generated
+/shop/helmets-gloves-and-protection/abus-macator-helmet/,product,crawled-not-indexed,"Oct 24, 2026",0,0,0,"",,"abus helmet",480,20,competitor
+/shop/locks-and-security/onguard-chain-lock/,product,discovered-not-indexed,"",0,0,0,"",,"buy onguard chain lock",0,,generated
+/shop/locks-and-security/multitag-mount-and-airtag/,product,discovered-not-indexed,"",0,0,0,"",,"multitag mount & airtag price australia",0,,generated
+/shop/lights-and-horns/azur-performance-halo/,product,discovered-not-indexed,"",0,0,0,"",,"azur performance halo price australia",0,,generated
+/shop/folding-e-bikes/vamos-doblez-folding-e-bike-2025/,product,indexed,"Oct 19, 2026",0,0,0,"",,"vamos doblez folding e-bike 2025 price australia",0,,generated
+/shop/controls-grips-and-pedals/azur-clutch-pedal/,product,discovered-not-indexed,"",0,0,0,"",,"azur clutch pedal price australia",0,,generated
+/shop/controls-grips-and-pedals/flat-pedals-orange/,product,discovered-not-indexed,"",0,0,0,"",,"crankbrothers pedals",210,18,competitor
+/shop/racks-bags-and-trailers/fatboy-longboard-bike-rack/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy longboard bike rack price australia",0,,generated
+/shop/racks-bags-and-trailers/beach-deluxe-bike-trailer/,product,discovered-not-indexed,"",0,0,0,"",,"beach deluxe bike trailer price australia",0,,generated
+/shop/racks-bags-and-trailers/cargo-deluxe-bike-trailer/,product,discovered-not-indexed,"",0,0,0,"",,"cargo deluxe bike trailer price australia",0,,generated
+/shop/suspension-and-forks/fatboy-suspension-rear-scrambler/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy suspension rear scrambler price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/ampd-bros-taipan-electric-bike/,product,discovered-not-indexed,"",0,0,0,"",,"ampd bros taipan electric bike price australia",0,,generated
+/shop/care-tools-and-hydration/pilot-water-bottle/,product,discovered-not-indexed,"",0,0,0,"",,"pilot water bottle price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr777/,product,discovered-not-indexed,"",0,0,0,"",,"buy flight risk fr777",0,,generated
+/shop/folding-e-bikes/moov8-x-electric-bike-22x/,product,discovered-not-indexed,"",0,0,0,"",,"moov8 x electric bike 22x price australia",0,,generated
+/shop/electric-mountain-bikes/amflow-px-carbon/,product,discovered-not-indexed,"",0,0,0,"",,"amflow px",210,17,competitor
+/shop/cargo-bikes-and-e-trikes/eunorau-g30-cargo-electric-bike/,product,discovered-not-indexed,"",0,0,0,"",,"eunorau g30 cargo electric bike price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/talaria-junior-12/,product,discovered-not-indexed,"",0,0,0,"",,"talaria junior 12 price australia",0,,generated
+/shop/electric-dirt-bikes/etm-rtr-lite/,product,discovered-not-indexed,"",0,0,0,"",,"rtr lite",1300,7,competitor
+/shop/kids-electric-dirt-and-balance-bikes/sherco-eb12-kids-electric-balance-bike/,product,discovered-not-indexed,"",0,0,0,"",,"sherco balance bike",110,6,competitor
+/shop/kids-electric-dirt-and-balance-bikes/rxf-dna-16-balance-bike/,product,discovered-not-indexed,"",0,0,0,"",,"rxf dna 16 balance bike price australia",0,,generated
+/shop/electric-dirt-bikes/79bike-viper-s-electric-dirt-bike/,product,discovered-not-indexed,"",0,0,0,"",,"79bike viper s electric dirt bike price australia",0,,generated
+/shop/motors-drivetrain-and-sprockets/79bike-falcon-pro-motor/,product,discovered-not-indexed,"",0,0,0,"",,"79bike falcon pro motor price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/gobike-20-electric-bike-for-kids-and-teens/,product,discovered-not-indexed,"",0,0,0,"",,"gobike 20 electric bike for kids & teens price australia",0,,generated
+/shop/electric-dirt-bikes/sur-ron-hyper-bee-2026/,product,discovered-not-indexed,"",0,0,0,"",,"surron hyper bee",1900,8,competitor
+/shop/electric-dirt-bikes/etm-rtr-sport-2026/,product,discovered-not-indexed,"",0,0,0,"",,"rtr sport",110,6,competitor
+/shop/kids-electric-dirt-and-balance-bikes/azonic-pure-16-balance-bike/,product,discovered-not-indexed,"",0,0,0,"",,"azonic pure 16 balance bike price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/et-cycle-t1000-fat-tyre-step-through-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"et cycle t1000",50,6,competitor
+/shop/commuter-and-urban-e-bikes/retro-step-through-city-e-bike-brown-tyres/,product,discovered-not-indexed,"",0,0,0,"",,"retro step-through city e-bike brown tyres price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/smartmotion-pacer-mid-drive-step-through-e-bike/,product,indexed,"Oct 21, 2026",0,0,0,"",,"smartmotion pacer mid-drive step-through e-bike price australia",0,,generated
+/shop/electric-mountain-bikes/smartmotion-pacer-hardtail-e-mtb/,product,discovered-not-indexed,"",0,0,0,"",,"smartmotion pacer hardtail e-mtb price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/max-cargo-folding-cargo-e-bike-white/,product,discovered-not-indexed,"",0,0,0,"",,"max-cargo folding cargo e-bike white price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/max-cargo-folding-cargo-e-bike-green/,product,discovered-not-indexed,"",0,0,0,"",,"max-cargo folding cargo e-bike green price australia",0,,generated
+/shop/electric-mountain-bikes/trail-step-over-e-mtb-black-tbc/,product,discovered-not-indexed,"",0,0,0,"",,"trail step-over e-mtb black tbc price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/max-cargo-folding-cargo-e-bike-orange/,product,discovered-not-indexed,"",0,0,0,"",,"max-cargo folding cargo e-bike orange price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/fat-tyre-scrambler-e-bike-blue/,product,indexed,"Oct 23, 2026",0,1,0,"",,"fat-tyre scrambler e-bike blue price australia",0,,generated
+/shop/electric-mountain-bikes/full-suspension-e-mtb-silver/,product,discovered-not-indexed,"",0,0,0,"",,"full-suspension e-mtb silver price australia",0,,generated
+/shop/electric-mountain-bikes/ncm-moscow-plus-e-mtb/,product,indexed,"Oct 17, 2026",0,41,0,"",,"ncm moscow plus e-mtb price australia",0,,generated
+/shop/electric-dirt-bikes/talaria-komodo-2026-edition/,product,discovered-not-indexed,"",0,0,0,"",,"talaria komodo 2026 edition price australia",0,,generated
+/shop/electric-dirt-bikes/electric-dirt-bike-black-brand-tbc/,product,discovered-not-indexed,"",0,0,0,"",,"electric dirt bike black brand tbc price australia",0,,generated
+/shop/helmets-gloves-and-protection/79bike-off-road-goggles/,product,discovered-not-indexed,"",0,0,0,"",,"79bike off-road goggles price australia",0,,generated
+/shop/kids-and-youth-e-bikes/ace-s-19-youth-electric-bike/,product,discovered-not-indexed,"",0,0,0,"",,"ace-s 19 youth electric bike price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/electric-trike-blue-cargo-basket/,product,discovered-not-indexed,"",0,0,0,"",,"electric trike blue cargo basket price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/lpr-12-v4-kids-electric-bike/,product,discovered-not-indexed,"",0,0,0,"",,"lpr 12 v4 kids electric bike price australia",0,,generated
+/shop/batteries-chargers-and-electronics/sur-ron-60v-10a-charger/,product,discovered-not-indexed,"",0,0,0,"",,"surron 60v charger",20,1,KM
+/shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/,product,indexed,"Oct 18, 2026",0,2,0,"",,"dyu d3+ smart electric bike black price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/mamba-savannah-26-step-through-commuter/,product,discovered-not-indexed,"",0,0,0,"",,"mamba savannah ebike",50,1,KM
+/shop/phone-mounts-mirrors-and-audio/mirror-orbit-anti-glare/,product,discovered-not-indexed,"",0,0,0,"",,"mirror orbit anti glare price australia",0,,generated
+/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/,product,indexed,"Oct 18, 2026",0,0,0,"",,"krush ultra drivetrain degreaser price australia",0,,generated
+/shop/electric-mountain-bikes/mamba-venom-all-rounder-e-bike/,product,indexed,"Oct 20, 2026",0,1,0,"",,"mamba venom ebike",210,5,KM
+/shop/electric-mountain-bikes/full-suspension-e-bike-black-tbc/,product,indexed,"Oct 19, 2026",0,9,0,"",,"full-suspension e-bike black tbc price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/cannondale-compact-neo-os/,product,discovered-not-indexed,"",0,0,0,"",,"cannondale compact neo",50,18,competitor
+/shop/racks-bags-and-trailers/azur-cargo-bike-double-pannier/,product,discovered-not-indexed,"",0,0,0,"",,"azur panniers",20,6,KM
+/shop/commuter-and-urban-e-bikes/lagads-jaguar-ebike-dual-suspension/,product,discovered-not-indexed,"",0,0,0,"",,"lagads jaguar ebike dual suspension price australia",0,,generated
+/shop/racks-bags-and-trailers/bang-bang-crate-basket/,product,indexed,"Oct 20, 2026",0,1,0,"",,"bang bang crate basket price australia",0,,generated
+/shop/helmets-gloves-and-protection/100-itrack-gloves-bandana/,product,discovered-not-indexed,"",0,0,0,"",,"100% itrack gloves bandana price australia",0,,generated
+/shop/helmets-gloves-and-protection/hidrop-helmet-midnight-blue/,product,discovered-not-indexed,"",0,0,0,"",,"hidrop helmet midnight blue price australia",0,,generated
+/shop/helmets-gloves-and-protection/hidrop-helmet-shiny-black/,product,discovered-not-indexed,"",0,0,0,"",,"hidrop helmet shiny black price australia",0,,generated
+/shop/locks-and-security/mastiff-chain-lock-keyed/,product,discovered-not-indexed,"",0,0,0,"",,"mastiff chain-lock keyed price australia",0,,generated
+/shop/lights-and-horns/blinder-1300-front-bike-light/,product,discovered-not-indexed,"",0,0,0,"",,"blinder 1300 front bike light price australia",0,,generated
+/shop/lights-and-horns/fatboy-headlight-v1-scrambler-harlem/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy headlight v1 scrambler / harlem price australia",0,,generated
+/shop/racks-bags-and-trailers/fatboy-cargo-rack-rear-v3/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy cargo rack rear v3 price australia",0,,generated
+/shop/seats-fenders-and-body/kids-joey-seat-kit/,product,discovered-not-indexed,"",0,0,0,"",,"kids joey seat kit price australia",0,,generated
+/shop/phone-mounts-mirrors-and-audio/shokz-openrun-pro-2/,product,discovered-not-indexed,"",0,0,0,"",,"shokz openrun",4400,27,competitor
+/shop/seats-fenders-and-body/bang-bang-cruiser-set/,product,discovered-not-indexed,"",0,0,0,"",,"bang bang cruiser set price australia",0,,generated
+/shop/care-tools-and-hydration/summit-h20-water-bottle/,product,discovered-not-indexed,"",0,0,0,"",,"summit h20 water bottle price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/aventon-abound-sr-electric-cargo-bike/,product,discovered-not-indexed,"",0,0,0,"",,"aventon abound sr electric cargo bike price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/cannondale-cargowagen-neo-bosch-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"cannondale cargowagen neo bosch e-bike price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/kristall-ex400-e-trike/,product,discovered-not-indexed,"",0,0,0,"",,"kristall ex400 e-trike price australia",0,,generated
+/shop/kids-and-youth-e-bikes/ampd-bros-evo-racing-electric-bike/,product,indexed,"Oct 24, 2026",0,1,0,"",,"ampd bros evo racing electric bike price australia",0,,generated
+/shop/kids-and-youth-e-bikes/velectrix-hurricane-24-kids-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"velectrix hurricane 24 kids e-bike price australia",0,,generated
+/shop/electric-dirt-bikes/strike-shadow-60v-5kw/,product,discovered-not-indexed,"",0,0,0,"",,"strike shadow 60v",110,12,competitor
+/shop/electric-dirt-bikes/e-ride-pro-ss-3-0/,product,discovered-not-indexed,"",0,0,0,"",,"e ride pro ss 3.0 australia",70,6,semrush-2026-10-18
+/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/,product,discovered-not-indexed,"",0,0,0,"",,"torque 1000w e-bike conversion combo price australia",0,,generated
+/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/,product,discovered-not-indexed,"",0,0,0,"",,"torque mtx motor & rim price australia",0,,generated
+/shop/helmets-gloves-and-protection/havoc-infinity-mx-helmet/,product,discovered-not-indexed,"",0,0,0,"",,"havoc infinity mx helmet price australia",0,,generated
+/shop/electric-dirt-bikes/strike-shadow-72v-7kw/,product,discovered-not-indexed,"",0,0,0,"",,"strike shadow 72v/7kw price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/strike-shadow-48v-3kw/,product,discovered-not-indexed,"",0,0,0,"",,"strike shadow 48v/3kw price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/apollo-rxf-dna-12-balance-bike/,product,discovered-not-indexed,"",0,0,0,"",,"apollo rxf dna 12 balance bike price australia",0,,generated
+/shop/brakes/rxf-freeride-clutch-lever-and-perch/,product,discovered-not-indexed,"",0,0,0,"",,"rxf freeride clutch lever & perch price australia",0,,generated
+/shop/motors-drivetrain-and-sprockets/bonnell-775-mx-custom-sprockets/,product,discovered-not-indexed,"",0,0,0,"",,"bonnell 775 mx custom sprockets price australia",0,,generated
+/shop/batteries-chargers-and-electronics/bonnell-775-mx-a65-battery/,product,discovered-not-indexed,"",0,0,0,"",,"bonnell 775 mx a65 battery price australia",0,,generated
+/shop/suspension-and-forks/apollo-thunder-110cc-rear-shock/,product,indexed,"Oct 24, 2026",0,0,0,"",,"apollo thunder 110cc rear shock price australia",0,,generated
+/shop/kids-and-youth-e-bikes/youth-fat-tyre-full-suspension-e-bike/,product,discovered-not-indexed,"",0,6,0,"",,"youth fat-tyre full-suspension e-bike price australia",0,,generated
+/shop/electric-mountain-bikes/full-suspension-fat-e-mtb-blue/,product,discovered-not-indexed,"",0,0,0,"",,"full-suspension fat e-mtb blue price australia",0,,generated
+/shop/controls-grips-and-pedals/ampd-bros-twist-throttle-kit/,product,discovered-not-indexed,"",0,0,0,"",,"ampd bros twist throttle kit price australia",0,,generated
+/shop/controls-grips-and-pedals/ampd-bros-thumb-throttle-kit/,product,discovered-not-indexed,"",0,0,0,"",,"ampd bros thumb throttle kit price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/ace-x-demon-s5-dual-electric-bike/,product,discovered-not-indexed,"",0,0,0,"",,"ace-x demon s5 dual electric bike price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/dirodi-rover-plus-gen-6-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"buy dirodi rover plus gen 6 e-bike",0,,generated
+/shop/electric-dirt-bikes/talaria-sting-pro-mx5-tl5500/,product,discovered-not-indexed,"",0,0,0,"",,"talaria sting pro mx5 tl5500 price australia",0,,generated
+/shop/electric-mountain-bikes/full-suspension-e-mtb-grey-tbc/,product,indexed,"Oct 21, 2026",0,1,0,"",,"full-suspension e-mtb grey tbc price australia",0,,generated
+/shop/electric-dirt-bikes/sur-ron-light-bee-2-2026/,product,discovered-not-indexed,"",0,0,0,"",,"sur-ron light bee 2 2026 price australia",0,,generated
+/shop/controls-grips-and-pedals/79bike-viper-s-replacement-display/,product,discovered-not-indexed,"",0,0,0,"",,"79bike viper s replacement display price australia",0,,generated
+/shop/brakes/79-bike-falcon-pro-brake-pads/,product,discovered-not-indexed,"",0,0,0,"",,"79bike falcon pro brake pads",20,15,KM
+/shop/kids-electric-dirt-and-balance-bikes/lpr-16-inch-v4-kids-electric-bike/,product,crawled-not-indexed,"Oct 24, 2026",0,6,0,"",,"lpr 16-inch v4 kids electric bike price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/kalkhoff-k26-entice-7-move/,product,discovered-not-indexed,"",0,0,0,"",,"kalkhoff entice",30,7,KM
+/shop/commuter-and-urban-e-bikes/kalkhoff-k26-entice-5-move/,product,discovered-not-indexed,"",0,0,0,"",,"kalkhoff k26 entice 5+ move price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/kalkhoff-k26-endeavour-c-move/,product,discovered-not-indexed,"",0,0,0,"",,"kalkhoff k26 endeavour c move+ price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/kalkhoff-k26-endeavour-3-move/,product,discovered-not-indexed,"",0,0,0,"",,"kalkhoff endeavour l move",20,4,KM
+/shop/phone-mounts-mirrors-and-audio/phone-holder-gub-plus-11/,product,discovered-not-indexed,"",0,0,0,"",,"phone holder gub plus 11 price australia",0,,generated
+/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/,product,discovered-not-indexed,"",0,0,0,"",,"yozma in 10",2400,20,competitor
+/shop/commuter-and-urban-e-bikes/kalkhoff-k26-endeavour-3-excite/,product,discovered-not-indexed,"",0,0,0,"",,"kalkhoff endeavour excite",20,4,KM
+/shop/seats-fenders-and-body/apollo-thunder-150cc-oil-filter/,product,discovered-not-indexed,"",0,0,0,"",,"apollo thunder 150cc oil filter price australia",0,,generated
+/shop/phone-mounts-mirrors-and-audio/azur-optic-mirror-anti-glare/,product,discovered-not-indexed,"",0,0,0,"",,"azur bike mirror",20,7,KM
+/shop/phone-mounts-mirrors-and-audio/mirror-azur-focus-anti-glare/,product,discovered-not-indexed,"",0,0,0,"",,"mirror azur focus anti glare price australia",0,,generated
+/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/,product,discovered-not-indexed,"",0,0,0,"",,"kovix steel thunder alarmed folding lock price australia",0,,generated
+/shop/batteries-chargers-and-electronics/fatboy-additional-battery-all-v2-models/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy additional battery all v2 models price australia",0,,generated
+/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single/,product,discovered-not-indexed,"",0,0,0,"",,"azur cargo bike waterproof pannier single price australia",0,,generated
+/shop/folding-e-bikes/aventon-sinch-2-5-fat-tyre-folding-electric-bike/,product,discovered-not-indexed,"",0,0,0,"",,"aventon sinch 2.5 fat tyre folding electric bike price australia",0,,generated
+/shop/motors-drivetrain-and-sprockets/fatboy-galvanised-chain-scrambler-harlem-v2/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy galvanised chain scrambler / harlem v2 price australia",0,,generated
+/shop/batteries-chargers-and-electronics/fatboy-controller-v1-bagus-and-v2-models/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy controller v1 bagus and v2 models price australia",0,,generated
+/shop/folding-e-bikes/kristall-y20-folding-fat-tyre-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"kristall y20",50,4,competitor
+/shop/lights-and-horns/knog-blinder-1300-blinder-r150/,product,discovered-not-indexed,"",0,0,0,"",,"knog blinder 1300/blinder r150 price australia",0,,generated
+/shop/phone-mounts-mirrors-and-audio/quad-lock-mag-samsung-galaxy-s24-case/,product,discovered-not-indexed,"",0,0,0,"",,"quadlock case",2900,28,competitor
+/shop/phone-mounts-mirrors-and-audio/quad-lock-out-front-mount/,product,discovered-not-indexed,"",0,0,0,"",,"quad lock bike mount",2400,17,competitor
+/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-black/,product,discovered-not-indexed,"",0,0,0,"",,"kids ride shotgun seat black price australia",0,,generated
+/shop/phone-mounts-mirrors-and-audio/shokz-openrun-bone-conduction-headphones/,product,discovered-not-indexed,"",0,0,0,"",,"shokz openrun bone conduction headphones price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/ampd-bros-chubbie-s-2-electric-bike/,product,discovered-not-indexed,"",0,0,0,"",,"ampd bros chubbie-s 2 electric bike price australia",0,,generated
+/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/,product,discovered-not-indexed,"",0,0,0,"",,"lezyne lever kit light grey price australia",0,,generated
+/shop/electric-mountain-bikes/cannondale-moterra-3-e-mtb-obsidian/,product,discovered-not-indexed,"",0,0,0,"",,"cannondale moterra 3 e-mtb obsidian price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/velectrix-adventurer-pulse-st/,product,discovered-not-indexed,"",0,0,0,"",,"velectrix adventurer pulse st price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/vamos-papa-grande-pro-2026/,product,discovered-not-indexed,"",0,0,0,"",,"vamos papa grande pro 2026 price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/eunorau-max-cargo-24-electric-bike/,product,discovered-not-indexed,"",0,0,0,"",,"eunorau max cargo 24 electric bike price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/moov8-c2-cargo-ebike-with-torque-sensor/,product,discovered-not-indexed,"",0,0,0,"",,"moov8 c2 cargo ebike with torque sensor price australia",0,,generated
+/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/,product,indexed,"Oct 17, 2026",0,6,2,"torque ebikes",61,"torque arms 1500w-5000w kits price australia",0,,generated
+/shop/controls-grips-and-pedals/plug-and-play-sur-ron-style-throttle/,product,crawled-not-indexed,"Oct 24, 2026",0,1,1,"plug and play throttle control",67,"surron throttle",1300,6,competitor
+/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/,product,discovered-not-indexed,"",0,0,0,"",,"torque 500w e-bike conversion kit combo price australia",0,,generated
+/shop/seats-fenders-and-body/apollo-thunder-125-front-axle-bolt/,product,discovered-not-indexed,"",0,0,0,"",,"apollo thunder 125 front axle bolt price australia",0,,generated
+/shop/racks-bags-and-trailers/ampd-bros-ace-rear-cargo-rack/,product,discovered-not-indexed,"",0,0,0,"",,"ampd bros ace rear cargo rack price australia",0,,generated
+/shop/kids-and-youth-e-bikes/ampd-bros-ace-s-mini-s5/,product,discovered-not-indexed,"",0,0,0,"",,"ampd bros ace s mini s5 price australia",0,,generated
+/shop/racks-bags-and-trailers/car-rack-ezigrip-e-rack-2-deluxe-foldable/,product,discovered-not-indexed,"",0,0,0,"",,"car rack ezigrip e-rack 2 deluxe/foldable price australia",0,,generated
+/shop/helmets-gloves-and-protection/apollo-rxf-motocross-helmet/,product,discovered-not-indexed,"",0,0,0,"",,"apollo rxf motocross helmet price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/kalkhoff-k26-entice-3-excite-belt/,product,discovered-not-indexed,"",0,0,0,"",,"kalkhoff belt",20,5,KM
+/shop/kids-and-youth-e-bikes/dhz-20-electric-balance-bike-rear-brushless-motor/,product,discovered-not-indexed,"",0,0,0,"",,"dhz 20 electric balance bike, rear brushless motor price australia",0,,generated
+/shop/electric-dirt-bikes/talaria-xxx-pro-electric-off-road-motor-bike/,product,discovered-not-indexed,"",0,0,0,"",,"talaria x pro price",20,6,KM
+/shop/brakes/extreme-razor-etm-hydro-brake-kit/,product,discovered-not-indexed,"",0,0,0,"",,"extreme razor / etm hydro brake kit price australia",0,,generated
+/shop/electric-mountain-bikes/shogun-etrail-breaker-1/,product,discovered-not-indexed,"",0,0,0,"",,"shogun etrail breaker 1 price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/mamba-kalahari/,product,discovered-not-indexed,"",0,0,0,"",,"mamba kalahari",170,3,competitor
+/shop/seats-fenders-and-body/rxf-junior-110-brake-lever-tip/,product,discovered-not-indexed,"",0,0,0,"",,"rxf junior 110 brake lever tip price australia",0,,generated
+/shop/racks-bags-and-trailers/rear-carrier-rack-light-kit-for-ncm-e-bikes/,product,discovered-not-indexed,"",0,0,0,"",,"rear carrier rack + light kit for ncm e bikes price australia",0,,generated
+/shop/brakes/nutt-hydraulic-brake-pads-with-cooling-fins/,product,discovered-not-indexed,"",0,0,0,"",,"nutt hydraulic brake pads with cooling fins price australia",0,,generated
+/shop/racks-bags-and-trailers/azur-quick-release-shopper-e-bike-mesh-basket/,product,discovered-not-indexed,"",0,0,0,"",,"azur quick release shopper e-bike mesh basket price australia",0,,generated
+/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/,product,indexed,"Oct 17, 2026",0,8,1,"bicycle crate",40,"basil bicycle crate medium 29.5l black price australia",0,,generated
+/shop/racks-bags-and-trailers/thule-euroway-g2-2-bike-towbar-carrier/,product,discovered-not-indexed,"",0,0,0,"",,"thule bike carrier",1600,22,competitor
+/shop/folding-e-bikes/mamba-taureg-folding-fat-tyre-e-bike-16-x3-0/,product,discovered-not-indexed,"",0,0,0,"",,"mamba taureg",70,5,competitor
+/shop/seats-fenders-and-body/azur-saddle-cover-road-memory-foam/,product,discovered-not-indexed,"",0,0,0,"",,"azur bike cover",20,5,KM
+/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-black/,product,discovered-not-indexed,"",0,0,0,"",,"kids ride shotgun 2.0 seat black price australia",0,,generated
+/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/,product,discovered-not-indexed,"",0,0,0,"",,"azur-pro range kappa memory foam price australia",0,,generated
+/shop/wheels-tyres-and-tubes/tube-schrader-20-x3-50-5-0-48mm/,product,discovered-not-indexed,"",0,0,0,"",,"tube schrader 20 x3.50 -5.0 48mm price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/ampd-bros-ace-adventure-electric-bike-series-5/,product,discovered-not-indexed,"",0,0,0,"",,"ampd bros ace adventure electric bike series 5 price australia",0,,generated
+/shop/kids-and-youth-e-bikes/ampd-bros-ace-mini-electric-bike-series-5/,product,discovered-not-indexed,"",0,0,0,"",,"ampd bros ace mini electric bike series 5 price australia",0,,generated
+/shop/electric-mountain-bikes/ktm-macina-team-693/,product,discovered-not-indexed,"",0,0,0,"",,"ktm macina team 693 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/cannondale-adventure-neo-4-charcoal-grey/,product,discovered-not-indexed,"",0,0,0,"",,"cannondale adventure neo 4 charcoal grey price australia",0,,generated
+/shop/folding-e-bikes/moov8-m1-folding-ebike-with-rear-carrier-2023-model/,product,discovered-not-indexed,"",0,0,0,"",,"moov8 m1 folding ebike with rear carrier 2023 model price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/sunmono-mars-20-electric-cargo-bike/,product,discovered-not-indexed,"",0,2,0,"",,"sunmono cargo bike",20,0,KM
+/shop/kids-electric-dirt-and-balance-bikes/ampd-bros-lil-rippa-16-kids-electric-bike/,product,discovered-not-indexed,"",0,0,0,"",,"ampd bros lil rippa",70,20,competitor
+/shop/kids-and-youth-e-bikes/pedal-warrior-2-24-electric-mountain-bike-red/,product,discovered-not-indexed,"",0,0,0,"",,"pedal warrior 2 24 electric mountain bike red price australia",0,,generated
+/shop/electric-mountain-bikes/full-suspension-e-mtb-orange-motinova-mid-drive/,product,discovered-not-indexed,"",0,0,0,"",,"full-suspension e-mtb orange motinova mid-drive price australia",0,,generated
+/shop/seats-fenders-and-body/ampd-bros-ace-rear-alloy-folding-footpeg-set/,product,discovered-not-indexed,"",0,0,0,"",,"ampd bros ace rear alloy folding footpeg set price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/dhz-16-electric-balance-bike-removable-battery-brushless-motor/,product,discovered-not-indexed,"",0,0,0,"",,"dhz 16 electric balance bike, removable battery, brushless motor price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/dhz-electric-kids-mini-dirt-bike-3-speeds-control/,product,indexed,"Oct 23, 2026",0,0,0,"",,"dhz electric kids mini dirt bike, 3 speeds control price australia",0,,generated
+/shop/brakes/brake-pads-sram-avid-zoom-sport-organic/,product,discovered-not-indexed,"",0,0,0,"",,"brake pads sram/avid/zoom sport organic price australia",0,,generated
+/shop/electric-dirt-bikes/talaria-sting-mx-tl3000-electric-off-road-motorbike/,product,indexed,"Oct 18, 2026",0,9,0,"",,"talaria sting mx tl3000 electric off-road motorbike price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-600/,product,discovered-not-indexed,"",0,0,0,"",,"cube touring hybrid one 600 price australia",0,,generated
+/shop/racks-bags-and-trailers/azur-alloy-touring-carrier-disc-brake-compatible/,product,discovered-not-indexed,"",0,0,0,"",,"azur alloy touring carrier disc brake compatible price australia",0,,generated
+/shop/racks-bags-and-trailers/azur-touring-handlebar-bag-with-phone-pouch-grey/,product,discovered-not-indexed,"",0,0,0,"",,"azur bike bag",20,4,KM
+/shop/helmets-gloves-and-protection/100-percent-i-track-fluro-yellow-gloves/,product,indexed,"Oct 18, 2026",0,0,0,"",,"100% percent i-track fluro yellow gloves price australia",0,,generated
+/shop/lights-and-horns/niterider-lumina-1200-boost-led-rechargeable-headlight/,product,discovered-not-indexed,"",0,0,0,"",,"niterider lumina 1200 boost led rechargeable headlight price australia",0,,generated
+/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-handlebar-combo-black/,product,discovered-not-indexed,"",0,0,0,"",,"shotgun bike seat",880,7,competitor
+/shop/electric-dirt-bikes/talaria-sting-r-mx-tl4000-electric-off-road-motorbike/,product,discovered-not-indexed,"",0,0,0,"",,"talaria sting r-mx tl4000 electric off-road motorbike price australia",0,,generated
+/shop/racks-bags-and-trailers/azur-commuter-rear-pannier-bag-pair-48l-black/,product,discovered-not-indexed,"",0,0,0,"",,"azur pannier bags",70,7,competitor
+/shop/lights-and-horns/azur-alien2-100-lm-usb-rechargeable-rear-light/,product,discovered-not-indexed,"",0,0,0,"",,"azur rear bike light",20,5,KM
+/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-large-gen-2-black/,product,discovered-not-indexed,"",0,0,0,"",,"crankbrothers pedal stamp 1 large gen 2 black price australia",0,,generated
+/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-small-gen-2-orange/,product,discovered-not-indexed,"",0,0,0,"",,"crankbrothers pedal stamp 1 small gen 2 orange price australia",0,,generated
+/shop/folding-e-bikes/kristall-rx20-folding-fat-tyre-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"kristall rx20",40,6,KM
+/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-handlebar-combo-black/,product,discovered-not-indexed,"",0,0,0,"",,"kids ride shotgun 2.0 seat handlebar combo black price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/merida-espresso-city-300-eq-hybrid-e-bike/,product,discovered-not-indexed,"",0,0,0,"",,"merida espresso 300",170,14,competitor
+/shop/helmets-gloves-and-protection/abus-smiley-3-0-ace-led-kids-helmet-royal-blue/,product,discovered-not-indexed,"",0,0,0,"",,"abus smiley 3.0 ace led kids helmet royal blue price australia",0,,generated
+/shop/folding-e-bikes/kristall-rx20-max-folding-fat-tyre-e-bike-dual-motor/,product,discovered-not-indexed,"",0,0,0,"",,"kristall rx20 max",20,5,KM
+/shop/wheels-tyres-and-tubes/fatboy-rear-wheel-assembly-20x4-with-rim-holes-for-v1-v2-and-v3/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy rear wheel assembly 20x4 with rim holes for v1, v2 & v3 price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/kristall-ex200-e-trike/,product,discovered-not-indexed,"",0,0,0,"",,"kristall ex200 e-trike price australia",0,,generated
+/shop/helmets-gloves-and-protection/livall-bh60se-smart-helmet/,product,discovered-not-indexed,"",0,0,0,"",,"buy livall bh60se smart helmet",0,,generated
+/shop/wheels-tyres-and-tubes/fatboy-front-wheel-assembly-20x4-thru-axle-v2-bagus-all-v3-models/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy front wheel assembly 20x4 -thru axle v2 bagus, all v3 models price australia",0,,generated
+/shop/electric-mountain-bikes/merida-eone-sixty-700-e-mtb/,product,discovered-not-indexed,"",0,0,0,"",,"merida dirt 700",210,13,competitor
+/shop/brakes/jagwire-mountain-sport-semi-metallic-disc-brake-pads-shimano-rst-tektro-trp/,product,discovered-not-indexed,"",0,0,0,"",,"jagwire mountain sport semi-metallic disc brake pads shimano rst tektro trp price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/velectrix-urban/,product,discovered-not-indexed,"",0,2,0,"",,"velectrix urban electric bike",70,7,competitor
+/shop/electric-mountain-bikes/merida-eone-sixty-900/,product,discovered-not-indexed,"",0,0,0,"",,"merida eone sixty",140,19,competitor
+/shop/commuter-and-urban-e-bikes/merida-espresso-500/,product,indexed,"Oct 18, 2026",0,2,1,"espresso merida",39,"merida espresso",260,17,competitor
+/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-500/,product,discovered-not-indexed,"",0,0,0,"",,"cube touring hybrid pro 500 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-625/,product,discovered-not-indexed,"",0,0,0,"",,"cube touring hybrid pro 625 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/,product,discovered-not-indexed,"",0,0,0,"",,"cube town sport hybrid one 400 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400/,product,discovered-not-indexed,"",0,0,0,"",,"cube touring hybrid one 400 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-exc-500/,product,indexed,"Oct 17, 2026",0,2,0,"",,"cube touring hybrid exc 500 price australia",0,,generated
+/shop/electric-mountain-bikes/cube-stereo-hybrid-140/,product,crawled-not-indexed,"Oct 24, 2026",0,1,0,"",,"cube stereo 140",140,9,competitor
+/shop/electric-mountain-bikes/cube-reaction-hybrid-hpa-pro-500/,product,discovered-not-indexed,"",0,0,0,"",,"cube reaction hybrid pro 500",170,9,competitor
+/shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-pro-625/,product,discovered-not-indexed,"",0,0,0,"",,"cube kathmandu hybrid pro 625 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-one-500/,product,discovered-not-indexed,"",0,0,0,"",,"cube kathmandu hybrid one 500 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-exc-750/,product,indexed,"Oct 18, 2026",0,2,0,"",,"cube kathmandu hybrid exc 750 price australia",0,,generated
+/shop/electric-mountain-bikes/superior-exp-8089/,product,discovered-not-indexed,"",0,0,0,"",,"superior exp 8089 price australia",0,,generated
+/shop/electric-mountain-bikes/polygon-tambora-ae-n/,product,crawled-not-indexed,"Oct 24, 2026",0,0,0,"",,"polygon tambora",70,14,competitor
+/shop/commuter-and-urban-e-bikes/kona-coco-hd/,product,discovered-not-indexed,"",0,0,0,"",,"kona coco hd",30,17,semrush-2026-10-18
+/shop/fat-tyre-and-scrambler-e-bikes/reid-harbour-urban/,product,discovered-not-indexed,"",0,0,0,"",,"reid harbour urban price australia",0,,generated
+/shop/folding-e-bikes/reid-emetro-folding/,product,discovered-not-indexed,"",0,0,0,"",,"reid emetro folding price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/reid-quest-2/,product,discovered-not-indexed,"",0,0,0,"",,"reid quest 2 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/reid-quest-2-st/,product,discovered-not-indexed,"",0,0,0,"",,"reid quest 2 st price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/reid-quest-1/,product,crawled-not-indexed,"Oct 18, 2026",0,6,0,"",,"reid quest 1 price australia",0,,generated
+/shop/electric-mountain-bikes/superior-exf-9019/,product,discovered-not-indexed,"",0,0,0,"",,"superior exf 9019 price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-3/,product,discovered-not-indexed,"",0,0,0,"",,"aventon aventure 3 australia",50,15,semrush-2026-10-18
+/shop/cargo-bikes-and-e-trikes/reid-2095/,product,discovered-not-indexed,"",0,0,0,"",,"reid 2095 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/aventon-soltera-3-adv/,product,discovered-not-indexed,"",0,0,0,"",,"aventon soltera 3 adv price australia",0,,generated
+/shop/electric-mountain-bikes/marin-alpine-trail/,product,discovered-not-indexed,"",0,0,0,"",,"marin alpine trail price australia",0,,generated
+/shop/electric-mountain-bikes/marin-alpine-trail-e1/,product,discovered-not-indexed,"",0,0,0,"",,"marin alpine trail e1 price australia",0,,generated
+/shop/electric-mountain-bikes/marin-alpine-trail-e2/,product,discovered-not-indexed,"",0,0,0,"",,"marin alpine trail e2 price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/reid-rb250/,product,discovered-not-indexed,"",0,0,0,"",,"reid rb250 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/aventon-pace-5-rec/,product,discovered-not-indexed,"",0,0,0,"",,"aventon pace 5 rec price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/aventon-level-4-rec-st/,product,discovered-not-indexed,"",0,0,0,"",,"aventon level 4 rec st price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/aventon-level-4-rec/,product,discovered-not-indexed,"",0,0,0,"",,"aventon level 4 rec price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-m/,product,discovered-not-indexed,"",0,0,0,"",,"aventon aventure m price australia",0,,generated
+/shop/electric-mountain-bikes/aventon-ramblas-adv/,product,discovered-not-indexed,"",0,0,0,"",,"aventon ramblas e bike",40,7,KM
+/shop/commuter-and-urban-e-bikes/aventon-level-4-adv-st/,product,indexed,"Oct 19, 2026",0,3,0,"",,"aventon level 4 adv st price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/aventon-level-4-adv/,product,indexed,"Oct 17, 2026",0,20,1,"aventon ebike australia",41,"aventon level 4 adv price australia",0,,generated
+/shop/fat-tyre-and-scrambler-e-bikes/reid-let-s-moto/,product,discovered-not-indexed,"",0,0,0,"",,"reid let s moto price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/reid-quest-1-st/,product,indexed,"Oct 17, 2026",0,2,0,"",,"reid quest 1 st price australia",0,,generated
+/shop/electric-mountain-bikes/superior-exf-8089/,product,discovered-not-indexed,"",0,0,0,"",,"superior exf 8089 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/marin-lombard-e1/,product,discovered-not-indexed,"",0,0,0,"",,"marin lombard e1",30,18,semrush-2026-10-18
+/shop/commuter-and-urban-e-bikes/kona-dew-hd/,product,crawled-not-indexed,"Oct 24, 2026",0,2,0,"",,"kona bikes dew",140,7,competitor
+/shop/cargo-bikes-and-e-trikes/aventon-abound-lr/,product,discovered-not-indexed,"",0,0,0,"",,"aventon abound",170,21,competitor
+/shop/commuter-and-urban-e-bikes/aventon-pace-4/,product,discovered-not-indexed,"",0,0,0,"",,"aventon pace ebike",30,27,KM
+/shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-3-st/,product,indexed,"Oct 22, 2026",0,5,0,"",,"aventon aventure 3 st price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/reid-let-s-roll/,product,discovered-not-indexed,"",0,0,0,"",,"reid let s roll price australia",0,,generated
+/shop/electric-mountain-bikes/polygon-collosus-te-0/,product,discovered-not-indexed,"",0,0,0,"",,"polygon collosus",210,18,competitor
+/shop/kids-electric-dirt-and-balance-bikes/talaria-xxx-mini/,product,discovered-not-indexed,"",0,0,0,"",,"talaria xxx",2400,18,competitor
+/shop/electric-mountain-bikes/cannondale-moterra-sl-1/,product,discovered-not-indexed,"",0,0,0,"",,"cannondale moterra",140,22,competitor
+/shop/electric-mountain-bikes/cannondale-moterra-sl-2/,product,discovered-not-indexed,"",0,0,0,"",,"cannondale moterra sl 2 price australia",0,,generated
+/shop/electric-mountain-bikes/amflow-pr-carbon/,product,discovered-not-indexed,"",0,0,0,"",,"amflow pr carbon",480,28,competitor
+/shop/commuter-and-urban-e-bikes/cannondale-quick-neo/,product,discovered-not-indexed,"",0,1,0,"",,"cannondale quick",260,23,competitor
+/shop/commuter-and-urban-e-bikes/cannondale-treadwell-neo/,product,discovered-not-indexed,"",0,0,0,"",,"cannondale treadwell neo price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/vamos-amigo-plus-2026/,product,discovered-not-indexed,"",0,0,0,"",,"vamos amigo plus 2026 price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/vyron-hauler-cargo/,product,indexed,"Oct 20, 2026",0,0,0,"",,"vyron hauler cargo price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/sunmono-e-mono-atlas-ultra/,product,discovered-not-indexed,"",0,0,0,"",,"sunmono e-mono atlas ultra price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/sunmono-e-mono-troy-eqp/,product,indexed,"Oct 17, 2026",0,2,0,"",,"sunmono e-mono troy eqp price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/vamos-el-diablo-2026/,product,discovered-not-indexed,"",0,0,0,"",,"vamos el diablo 2026 price australia",0,,generated
+/shop/electric-mountain-bikes/cannondale-moterra-neo-4/,product,discovered-not-indexed,"",0,0,0,"",,"cannondale moterra neo 4 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/vamos-rapido-2026/,product,discovered-not-indexed,"",0,0,0,"",,"vamos rapido",70,12,competitor
+/shop/folding-e-bikes/sunmono-vesta-plus/,product,discovered-not-indexed,"",0,0,0,"",,"sunmono vesta plus price australia",0,,generated
+/shop/electric-mountain-bikes/merida-ebike-eone-sixty-8000/,product,discovered-not-indexed,"",0,0,0,"",,"merida ebike eone sixty 8000 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/vamos-amigo-2026/,product,discovered-not-indexed,"",0,0,0,"",,"vamos amigo",70,6,competitor
+/shop/electric-dirt-bikes/segway-dirt-ebike-x260/,product,discovered-not-indexed,"",0,0,0,"",,"segway dirt ebike x260 price australia",0,,generated
+/shop/cargo-bikes-and-e-trikes/riese-and-m-ller-load-75/,product,indexed,"Oct 24, 2026",0,0,0,"",,"riese & müller load 75 price australia",0,,generated
+/shop/commuter-and-urban-e-bikes/gazelle-ultimate-c380/,product,discovered-not-indexed,"",0,0,0,"",,"gazelle ultimate c380 price australia",0,,generated
+/shop/kids-electric-dirt-and-balance-bikes/revvi-16-junior/,product,discovered-not-indexed,"",0,0,0,"",,"revvi 16 junior price australia",0,,generated
+/shop/batteries-chargers-and-electronics/vamos-battery-52v-20ah-samsung-cells/,product,indexed,"Oct 20, 2026",0,0,0,"",,"52v ebike battery",320,3,semrush-2026-10-18
+/shop/batteries-chargers-and-electronics/vamos-battery-52v-25ah-samsung-cells/,product,indexed,"Oct 20, 2026",0,0,0,"",,"ebike battery 52v",210,4,semrush-2026-10-18
+/shop/batteries-chargers-and-electronics/vamos-doblez-2023-2024-battery-36v-13ah/,product,indexed,"Oct 20, 2026",0,0,0,"",,"36v ebike battery",260,7,semrush-2026-10-18
+/shop/batteries-chargers-and-electronics/vamos-amigo-2023-2024-battery-48v-15ah/,product,indexed,"Oct 20, 2026",0,0,0,"",,"battery ebike 48v",320,4,semrush-2026-10-18
+/shop/batteries-chargers-and-electronics/vamos-hefe-battery-48v-15ah/,product,indexed,"Oct 20, 2026",0,0,0,"",,"ebike battery 48v",260,6,semrush-2026-10-18
+/shop/batteries-chargers-and-electronics/vamos-samsung-battery-36v-15ah/,product,indexed,"Oct 21, 2026",0,0,0,"",,"vamos samsung battery 36v 15ah silverfish price australia",0,,generated
+/shop/batteries-chargers-and-electronics/fatboy-bagus-v1-v2-battery-52v-20ah/,product,indexed,"Oct 22, 2026",1,3,0,"",,"ebike 52v battery",170,3,semrush-2026-10-18
+/shop/batteries-chargers-and-electronics/fatboy-charger-52v/,product,discovered-not-indexed,"",0,0,0,"",,"fatboy charger 52v price australia",0,,generated
+/shop/batteries-chargers-and-electronics/fatboy-charger-48v-v1/,product,indexed,"Oct 20, 2026",0,2,0,"",,"48v ebike charger",140,6,semrush-2026-10-18
+/shop/batteries-chargers-and-electronics/e-ride-pro-e7289-72v-50ah-battery-e7-sr/,product,indexed,"Oct 20, 2026",0,2,0,"",,"72v battery ebike",70,2,semrush-2026-10-18
+/shop/batteries-chargers-and-electronics/e-ride-pro-e7271-72v-50ah-150a-battery-e7-3-0/,product,indexed,"Oct 20, 2026",0,0,0,"",,"72v battery for ebike",260,3,semrush-2026-10-18
+/shop/batteries-chargers-and-electronics/e-ride-pro-e6154-72v-30ah-battery-mini/,product,indexed,"Oct 20, 2026",0,0,0,"",,"ebike battery 72v",140,0,semrush-2026-10-18
+/shop/batteries-chargers-and-electronics/e-ride-pro-e6024-60v-30ah-battery-mini/,product,indexed,"Oct 20, 2026",0,0,0,"",,"e ride pro e6024 60v 30ah battery mini price australia",0,,generated
+/shop/batteries-chargers-and-electronics/e-ride-pro-e7281-au-charger/,product,indexed,"Oct 23, 2026",2,10,0,"",,"e ride pro e7281 au charger s, ss 2.0, ss 3.0, sr price australia",0,,generated
+/shop/batteries-chargers-and-electronics/e-ride-pro-e6042-au-60v-charger-mini/,product,indexed,"Oct 22, 2026",0,1,0,"",,"e ride pro e6042 au 60v charger mini price australia",0,,generated
+/shop/care-tools-and-hydration/rock-n-roll-gold-chain-lube-117ml/,product,crawled-not-indexed,"Oct 24, 2026",0,0,0,"",,"bike chain lubing",320,22,semrush-2026-10-18
+/shop/care-tools-and-hydration/rock-n-roll-absolute-dry-chain-lube-117ml/,product,indexed,"Oct 21, 2026",0,0,0,"",,"bike chain lube dry",70,16,semrush-2026-10-18
+/shop/care-tools-and-hydration/rock-n-roll-extreme-blue-chain-lube-117ml/,product,indexed,"Oct 22, 2026",0,0,0,"",,"mountain bike chain lube",110,15,semrush-2026-10-18
+/shop/batteries-chargers-and-electronics/fatboy-pas-sensor-v1-v2/,product,indexed,"Oct 20, 2026",1,3,0,"",,"fatboy pas sensor v1/v2 price australia",0,,generated
+/shop/batteries-chargers-and-electronics/fatboy-pas-sensor-v3/,product,indexed,"Oct 23, 2026",0,0,0,"",,"fatboy pas sensor v3 price australia",0,,generated
+/blog/cycling-backpack/,blog,not-in-gsc-lists,"",1,20,0,"",,"cycling backpack",720,18,semrush-keyword-magic-2026-10-29
+/blog/cycling-sunglasses/,blog,not-in-gsc-lists,"",0,2,0,"",,"cycling sunglasses",1300,14,semrush-keyword-magic-2026-10-29
+/blog/bike-wall-mount/,blog,not-in-gsc-lists,"",0,3,0,"",,"bike wall mount",1600,14,semrush-keyword-magic-2026-10-29
+/blog/bike-repair-stand/,blog,not-in-gsc-lists,"",0,0,0,"",,"bike repair stand",1300,17,semrush-keyword-magic-2026-10-29
+/blog/lightest-electric-bicycle/,blog,not-in-gsc-lists,"",0,0,0,"",,"lightest electric bicycle",320,16,semrush-keyword-magic-2026-10-29
+/blog/bike-pump/,blog,not-in-gsc-lists,"",0,0,0,"",,"bike pump",4400,27,semrush-keyword-magic-2026-10-29
+/blog/bike-tubes/,blog,not-in-gsc-lists,"",0,14,0,"",,"bike tubes",1000,15,semrush-keyword-magic-2026-10-29
+/blog/bike-chain-degreaser/,blog,not-in-gsc-lists,"",0,17,0,"",,"bike chain degreaser",390,15,semrush-keyword-magic-2026-10-29
+/blog/electric-beach-cruiser-bicycle/,blog,not-in-gsc-lists,"",0,16,0,"",,"electric beach cruiser bicycle",390,10,semrush-keyword-magic-2026-10-29
+/blog/stark-varg/,blog,not-in-gsc-lists,"",0,29,0,"",,"stark varg",18100,26,semrush-keyword-magic-2026-10-29
+/blog/specialized-e-bike/,blog,not-in-gsc-lists,"",0,3,0,"",,"specialized e bike",320,15,semrush-keyword-magic-2026-10-29
+/blog/fatboy-electric-bike/,blog,not-in-gsc-lists,"",0,23,0,"",,"fatboy electric bike",1900,5,semrush-keyword-magic-2026-10-29
+/blog/dual-suspension-electric-bike/,blog,not-in-gsc-lists,"",0,11,0,"",,"dual suspension electric bike",140,7,semrush-keyword-magic-2026-10-29
+/blog/bag-for-handlebars/,blog,not-in-gsc-lists,"",0,0,0,"",,"bag for handlebars",720,13,semrush-keyword-magic-2026-10-29
+/blog/suspension-seat-post/,blog,not-in-gsc-lists,"",0,3,0,"",,"suspension seat post",210,14,semrush-keyword-magic-2026-10-29
+/blog/bike-puncture-repair-kit/,blog,not-in-gsc-lists,"",0,0,0,"",,"bike puncture repair kit",590,14,semrush-keyword-magic-2026-10-29
+/blog/bike-tool-kit/,blog,not-in-gsc-lists,"",0,0,0,"",,"bike tool kit",590,12,semrush-keyword-magic-2026-10-29
+/blog/car-bike-rack/,blog,not-in-gsc-lists,"",0,0,0,"",,"car bike rack",1900,14,semrush-keyword-magic-2026-10-29
+/blog/folding-bike-bag/,blog,not-in-gsc-lists,"",0,4,0,"",,"folding bike bag",880,8,semrush-keyword-magic-2026-10-29
+/blog/gps-tracker-for-bike/,blog,not-in-gsc-lists,"",0,4,0,"",,"gps tracker for bike",320,11,semrush-keyword-magic-2026-10-29
+/blog/amps-ebikes/,blog,not-in-gsc-lists,"",1,3,1,"amp ebike",5,"amps ebikes",1600,18,semrush-keyword-magic-2026-10-27
+/blog/used-electric-bicycles/,blog,not-in-gsc-lists,"",0,0,0,"",,"used electric bicycles",720,21,semrush-keyword-magic-2026-10-27
+/blog/2nd-hand-electric-bikes/,blog,not-in-gsc-lists,"",0,0,0,"",,"2nd hand electric bikes",590,13,semrush-keyword-magic-2026-10-27
+/blog/ebike-parts/,blog,not-in-gsc-lists,"",0,0,0,"",,"ebike parts",260,4,semrush-keyword-magic-2026-10-27
+/blog/top-rated-ebike/,blog,not-in-gsc-lists,"",0,0,0,"",,"top rated ebike",590,33,semrush-keyword-magic-2026-10-27
+/blog/electric-motorcycle-bikes/,blog,not-in-gsc-lists,"",0,1,0,"",,"electric motorcycle bikes",720,31,semrush-keyword-magic-2026-10-27
+/blog/mini-ebike/,blog,not-in-gsc-lists,"",1,18,0,"",,"mini ebike",590,16,semrush-keyword-magic-2026-10-27
+/blog/electric-bike-price/,blog,not-in-gsc-lists,"",0,25,1,"ebike prices",8,"electric bike price",480,11,semrush-keyword-magic-2026-10-27
+/blog/ebike-accessories/,blog,not-in-gsc-lists,"",0,10,0,"",,"ebike accessories",590,9,semrush-keyword-magic-2026-10-27
+/blog/electric-bike-australia/,blog,not-in-gsc-lists,"",0,26,1,"australian electric bicycle",24,"electric bike australia",1900,30,semrush-keyword-magic-2026-10-27
+/blog/e-bike-sale/,blog,not-in-gsc-lists,"",0,0,0,"",,"e bike sale",590,27,semrush-keyword-magic-2026-10-27
+/blog/electric-bikes-for-sale/,blog,not-in-gsc-lists,"",0,18,1,"ebike prices",59,"electric bikes for sale",1600,30,semrush-keyword-magic-2026-10-27
+/blog/fastest-e-bike/,blog,not-in-gsc-lists,"",1,98,0,"",,"fastest e bike",720,12,semrush-keyword-magic-2026-10-27
+/blog/electric-road-bicycle/,blog,not-in-gsc-lists,"",1,69,0,"",,"electric road bicycle",260,13,semrush-keyword-magic-2026-10-27
+/blog/aventon-e-bike/,blog,not-in-gsc-lists,"",0,5,1,"anenton",41,"aventon e bike",590,17,semrush-keyword-magic-2026-10-27
+/blog/e-cruiser/,blog,not-in-gsc-lists,"",0,25,0,"",,"e cruiser",1000,7,semrush-keyword-magic-2026-10-27
+/blog/ncm-ebike/,blog,not-in-gsc-lists,"",0,0,0,"",,"ncm ebike",590,16,semrush-keyword-magic-2026-10-27
+/blog/merida-e-bike/,blog,not-in-gsc-lists,"",0,7,0,"",,"e bike merida",720,18,semrush-keyword-magic-2026-10-27
+/blog/cube-e-bike/,blog,not-in-gsc-lists,"",0,23,0,"",,"cube e bike",390,20,semrush-keyword-magic-2026-10-27
+/blog/hybrid-ebike/,blog,not-in-gsc-lists,"",0,0,0,"",,"hybrid ebike",320,15,semrush-keyword-magic-2026-10-27
+/blog/e-bike-step-thru/,blog,not-in-gsc-lists,"",0,17,0,"",,"e bike step thru",260,7,semrush-keyword-magic-2026-10-27
+/blog/mid-drive-ebike/,blog,not-in-gsc-lists,"",0,4,0,"",,"mid drive ebike",480,8,semrush-keyword-magic-2026-10-27
+/blog/3-wheel-electric-bike/,blog,not-in-gsc-lists,"",0,32,1,"3 seater electric bike",10,"3 wheel electric bike",1000,6,semrush-keyword-magic-2026-10-27
+/blog/1000w-conversion-kit/,blog,not-in-gsc-lists,"",0,5,0,"",,"1000w conversion kit",170,4,semrush-keyword-magic-2026-10-27
+/blog/e-bike-motor/,blog,not-in-gsc-lists,"",0,11,1,"motor for cycle",8,"e bike motor",390,24,semrush-keyword-magic-2026-10-27
+/blog/bike-chain-padlock/,blog,not-in-gsc-lists,"",0,1,0,"",,"bike chain padlock",720,15,semrush-keyword-magic-2026-10-27
+/blog/bicycle-light/,blog,not-in-gsc-lists,"",0,8,0,"",,"bicycle light",480,20,semrush-keyword-magic-2026-10-27
+/blog/razor-e-bike/,blog,not-in-gsc-lists,"",0,36,0,"",,"razor e bike",590,23,semrush-keyword-magic-2026-10-27
+/blog/e-bike-women/,blog,not-in-gsc-lists,"",0,24,0,"",,"e bike women",390,10,semrush-keyword-magic-2026-10-27
+/blog/low-cost-e-bikes/,blog,not-in-gsc-lists,"",0,8,1,"electric cheap bikes",98,"low cost e bikes",3600,17,semrush-keyword-magic-2026-10-27
+/blog/child-bike-seat/,blog,not-in-gsc-lists,"",0,5,0,"",,"child bike seat",1300,13,semrush-keyword-magic-2026-10-27
+/blog/childs-helmet/,blog,not-in-gsc-lists,"",0,0,0,"",,"childs helmet",1000,15,semrush-keyword-magic-2026-10-27
+/blog/e-bike-throttle/,blog,not-in-gsc-lists,"",0,18,0,"",,"e bike throttle",320,9,semrush-keyword-magic-2026-10-27
+/blog/flat-pedals/,blog,not-in-gsc-lists,"",0,7,0,"",,"flat pedals",320,17,semrush-keyword-magic-2026-10-27
+/blog/bike-seat-cover/,blog,not-in-gsc-lists,"",1,10,0,"",,"bike seat cover",480,15,semrush-keyword-magic-2026-10-27
+/blog/bike-alarm/,blog,not-in-gsc-lists,"",0,9,0,"",,"bike alarm",320,12,semrush-keyword-magic-2026-10-27
+/blog/motorbike-goggles/,blog,not-in-gsc-lists,"",0,9,0,"",,"motorbike goggles",590,10,semrush-keyword-magic-2026-10-27
+/blog/bicycle-gloves/,blog,not-in-gsc-lists,"",0,0,0,"",,"bicycle gloves",880,13,semrush-keyword-magic-2026-10-27
+/blog/bicycle-basket/,blog,not-in-gsc-lists,"",0,6,0,"",,"bicycle basket",1000,20,semrush-keyword-magic-2026-10-27
+/blog/bicycle-trailers/,blog,not-in-gsc-lists,"",0,1,0,"",,"bicycle trailers",480,10,semrush-keyword-magic-2026-10-27
+/blog/bicycle-cover/,blog,not-in-gsc-lists,"",0,0,0,"",,"bicycle cover",1300,18,semrush-keyword-magic-2026-10-27
+/blog/bicycle-water-bottle/,blog,not-in-gsc-lists,"",0,2,0,"",,"bicycle water bottle",390,15,semrush-keyword-magic-2026-10-27
+/blog/bone-conduction-headphones/,blog,not-in-gsc-lists,"",0,7,0,"",,"bone conduction headphones",8100,27,semrush-keyword-magic-2026-10-27
+/blog/bike-mirror/,blog,not-in-gsc-lists,"",0,4,0,"",,"bike mirror",590,12,semrush-keyword-magic-2026-10-27
+/blog/bike-panniers/,blog,not-in-gsc-lists,"",0,0,0,"",,"bike panniers",480,9,semrush-keyword-magic-2026-10-27
+/blog/sur-ron-for-sale/,blog,not-in-gsc-lists,"",0,16,0,"",,"sur ron for sale",140,14,semrush-keyword-magic-2026-10-27
+/blog/childs-electric-bike/,blog,not-in-gsc-lists,"",0,5,0,"",,"childs electric bike",390,12,semrush-keyword-magic-2026-10-27
+/blog/e-bike-battery-charger/,blog,not-in-gsc-lists,"",0,27,0,"",,"e bike battery charger",260,4,semrush-keyword-magic-2026-10-27
+/blog/e-bike-batteries/,blog,not-in-gsc-lists,"",0,1,0,"",,"e bike batteries",590,7,semrush-keyword-magic-2026-10-27
+/blog/lubricant-for-bike-chains/,blog,not-in-gsc-lists,"",0,4,0,"",,"lubricant for bike chains",320,12,semrush-keyword-magic-2026-10-27
+/blog/e-bike-grips-pedals-and-handlebar-controls/,blog,indexed,"Oct 17, 2026",0,28,1,"e bike grips",11,"bicycle pedals",720,20,semrush-keyword-magic-2026-10-27
+/blog/e-bike-seats-saddles-kickstands-and-mudguards/,blog,indexed,"Oct 17, 2026",0,3,0,"",,"bike seats",880,13,semrush-keyword-magic-2026-10-27
+/blog/e-bike-tyres-and-tubes/,blog,discovered-not-indexed,"",0,0,0,"",,"bike tyre",880,12,semrush-keyword-magic-2026-10-27
+/blog/flight-risk-fr505-and-fr555/,blog,indexed,"Oct 16, 2026",1,73,0,"",,"flight risk electric bike",880,7,semrush-keyword-magic-2026-10-27
+/blog/dirodi-rover-gen-6/,blog,discovered-not-indexed,"",0,0,0,"",,"dirodi bike",590,20,semrush-keyword-magic-2026-10-27
+/blog/yozma-in10-electric-mini-dirt-bike/,blog,discovered-not-indexed,"",0,0,0,"",,"mini electric bike",590,14,semrush-keyword-magic-2026-10-27
+/blog/talaria-x3-mx3-and-mx4/,blog,indexed,"Oct 16, 2026",0,87,1,"talaria x3",63,"talaria x3",4400,16,semrush-keyword-magic-2026-10-27
+/blog/electric-vs-petrol-dirt-bikes/,blog,indexed,"Oct 17, 2026",0,5,0,"",,"electric dirtbike",1000,23,semrush-keyword-magic-2026-10-27
+/blog/kids-electric-dirt-bikes/,blog,crawled-not-indexed,"Oct 17, 2026",0,17,1,"kids electric dirt bike australia",63,"childrens electric motorbike",1300,17,semrush-keyword-magic-2026-10-27
+/blog/fat-tyre-e-bikes/,blog,indexed,"Oct 16, 2026",0,11,0,"",,"fat tyre e bike",480,10,semrush-keyword-magic-2026-10-27
+/blog/what-is-an-e-bike/,blog,indexed,"Oct 16, 2026",0,114,2,"electric bicycle power",37,"how much are e bikes",320,18,semrush-keyword-magic-2026-10-27
+/blog/how-to-choose-an-e-bike/,blog,discovered-not-indexed,"",0,0,0,"",,"e bikes for adults",720,20,semrush-keyword-magic-2026-10-27
+/blog/best-phone-mounts-for-e-bikes/,blog,indexed,"Oct 16, 2026",0,1,0,"",,"phone holder for the bike",1300,23,semrush-keyword-magic-2026-10-27
+/blog/commuter-e-bikes/,blog,indexed,"Oct 17, 2026",0,99,0,"",,"commuter ebike",480,11,semrush-keyword-magic-2026-10-27
+/blog/pedal-assist-vs-throttle/,blog,indexed,"Oct 17, 2026",0,36,1,"pedal assist electric bicycles",35,"pedal assist electric bike",1000,21,semrush-keyword-magic-2026-10-27
+/blog/how-to-lock-an-e-bike/,blog,indexed,"Oct 17, 2026",0,21,0,"",,"lock for bicycles",590,9,semrush-keyword-magic-2026-10-27
+/blog/bike-racks-baskets-and-trailers/,blog,discovered-not-indexed,"",0,0,0,"",,"bike racks",3600,22,semrush-keyword-magic-2026-10-27
+/blog/e-bike-and-dirt-bike-brakes/,blog,discovered-not-indexed,"",0,0,0,"",,"bicycle brake pads",390,16,semrush-keyword-magic-2026-10-27
+/blog/e-bike-lights/,blog,indexed,"Oct 18, 2026",0,18,0,"",,"bike lamp",590,15,semrush-keyword-magic-2026-10-27
+/blog/helmets-and-protective-gear-for-e-bikes/,blog,indexed,"Oct 16, 2026",0,62,0,"",,"e bike helmet",590,13,semrush-keyword-magic-2026-10-27
+/blog/what-is-an-e-moto/,blog,indexed,"Oct 16, 2026",1,61,2,"road legal electric motorbike",43,"electric motorbike",6600,22,semrush-keyword-magic-2026-10-27
+/blog/electric-cargo-bikes/,blog,indexed,"Oct 17, 2026",0,1,0,"",,"cargo bikes",880,23,semrush-keyword-magic-2026-10-27
+/blog/electric-trikes-for-adults/,blog,crawled-not-indexed,"Oct 17, 2026",0,51,1,"adult e tricycle",21,"electric tricycle",1000,13,semrush-keyword-magic-2026-10-27
+/blog/folding-electric-bikes/,blog,indexed,"Oct 23, 2026",0,0,0,"",,"foldable electric bike",1600,14,semrush-keyword-magic-2026-10-27
+/blog/electric-mountain-bike-buying-guide/,blog,indexed,"Oct 16, 2026",0,3,0,"",,"e-mountain bike",260,20,semrush-keyword-magic-2026-10-27
+/blog/how-fast-does-a-sur-ron-go/,blog,indexed,"Oct 16, 2026",0,70,1,"sur ron top speed",40,"surron dirt bike",110,28,semrush-keyword-magic-2026-10-27
+/blog/sur-ron-models-explained/,blog,discovered-not-indexed,"",0,0,0,"",,"surron light bee x",4400,26,semrush-keyword-magic-2026-10-27
+/blog/e-bike-conversion-kits-explained/,blog,indexed,"Oct 17, 2026",0,95,10,"convert cycle to electric cycle",58,"e bike conversion kit",3600,8,semrush-keyword-magic-2026-10-27
+/blog/e-bike-brands-in-australia/,blog,indexed,"Oct 17, 2026",0,16,0,"",,"electric bike brands",480,25,semrush-keyword-magic-2026-10-27
+/blog/best-electric-bikes-in-australia/,blog,indexed,"Oct 16, 2026",0,90,4,"good e bikes",60,"best electric bikes",880,11,semrush-keyword-magic-2026-10-27
+/blog/chain-alignment-high-torque-motors/,blog,indexed,"Oct 17, 2026",0,11,0,"",,"bike chains",480,12,semrush-keyword-magic-2026-10-27
+/blog/electric-moto-maintenance-lithium-safety/,blog,indexed,"Oct 16, 2026",0,0,0,"",,"72v battery",480,2,semrush-keyword-magic-2026-10-27
+/blog/diy-2000w-conversion-guide/,blog,indexed,"Oct 16, 2026",0,17,1,"2000w conversion kit",71,"2000w ebike",390,17,semrush-keyword-magic-2026-10-27
+/blog/off-road-vs-street-legal-australia/,blog,indexed,"Oct 17, 2026",0,23,0,"",,"legal electric bike",480,17,semrush-keyword-magic-2026-10-27
