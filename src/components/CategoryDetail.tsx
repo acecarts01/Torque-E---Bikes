@@ -115,6 +115,7 @@ export default function CategoryDetail({ slug, intro, products, h1, faq = [] }: 
             </div>
           </div>
 
+          <h2 className="sr-only">Products</h2>
           {isLoading ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-8">
               {[...Array(6)].map((_, i) => (

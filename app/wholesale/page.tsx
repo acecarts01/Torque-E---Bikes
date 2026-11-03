@@ -107,7 +107,7 @@ export default function WholesalePage() {
                   <div className="bg-brand/10 w-12 h-12 flex items-center justify-center rounded-sm group-hover:scale-110 transition-transform">
                     {benefit.icon}
                   </div>
-                  <h3 className="text-xl font-bold uppercase italic tracking-tight">{benefit.title}</h3>
+                  <h2 className="text-xl font-bold uppercase italic tracking-tight">{benefit.title}</h2>
                   <p className="text-gray-400 text-sm leading-relaxed">{benefit.description}</p>
                 </motion.div>
               ))}
@@ -133,7 +133,7 @@ export default function WholesalePage() {
                       <Globe2 className="w-5 h-5 text-brand" />
                     </div>
                     <div>
-                      <h4 className="font-bold uppercase text-xs tracking-widest text-gray-500">Service Area</h4>
+                      <h3 className="font-bold uppercase text-xs tracking-widest text-gray-500">Service Area</h3>
                       <p className="text-sm">Australia-wide (TNT/FedEx DG Certified)</p>
                     </div>
                   </div>
@@ -142,7 +142,7 @@ export default function WholesalePage() {
                       <Building2 className="w-5 h-5 text-brand" />
                     </div>
                     <div>
-                      <h4 className="font-bold uppercase text-xs tracking-widest text-gray-500">Headquarters</h4>
+                      <h3 className="font-bold uppercase text-xs tracking-widest text-gray-500">Headquarters</h3>
                       <p className="text-sm">{CONTACT.hq}</p>
                     </div>
                   </div>

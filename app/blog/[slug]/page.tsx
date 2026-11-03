@@ -192,7 +192,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                       <Zap className="w-6 h-6 text-white fill-white" />
                     </div>
                     <div>
-                      <h4 className="text-xs font-black uppercase tracking-widest text-white">Torque E-Bikes</h4>
+                      <h3 className="text-xs font-black uppercase tracking-widest text-white">Torque E-Bikes</h3>
                       <p className="text-[10px] font-bold text-brand-gray uppercase tracking-widest">Brisbane, Australia</p>
                     </div>
                   </div>
@@ -203,7 +203,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
                 {related.length > 0 && (
                   <div className="p-8 bg-[#16181b] rounded-[2rem] border border-white/5">
-                    <h4 className="text-xs font-black uppercase tracking-widest text-white mb-6 italic">Related</h4>
+                    <h3 className="text-xs font-black uppercase tracking-widest text-white mb-6 italic">Related</h3>
                     <ul className="space-y-3 list-none p-0 m-0">
                       {related.map(([href, label]) => (
                         <li key={href}>
@@ -217,7 +217,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 )}
 
                 <div className="p-8 bg-brand-red rounded-[2rem] text-[#140800]">
-                  <h4 className="text-xl font-black italic uppercase tracking-tighter mb-3 leading-none">Need a hand choosing?</h4>
+                  <h3 className="text-xl font-black italic uppercase tracking-tighter mb-3 leading-none">Need a hand choosing?</h3>
                   <p className="text-xs font-bold mb-5 opacity-80">Message the team with your bike and where you ride.</p>
                   <a href="/whatsapp/" className="inline-block px-5 py-3 bg-white text-[#b43c00] font-black uppercase tracking-widest text-[10px] rounded-xl hover:scale-[0.98] transition-transform">
                     WhatsApp 0480 804 189

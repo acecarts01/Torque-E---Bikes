@@ -25,7 +25,7 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-[10px] font-black uppercase tracking-[0.2em] mb-4 text-white italic">Quick Links</h3>
+            <h2 className="text-[10px] font-black uppercase tracking-[0.2em] mb-4 text-white italic">Quick Links</h2>
             <ul className="space-y-2">
               <li><Link href="/shop/" className="text-gray-400 hover:text-[#ff6a1a] text-[10px] transition-colors uppercase font-bold tracking-wider">Shop All</Link></li>
               <li><Link href="/wholesale/" className="text-gray-400 hover:text-[#ff6a1a] text-[10px] transition-colors uppercase font-bold tracking-wider">Wholesale</Link></li>
@@ -38,7 +38,7 @@ export default function Footer() {
 
           {/* Categories */}
           <div>
-            <h3 className="text-[10px] font-black uppercase tracking-[0.2em] mb-4 text-white italic">Categories</h3>
+            <h2 className="text-[10px] font-black uppercase tracking-[0.2em] mb-4 text-white italic">Categories</h2>
             <ul className="space-y-2">
               {CATEGORIES.slice(0, 4).map(cat => (
                 <li key={cat.slug}><Link href={`/shop/${cat.slug}/`} className="text-gray-400 hover:text-[#ff6a1a] text-[10px] transition-colors uppercase font-bold tracking-wider">{cat.name}</Link></li>
@@ -48,7 +48,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="text-[10px] font-black uppercase tracking-[0.2em] mb-4 text-white italic">Contact</h3>
+            <h2 className="text-[10px] font-black uppercase tracking-[0.2em] mb-4 text-white italic">Contact</h2>
             <ul className="space-y-2">
               <li className="flex items-center gap-2 text-gray-400 text-[10px] uppercase font-bold tracking-wider">
                 <Phone className="w-3 h-3 text-[#ff6a1a]" />

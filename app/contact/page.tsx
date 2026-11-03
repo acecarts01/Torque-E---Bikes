@@ -111,7 +111,7 @@ export default function ContactPage() {
                       <div className="bg-brand/10 w-10 h-10 flex items-center justify-center rounded-sm">
                         {method.icon}
                       </div>
-                      <h4 className="text-[10px] font-bold uppercase tracking-widest text-gray-500">{method.title}</h4>
+                      <h2 className="text-[10px] font-bold uppercase tracking-widest text-gray-500">{method.title}</h2>
                       {method.link ? (
                         <a href={method.link} className="text-lg font-bold hover:text-brand transition-colors block italic">{method.value}</a>
                       ) : (
@@ -124,7 +124,7 @@ export default function ContactPage() {
                 <div className="p-8 bg-[#1d2024] border border-white/5 rounded-sm space-y-6">
                   <div className="flex items-center gap-4">
                     <MapPin className="w-6 h-6 text-brand" />
-                    <h3 className="text-xl font-black italic uppercase tracking-tight">Brisbane Headquarters</h3>
+                    <h2 className="text-xl font-black italic uppercase tracking-tight">Brisbane Headquarters</h2>
                   </div>
                   <p className="text-gray-400 leading-relaxed text-sm">
                     {CONTACT.address}<br />

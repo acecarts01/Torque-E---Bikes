@@ -75,7 +75,7 @@ export default function BlogPage() {
 
                   <div className="hidden lg:block p-8 rounded-[2rem] bg-white/5 border border-white/5 space-y-4">
                     <Zap className="w-8 h-8 text-brand-red" />
-                    <h4 className="font-black italic uppercase tracking-tighter text-lg leading-tight">Need Expert Help?</h4>
+                    <h2 className="font-black italic uppercase tracking-tighter text-lg leading-tight">Need Expert Help?</h2>
                     <p className="text-gray-400 text-xs leading-relaxed">
                       Our Brisbane technicians can help with motor lacing, BMS programming, and custom harness builds.
                     </p>

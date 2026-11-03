@@ -76,6 +76,25 @@ if (fs.existsSync(builtDir)) {
   scanBuilt(builtDir);
 }
 
+// C2: every prerendered page starts with one H1 and never skips a heading level (H1 -> H3 hurts accessibility and AI-search checks).
+if (fs.existsSync(builtDir)) {
+  const scanHeadings = dir => {
+    for (const file of fs.readdirSync(dir)) {
+      const p = path.join(dir, file);
+      if (fs.statSync(p).isDirectory()) { scanHeadings(p); continue; }
+      if (!file.endsWith('.html')) continue;
+      const html = fs.readFileSync(p, 'utf8').replace(/<script[\s\S]*?<\/script>/g, '').replace(/<style[\s\S]*?<\/style>/g, '');
+      const levels = [...html.matchAll(/<h([1-6])[\s>]/g)].map(m => Number(m[1]));
+      if (!levels.length) continue;
+      const h1s = levels.filter(l => l === 1).length;
+      const skip = levels.findIndex((l, i) => i > 0 && l > levels[i - 1] + 1);
+      if (levels[0] !== 1 || h1s !== 1) { console.error(`❌ C2: ${p} should start with exactly one H1 (found ${h1s}, first H${levels[0]})`); failures++; }
+      else if (skip !== -1) { console.error(`❌ C2: heading level skipped in ${p}: H${levels[skip - 1]} -> H${levels[skip]}`); failures++; }
+    }
+  };
+  scanHeadings(builtDir);
+}
+
 if (failures > 0) {
   console.error(`\nTotal Failures: ${failures}`);
   process.exit(1);
