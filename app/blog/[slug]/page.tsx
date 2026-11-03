@@ -8,7 +8,8 @@ import { Calendar, Clock, ArrowLeft, Zap, ChevronRight } from 'lucide-react'
 import { SITE } from '@/src/config/site'
 import Nav from '@/src/components/Nav'
 import Footer from '@/src/components/Footer'
-import JsonLd from '@/src/components/JsonLd'
+import GraphLd from '@/src/components/GraphLd'
+import { buildGraph, orgNode, websiteNode, webPageNode, breadcrumbNode, blogPostingNode, faqNode, abs } from '@/src/lib/schemaGraph'
 import PageFaq from '@/src/components/PageFaq'
 import RichText from '@/src/components/RichText'
 import { Metadata } from 'next'
@@ -46,26 +47,17 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
   return (
     <div className="min-h-screen bg-brand-dark text-white selection:bg-brand-red selection:text-[#140800]">
-      <JsonLd
-        type="BlogPosting"
-        data={{
-          '@context': 'https://schema.org',
-          '@type': 'BlogPosting',
-          headline: post.title,
-          description: post.excerpt,
-          image: hasImage ? `https://${SITE.domain}/images/${post.image.file}` : undefined,
-          datePublished: post.date,
-          dateModified: post.updated || post.date,
-          ...(post.tags ? { keywords: [post.focus, ...(post.secondary || []), ...post.tags].filter(Boolean).join(', ') } : {}),
-          author: { '@type': 'Organization', name: SITE.name, url: `https://${SITE.domain}/about/` },
-          publisher: { '@type': 'Organization', name: SITE.name },
-          mainEntityOfPage: `https://${SITE.domain}${post.url}`,
-        }}
-      />
-      <JsonLd
-        type="BreadcrumbList"
-        data={[{ name: 'Home', item: '/' }, { name: 'Blog', item: '/blog/' }, { name: post.title, item: post.url }]}
-      />
+      <GraphLd graph={buildGraph([
+        orgNode(), websiteNode(),
+        webPageNode(post.url, { name: post.seoTitle, description: post.excerpt, image: hasImage ? abs('/images/' + post.image.file) : undefined }),
+        breadcrumbNode(post.url, [{ name: 'Home', item: '/' }, { name: 'Blog', item: '/blog/' }, { name: post.title, item: post.url }]),
+        blogPostingNode(post.url, {
+          title: post.title, excerpt: post.excerpt, date: post.date, updated: post.updated,
+          image: hasImage ? abs('/images/' + post.image.file) : undefined,
+          keywords: post.tags ? [post.focus, ...(post.secondary || []), ...post.tags].filter(Boolean).join(', ') : undefined,
+        }),
+        faqNode(post.url, post.faq),
+      ])} />
 
       <Nav />
 
@@ -167,7 +159,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                   ))}
                 </article>
 
-                <PageFaq items={post.faq} heading="Frequently asked questions" />
+                <PageFaq items={post.faq} heading="Frequently asked questions" schema={false} />
 
                 {post.related && post.related.length > 0 && (
                   <section aria-labelledby="related-products" className="mt-14">

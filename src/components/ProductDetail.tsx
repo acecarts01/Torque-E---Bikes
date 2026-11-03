@@ -3,7 +3,6 @@
 import React, { useState } from 'react'
 import { useParams, notFound } from 'next/navigation'
 import SmartImage from '@/src/components/SmartImage'
-import JsonLd from '@/src/components/JsonLd'
 import ProductZoom from '@/src/components/ProductZoom'
 import { CATEGORIES, SHOP } from '@/src/config/site'
 import type { PRODUCTS } from '@/src/config/products'
@@ -71,14 +70,6 @@ export default function ProductDetail({ product, copy, h1, alt, faq = [], extras
 
   return (
     <div className="container mx-auto px-4">
-      <JsonLd type="Product" data={product} />
-      <JsonLd type="Breadcrumb" data={[
-        { name: 'Home', item: '/' },
-        { name: 'Inventory', item: '/shop/' },
-        { name: category?.name, item: `/shop/${product.category}/` },
-        { name: product.name, item: `/shop/${product.category}/${product.slug}/` }
-      ]} />
-      
       {/* Breadcrumbs */}
       <div className="mb-12">
         <nav className="flex items-center gap-3 text-[10px] font-black uppercase tracking-widest text-brand-gray">
@@ -225,7 +216,7 @@ export default function ProductDetail({ product, copy, h1, alt, faq = [], extras
 
       {extrasBottom}
       <RelatedGuides path={`/shop/${product.category}/${product.slug}/`} />
-      <PageFaq items={faq} heading={`${product.name} FAQs`} />
+      <PageFaq items={faq} heading={`${product.name} FAQs`} schema={false} />
     </div>
   )
 }

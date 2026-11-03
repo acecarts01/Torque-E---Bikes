@@ -3,13 +3,14 @@ import Nav from '@/src/components/Nav'
 import Hero from '@/src/components/Hero'
 import Footer from '@/src/components/Footer'
 import AnnouncementBar from '@/src/components/AnnouncementBar'
-import JsonLd from '@/src/components/JsonLd'
+import GraphLd from '@/src/components/GraphLd'
+import { buildGraph, orgNode, websiteNode, webPageNode, faqNode } from '@/src/lib/schemaGraph'
 import SmartImage from '@/src/components/SmartImage'
 import ProductCard from '@/src/components/ProductCard'
 import ReviewSlider from '@/src/components/ReviewSlider'
 import Link from 'next/link'
 import { ArrowRight, ShieldAlert, Cpu, Wrench, Package, Radio, Gauge } from 'lucide-react'
-import { CATEGORIES, BRAND } from '@/src/config/site'
+import { CATEGORIES, BRAND, SITE } from '@/src/config/site'
 import PageFaq from '@/src/components/PageFaq'
 import type { FaqItem } from '@/src/lib/faq'
 import { latestPosts } from '@/src/lib/blogIndex'
@@ -20,7 +21,7 @@ export default function HomeClient({ featuredProducts, homeFaq, abnSection }: { 
 
   return (
     <main className="flex-grow selection:bg-brand-red selection:text-[#140800]">
-      <JsonLd type="Organization" />
+      <GraphLd graph={buildGraph([orgNode(true), websiteNode(), webPageNode('/', { name: SITE.name, description: SITE.tagline, crumbs: false }), faqNode('/', homeFaq)])} />
       <AnnouncementBar />
       <Nav />
       <Hero />
@@ -134,7 +135,7 @@ export default function HomeClient({ featuredProducts, homeFaq, abnSection }: { 
       {abnSection}
 
       <section className="bg-brand-dark px-4 pb-24">
-        <PageFaq items={homeFaq} heading="Torque E-Bikes FAQs" />
+        <PageFaq items={homeFaq} heading="Torque E-Bikes FAQs" schema={false} />
       </section>
 
       {/* Heritage Section - Compacted */}

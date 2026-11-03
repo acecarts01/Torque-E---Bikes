@@ -4,11 +4,11 @@ import { ChevronDown } from 'lucide-react'
 import JsonLd from '@/src/components/JsonLd'
 import type { FaqItem } from '@/src/lib/faq'
 
-export default function PageFaq({ items, heading = 'Frequently asked questions' }: { items: FaqItem[]; heading?: string }) {
+export default function PageFaq({ items, heading = 'Frequently asked questions', schema = true }: { items: FaqItem[]; heading?: string; schema?: boolean }) {
   if (!items || !items.length) return null
   return (
     <section className="mt-24 max-w-4xl mx-auto" aria-labelledby="page-faq-heading">
-      <JsonLd type="FAQ" data={items.map(i => ({ question: i.q, answer: i.a }))} />
+      {schema && <JsonLd type="FAQ" data={items.map(i => ({ question: i.q, answer: i.a }))} />}
       <h2 id="page-faq-heading" className="text-3xl md:text-4xl font-black italic uppercase tracking-tighter text-white mb-8">{heading}</h2>
       <div className="divide-y divide-white/10 border-y border-white/10">
         {items.map((item, i) => (

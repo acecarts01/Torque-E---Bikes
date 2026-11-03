@@ -13,6 +13,9 @@ import NOINDEX from '@/src/config/noindex-products.json'
 import { notFound } from 'next/navigation'
 import { ProductToc, ProductExtras } from '@/src/components/ProductExtras'
 import { guideLinks } from '@/src/lib/blog'
+import GraphLd from '@/src/components/GraphLd'
+import { buildGraph, orgNode, websiteNode, webPageNode, breadcrumbNode, productNode, faqNode } from '@/src/lib/schemaGraph'
+import { CATEGORIES } from '@/src/config/site'
 
 export async function generateStaticParams() {
   return PRODUCTS.map((p) => ({
@@ -63,6 +66,13 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
       <AnnouncementBar />
       <Nav />
       <main className="flex-grow pt-32 pb-24">
+        <GraphLd graph={buildGraph([
+          orgNode(), websiteNode(),
+          webPageNode(path, { type: 'ItemPage', name: seo?.title || product.name, description: seo?.meta }),
+          breadcrumbNode(path, [{ name: 'Home', item: '/' }, { name: 'Inventory', item: '/shop/' }, { name: CATEGORIES.find(c => c.slug === product.category)?.name || product.category, item: '/shop/' + product.category + '/' }, { name: product.name, item: path }]),
+          productNode(path, product),
+          faqNode(path, faq),
+        ])} />
         <ProductDetail product={product} copy={(PRODUCT_COPY as Record<string, string[]>)[slug]} h1={seo?.h1} alt={heroAlt} faq={faq} extrasTop={<ProductToc items={toc} />} extrasBottom={<ProductExtras product={product} />} />
       </main>
       <Footer />

@@ -8,7 +8,6 @@ import ShopFilters from '@/src/components/ShopFilters'
 import { ProductCardSkeleton } from '@/src/components/Skeleton'
 import { CATEGORIES } from '@/src/config/site'
 import { ShieldAlert, LayoutGrid } from 'lucide-react'
-import JsonLd from '@/src/components/JsonLd'
 import PageFaq from '@/src/components/PageFaq'
 import RichText from '@/src/components/RichText'
 import RelatedGuides from '@/src/components/RelatedGuides'
@@ -71,11 +70,6 @@ export default function CategoryDetail({ slug, intro, products, h1, faq = [] }: 
 
   return (
     <div className="container mx-auto px-4">
-      <JsonLd type="Breadcrumb" data={[
-        { name: 'Home', item: '/' },
-        { name: 'Inventory', item: '/shop/' },
-        { name: category.name, item: `/shop/${category.slug}/` }
-      ]} />
       <section className="mb-16">
         <div className="bg-brand-accent p-8 md:p-12 border border-white/5 rounded-3xl relative overflow-hidden">
            <div className="absolute top-0 right-0 w-64 h-full bg-brand-red/5 blur-3xl rounded-full" />
@@ -166,7 +160,7 @@ export default function CategoryDetail({ slug, intro, products, h1, faq = [] }: 
       </div>
 
       <RelatedGuides path={`/shop/${category.slug}/`} />
-      <PageFaq items={faq} heading={`${category.name} FAQs`} />
+      <PageFaq items={faq} heading={`${category.name} FAQs`} schema={false} />
     </div>
   )
 }
