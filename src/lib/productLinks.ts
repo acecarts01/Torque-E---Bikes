@@ -7,6 +7,7 @@ import { getSeo } from '@/src/lib/seo'
 import { brandSlugs, slugify } from '@/src/lib/hubs'
 import { calcTotals, toCents } from '@/src/lib/pricing'
 import NOINDEX from '@/src/config/noindex-products.json'
+import GAP_LINKS from '@/src/config/gap-links.generated.json'
 
 type Product = (typeof PRODUCTS)[number]
 export type Link = { href: string; anchor: string; name?: string; price?: number }
@@ -14,6 +15,10 @@ export type Link = { href: string; anchor: string; name?: string; price?: number
 const hash = (s: string) => [...s].reduce((h, c) => (h * 31 + c.charCodeAt(0)) >>> 0, 7)
 const noindexed = new Set(NOINDEX as string[])
 const path = (p: Product) => `/shop/${p.category}/${p.slug}/`
+
+// Planned anchor text for specific source page -> target page links (scripts/gap-links.mjs, from docs/link-plan.csv). Overrides the keyword-pool anchor when present.
+const PLANNED = GAP_LINKS as Record<string, Record<string, string>>
+const planned = (p: Product, href: string): string | undefined => PLANNED[path(p)]?.[href]
 
 // A transactional or commercial anchor for a product: one of its own secondary keywords (buy / for sale / online / price), else "buy <name>".
 function productAnchor(p: Product, salt: string): string {
@@ -27,7 +32,8 @@ export function categoryLink(p: Product): Link | null {
   if (!cat) return null
   const kw = (getSeo(`/shop/${p.category}/`)?.kw as string[] | undefined) || []
   const pool = kw.slice(0, 6)
-  return { href: `/shop/${p.category}/`, anchor: pool.length ? pool[hash(p.slug) % pool.length] : cat.name.toLowerCase() }
+  const href = `/shop/${p.category}/`
+  return { href, anchor: planned(p, href) || (pool.length ? pool[hash(p.slug) % pool.length] : cat.name.toLowerCase()) }
 }
 
 export function brandLink(p: Product): Link | null {
@@ -36,7 +42,8 @@ export function brandLink(p: Product): Link | null {
   if (!brandSlugs().includes(slug)) return null
   const kw = (getSeo(`/brands/${slug}/`)?.kw as string[] | undefined) || []
   const pool = kw.filter(k => /\b(australia|price|buy|sale|electric|e bike|bike)\b/.test(k)).slice(0, 6)
-  return { href: `/brands/${slug}/`, anchor: pool.length ? pool[hash(p.slug) % pool.length] : `${p.brand} in Australia` }
+  const href = `/brands/${slug}/`
+  return { href, anchor: planned(p, href) || (pool.length ? pool[hash(p.slug) % pool.length] : `${p.brand} in Australia`) }
 }
 
 // Four related products from the same category with the nearest prices, plus up to two more from the same brand. Indexable pages only.
@@ -45,7 +52,7 @@ export function relatedProducts(p: Product): Link[] {
   const sameCat = PRODUCTS.filter(q => ok(q) && q.category === p.category).sort((a, b) => Math.abs(a.price - p.price) - Math.abs(b.price - p.price)).slice(0, 4)
   const seen = new Set(sameCat.map(q => q.slug))
   const sameBrand = p.brand && p.brand !== 'TBC' ? PRODUCTS.filter(q => ok(q) && q.brand === p.brand && !seen.has(q.slug)).sort((a, b) => Math.abs(a.price - p.price) - Math.abs(b.price - p.price)).slice(0, 2) : []
-  return [...sameCat, ...sameBrand].map(q => ({ href: path(q), anchor: productAnchor(q, p.slug), name: q.name, price: q.price }))
+  return [...sameCat, ...sameBrand].map(q => ({ href: path(q), anchor: planned(p, path(q)) || productAnchor(q, p.slug), name: q.name, price: q.price }))
 }
 
 // What the buyer pays for this product alone, from the same maths the checkout uses (shipping 10% of goods, free from the threshold, crypto discount on goods plus shipping).
