@@ -1,0 +1,134 @@
+# query|status|rows|first3 relevance rows + top2 by volume (keyword:intent:volume:KD). Fresh page load, unfiltered, AU database. 6 Nov 2026
+ktm freeride e|ok|100|ktm freeride e:I:110:13;freeride e ktm:I:110:17;e freeride ktm:I:110:13;ktm freeride electric:I:110:19
+e ride pro sr|ok|100|e ride pro sr:I:480:9;e-ride pro sr:I:110:14;e ride pro 2.0:C:90:12;eride pro sr:I:590:9
+bonnell 775|ok|100|bonnell 775:IT:170:15;bonnell 775 mx:I:1900:15;bonnell 775 mx australia:C:590:14;bonnel 775 mx:I:390:15
+husqvarna ee5|empty|0|
+giant fathom|ok|100|giant fathom:C:720:23;giant fathom e bike:-:79:40
+yeti 160e|ok|100|yeti 160e:-:50:n/a;yeti mte:C:110:9;yeti sb140:N:170:25
+trek domane|ok|100|trek domane:N:1300:27;trek domane sl5:TN:140:22
+canyon citylite|empty|0|
+grand canyon on|empty|0|
+canyon pathlite|empty|0|
+canyon torque on|empty|0|
+canyon strive on|empty|0|
+ncm milano|ok|14|ncm milano:C:210:13;ncm electric bicycle:I:320:10;nmc ebike:I:140:14
+et cycle f720|ok|5|et cycle f720:I:90:6;et.cycle f720:I:90:4;et cycle t720:I:50:10
+fatboy bagus|ok|63|fatboy bagus:I:1300:19;fat boy bagus:I:260:14;bagus fatboy:I:170:23
+79bike foot pegs|empty|0|
+79bike underseat plastic|empty|0|
+79bike rear fender|empty|0|
+79bike rear sprocket|empty|0|
+ampd bros stubbie|empty|0|
+dirodi rover|ok|100|dirodi rover:N:1900:24;dirodi pro:C:210:7;dirodi:TN:9900:24
+cruzr trigger|ok|100|cruzr trigger:T:110:17;cruzr trigger gen 2:C:210:9
+cruzr grom|ok|100|cruzr grom:IT:320:10;cruzr stoke:I:320:6;cruzr grom electric bike:IT:70:7
+flight risk fr505|empty|0|
+flight risk fr888|empty|0|
+e ride pro mini|ok|100|e ride pro mini:C:720:16;mini e ride pro:C:170:14;mini e-ride pro:C:90:7
+dhz 2200e|ok|100|dhz 2200e:IT:390:10;dhz electric bike:IT:140:11;dhz ebike:T:170:14
+fatboy scrambler|ok|100|fatboy scrambler:IT:4400:23;fat boy scrambler:IT:480:20;scrambler fatboy:IT:170:17
+rerode r1|empty|0|
+ampd bros taipan|empty|0|
+moov8 x|empty|0|
+sherco eb12|ok|100|sherco eb12:C:110:6;sherco eb16:T:110:6;sherco eb20:IT:90:7
+79bike viper|empty|0|
+79bike falcon pro|ok|12|79bike falcon pro:I:480:9;79 falcon pro:IT:390:17;79 bikes falcon pro:I:260:5
+79bike bare wheel|empty|0|
+ncm moscow|ok|4|ncm moscow:I:210:10;ncm moscow m3:I:170:13
+talaria komodo|empty|0|
+79bike connecting triangle|empty|0|
+79bike hydraulic brake|empty|0|
+79bike bottom bracket|empty|0|
+talaria comodo|empty|0|
+79bike rear swingarm|empty|0|
+79bike dc power|empty|0|
+sur ron usb port|empty|0|
+sur ron charger|ok|1|sur ron charger:C:70:17
+mamba savannah|ok|9|NO savannah row; neighbours only: mamba sahara:I:1300:5;mamba sahara ebike:C:320:4
+orbit mirror bike|empty|0|
+krush degreaser|empty|0|
+azur pannier|empty|0|
+bang bang crate|empty|0|
+fatboy harlem|ok|64|fatboy harlem:IT:720:14;fat boy harlem:IT:210:21;harlem fatboy:IT:110:20
+fatboy scrambler harlem|empty|0|
+100% itrack gloves|empty|0|
+fatboy scrambler headlight|empty|0|
+hidrop helmet|empty|0|
+ace x joey seat|empty|0|
+bang bang cruiser|empty|0|
+fatboy battery|empty|0|
+bonnell sprocket|empty|0|
+bonnell battery|empty|0|
+ace x demon|ok|10|ace x demon:I:50:3;ace demon:I:70:5;ace x:I:50:5
+yozma in10|empty|0|
+azur optic mirror|empty|0|
+azur focus mirror|empty|0|
+kovix lock|ok|2|kovix lock:NC:90:3;kovix hitch pin lock:I:110:11
+azur waterproof pannier|empty|0|
+fatboy chain|empty|0|
+fatboy controller|empty|0|
+quad lock s24 case|empty|0|
+quad lock out front mount|ok|2|quad lock out front mount:C:210:16;quad lock out front mount pro:IT:50:14
+ride shotgun seat|empty|0|
+ampd bros chubbie|empty|0|
+lezyne lever kit|empty|0|
+cannondale moterra|ok|1|cannondale moterra:TN:140:22
+torque arms ebike|empty|0|
+sur ron throttle|ok|6|sur ron throttle:C:320:6;surron throttle:C:1600:7;surron throttles:I:210:2
+500w ebike conversion kit|timeout|0|RECHECK
+500w ebike conversion kit|timeout|0|RECHECK2
+ampd bros ace s|timeout|0|RECHECK
+79bike apparel|empty|0|
+azur basket|empty|0|
+basil crate|ok|100|basil crate:C:110:4;basil bicycle crate:C:70:4;basil bike crate:T:70:3
+thule euroway|empty|0|
+azur saddle cover|empty|0|
+ride shotgun 2.0|empty|0|
+azur kappa|empty|0|
+20x4 inner tube schrader|empty|0|
+ampd bros ace adventure|empty|0|
+ampd bros ace mini|empty|0|
+ktm macina|empty|0|
+pedal warrior|empty|0|
+79bike falcon pro fork|empty|0|
+ampd bros footpegs|empty|0|
+dhz kids dirt bike|empty|0|
+cube touring hybrid one|empty|0|
+100 percent itrack|empty|0|
+niterider lumina 1200|empty|0|
+ride shotgun handlebar|empty|0|
+crankbrothers stamp 1|empty|0|
+sur ron (canary, tool still returns data)|ok|100|sur ron:N:1000:37
+abus smiley|empty|0|
+livall bh60|empty|0|
+fatboy front wheel|empty|0|
+cube touring hybrid|empty|0|
+marin alpine trail|ok|100|marin alpine trail:C:480:20;marin alpine trail xr:I:480:18;marin bikes alpine trail:I:390:18 (model family; e1/e2 not separately shown)
+aventon level 4|empty|0|
+aventon ramblas|empty|0|
+fatboy charger|empty|0|
+e ride pro battery|empty|0|
+rock n roll lube|ok|100|rock n roll lube:C:90:7;rock and roll gold lube:IC:110:10;rock roll gold chain lube:C:110:9
+fatboy pas sensor|empty|0|
+crankbrothers stamp|empty|0|
+kona coco|empty|0|
+electric folding trike|empty|0|
+electric trike adults|empty|0|
+retro electric city bike|empty|0|
+hardtail electric mountain bike|ok|100|hardtail electric mountain bike:C:110:8;hardtail e bike:C:70:6;hardtail mountain bike:C:1300:18
+canyon strive|ok|100|canyon strive:C:480:26 (model alone pass)
+canyon torque|ok|100|canyon torque:TN:880:20;torque canyon:TN:390:18 (model alone pass)
+canyon pathlite|empty|0| (second pass)
+canyon grand canyon|ok|100|canyon grand canyon:NC:90:34 (rest are hiking noise)
+flight risk|ok|100|only the movie/phrase meaning (9.9K KD61, not the bike); no bike rows in top results
+rerode|empty|0| (second pass, brand alone)
+moov8|ok|100|moov8:N:70:17;moov8 electric bike:TN:50:15
+husqvarna e bicycle|empty|0| (second pass)
+taipan ebike|empty|0| (second pass)
+yozma|empty|0| (second pass)
+aventon level|empty|0| (second pass)
+ampd bros|ok|100|brand only: ampd bros:N:3600:23;ampd bros ebike:TN:1000:26
+ampd bros ace|ok|100|ampd bros ace:I:170:17;ampd bros ace x:I:50:16;ampd bros ace x plus:C:50:13
+ebike conversion kit 500w|empty|0| (500w ebike conversion kit also timed out twice: unconfirmed)
+e ride pro charger|empty|0|
+e ride pro e7|empty|0|

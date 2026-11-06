@@ -1252,7 +1252,6 @@ url,type,role,keyword,volume,kd,intent,source
 /brands/e-ride-pro/,brand-hub,secondary,custom eride pro ss,20,5,Transactional,KM
 /brands/e-ride-pro/,brand-hub,secondary,e ride pro 2.0 price,20,6,Transactional,KM
 /brands/e-ride-pro/,brand-hub,secondary,e ride pro 3.0 for sale,20,6,Transactional,KM
-/brands/e-ride-pro/,brand-hub,lsi,e ride pro mini,720,6,Navigational,competitor
 /brands/e-ride-pro/,brand-hub,lsi,e ride pro s,170,17,Navigational,KM
 /brands/e-ride-pro/,brand-hub,lsi,e ride pro australia,170,3,Navigational,KM
 /brands/e-ride-pro/,brand-hub,lsi,eride pro 2.0,140,15,Navigational,competitor
@@ -1713,11 +1712,12 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-dirt-bikes/altis-sigma/,product,secondary,altis sigma for sale,,,Transactional,generated
 /shop/electric-dirt-bikes/altis-sigma/,product,secondary,altis sigma review,,,Commercial,generated
 /shop/electric-dirt-bikes/altis-sigma/,product,secondary,altis sigma online,,,Transactional,generated
-/shop/electric-dirt-bikes/bonnell-775-mx/,product,primary,bonnell 775,170,15,Transactional,competitor
-/shop/electric-dirt-bikes/bonnell-775-mx/,product,secondary,bonnell 775 mx australia for sale,30,9,Transactional,semrush-2026-10-18
-/shop/electric-dirt-bikes/bonnell-775-mx/,product,secondary,bonnell 775 australia,20,6,Transactional,KM
+/shop/electric-dirt-bikes/bonnell-775-mx/,product,primary,bonnell 775 mx australia,590,14,Commercial,semrush-2026-11-06
 /shop/electric-dirt-bikes/bonnell-775-mx/,product,secondary,bonnell 775 mx,1900,6,Commercial,KM
 /shop/electric-dirt-bikes/bonnell-775-mx/,product,secondary,bonnel 775 mx,390,15,Commercial,competitor
+/shop/electric-dirt-bikes/bonnell-775-mx/,product,secondary,bonnell 775,170,15,Transactional,competitor
+/shop/electric-dirt-bikes/bonnell-775-mx/,product,secondary,bonnell 775 mx australia for sale,30,9,Transactional,semrush-2026-10-18
+/shop/electric-dirt-bikes/bonnell-775-mx/,product,secondary,bonnell 775 australia,20,6,Transactional,KM
 /shop/electric-dirt-bikes/ssr-sr-e8-pro/,product,primary,ssr sr-e8 pro price australia,,,Transactional,generated
 /shop/electric-dirt-bikes/ssr-sr-e8-pro/,product,secondary,buy ssr sr-e8 pro,,,Transactional,generated
 /shop/electric-dirt-bikes/ssr-sr-e8-pro/,product,secondary,ssr sr-e8 pro for sale,,,Transactional,generated
@@ -1853,7 +1853,8 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-mountain-bikes/giant-reign-e-pro/,product,secondary,giant reign e+ pro for sale,,,Transactional,generated
 /shop/electric-mountain-bikes/giant-reign-e-pro/,product,secondary,giant reign e+ pro review,,,Commercial,generated
 /shop/electric-mountain-bikes/giant-reign-e-pro/,product,secondary,giant reign e+ pro online,,,Transactional,generated
-/shop/electric-mountain-bikes/giant-fathom-e-1-pro/,product,primary,giant fathom e+ 1 pro price australia,,,Transactional,generated
+/shop/electric-mountain-bikes/giant-fathom-e-1-pro/,product,primary,giant fathom,720,23,Commercial,semrush-2026-11-06
+/shop/electric-mountain-bikes/giant-fathom-e-1-pro/,product,secondary,giant fathom e+ 1 pro price australia,,,Transactional,generated
 /shop/electric-mountain-bikes/giant-fathom-e-1-pro/,product,secondary,buy giant fathom e+ 1 pro,,,Transactional,generated
 /shop/electric-mountain-bikes/giant-fathom-e-1-pro/,product,secondary,giant fathom e+ 1 pro for sale,,,Transactional,generated
 /shop/electric-mountain-bikes/giant-fathom-e-1-pro/,product,secondary,giant fathom e+ 1 pro review,,,Commercial,generated
@@ -2548,11 +2549,12 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/fat-tyre-and-scrambler-e-bikes/fatboy-harlem-v2-e-bike/,product,secondary,fatboy harlem v2 e-bike for sale,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/fatboy-harlem-v2-e-bike/,product,secondary,fatboy harlem v2 e-bike review,,,Commercial,generated
 /shop/fat-tyre-and-scrambler-e-bikes/fatboy-harlem-v2-e-bike/,product,secondary,fatboy harlem v2 e bike price australia,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/e-ride-pro-mini/,product,primary,e ride pro mini price australia,,,Transactional,generated
+/shop/kids-electric-dirt-and-balance-bikes/e-ride-pro-mini/,product,primary,e ride pro mini,720,16,Commercial,semrush-2026-11-06
+/shop/kids-electric-dirt-and-balance-bikes/e-ride-pro-mini/,product,secondary,mini e ride pro,170,14,Commercial,semrush-2026-11-06
+/shop/kids-electric-dirt-and-balance-bikes/e-ride-pro-mini/,product,secondary,mini e-ride pro,90,7,Commercial,semrush-2026-11-06
 /shop/kids-electric-dirt-and-balance-bikes/e-ride-pro-mini/,product,secondary,buy e ride pro mini,,,Transactional,generated
 /shop/kids-electric-dirt-and-balance-bikes/e-ride-pro-mini/,product,secondary,e ride pro mini for sale,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/e-ride-pro-mini/,product,secondary,e ride pro mini review,,,Commercial,generated
-/shop/kids-electric-dirt-and-balance-bikes/e-ride-pro-mini/,product,secondary,e ride pro mini online,,,Transactional,generated
+/shop/kids-electric-dirt-and-balance-bikes/e-ride-pro-mini/,product,secondary,e ride pro mini price australia,,,Transactional,generated
 /shop/kids-electric-dirt-and-balance-bikes/dhz-2200e-electric-dirt-bike/,product,primary,dhz 2200e,390,10,Transactional,competitor
 /shop/kids-electric-dirt-and-balance-bikes/dhz-2200e-electric-dirt-bike/,product,secondary,dhz 2200e electric bike,90,12,Commercial,competitor
 /shop/kids-electric-dirt-and-balance-bikes/dhz-2200e-electric-dirt-bike/,product,secondary,dhz 2200e review,20,5,Commercial,KM
@@ -2873,11 +2875,12 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/sur-ron-spares/sur-ron-usb-charging-port/,product,secondary,sur ron charging,20,3,Commercial,KM
 /shop/sur-ron-spares/sur-ron-usb-charging-port/,product,secondary,buy sur-ron usb charging port,,,Transactional,generated
 /shop/sur-ron-spares/sur-ron-usb-charging-port/,product,secondary,sur-ron usb charging port for sale,,,Transactional,generated
-/shop/batteries-chargers-and-electronics/sur-ron-60v-10a-charger/,product,primary,surron 60v charger,20,1,Transactional,KM
+/shop/batteries-chargers-and-electronics/sur-ron-60v-10a-charger/,product,primary,surron charger,90,4,Commercial,KM
+/shop/batteries-chargers-and-electronics/sur-ron-60v-10a-charger/,product,secondary,sur ron charger,70,17,Commercial,semrush-2026-11-06
+/shop/batteries-chargers-and-electronics/sur-ron-60v-10a-charger/,product,secondary,surron 60v charger,20,1,Transactional,KM
 /shop/batteries-chargers-and-electronics/sur-ron-60v-10a-charger/,product,secondary,sur ron battery charger,20,2,Transactional,KM
 /shop/batteries-chargers-and-electronics/sur-ron-60v-10a-charger/,product,secondary,sur ron electric bike charger,20,3,Transactional,KM
 /shop/batteries-chargers-and-electronics/sur-ron-60v-10a-charger/,product,secondary,sur ron fast charger,20,4,Transactional,KM
-/shop/batteries-chargers-and-electronics/sur-ron-60v-10a-charger/,product,secondary,surron charger,90,4,Commercial,KM
 /shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/,product,primary,dyu d3+ smart electric bike black price australia,,,Transactional,generated
 /shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/,product,secondary,buy dyu d3+ smart electric bike black,,,Transactional,generated
 /shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/,product,secondary,dyu d3+ smart electric bike black for sale,,,Transactional,generated
@@ -3248,7 +3251,8 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/phone-mounts-mirrors-and-audio/mirror-azur-focus-anti-glare/,product,secondary,mirror azur focus anti glare for sale,,,Transactional,generated
 /shop/phone-mounts-mirrors-and-audio/mirror-azur-focus-anti-glare/,product,secondary,mirror azur focus anti glare review,,,Commercial,generated
 /shop/phone-mounts-mirrors-and-audio/mirror-azur-focus-anti-glare/,product,secondary,mirror azur focus anti glare online,,,Transactional,generated
-/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/,product,primary,kovix steel thunder alarmed folding lock price australia,,,Transactional,generated
+/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/,product,primary,kovix lock,90,3,Commercial,semrush-2026-11-06
+/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/,product,secondary,kovix steel thunder alarmed folding lock price australia,,,Transactional,generated
 /shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/,product,secondary,buy kovix steel thunder alarmed folding lock,,,Transactional,generated
 /shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/,product,secondary,kovix steel thunder alarmed folding lock for sale,,,Transactional,generated
 /shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/,product,secondary,kovix steel thunder alarmed folding lock review,,,Commercial,generated
@@ -3358,7 +3362,8 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/,product,secondary,torque arms 1500w-5000w kits for sale,,,Transactional,generated
 /shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/,product,secondary,torque arms 1500w-5000w kits review,,,Commercial,generated
 /shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/,product,secondary,torque arms 1500w-5000w kits online,,,Transactional,generated
-/shop/controls-grips-and-pedals/plug-and-play-sur-ron-style-throttle/,product,primary,surron throttle,1300,6,Commercial,competitor
+/shop/controls-grips-and-pedals/plug-and-play-sur-ron-style-throttle/,product,primary,surron throttle,1600,7,Commercial,semrush-2026-11-06
+/shop/controls-grips-and-pedals/plug-and-play-sur-ron-style-throttle/,product,secondary,sur ron throttle,320,6,Commercial,semrush-2026-11-06
 /shop/controls-grips-and-pedals/plug-and-play-sur-ron-style-throttle/,product,secondary,buy plug & play sur-ron style throttle,,,Transactional,generated
 /shop/controls-grips-and-pedals/plug-and-play-sur-ron-style-throttle/,product,secondary,plug & play sur-ron style throttle for sale,,,Transactional,generated
 /shop/controls-grips-and-pedals/plug-and-play-sur-ron-style-throttle/,product,secondary,plug & play sur-ron style throttle review,,,Commercial,generated
@@ -3483,11 +3488,12 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/racks-bags-and-trailers/azur-quick-release-shopper-e-bike-mesh-basket/,product,secondary,azur quick release shopper e-bike mesh basket for sale,,,Transactional,generated
 /shop/racks-bags-and-trailers/azur-quick-release-shopper-e-bike-mesh-basket/,product,secondary,azur quick release shopper e-bike mesh basket review,,,Commercial,generated
 /shop/racks-bags-and-trailers/azur-quick-release-shopper-e-bike-mesh-basket/,product,secondary,azur quick release shopper e-bike mesh basket online,,,Transactional,generated
-/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/,product,primary,basil bicycle crate medium 29.5l black price australia,,,Transactional,generated
+/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/,product,primary,basil crate,110,4,Commercial,semrush-2026-11-06
+/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/,product,secondary,basil bike crate,70,3,Transactional,semrush-2026-11-06
+/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/,product,secondary,basil bicycle crate,70,4,Commercial,semrush-2026-11-06
+/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/,product,secondary,basil bicycle crate medium 29.5l black price australia,,,Transactional,generated
 /shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/,product,secondary,buy basil bicycle crate medium 29.5l black,,,Transactional,generated
 /shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/,product,secondary,basil bicycle crate medium 29.5l black for sale,,,Transactional,generated
-/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/,product,secondary,basil bicycle crate medium 29.5l black review,,,Commercial,generated
-/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/,product,secondary,basil bicycle crate medium 29.5l black online,,,Transactional,generated
 /shop/racks-bags-and-trailers/thule-euroway-g2-2-bike-towbar-carrier/,product,primary,thule bike carrier,1600,22,Transactional,competitor
 /shop/racks-bags-and-trailers/thule-euroway-g2-2-bike-towbar-carrier/,product,secondary,thule cycle carrier,480,29,Transactional,competitor
 /shop/racks-bags-and-trailers/thule-euroway-g2-2-bike-towbar-carrier/,product,secondary,thule euroway g2,90,10,Commercial,competitor
@@ -4278,6 +4284,7 @@ url,type,role,keyword,volume,kd,intent,source
 /brands/vamos/,brand-hub,secondary,vamos amigo plus,30,4,Informational,semrush-2026-10-18
 /shop/care-tools-and-hydration/rock-n-roll-gold-chain-lube-117ml/,product,primary,bike chain lubing,320,22,Commercial,semrush-2026-10-18
 /shop/care-tools-and-hydration/rock-n-roll-gold-chain-lube-117ml/,product,secondary,lubing chain bike,320,17,Commercial,semrush-2026-10-18
+/shop/care-tools-and-hydration/rock-n-roll-gold-chain-lube-117ml/,product,secondary,rock and roll gold lube,110,10,Commercial,semrush-2026-11-06
 /shop/care-tools-and-hydration/rock-n-roll-gold-chain-lube-117ml/,product,secondary,chain lube bike,90,21,Commercial,semrush-2026-10-18
 /shop/care-tools-and-hydration/rock-n-roll-gold-chain-lube-117ml/,product,secondary,bike lube chain,50,13,Commercial,semrush-2026-10-18
 /shop/care-tools-and-hydration/rock-n-roll-gold-chain-lube-117ml/,product,secondary,rock n roll gold chain lube 117ml price australia,,,Transactional,generated

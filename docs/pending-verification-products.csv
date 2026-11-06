@@ -1,0 +1,137 @@
+slug,name,brand,category,price,indexed,queries_pending
+ktm-freeride-e-xc,KTM Freeride E-XC,KTM,electric-dirt-bikes,16995,indexable,no model query built
+e-ride-pro-sr,E Ride Pro SR,E Ride Pro,electric-dirt-bikes,8069,indexable,no model query built
+bonnell-775-mx,Bonnell 775 MX,Bonnell,electric-dirt-bikes,8069,indexable,no model query built
+husqvarna-ee-5,Husqvarna EE 5,Husqvarna,electric-dirt-bikes,7450,indexable,no model query built
+giant-fathom-e-1-pro,Giant Fathom E+ 1 Pro,Giant,electric-mountain-bikes,5499,indexable,no model query built
+yeti-160e-t2,Yeti 160E T2,Yeti,electric-mountain-bikes,16500,indexable,yeti 160e: 100 rows
+trek-domane-alr-5,Trek Domane+ ALR 5,Trek,road-and-gravel-e-bikes,6299,indexable,trek domane: 100 rows
+canyon-citylite-on,Canyon Citylite:ON,Canyon,commuter-and-urban-e-bikes,3899,indexable,no model query built
+canyon-grand-canyon-on,Canyon Grand Canyon:ON,Canyon,commuter-and-urban-e-bikes,4899,indexable,no model query built
+canyon-pathlite-on,Canyon Pathlite:ON,Canyon,commuter-and-urban-e-bikes,4199,indexable,no model query built
+canyon-torque-on,Canyon Torque:ON,Canyon,commuter-and-urban-e-bikes,7999,indexable,no model query built
+canyon-strive-on,Canyon Strive:ON,Canyon,commuter-and-urban-e-bikes,8499,indexable,no model query built
+electric-folding-trike-blue,Electric Folding Trike Blue,TBC,cargo-bikes-and-e-trikes,2299,indexable,no model query built
+electric-step-through-trike-grey,Electric Step-Through Trike Grey,TBC,cargo-bikes-and-e-trikes,2499,indexable,electric trike: 100 rows
+ncm-milano-step-through-trekking-e-bike,NCM Milano Step-Through Trekking E-Bike,NCM,commuter-and-urban-e-bikes,1999,indexable,ncm milano: 100 rows
+et-cycle-f720-foldable-e-bike,ET Cycle F720 Foldable E-Bike,ET Cycle,folding-e-bikes,1789,indexable,et cycle f720: 100 rows
+electric-trike-various,Electric Trike (various),TBC,cargo-bikes-and-e-trikes,2199,indexable,electric trike: 100 rows
+fatboy-headlight-bagus,Fatboy Headlight (Bagus),Fatboy,lights-and-horns,179,noindex,no model query built
+79bike-foot-pegs,79Bike Foot Pegs,79Bike,seats-fenders-and-body,93.95,noindex,79bike foot: failed
+79bike-underseat-plastic,79Bike Underseat Plastic,79Bike,seats-fenders-and-body,66.95,noindex,79bike underseat: failed
+79bike-rear-fender,79Bike Rear Fender,79Bike,seats-fenders-and-body,52.95,noindex,79bike rear: failed
+79bike-rear-sprocket,79Bike Rear Sprocket,79Bike,motors-drivetrain-and-sprockets,79.95,indexable,79bike rear: failed
+hardtail-e-mtb-black,Hardtail E-MTB Black,TBC,electric-mountain-bikes,2199,indexable,no model query built
+electric-folding-trike-red-with-backrest,Electric Folding Trike Red with Backrest,TBC,cargo-bikes-and-e-trikes,2399,indexable,electric trike: 100 rows
+electric-trike-green-with-seat,Electric Trike Green with Seat,TBC,cargo-bikes-and-e-trikes,2399,indexable,electric trike: 100 rows
+stubbie-s-s3-electric-bike,Stubbie-S S3 Electric Bike,Ampd Bros,fat-tyre-and-scrambler-e-bikes,2459,indexable,no model query built
+dirodi-rover-gen6,Dirodi Rover GEN6,DiroDi,fat-tyre-and-scrambler-e-bikes,2359,indexable,no model query built
+cruzr-trigger-gen3,Cruzr Trigger GEN3,Cruzr,fat-tyre-and-scrambler-e-bikes,2359,indexable,no model query built
+cruzr-grom-gen2,Cruzr Grom GEN2,Cruzr,kids-and-youth-e-bikes,1989,indexable,no model query built
+flight-risk-fr505,Flight Risk FR505,Flight Risk,fat-tyre-and-scrambler-e-bikes,2429,indexable,no model query built
+flight-risk-fr888,Flight Risk FR888,Flight Risk,fat-tyre-and-scrambler-e-bikes,3419,indexable,no model query built
+e-ride-pro-mini,E Ride Pro Mini,E Ride Pro,kids-electric-dirt-and-balance-bikes,4739,indexable,no model query built
+dhz-2200e-electric-dirt-bike,DHZ 2200E Electric Dirt Bike,DHZ,kids-electric-dirt-and-balance-bikes,1759,indexable,no model query built
+fat-scrambler-e-bike-cream,Fat Scrambler E-Bike Cream,Fatboy,fat-tyre-and-scrambler-e-bikes,2199,indexable,no model query built
+rerode-r1-electric-dirt-bike,Rerode R1 Electric Dirt Bike,Rerode,electric-dirt-bikes,5699,indexable,rerode r1 dirt: failed
+ampd-bros-taipan-electric-bike,Ampd Bros Taipan Electric Bike,Ampd Bros,fat-tyre-and-scrambler-e-bikes,3599,indexable,no model query built
+moov8-x-electric-bike-22x,Moov8 X Electric Bike 22X,Moov8,folding-e-bikes,1899,indexable,moov8 22x: failed
+sherco-eb12-kids-electric-balance-bike,Sherco EB12 Kids Electric Balance Bike,Sherco,kids-electric-dirt-and-balance-bikes,619,indexable,sherco eb12: 100 rows
+79bike-viper-s-electric-dirt-bike,79Bike Viper S Electric Dirt Bike,79Bike,electric-dirt-bikes,949,indexable,79bike viper: failed
+79bike-falcon-pro-motor,79Bike Falcon Pro Motor,79Bike,motors-drivetrain-and-sprockets,1350,indexable,no model query built
+79bike-bare-wheel-rim,79Bike Bare Wheel Rim,79Bike,wheels-tyres-and-tubes,299,noindex,79bike bare: failed
+retro-step-through-city-e-bike-brown-tyres,Retro Step-Through City E-Bike (brown tyres),TBC,commuter-and-urban-e-bikes,1799,indexable,retro city: failed
+trail-step-over-e-mtb-black-tbc,Trail Step-Over E-MTB Black (TBC),TBC,electric-mountain-bikes,2499,indexable,trail over: failed
+ncm-moscow-plus-e-mtb,NCM Moscow Plus E-MTB,NCM,electric-mountain-bikes,1759,indexable,no model query built
+talaria-komodo-2026-edition,Talaria Komodo 2026 Edition,Talaria,electric-dirt-bikes,9499,indexable,talaria komodo: 100 rows
+79bike-connecting-triangle-pieces,79Bike Connecting Triangle Pieces,79Bike,seats-fenders-and-body,66.95,noindex,79bike connecting: failed
+79bike-hydraulic-brake-set,79Bike Hydraulic Brake Set,79Bike,brakes,220,noindex,79bike hydraulic: failed
+79bike-bottom-bracket-assembly,79Bike Bottom Bracket Assembly,79Bike,motors-drivetrain-and-sprockets,229,noindex,79bike bottom: failed
+79bike-falcon-pro-stickers,79Bike Falcon Pro Stickers,79Bike,seats-fenders-and-body,66.95,noindex,no model query built
+79bike-rear-swingarm-assembly,79Bike Rear Swingarm Assembly,79Bike,sur-ron-spares,709,noindex,79bike rear: failed
+79bike-dc-power-cable,79Bike DC Power Cable,79Bike,batteries-chargers-and-electronics,65,noindex,79bike dc power: failed
+sur-ron-usb-charging-port,Sur-Ron USB Charging Port,Sur-Ron,sur-ron-spares,33.95,noindex,sur ron usb: failed
+sur-ron-60v-10a-charger,Sur-Ron 60V 10A Charger,Sur-Ron,batteries-chargers-and-electronics,349,indexable,sur ron 10a: failed
+mamba-savannah-26-step-through-commuter,"Mamba Savannah 26"" Step-Through Commuter",Mamba,commuter-and-urban-e-bikes,1899,indexable,mamba savannah: 100 rows
+mirror-orbit-anti-glare,Mirror Orbit Anti Glare,E-Move Bikes,phone-mounts-mirrors-and-audio,42.95,indexable,mirror orbit: failed
+krush-ultra-drivetrain-degreaser,Krush Ultra Drivetrain Degreaser,Krush,care-tools-and-hydration,23.95,indexable,krush ultra: failed
+azur-cargo-bike-double-pannier,Azur Cargo Bike Double Pannier,Azur,racks-bags-and-trailers,179,indexable,azur cargo: failed
+bang-bang-crate-basket,Bang Bang Crate Basket,Fatboy,racks-bags-and-trailers,80.95,indexable,bang bang: failed
+fatboy-controller-v1-scrambler-and-harlem,Fatboy Controller V1 Scrambler & Harlem,Fatboy,batteries-chargers-and-electronics,239,noindex,fatboy controller: failed
+100-itrack-gloves-bandana,100% Itrack Gloves Bandana,100%,helmets-gloves-and-protection,38.95,indexable,100 itrack: failed
+fatboy-handlebar-scrambler-harlem-v2,Fatboy Handlebar Scrambler / Harlem V2,Fatboy,controls-grips-and-pedals,109,noindex,no model query built
+hidrop-helmet-midnight-blue,Hidrop Helmet (Midnight Blue),Hidrop,helmets-gloves-and-protection,279,indexable,hidrop helmet: failed
+fatboy-headlight-v1-scrambler-harlem,Fatboy Headlight (V1 Scrambler / Harlem),Fatboy,lights-and-horns,139,indexable,fatboy headlight: failed
+kids-joey-seat-kit,Kids Joey Seat Kit,ACE-X,seats-fenders-and-body,139,indexable,no model query built
+bang-bang-cruiser-set,Bang Bang Cruiser Set,Fatboy,seats-fenders-and-body,129,indexable,bang bang: failed
+bonnell-775-mx-custom-sprockets,Bonnell 775 MX Custom Sprockets,Bonnell,motors-drivetrain-and-sprockets,47.95,indexable,no model query built
+bonnell-775-mx-a65-battery,Bonnell 775 MX A65 Battery,Bonnell,batteries-chargers-and-electronics,1799,indexable,no model query built
+ace-x-demon-s5-dual-electric-bike,ACE-X Demon S5 Dual Electric Bike,Ampd Bros,fat-tyre-and-scrambler-e-bikes,4649,indexable,ace demon: 100 rows
+79bike-viper-s-replacement-display,79Bike Viper S Replacement Display,79Bike,controls-grips-and-pedals,119,indexable,79bike viper: failed
+yozma-in-10-electric-mini-dirt-bike,Yozma IN 10 Electric Mini Dirt Bike,Yozma,electric-dirt-bikes,2089,indexable,no model query built
+azur-optic-mirror-anti-glare,Azur Optic Mirror Anti Glare,Azur,phone-mounts-mirrors-and-audio,37.95,indexable,azur optic: not run
+mirror-azur-focus-anti-glare,Mirror Azur Focus Anti Glare,Azur,phone-mounts-mirrors-and-audio,42.95,indexable,mirror azur: not run
+kovix-steel-thunder-alarmed-folding-lock,Kovix Steel Thunder Alarmed Folding Lock,Kovix,locks-and-security,109,indexable,kovix steel: not run
+fatboy-additional-battery-all-v2-models,Fatboy Additional Battery (all V2 models),Fatboy,batteries-chargers-and-electronics,659,indexable,fatboy additional: not run
+azur-cargo-bike-waterproof-pannier-single,Azur Cargo Bike Waterproof Pannier Single,Azur,racks-bags-and-trailers,83.95,indexable,azur cargo: failed
+fatboy-galvanised-chain-scrambler-harlem-v2,Fatboy Galvanised Chain Scrambler / Harlem V2,Fatboy,motors-drivetrain-and-sprockets,28.95,indexable,fatboy galvanised: not run
+fatboy-controller-v1-bagus-and-v2-models,Fatboy Controller V1 Bagus and V2 models,Fatboy,batteries-chargers-and-electronics,279,indexable,fatboy controller: failed
+quad-lock-mag-samsung-galaxy-s24-case,Quad Lock MAG Samsung Galaxy S24 Case,Quad Lock,phone-mounts-mirrors-and-audio,46.95,indexable,quad lock: not run
+quad-lock-out-front-mount,Quad Lock Out-Front Mount,Quad Lock,phone-mounts-mirrors-and-audio,46.95,indexable,quad lock: not run
+kids-ride-shotgun-seat-black,Kids Ride Shotgun Seat Black,Shotgun,racks-bags-and-trailers,179,indexable,kids shotgun: not run
+ampd-bros-chubbie-s-2-electric-bike,Ampd Bros Chubbie-s 2 Electric Bike,Ampd Bros,fat-tyre-and-scrambler-e-bikes,2649,indexable,no model query built
+lezyne-lever-kit-light-grey,Lezyne Lever Kit Light Grey,Lezyne,care-tools-and-hydration,18.95,indexable,lezyne lever: not run
+cannondale-moterra-3-e-mtb-obsidian,Cannondale Moterra 3 E-MTB (Obsidian),Cannondale,electric-mountain-bikes,6899,indexable,cannondale moterra: 100 rows
+torque-arms-1500w-5000w-kits,Torque Arms (1500W-5000W Kits),Torque,motors-drivetrain-and-sprockets,51.95,indexable,torque arms: not run
+plug-and-play-sur-ron-style-throttle,Plug & Play Sur-Ron Style Throttle,Sur-Ron,controls-grips-and-pedals,75.95,indexable,plug play: not run
+torque-500w-e-bike-conversion-kit-combo,Torque 500W E-Bike Conversion Kit Combo,Torque,motors-drivetrain-and-sprockets,859,indexable,torque conversion: 100 rows
+ampd-bros-ace-s-mini-s5,Ampd Bros ACE S Mini S5,Ampd Bros,kids-and-youth-e-bikes,2269,indexable,no model query built
+79bike-quick-dry-riding-apparel-set,79Bike Quick-Dry Riding Apparel Set,79Bike,helmets-gloves-and-protection,179,noindex,79bike quick: not run
+79bike-falcon-pro-right-brake-assembly,79Bike Falcon Pro Right Brake Assembly,79Bike,brakes,219,noindex,79bike falcon: not run
+79bike-falcon-pro-left-brake-assembly,79Bike Falcon Pro Left Brake Assembly,79Bike,brakes,219,noindex,79bike falcon: not run
+azur-quick-release-shopper-e-bike-mesh-basket,Azur Quick Release Shopper E-Bike Mesh Basket,Azur,racks-bags-and-trailers,99.95,indexable,azur quick: not run
+basil-bicycle-crate-medium-29-5l-black,Basil Bicycle Crate Medium 29.5L Black,Basil,racks-bags-and-trailers,80.95,indexable,basil bicycle: not run
+thule-euroway-g2-2-bike-towbar-carrier,Thule EuroWay G2 2 Bike Towbar Carrier,Thule,racks-bags-and-trailers,759,indexable,thule euroway: not run
+azur-saddle-cover-road-memory-foam,Azur Saddle Cover Road Memory Foam,Azur,seats-fenders-and-body,37.95,indexable,azur saddle: not run
+kids-ride-shotgun-2-0-seat-black,Kids Ride Shotgun 2.0 Seat Black,Shotgun,racks-bags-and-trailers,219,indexable,kids shotgun: not run
+azur-pro-range-kappa-memory-foam,AZUR-Pro Range Kappa Memory Foam,Azur,seats-fenders-and-body,55.95,indexable,azur range: not run
+tube-schrader-20-x3-50-5-0-48mm,"Tube Schrader 20""x3.50""-5.0"" 48mm",VEE TIRE CO,wheels-tyres-and-tubes,27.95,indexable,tube schrader: not run
+ampd-bros-ace-adventure-electric-bike-series-5,Ampd Bros ACE Adventure Electric Bike Series 5,Ampd Bros,fat-tyre-and-scrambler-e-bikes,3029,indexable,ampd bros ace: 100 rows
+ampd-bros-ace-mini-electric-bike-series-5,Ampd Bros ACE Mini Electric Bike Series 5,Ampd Bros,kids-and-youth-e-bikes,2179,indexable,ampd bros ace: 100 rows
+ktm-macina-team-693,KTM Macina Team 693,KTM,electric-mountain-bikes,3599,indexable,ktm macina: not run
+pedal-warrior-2-24-electric-mountain-bike-red,Pedal Warrior 2 24'' Electric Mountain Bike Red,Pedal,kids-and-youth-e-bikes,1169,indexable,pedal warrior: not run
+79bike-falcon-pro-fastace-alx33rc-2-0-fork,79Bike Falcon Pro FastAce ALX33RC 2.0 Fork,79Bike,suspension-and-forks,1219,noindex,79bike falcon: not run
+ampd-bros-ace-rear-alloy-folding-footpeg-set,Ampd Bros Ace Rear Alloy Folding Footpeg Set,Ampd Bros,seats-fenders-and-body,61.95,indexable,ampd bros ace: 100 rows
+79bike-falcon-pro-left-brake-upper-pump,79Bike Falcon Pro Left Brake Upper Pump,79Bike,brakes,87.95,noindex,79bike falcon: not run
+79bike-falcon-pro-right-brake-upper-pump,79Bike Falcon Pro Right Brake Upper Pump,79Bike,brakes,87.95,noindex,79bike falcon: not run
+79bike-falcon-pro-fast-lower-triple-clamp,79Bike Falcon Pro Fast Lower Triple Clamp,79Bike,suspension-and-forks,199,noindex,79bike falcon: not run
+dhz-electric-kids-mini-dirt-bike-3-speeds-control,"DHZ Electric Kids Mini Dirt Bike, 3 Speeds Control",DHZ,kids-electric-dirt-and-balance-bikes,849,indexable,dhz dirt: not run
+cube-touring-hybrid-one-600,Cube Touring Hybrid ONE 600,Cube,commuter-and-urban-e-bikes,3229,indexable,no model query built
+100-percent-i-track-fluro-yellow-gloves,100% Percent I-track Fluro Yellow Gloves,100%,helmets-gloves-and-protection,36.95,indexable,100 percent: not run
+niterider-lumina-1200-boost-led-rechargeable-headlight,NiteRider Lumina 1200 Boost LED Rechargeable Headlight,NiteRider,lights-and-horns,169,indexable,niterider lumina: not run
+kids-ride-shotgun-seat-handlebar-combo-black,Kids Ride Shotgun Seat Handlebar Combo Black,SHOTGUN,racks-bags-and-trailers,239,indexable,kids shotgun: not run
+crankbrothers-pedal-stamp-1-large-gen-2-black,Crankbrothers Pedal Stamp 1 Large GEN 2 Black,Crankbrothers,controls-grips-and-pedals,84.95,indexable,crankbrothers pedal: not run
+crankbrothers-pedal-stamp-1-small-gen-2-orange,Crankbrothers Pedal Stamp 1 Small GEN 2 Orange,Crankbrothers,controls-grips-and-pedals,84.95,indexable,crankbrothers pedal: not run
+kids-ride-shotgun-2-0-seat-handlebar-combo-black,Kids Ride Shotgun 2.0 Seat Handlebar Combo Black,Shotgun,racks-bags-and-trailers,309,indexable,kids shotgun: not run
+abus-smiley-3-0-ace-led-kids-helmet-royal-blue,Abus Smiley 3.0 Ace LED Kids Helmet Royal Blue,ABUS,helmets-gloves-and-protection,109,indexable,abus smiley: not run
+livall-bh60se-smart-helmet,Livall BH60SE Smart Helmet,Livall,helmets-gloves-and-protection,169,indexable,livall bh60se: not run
+fatboy-front-wheel-assembly-20x4-thru-axle-v2-bagus-all-v3-models,"Fatboy Front Wheel Assembly 20x4 -Thru axle V2 Bagus, all V3 models",Fatboy,wheels-tyres-and-tubes,139,indexable,fatboy front: not run
+cube-touring-hybrid-pro-500,Cube Touring Hybrid Pro 500,Cube,commuter-and-urban-e-bikes,4314,indexable,no model query built
+cube-touring-hybrid-exc-500,Cube Touring Hybrid EXC 500,Cube,commuter-and-urban-e-bikes,4123,indexable,no model query built
+kona-coco-hd,Kona Coco HD,Kona,commuter-and-urban-e-bikes,1419,indexable,no model query built
+marin-alpine-trail-e1,Marin Alpine Trail E1,Marin,electric-mountain-bikes,7219,indexable,no model query built
+marin-alpine-trail-e2,Marin Alpine Trail E2,Marin,electric-mountain-bikes,9019,indexable,no model query built
+aventon-level-4-rec-st,Aventon Level 4 REC ST,Aventon,commuter-and-urban-e-bikes,3299,indexable,no model query built
+aventon-ramblas-adv,Aventon Ramblas ADV,Aventon,electric-mountain-bikes,4999,indexable,no model query built
+aventon-level-4-adv-st,Aventon Level 4 ADV ST,Aventon,commuter-and-urban-e-bikes,4499,indexable,no model query built
+fatboy-charger-52v,Fatboy Charger 52V,Fatboy,batteries-chargers-and-electronics,89,indexable,fatboy charger: not run
+e-ride-pro-e7289-72v-50ah-battery-e7-sr,E Ride Pro E7289 72V 50Ah Battery for E7 SR,E Ride Pro,batteries-chargers-and-electronics,3549,indexable,e ride pro e7289: not run
+e-ride-pro-e7271-72v-50ah-150a-battery-e7-3-0,E Ride Pro E7271 72V 50Ah 150A Battery for E7 3.0,E Ride Pro,batteries-chargers-and-electronics,2979,indexable,e ride pro e7271: not run
+e-ride-pro-e6154-72v-30ah-battery-mini,E Ride Pro E6154 72V 30Ah Battery (Mini),E Ride Pro,batteries-chargers-and-electronics,1989,indexable,e ride pro e6154: not run
+e-ride-pro-e6024-60v-30ah-battery-mini,E Ride Pro E6024 60V 30Ah Battery (Mini),E Ride Pro,batteries-chargers-and-electronics,1839,indexable,e ride pro e6024: not run
+e-ride-pro-e6042-au-60v-charger-mini,E Ride Pro E6042 AU 60V Charger (Mini),E Ride Pro,batteries-chargers-and-electronics,329,indexable,e ride pro e6042: not run
+rock-n-roll-gold-chain-lube-117ml,Rock N Roll Gold Chain Lube 117ml,Rock N Roll,care-tools-and-hydration,18.95,indexable,rock n roll: 100 rows
+rock-n-roll-absolute-dry-chain-lube-117ml,Rock N Roll Absolute Dry Chain Lube 117ml,Rock N Roll,care-tools-and-hydration,18.95,indexable,rock n roll: 100 rows
+rock-n-roll-extreme-blue-chain-lube-117ml,Rock N Roll Extreme Blue Chain Lube 117ml,Rock N Roll,care-tools-and-hydration,18.95,indexable,rock n roll: 100 rows
+fatboy-pas-sensor-v1-v2,Fatboy PAS Sensor V1/V2,Fatboy,batteries-chargers-and-electronics,59,indexable,fatboy sensor: not run
+fatboy-pas-sensor-v3,Fatboy PAS Sensor V3,Fatboy,batteries-chargers-and-electronics,59,indexable,fatboy sensor: not run
