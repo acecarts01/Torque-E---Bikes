@@ -1,0 +1,232 @@
+[
+ {
+  "type": "hero",
+  "name": "giant-e-bike",
+  "files": [
+   "giant-fathom-e-1-pro",
+   "giant-trance-x-e-1-pro",
+   "giant-reign-e-pro"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "giant-e-bike-giant-trance-x-e-1-pro",
+  "files": [
+   "giant-trance-x-e-1-pro"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "giant-e-bike-giant-revolt-e-pro",
+  "files": [
+   "giant-revolt-e-pro"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "cannondale-e-bike",
+  "files": [
+   "cannondale-moterra-neo-4",
+   "cannondale-topstone-neo-carbon-3",
+   "cannondale-quick-neo"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "cannondale-e-bike-cannondale-moterra-sl-2",
+  "files": [
+   "cannondale-moterra-sl-2"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "cannondale-e-bike-cannondale-quick-neo",
+  "files": [
+   "cannondale-quick-neo"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "santa-cruz-e-bike",
+  "files": [
+   "santa-cruz-heckler-sl-cc-x0-axs",
+   "santa-cruz-bullit-cc-x0-axs",
+   "santa-cruz-heckler-sl-c-gx-axs"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "santa-cruz-e-bike-santa-cruz-bullit-cc-x0-axs",
+  "files": [
+   "santa-cruz-bullit-cc-x0-axs"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "santa-cruz-e-bike-santa-cruz-heckler-sl-c-gx-axs",
+  "files": [
+   "santa-cruz-heckler-sl-c-gx-axs"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "marin-polygon-e-bike",
+  "files": [
+   "marin-alpine-trail-e1",
+   "marin-alpine-trail-e2",
+   "polygon-collosus-te-0"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "marin-polygon-e-bike-polygon-collosus-te-0",
+  "files": [
+   "polygon-collosus-te-0"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "marin-polygon-e-bike-polygon-tambora-ae-n",
+  "files": [
+   "polygon-tambora-ae-n"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "talaria-mx5",
+  "files": [
+   "talaria-sting-r-mx5-pro",
+   "talaria-sting-pro-mx5-tl5500",
+   "talaria-sting-mx-tl3000-electric-off-road-motorbike"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "talaria-mx5-talaria-sting-r-mx5-pro",
+  "files": [
+   "talaria-sting-r-mx5-pro"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "talaria-mx5-talaria-sting-r-mx-tl4000-electric-off-road-motorbike",
+  "files": [
+   "talaria-sting-r-mx-tl4000-electric-off-road-motorbike"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "sur-ron-ultra-bee",
+  "files": [
+   "sur-ron-ultra-bee",
+   "sur-ron-storm-bee",
+   "sur-ron-light-bee-x"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "sur-ron-ultra-bee-sur-ron-storm-bee",
+  "files": [
+   "sur-ron-storm-bee"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "sur-ron-ultra-bee-sur-ron-ultra-bee-swingarm",
+  "files": [
+   "sur-ron-ultra-bee-swingarm"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "quad-lock-mount",
+  "files": [
+   "quad-lock-out-front-mount",
+   "quad-lock-mag-samsung-galaxy-s24-case",
+   "phone-holder-gub-plus-11"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "quad-lock-mount-quad-lock-mag-samsung-galaxy-s24-case",
+  "files": [
+   "quad-lock-mag-samsung-galaxy-s24-case"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "quad-lock-mount-79bike-phone-handlebar-mount",
+  "files": [
+   "79bike-phone-handlebar-mount"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "conversion-kit-with-battery",
+  "files": [
+   "torque-500w-e-bike-conversion-kit-combo",
+   "torque-arms-1500w-5000w-kits",
+   "ampd-bros-twist-throttle-kit"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "conversion-kit-with-battery-torque-500w-e-bike-conversion-kit-combo",
+  "files": [
+   "torque-500w-e-bike-conversion-kit-combo"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "conversion-kit-with-battery-ampd-bros-thumb-throttle-kit",
+  "files": [
+   "ampd-bros-thumb-throttle-kit"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "trekking-bike",
+  "files": [
+   "ncm-milano-step-through-trekking-e-bike",
+   "mamba-antidote-trekking-commuter-e-bike",
+   "cube-touring-hybrid-exc-500"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "trekking-bike-ncm-t7s-step-thru-trekking-e-bike",
+  "files": [
+   "ncm-t7s-step-thru-trekking-e-bike"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "trekking-bike-azur-alloy-touring-carrier-disc-brake-compatible",
+  "files": [
+   "azur-alloy-touring-carrier-disc-brake-compatible"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "motorbike-chain-lock",
+  "files": [
+   "onguard-chain-lock",
+   "mastiff-chain-lock-keyed",
+   "kovix-steel-thunder-alarmed-folding-lock"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "motorbike-chain-lock-mastiff-chain-lock-keyed",
+  "files": [
+   "mastiff-chain-lock-keyed"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "motorbike-chain-lock-onguard-chain-lock",
+  "files": [
+   "onguard-chain-lock"
+  ]
+ }
+]
