@@ -87,8 +87,18 @@ import * as ninebot from './ninebot-scooter.js'
 import * as adultscooter from './electric-scooter-adult.js'
 import * as kidsscooter from './childrens-electric-scooters.js'
 import * as scooterhelmet from './scooter-helmet.js'
+import * as p_mountain_bikes_for_sale from './mountain-bikes-for-sale.js'
+import * as p_dirt_bikes_for_sale from './dirt-bikes-for-sale.js'
+import * as p_electric_scooters_for_sale from './electric-scooters-for-sale.js'
+import * as p_tow_bar_bike_rack from './tow-bar-bike-rack.js'
+import * as p_dog_bike_trailer from './dog-bike-trailer.js'
+import * as p_road_bike_helmet from './road-bike-helmet.js'
+import * as p_full_face_mtb_helmet from './full-face-mtb-helmet.js'
+import * as p_electric_scooter_lock from './electric-scooter-lock.js'
+import * as p_segway_max_g3 from './segway-max-g3.js'
+import * as p_kids_bike_sizes from './kids-bike-sizes.js'
 
-const POSTS = [lubricant, batteries, charger, kids, surron, panniers, mirror, bone, bottle, cover, trailers, basket, gloves, goggles, alarm, seatcover, pedals, throttle, helmet, seat, lowcost, women, razor, light, padlock, motor, kit, trike3, middrive, stepthru, hybrid, cube, merida, ncm, cruiser, aventon, roadbike, fastest, forsale, sale, aus, accs, price, mini, emoto, toprated, parts, secondhand, used, ampd, gpsT, foldbag, carrack, toolkit, puncture, susp, hbag, dualsus, fatboy, specz, varg, cruiserbeach, degreaser, tubes, pump, lightest, stand, wallmount, sunglasses, backpack, dragonscooter, ninebot, adultscooter, kidsscooter, scooterhelmet]
+const POSTS = [lubricant, batteries, charger, kids, surron, panniers, mirror, bone, bottle, cover, trailers, basket, gloves, goggles, alarm, seatcover, pedals, throttle, helmet, seat, lowcost, women, razor, light, padlock, motor, kit, trike3, middrive, stepthru, hybrid, cube, merida, ncm, cruiser, aventon, roadbike, fastest, forsale, sale, aus, accs, price, mini, emoto, toprated, parts, secondhand, used, ampd, gpsT, foldbag, carrack, toolkit, puncture, susp, hbag, dualsus, fatboy, specz, varg, cruiserbeach, degreaser, tubes, pump, lightest, stand, wallmount, sunglasses, backpack, dragonscooter, ninebot, adultscooter, kidsscooter, scooterhelmet, p_mountain_bikes_for_sale, p_dirt_bikes_for_sale, p_electric_scooters_for_sale, p_tow_bar_bike_rack, p_dog_bike_trailer, p_road_bike_helmet, p_full_face_mtb_helmet, p_electric_scooter_lock, p_segway_max_g3, p_kids_bike_sizes]
 
 export const NEW_META = POSTS.map(p => p.meta)
 export const NEW_BODIES = Object.fromEntries(POSTS.map(p => [p.meta.slug, p.body]))

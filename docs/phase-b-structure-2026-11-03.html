@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Phase B: keyword bank structure and mapping</title>
+<style>
+:root{--bg:#fff;--fg:#14181f;--mut:#5b6472;--line:#dfe3e8;--acc:#0b5fff;--bad:#b42318;--ok:#067647;--card:#f6f8fa}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1318;--fg:#e8ecf1;--mut:#9aa4b2;--line:#2a313b;--acc:#6ea0ff;--bad:#ff8a80;--ok:#5ad19a;--card:#171c23}}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 system-ui,Segoe UI,sans-serif}
+main{max-width:980px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:26px;margin:0 0 4px}h2{font-size:19px;margin:34px 0 8px;border-top:1px solid var(--line);padding-top:20px}h3{font-size:15px;margin:18px 0 4px}
+p,li{color:var(--fg)}.mut{color:var(--mut)}
+table{border-collapse:collapse;width:100%;font-size:13.5px;margin:8px 0}th,td{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}th{background:var(--card)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.bad{color:var(--bad);font-weight:600}.ok{color:var(--ok);font-weight:600}
+.box{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:12px 14px;margin:10px 0}
+code{background:var(--card);padding:1px 5px;border-radius:4px;font-size:13px}
+.flow{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.step{flex:1 1 150px;border:1px solid var(--line);border-radius:8px;padding:10px;background:var(--card);font-size:13px}
+.step b{display:block;color:var(--acc);margin-bottom:2px}
+.tbl{overflow-x:auto}
+</style></head><body><main>
+<h1>Phase B: keyword bank, structure and mapping</h1>
+<p class="mut">Torque E-Bikes Australia · prepared 3 Nov 2026 · nothing on the site has been changed. This page shows how keywords sit on the site today, what is wrong, and how Phase B, C and D will fix it.</p>
+
+<h2>1. Where a keyword lives on the site</h2>
+<p>One file drives every page's SEO: <code>src/config/seo.generated.json</code> (564 pages keyed by URL). Each entry holds the fields below. The register <code>docs/used-keywords.csv</code> records every keyword with volume, KD and intent, and blocks reuse (one keyword, one page).</p>
+<div class="tbl"><table>
+<tr><th>Field</th><th>What goes in it</th><th>Rule</th></tr>
+<tr><td><code>title</code></td><td>Primary keyword first, then a reason to click</td><td>50 to 60 characters</td></tr>
+<tr><td><code>h1</code></td><td>Primary keyword, one per page</td><td>Differs from the title</td></tr>
+<tr><td><code>meta</code></td><td>Primary plus 1 or 2 secondaries, price, shipping</td><td>About 150 characters, no GST wording</td></tr>
+<tr><td><code>alt</code></td><td>Hero image: primary keyword, described truthfully</td><td>Never the same phrase on every image</td></tr>
+<tr><td><code>kw[]</code></td><td>Primary plus secondaries, used in body copy and internal-link anchors</td><td>5 secondaries per page</td></tr>
+<tr><td>Blog tags</td><td>10 further keywords per post</td><td>Unique across the whole site</td></tr>
+</table></div>
+
+<h2>2. Page types and how many keywords each one needs</h2>
+<div class="tbl"><table>
+<tr><th>Page type</th><th class="n">Pages</th><th>Keywords per page</th><th>Allowed intent</th><th>Anchor / mapping logic</th></tr>
+<tr><td>Home</td><td class="n">1</td><td>1 primary + 3 to 5 secondaries</td><td>Transactional, Commercial</td><td>Brand plus the main money term</td></tr>
+<tr><td>Category and sub-category</td><td class="n">24</td><td>1 + 5</td><td>Transactional first, then Commercial</td><td>The product-type term ("electric dirt bikes for sale")</td></tr>
+<tr><td>Brand hub</td><td class="n">64</td><td>1 + 5</td><td>Transactional, Commercial</td><td>"[brand] electric bikes", "buy [brand]"</td></tr>
+<tr><td>Product</td><td class="n">510 in register<br>(446 live products)</td><td>1 + 5</td><td>Transactional first, then Commercial</td><td>Model name plus "buy", "price", "for sale"</td></tr>
+<tr><td>Blog post</td><td class="n">37 live (105 slugs in register)</td><td>1 + 5 + 10 tags</td><td>Transactional, Commercial</td><td>Highest real volume, lowest KD as tie-break</td></tr>
+<tr><td>Shop, local, new hubs</td><td class="n">4</td><td>1 + 5 (+ tags)</td><td>Transactional, Commercial</td><td>One keyword each, never shared with a category</td></tr>
+</table></div>
+
+<h2>3. What the audit found in the current register (5,933 rows)</h2>
+<div class="tbl"><table>
+<tr><th>Page type</th><th class="n">Rows</th><th class="n">Semrush-sourced</th><th class="n">Generated (no Semrush data)</th><th class="n">KD above 28</th><th class="n">Wrong intent (Navigational / Informational)</th></tr>
+<tr><td>Home</td><td class="n">4</td><td class="n">2</td><td class="n bad">2</td><td class="n">0</td><td class="n bad">3</td></tr>
+<tr><td>Category</td><td class="n">993</td><td class="n">985</td><td class="n bad">8</td><td class="n bad">18</td><td class="n bad">155</td></tr>
+<tr><td>Brand hub</td><td class="n">683</td><td class="n">547</td><td class="n bad">136</td><td class="n bad">15</td><td class="n bad">419</td></tr>
+<tr><td>Product</td><td class="n">2,546</td><td class="n">275</td><td class="n bad">2,271</td><td class="n">2</td><td class="n ok">0</td></tr>
+<tr><td>Blog</td><td class="n">1,627</td><td class="n">1,621</td><td class="n">6</td><td class="n bad">105</td><td class="n bad">592</td></tr>
+<tr><td>Shop, local, new hubs</td><td class="n">80</td><td class="n">80</td><td class="n ok">0</td><td class="n bad">7</td><td class="n bad">3</td></tr>
+<tr><th>Total</th><th class="n">5,933</th><th class="n">3,510</th><th class="n bad">2,423</th><th class="n bad">147</th><th class="n bad">1,172</th></tr>
+</table></div>
+<div class="box"><b>Reading this:</b> 41% of keywords have no Semrush volume or KD behind them, almost all on product pages (89% of product keywords are generated). Brand hubs and blogs also carry Navigational or Informational keywords that break your Transactional/Commercial rule, and 147 keywords sit above KD 28. These are exactly what Phase B replaces.</div>
+
+<h2>4. How Phase B (keyword bank) works</h2>
+<div class="flow">
+<div class="step"><b>1. Pull</b>Semrush Keyword Magic per product model, category, brand and gap page; Keyword Gap against the competitors already saved</div>
+<div class="step"><b>2. AEO / AI</b>Semrush AI Visibility and AI search prompts, kept under their own tag</div>
+<div class="step"><b>3. Filter</b>Volume above 0, KD 28 or lower, intent Transactional or Commercial, Australian market, brands and models we actually stock</div>
+<div class="step"><b>4. Bank</b><code>docs/keyword-bank.csv</code>: keyword, volume, KD, intent, source, tag, status (anchored / unassigned / rejected + reason)</div>
+<div class="step"><b>5. Supply vs need</b>Table of pages × 6 slots against real keywords found, shown to you before assigning</div>
+</div>
+
+<h2>5. How Phases C, D and E use the bank</h2>
+<ol>
+<li><b>C. Mapping proposal</b> (you approve before anything is inserted): per page, current keywords beside proposed ones; each removed generated keyword beside its Semrush replacement; the 10 pages with no keywords; the 147 KD breaches fixed.</li>
+<li><b>D. Insert and resubmit:</b> update the register and <code>seo.generated.json</code>, then titles, H1s, metas, alts and internal-link anchors. Build, crosscheck, push, wait for Vercel "Deployment has completed", check live, then resubmit sitemaps (Google, Bing), IndexNow and request indexing for the top URLs.</li>
+<li><b>E. Verify:</b> re-check live pages and the Search Console notification panel; confirm every indexing issue is fixed or validated.</li>
+</ol>
+
+<h2>6. Fixed rules for every phase</h2>
+<ul>
+<li>Semrush data only: every generated keyword is removed and replaced with a Semrush one.</li>
+<li>Products, categories, brands: Transactional or Commercial only, Transactional first. Blogs: main + 5 secondaries T/C, plus 10 unique tags.</li>
+<li>KD 28 or lower, real volume above 0, one keyword on one page, no GST wording, nothing over 250W described as road legal.</li>
+<li>Reviews are never touched. Every phase ends with a zero-error double check and your approval.</li>
+</ul>
+
+<h2>7. What I need now</h2>
+<div class="box">Your <b>Semrush Keyword Magic / Overview link</b> (logged in, in Brave or the Chrome-extension browser). As soon as you send it, I start the pulls.</div>
+</main></body></html>

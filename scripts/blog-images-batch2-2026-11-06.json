@@ -1,0 +1,232 @@
+[
+ {
+  "type": "hero",
+  "name": "mountain-bikes-for-sale",
+  "files": [
+   "cube-reaction-hybrid-hpa-pro-500",
+   "giant-fathom-e-1-pro",
+   "cannondale-moterra-neo-4"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "mountain-bikes-for-sale-giant-fathom-e-1-pro",
+  "files": [
+   "giant-fathom-e-1-pro"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "mountain-bikes-for-sale-trek-rail-7",
+  "files": [
+   "trek-rail-7"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "dirt-bikes-for-sale",
+  "files": [
+   "sur-ron-light-bee-x",
+   "talaria-sting-r-mx5-pro",
+   "e-ride-pro-ss-3-0"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "dirt-bikes-for-sale-sur-ron-light-bee-x",
+  "files": [
+   "sur-ron-light-bee-x"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "dirt-bikes-for-sale-ktm-freeride-e-xc",
+  "files": [
+   "ktm-freeride-e-xc"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "electric-scooters-for-sale",
+  "files": [
+   "segway-ninebot-e2-pro",
+   "segway-ninebot-f3-pro",
+   "segway-ninebot-max-g3-e"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "electric-scooters-for-sale-segway-ninebot-f3-pro",
+  "files": [
+   "segway-ninebot-f3-pro"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "electric-scooters-for-sale-dragon-gtr-v2",
+  "files": [
+   "dragon-gtr-v2"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "tow-bar-bike-rack",
+  "files": [
+   "car-rack-ezigrip-e-rack-2-deluxe-foldable",
+   "blastoff-bike-cover",
+   "kovix-steel-thunder-alarmed-folding-lock"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "tow-bar-bike-rack-car-rack-ezigrip-e-rack-2-deluxe-foldable",
+  "files": [
+   "car-rack-ezigrip-e-rack-2-deluxe-foldable"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "tow-bar-bike-rack-blastoff-bike-cover",
+  "files": [
+   "blastoff-bike-cover"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "dog-bike-trailer",
+  "files": [
+   "pacific-bike-trailer",
+   "beach-deluxe-bike-trailer",
+   "cargo-deluxe-bike-trailer"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "dog-bike-trailer-pacific-bike-trailer",
+  "files": [
+   "pacific-bike-trailer"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "dog-bike-trailer-cargo-deluxe-bike-trailer",
+  "files": [
+   "cargo-deluxe-bike-trailer"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "road-bike-helmet",
+  "files": [
+   "abus-macator-helmet",
+   "hidrop-helmet-shiny-black",
+   "azur-alien2-100-lm-usb-rechargeable-rear-light"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "road-bike-helmet-abus-macator-helmet",
+  "files": [
+   "abus-macator-helmet"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "road-bike-helmet-azur-alien2-100-lm-usb-rechargeable-rear-light",
+  "files": [
+   "azur-alien2-100-lm-usb-rechargeable-rear-light"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "full-face-mtb-helmet",
+  "files": [
+   "hidrop-helmet-shiny-black",
+   "79bike-off-road-goggles",
+   "79bike-protective-armour"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "full-face-mtb-helmet-hidrop-helmet-shiny-black",
+  "files": [
+   "hidrop-helmet-shiny-black"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "full-face-mtb-helmet-79bike-off-road-goggles",
+  "files": [
+   "79bike-off-road-goggles"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "electric-scooter-lock",
+  "files": [
+   "kovix-steel-thunder-alarmed-folding-lock",
+   "mastiff-chain-lock-keyed",
+   "onguard-chain-lock"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "electric-scooter-lock-kovix-steel-thunder-alarmed-folding-lock",
+  "files": [
+   "kovix-steel-thunder-alarmed-folding-lock"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "electric-scooter-lock-mastiff-chain-lock-keyed",
+  "files": [
+   "mastiff-chain-lock-keyed"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "segway-max-g3",
+  "files": [
+   "segway-ninebot-max-g3-e",
+   "segway-ninebot-zt3-pro-d",
+   "segway-ninebot-f3-pro"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "segway-max-g3-segway-ninebot-max-g3-e",
+  "files": [
+   "segway-ninebot-max-g3-e"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "segway-max-g3-segway-ninebot-zt3-pro-d",
+  "files": [
+   "segway-ninebot-zt3-pro-d"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "kids-bike-sizes",
+  "files": [
+   "gobike-12-ebike-for-kids",
+   "gobike-16-electric-bike-for-kids",
+   "velectrix-hurricane-24-kids-e-bike"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "kids-bike-sizes-gobike-16-electric-bike-for-kids",
+  "files": [
+   "gobike-16-electric-bike-for-kids"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "kids-bike-sizes-velectrix-hurricane-24-kids-e-bike",
+  "files": [
+   "velectrix-hurricane-24-kids-e-bike"
+  ]
+ }
+]

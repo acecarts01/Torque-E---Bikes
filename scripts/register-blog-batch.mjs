@@ -20,6 +20,10 @@ for (const l of fs.readFileSync('docs/semrush-raw/product-adds-2026-11-06.txt', 
   const d = l.split('|').pop(); if (!/:[TC]:/.test(d)) continue
   d.replace(/ \[.*$/, '').split(';').forEach(s => { const m = s.match(/^(.*):([TC]+):([0-9.,K]+):(\d+)$/); if (m) add(m[1], m[3], m[4], m[2]) })
 }
+// Blog topic pulls of 6 Nov 2026: lines are "keyword|intent|volume|kd" under "#query" headings.
+for (const f of fs.readdirSync('docs/semrush-raw').filter(x => /^blog-topics-2026-11-06/.test(x))) {
+  for (const l of fs.readFileSync('docs/semrush-raw/' + f, 'utf8').split(NL)) { if (!l || l[0] === '#') continue; const [kw, it, vol, kd] = l.split('|'); if (kw && it) add(kw, vol, kd, it) }
+}
 const reg = fs.readFileSync('docs/used-keywords.csv', 'utf8')
 const regRows = reg.toLowerCase().split(NL).map(l => l.split(','))
 const rows = []
