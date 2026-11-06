@@ -1,0 +1,232 @@
+[
+ {
+  "type": "hero",
+  "name": "e-bike-brisbane",
+  "files": [
+   "aventon-pace-4",
+   "cannondale-quick-neo",
+   "trek-fx-2"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "e-bike-brisbane-specialized-turbo-vado-sl-4-0",
+  "files": [
+   "specialized-turbo-vado-sl-4-0"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "e-bike-brisbane-aventon-sinch-2-folding",
+  "files": [
+   "aventon-sinch-2-folding"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "electric-scooter-brisbane",
+  "files": [
+   "segway-ninebot-e2-pro",
+   "segway-ninebot-f3-pro",
+   "abus-macator-helmet"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "electric-scooter-brisbane-segway-ninebot-max-g3-e",
+  "files": [
+   "segway-ninebot-max-g3-e"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "electric-scooter-brisbane-quad-lock-out-front-mount",
+  "files": [
+   "quad-lock-out-front-mount"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "electric-scooter-accessories",
+  "files": [
+   "abus-macator-helmet",
+   "kovix-steel-thunder-alarmed-folding-lock",
+   "azur-alien2-100-lm-usb-rechargeable-rear-light"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "electric-scooter-accessories-quad-lock-out-front-mount",
+  "files": [
+   "quad-lock-out-front-mount"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "electric-scooter-accessories-blinder-1300-front-bike-light",
+  "files": [
+   "blinder-1300-front-bike-light"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "folding-bike",
+  "files": [
+   "foo-f1-folding-e-bike",
+   "ncm-paris-folding-e-bike",
+   "kristall-rx20-folding-fat-tyre-e-bike"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "folding-bike-ncm-paris-folding-e-bike",
+  "files": [
+   "ncm-paris-folding-e-bike"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "folding-bike-kristall-rx20-max-folding-fat-tyre-e-bike-dual-motor",
+  "files": [
+   "kristall-rx20-max-folding-fat-tyre-e-bike-dual-motor"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "hardtail-electric-mountain-bike",
+  "files": [
+   "smartmotion-pacer-hardtail-e-mtb",
+   "cube-reaction-hybrid-hpa-pro-500",
+   "giant-fathom-e-1-pro"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "hardtail-electric-mountain-bike-cube-reaction-hybrid-hpa-pro-500",
+  "files": [
+   "cube-reaction-hybrid-hpa-pro-500"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "hardtail-electric-mountain-bike-79bike-handlebar-grips",
+  "files": [
+   "79bike-handlebar-grips"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "enduro-electric-mountain-bike",
+  "files": [
+   "giant-reign-e-pro",
+   "giant-trance-x-e-1-pro",
+   "cannondale-moterra-sl-2"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "enduro-electric-mountain-bike-trek-rail-7",
+  "files": [
+   "trek-rail-7"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "enduro-electric-mountain-bike-hidrop-helmet-shiny-black",
+  "files": [
+   "hidrop-helmet-shiny-black"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "gravel-bikes-for-sale",
+  "files": [
+   "trek-checkpoint-sl-5",
+   "giant-revolt-e-pro",
+   "cannondale-topstone-neo-carbon-3"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "gravel-bikes-for-sale-trek-checkpoint-sl-5",
+  "files": [
+   "trek-checkpoint-sl-5"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "gravel-bikes-for-sale-cannondale-topstone-neo-carbon-1",
+  "files": [
+   "cannondale-topstone-neo-carbon-1"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "road-bikes-for-sale",
+  "files": [
+   "trek-domane-alr-5",
+   "trek-domane-hp",
+   "trek-domane-lt-9"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "road-bikes-for-sale-trek-domane-alr-5",
+  "files": [
+   "trek-domane-alr-5"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "road-bikes-for-sale-trek-domane-lt-9",
+  "files": [
+   "trek-domane-lt-9"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "dirt-bike-helmet",
+  "files": [
+   "79bike-protective-armour",
+   "79bike-quick-dry-riding-apparel-set",
+   "79bike-off-road-goggles"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "dirt-bike-helmet-hidrop-helmet-shiny-black",
+  "files": [
+   "hidrop-helmet-shiny-black"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "dirt-bike-helmet-79bike-off-road-goggles",
+  "files": [
+   "79bike-off-road-goggles"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "bicycle-bag",
+  "files": [
+   "azur-touring-handlebar-bag-with-phone-pouch-grey",
+   "azur-commuter-rear-pannier-bag-pair-48l-black",
+   "basil-bicycle-crate-medium-29-5l-black"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "bicycle-bag-azur-commuter-rear-pannier-bag-pair-48l-black",
+  "files": [
+   "azur-commuter-rear-pannier-bag-pair-48l-black"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "bicycle-bag-bang-bang-crate-basket",
+  "files": [
+   "bang-bang-crate-basket"
+  ]
+ }
+]

@@ -115,7 +115,7 @@ export const body = {
       h: 'Keeping your dog safe in heat and on the road',
       p: [
         'Heat is the main danger. The RSPCA advises walking dogs in the cooler parts of the day, avoiding hot sand, concrete and asphalt and using the five-second test: place the back of your hand on the surface for five seconds, and if it is too hot for you, it is too hot for the dog. A trailer base can also warm in the sun, so check it, carry water and stop in the shade.',
-        'Ride smoothly and slowly. Corners, braking and bumps all affect the dog, and a trailer can tip if you turn too fast. Keep to quiet paths where you can, add lights and a flag so drivers see you, and carry a bell or horn. Our [bicycle bell and horn guide](/blog/bicycle-bell/) covers the legal requirement.',
+        'Ride smoothly and slowly. Corners, braking and bumps all affect the dog, and a trailer can tip if you turn too fast. Keep to quiet paths where you can, add lights and a flag so drivers see you, and carry a bell or horn. Our bicycle bell and horn guide covers the legal requirement.',
       ],
     },
     {

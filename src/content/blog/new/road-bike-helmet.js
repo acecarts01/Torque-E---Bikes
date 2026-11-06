@@ -137,7 +137,7 @@ export const body = {
       img: { file: 'blog/road-bike-helmet-azur-alien2-100-lm-usb-rechargeable-rear-light.webp', alt: 'Azur Alien2 rear bike light to pair with a road bike helmet', w: 720, h: 540 },
       p: [
         'A helmet protects you when something goes wrong, and lights help prevent it going wrong. At night or in poor visibility, the Queensland rules require a white front light and a red rear light visible from at least 200 m, plus a red rear reflector. A light mounted on the helmet, such as a small rear light clipped to the back, raises it above the bike and makes you easier to see, and bright colours help in daylight.',
-        'If you ride at dawn or dusk, add reflective strips and a flashing rear light. Our [lights and horns](/shop/lights-and-horns/) range includes both front and rear lights, and our [bicycle light guide](/blog/bicycle-light/) explains the options and what to look for in brightness and battery life.',
+        'If you ride at dawn or dusk, add reflective strips and a flashing rear light. Our [lights and horns](/shop/lights-and-horns/) range includes both front and rear lights, and our [guide to bike lights](/blog/bicycle-light/) explains the options and what to look for in brightness and battery life.',
       ],
     },
     {

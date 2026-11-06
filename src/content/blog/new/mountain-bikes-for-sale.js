@@ -77,7 +77,7 @@ export const body = {
     {
       h: 'Hardtail or full suspension: which e-MTB for sale suits you?',
       p: [
-        'A hardtail has a suspension fork at the front and a rigid rear. It is simpler, lighter on maintenance and cheaper, and it is efficient on smooth trails. Our hardtail options include the [Cube Reaction Hybrid HPA Pro 500](/shop/electric-mountain-bikes/cube-reaction-hybrid-hpa-pro-500/) at $3,199 and the [Polygon Tambora AE-N](/shop/electric-mountain-bikes/polygon-tambora-ae-n/) at $5,599.',
+        'A hardtail has a suspension fork at the front and a rigid rear. It is simpler, lighter on maintenance and cheaper, and it is efficient on smooth trails. Our hardtail options include the [SmartMotion Pacer Hardtail E-MTB](/shop/electric-mountain-bikes/smartmotion-pacer-hardtail-e-mtb/) at $2,999, the [Cube Reaction Hybrid HPA Pro 500](/shop/electric-mountain-bikes/cube-reaction-hybrid-hpa-pro-500/) at $3,199 and the [Giant Fathom E+ 1 Pro](/shop/electric-mountain-bikes/giant-fathom-e-1-pro/) at $5,499, which Giant describes as an electric hardtail.',
         'A full-suspension bike has a rear shock as well as a fork, which keeps the wheels on the ground over roots and rocks and reduces fatigue. It costs more and has more pivots to service. Our [dual suspension electric bike guide](/blog/dual-suspension-electric-bike/) explains travel, shocks and pivots in more detail. A rule of thumb: choose a hardtail for smooth trails and a lower budget, and full suspension for rough ground and longer rides.',
       ],
     },

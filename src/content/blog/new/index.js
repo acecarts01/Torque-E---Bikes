@@ -97,8 +97,18 @@ import * as p_full_face_mtb_helmet from './full-face-mtb-helmet.js'
 import * as p_electric_scooter_lock from './electric-scooter-lock.js'
 import * as p_segway_max_g3 from './segway-max-g3.js'
 import * as p_kids_bike_sizes from './kids-bike-sizes.js'
+import * as p_e_bike_brisbane from './e-bike-brisbane.js'
+import * as p_electric_scooter_brisbane from './electric-scooter-brisbane.js'
+import * as p_electric_scooter_accessories from './electric-scooter-accessories.js'
+import * as p_folding_bike from './folding-bike.js'
+import * as p_hardtail_electric_mountain_bike from './hardtail-electric-mountain-bike.js'
+import * as p_enduro_electric_mountain_bike from './enduro-electric-mountain-bike.js'
+import * as p_gravel_bikes_for_sale from './gravel-bikes-for-sale.js'
+import * as p_road_bikes_for_sale from './road-bikes-for-sale.js'
+import * as p_dirt_bike_helmet from './dirt-bike-helmet.js'
+import * as p_bicycle_bag from './bicycle-bag.js'
 
-const POSTS = [lubricant, batteries, charger, kids, surron, panniers, mirror, bone, bottle, cover, trailers, basket, gloves, goggles, alarm, seatcover, pedals, throttle, helmet, seat, lowcost, women, razor, light, padlock, motor, kit, trike3, middrive, stepthru, hybrid, cube, merida, ncm, cruiser, aventon, roadbike, fastest, forsale, sale, aus, accs, price, mini, emoto, toprated, parts, secondhand, used, ampd, gpsT, foldbag, carrack, toolkit, puncture, susp, hbag, dualsus, fatboy, specz, varg, cruiserbeach, degreaser, tubes, pump, lightest, stand, wallmount, sunglasses, backpack, dragonscooter, ninebot, adultscooter, kidsscooter, scooterhelmet, p_mountain_bikes_for_sale, p_dirt_bikes_for_sale, p_electric_scooters_for_sale, p_tow_bar_bike_rack, p_dog_bike_trailer, p_road_bike_helmet, p_full_face_mtb_helmet, p_electric_scooter_lock, p_segway_max_g3, p_kids_bike_sizes]
+const POSTS = [lubricant, batteries, charger, kids, surron, panniers, mirror, bone, bottle, cover, trailers, basket, gloves, goggles, alarm, seatcover, pedals, throttle, helmet, seat, lowcost, women, razor, light, padlock, motor, kit, trike3, middrive, stepthru, hybrid, cube, merida, ncm, cruiser, aventon, roadbike, fastest, forsale, sale, aus, accs, price, mini, emoto, toprated, parts, secondhand, used, ampd, gpsT, foldbag, carrack, toolkit, puncture, susp, hbag, dualsus, fatboy, specz, varg, cruiserbeach, degreaser, tubes, pump, lightest, stand, wallmount, sunglasses, backpack, dragonscooter, ninebot, adultscooter, kidsscooter, scooterhelmet, p_mountain_bikes_for_sale, p_dirt_bikes_for_sale, p_electric_scooters_for_sale, p_tow_bar_bike_rack, p_dog_bike_trailer, p_road_bike_helmet, p_full_face_mtb_helmet, p_electric_scooter_lock, p_segway_max_g3, p_kids_bike_sizes, p_e_bike_brisbane, p_electric_scooter_brisbane, p_electric_scooter_accessories, p_folding_bike, p_hardtail_electric_mountain_bike, p_enduro_electric_mountain_bike, p_gravel_bikes_for_sale, p_road_bikes_for_sale, p_dirt_bike_helmet, p_bicycle_bag]
 
 export const NEW_META = POSTS.map(p => p.meta)
 export const NEW_BODIES = Object.fromEntries(POSTS.map(p => [p.meta.slug, p.body]))

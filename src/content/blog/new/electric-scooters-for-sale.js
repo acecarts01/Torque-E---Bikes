@@ -137,7 +137,7 @@ export const body = {
         '**Tyres.** Self-sealing tubeless tyres reduce puncture hassle; solid tyres need no air but ride harder.',
         '**Brakes and lights.** Check both brakes and the lights are strong; see [lights and horns](/shop/lights-and-horns/) for add-ons.',
         '**Folding and storage.** Check the folded size for your boot, hallway or office.',
-        '**Security.** Budget for a lock; our [electric scooter lock guide](/blog/electric-scooter-lock/) compares options.',
+        '**Security.** Budget for a lock; our [guide to scooter locks](/blog/electric-scooter-lock/) compares options.',
         '**Helmet.** Budget for an approved helmet; see our [scooter helmet guide](/blog/scooter-helmet/).',
       ],
     },
