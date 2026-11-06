@@ -38,7 +38,7 @@ for (const l of read('docs/semrush-raw/product-adds-2026-11-06.txt').split(NL)) 
   data.replace(/ \[.*$/, '').split(';').forEach(s => { const m = s.match(/^(.*):([TC]+):([0-9.,K]+):(\d+)$/); if (m) add(m[1], m[3], m[4], m[2]) })
 }
 // fresh Groups-view pulls of 6 Nov 2026 (model rows only)
-const EXTRA = 'segway f3 pro:C:720:20;f3 pro:C:390:16;zt3 pro scooter:C:320:18;segway zt3 pro e-scooter:C:260:17;segway zt3 pro electric scooter:C:260:17;segway ninebot zt3 pro:C:140:16;ninebot zt3:C:90:17;segway zt3 pro electric kick scooter:C:90:11;segway electric kickscooter e2 pro:C:590:23;e2 pro e scooter:C:390:17;segway c2 pro:C:480:14;ninebot c2 pro:C:260:23'
+const EXTRA = 'segway f3 pro:C:720:20;f3 pro:C:390:16;zt3 pro scooter:C:320:18;segway zt3 pro e-scooter:C:260:17;segway zt3 pro electric scooter:C:260:17;segway ninebot zt3 pro:C:140:16;ninebot zt3:C:90:17;segway zt3 pro electric kick scooter:C:90:11;segway electric kickscooter e2 pro:C:590:23;e2 pro e scooter:C:390:17;segway c2 pro:C:480:14;ninebot c2 pro:C:260:23;cyclone pro electric scooter:C:210:4;dragon cyclone e scooter:C:170:4;cyclone pro e scooter:C:320:4;segway go kart:T:720:14;segway gokart:T:210:11;segway go-karts:T:70:17;segway go cart:T:50:9'
 EXTRA.split(';').forEach(s => { const m = s.match(/^(.*):([TC]+):([0-9.,K]+):(\d+)$/); add(m[1], m[3], m[4], m[2]) })
 const taken = new Set()
 const pick = (re, not, n = 6) => {
