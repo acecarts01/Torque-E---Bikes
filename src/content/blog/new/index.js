@@ -117,8 +117,17 @@ import * as p_quad_lock_mount from './quad-lock-mount.js'
 import * as p_conversion_kit_with_battery from './conversion-kit-with-battery.js'
 import * as p_trekking_bike from './trekking-bike.js'
 import * as p_motorbike_chain_lock from './motorbike-chain-lock.js'
+import * as p_bicycle_bell from './bicycle-bell.js'
+import * as p_bike_kickstand from './bike-kickstand.js'
+import * as p_bike_mudguards from './bike-mudguards.js'
+import * as p_bike_handlebar_grips from './bike-handlebar-grips.js'
+import * as p_e_bike_display from './e-bike-display.js'
+import * as p_48v_battery from './48v-battery.js'
+import * as p_bike_rear_rack from './bike-rear-rack.js'
+import * as p_electric_drift_kart from './electric-drift-kart.js'
+import * as p_e_ride_pro from './e-ride-pro.js'
 
-const POSTS = [lubricant, batteries, charger, kids, surron, panniers, mirror, bone, bottle, cover, trailers, basket, gloves, goggles, alarm, seatcover, pedals, throttle, helmet, seat, lowcost, women, razor, light, padlock, motor, kit, trike3, middrive, stepthru, hybrid, cube, merida, ncm, cruiser, aventon, roadbike, fastest, forsale, sale, aus, accs, price, mini, emoto, toprated, parts, secondhand, used, ampd, gpsT, foldbag, carrack, toolkit, puncture, susp, hbag, dualsus, fatboy, specz, varg, cruiserbeach, degreaser, tubes, pump, lightest, stand, wallmount, sunglasses, backpack, dragonscooter, ninebot, adultscooter, kidsscooter, scooterhelmet, p_mountain_bikes_for_sale, p_dirt_bikes_for_sale, p_electric_scooters_for_sale, p_tow_bar_bike_rack, p_dog_bike_trailer, p_road_bike_helmet, p_full_face_mtb_helmet, p_electric_scooter_lock, p_segway_max_g3, p_kids_bike_sizes, p_e_bike_brisbane, p_electric_scooter_brisbane, p_electric_scooter_accessories, p_folding_bike, p_hardtail_electric_mountain_bike, p_enduro_electric_mountain_bike, p_gravel_bikes_for_sale, p_road_bikes_for_sale, p_dirt_bike_helmet, p_bicycle_bag, p_giant_e_bike, p_cannondale_e_bike, p_santa_cruz_e_bike, p_marin_polygon_e_bike, p_talaria_mx5, p_sur_ron_ultra_bee, p_quad_lock_mount, p_conversion_kit_with_battery, p_trekking_bike, p_motorbike_chain_lock]
+const POSTS = [lubricant, batteries, charger, kids, surron, panniers, mirror, bone, bottle, cover, trailers, basket, gloves, goggles, alarm, seatcover, pedals, throttle, helmet, seat, lowcost, women, razor, light, padlock, motor, kit, trike3, middrive, stepthru, hybrid, cube, merida, ncm, cruiser, aventon, roadbike, fastest, forsale, sale, aus, accs, price, mini, emoto, toprated, parts, secondhand, used, ampd, gpsT, foldbag, carrack, toolkit, puncture, susp, hbag, dualsus, fatboy, specz, varg, cruiserbeach, degreaser, tubes, pump, lightest, stand, wallmount, sunglasses, backpack, dragonscooter, ninebot, adultscooter, kidsscooter, scooterhelmet, p_mountain_bikes_for_sale, p_dirt_bikes_for_sale, p_electric_scooters_for_sale, p_tow_bar_bike_rack, p_dog_bike_trailer, p_road_bike_helmet, p_full_face_mtb_helmet, p_electric_scooter_lock, p_segway_max_g3, p_kids_bike_sizes, p_e_bike_brisbane, p_electric_scooter_brisbane, p_electric_scooter_accessories, p_folding_bike, p_hardtail_electric_mountain_bike, p_enduro_electric_mountain_bike, p_gravel_bikes_for_sale, p_road_bikes_for_sale, p_dirt_bike_helmet, p_bicycle_bag, p_giant_e_bike, p_cannondale_e_bike, p_santa_cruz_e_bike, p_marin_polygon_e_bike, p_talaria_mx5, p_sur_ron_ultra_bee, p_quad_lock_mount, p_conversion_kit_with_battery, p_trekking_bike, p_motorbike_chain_lock, p_bicycle_bell, p_bike_kickstand, p_bike_mudguards, p_bike_handlebar_grips, p_e_bike_display, p_48v_battery, p_bike_rear_rack, p_electric_drift_kart, p_e_ride_pro]
 
 export const NEW_META = POSTS.map(p => p.meta)
 export const NEW_BODIES = Object.fromEntries(POSTS.map(p => [p.meta.slug, p.body]))

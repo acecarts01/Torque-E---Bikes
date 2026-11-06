@@ -1,0 +1,209 @@
+[
+ {
+  "type": "hero",
+  "name": "bicycle-bell",
+  "files": [
+   "79bike-horn",
+   "79bike-headlight",
+   "azur-alien2-100-lm-usb-rechargeable-rear-light"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "bicycle-bell-blinder-1300-front-bike-light",
+  "files": [
+   "blinder-1300-front-bike-light"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "bicycle-bell-79bike-horn",
+  "files": [
+   "79bike-horn"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "bike-kickstand",
+  "files": [
+   "79bike-kickstand",
+   "79bike-foot-pegs",
+   "79bike-front-fender"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "bike-kickstand-79bike-kickstand",
+  "files": [
+   "79bike-kickstand"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "bike-kickstand-azur-commuter-rear-pannier-bag-pair-48l-black",
+  "files": [
+   "azur-commuter-rear-pannier-bag-pair-48l-black"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "bike-mudguards",
+  "files": [
+   "79bike-front-fender",
+   "79bike-rear-fender",
+   "azur-alien2-100-lm-usb-rechargeable-rear-light"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "bike-mudguards-79bike-front-fender",
+  "files": [
+   "79bike-front-fender"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "bike-mudguards-79bike-rear-fender",
+  "files": [
+   "79bike-rear-fender"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "bike-handlebar-grips",
+  "files": [
+   "79bike-handlebar-grips",
+   "fatboy-handlebar-scrambler-harlem-v2",
+   "ampd-bros-thumb-throttle-kit"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "bike-handlebar-grips-79bike-handlebar-grips",
+  "files": [
+   "79bike-handlebar-grips"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "bike-handlebar-grips-ampd-bros-twist-throttle-kit",
+  "files": [
+   "ampd-bros-twist-throttle-kit"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "e-bike-display",
+  "files": [
+   "display-colour-lcd",
+   "79bike-viper-s-replacement-display",
+   "ampd-bros-thumb-throttle-kit"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "e-bike-display-display-colour-lcd",
+  "files": [
+   "display-colour-lcd"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "e-bike-display-79bike-viper-s-replacement-display",
+  "files": [
+   "79bike-viper-s-replacement-display"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "48v-battery",
+  "files": [
+   "vamos-amigo-2023-2024-battery-48v-15ah",
+   "vamos-hefe-battery-48v-15ah",
+   "fatboy-charger-48v-v1"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "48v-battery-vamos-hefe-battery-48v-15ah",
+  "files": [
+   "vamos-hefe-battery-48v-15ah"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "48v-battery-fatboy-charger-48v-v1",
+  "files": [
+   "fatboy-charger-48v-v1"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "bike-rear-rack",
+  "files": [
+   "azur-alloy-touring-carrier-disc-brake-compatible",
+   "ampd-bros-ace-rear-cargo-rack",
+   "fatboy-cargo-rack-rear-v1"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "bike-rear-rack-rear-carrier-rack-light-kit-for-ncm-e-bikes",
+  "files": [
+   "rear-carrier-rack-light-kit-for-ncm-e-bikes"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "bike-rear-rack-azur-commuter-rear-pannier-bag-pair-48l-black",
+  "files": [
+   "azur-commuter-rear-pannier-bag-pair-48l-black"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "electric-drift-kart",
+  "files": [
+   "segway-ninebot-gokart-pro-2-1.webp",
+   "segway-ninebot-gokart-pro-2-2.webp",
+   "segway-ninebot-gokart-pro-2-3.webp"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "electric-drift-kart-segway-ninebot-gokart-pro-2-2",
+  "files": [
+   "segway-ninebot-gokart-pro-2-2.webp"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "electric-drift-kart-segway-ninebot-gokart-pro-2-3",
+  "files": [
+   "segway-ninebot-gokart-pro-2-3.webp"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "e-ride-pro",
+  "files": [
+   "e-ride-pro-ss-2-0",
+   "e-ride-pro-ss-3-0",
+   "e-ride-pro-sr"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "e-ride-pro-e-ride-pro-sr",
+  "files": [
+   "e-ride-pro-sr"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "e-ride-pro-e-ride-pro-mini",
+  "files": [
+   "e-ride-pro-mini"
+  ]
+ }
+]
