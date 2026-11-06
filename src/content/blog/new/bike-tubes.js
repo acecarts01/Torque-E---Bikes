@@ -27,7 +27,6 @@ export const meta = {
   related: [
     { href: '/shop/wheels-tyres-and-tubes/79bike-inner-tube/', name: '79Bike Inner Tube', price: 38.95, note: 'A spare tube for 79Bike wheels.' },
     { href: '/shop/wheels-tyres-and-tubes/79bike-tyre/', name: '79Bike Tyre', price: 179, note: 'A replacement tyre.' },
-    { href: '/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/', name: 'Lezyne Lever Kit Light Grey', price: 18.95, note: 'Levers for the tyre change.' },
     { href: '/shop/wheels-tyres-and-tubes/', name: 'All wheels, tyres and tubes', note: 'Tyres, tubes and wheels.' },
   ],
   links: {
@@ -106,7 +105,7 @@ export const body = {
       h: 'Changing a tube: what Park Tool says',
       p: [
         'Park Tool\'s [tire and tube removal and installation guide](https://www.parktool.com/en-us/blog/repair-help/tire-and-tube-removal-and-installation) says to fully deflate the tube, push one bead toward the rim centre and work tyre levers under the bead in short sections, avoiding screwdrivers and knives. It says to check both the tyre and the tube for embedded debris and to inspect the rim strip for tears and protruding spokes.',
-        'For installation, it says to align the valve straight toward the hub, seat one bead at a time by hand and use levers only as a last resort so you do not pinch the tube. Inflate slightly, check that the bead seat line sits evenly above the rim, then inflate to full pressure and check with a gauge. Our [Lezyne Lever Kit at $18.95](/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/) covers the levers.',
+        'For installation, it says to align the valve straight toward the hub, seat one bead at a time by hand and use levers only as a last resort so you do not pinch the tube. Inflate slightly, check that the bead seat line sits evenly above the rim, then inflate to full pressure and check with a gauge. Our [Lezyne Lever Kit at $18.95](/shop/care-tools-and-hydration/) covers the levers.',
       ],
     },
     {
@@ -119,7 +118,6 @@ export const body = {
         rows: [
           ['[79Bike Inner Tube](/shop/wheels-tyres-and-tubes/79bike-inner-tube/)', '79Bike', '$38.95', 'Spare inner tube'],
           ['[79Bike Tyre](/shop/wheels-tyres-and-tubes/79bike-tyre/)', '79Bike', '$179', 'Replacement tyre'],
-          ['[Lezyne Lever Kit Light Grey](/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/)', 'Lezyne', '$18.95', 'Tyre levers'],
         ],
       },
     },

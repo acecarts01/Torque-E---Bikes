@@ -13,7 +13,6 @@ export const meta = {
   imageAlt: 'Blue and white folding bicycle parked outdoors, the compact kind of foldable electric bike buyers compare',
   related: [
     { href: '/shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/', name: 'DYU D3+ Smart Electric Bike Black', price: 659, note: 'Our lowest-priced folding e-bike.' },
-    { href: '/shop/folding-e-bikes/moov8-m1-folding-ebike-with-rear-carrier-2023-model/', name: 'Moov8 M1 Folding eBike with Rear Carrier', price: 1069, note: 'Folding e-bike with a rear carrier.' },
     { href: '/shop/folding-e-bikes/folding-step-through-e-bike-white/', name: 'Folding Step-Through E-Bike White', price: 1199, note: 'A step-through folding e-bike.' },
     { href: '/shop/folding-e-bikes/ncm-paris-folding-e-bike/', name: 'NCM Paris Folding E-Bike', price: 1799, note: 'NCM folding e-bike.' },
     { href: '/shop/folding-e-bikes/', name: 'All folding e-bikes', note: '21 models.' },
@@ -49,7 +48,6 @@ export const body = {
         rows: [
           ['[DYU D3+ Smart Electric Bike Black](/shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/)', '$659', 'Folding'],
           ['DYU A5 Smart Electric Bike', '$849', 'Folding'],
-          ['[Moov8 M1 Folding eBike with Rear Carrier](/shop/folding-e-bikes/moov8-m1-folding-ebike-with-rear-carrier-2023-model/)', '$1,069', 'Rear carrier'],
           ['[Folding Step-Through E-Bike White](/shop/folding-e-bikes/folding-step-through-e-bike-white/)', '$1,199', 'Step-through'],
           ['Foo F1 Folding E-Bike', '$1,499', 'Folding'],
           ['Pedal Derby Electric Folding Bike', '$1,519', 'Folding'],

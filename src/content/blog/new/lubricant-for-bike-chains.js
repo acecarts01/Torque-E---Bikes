@@ -23,7 +23,6 @@ export const meta = {
     { href: '/shop/care-tools-and-hydration/rock-n-roll-gold-chain-lube-117ml/', name: 'Rock N Roll Gold Chain Lube 117ml', price: 18.95, note: 'The all-rounder: made for both mountain and road chains.' },
     { href: '/shop/care-tools-and-hydration/rock-n-roll-absolute-dry-chain-lube-117ml/', name: 'Rock N Roll Absolute Dry Chain Lube 117ml', price: 18.95, note: 'Positioned by the maker for road bikes and dry rides.' },
     { href: '/shop/care-tools-and-hydration/rock-n-roll-extreme-blue-chain-lube-117ml/', name: 'Rock N Roll Extreme Blue Chain Lube 117ml', price: 18.95, note: 'Positioned by the maker for mountain bikes.' },
-    { href: '/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/', name: 'Krush Ultra Drivetrain Degreaser', price: 23.95, note: 'Strip the old grime before you re-lube.' },
     { href: '/shop/care-tools-and-hydration/', name: 'All bike care, tools and hydration', note: 'Lubes, degreaser, tools and bottles in one place.' },
   ],
   links: {
@@ -34,7 +33,7 @@ export const meta = {
     from: [
       ['/shop/care-tools-and-hydration/', 'lubricant for bike chains'],
       ['/shop/care-tools-and-hydration/rock-n-roll-gold-chain-lube-117ml/', 'how to choose a chain lube'],
-      ['/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/', 'how to clean and lube a chain'],
+      ['/shop/care-tools-and-hydration/', 'how to clean and lube a chain'],
     ],
   },
   kind: 'post',
@@ -59,7 +58,7 @@ export const body = {
           ['Mixed riding, one bottle', 'All-rounder', '[Rock N Roll Gold](/shop/care-tools-and-hydration/rock-n-roll-gold-chain-lube-117ml/)', '$18.95'],
           ['Dry roads, dusty paths', 'Dry lube', '[Rock N Roll Absolute Dry](/shop/care-tools-and-hydration/rock-n-roll-absolute-dry-chain-lube-117ml/)', '$18.95'],
           ['Mountain trails, wet weather', 'Wet lube', '[Rock N Roll Extreme Blue](/shop/care-tools-and-hydration/rock-n-roll-extreme-blue-chain-lube-117ml/)', '$18.95'],
-          ['Heavily fouled chain', 'Degreaser first', '[Krush Ultra Drivetrain Degreaser](/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/)', '$23.95'],
+          ['Heavily fouled chain', 'Degreaser first', '[Krush Ultra Drivetrain Degreaser](/shop/care-tools-and-hydration/)', '$23.95'],
         ],
       },
     },
@@ -100,7 +99,7 @@ export const body = {
       ],
       ul: [
         '**Check wear first.** If the chain is past its service life, replace it instead of cleaning it. Lubricating a worn chain only delays the cost.',
-        '**Degrease.** Work a drivetrain degreaser such as the [Krush Ultra drivetrain degreaser](/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/) through the chain with a brush or chain cleaner, turning the cranks backwards, then rinse with soapy water.',
+        '**Degrease.** Work a drivetrain degreaser such as the [Krush Ultra drivetrain degreaser](/shop/care-tools-and-hydration/) through the chain with a brush or chain cleaner, turning the cranks backwards, then rinse with soapy water.',
         '**Dry completely.** Run the chain through a clean rag and let it air-dry or blow it off. Lube applied to a wet chain cannot get into the rollers properly.',
         '**Apply a small drop to each roller.** Turn the cranks backwards slowly and work around the full length of the chain. Aim for the inner face of the chain, where it meets the cassette and chainring.',
         '**Wipe off the excess.** Wait a few minutes for the lube to work into the links, then wipe the outside with a clean, dry rag. Lube left on the outside of the plates only collects dirt.',

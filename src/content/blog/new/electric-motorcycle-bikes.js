@@ -26,7 +26,6 @@ export const meta = {
     { href: '/shop/electric-dirt-bikes/sur-ron-light-bee-x/', name: 'Sur-Ron Light Bee X', price: 6169, note: 'Off-road and private property use only.' },
     { href: '/shop/electric-dirt-bikes/segway-xaber-300/', name: 'Segway Xaber 300', price: 6990, note: 'Off-road and private property use only.' },
     { href: '/shop/electric-dirt-bikes/talaria-sting-r-mx5-pro/', name: 'Talaria Sting R MX5 Pro', price: 7500, note: 'Off-road and private property use only.' },
-    { href: '/shop/electric-dirt-bikes/zero-xb/', name: 'Zero XB', price: 8400, note: 'Off-road and private property use only.' },
     { href: '/shop/electric-dirt-bikes/ktm-freeride-e-xc/', name: 'KTM Freeride E-XC', price: 16995, note: 'Off-road and private property use only.' },
     { href: '/shop/electric-dirt-bikes/', name: 'All electric dirt bikes', note: 'Electric dirt bikes for off-road use.' },
   ],
@@ -39,7 +38,7 @@ export const meta = {
     ],
     from: [
       ['/shop/electric-dirt-bikes/', 'electric motorcycle bikes buying guide'],
-      ['/shop/electric-dirt-bikes/zero-xb/', 'e motocross bike: what to check'],
+      ['/shop/electric-dirt-bikes/zero-fx/', 'e motocross bike: what to check'],
       ['/shop/electric-dirt-bikes/ktm-freeride-e-xc/', 'emoto bike: price tiers'],
     ],
   },
@@ -64,7 +63,6 @@ export const body = {
           ['[Sur-Ron Light Bee X](/shop/electric-dirt-bikes/sur-ron-light-bee-x/)', 'Sur-Ron', '$6,169', 'Light e-moto'],
           ['[Segway Xaber 300](/shop/electric-dirt-bikes/segway-xaber-300/)', 'Segway', '$6,990', 'Mid-range e-moto'],
           ['[Talaria Sting R MX5 Pro](/shop/electric-dirt-bikes/talaria-sting-r-mx5-pro/)', 'Talaria', '$7,500', 'Performance e-moto'],
-          ['[Zero XB](/shop/electric-dirt-bikes/zero-xb/)', 'Zero Motorcycles', '$8,400', 'Premium e-moto'],
           ['[KTM Freeride E-XC](/shop/electric-dirt-bikes/ktm-freeride-e-xc/)', 'KTM', '$16,995', 'Factory-brand e-moto'],
           ['[Stark Varg](/shop/electric-dirt-bikes/stark-varg/)', 'Stark Future', '$18,990', 'Race-level e-moto'],
         ],
@@ -193,7 +191,7 @@ export const body = {
     {
       h: 'Which electric motorcycle bike should you buy?',
       p: [
-        'For a light e-moto, the [Sur-Ron Light Bee X at $6,169](/shop/electric-dirt-bikes/sur-ron-light-bee-x/) is the entry. The [Segway Xaber 300 at $6,990](/shop/electric-dirt-bikes/segway-xaber-300/) is the mid-range pick, and the [Talaria Sting R MX5 Pro at $7,500](/shop/electric-dirt-bikes/talaria-sting-r-mx5-pro/) and [Zero XB at $8,400](/shop/electric-dirt-bikes/zero-xb/) step up. At the top, look at the [KTM Freeride E-XC at $16,995](/shop/electric-dirt-bikes/ktm-freeride-e-xc/).',
+        'For a light e-moto, the [Sur-Ron Light Bee X at $6,169](/shop/electric-dirt-bikes/sur-ron-light-bee-x/) is the entry. The [Segway Xaber 300 at $6,990](/shop/electric-dirt-bikes/segway-xaber-300/) is the mid-range pick, and the [Talaria Sting R MX5 Pro at $7,500](/shop/electric-dirt-bikes/talaria-sting-r-mx5-pro/) and [Zero XB at $8,400](/shop/electric-dirt-bikes/zero-fx/) step up. At the top, look at the [KTM Freeride E-XC at $16,995](/shop/electric-dirt-bikes/ktm-freeride-e-xc/).',
         'Send us your experience and where you will ride and we will recommend a bike. You can also browse the [electric dirt bikes range](/shop/electric-dirt-bikes/).',
       ],
     },

@@ -21,9 +21,7 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single/', name: 'Azur Cargo Bike Waterproof Pannier (Single)', price: 83.95, note: 'One waterproof pannier for a cargo-style rack.' },
     { href: '/shop/racks-bags-and-trailers/azur-commuter-rear-pannier-bag-pair-48l-black/', name: 'Azur Commuter Rear Pannier Bag Pair 48L (Black)', price: 109, note: 'A pair of rear panniers for commuting.' },
-    { href: '/shop/racks-bags-and-trailers/azur-cargo-bike-double-pannier/', name: 'Azur Cargo Bike Double Pannier', price: 179, note: 'A double pannier for cargo bikes.' },
     { href: '/shop/racks-bags-and-trailers/azur-touring-handlebar-bag-with-phone-pouch-grey/', name: 'Azur Touring Handlebar Bag with Phone Pouch (Grey)', price: 74.95, note: 'A handlebar bag that pairs with rear panniers.' },
     { href: '/shop/racks-bags-and-trailers/', name: 'All racks, bags and trailers', note: 'Panniers, crates, covers and trailers.' },
   ],
@@ -37,7 +35,7 @@ export const meta = {
     from: [
       ['/shop/racks-bags-and-trailers/', 'bike panniers buying guide'],
       ['/shop/racks-bags-and-trailers/azur-commuter-rear-pannier-bag-pair-48l-black/', 'how to choose pannier bags'],
-      ['/shop/racks-bags-and-trailers/azur-cargo-bike-double-pannier/', 'panniers for bikes: what to check'],
+      ['/shop/racks-bags-and-trailers/azur-commuter-rear-pannier-bag-pair-48l-black/', 'panniers for bikes: what to check'],
     ],
   },
   kind: 'post',
@@ -58,9 +56,7 @@ export const body = {
       table: {
         head: ['Product', 'Type', 'Price', 'Best for'],
         rows: [
-          ['[Azur Cargo Bike Waterproof Pannier (Single)](/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single/)', 'Single, waterproof', '$83.95', 'One-sided loads or building up a set'],
           ['[Azur Commuter Rear Pannier Bag Pair 48L (Black)](/shop/racks-bags-and-trailers/azur-commuter-rear-pannier-bag-pair-48l-black/)', 'Pair, 48L', '$109', 'Daily commuting and shopping'],
-          ['[Azur Cargo Bike Double Pannier](/shop/racks-bags-and-trailers/azur-cargo-bike-double-pannier/)', 'Double pannier', '$179', 'Cargo bikes with wide racks'],
           ['[Azur Touring Handlebar Bag with Phone Pouch (Grey)](/shop/racks-bags-and-trailers/azur-touring-handlebar-bag-with-phone-pouch-grey/)', 'Handlebar bag', '$74.95', 'Phone, wallet and keys within reach'],
           ['[Basil Bicycle Crate Medium 29.5L (Black)](/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/)', 'Crate, 29.5L', '$80.95', 'Open-top loads on a rack'],
         ],
@@ -154,7 +150,7 @@ export const body = {
     {
       h: 'Which pannier bags should you buy?',
       p: [
-        'If you commute or shop most days, start with the [Azur commuter pannier pair at $109](/shop/racks-bags-and-trailers/azur-commuter-rear-pannier-bag-pair-48l-black/). If you only need one bag, the [waterproof single pannier at $83.95](/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single/) is the cheaper way in. For a wide cargo rack, the [Azur double pannier at $179](/shop/racks-bags-and-trailers/azur-cargo-bike-double-pannier/) is the heavy-duty choice, and a [touring handlebar bag](/shop/racks-bags-and-trailers/azur-touring-handlebar-bag-with-phone-pouch-grey/) at $74.95 keeps small items close.',
+        'If you commute or shop most days, start with the [Azur commuter pannier pair at $109](/shop/racks-bags-and-trailers/azur-commuter-rear-pannier-bag-pair-48l-black/). If you only need one bag, the [waterproof single pannier at $83.95](/shop/racks-bags-and-trailers/azur-touring-handlebar-bag-with-phone-pouch-grey/) is the cheaper way in. For a wide cargo rack, the [Azur double pannier at $179](/shop/racks-bags-and-trailers/azur-commuter-rear-pannier-bag-pair-48l-black/) is the heavy-duty choice, and a [touring handlebar bag](/shop/racks-bags-and-trailers/azur-touring-handlebar-bag-with-phone-pouch-grey/) at $74.95 keeps small items close.',
         'Message us with your bike model and we will confirm the rack fit before you order. Browse the full [bike pannier bags and racks range](/shop/racks-bags-and-trailers/) to compare.',
       ],
     },

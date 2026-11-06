@@ -14,7 +14,6 @@ export const meta = {
   imageAlt: 'Black road bicycle handlebar, where bicycle pedals, grips and controls meet the rider',
   related: [
     { href: '/shop/controls-grips-and-pedals/flat-pedals-orange/', name: 'Flat Pedals Orange', price: 55, note: 'Flat pedals.' },
-    { href: '/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-large-gen-2-black/', name: 'Crankbrothers Pedal Stamp 1 Large GEN 2 Black', price: 84.95, note: 'Large flat pedals.' },
     { href: '/shop/controls-grips-and-pedals/ampd-bros-thumb-throttle-kit/', name: 'Ampd Bros Thumb Throttle Kit', price: 85, note: 'A thumb throttle kit.' },
     { href: '/shop/controls-grips-and-pedals/ampd-bros-twist-throttle-kit/', name: 'Ampd Bros Twist Throttle Kit', price: 99, note: 'A twist throttle kit.' },
     { href: '/shop/controls-grips-and-pedals/', name: 'All controls, grips and pedals', note: '12 products.' },
@@ -50,7 +49,6 @@ export const body = {
         rows: [
           ['79Bike Handlebar Grips', '$28.95', '79Bike (off-road only)'],
           ['[Flat Pedals Orange](/shop/controls-grips-and-pedals/flat-pedals-orange/)', '$55', 'Flat pedals'],
-          ['[Crankbrothers Pedal Stamp 1 Large GEN 2 Black](/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-large-gen-2-black/)', '$84.95', 'Large flat pedals'],
           ['[Ampd Bros Thumb Throttle Kit](/shop/controls-grips-and-pedals/ampd-bros-thumb-throttle-kit/)', '$85', 'Thumb throttle'],
           ['[Ampd Bros Twist Throttle Kit](/shop/controls-grips-and-pedals/ampd-bros-twist-throttle-kit/)', '$99', 'Twist throttle'],
           ['Fatboy Handlebar Scrambler / Harlem V2', '$109', 'Handlebar'],

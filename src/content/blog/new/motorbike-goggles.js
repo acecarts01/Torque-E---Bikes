@@ -23,8 +23,6 @@ export const meta = {
   },
   related: [
     { href: '/shop/helmets-gloves-and-protection/79bike-off-road-goggles/', name: '79Bike Off-Road Goggles', price: 119, note: 'Off-road and private property use only.' },
-    { href: '/shop/helmets-gloves-and-protection/apollo-rxf-motocross-helmet/', name: 'Apollo RXF Motocross Helmet', price: 94.95, note: 'A motocross helmet to pair with goggles.' },
-    { href: '/shop/helmets-gloves-and-protection/havoc-infinity-mx-helmet/', name: 'Havoc Infinity MX Helmet', price: 119, note: 'A motocross helmet to pair with goggles.' },
     { href: '/shop/helmets-gloves-and-protection/79bike-protective-armour/', name: '79Bike Protective Armour', price: 189, note: 'Off-road and private property use only.' },
     { href: '/shop/helmets-gloves-and-protection/', name: 'All helmets, gloves and protection', note: 'Helmets, gloves, goggles and armour.' },
   ],
@@ -38,7 +36,7 @@ export const meta = {
     from: [
       ['/shop/helmets-gloves-and-protection/', 'motorbike goggles buying guide'],
       ['/shop/helmets-gloves-and-protection/79bike-off-road-goggles/', 'how to choose motorbike goggles'],
-      ['/shop/helmets-gloves-and-protection/havoc-infinity-mx-helmet/', 'mx goggles: what to check'],
+      ['/shop/helmets-gloves-and-protection/', 'mx goggles: what to check'],
     ],
   },
   kind: 'post',
@@ -60,8 +58,6 @@ export const body = {
         head: ['Product', 'Brand', 'Price', 'Notes'],
         rows: [
           ['[79Bike Off-Road Goggles](/shop/helmets-gloves-and-protection/79bike-off-road-goggles/)', '79Bike', '$119', 'Off-road and private property use only'],
-          ['[Apollo RXF Motocross Helmet](/shop/helmets-gloves-and-protection/apollo-rxf-motocross-helmet/)', 'Apollo', '$94.95', 'Motocross helmet'],
-          ['[Havoc Infinity MX Helmet](/shop/helmets-gloves-and-protection/havoc-infinity-mx-helmet/)', 'Havoc', '$119', 'Motocross helmet'],
           ['[79Bike Protective Armour](/shop/helmets-gloves-and-protection/79bike-protective-armour/)', '79Bike', '$189', 'Off-road and private property use only'],
         ],
       },
@@ -112,7 +108,7 @@ export const body = {
       h: 'Goggles are part of the kit: helmet, gloves and armour',
       p: [
         'Goggles are one piece of the set. The Queensland motorcycle safety gear page lists a helmet that complies with an Australian standard (AS/NZS 1698 or AS 1698) as the base, then gauntlet-style gloves with a strengthened palm and knuckle protection, leather boots with secure fasteners, and long, abrasion-resistant pants and a jacket that cover your arms, legs and body. It also recommends a back protector and kidney protector.',
-        'For off-road riding, our [Apollo RXF motocross helmet at $94.95](/shop/helmets-gloves-and-protection/apollo-rxf-motocross-helmet/) and [Havoc Infinity MX helmet at $119](/shop/helmets-gloves-and-protection/havoc-infinity-mx-helmet/) are made for the job. Add [79Bike protective armour at $189](/shop/helmets-gloves-and-protection/79bike-protective-armour/) for chest and back protection. Our [helmets and protective gear guide](/blog/helmets-and-protective-gear-for-e-bikes/) covers the full set.',
+        'For off-road riding, our [Apollo RXF motocross helmet at $94.95](/shop/helmets-gloves-and-protection/) and [Havoc Infinity MX helmet at $119](/shop/helmets-gloves-and-protection/) are made for the job. Add [79Bike protective armour at $189](/shop/helmets-gloves-and-protection/79bike-protective-armour/) for chest and back protection. Our [helmets and protective gear guide](/blog/helmets-and-protective-gear-for-e-bikes/) covers the full set.',
         'The page is written for road motorcyclists. For off-road riding, the same principle applies: full coverage and good fit.',
       ],
     },

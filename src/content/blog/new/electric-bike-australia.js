@@ -24,7 +24,6 @@ export const meta = {
   },
   related: [
     { href: '/shop/commuter-and-urban-e-bikes/aventon-pace-4/', name: 'Aventon Pace 4', price: 2199, note: 'A pedal-assist commuter.' },
-    { href: '/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400/', name: 'Cube Touring Hybrid One 400', price: 2889, note: 'A Cube hybrid e-bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/merida-espresso-500/', name: 'Merida eSpresso 500', price: 3599.99, note: 'A Merida city e-bike.' },
     { href: '/shop/electric-mountain-bikes/ncm-m3/', name: 'NCM M3', price: 1699, note: 'An entry e-mountain bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: 'City and commuter e-bikes.' },
@@ -39,7 +38,7 @@ export const meta = {
     from: [
       ['/shop/commuter-and-urban-e-bikes/', 'electric bikes australia buying guide'],
       ['/shop/commuter-and-urban-e-bikes/aventon-pace-4/', 'e bikes australia: what to check'],
-      ['/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400/', 'electric bike australia: how to choose'],
+      ['/shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/', 'electric bike australia: how to choose'],
     ],
   },
   kind: 'post',
@@ -181,7 +180,7 @@ export const body = {
     {
       h: 'Which electric bike in Australia should you buy?',
       p: [
-        'For a commuter, the [Aventon Pace 4 at $2,199](/shop/commuter-and-urban-e-bikes/aventon-pace-4/) and the [Cube Touring Hybrid One 400 at $2,889](/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400/) are good starting points, and the [Merida eSpresso 500 at $3,599.99](/shop/commuter-and-urban-e-bikes/merida-espresso-500/) is a city bike. For a trail bike on a budget, look at the [NCM M3 at $1,699](/shop/electric-mountain-bikes/ncm-m3/).',
+        'For a commuter, the [Aventon Pace 4 at $2,199](/shop/commuter-and-urban-e-bikes/aventon-pace-4/) and the [Cube Touring Hybrid One 400 at $2,889](/shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/) are good starting points, and the [Merida eSpresso 500 at $3,599.99](/shop/commuter-and-urban-e-bikes/merida-espresso-500/) is a city bike. For a trail bike on a budget, look at the [NCM M3 at $1,699](/shop/electric-mountain-bikes/ncm-m3/).',
         'Send us your state, your riding and your budget and we will recommend bikes and confirm compliance, size and stock. You can also browse the [commuter and urban e-bikes range](/shop/commuter-and-urban-e-bikes/).',
       ],
     },

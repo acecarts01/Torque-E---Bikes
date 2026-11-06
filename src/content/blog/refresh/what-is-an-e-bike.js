@@ -15,8 +15,6 @@ export const meta = {
   related: [
     { href: '/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/', name: 'DYU C6 Electric Bike', price: 849, note: 'Our lowest-priced commuter e-bike.' },
     { href: '/shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/', name: 'DYU D3+ Smart Electric Bike Black', price: 659, note: 'Our lowest-priced folding e-bike.' },
-    { href: '/shop/commuter-and-urban-e-bikes/reid-let-s-roll/', name: "Reid Let's Roll", price: 1229, note: 'A mid-priced commuter e-bike.' },
-    { href: '/shop/electric-mountain-bikes/shogun-etrail-breaker-1/', name: 'Shogun eTrail Breaker 1', price: 1039, note: 'Our lowest-priced electric mountain bike.' },
     { href: '/electric-bikes/', name: 'All electric bikes', note: 'Every road-style e-bike category.' },
   ],
   links: {
@@ -52,7 +50,7 @@ export const body = {
           ['[Commuter and urban](/shop/commuter-and-urban-e-bikes/)', '$849 to $16,499', '77', '[DYU C6](/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/) $849'],
           ['[Cargo bikes and e-trikes](/shop/cargo-bikes-and-e-trikes/)', '$899 to $15,269', '25', 'Sunmono Mars 20 $899'],
           ['[Kids and youth e-bikes](/shop/kids-and-youth-e-bikes/)', '$949 to $4,399', '11', 'VelectriX Hurricane 24" $949'],
-          ['[Electric mountain bikes](/shop/electric-mountain-bikes/)', '$1,039 to $18,999', '57', '[Shogun eTrail Breaker 1](/shop/electric-mountain-bikes/shogun-etrail-breaker-1/) $1,039'],
+          ['[Electric mountain bikes](/shop/electric-mountain-bikes/)', '$1,039 to $18,999', '57', '[Shogun eTrail Breaker 1](/shop/electric-mountain-bikes/) $1,039'],
           ['[Road and gravel e-bikes](/shop/road-and-gravel-e-bikes/)', '$3,999 to $13,500', '7', 'Trek Checkpoint SL 5 $3,999'],
         ],
       },

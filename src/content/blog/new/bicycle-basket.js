@@ -24,7 +24,6 @@ export const meta = {
   related: [
     { href: '/shop/racks-bags-and-trailers/bang-bang-crate-basket/', name: 'Bang Bang Crate Basket', price: 80.95, note: 'A crate-style basket from Fatboy.' },
     { href: '/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/', name: 'Basil Bicycle Crate Medium 29.5L (Black)', price: 80.95, note: 'A 29.5 litre crate.' },
-    { href: '/shop/racks-bags-and-trailers/azur-quick-release-shopper-e-bike-mesh-basket/', name: 'Azur Quick Release Shopper E-Bike Mesh Basket', price: 99.95, note: 'A quick-release mesh shopper basket.' },
     { href: '/shop/racks-bags-and-trailers/', name: 'All racks, bags and trailers', note: 'Baskets, panniers, trailers and covers.' },
   ],
   links: {
@@ -36,7 +35,7 @@ export const meta = {
     ],
     from: [
       ['/shop/racks-bags-and-trailers/', 'bicycle basket buying guide'],
-      ['/shop/racks-bags-and-trailers/azur-quick-release-shopper-e-bike-mesh-basket/', 'how to choose a front bike basket'],
+      ['/shop/racks-bags-and-trailers/azur-commuter-rear-pannier-bag-pair-48l-black/', 'how to choose a front bike basket'],
       ['/shop/racks-bags-and-trailers/bang-bang-crate-basket/', 'bike baskets: what to check'],
     ],
   },
@@ -60,7 +59,6 @@ export const body = {
         rows: [
           ['[Bang Bang Crate Basket](/shop/racks-bags-and-trailers/bang-bang-crate-basket/)', 'Fatboy', '$80.95', 'Crate basket'],
           ['[Basil Bicycle Crate Medium 29.5L (Black)](/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/)', 'Basil', '$80.95', 'Crate, 29.5 litres'],
-          ['[Azur Quick Release Shopper E-Bike Mesh Basket](/shop/racks-bags-and-trailers/azur-quick-release-shopper-e-bike-mesh-basket/)', 'Azur', '$99.95', 'Quick-release mesh shopper'],
         ],
       },
     },
@@ -168,7 +166,7 @@ export const body = {
     {
       h: 'Which bicycle basket should you buy?',
       p: [
-        'For a sturdy crate at a low price, the [Bang Bang crate basket at $80.95](/shop/racks-bags-and-trailers/bang-bang-crate-basket/) and the [Basil 29.5L crate at $80.95](/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/) are the same price, so choose by style and fit. If you want a quick-release shopper you can carry into the shop, the [Azur mesh basket at $99.95](/shop/racks-bags-and-trailers/azur-quick-release-shopper-e-bike-mesh-basket/) is the pick.',
+        'For a sturdy crate at a low price, the [Bang Bang crate basket at $80.95](/shop/racks-bags-and-trailers/bang-bang-crate-basket/) and the [Basil 29.5L crate at $80.95](/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/) are the same price, so choose by style and fit. If you want a quick-release shopper you can carry into the shop, the [Azur mesh basket at $99.95](/shop/racks-bags-and-trailers/azur-commuter-rear-pannier-bag-pair-48l-black/) is the pick.',
         'Send us your bike and where you want the basket, and we will confirm the fit. You can also browse the full [bike basket and rack range](/shop/racks-bags-and-trailers/).',
       ],
     },

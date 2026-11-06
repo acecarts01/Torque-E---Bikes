@@ -28,7 +28,6 @@ export const meta = {
     { href: '/shop/road-and-gravel-e-bikes/trek-domane-alr-5/', name: 'Trek Domane+ ALR 5', price: 6299, note: 'A Trek Domane+ road e-bike.' },
     { href: '/shop/road-and-gravel-e-bikes/giant-revolt-e-pro/', name: 'Giant Revolt E+ Pro', price: 6999, note: 'A Giant gravel e-bike.' },
     { href: '/shop/road-and-gravel-e-bikes/cannondale-topstone-neo-carbon-3/', name: 'Cannondale Topstone Neo Carbon 3', price: 8499, note: 'A carbon gravel e-bike from Cannondale.' },
-    { href: '/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-comp-carbon/', name: 'Specialized Turbo Creo SL Comp Carbon', price: 9800, note: 'A Specialized Turbo Creo SL.' },
     { href: '/shop/road-and-gravel-e-bikes/', name: 'All road and gravel e-bikes', note: 'Road and gravel e-bikes from our range.' },
   ],
   links: {
@@ -66,9 +65,7 @@ export const body = {
           ['[Trek Domane+ ALR 5](/shop/road-and-gravel-e-bikes/trek-domane-alr-5/)', 'Trek', '$6,299', 'Road'],
           ['[Giant Revolt E+ Pro](/shop/road-and-gravel-e-bikes/giant-revolt-e-pro/)', 'Giant', '$6,999', 'Gravel'],
           ['[Cannondale Topstone Neo Carbon 3](/shop/road-and-gravel-e-bikes/cannondale-topstone-neo-carbon-3/)', 'Cannondale', '$8,499', 'Gravel, carbon'],
-          ['[Specialized Turbo Creo SL Comp Carbon](/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-comp-carbon/)', 'Specialized', '$9,800', 'Road and gravel, carbon'],
           ['[Cannondale Topstone Neo Carbon 1](/shop/road-and-gravel-e-bikes/cannondale-topstone-neo-carbon-1/)', 'Cannondale', '$12,999', 'Gravel, carbon'],
-          ['[Specialized Turbo Creo SL Expert EVO](/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-expert-evo/)', 'Specialized', '$13,500', 'Road and gravel, carbon'],
         ],
       },
     },
@@ -181,7 +178,7 @@ export const body = {
     {
       h: 'Which electric road bicycle should you buy?',
       p: [
-        'For the lowest price, the [Trek Checkpoint+ SL 5 at $3,999](/shop/road-and-gravel-e-bikes/trek-checkpoint-sl-5/) is the entry to a gravel e-bike. For a road e-bike, the [Trek Domane+ ALR 5 at $6,299](/shop/road-and-gravel-e-bikes/trek-domane-alr-5/) is the pick. The [Giant Revolt E+ Pro at $6,999](/shop/road-and-gravel-e-bikes/giant-revolt-e-pro/) and the [Cannondale Topstone Neo Carbon 3 at $8,499](/shop/road-and-gravel-e-bikes/cannondale-topstone-neo-carbon-3/) step up, and the [Specialized Turbo Creo SL Comp Carbon at $9,800](/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-comp-carbon/) is the premium option.',
+        'For the lowest price, the [Trek Checkpoint+ SL 5 at $3,999](/shop/road-and-gravel-e-bikes/trek-checkpoint-sl-5/) is the entry to a gravel e-bike. For a road e-bike, the [Trek Domane+ ALR 5 at $6,299](/shop/road-and-gravel-e-bikes/trek-domane-alr-5/) is the pick. The [Giant Revolt E+ Pro at $6,999](/shop/road-and-gravel-e-bikes/giant-revolt-e-pro/) and the [Cannondale Topstone Neo Carbon 3 at $8,499](/shop/road-and-gravel-e-bikes/cannondale-topstone-neo-carbon-3/) step up, and the [Specialized Turbo Creo SL Comp Carbon at $9,800](/shop/road-and-gravel-e-bikes/) is the premium option.',
         'Send us your height, surfaces and budget and we will help you choose. You can also browse the full [road and gravel e-bikes range](/shop/road-and-gravel-e-bikes/).',
       ],
     },

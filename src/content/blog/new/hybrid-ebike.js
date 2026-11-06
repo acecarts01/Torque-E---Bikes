@@ -22,7 +22,6 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400/', name: 'Cube Touring Hybrid One 400', price: 2889, note: 'The lowest-priced Cube hybrid in this guide.' },
     { href: '/shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/', name: 'Cube Town Sport Hybrid One 400', price: 3059.99, note: 'A town and sport hybrid.' },
     { href: '/shop/commuter-and-urban-e-bikes/merida-espresso-city-300-eq-hybrid-e-bike/', name: 'Merida eSpresso City 300 EQ Hybrid E-Bike', price: 3439, note: 'A Merida city hybrid e-bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-one-500/', name: 'Cube Kathmandu Hybrid ONE 500', price: 4157, note: 'A Cube Kathmandu hybrid.' },
@@ -37,7 +36,7 @@ export const meta = {
     ],
     from: [
       ['/shop/commuter-and-urban-e-bikes/', 'hybrid ebike buying guide'],
-      ['/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400/', 'how to choose a hybrid electric bicycle'],
+      ['/shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/', 'how to choose a hybrid electric bicycle'],
       ['/shop/commuter-and-urban-e-bikes/merida-espresso-city-300-eq-hybrid-e-bike/', 'hybrid e bike: what to check'],
     ],
   },
@@ -59,7 +58,6 @@ export const body = {
       table: {
         head: ['E-bike', 'Brand', 'Price', 'Style'],
         rows: [
-          ['[Cube Touring Hybrid One 400](/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400/)', 'Cube', '$2,889', 'Touring hybrid'],
           ['[Cube Town Sport Hybrid One 400](/shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/)', 'Cube', '$3,059.99', 'Town and sport hybrid'],
           ['[Merida eSpresso City 300 EQ Hybrid E-Bike](/shop/commuter-and-urban-e-bikes/merida-espresso-city-300-eq-hybrid-e-bike/)', 'Merida', '$3,439', 'City hybrid'],
           ['[Cube Kathmandu Hybrid ONE 500](/shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-one-500/)', 'Cube', '$4,157', 'Kathmandu hybrid'],
@@ -165,7 +163,7 @@ export const body = {
     {
       h: 'Which hybrid ebike should you buy?',
       p: [
-        'For the lowest price, the [Cube Touring Hybrid One 400 at $2,889](/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400/) is the entry. For town and sport riding, the [Cube Town Sport Hybrid One 400 at $3,059.99](/shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/) is the pick, and the [Merida eSpresso City 300 EQ at $3,439](/shop/commuter-and-urban-e-bikes/merida-espresso-city-300-eq-hybrid-e-bike/) is a city hybrid. For a step up, look at the [Cube Kathmandu Hybrid ONE 500 at $4,157](/shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-one-500/).',
+        'For the lowest price, the [Cube Touring Hybrid One 400 at $2,889](/shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/) is the entry. For town and sport riding, the [Cube Town Sport Hybrid One 400 at $3,059.99](/shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/) is the pick, and the [Merida eSpresso City 300 EQ at $3,439](/shop/commuter-and-urban-e-bikes/merida-espresso-city-300-eq-hybrid-e-bike/) is a city hybrid. For a step up, look at the [Cube Kathmandu Hybrid ONE 500 at $4,157](/shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-one-500/).',
         'Send us your height, routes and budget and we will help you choose. You can also browse the full [commuter and urban e-bikes range](/shop/commuter-and-urban-e-bikes/) and read our [how to choose an e-bike guide](/blog/how-to-choose-an-e-bike/).',
       ],
     },

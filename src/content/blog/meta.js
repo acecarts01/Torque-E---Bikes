@@ -1254,7 +1254,7 @@ export const BLOG_META = [
   "links": {
    "to": [
     [
-     "/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/",
+     "/shop/electric-dirt-bikes/",
      "Yozma IN10 electric mini dirt bike"
     ],
     [
@@ -1268,7 +1268,7 @@ export const BLOG_META = [
    ],
    "from": [
     [
-     "/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/",
+     "/shop/electric-dirt-bikes/",
      "Yozma IN10 guide"
     ]
    ]
@@ -1342,7 +1342,7 @@ export const BLOG_META = [
      "Flight Risk bikes"
     ],
     [
-     "/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr505/",
+     "/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr777/",
      "Flight Risk FR505"
     ],
     [

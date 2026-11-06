@@ -16,7 +16,6 @@ export const meta = {
   imageAlt: 'Dirt bike on a dirt field, the off-road riding a childrens electric motorbike is made for',
   related: [
     { href: '/shop/kids-electric-dirt-and-balance-bikes/razor-mx350/', name: 'Razor MX350', price: 499, note: 'Our lowest-priced kids electric dirt bike. Off-road only.' },
-    { href: '/shop/kids-electric-dirt-and-balance-bikes/revvi-16-junior/', name: 'Revvi 16" Junior', price: 799, note: 'A 16-inch junior electric bike. Off-road only.' },
     { href: '/shop/kids-electric-dirt-and-balance-bikes/razor-mx650/', name: 'Razor MX650', price: 1299, note: 'A larger Razor. Off-road only.' },
     { href: '/shop/kids-electric-dirt-and-balance-bikes/talaria-junior-12/', name: 'Talaria Junior 12', price: 1229, note: 'Talaria junior bike. Off-road only.' },
     { href: '/shop/kids-electric-dirt-and-balance-bikes/', name: 'All kids electric dirt and balance bikes', note: '29 models.' },
@@ -31,7 +30,7 @@ export const meta = {
     from: [
       ['/shop/kids-electric-dirt-and-balance-bikes/', 'childrens electric motorbike guide'],
       ['/shop/kids-electric-dirt-and-balance-bikes/razor-mx350/', 'how to choose a childrens electric motorbike'],
-      ['/shop/kids-electric-dirt-and-balance-bikes/revvi-16-junior/', 'kids electric dirt bike guide'],
+      ['/shop/kids-electric-dirt-and-balance-bikes/', 'kids electric dirt bike guide'],
     ],
   },
 }
@@ -52,7 +51,6 @@ export const body = {
         rows: [
           ['[Razor MX350](/shop/kids-electric-dirt-and-balance-bikes/razor-mx350/)', '$499', 'Off-road only'],
           ['Razor MX400', '$599', 'Off-road only'],
-          ['[Revvi 16" Junior](/shop/kids-electric-dirt-and-balance-bikes/revvi-16-junior/)', '$799', 'Off-road only'],
           ['DHZ Electric Kids Mini Dirt Bike, 3 Speeds Control', '$849', 'Off-road only'],
           ['Razor MX500', '$899', 'Off-road only'],
           ['[Talaria Junior 12](/shop/kids-electric-dirt-and-balance-bikes/talaria-junior-12/)', '$1,229', 'Off-road only'],

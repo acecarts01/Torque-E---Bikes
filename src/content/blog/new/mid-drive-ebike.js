@@ -24,7 +24,6 @@ export const meta = {
   related: [
     { href: '/shop/commuter-and-urban-e-bikes/smartmotion-pacer-mid-drive-step-through-e-bike/', name: 'SmartMotion Pacer Mid-Drive Step-Through E-Bike', price: 2999, note: 'A mid-drive step-through e-bike.' },
     { href: '/shop/electric-mountain-bikes/full-suspension-e-mtb-orange-motinova-mid-drive/', name: 'Full-Suspension E-MTB Orange (Motinova mid-drive)', price: 3899, note: 'A full-suspension e-MTB with a mid-drive motor.' },
-    { href: '/shop/cargo-bikes-and-e-trikes/cannondale-cargowagen-neo-bosch-e-bike/', name: 'Cannondale Cargowagen Neo Bosch E-Bike', price: 6299, note: 'A Bosch-equipped cargo e-bike.' },
     { href: '/shop/electric-mountain-bikes/', name: 'All electric mountain bikes', note: 'E-MTBs from our range.' },
   ],
   links: {
@@ -60,7 +59,6 @@ export const body = {
         rows: [
           ['[SmartMotion Pacer Mid-Drive Step-Through E-Bike](/shop/commuter-and-urban-e-bikes/smartmotion-pacer-mid-drive-step-through-e-bike/)', 'Commuter', '$2,999', 'Named mid-drive, step-through'],
           ['[Full-Suspension E-MTB Orange (Motinova mid-drive)](/shop/electric-mountain-bikes/full-suspension-e-mtb-orange-motinova-mid-drive/)', 'Electric mountain', '$3,899', 'Named mid-drive, full suspension'],
-          ['[Cannondale Cargowagen Neo Bosch E-Bike](/shop/cargo-bikes-and-e-trikes/cannondale-cargowagen-neo-bosch-e-bike/)', 'Cargo', '$6,299', 'Bosch named in the product title'],
         ],
       },
     },
@@ -152,7 +150,7 @@ export const body = {
     {
       h: 'Which mid drive ebike should you buy?',
       p: [
-        'For a mid-drive commuter with a step-through frame, the [SmartMotion Pacer at $2,999](/shop/commuter-and-urban-e-bikes/smartmotion-pacer-mid-drive-step-through-e-bike/) is the entry option. For off-road riding, the [full-suspension e-MTB with a Motinova mid-drive at $3,899](/shop/electric-mountain-bikes/full-suspension-e-mtb-orange-motinova-mid-drive/) is the mountain bike pick. For hauling loads, the [Cannondale Cargowagen Neo Bosch at $6,299](/shop/cargo-bikes-and-e-trikes/cannondale-cargowagen-neo-bosch-e-bike/) is the cargo option.',
+        'For a mid-drive commuter with a step-through frame, the [SmartMotion Pacer at $2,999](/shop/commuter-and-urban-e-bikes/smartmotion-pacer-mid-drive-step-through-e-bike/) is the entry option. For off-road riding, the [full-suspension e-MTB with a Motinova mid-drive at $3,899](/shop/electric-mountain-bikes/full-suspension-e-mtb-orange-motinova-mid-drive/) is the mountain bike pick. For hauling loads, the [Cannondale Cargowagen Neo Bosch at $6,299](/shop/cargo-bikes-and-e-trikes/) is the cargo option.',
         'Send us your hills, your budget and your riding plans and we will help you choose. You can also browse the full [electric mountain bikes range](/shop/electric-mountain-bikes/) and read our [e bike motor guide](/blog/e-bike-motor/).',
       ],
     },

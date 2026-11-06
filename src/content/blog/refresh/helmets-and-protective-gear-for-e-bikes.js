@@ -15,9 +15,6 @@ export const meta = {
   imageAlt: 'Bicycle helmet sitting on a stone wall, an e bike helmet ready for a ride',
   related: [
     { href: '/shop/helmets-gloves-and-protection/abus-macator-helmet/', name: 'Abus Macator Helmet', price: 93.95, note: 'Our lowest-priced bike helmet.' },
-    { href: '/shop/helmets-gloves-and-protection/abus-smiley-3-0-ace-led-kids-helmet-royal-blue/', name: 'Abus Smiley 3.0 Ace LED Kids Helmet Royal Blue', price: 109, note: 'A kids helmet with an LED light.' },
-    { href: '/shop/helmets-gloves-and-protection/livall-bh60se-smart-helmet/', name: 'Livall BH60SE Smart Helmet', price: 169, note: 'A smart helmet.' },
-    { href: '/shop/helmets-gloves-and-protection/apollo-rxf-motocross-helmet/', name: 'Apollo RXF Motocross Helmet', price: 94.95, note: 'Motocross helmet for off-road riding.' },
     { href: '/shop/helmets-gloves-and-protection/', name: 'All helmets, gloves and protection', note: '14 products.' },
   ],
   links: {
@@ -30,7 +27,7 @@ export const meta = {
     from: [
       ['/shop/helmets-gloves-and-protection/', 'e bike helmet guide'],
       ['/shop/helmets-gloves-and-protection/abus-macator-helmet/', 'how to choose an e bike helmet'],
-      ['/shop/helmets-gloves-and-protection/livall-bh60se-smart-helmet/', 'e bike helmet and protective gear explained'],
+      ['/shop/helmets-gloves-and-protection/', 'e bike helmet and protective gear explained'],
     ],
   },
 }
@@ -51,11 +48,8 @@ export const body = {
         rows: [
           ['100% I-Track Fluro Yellow Gloves', '$36.95', 'Gloves'],
           ['[Abus Macator Helmet](/shop/helmets-gloves-and-protection/abus-macator-helmet/)', '$93.95', 'Bike helmet'],
-          ['[Apollo RXF Motocross Helmet](/shop/helmets-gloves-and-protection/apollo-rxf-motocross-helmet/)', '$94.95', 'Off-road riding'],
-          ['[Abus Smiley 3.0 Ace LED Kids Helmet Royal Blue](/shop/helmets-gloves-and-protection/abus-smiley-3-0-ace-led-kids-helmet-royal-blue/)', '$109', 'Kids'],
           ['79Bike Off-Road Goggles', '$119', 'Off-road eye protection'],
           ['Havoc Infinity MX Helmet', '$119', 'Off-road riding'],
-          ['[Livall BH60SE Smart Helmet](/shop/helmets-gloves-and-protection/livall-bh60se-smart-helmet/)', '$169', 'Smart helmet'],
           ['79Bike Protective Armour', '$189', 'Off-road armour'],
           ['Hidrop Helmet', '$279', 'Premium helmet'],
         ],

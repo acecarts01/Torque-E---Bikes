@@ -24,7 +24,6 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/', name: 'Lezyne Lever Kit Light Grey', price: 18.95, note: 'Levers to remove the tyre.' },
     { href: '/shop/wheels-tyres-and-tubes/79bike-inner-tube/', name: '79Bike Inner Tube', price: 38.95, note: 'A spare tube for 79Bike wheels.' },
     { href: '/shop/wheels-tyres-and-tubes/79bike-tyre/', name: '79Bike Tyre', price: 179, note: 'A replacement tyre.' },
     { href: '/shop/wheels-tyres-and-tubes/', name: 'All wheels, tyres and tubes', note: 'Tyres, tubes and wheels.' },
@@ -39,7 +38,7 @@ export const meta = {
     from: [
       ['/shop/wheels-tyres-and-tubes/', 'bike puncture repair kit guide'],
       ['/shop/wheels-tyres-and-tubes/79bike-inner-tube/', 'bicycle puncture repair kit: patch or tube'],
-      ['/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/', 'flat tyre repair kit checklist'],
+      ['/shop/care-tools-and-hydration/', 'flat tyre repair kit checklist'],
     ],
   },
   kind: 'post',
@@ -63,7 +62,7 @@ export const body = {
           ['Patches', 'Seal the hole in the tube', 'Glue-on or pre-glued types'],
           ['Glue', 'Bonds a vulcanizing patch', 'Needs time to dry'],
           ['Sandpaper', 'Roughens the tube so the patch grips', 'Light pressure only'],
-          ['Tyre levers', 'Lift the tyre off the rim', '[Lezyne Lever Kit](/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/) $18.95'],
+          ['Tyre levers', 'Lift the tyre off the rim', '[Lezyne Lever Kit](/shop/care-tools-and-hydration/) $18.95'],
           ['Spare tube', 'Faster fix than patching at the roadside', '[79Bike Inner Tube](/shop/wheels-tyres-and-tubes/79bike-inner-tube/) $38.95'],
           ['Pump or CO2', 'Inflates the tyre after the fix', 'Not stocked'],
         ],
@@ -118,7 +117,6 @@ export const body = {
       table: {
         head: ['Item', 'Brand', 'Price', 'Use'],
         rows: [
-          ['[Lezyne Lever Kit Light Grey](/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/)', 'Lezyne', '$18.95', 'Remove and refit the tyre'],
           ['[79Bike Inner Tube](/shop/wheels-tyres-and-tubes/79bike-inner-tube/)', '79Bike', '$38.95', 'Spare tube'],
           ['[79Bike Tyre](/shop/wheels-tyres-and-tubes/79bike-tyre/)', '79Bike', '$179', 'Replacement tyre'],
         ],
@@ -175,7 +173,7 @@ export const body = {
     {
       h: 'Which bike puncture repair kit should you carry?',
       p: [
-        'Carry a patch kit, a spare tube, levers and a pump on every ride. Our [Lezyne Lever Kit at $18.95](/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/) and [79Bike Inner Tube at $38.95](/shop/wheels-tyres-and-tubes/79bike-inner-tube/) cover two of those items. For a worn tyre, the [79Bike Tyre at $179](/shop/wheels-tyres-and-tubes/79bike-tyre/) is the replacement we stock. Browse the full [wheels, tyres and tubes range](/shop/wheels-tyres-and-tubes/).',
+        'Carry a patch kit, a spare tube, levers and a pump on every ride. Our [Lezyne Lever Kit at $18.95](/shop/care-tools-and-hydration/) and [79Bike Inner Tube at $38.95](/shop/wheels-tyres-and-tubes/79bike-inner-tube/) cover two of those items. For a worn tyre, the [79Bike Tyre at $179](/shop/wheels-tyres-and-tubes/79bike-tyre/) is the replacement we stock. Browse the full [wheels, tyres and tubes range](/shop/wheels-tyres-and-tubes/).',
         'Tell us your bike and tyre size and we will check the fit before you order. All orders ship Australia-wide with dangerous-goods certified dispatch.',
       ],
     },

@@ -1,4 +1,5 @@
 import brandRedirects from './src/config/brand-redirects.generated.json'
+import productRedirects from './src/config/product-redirects.generated.json'
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -20,7 +21,10 @@ const nextConfig = {
       { source: '/blog/electric-balance-bikes', destination: '/blog/kids-electric-dirt-bikes/' },
       { source: '/blog/best-electric-dirt-bikes-in-australia', destination: '/blog/electric-vs-petrol-dirt-bikes/' },
     ]
-    return [...(brandRedirects as { source: string; destination: string }[]), ...merged].map(r => ({ source: r.source, destination: r.destination, permanent: true }))
+    // Removed products (scripts/remove-products.mjs, 6 Nov 2026): each old URL goes to the nearest live page. First rule per source wins.
+    const all = [...(productRedirects as { source: string; destination: string }[]), ...(brandRedirects as { source: string; destination: string }[]), ...merged]
+    const seen = new Set<string>()
+    return all.filter(r => !seen.has(r.source) && seen.add(r.source)).map(r => ({ source: r.source, destination: r.destination, permanent: true }))
   },
   async rewrites() {
     return [{ source: '/sitemap.xml', destination: '/api/sitemap.xml' }]

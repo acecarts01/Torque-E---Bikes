@@ -16,7 +16,6 @@ export const meta = {
     { href: '/shop/locks-and-security/onguard-chain-lock/', name: 'OnGuard Chain Lock', price: 38.95, note: 'Our lowest-priced chain lock.' },
     { href: '/shop/locks-and-security/mastiff-chain-lock-keyed/', name: 'Mastiff Chain-Lock Keyed', price: 99, note: 'A keyed chain lock.' },
     { href: '/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/', name: 'Kovix Steel Thunder Alarmed Folding Lock', price: 109, note: 'A folding lock with an alarm.' },
-    { href: '/shop/locks-and-security/multitag-mount-and-airtag/', name: 'Multitag Mount & Airtag', price: 93.95, note: 'A tracker mount for an Airtag.' },
     { href: '/shop/locks-and-security/', name: 'All locks and security', note: '4 products.' },
   ],
   links: {
@@ -49,7 +48,6 @@ export const body = {
         head: ['Product', 'Price', 'Type'],
         rows: [
           ['[OnGuard Chain Lock](/shop/locks-and-security/onguard-chain-lock/)', '$38.95', 'Chain lock'],
-          ['[Multitag Mount & Airtag](/shop/locks-and-security/multitag-mount-and-airtag/)', '$93.95', 'Tracker mount'],
           ['[Mastiff Chain-Lock Keyed](/shop/locks-and-security/mastiff-chain-lock-keyed/)', '$99', 'Keyed chain lock'],
           ['[Kovix Steel Thunder Alarmed Folding Lock](/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/)', '$109', 'Alarmed folding lock'],
         ],
@@ -63,7 +61,7 @@ export const body = {
       p: [
         'Queensland Police\'s [bicycle and scooter theft prevention advice](https://mypolice.qld.gov.au/brisbanecentral/2021/06/02/scooter-and-bicycle-theft-prevention/) notes that thieves often carry bolt-cutters to remove locking devices, so it is important to be proactive about property security. It advises writing down the serial number and recording it with police, having the bike engraved if it has no serial number, taking photos of distinguishing marks, considering a small GPS or air-tracker, and keeping the bike in sight or storing it inside where you can.',
         'Bicycle Queensland\'s [bike security guide](https://bq.org.au/resources/bike-security/) advises using a heavy-duty lock, with a D-style lock the hardest for thieves to defeat, running the lock through the frame and one wheel and fastening it to something secure that will not move, and choosing an open, public spot. It also recommends locking your bike at home in an apartment block, removing easily detached accessories such as lights and panniers, and adding a second small cable lock if you have quick-release wheels.',
-        'For a tracker, our [Multitag Mount & Airtag](/shop/locks-and-security/multitag-mount-and-airtag/) mounts an Airtag on the bike. For the commuting set-up see our [commuter ebike guide](/blog/commuter-e-bikes/).',
+        'For a tracker, our [Multitag Mount & Airtag](/shop/locks-and-security/) mounts an Airtag on the bike. For the commuting set-up see our [commuter ebike guide](/blog/commuter-e-bikes/).',
       ],
     },
   ],

@@ -22,7 +22,6 @@ export const meta = {
   },
   related: [
     { href: '/shop/kids-and-youth-e-bikes/velectrix-hurricane-24-kids-e-bike/', name: 'VelectriX Hurricane 24" Kids E-Bike', price: 949, note: 'Our lowest-priced youth model.' },
-    { href: '/shop/kids-and-youth-e-bikes/pedal-warrior-2-24-electric-mountain-bike-red/', name: 'Pedal Warrior 2 24" Electric Mountain Bike', price: 1169, note: '24-inch electric mountain bike style.' },
     { href: '/shop/kids-and-youth-e-bikes/ace-s-19-youth-electric-bike/', name: 'ACE-S 19 Youth Electric Bike', price: 1299, note: 'A smaller-frame youth bike.' },
     { href: '/shop/kids-and-youth-e-bikes/cruzr-grom-gen2/', name: 'Cruzr Grom GEN2', price: 1989, note: 'Ask us for the motor rating before you order.' },
     { href: '/shop/kids-and-youth-e-bikes/', name: 'All kids and youth e-bikes', note: '11 models.' },
@@ -58,7 +57,6 @@ export const body = {
         head: ['Model', 'Price', 'Notes from the listing'],
         rows: [
           ['[VelectriX Hurricane 24"](/shop/kids-and-youth-e-bikes/velectrix-hurricane-24-kids-e-bike/)', '$949', '24-inch wheels'],
-          ['[Pedal Warrior 2 24"](/shop/kids-and-youth-e-bikes/pedal-warrior-2-24-electric-mountain-bike-red/)', '$1,169', '24-inch electric mountain bike'],
           ['Youth Fat-Tyre Full-Suspension E-Bike', '$1,199', 'Fat tyres, full suspension'],
           ['[ACE-S 19 Youth](/shop/kids-and-youth-e-bikes/ace-s-19-youth-electric-bike/)', '$1,299', 'Youth frame'],
           ['Ampd Bros EVO Racing', '$1,459', 'Racing style'],

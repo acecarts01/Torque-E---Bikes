@@ -22,7 +22,6 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/helmets-gloves-and-protection/abus-smiley-3-0-ace-led-kids-helmet-royal-blue/', name: 'Abus Smiley 3.0 Ace LED Kids Helmet Royal Blue', price: 109, note: 'A kids helmet with a built-in LED light.' },
     { href: '/shop/kids-and-youth-e-bikes/velectrix-hurricane-24-kids-e-bike/', name: 'VelectriX Hurricane 24\" Kids E-Bike', price: 949, note: 'A kids e-bike to pair with a helmet.' },
     { href: '/shop/kids-and-youth-e-bikes/ace-s-19-youth-electric-bike/', name: 'ACE-S 19 Youth Electric Bike', price: 1299, note: 'A youth e-bike to pair with a helmet.' },
     { href: '/shop/helmets-gloves-and-protection/', name: 'All helmets, gloves and protection', note: 'Helmets, gloves, goggles and armour.' },
@@ -36,7 +35,7 @@ export const meta = {
     ],
     from: [
       ['/shop/helmets-gloves-and-protection/', 'childs helmet buying guide'],
-      ['/shop/helmets-gloves-and-protection/abus-smiley-3-0-ace-led-kids-helmet-royal-blue/', 'how to choose a childs helmet'],
+      ['/shop/helmets-gloves-and-protection/abus-macator-helmet/', 'how to choose a childs helmet'],
       ['/shop/kids-and-youth-e-bikes/', 'kids bike helmets: what to check'],
     ],
   },
@@ -58,7 +57,6 @@ export const body = {
       table: {
         head: ['Product', 'Price', 'Notes'],
         rows: [
-          ['[Abus Smiley 3.0 Ace LED Kids Helmet Royal Blue](/shop/helmets-gloves-and-protection/abus-smiley-3-0-ace-led-kids-helmet-royal-blue/)', '$109', 'Kids helmet with LED'],
           ['[VelectriX Hurricane 24" Kids E-Bike](/shop/kids-and-youth-e-bikes/velectrix-hurricane-24-kids-e-bike/)', '$949', 'Kids e-bike'],
           ['[ACE-S 19 Youth Electric Bike](/shop/kids-and-youth-e-bikes/ace-s-19-youth-electric-bike/)', '$1,299', 'Youth e-bike'],
         ],
@@ -166,7 +164,7 @@ export const body = {
     {
       h: 'Which childs helmet should you buy?',
       p: [
-        'In our range, the [Abus Smiley 3.0 Ace LED kids helmet in royal blue at $109](/shop/helmets-gloves-and-protection/abus-smiley-3-0-ace-led-kids-helmet-royal-blue/) is the kids helmet, with an LED for visibility. Ask us for the size range and send your child\'s head measurement, and we will help you check the fit.',
+        'In our range, the [Abus Smiley 3.0 Ace LED kids helmet in royal blue at $109](/shop/helmets-gloves-and-protection/abus-macator-helmet/) is the kids helmet, with an LED for visibility. Ask us for the size range and send your child\'s head measurement, and we will help you check the fit.',
         'If you are buying a bike as well, look at the [Velectrix Hurricane 24 kids e-bike](/shop/kids-and-youth-e-bikes/velectrix-hurricane-24-kids-e-bike/) or the [Ace S 19 youth electric bike](/shop/kids-and-youth-e-bikes/ace-s-19-youth-electric-bike/). You can browse the full [helmets, gloves and protection range](/shop/helmets-gloves-and-protection/) too.',
       ],
     },

@@ -23,8 +23,6 @@ export const meta = {
   },
   related: [
     { href: '/shop/controls-grips-and-pedals/flat-pedals-orange/', name: 'Flat Pedals Orange', price: 55, note: 'The lowest-priced flat pedals in our range.' },
-    { href: '/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-large-gen-2-black/', name: 'Crankbrothers Pedal Stamp 1 Large GEN 2 Black', price: 84.95, note: 'The large Stamp 1 in black.' },
-    { href: '/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-small-gen-2-orange/', name: 'Crankbrothers Pedal Stamp 1 Small GEN 2 Orange', price: 84.95, note: 'The small Stamp 1 in orange.' },
     { href: '/shop/controls-grips-and-pedals/', name: 'All controls, grips and pedals', note: 'Grips, pedals, throttles and displays.' },
   ],
   links: {
@@ -36,7 +34,7 @@ export const meta = {
     ],
     from: [
       ['/shop/controls-grips-and-pedals/', 'flat pedals buying guide'],
-      ['/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-large-gen-2-black/', 'how to choose flat pedals'],
+      ['/shop/controls-grips-and-pedals/flat-pedals-orange/', 'how to choose flat pedals'],
       ['/shop/controls-grips-and-pedals/flat-pedals-orange/', 'mountain bike platform pedals: what to check'],
     ],
   },
@@ -59,8 +57,6 @@ export const body = {
         head: ['Pedal', 'Brand', 'Price', 'Notes'],
         rows: [
           ['[Flat Pedals Orange](/shop/controls-grips-and-pedals/flat-pedals-orange/)', 'Crankbrothers', '$55', 'Orange flat pedals'],
-          ['[Crankbrothers Pedal Stamp 1 Small GEN 2 Orange](/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-small-gen-2-orange/)', 'Crankbrothers', '$84.95', 'Stamp 1, small size'],
-          ['[Crankbrothers Pedal Stamp 1 Large GEN 2 Black](/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-large-gen-2-black/)', 'Crankbrothers', '$84.95', 'Stamp 1, large size'],
         ],
       },
     },
@@ -148,7 +144,7 @@ export const body = {
     {
       h: 'Which flat pedals should you buy?',
       p: [
-        'For a low-cost pedal upgrade, the [Crankbrothers flat pedals in orange at $55](/shop/controls-grips-and-pedals/flat-pedals-orange/) are the entry option. For a well-known trail pedal, choose the [Stamp 1 Small in orange at $84.95](/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-small-gen-2-orange/) or the [Stamp 1 Large in black at $84.95](/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-large-gen-2-black/), depending on your shoe size.',
+        'For a low-cost pedal upgrade, the [Crankbrothers flat pedals in orange at $55](/shop/controls-grips-and-pedals/flat-pedals-orange/) are the entry option. For a well-known trail pedal, choose the [Stamp 1 Small in orange at $84.95](/shop/controls-grips-and-pedals/flat-pedals-orange/) or the [Stamp 1 Large in black at $84.95](/shop/controls-grips-and-pedals/flat-pedals-orange/), depending on your shoe size.',
         'Send us your shoe size and bike and we will help you pick. You can also browse the full [pedals, grips and controls range](/shop/controls-grips-and-pedals/).',
       ],
     },

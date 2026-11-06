@@ -13,7 +13,6 @@ export const meta = {
   imageAlt: 'Bicycle parked beside a wooden table, a stop on a ride for one of the e bikes for adults you might choose',
   related: [
     { href: '/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/', name: 'DYU C6 Electric Bike', price: 849, note: 'Our lowest-priced commuter e-bike.' },
-    { href: '/shop/commuter-and-urban-e-bikes/reid-let-s-roll/', name: "Reid Let's Roll", price: 1229, note: 'A mid-priced commuter e-bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/ncm-t3s/', name: 'NCM T3S', price: 1419, note: 'A commuter e-bike with more budget headroom.' },
     { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: '77 models.' },
     { href: '/electric-bikes/', name: 'All electric bikes', note: 'Every road-style e-bike category.' },
@@ -49,7 +48,7 @@ export const body = {
         head: ['If you mostly...', 'Look at', 'From'],
         rows: [
           ['Commute on sealed roads and paths', '[Commuter e-bikes](/shop/commuter-and-urban-e-bikes/), such as the [DYU C6](/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/)', '$849'],
-          ['Want a mid-priced everyday bike', "[Reid Let's Roll](/shop/commuter-and-urban-e-bikes/reid-let-s-roll/)", '$1,229'],
+          ['Want a mid-priced everyday bike', "[Reid Let's Roll](/shop/commuter-and-urban-e-bikes/reid-quest-1/)", '$1,229'],
           ['Want more budget headroom', '[NCM T3S](/shop/commuter-and-urban-e-bikes/ncm-t3s/)', '$1,419'],
           ['Need to store or carry the bike', '[Folding e-bikes](/shop/folding-e-bikes/)', '$659'],
           ['Ride trails and hills', '[Electric mountain bikes](/shop/electric-mountain-bikes/)', '$1,039'],

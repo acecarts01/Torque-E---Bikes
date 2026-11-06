@@ -11,7 +11,6 @@ export const meta = {
   tags: ['road bicycle tyres', 'tyre of bicycle', 'tyres for a bike', 'cycle tyre', 'e bike tyres', 'cycling tire', 'mtb tyre', 'best bicycle tires for road', 'best road bike tires', 'mtb road tyres'],
   imageAlt: 'Close-up of a worn bicycle tyre, a bike tyre that is ready to be replaced',
   related: [
-    { href: '/shop/wheels-tyres-and-tubes/tube-schrader-20-x3-50-5-0-48mm/', name: 'Tube Schrader 20"x3.50"-5.0" 48mm', price: 27.95, note: 'A fat-tyre inner tube with a 48mm Schrader valve.' },
     { href: '/shop/wheels-tyres-and-tubes/fat-bike-wheel/', name: 'Fat Bike Wheel', price: 149, note: 'A fat bike wheel.' },
     { href: '/shop/wheels-tyres-and-tubes/fatboy-front-wheel-assembly-20x4-thru-axle-v2-bagus-all-v3-models/', name: 'Fatboy Front Wheel Assembly 20x4', price: 139, note: 'Thru-axle front wheel for Fatboy V2 Bagus and V3 models.' },
     { href: '/shop/wheels-tyres-and-tubes/fatboy-rear-wheel-assembly-20x4-with-rim-holes-for-v1-v2-and-v3/', name: 'Fatboy Rear Wheel Assembly 20x4', price: 179, note: 'Rear wheel for Fatboy V1, V2 and V3.' },
@@ -26,7 +25,7 @@ export const meta = {
     ],
     from: [
       ['/shop/wheels-tyres-and-tubes/', 'bike tyre guide'],
-      ['/shop/wheels-tyres-and-tubes/tube-schrader-20-x3-50-5-0-48mm/', 'how to choose a bike tyre and tube'],
+      ['/shop/wheels-tyres-and-tubes/', 'how to choose a bike tyre and tube'],
       ['/shop/wheels-tyres-and-tubes/fat-bike-wheel/', 'bike tyre sizes explained'],
     ],
   },
@@ -47,7 +46,6 @@ export const body = {
         head: ['Product', 'Price', 'Use'],
         rows: [
           ['Sur-Ron Ultra Bee/Storm Bee 18" Wheel Rim Band', '$11.95', 'Off-road only'],
-          ['[Tube Schrader 20"x3.50"-5.0" 48mm](/shop/wheels-tyres-and-tubes/tube-schrader-20-x3-50-5-0-48mm/)', '$27.95', 'Fat-tyre tube'],
           ['79Bike Inner Tube', '$38.95', '79Bike (off-road only)'],
           ['[Fatboy Front Wheel Assembly 20x4](/shop/wheels-tyres-and-tubes/fatboy-front-wheel-assembly-20x4-thru-axle-v2-bagus-all-v3-models/)', '$139', 'Fatboy V2 Bagus and V3'],
           ['[Fat Bike Wheel](/shop/wheels-tyres-and-tubes/fat-bike-wheel/)', '$149', 'Wheel'],

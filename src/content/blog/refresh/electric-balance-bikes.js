@@ -14,8 +14,6 @@ export const meta = {
   imageAlt: 'Yellow balance bike on grass, the pedal-free design an electric balance bike builds on',
   related: [
     { href: '/shop/kids-electric-dirt-and-balance-bikes/sherco-eb12-kids-electric-balance-bike/', name: 'Sherco EB12 Kids Electric Balance Bike', price: 619, note: '12-inch electric balance bike.' },
-    { href: '/shop/kids-electric-dirt-and-balance-bikes/apollo-rxf-dna-12-balance-bike/', name: "Apollo RXF DNA 12'' Balance Bike", price: 619, note: '12-inch balance bike.' },
-    { href: '/shop/kids-electric-dirt-and-balance-bikes/rxf-dna-16-balance-bike/', name: 'RXF DNA 16" Balance Bike', price: 709, note: '16-inch balance bike.' },
     { href: '/shop/kids-electric-dirt-and-balance-bikes/dhz-16-electric-balance-bike-removable-battery-brushless-motor/', name: 'DHZ 16" Electric Balance Bike', price: 759, note: 'Removable battery, brushless motor.' },
     { href: '/shop/kids-electric-dirt-and-balance-bikes/', name: 'All kids electric dirt and balance bikes', note: '29 models.' },
   ],
@@ -29,7 +27,7 @@ export const meta = {
     from: [
       ['/shop/kids-electric-dirt-and-balance-bikes/', 'electric balance bike guide'],
       ['/shop/kids-electric-dirt-and-balance-bikes/sherco-eb12-kids-electric-balance-bike/', 'how to choose an electric balance bike'],
-      ['/shop/kids-electric-dirt-and-balance-bikes/rxf-dna-16-balance-bike/', 'electric balance bike sizes explained'],
+      ['/shop/kids-electric-dirt-and-balance-bikes/', 'electric balance bike sizes explained'],
     ],
   },
 }
@@ -49,9 +47,8 @@ export const body = {
         head: ['Model', 'Price', 'Size'],
         rows: [
           ['[Sherco EB12 Kids Electric Balance Bike](/shop/kids-electric-dirt-and-balance-bikes/sherco-eb12-kids-electric-balance-bike/)', '$619', '12 inch'],
-          ["[Apollo RXF DNA 12'' Balance Bike](/shop/kids-electric-dirt-and-balance-bikes/apollo-rxf-dna-12-balance-bike/)", '$619', '12 inch'],
+          ["[Apollo RXF DNA 12'' Balance Bike](/shop/kids-electric-dirt-and-balance-bikes/)", '$619', '12 inch'],
           ['Azonic Pure 12', '$619', '12 inch'],
-          ['[RXF DNA 16" Balance Bike](/shop/kids-electric-dirt-and-balance-bikes/rxf-dna-16-balance-bike/)', '$709', '16 inch'],
           ['Azonic Pure 16" Balance Bike', '$709', '16 inch'],
           ['[DHZ 16" Electric Balance Bike](/shop/kids-electric-dirt-and-balance-bikes/dhz-16-electric-balance-bike-removable-battery-brushless-motor/)', '$759', '16 inch, removable battery'],
         ],

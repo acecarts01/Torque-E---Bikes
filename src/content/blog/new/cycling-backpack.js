@@ -24,8 +24,6 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/racks-bags-and-trailers/azur-cargo-bike-double-pannier/', name: 'Azur Cargo Bike Double Pannier', price: 179, note: 'A double pannier.' },
-    { href: '/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single/', name: 'Azur Cargo Bike Waterproof Pannier Single', price: 83.95, note: 'A waterproof pannier.' },
     { href: '/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/', name: 'Basil Bicycle Crate Medium 29.5L Black', price: 80.95, note: 'A crate for a rack.' },
     { href: '/shop/care-tools-and-hydration/summit-h20-water-bottle/', name: 'Summit H20 Water Bottle', price: 13.95, note: 'The lowest-priced bottle we list.' },
     { href: '/shop/racks-bags-and-trailers/', name: 'All racks, bags and trailers', note: 'Racks, panniers and trailers.' },
@@ -39,7 +37,7 @@ export const meta = {
     ],
     from: [
       ['/shop/racks-bags-and-trailers/', 'cycling backpack buying guide'],
-      ['/shop/racks-bags-and-trailers/azur-cargo-bike-double-pannier/', 'bike backpack or pannier'],
+      ['/shop/racks-bags-and-trailers/azur-commuter-rear-pannier-bag-pair-48l-black/', 'bike backpack or pannier'],
       ['/shop/care-tools-and-hydration/summit-h20-water-bottle/', 'mtb water backpack alternatives'],
     ],
   },
@@ -117,8 +115,6 @@ export const body = {
       table: {
         head: ['Item', 'Brand', 'Price', 'Use'],
         rows: [
-          ['[Azur Cargo Bike Double Pannier](/shop/racks-bags-and-trailers/azur-cargo-bike-double-pannier/)', 'Azur', '$179', 'Double pannier'],
-          ['[Azur Cargo Bike Waterproof Pannier Single](/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single/)', 'Azur', '$83.95', 'Waterproof pannier'],
           ['[Basil Bicycle Crate Medium 29.5L Black](/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/)', 'Basil', '$80.95', 'Crate'],
           ['[Pilot Water Bottle](/shop/care-tools-and-hydration/pilot-water-bottle/)', 'Pilot', '$23.95', 'Water bottle'],
           ['[Summit H20 Water Bottle](/shop/care-tools-and-hydration/summit-h20-water-bottle/)', 'Summit', '$13.95', 'Water bottle'],
@@ -183,7 +179,7 @@ export const body = {
     {
       h: 'Which cycling backpack should you choose?',
       p: [
-        'Choose a small, ventilated pack with a chest strap for light loads and trails, and move heavier loads to a rack. The [Azur Cargo Bike Double Pannier at $179](/shop/racks-bags-and-trailers/azur-cargo-bike-double-pannier/), the [Azur waterproof single pannier at $83.95](/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single/) and the [Basil crate at $80.95](/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/) cover the rack option, and the [Summit H20 bottle at $13.95](/shop/care-tools-and-hydration/summit-h20-water-bottle/) covers water. Browse the full [racks, bags and trailers range](/shop/racks-bags-and-trailers/).',
+        'Choose a small, ventilated pack with a chest strap for light loads and trails, and move heavier loads to a rack. The [Azur Cargo Bike Double Pannier at $179](/shop/racks-bags-and-trailers/azur-commuter-rear-pannier-bag-pair-48l-black/), the [Azur waterproof single pannier at $83.95](/shop/racks-bags-and-trailers/azur-touring-handlebar-bag-with-phone-pouch-grey/) and the [Basil crate at $80.95](/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/) cover the rack option, and the [Summit H20 bottle at $13.95](/shop/care-tools-and-hydration/summit-h20-water-bottle/) covers water. Browse the full [racks, bags and trailers range](/shop/racks-bags-and-trailers/).',
         'Tell us what you carry and how far you ride, and we will suggest the right set-up. All orders ship Australia-wide with dangerous-goods certified dispatch.',
       ],
     },

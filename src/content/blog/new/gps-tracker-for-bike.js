@@ -24,7 +24,6 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/locks-and-security/multitag-mount-and-airtag/', name: 'Multitag Mount & Airtag', price: 93.95, note: 'A mount and tag to help locate a bike.' },
     { href: '/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/', name: 'Kovix Steel Thunder Alarmed Folding Lock', price: 109, note: 'A folding lock with an alarm.' },
     { href: '/shop/locks-and-security/mastiff-chain-lock-keyed/', name: 'Mastiff Chain-Lock Keyed', price: 99, note: 'A keyed chain lock.' },
     { href: '/shop/locks-and-security/onguard-chain-lock/', name: 'OnGuard Chain Lock', price: 38.95, note: 'The lowest-priced lock in our range.' },
@@ -39,7 +38,7 @@ export const meta = {
     ],
     from: [
       ['/shop/locks-and-security/', 'gps tracker for bike buying guide'],
-      ['/shop/locks-and-security/multitag-mount-and-airtag/', 'bicycle gps tracker: what to check'],
+      ['/shop/locks-and-security/', 'bicycle gps tracker: what to check'],
       ['/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/', 'gps tracker for bicycle and lock pairing'],
     ],
   },
@@ -61,7 +60,6 @@ export const body = {
       table: {
         head: ['Option', 'How it finds the bike', 'Ongoing cost', 'Best for'],
         rows: [
-          ['[Multitag Mount & Airtag](/shop/locks-and-security/multitag-mount-and-airtag/) ($93.95)', 'A tag in a bike mount that reports through nearby compatible phones', 'None for the tag itself', 'City riders and commuters'],
           ['Cellular GPS tracker (not stocked)', 'Its own SIM reports position over the mobile network', 'Usually a data plan; check the cost', 'Expensive bikes and rural areas'],
           ['[Kovix Steel Thunder Alarmed Folding Lock](/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/) ($109)', 'No tracking; sounds an alarm when disturbed', 'None', 'Stopping the theft first'],
           ['[Mastiff Chain-Lock Keyed](/shop/locks-and-security/mastiff-chain-lock-keyed/) ($99)', 'No tracking; a physical barrier', 'None', 'Locking to fixed objects'],
@@ -79,7 +77,7 @@ export const body = {
     {
       h: 'The Multitag mount and AirTag option',
       p: [
-        'Our [Multitag Mount & Airtag at $93.95](/shop/locks-and-security/multitag-mount-and-airtag/) is the tracker we stock. The product page publishes the name, brand and price only, so confirm with us whether the tag is included and which phones it works with before you order. The idea behind a mount is to hide the tag where a thief will not look, so it is not obvious on the frame.',
+        'Our [Multitag Mount & Airtag at $93.95](/shop/locks-and-security/) is the tracker we stock. The product page publishes the name, brand and price only, so confirm with us whether the tag is included and which phones it works with before you order. The idea behind a mount is to hide the tag where a thief will not look, so it is not obvious on the frame.',
         'The strength of this approach is low cost and no subscription. The limit is that it needs compatible phones nearby, so it works best in towns and cities. If you keep a valuable e-bike in a regional area, a cellular tracker may be a better fit.',
         'Browse the whole [locks and security range](/shop/locks-and-security/) to pair a mount with a lock.',
       ],
@@ -148,7 +146,7 @@ export const body = {
     {
       h: 'Which GPS tracker for bike security should you buy?',
       p: [
-        'For most city riders, a low-cost tag in a hidden mount plus a strong lock is the sensible package. The [Multitag Mount & Airtag at $93.95](/shop/locks-and-security/multitag-mount-and-airtag/) covers the tag, and the [Mastiff Chain-Lock Keyed at $99](/shop/locks-and-security/mastiff-chain-lock-keyed/) or the [Kovix alarmed folding lock at $109](/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/) covers the lock. The [OnGuard Chain Lock at $38.95](/shop/locks-and-security/onguard-chain-lock/) is the lowest-priced lock we stock. Our [bike chain padlock guide](/blog/bike-chain-padlock/) and [how to lock an e-bike](/blog/how-to-lock-an-e-bike/) explain how to use them.',
+        'For most city riders, a low-cost tag in a hidden mount plus a strong lock is the sensible package. The [Multitag Mount & Airtag at $93.95](/shop/locks-and-security/) covers the tag, and the [Mastiff Chain-Lock Keyed at $99](/shop/locks-and-security/mastiff-chain-lock-keyed/) or the [Kovix alarmed folding lock at $109](/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/) covers the lock. The [OnGuard Chain Lock at $38.95](/shop/locks-and-security/onguard-chain-lock/) is the lowest-priced lock we stock. Our [bike chain padlock guide](/blog/bike-chain-padlock/) and [how to lock an e-bike](/blog/how-to-lock-an-e-bike/) explain how to use them.',
         'Send us your bike, where you park it and your budget, and we will suggest a set that fits. All orders ship Australia-wide with dangerous-goods certified dispatch, and payment is by bank transfer, PayID or crypto.',
       ],
     },

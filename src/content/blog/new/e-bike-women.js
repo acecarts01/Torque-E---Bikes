@@ -22,7 +22,6 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/commuter-and-urban-e-bikes/retro-step-through-city-e-bike-brown-tyres/', name: 'Retro Step-Through City E-Bike (brown tyres)', price: 1799, note: 'A retro-styled step-through city bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/ncm-t7s-step-thru-trekking-e-bike/', name: 'NCM T7S Step Thru Trekking E-Bike', price: 2279, note: 'A step-through trekking e-bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/smartmotion-city-step-through-e-bike/', name: 'SmartMotion City Step-Through E-Bike', price: 2299, note: 'A step-through city e-bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/aventon-pace-500-3-step-through/', name: 'Aventon Pace 500.3 Step-Through', price: 2599, note: 'A step-through Aventon commuter.' },
@@ -59,7 +58,6 @@ export const body = {
       table: {
         head: ['E-bike', 'Brand', 'Price', 'Style'],
         rows: [
-          ['[Retro Step-Through City E-Bike (brown tyres)](/shop/commuter-and-urban-e-bikes/retro-step-through-city-e-bike-brown-tyres/)', 'Retro city', '$1,799', 'Retro step-through city bike'],
           ['[NCM T7S Step Thru Trekking E-Bike](/shop/commuter-and-urban-e-bikes/ncm-t7s-step-thru-trekking-e-bike/)', 'NCM', '$2,279', 'Step-through trekking'],
           ['[SmartMotion City Step-Through E-Bike](/shop/commuter-and-urban-e-bikes/smartmotion-city-step-through-e-bike/)', 'SmartMotion', '$2,299', 'Step-through city'],
           ['[Aventon Pace 500.3 Step-Through](/shop/commuter-and-urban-e-bikes/aventon-pace-500-3-step-through/)', 'Aventon', '$2,599', 'Step-through commuter'],
@@ -149,7 +147,7 @@ export const body = {
     {
       h: 'Which women\'s electric bike should you buy?',
       p: [
-        'For a value-priced step-through city bike, the [Retro step-through city e-bike at $1,799](/shop/commuter-and-urban-e-bikes/retro-step-through-city-e-bike-brown-tyres/) is the entry option. For trekking comfort, the [NCM T7S step-thru at $2,279](/shop/commuter-and-urban-e-bikes/ncm-t7s-step-thru-trekking-e-bike/) is the pick, and the [SmartMotion City at $2,299](/shop/commuter-and-urban-e-bikes/smartmotion-city-step-through-e-bike/) is a city step-through. For an Aventon commuter, see the [Pace 500.3 step-through at $2,599](/shop/commuter-and-urban-e-bikes/aventon-pace-500-3-step-through/).',
+        'For a value-priced step-through city bike, the [Retro step-through city e-bike at $1,799](/shop/commuter-and-urban-e-bikes/) is the entry option. For trekking comfort, the [NCM T7S step-thru at $2,279](/shop/commuter-and-urban-e-bikes/ncm-t7s-step-thru-trekking-e-bike/) is the pick, and the [SmartMotion City at $2,299](/shop/commuter-and-urban-e-bikes/smartmotion-city-step-through-e-bike/) is a city step-through. For an Aventon commuter, see the [Pace 500.3 step-through at $2,599](/shop/commuter-and-urban-e-bikes/aventon-pace-500-3-step-through/).',
         'Send us your height, inseam and trip plans and we will help you choose a size. You can also browse the full [commuter and urban e-bikes range](/shop/commuter-and-urban-e-bikes/) and read our [how to choose an e-bike guide](/blog/how-to-choose-an-e-bike/).',
       ],
     },

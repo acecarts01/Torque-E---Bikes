@@ -111,7 +111,6 @@ export const body = {
           ['[Fatboy Cargo Rack Rear V3](/shop/racks-bags-and-trailers/fatboy-cargo-rack-rear-v3/)', '$119', 'Rear rack'],
           ['[Fatboy Headlight (V1 Scrambler / Harlem)](/shop/lights-and-horns/fatboy-headlight-v1-scrambler-harlem/)', '$139', 'Headlight'],
           ['[Fatboy Suspension Rear Scrambler](/shop/suspension-and-forks/fatboy-suspension-rear-scrambler/)', '$289', 'Rear suspension'],
-          ['[Fatboy Longboard Bike Rack](/shop/racks-bags-and-trailers/fatboy-longboard-bike-rack/)', '$229', 'Bike rack'],
         ],
       },
     },

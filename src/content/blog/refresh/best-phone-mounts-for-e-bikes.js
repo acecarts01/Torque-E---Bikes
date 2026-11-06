@@ -16,7 +16,6 @@ export const meta = {
     { href: '/shop/phone-mounts-mirrors-and-audio/quad-lock-out-front-mount/', name: 'Quad Lock Out-Front Mount', price: 46.95, note: 'Puts the phone out in front of the handlebar.' },
     { href: '/shop/phone-mounts-mirrors-and-audio/phone-holder-gub-plus-11/', name: 'Phone Holder GUB Plus 11', price: 51.95, note: 'A phone holder for the handlebar.' },
     { href: '/shop/phone-mounts-mirrors-and-audio/quad-lock-mag-samsung-galaxy-s24-case/', name: 'Quad Lock MAG Samsung Galaxy S24 Case', price: 46.95, note: 'A case for a case-based mount system.' },
-    { href: '/shop/phone-mounts-mirrors-and-audio/azur-optic-mirror-anti-glare/', name: 'Azur Optic Mirror Anti Glare', price: 37.95, note: 'An anti-glare mirror.' },
     { href: '/shop/phone-mounts-mirrors-and-audio/', name: 'All phone mounts, mirrors and audio', note: '10 products.' },
   ],
   links: {

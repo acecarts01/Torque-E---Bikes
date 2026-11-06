@@ -25,7 +25,6 @@ export const meta = {
   related: [
     { href: '/shop/locks-and-security/onguard-chain-lock/', name: 'OnGuard Chain Lock', price: 38.95, note: 'The lowest-priced lock in our range.' },
     { href: '/shop/locks-and-security/mastiff-chain-lock-keyed/', name: 'Mastiff Chain-Lock Keyed', price: 99, note: 'A keyed chain lock.' },
-    { href: '/shop/locks-and-security/multitag-mount-and-airtag/', name: 'Multitag Mount & Airtag', price: 93.95, note: 'A mount and tag to help locate a bike.' },
     { href: '/shop/locks-and-security/', name: 'All locks and security', note: 'Locks, alarms and tracker mounts.' },
   ],
   links: {
@@ -98,7 +97,7 @@ export const body = {
       h: 'Theft: lock the bike even in the garage',
       p: [
         'A wall mount keeps a bike tidy, but it does not keep it safe. The Queensland Police [bicycle theft prevention post](https://mypolice.qld.gov.au/brisbanecentral/2021/06/02/scooter-and-bicycle-theft-prevention/) advises recording the serial number, registering it with police, photographing the bike and considering a small GPS tracker. It also says to keep the bike in sight where you can and, if you live in an apartment, to store it inside the unit rather than in the basement carpark.',
-        'Use a lock even at home, and anchor it to something fixed. Our [OnGuard Chain Lock at $38.95](/shop/locks-and-security/onguard-chain-lock/) is the lowest-priced lock we stock, and the [Mastiff Chain-Lock Keyed at $99](/shop/locks-and-security/mastiff-chain-lock-keyed/) is a step up. The [Multitag Mount & Airtag at $93.95](/shop/locks-and-security/multitag-mount-and-airtag/) helps you locate a bike if it goes missing. See our [gps tracker for bike guide](/blog/gps-tracker-for-bike/).',
+        'Use a lock even at home, and anchor it to something fixed. Our [OnGuard Chain Lock at $38.95](/shop/locks-and-security/onguard-chain-lock/) is the lowest-priced lock we stock, and the [Mastiff Chain-Lock Keyed at $99](/shop/locks-and-security/mastiff-chain-lock-keyed/) is a step up. The [Multitag Mount & Airtag at $93.95](/shop/locks-and-security/) helps you locate a bike if it goes missing. See our [gps tracker for bike guide](/blog/gps-tracker-for-bike/).',
       ],
     },
     {
@@ -122,7 +121,6 @@ export const body = {
         head: ['Item', 'Brand', 'Price', 'Use'],
         rows: [
           ['[OnGuard Chain Lock](/shop/locks-and-security/onguard-chain-lock/)', 'OnGuard', '$38.95', 'Chain lock'],
-          ['[Multitag Mount & Airtag](/shop/locks-and-security/multitag-mount-and-airtag/)', 'Multitag', '$93.95', 'Tracker mount'],
           ['[Mastiff Chain-Lock Keyed](/shop/locks-and-security/mastiff-chain-lock-keyed/)', 'Mastiff', '$99', 'Keyed chain lock'],
           ['[Kovix Steel Thunder Alarmed Folding Lock](/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/)', 'Kovix', '$109', 'Alarmed folding lock'],
         ],

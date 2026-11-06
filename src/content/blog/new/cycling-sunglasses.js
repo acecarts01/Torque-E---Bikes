@@ -24,7 +24,6 @@ export const meta = {
   },
   related: [
     { href: '/shop/helmets-gloves-and-protection/abus-macator-helmet/', name: 'Abus Macator Helmet', price: 93.95, note: 'The lowest-priced helmet we list.' },
-    { href: '/shop/helmets-gloves-and-protection/livall-bh60se-smart-helmet/', name: 'Livall BH60SE Smart Helmet', price: 169, note: 'A smart helmet.' },
     { href: '/shop/helmets-gloves-and-protection/79bike-off-road-goggles/', name: '79Bike Off-Road Goggles', price: 119, note: 'Goggles for off-road use.' },
     { href: '/shop/helmets-gloves-and-protection/', name: 'All helmets, gloves and protection', note: 'Helmets, gloves and armour.' },
   ],
@@ -129,7 +128,6 @@ export const body = {
         head: ['Item', 'Brand', 'Price', 'Use'],
         rows: [
           ['[Abus Macator Helmet](/shop/helmets-gloves-and-protection/abus-macator-helmet/)', 'Abus', '$93.95', 'Helmet'],
-          ['[Livall BH60SE Smart Helmet](/shop/helmets-gloves-and-protection/livall-bh60se-smart-helmet/)', 'Livall', '$169', 'Smart helmet'],
           ['[79Bike Off-Road Goggles](/shop/helmets-gloves-and-protection/79bike-off-road-goggles/)', '79Bike', '$119', 'Off-road goggles'],
         ],
       },

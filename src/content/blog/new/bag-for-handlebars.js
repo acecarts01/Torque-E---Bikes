@@ -26,7 +26,6 @@ export const meta = {
   },
   related: [
     { href: '/shop/phone-mounts-mirrors-and-audio/quad-lock-out-front-mount/', name: 'Quad Lock Out Front Mount', price: 46.95, note: 'A front mount for a phone.' },
-    { href: '/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single/', name: 'Azur Cargo Bike Waterproof Pannier Single', price: 83.95, note: 'A waterproof pannier.' },
     { href: '/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/', name: 'Basil Bicycle Crate Medium 29.5L Black', price: 80.95, note: 'A crate for a rack.' },
     { href: '/shop/racks-bags-and-trailers/', name: 'All racks, bags and trailers', note: 'Racks, panniers and trailers.' },
   ],
@@ -40,7 +39,7 @@ export const meta = {
     from: [
       ['/shop/racks-bags-and-trailers/', 'bag for handlebars buying guide'],
       ['/shop/phone-mounts-mirrors-and-audio/quad-lock-out-front-mount/', 'bike handlebar bag: what fits'],
-      ['/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single/', 'handlebar bags or panniers'],
+      ['/shop/racks-bags-and-trailers/azur-touring-handlebar-bag-with-phone-pouch-grey/', 'handlebar bags or panniers'],
     ],
   },
   kind: 'post',
@@ -63,7 +62,6 @@ export const body = {
         rows: [
           ['Handlebar bag', 'Phone, keys, snacks within reach', 'Light', 'Not stocked'],
           ['[Quad Lock Out Front Mount](/shop/phone-mounts-mirrors-and-audio/quad-lock-out-front-mount/) ($46.95)', 'Phone on the bars', 'Phone only', 'Yes'],
-          ['[Azur Cargo Bike Waterproof Pannier Single](/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single/) ($83.95)', 'Commuting loads on a rack', 'Heavier', 'Yes'],
           ['[Basil Bicycle Crate Medium 29.5L Black](/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/) ($80.95)', 'Shopping and bulky items', 'Heavier', 'Yes'],
         ],
       },
@@ -126,7 +124,6 @@ export const body = {
         rows: [
           ['[Quad Lock Out Front Mount](/shop/phone-mounts-mirrors-and-audio/quad-lock-out-front-mount/)', 'Quad Lock', '$46.95', 'Phone mount'],
           ['[79Bike Phone Handlebar Mount](/shop/phone-mounts-mirrors-and-audio/79bike-phone-handlebar-mount/)', '79Bike', '$93.95', 'Phone mount (off-road use)'],
-          ['[Azur Cargo Bike Waterproof Pannier Single](/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single/)', 'Azur', '$83.95', 'Waterproof pannier'],
           ['[Basil Bicycle Crate Medium 29.5L Black](/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/)', 'Basil', '$80.95', 'Crate'],
         ],
       },
@@ -171,7 +168,7 @@ export const body = {
     {
       h: 'Which bag for handlebars should you choose?',
       p: [
-        'For small essentials, choose a quick-release bag of 5 to 8 litres or less that clears your cables and light. For a phone alone, a mount such as the [Quad Lock Out Front Mount at $46.95](/shop/phone-mounts-mirrors-and-audio/quad-lock-out-front-mount/) does the job. For heavier loads, move to the rack with an [Azur waterproof pannier at $83.95](/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single/) or a [Basil crate at $80.95](/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/). Browse the full [racks, bags and trailers range](/shop/racks-bags-and-trailers/).',
+        'For small essentials, choose a quick-release bag of 5 to 8 litres or less that clears your cables and light. For a phone alone, a mount such as the [Quad Lock Out Front Mount at $46.95](/shop/phone-mounts-mirrors-and-audio/quad-lock-out-front-mount/) does the job. For heavier loads, move to the rack with an [Azur waterproof pannier at $83.95](/shop/racks-bags-and-trailers/azur-touring-handlebar-bag-with-phone-pouch-grey/) or a [Basil crate at $80.95](/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/). Browse the full [racks, bags and trailers range](/shop/racks-bags-and-trailers/).',
         'Tell us your bike and what you carry, and we will suggest the right set-up. All orders ship Australia-wide with dangerous-goods certified dispatch.',
       ],
     },

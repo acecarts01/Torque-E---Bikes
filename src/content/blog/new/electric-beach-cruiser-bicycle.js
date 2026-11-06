@@ -26,7 +26,6 @@ export const meta = {
   related: [
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/cruzr-trigger-gen3/', name: 'Cruzr Trigger GEN3', price: 2359, note: 'The lowest-priced Cruzr we list.' },
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/cruzr-barrel-2027/', name: 'Cruzr Barrel 2027', price: 2559, note: 'A 2027 Cruzr.' },
-    { href: '/shop/fat-tyre-and-scrambler-e-bikes/reid-harbour-urban/', name: 'Reid Harbour Urban', price: 2659, note: 'A Reid fat-tyre e-bike.' },
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/cruzr-swell-electric-bike/', name: 'Cruzr Swell Electric Bike', price: 2939, note: 'A Cruzr Swell.' },
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/', name: 'All fat tyre and scrambler e-bikes', note: 'Fat-tyre e-bikes and scramblers.' },
   ],
@@ -63,7 +62,6 @@ export const body = {
         rows: [
           ['[Cruzr Trigger GEN3](/shop/fat-tyre-and-scrambler-e-bikes/cruzr-trigger-gen3/)', 'Cruzr', '$2,359'],
           ['[Cruzr Barrel 2027](/shop/fat-tyre-and-scrambler-e-bikes/cruzr-barrel-2027/)', 'Cruzr', '$2,559'],
-          ['[Reid Harbour Urban](/shop/fat-tyre-and-scrambler-e-bikes/reid-harbour-urban/)', 'Reid', '$2,659'],
           ['[Cruzr Swell Electric Bike](/shop/fat-tyre-and-scrambler-e-bikes/cruzr-swell-electric-bike/)', 'Cruzr', '$2,939'],
           ['[Cruzr Stoke Electric Bike](/shop/fat-tyre-and-scrambler-e-bikes/cruzr-stoke-electric-bike/)', 'Cruzr', '$2,969'],
           ['[Aventon Aventure.2 Fat Tire](/shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-2-fat-tire/)', 'Aventon', '$2,999'],
@@ -166,7 +164,7 @@ export const body = {
     {
       h: 'Which electric beach cruiser bicycle should you buy?',
       p: [
-        'For the lowest price, start with the [Cruzr Trigger GEN3 at $2,359](/shop/fat-tyre-and-scrambler-e-bikes/cruzr-trigger-gen3/). The [Cruzr Barrel 2027 at $2,559](/shop/fat-tyre-and-scrambler-e-bikes/cruzr-barrel-2027/) and the [Reid Harbour Urban at $2,659](/shop/fat-tyre-and-scrambler-e-bikes/reid-harbour-urban/) sit in the middle, and the [Cruzr Swell at $2,939](/shop/fat-tyre-and-scrambler-e-bikes/cruzr-swell-electric-bike/) is a step up. Browse the full [fat tyre and scrambler e-bikes range](/shop/fat-tyre-and-scrambler-e-bikes/).',
+        'For the lowest price, start with the [Cruzr Trigger GEN3 at $2,359](/shop/fat-tyre-and-scrambler-e-bikes/cruzr-trigger-gen3/). The [Cruzr Barrel 2027 at $2,559](/shop/fat-tyre-and-scrambler-e-bikes/cruzr-barrel-2027/) and the [Reid Harbour Urban at $2,659](/shop/fat-tyre-and-scrambler-e-bikes/) sit in the middle, and the [Cruzr Swell at $2,939](/shop/fat-tyre-and-scrambler-e-bikes/cruzr-swell-electric-bike/) is a step up. Browse the full [fat tyre and scrambler e-bikes range](/shop/fat-tyre-and-scrambler-e-bikes/).',
         'Tell us where you ride and how far, and we will confirm the compliance label and the maker\'s figures. All orders ship Australia-wide with dangerous-goods certified dispatch.',
       ],
     },

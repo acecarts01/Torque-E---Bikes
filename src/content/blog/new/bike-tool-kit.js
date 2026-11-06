@@ -23,8 +23,6 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/', name: 'Lezyne Lever Kit Light Grey', price: 18.95, note: 'A lever kit for tyre work.' },
-    { href: '/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/', name: 'Krush Ultra Drivetrain Degreaser', price: 23.95, note: 'A drivetrain degreaser.' },
     { href: '/shop/care-tools-and-hydration/rock-n-roll-absolute-dry-chain-lube-117ml/', name: 'Rock N Roll Absolute Dry Chain Lube 117ml', price: 18.95, note: 'A dry chain lube.' },
     { href: '/shop/wheels-tyres-and-tubes/79bike-inner-tube/', name: '79Bike Inner Tube', price: 38.95, note: 'A spare tube for 79Bike wheels.' },
     { href: '/shop/care-tools-and-hydration/', name: 'All care, tools and hydration', note: 'Lubes, levers and bottles.' },
@@ -38,8 +36,8 @@ export const meta = {
     ],
     from: [
       ['/shop/care-tools-and-hydration/', 'bike tool kit buying guide'],
-      ['/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/', 'bicycle tool kit: what to carry'],
-      ['/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/', 'bike fix kit for home'],
+      ['/shop/care-tools-and-hydration/', 'bicycle tool kit: what to carry'],
+      ['/shop/care-tools-and-hydration/', 'bike fix kit for home'],
     ],
   },
   kind: 'post',
@@ -60,7 +58,7 @@ export const body = {
       table: {
         head: ['Item', 'Why carry it', 'Do we stock it?'],
         rows: [
-          ['Tyre levers', 'Remove a tyre from the rim to reach the tube', '[Lezyne Lever Kit](/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/) $18.95'],
+          ['Tyre levers', 'Remove a tyre from the rim to reach the tube', '[Lezyne Lever Kit](/shop/care-tools-and-hydration/) $18.95'],
           ['Spare inner tube', 'Fastest roadside fix for a flat', '[79Bike Inner Tube](/shop/wheels-tyres-and-tubes/79bike-inner-tube/) $38.95 (79Bike wheels)'],
           ['Patch kit', 'Backup when you run out of tubes', 'See our [puncture repair kit guide](/blog/bike-puncture-repair-kit/)'],
           ['Pump or CO2 inflator', 'Inflate the tyre after the repair', 'Not stocked'],
@@ -107,8 +105,6 @@ export const body = {
       table: {
         head: ['Item', 'Brand', 'Price', 'Use'],
         rows: [
-          ['[Lezyne Lever Kit Light Grey](/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/)', 'Lezyne', '$18.95', 'Tyre levers'],
-          ['[Krush Ultra Drivetrain Degreaser](/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/)', 'Krush', '$23.95', 'Drivetrain cleaning'],
           ['[Rock N Roll Absolute Dry Chain Lube 117ml](/shop/care-tools-and-hydration/rock-n-roll-absolute-dry-chain-lube-117ml/)', 'Rock N Roll', '$18.95', 'Dry chain lube'],
           ['[79Bike Inner Tube](/shop/wheels-tyres-and-tubes/79bike-inner-tube/)', '79Bike', '$38.95', 'Spare tube'],
         ],
@@ -183,7 +179,7 @@ export const body = {
     {
       h: 'Which bike tool kit should you build?',
       p: [
-        'Start with levers, a spare tube, a patch kit, a pump and a multi-tool, and add a quick link if you ride a long way from home. Our [Lezyne Lever Kit at $18.95](/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/) covers the levers, and the [Krush degreaser at $23.95](/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/) and [Rock N Roll chain lube at $18.95](/shop/care-tools-and-hydration/rock-n-roll-absolute-dry-chain-lube-117ml/) cover home care. Browse the full [care, tools and hydration range](/shop/care-tools-and-hydration/).',
+        'Start with levers, a spare tube, a patch kit, a pump and a multi-tool, and add a quick link if you ride a long way from home. Our [Lezyne Lever Kit at $18.95](/shop/care-tools-and-hydration/) covers the levers, and the [Krush degreaser at $23.95](/shop/care-tools-and-hydration/) and [Rock N Roll chain lube at $18.95](/shop/care-tools-and-hydration/rock-n-roll-absolute-dry-chain-lube-117ml/) cover home care. Browse the full [care, tools and hydration range](/shop/care-tools-and-hydration/).',
         'Tell us your bike and how far you ride, and we will point you to the right items. All orders ship Australia-wide with dangerous-goods certified dispatch.',
       ],
     },

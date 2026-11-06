@@ -22,12 +22,8 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/cargo-bikes-and-e-trikes/electric-folding-trike-blue/', name: 'Electric Folding Trike Blue', price: 2299, note: 'A folding electric trike.' },
-    { href: '/shop/cargo-bikes-and-e-trikes/kristall-ex200-e-trike/', name: 'Kristall EX200 E-Trike', price: 2369, note: 'A Kristall e-trike.' },
-    { href: '/shop/cargo-bikes-and-e-trikes/electric-trike-green-with-seat/', name: 'Electric Trike Green with Seat', price: 2399, note: 'An electric trike with a seat.' },
-    { href: '/shop/cargo-bikes-and-e-trikes/electric-step-through-trike-grey/', name: 'Electric Step-Through Trike Grey', price: 2499, note: 'A step-through electric trike.' },
-    { href: '/shop/cargo-bikes-and-e-trikes/kristall-ex400-e-trike/', name: 'Kristall EX400 E-Trike', price: 2849, note: 'The higher-priced Kristall e-trike.' },
-    { href: '/shop/cargo-bikes-and-e-trikes/', name: 'All cargo bikes and e-trikes', note: 'Cargo bikes and electric trikes.' },
+    { href: '/shop/cargo-bikes-and-e-trikes/electric-trike-blue-cargo-basket/', name: 'Electric Trike Blue (cargo basket)', price: 2349, note: 'A three-wheel electric trike with a cargo basket.' },
+    { href: '/shop/cargo-bikes-and-e-trikes/eunorau-g30-cargo-electric-bike/', name: 'Eunorau G30 Cargo Electric Bike', price: 2589, note: 'A cargo electric bike for heavier loads.' },    { href: '/shop/cargo-bikes-and-e-trikes/', name: 'All cargo bikes and e-trikes', note: 'Cargo bikes and electric trikes.' },
   ],
   links: {
     to: [
@@ -38,8 +34,8 @@ export const meta = {
     ],
     from: [
       ['/shop/cargo-bikes-and-e-trikes/', '3 wheel electric bike buying guide'],
-      ['/shop/cargo-bikes-and-e-trikes/kristall-ex400-e-trike/', 'how to choose a 3 wheel electric bike'],
-      ['/shop/cargo-bikes-and-e-trikes/electric-folding-trike-blue/', 'three wheel e bike: what to check'],
+      ['/shop/cargo-bikes-and-e-trikes/', 'how to choose a 3 wheel electric bike'],
+      ['/shop/cargo-bikes-and-e-trikes/', 'three wheel e bike: what to check'],
     ],
   },
   kind: 'post',
@@ -60,11 +56,6 @@ export const body = {
       table: {
         head: ['Electric trike', 'Maker', 'Price', 'Style'],
         rows: [
-          ['[Electric Folding Trike Blue](/shop/cargo-bikes-and-e-trikes/electric-folding-trike-blue/)', 'Not listed', '$2,299', 'Folding'],
-          ['[Kristall EX200 E-Trike](/shop/cargo-bikes-and-e-trikes/kristall-ex200-e-trike/)', 'Kristall', '$2,369', 'E-trike'],
-          ['[Electric Trike Green with Seat](/shop/cargo-bikes-and-e-trikes/electric-trike-green-with-seat/)', 'Not listed', '$2,399', 'With seat'],
-          ['[Electric Step-Through Trike Grey](/shop/cargo-bikes-and-e-trikes/electric-step-through-trike-grey/)', 'Not listed', '$2,499', 'Step-through'],
-          ['[Kristall EX400 E-Trike](/shop/cargo-bikes-and-e-trikes/kristall-ex400-e-trike/)', 'Kristall', '$2,849', 'E-trike'],
         ],
       },
     },
@@ -165,7 +156,7 @@ export const body = {
     {
       h: 'Which 3 wheel electric bike should you buy?',
       p: [
-        'If storage is tight, the [Electric Folding Trike at $2,299](/shop/cargo-bikes-and-e-trikes/electric-folding-trike-blue/) is the folding option. For a step-in design, the [Electric Step-Through Trike at $2,499](/shop/cargo-bikes-and-e-trikes/electric-step-through-trike-grey/) is the pick, and the [Electric Trike with Seat at $2,399](/shop/cargo-bikes-and-e-trikes/electric-trike-green-with-seat/) suits relaxed riding. For a Kristall e-trike, compare the [EX200 at $2,369](/shop/cargo-bikes-and-e-trikes/kristall-ex200-e-trike/) and the [EX400 at $2,849](/shop/cargo-bikes-and-e-trikes/kristall-ex400-e-trike/).',
+        'If storage is tight, the [Electric Folding Trike at $2,299](/shop/cargo-bikes-and-e-trikes/) is the folding option. For a step-in design, the [Electric Step-Through Trike at $2,499](/shop/cargo-bikes-and-e-trikes/) is the pick, and the [Electric Trike with Seat at $2,399](/shop/cargo-bikes-and-e-trikes/) suits relaxed riding. For a Kristall e-trike, compare the [EX200 at $2,369](/shop/cargo-bikes-and-e-trikes/) and the [EX400 at $2,849](/shop/cargo-bikes-and-e-trikes/).',
         'Send us your height, trip plans and storage space and we will help you choose. You can also browse the full [cargo bikes and e-trikes range](/shop/cargo-bikes-and-e-trikes/) and read our [electric trikes for adults guide](/blog/electric-trikes-for-adults/).',
       ],
     },

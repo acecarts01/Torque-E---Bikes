@@ -23,7 +23,6 @@ export const meta = {
   },
   related: [
     { href: '/shop/folding-e-bikes/folding-step-through-e-bike-white/', name: 'Folding Step-Through E-Bike White', price: 1199, note: 'The lowest-priced step-through in this guide.' },
-    { href: '/shop/commuter-and-urban-e-bikes/mamba-savannah-26-step-through-commuter/', name: 'Mamba Savannah 26" Step-Through Commuter', price: 1899, note: 'A 26 inch step-through commuter.' },
     { href: '/shop/commuter-and-urban-e-bikes/ncm-milano-step-through-trekking-e-bike/', name: 'NCM Milano Step-Through Trekking E-Bike', price: 1999, note: 'A step-through trekking e-bike.' },
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-2-step-through-electric-bike/', name: 'Aventon Aventure.2 Step Through Electric Bike', price: 2999, note: 'A step-through fat-tyre e-bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: 'City and commuter e-bikes.' },
@@ -37,7 +36,7 @@ export const meta = {
     ],
     from: [
       ['/shop/commuter-and-urban-e-bikes/', 'e bike step thru buying guide'],
-      ['/shop/commuter-and-urban-e-bikes/mamba-savannah-26-step-through-commuter/', 'how to choose a step through ebike'],
+      ['/shop/commuter-and-urban-e-bikes/', 'how to choose a step through ebike'],
       ['/shop/commuter-and-urban-e-bikes/ncm-milano-step-through-trekking-e-bike/', 'step thru ebike: what to check'],
     ],
   },
@@ -60,7 +59,6 @@ export const body = {
         head: ['E-bike', 'Category', 'Price', 'Style'],
         rows: [
           ['[Folding Step-Through E-Bike White](/shop/folding-e-bikes/folding-step-through-e-bike-white/)', 'Folding', '$1,199', 'Folding step-through'],
-          ['[Mamba Savannah 26" Step-Through Commuter](/shop/commuter-and-urban-e-bikes/mamba-savannah-26-step-through-commuter/)', 'Commuter', '$1,899', '26 inch commuter'],
           ['[NCM Milano Step-Through Trekking E-Bike](/shop/commuter-and-urban-e-bikes/ncm-milano-step-through-trekking-e-bike/)', 'Commuter', '$1,999', 'Trekking'],
           ['[Aventon Aventure.2 Step Through Electric Bike](/shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-2-step-through-electric-bike/)', 'Fat tyre', '$2,999', 'Fat-tyre step-through'],
         ],
@@ -166,7 +164,7 @@ export const body = {
     {
       h: 'Which e bike step thru should you buy?',
       p: [
-        'For a compact, low-priced option, the [folding step-through e-bike at $1,199](/shop/folding-e-bikes/folding-step-through-e-bike-white/) is the entry. For a commuter, the [Mamba Savannah 26" at $1,899](/shop/commuter-and-urban-e-bikes/mamba-savannah-26-step-through-commuter/) is the pick, and the [NCM Milano trekking e-bike at $1,999](/shop/commuter-and-urban-e-bikes/ncm-milano-step-through-trekking-e-bike/) suits longer rides. For wide tyres, look at the [Aventon Aventure.2 step through at $2,999](/shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-2-step-through-electric-bike/).',
+        'For a compact, low-priced option, the [folding step-through e-bike at $1,199](/shop/folding-e-bikes/folding-step-through-e-bike-white/) is the entry. For a commuter, the [Mamba Savannah 26" at $1,899](/shop/commuter-and-urban-e-bikes/) is the pick, and the [NCM Milano trekking e-bike at $1,999](/shop/commuter-and-urban-e-bikes/ncm-milano-step-through-trekking-e-bike/) suits longer rides. For wide tyres, look at the [Aventon Aventure.2 step through at $2,999](/shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-2-step-through-electric-bike/).',
         'Send us your height, inseam, trip plans and budget and we will help you choose a size. You can also browse the full [commuter and urban e-bikes range](/shop/commuter-and-urban-e-bikes/).',
       ],
     },

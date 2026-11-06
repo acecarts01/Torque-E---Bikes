@@ -23,7 +23,6 @@ export const meta = {
   },
   related: [
     { href: '/shop/electric-mountain-bikes/cube-reaction-hybrid-hpa-pro-500/', name: 'Cube Reaction Hybrid HPA Pro 500', price: 3199, note: 'The lowest-priced Cube e-MTB in this guide.' },
-    { href: '/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-500/', name: 'Cube Touring Hybrid Pro 500', price: 4314, note: 'A Cube touring e-bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-exc-750/', name: 'Cube Kathmandu Hybrid EXC 750', price: 5197, note: 'A Cube Kathmandu e-bike.' },
     { href: '/shop/electric-mountain-bikes/cube-stereo-hybrid-140/', name: 'Cube Stereo Hybrid 140', price: 6299, note: 'A Cube full-suspension e-MTB.' },
     { href: '/shop/electric-mountain-bikes/cube-stereo-hybrid-160/', name: 'Cube Stereo Hybrid 160', price: 9214, note: 'The top Cube Stereo in this guide.' },
@@ -39,7 +38,7 @@ export const meta = {
     from: [
       ['/shop/electric-mountain-bikes/', 'cube e bike buying guide'],
       ['/shop/electric-mountain-bikes/cube-stereo-hybrid-140/', 'how to choose a cube e bike'],
-      ['/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-500/', 'cube ebikes australia: what to check'],
+      ['/shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-one-500/', 'cube ebikes australia: what to check'],
     ],
   },
   kind: 'post',
@@ -61,7 +60,6 @@ export const body = {
         head: ['Cube e-bike', 'Category', 'Price', 'Style'],
         rows: [
           ['[Cube Reaction Hybrid HPA Pro 500](/shop/electric-mountain-bikes/cube-reaction-hybrid-hpa-pro-500/)', 'Electric mountain', '$3,199', 'Reaction e-MTB'],
-          ['[Cube Touring Hybrid Pro 500](/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-500/)', 'Commuter', '$4,314', 'Touring'],
           ['[Cube Kathmandu Hybrid EXC 750](/shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-exc-750/)', 'Commuter', '$5,197', 'Kathmandu'],
           ['[Cube Stereo Hybrid 140](/shop/electric-mountain-bikes/cube-stereo-hybrid-140/)', 'Electric mountain', '$6,299', 'Stereo e-MTB'],
           ['[Cube Stereo Hybrid 160](/shop/electric-mountain-bikes/cube-stereo-hybrid-160/)', 'Electric mountain', '$9,214', 'Stereo e-MTB, more travel'],
@@ -168,7 +166,7 @@ export const body = {
     {
       h: 'Which Cube e bike should you buy?',
       p: [
-        'For a hardtail e-MTB, the [Cube Reaction Hybrid HPA Pro 500 at $3,199](/shop/electric-mountain-bikes/cube-reaction-hybrid-hpa-pro-500/) is the entry. For a full-suspension trail bike, look at the [Stereo Hybrid 140 at $6,299](/shop/electric-mountain-bikes/cube-stereo-hybrid-140/) or the [Stereo Hybrid 160 at $9,214](/shop/electric-mountain-bikes/cube-stereo-hybrid-160/). For road and path riding, the [Touring Hybrid Pro 500 at $4,314](/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-500/) and the [Kathmandu Hybrid EXC 750 at $5,197](/shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-exc-750/) are the picks.',
+        'For a hardtail e-MTB, the [Cube Reaction Hybrid HPA Pro 500 at $3,199](/shop/electric-mountain-bikes/cube-reaction-hybrid-hpa-pro-500/) is the entry. For a full-suspension trail bike, look at the [Stereo Hybrid 140 at $6,299](/shop/electric-mountain-bikes/cube-stereo-hybrid-140/) or the [Stereo Hybrid 160 at $9,214](/shop/electric-mountain-bikes/cube-stereo-hybrid-160/). For road and path riding, the [Touring Hybrid Pro 500 at $4,314](/shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-one-500/) and the [Kathmandu Hybrid EXC 750 at $5,197](/shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-exc-750/) are the picks.',
         'Send us your height, your terrain and your budget and we will help you choose a Cube. You can also browse the full [electric mountain bikes range](/shop/electric-mountain-bikes/) and the [commuter and urban e-bikes range](/shop/commuter-and-urban-e-bikes/).',
       ],
     },

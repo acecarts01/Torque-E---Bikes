@@ -25,7 +25,6 @@ export const meta = {
   related: [
     { href: '/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/', name: 'DYU C6 Electric Bike', price: 849, note: 'The lowest-priced commuter in our range.' },
     { href: '/shop/commuter-and-urban-e-bikes/aventon-pace-4/', name: 'Aventon Pace 4', price: 2199, note: 'A mid-priced commuter.' },
-    { href: '/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400/', name: 'Cube Touring Hybrid One 400', price: 2889, note: 'A premium commuter.' },
     { href: '/shop/batteries-chargers-and-electronics/vamos-hefe-battery-48v-15ah/', name: 'Vamos Hefe Battery (48V 15Ah Silverfish)', price: 539, note: 'The lowest-priced battery pack in our range.' },
     { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: 'City and commuter e-bikes.' },
   ],
@@ -62,7 +61,7 @@ export const body = {
         rows: [
           ['Under $1,500', '[DYU C6 Electric Bike](/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/)', '$849', 'Entry commuter. Check the battery, brakes and support.'],
           ['$1,500 to $2,500', '[Aventon Pace 4](/shop/commuter-and-urban-e-bikes/aventon-pace-4/)', '$2,199', 'Named-brand commuters and entry e-mountain bikes.'],
-          ['$2,500 to $4,000', '[Cube Touring Hybrid One 400](/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400/)', '$2,889', 'Premium commuters and hybrids.'],
+          ['$2,500 to $4,000', '[Cube Touring Hybrid One 400](/shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/)', '$2,889', 'Premium commuters and hybrids.'],
           ['$2,500 to $4,000', '[Trek Checkpoint+ SL 5](/shop/road-and-gravel-e-bikes/trek-checkpoint-sl-5/)', '$3,999', 'Entry gravel and road e-bikes.'],
           ['Above $6,000', '[Cube Stereo Hybrid 140](/shop/electric-mountain-bikes/cube-stereo-hybrid-140/)', '$6,299', 'Full-suspension e-mountain bikes and premium systems.'],
         ],
@@ -120,7 +119,6 @@ export const body = {
         rows: [
           ['[DYU C6](/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/)', '$849.00', '$160.85', '$1,009.85'],
           ['[Aventon Pace 4](/shop/commuter-and-urban-e-bikes/aventon-pace-4/)', '$2,199.00', '$160.85', '$2,359.85'],
-          ['[Cube Touring Hybrid One 400](/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400/)', '$2,889.00', '$160.85', '$3,049.85'],
         ],
       },
     },
@@ -204,7 +202,7 @@ export const body = {
     {
       h: 'Which electric bike should you buy for your budget?',
       p: [
-        'Under $1,500, the [DYU C6 at $849](/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/) is the entry. Around $2,000 to $3,000, the [Aventon Pace 4 at $2,199](/shop/commuter-and-urban-e-bikes/aventon-pace-4/) and the [Cube Touring Hybrid One 400 at $2,889](/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400/) are good starting points. For gravel, the [Trek Checkpoint+ SL 5 at $3,999](/shop/road-and-gravel-e-bikes/trek-checkpoint-sl-5/) is the entry.',
+        'Under $1,500, the [DYU C6 at $849](/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/) is the entry. Around $2,000 to $3,000, the [Aventon Pace 4 at $2,199](/shop/commuter-and-urban-e-bikes/aventon-pace-4/) and the [Cube Touring Hybrid One 400 at $2,889](/shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/) are good starting points. For gravel, the [Trek Checkpoint+ SL 5 at $3,999](/shop/road-and-gravel-e-bikes/trek-checkpoint-sl-5/) is the entry.',
         'Send us your budget and your riding and we will recommend bikes and confirm compliance, size and stock. You can also browse the [commuter and urban e-bikes range](/shop/commuter-and-urban-e-bikes/) and read our [electric bikes for sale guide](/blog/electric-bikes-for-sale/).',
       ],
     },

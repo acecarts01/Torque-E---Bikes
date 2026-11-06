@@ -16,9 +16,7 @@ export const meta = {
     tags: ['motorised bike kit', 'bicycle ebike conversion', 'ebike kit with battery', 'conversion e bike', 'ebike kits', 'convert bicycle to electric kit', 'convert bike to ebike', 'kit bicycle motor', 'electric bike conversion kit with battery', 'electric bike conversion'],
     imageAlt: 'Hands fitting an e bike conversion kit motor to a bicycle in a workshop',
     related: [
-      { href: '/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/', name: 'Torque 500W E-Bike Conversion Kit Combo', price: 859, note: 'Off-road and private property use only.' },
       { href: '/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/', name: 'Torque 1000W E-Bike Conversion Combo', price: 819, note: 'Off-road and private property use only.' },
-      { href: '/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/', name: 'Torque MTX Motor & Rim', price: 329, note: 'Motor and rim for a motor-and-wheel build.' },
       { href: '/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/', name: 'Torque Arms (1500W-5000W Kits)', price: 51.95, note: 'Holds the axle in the dropouts on higher-power builds.' },
       { href: '/shop/motors-drivetrain-and-sprockets/', name: 'All motors, drivetrain and sprockets', note: 'Kits, motors, chains and sprockets.' },
     ],
@@ -32,8 +30,8 @@ export const meta = {
       ],
       from: [
         ['/shop/motors-drivetrain-and-sprockets/', 'e bike conversion kit guide'],
-        ['/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/', 'how to choose an ebike kit'],
-        ['/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/', 'bike conversion kit explained'],
+        ['/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/', 'how to choose an ebike kit'],
+        ['/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/', 'bike conversion kit explained'],
         ['/blog/diy-2000w-conversion-guide/', 'conversion kit explained'],
       ],
     },
@@ -55,9 +53,7 @@ export const body = {
         table: {
           head: ['Item', 'Price', 'Use'],
           rows: [
-            ['[Torque MTX Motor & Rim](/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/)', '$329', 'Motor and rim'],
             ['[Torque 1000W E-Bike Conversion Combo](/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/)', '$819', 'Off-road and private property only'],
-            ['[Torque 500W E-Bike Conversion Kit Combo](/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/)', '$859', 'Off-road and private property only'],
             ['79Bike Falcon Pro Motor', '$1,350', 'Off-road and private property only'],
             ['[Torque Arms (1500W-5000W Kits)](/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/)', '$51.95', 'Axle support for higher-power builds'],
           ],

@@ -25,7 +25,6 @@ export const meta = {
   related: [
     { href: '/shop/phone-mounts-mirrors-and-audio/shokz-openrun-bone-conduction-headphones/', name: 'Shokz OpenRun Bone Conduction Headphones', price: 129, note: 'The lower-priced OpenRun model.' },
     { href: '/shop/phone-mounts-mirrors-and-audio/shokz-openrun-pro-2/', name: 'Shokz OpenRun Pro 2', price: 239, note: 'The higher-priced OpenRun Pro model.' },
-    { href: '/shop/phone-mounts-mirrors-and-audio/azur-optic-mirror-anti-glare/', name: 'Azur Optic Mirror Anti Glare', price: 37.95, note: 'A mirror to pair with open-ear audio.' },
     { href: '/shop/phone-mounts-mirrors-and-audio/', name: 'All phone mounts, mirrors and audio', note: 'Mounts, mirrors and headphones.' },
   ],
   links: {
@@ -154,7 +153,7 @@ export const body = {
       h: 'Which bone conduction headphones should you buy?',
       p: [
         'If you want a simple, well-known open-ear headset for cycling and running, the [Shokz OpenRun at $129](/shop/phone-mounts-mirrors-and-audio/shokz-openrun-bone-conduction-headphones/) is the lower-priced way in. The [Shokz OpenRun Pro 2 at $239](/shop/phone-mounts-mirrors-and-audio/shokz-openrun-pro-2/) is the higher-priced Pro model. Compare the manufacturer\'s specifications for battery life, charging time and water resistance, and choose the one that fits your riding.',
-        'Add a [mirror](/shop/phone-mounts-mirrors-and-audio/azur-optic-mirror-anti-glare/) and a solid phone mount and you have a tidy cockpit. Browse the whole [audio, mirror and mount range](/shop/phone-mounts-mirrors-and-audio/) and message us if you want stock or delivery confirmed.',
+        'Add a [mirror](/shop/phone-mounts-mirrors-and-audio/) and a solid phone mount and you have a tidy cockpit. Browse the whole [audio, mirror and mount range](/shop/phone-mounts-mirrors-and-audio/) and message us if you want stock or delivery confirmed.',
       ],
     },
   ],

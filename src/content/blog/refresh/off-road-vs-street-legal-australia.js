@@ -15,7 +15,6 @@ export const meta = {
   imageAlt: 'Person riding an electric bike across a crosswalk, a legal electric bike on a coastal promenade',
   related: [
     { href: '/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/', name: 'DYU C6 Electric Bike', price: 849, note: 'Road-style commuter e-bike. Ask us for the compliance label.' },
-    { href: '/shop/commuter-and-urban-e-bikes/reid-let-s-roll/', name: "Reid Let's Roll", price: 1229, note: 'Road-style commuter e-bike. Ask us for the compliance label.' },
     { href: '/shop/electric-dirt-bikes/79bike-viper-s-electric-dirt-bike/', name: '79Bike Viper S Electric Dirt Bike', price: 949, note: 'Off-road and private property only.' },
     { href: '/shop/electric-dirt-bikes/sur-ron-light-bee-x/', name: 'Sur-Ron Light Bee X', price: 6169, note: 'Off-road and private property only.' },
     { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: '77 models.' },

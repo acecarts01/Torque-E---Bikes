@@ -12,6 +12,10 @@
   "destination": "/shop/electric-mountain-bikes/"
  },
  {
+  "source": "/brands/apollo",
+  "destination": "/shop/brakes/"
+ },
+ {
   "source": "/brands/arctic",
   "destination": "/shop/electric-dirt-bikes/arctic-leopard-xe-pro/"
  },
@@ -37,7 +41,7 @@
  },
  {
   "source": "/brands/dyu",
-  "destination": "/shop/folding-e-bikes/"
+  "destination": "/shop/commuter-and-urban-e-bikes/"
  },
  {
   "source": "/brands/e-move-bikes",
@@ -65,7 +69,11 @@
  },
  {
   "source": "/brands/kona",
-  "destination": "/shop/commuter-and-urban-e-bikes/"
+  "destination": "/shop/commuter-and-urban-e-bikes/kona-dew-hd/"
+ },
+ {
+  "source": "/brands/kristall",
+  "destination": "/shop/folding-e-bikes/"
  },
  {
   "source": "/brands/ktm",
@@ -77,15 +85,11 @@
  },
  {
   "source": "/brands/lpr",
-  "destination": "/shop/kids-electric-dirt-and-balance-bikes/"
+  "destination": "/shop/kids-electric-dirt-and-balance-bikes/lpr-16-inch-v4-kids-electric-bike/"
  },
  {
   "source": "/brands/marin",
   "destination": "/shop/electric-mountain-bikes/"
- },
- {
-  "source": "/brands/mondraker",
-  "destination": "/shop/electric-mountain-bikes/mondraker-crafty-carbon/"
  },
  {
   "source": "/brands/polygon",
@@ -94,6 +98,10 @@
  {
   "source": "/brands/razor",
   "destination": "/shop/kids-electric-dirt-and-balance-bikes/"
+ },
+ {
+  "source": "/brands/reid",
+  "destination": "/shop/commuter-and-urban-e-bikes/"
  },
  {
   "source": "/brands/rfn",
@@ -121,7 +129,7 @@
  },
  {
   "source": "/brands/strike",
-  "destination": "/shop/electric-dirt-bikes/"
+  "destination": "/shop/electric-dirt-bikes/strike-shadow-60v-5kw/"
  },
  {
   "source": "/brands/sunmono",
@@ -132,19 +140,11 @@
   "destination": "/shop/cargo-bikes-and-e-trikes/tebco-transporter/"
  },
  {
-  "source": "/brands/thule",
-  "destination": "/shop/racks-bags-and-trailers/thule-euroway-g2-2-bike-towbar-carrier/"
- },
- {
   "source": "/brands/velectrix",
   "destination": "/shop/commuter-and-urban-e-bikes/"
  },
  {
   "source": "/brands/vyron",
   "destination": "/shop/cargo-bikes-and-e-trikes/vyron-hauler-cargo/"
- },
- {
-  "source": "/brands/yozma",
-  "destination": "/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/"
  }
 ]

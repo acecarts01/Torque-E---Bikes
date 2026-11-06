@@ -23,7 +23,6 @@ export const meta = {
   },
   related: [
     { href: '/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/', name: 'Torque 1000W E-Bike Conversion Combo', price: 819, note: 'A 1000W combo. Off-road and private property use only.' },
-    { href: '/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/', name: 'Torque 500W E-Bike Conversion Kit Combo', price: 859, note: 'A 500W combo. Off-road and private property use only.' },
     { href: '/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/', name: 'Torque Arms (1500W-5000W Kits)', price: 51.95, note: 'Torque arms for high-power kits.' },
     { href: '/shop/batteries-chargers-and-electronics/', name: 'Batteries, chargers and electronics', note: 'Packs and chargers to match a kit.' },
     { href: '/shop/motors-drivetrain-and-sprockets/', name: 'All motors, drivetrain and sprockets', note: 'Motors, kits, chains and sprockets.' },
@@ -38,7 +37,7 @@ export const meta = {
     from: [
       ['/shop/motors-drivetrain-and-sprockets/', '1000w conversion kit buying guide'],
       ['/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/', 'how to choose a 1000w conversion kit'],
-      ['/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/', 'electric bicycle kit with battery: what to check'],
+      ['/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/', 'electric bicycle kit with battery: what to check'],
     ],
   },
   kind: 'post',
@@ -60,8 +59,6 @@ export const body = {
         head: ['Product', 'Brand', 'Price', 'Notes'],
         rows: [
           ['[Torque 1000W E-Bike Conversion Combo](/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/)', 'Torque', '$819', '1000W combo. Off-road and private property only'],
-          ['[Torque 500W E-Bike Conversion Kit Combo](/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/)', 'Torque', '$859', '500W combo. Off-road and private property only'],
-          ['[Torque MTX Motor & Rim](/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/)', 'Torque', '$329', 'Motor and rim. Ask us for the rating'],
           ['[Torque Arms (1500W-5000W Kits)](/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/)', 'Torque', '$51.95', 'For high-power kits'],
         ],
       },
@@ -148,7 +145,7 @@ export const body = {
     {
       h: 'Which 1000w conversion kit should you buy?',
       p: [
-        'The [Torque 1000W conversion combo at $819](/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/) is the 1000W option in our range, and the [Torque 500W combo at $859](/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/) is the 500W option. Combos differ in what they include, so ask us exactly what is in each. For high-power builds, add [torque arms at $51.95](/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/). All kits above 250W are for off-road and private property use only.',
+        'The [Torque 1000W conversion combo at $819](/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/) is the 1000W option in our range, and the [Torque 500W combo at $859](/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/) is the 500W option. Combos differ in what they include, so ask us exactly what is in each. For high-power builds, add [torque arms at $51.95](/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/). All kits above 250W are for off-road and private property use only.',
         'Send us your donor bike, your plans and where you will ride and we will check the match. You can also browse the full [motors, drivetrain and sprockets range](/shop/motors-drivetrain-and-sprockets/) and read our [DIY 2000W conversion guide](/blog/diy-2000w-conversion-guide/).',
       ],
     },

@@ -16,8 +16,6 @@ export const meta = {
   imageAlt: 'Red motocross dirt bike in action, the petrol machine an electric dirtbike is compared with',
   related: [
     { href: '/shop/electric-dirt-bikes/79bike-viper-s-electric-dirt-bike/', name: '79Bike Viper S Electric Dirt Bike', price: 949, note: 'Our lowest-priced electric dirt bike. Off-road only.' },
-    { href: '/shop/electric-dirt-bikes/ssr-sr-e8-pro/', name: 'SSR SR-E8 Pro', price: 1490, note: 'Electric dirt bike. Off-road only.' },
-    { href: '/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/', name: 'Yozma IN10 Electric Mini Dirt Bike', price: 2089, note: 'Electric mini dirt bike. Off-road only.' },
     { href: '/shop/electric-dirt-bikes/sur-ron-light-bee-x/', name: 'Sur-Ron Light Bee X', price: 6169, note: 'A popular lightweight e-moto. Off-road only.' },
     { href: '/shop/electric-dirt-bikes/', name: 'All electric dirt bikes', note: '49 models.' },
   ],
@@ -31,7 +29,7 @@ export const meta = {
     from: [
       ['/shop/electric-dirt-bikes/', 'e dirt bike vs petrol'],
       ['/shop/electric-dirt-bikes/79bike-viper-s-electric-dirt-bike/', 'e dirt bike or petrol'],
-      ['/shop/electric-dirt-bikes/ssr-sr-e8-pro/', 'electric vs petrol dirt bikes compared'],
+      ['/shop/electric-dirt-bikes/', 'electric vs petrol dirt bikes compared'],
     ],
   },
 }
@@ -51,8 +49,6 @@ export const body = {
         head: ['Model', 'Price', 'Use'],
         rows: [
           ['[79Bike Viper S Electric Dirt Bike](/shop/electric-dirt-bikes/79bike-viper-s-electric-dirt-bike/)', '$949', 'Off-road only'],
-          ['[SSR SR-E8 Pro](/shop/electric-dirt-bikes/ssr-sr-e8-pro/)', '$1,490', 'Off-road only'],
-          ['[Yozma IN10 Electric Mini Dirt Bike](/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/)', '$2,089', 'Off-road only'],
           ['SSR SR-E15 Pro', '$2,290', 'Off-road only'],
           ['[Sur-Ron Light Bee X](/shop/electric-dirt-bikes/sur-ron-light-bee-x/)', '$6,169', 'Off-road only'],
           ['Stark Varg EX', '$19,990', 'Off-road only'],

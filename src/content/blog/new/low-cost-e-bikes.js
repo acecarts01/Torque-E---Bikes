@@ -24,8 +24,6 @@ export const meta = {
   related: [
     { href: '/shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/', name: 'DYU D3+ Smart Electric Bike Black', price: 659, note: 'The lowest-priced e-bike in this guide.' },
     { href: '/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/', name: 'DYU C6 Electric Bike', price: 849, note: 'A commuter-style e-bike.' },
-    { href: '/shop/folding-e-bikes/dyu-a5-smart-electric-bike/', name: 'DYU A5 Smart Electric Bike', price: 849, note: 'A smart electric bike.' },
-    { href: '/shop/folding-e-bikes/moov8-m1-folding-ebike-with-rear-carrier-2023-model/', name: 'Moov8 M1 Folding eBike with Rear Carrier (2023)', price: 1069, note: 'A folding e-bike with a rear carrier.' },
     { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: 'Commuter e-bikes from our range.' },
   ],
   links: {
@@ -61,8 +59,6 @@ export const body = {
         rows: [
           ['[DYU D3+ Smart Electric Bike Black](/shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/)', 'Folding', '$659', 'The lowest price in this guide'],
           ['[DYU C6 Electric Bike](/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/)', 'Commuter', '$849', 'Commuter-style'],
-          ['[DYU A5 Smart Electric Bike](/shop/folding-e-bikes/dyu-a5-smart-electric-bike/)', 'Folding', '$849', 'Smart electric bike'],
-          ['[Moov8 M1 Folding eBike with Rear Carrier (2023)](/shop/folding-e-bikes/moov8-m1-folding-ebike-with-rear-carrier-2023-model/)', 'Folding', '$1,069', 'Rear carrier'],
           ['[Folding Step-Through E-Bike White](/shop/folding-e-bikes/folding-step-through-e-bike-white/)', 'Folding', '$1,199', 'Step-through frame'],
         ],
       },
@@ -151,7 +147,7 @@ export const body = {
     {
       h: 'Which low cost e bike should you buy?',
       p: [
-        'If you want the lowest price, the [DYU D3+ at $659](/shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/) is the entry point. For a commuter-style frame, the [DYU C6 at $849](/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/) is the pick, and the [DYU A5 at $849](/shop/folding-e-bikes/dyu-a5-smart-electric-bike/) is a smart folding option. If you want a rear carrier, look at the [Moov8 M1 at $1,069](/shop/folding-e-bikes/moov8-m1-folding-ebike-with-rear-carrier-2023-model/).',
+        'If you want the lowest price, the [DYU D3+ at $659](/shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/) is the entry point. For a commuter-style frame, the [DYU C6 at $849](/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/) is the pick, and the [DYU A5 at $849](/shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/) is a smart folding option. If you want a rear carrier, look at the [Moov8 M1 at $1,069](/shop/folding-e-bikes/moov8-x-electric-bike-22x/).',
         'Message us with your budget, your trip length and where you ride, and we will suggest the best fit and confirm the legal status. You can also browse the full [commuter and urban e-bikes range](/shop/commuter-and-urban-e-bikes/) or read our [how to choose an e-bike guide](/blog/how-to-choose-an-e-bike/).',
       ],
     },

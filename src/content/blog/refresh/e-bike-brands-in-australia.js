@@ -14,10 +14,8 @@ export const meta = {
   tags: ['electric best bike', 'high performance e bikes', 'coolest e-bikes', 'e bikes fast', 'electric bike best', 'faster e bike', 'best electric bicycles', 'best e-bike', 'good e bikes', 'vamos e bike'],
   imageAlt: 'Red, blue and black bicycles lined up on display, a lineup of electric bike brands',
   related: [
-    { href: '/shop/commuter-and-urban-e-bikes/reid-let-s-roll/', name: "Reid Let's Roll", price: 1229, note: 'Reid commuter e-bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/ncm-t3s/', name: 'NCM T3S', price: 1419, note: 'NCM commuter e-bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/aventon-pace-4/', name: 'Aventon Pace 4', price: 2199, note: 'Aventon commuter e-bike.' },
-    { href: '/shop/commuter-and-urban-e-bikes/cannondale-treadwell-neo/', name: 'Cannondale Treadwell Neo', price: 2199, note: 'Cannondale commuter e-bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: '77 models.' },
   ],
   links: {
@@ -31,7 +29,7 @@ export const meta = {
     from: [
       ['/electric-bikes/', 'best e bike brands in Australia'],
       ['/shop/commuter-and-urban-e-bikes/aventon-pace-4/', 'best e bike brands compared'],
-      ['/shop/commuter-and-urban-e-bikes/reid-let-s-roll/', 'how to choose between e bike brands'],
+      ['/shop/commuter-and-urban-e-bikes/reid-quest-1/', 'how to choose between e bike brands'],
     ],
   },
 }
@@ -50,7 +48,7 @@ export const body = {
       table: {
         head: ['Brand', 'Bikes in our range', 'From', 'Browse'],
         rows: [
-          ['Reid', '10', '$1,229', '[Reid bikes](/brands/reid/)'],
+          ['Reid', '10', '$1,229', '[Reid bikes](/shop/commuter-and-urban-e-bikes/)'],
           ['NCM', '8', '$1,419', '[NCM bikes](/brands/ncm/)'],
           ['Ampd Bros', '10', '$1,459', '[Ampd Bros bikes](/brands/ampd-bros/)'],
           ['SmartMotion', '6', '$1,899', '[SmartMotion bikes](/brands/smartmotion/)'],

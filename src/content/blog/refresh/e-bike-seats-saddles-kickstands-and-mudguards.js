@@ -13,8 +13,6 @@ export const meta = {
   tags: ['mudguards', 'bike mudguard', 'comfy bike seat', 'bicycle mudguard', 'mountain bike mudguards', 'mtb bike mudguards', 'cycle mudguard', 'bicycle mudguards', 'comfortable bicycle saddle', 'bike fenders'],
   imageAlt: 'Close-up of a bike seat, one of the bike seats and saddles an e-bike can be fitted with',
   related: [
-    { href: '/shop/seats-fenders-and-body/azur-saddle-cover-road-memory-foam/', name: 'Azur Saddle Cover Road Memory Foam', price: 37.95, note: 'Adds memory foam comfort to a road saddle.' },
-    { href: '/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/', name: 'AZUR-Pro Range Kappa Memory Foam', price: 55.95, note: 'A memory foam seat from Azur.' },
     { href: '/shop/seats-fenders-and-body/ampd-bros-ace-rear-alloy-folding-footpeg-set/', name: 'Ampd Bros Ace Rear Alloy Folding Footpeg Set', price: 61.95, note: 'Rear folding footpegs.' },
     { href: '/shop/seats-fenders-and-body/', name: 'All seats, fenders and body parts', note: '23 products.' },
   ],
@@ -27,8 +25,8 @@ export const meta = {
     ],
     from: [
       ['/shop/seats-fenders-and-body/', 'bike seats guide'],
-      ['/shop/seats-fenders-and-body/azur-saddle-cover-road-memory-foam/', 'how to choose bike seats'],
-      ['/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/', 'comfortable bike seats explained'],
+      ['/shop/seats-fenders-and-body/', 'how to choose bike seats'],
+      ['/shop/seats-fenders-and-body/', 'comfortable bike seats explained'],
     ],
   },
 }
@@ -47,9 +45,7 @@ export const body = {
       table: {
         head: ['Product', 'Price', 'Use'],
         rows: [
-          ['[Azur Saddle Cover Road Memory Foam](/shop/seats-fenders-and-body/azur-saddle-cover-road-memory-foam/)', '$37.95', 'Saddle cover'],
           ['79Bike Rear Fender', '$52.95', '79Bike (off-road only)'],
-          ['[AZUR-Pro Range Kappa Memory Foam](/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/)', '$55.95', 'Memory foam seat'],
           ['[Ampd Bros Ace Rear Alloy Folding Footpeg Set](/shop/seats-fenders-and-body/ampd-bros-ace-rear-alloy-folding-footpeg-set/)', '$61.95', 'Footpegs'],
         ],
       },
@@ -67,7 +63,7 @@ export const body = {
     {
       h: 'Comfort upgrades and where to find mudguards',
       p: [
-        'A memory foam saddle cover such as the [Azur Saddle Cover Road Memory Foam](/shop/seats-fenders-and-body/azur-saddle-cover-road-memory-foam/) is the cheapest comfort upgrade, and the [AZUR-Pro Range Kappa](/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/) is a step up. For mudguards, match the width to your tyre and check clearance with the brakes and any rack. See our guide to [bike racks, baskets and trailers](/blog/bike-racks-baskets-and-trailers/) for carrying gear, and our guide to [bicycle pedals, grips and controls](/blog/e-bike-grips-pedals-and-handlebar-controls/) for the other contact points.',
+        'A memory foam saddle cover such as the [Azur Saddle Cover Road Memory Foam](/shop/seats-fenders-and-body/) is the cheapest comfort upgrade, and the [AZUR-Pro Range Kappa](/shop/seats-fenders-and-body/) is a step up. For mudguards, match the width to your tyre and check clearance with the brakes and any rack. See our guide to [bike racks, baskets and trailers](/blog/bike-racks-baskets-and-trailers/) for carrying gear, and our guide to [bicycle pedals, grips and controls](/blog/e-bike-grips-pedals-and-handlebar-controls/) for the other contact points.',
       ],
     },
   ],

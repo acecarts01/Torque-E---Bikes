@@ -12,8 +12,6 @@ export const meta = {
   tags: ['mountain e cycle', 'mt ebike', 'e bike mountain bikes', 'e-bike mountain bike', 'best electric mtb', 'electronic mountain bike', 'hardtail e mountain bike', 'mtb bikes electric', 'best e mountain bikes 2026', 'e bikes mountain bike'],
   imageAlt: 'Bicycle on a mountain trail among pine trees, the kind of trail an e-mountain bike is built for',
   related: [
-    { href: '/shop/electric-mountain-bikes/shogun-etrail-breaker-1/', name: 'Shogun eTrail Breaker 1', price: 1039, note: 'Our lowest-priced electric mountain bike.' },
-    { href: '/shop/electric-mountain-bikes/hardtail-e-mtb-black/', name: 'Hardtail E-MTB Black', price: 2199, note: 'A hardtail e-MTB.' },
     { href: '/shop/electric-mountain-bikes/smartmotion-pacer-hardtail-e-mtb/', name: 'SmartMotion Pacer Hardtail E-MTB', price: 2999, note: 'A hardtail e-MTB.' },
     { href: '/shop/electric-mountain-bikes/full-suspension-e-mtb-silver/', name: 'Full-Suspension E-MTB Silver', price: 3699, note: 'A full-suspension e-MTB.' },
     { href: '/shop/electric-mountain-bikes/', name: 'All electric mountain bikes', note: '57 models.' },
@@ -28,7 +26,7 @@ export const meta = {
     from: [
       ['/shop/electric-mountain-bikes/', 'e-mountain bike buying guide'],
       ['/electric-bikes/', 'electric mountain bike guide'],
-      ['/shop/electric-mountain-bikes/hardtail-e-mtb-black/', 'how to choose an e-mountain bike'],
+      ['/shop/electric-mountain-bikes/', 'how to choose an e-mountain bike'],
     ],
   },
 }
@@ -47,8 +45,6 @@ export const body = {
       table: {
         head: ['Bike', 'Type', 'Price'],
         rows: [
-          ['[Shogun eTrail Breaker 1](/shop/electric-mountain-bikes/shogun-etrail-breaker-1/)', 'Entry e-MTB', '$1,039'],
-          ['[Hardtail E-MTB Black](/shop/electric-mountain-bikes/hardtail-e-mtb-black/)', 'Hardtail', '$2,199'],
           ['[SmartMotion Pacer Hardtail E-MTB](/shop/electric-mountain-bikes/smartmotion-pacer-hardtail-e-mtb/)', 'Hardtail', '$2,999'],
           ['Full-Suspension Fat E-MTB Blue', 'Full suspension, fat tyre', '$2,999'],
           ['[Full-Suspension E-MTB Silver](/shop/electric-mountain-bikes/full-suspension-e-mtb-silver/)', 'Full suspension', '$3,699'],

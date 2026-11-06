@@ -22,9 +22,6 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/seats-fenders-and-body/azur-saddle-cover-road-memory-foam/', name: 'Azur Saddle Cover Road Memory Foam', price: 37.95, note: 'The lowest-priced cover in our range.' },
-    { href: '/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/', name: 'AZUR-Pro Range Kappa Memory Foam', price: 55.95, note: 'A step-up memory foam option from Azur.' },
-    { href: '/shop/seats-fenders-and-body/seat-drip-seat-cover-camo-stealth/', name: 'Seat Drip Seat Cover - Camo Stealth', price: 93.95, note: 'One of five Seat Drip designs.' },
     { href: '/shop/seats-fenders-and-body/', name: 'All seats, fenders and body', note: 'Saddles, covers, fenders and stands.' },
   ],
   links: {
@@ -36,8 +33,8 @@ export const meta = {
     ],
     from: [
       ['/shop/seats-fenders-and-body/', 'bike seat cover buying guide'],
-      ['/shop/seats-fenders-and-body/azur-saddle-cover-road-memory-foam/', 'how to choose a bike seat cover'],
-      ['/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/', 'cushion seat bike: what to check'],
+      ['/shop/seats-fenders-and-body/', 'how to choose a bike seat cover'],
+      ['/shop/seats-fenders-and-body/', 'cushion seat bike: what to check'],
     ],
   },
   kind: 'post',
@@ -58,10 +55,6 @@ export const body = {
       table: {
         head: ['Product', 'Brand', 'Price', 'Notes'],
         rows: [
-          ['[Azur Saddle Cover Road Memory Foam](/shop/seats-fenders-and-body/azur-saddle-cover-road-memory-foam/)', 'Azur', '$37.95', 'Memory foam, road-style saddle'],
-          ['[AZUR-Pro Range Kappa Memory Foam](/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/)', 'Azur', '$55.95', 'Memory foam, Pro range'],
-          ['[Seat Drip Seat Cover - Camo Stealth](/shop/seats-fenders-and-body/seat-drip-seat-cover-camo-stealth/)', 'Seat Drip', '$93.95', 'Printed design'],
-          ['[Seat Drip Seat Cover - Comic Blast](/shop/seats-fenders-and-body/seat-drip-seat-cover-comic-blast/)', 'Seat Drip', '$93.95', 'Printed design'],
           ['Seat Drip Seat Cover - Bubblegum Checkered, Diamond Aqua and Manga Rush', 'Seat Drip', '$93.95', 'Other printed designs'],
         ],
       },
@@ -165,7 +158,7 @@ export const body = {
     {
       h: 'Which bike seat cover should you buy?',
       p: [
-        'For a low-cost way to soften a road-style or commuter saddle, the [Azur memory foam saddle cover at $37.95](/shop/seats-fenders-and-body/azur-saddle-cover-road-memory-foam/) is the entry option. The [AZUR-Pro Range Kappa memory foam at $55.95](/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/) is the step up. If you want a bold look, the [Seat Drip covers at $93.95](/shop/seats-fenders-and-body/seat-drip-seat-cover-camo-stealth/) come in five designs.',
+        'For a low-cost way to soften a road-style or commuter saddle, the [Azur memory foam saddle cover at $37.95](/shop/seats-fenders-and-body/) is the entry option. The [AZUR-Pro Range Kappa memory foam at $55.95](/shop/seats-fenders-and-body/) is the step up. If you want a bold look, the [Seat Drip covers at $93.95](/shop/seats-fenders-and-body/) come in five designs.',
         'Send us a photo of your saddle and we will confirm the fit. Browse the full [seats and covers range](/shop/seats-fenders-and-body/) for more.',
       ],
     },

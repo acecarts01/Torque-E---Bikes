@@ -15,7 +15,6 @@ export const meta = {
     { href: '/shop/lights-and-horns/azur-alien2-100-lm-usb-rechargeable-rear-light/', name: 'Azur Alien2 100 lm USB Rechargeable Rear Light', price: 27.95, note: 'Our lowest-priced light: a USB-rechargeable rear light.' },
     { href: '/shop/lights-and-horns/azur-performance-halo/', name: 'Azur Performance Halo', price: 75.95, note: 'Azur light.' },
     { href: '/shop/lights-and-horns/blinder-1300-front-bike-light/', name: 'Blinder 1300 Front Bike Light', price: 149, note: 'A front bike light.' },
-    { href: '/shop/lights-and-horns/niterider-lumina-1200-boost-led-rechargeable-headlight/', name: 'NiteRider Lumina 1200 Boost LED Rechargeable Headlight', price: 169, note: 'A rechargeable LED headlight.' },
     { href: '/shop/lights-and-horns/', name: 'All lights and horns', note: '9 products.' },
   ],
   links: {
@@ -52,7 +51,6 @@ export const body = {
           ['79Bike Headlight', '$93.95', 'Headlight for 79Bike off-road bikes'],
           ['Fatboy Headlight (V1 Scrambler / Harlem)', '$139', 'Headlight'],
           ['[Blinder 1300 Front Bike Light](/shop/lights-and-horns/blinder-1300-front-bike-light/)', '$149', 'Front light'],
-          ['[NiteRider Lumina 1200 Boost LED Rechargeable Headlight](/shop/lights-and-horns/niterider-lumina-1200-boost-led-rechargeable-headlight/)', '$169', 'Rechargeable LED headlight'],
           ['Fatboy Headlight (Bagus)', '$179', 'Headlight'],
           ['Knog Blinder 1300 / Blinder R150', '$219', 'Front and rear lights'],
         ],

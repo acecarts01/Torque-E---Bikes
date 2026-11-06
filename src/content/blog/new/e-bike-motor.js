@@ -22,9 +22,7 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/', name: 'Torque MTX Motor & Rim', price: 329, note: 'A hub motor and rim. Ask us for ratings and legal status.' },
     { href: '/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/', name: 'Torque Arms (1500W-5000W Kits)', price: 51.95, note: 'Torque arms for high-power kits. Off-road and private property use only.' },
-    { href: '/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/', name: 'Torque 500W E-Bike Conversion Kit Combo', price: 859, note: 'A 500W kit. Off-road and private property use only.' },
     { href: '/shop/motors-drivetrain-and-sprockets/', name: 'All motors, drivetrain and sprockets', note: 'Motors, kits, chains and sprockets.' },
   ],
   links: {
@@ -36,7 +34,7 @@ export const meta = {
     ],
     from: [
       ['/shop/motors-drivetrain-and-sprockets/', 'e bike motor buying guide'],
-      ['/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/', 'how to choose an e bike motor'],
+      ['/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/', 'how to choose an e bike motor'],
       ['/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/', 'hub motor for e bike: what to check'],
     ],
   },
@@ -59,9 +57,7 @@ export const body = {
         head: ['Product', 'Brand', 'Price', 'Notes'],
         rows: [
           ['[Torque Arms (1500W-5000W Kits)](/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/)', 'Torque', '$51.95', 'Torque arms for high-power kits. Off-road only'],
-          ['[Torque MTX Motor & Rim](/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/)', 'Torque', '$329', 'Hub motor and rim. Ask us for the rating'],
           ['[Torque 1000W E-Bike Conversion Combo](/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/)', 'Torque', '$819', 'Kit. Off-road and private property only'],
-          ['[Torque 500W E-Bike Conversion Kit Combo](/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/)', 'Torque', '$859', 'Kit. Off-road and private property only'],
         ],
       },
     },
@@ -150,7 +146,7 @@ export const body = {
     {
       h: 'Which e bike motor should you buy?',
       p: [
-        'For a motor already built into a rim, look at the [Torque MTX Motor & Rim at $329](/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/) and ask us for its rating and fit. For a high-power build, the [Torque Arms at $51.95](/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/) are needed to protect the frame, and the [500W kit at $859](/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/) is a complete combo. Anything above 250W is for off-road and private property use only.',
+        'For a motor already built into a rim, look at the [Torque MTX Motor & Rim at $329](/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/) and ask us for its rating and fit. For a high-power build, the [Torque Arms at $51.95](/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/) are needed to protect the frame, and the [500W kit at $859](/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/) is a complete combo. Anything above 250W is for off-road and private property use only.',
         'Send us your bike, battery and where you will ride and we will confirm the fit and the legal status. You can also browse the full [motors, drivetrain and sprockets range](/shop/motors-drivetrain-and-sprockets/) and read our [e-bike conversion kits guide](/blog/e-bike-conversion-kits-explained/).',
       ],
     },

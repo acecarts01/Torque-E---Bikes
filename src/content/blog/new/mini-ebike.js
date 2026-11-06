@@ -24,7 +24,6 @@ export const meta = {
   },
   related: [
     { href: '/shop/kids-electric-dirt-and-balance-bikes/dhz-electric-kids-mini-dirt-bike-3-speeds-control/', name: 'DHZ Electric Kids Mini Dirt Bike, 3 Speeds Control', price: 849, note: 'The lowest-priced mini bike here. Off-road and private property use only.' },
-    { href: '/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/', name: 'Yozma IN 10 Electric Mini Dirt Bike', price: 2089, note: 'Off-road and private property use only.' },
     { href: '/shop/kids-and-youth-e-bikes/ampd-bros-ace-mini-electric-bike-series-5/', name: 'Ampd Bros ACE Mini Electric Bike Series 5', price: 2179, note: 'A small pedal e-bike.' },
     { href: '/shop/kids-and-youth-e-bikes/ampd-bros-ace-s-mini-s5/', name: 'Ampd Bros ACE S Mini S5', price: 2269, note: 'A small step-through e-bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/cannondale-compact-neo-os/', name: 'Cannondale Compact Neo OS', price: 3299, note: 'A compact commuter e-bike.' },
@@ -40,7 +39,7 @@ export const meta = {
     from: [
       ['/shop/kids-and-youth-e-bikes/', 'mini ebike buying guide'],
       ['/shop/kids-and-youth-e-bikes/ampd-bros-ace-mini-electric-bike-series-5/', 'how to choose a small electric bike'],
-      ['/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/', 'mini electric bikes: what to check'],
+      ['/shop/electric-dirt-bikes/', 'mini electric bikes: what to check'],
     ],
   },
   kind: 'post',
@@ -62,7 +61,6 @@ export const body = {
         head: ['Bike', 'Price', 'Type', 'Where you can ride'],
         rows: [
           ['[DHZ Electric Kids Mini Dirt Bike, 3 Speeds Control](/shop/kids-electric-dirt-and-balance-bikes/dhz-electric-kids-mini-dirt-bike-3-speeds-control/)', '$849', 'Mini dirt bike', 'Off-road and private property only'],
-          ['[Yozma IN 10 Electric Mini Dirt Bike](/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/)', '$2,089', 'Mini dirt bike', 'Off-road and private property only'],
           ['[Ampd Bros ACE Mini Electric Bike Series 5](/shop/kids-and-youth-e-bikes/ampd-bros-ace-mini-electric-bike-series-5/)', '$2,179', 'Small pedal e-bike', 'Check the label and rules'],
           ['[Ampd Bros ACE S Mini S5](/shop/kids-and-youth-e-bikes/ampd-bros-ace-s-mini-s5/)', '$2,269', 'Small step-through e-bike', 'Check the label and rules'],
           ['[Cannondale Compact Neo OS](/shop/commuter-and-urban-e-bikes/cannondale-compact-neo-os/)', '$3,299', 'Compact commuter', 'Check the label and rules'],
@@ -178,7 +176,7 @@ export const body = {
     {
       h: 'Which mini ebike should you buy?',
       p: [
-        'For a first mini dirt bike on private land, the [DHZ kids mini dirt bike at $849](/shop/kids-electric-dirt-and-balance-bikes/dhz-electric-kids-mini-dirt-bike-3-speeds-control/) is the entry and the [Yozma IN 10 at $2,089](/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/) is the step up. For a small pedal e-bike, look at the [ACE Mini Series 5 at $2,179](/shop/kids-and-youth-e-bikes/ampd-bros-ace-mini-electric-bike-series-5/) or the [ACE S Mini S5 at $2,269](/shop/kids-and-youth-e-bikes/ampd-bros-ace-s-mini-s5/). For a compact commuter, the [Cannondale Compact Neo OS at $3,299](/shop/commuter-and-urban-e-bikes/cannondale-compact-neo-os/) is the pick.',
+        'For a first mini dirt bike on private land, the [DHZ kids mini dirt bike at $849](/shop/kids-electric-dirt-and-balance-bikes/dhz-electric-kids-mini-dirt-bike-3-speeds-control/) is the entry and the [Yozma IN 10 at $2,089](/shop/electric-dirt-bikes/) is the step up. For a small pedal e-bike, look at the [ACE Mini Series 5 at $2,179](/shop/kids-and-youth-e-bikes/ampd-bros-ace-mini-electric-bike-series-5/) or the [ACE S Mini S5 at $2,269](/shop/kids-and-youth-e-bikes/ampd-bros-ace-s-mini-s5/). For a compact commuter, the [Cannondale Compact Neo OS at $3,299](/shop/commuter-and-urban-e-bikes/cannondale-compact-neo-os/) is the pick.',
         'Send us the rider\'s height and where you will ride and we will recommend a bike. You can also browse the [kids and youth e-bikes range](/shop/kids-and-youth-e-bikes/).',
       ],
     },

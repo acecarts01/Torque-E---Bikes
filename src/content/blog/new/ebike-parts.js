@@ -27,7 +27,6 @@ export const meta = {
     { href: '/shop/controls-grips-and-pedals/79bike-viper-s-replacement-display/', name: '79Bike Viper S Replacement Display', price: 119, note: 'A replacement display.' },
     { href: '/shop/controls-grips-and-pedals/display-colour-lcd/', name: 'Display (Colour LCD)', price: 129, note: 'A colour LCD display.' },
     { href: '/shop/batteries-chargers-and-electronics/fatboy-controller-v1-bagus-and-v2-models/', name: 'Fatboy Controller V1 Bagus and V2 models', price: 279, note: 'A controller for listed Fatboy models.' },
-    { href: '/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/', name: 'Torque MTX Motor & Rim', price: 329, note: 'A hub motor and rim.' },
     { href: '/shop/batteries-chargers-and-electronics/', name: 'Batteries, chargers and electronics', note: 'Packs, chargers, controllers and electronics.' },
   ],
   links: {
@@ -65,7 +64,7 @@ export const body = {
           ['Display', '[79Bike Viper S Replacement Display](/shop/controls-grips-and-pedals/79bike-viper-s-replacement-display/)', '$119', 'Replacement display'],
           ['Display', '[Display (Colour LCD)](/shop/controls-grips-and-pedals/display-colour-lcd/)', '$129', 'Colour LCD display'],
           ['Controller', '[Fatboy Controller V1 Bagus and V2 models](/shop/batteries-chargers-and-electronics/fatboy-controller-v1-bagus-and-v2-models/)', '$279', 'For listed Fatboy models'],
-          ['Motor and rim', '[Torque MTX Motor & Rim](/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/)', '$329', 'Ask us for the rating'],
+          ['Motor and rim', '[Torque MTX Motor & Rim](/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/)', '$329', 'Ask us for the rating'],
           ['Battery', '[Vamos Hefe Battery (48V 15Ah)](/shop/batteries-chargers-and-electronics/vamos-hefe-battery-48v-15ah/)', '$539', 'Battery pack'],
         ],
       },
@@ -173,7 +172,7 @@ export const body = {
     {
       h: 'Which ebike parts do you need?',
       p: [
-        'Tell us your bike and what has failed or what you want to change. For a throttle, look at the [Ampd Bros thumb throttle kit at $85](/shop/controls-grips-and-pedals/ampd-bros-thumb-throttle-kit/). For a display, the [79Bike Viper S at $119](/shop/controls-grips-and-pedals/79bike-viper-s-replacement-display/) or the [colour LCD at $129](/shop/controls-grips-and-pedals/display-colour-lcd/). For a Fatboy controller, the [V1 Bagus and V2 controller at $279](/shop/batteries-chargers-and-electronics/fatboy-controller-v1-bagus-and-v2-models/). For a motor, the [Torque MTX at $329](/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/).',
+        'Tell us your bike and what has failed or what you want to change. For a throttle, look at the [Ampd Bros thumb throttle kit at $85](/shop/controls-grips-and-pedals/ampd-bros-thumb-throttle-kit/). For a display, the [79Bike Viper S at $119](/shop/controls-grips-and-pedals/79bike-viper-s-replacement-display/) or the [colour LCD at $129](/shop/controls-grips-and-pedals/display-colour-lcd/). For a Fatboy controller, the [V1 Bagus and V2 controller at $279](/shop/batteries-chargers-and-electronics/fatboy-controller-v1-bagus-and-v2-models/). For a motor, the [Torque MTX at $329](/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/).',
         'Send us your bike details and photos and we will confirm what fits. You can also browse the [batteries, chargers and electronics range](/shop/batteries-chargers-and-electronics/).',
       ],
     },

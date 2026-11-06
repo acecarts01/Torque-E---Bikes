@@ -69,7 +69,6 @@ export const body = {
           ['[NCM Folding Fat-Tyre E-Bike](/shop/folding-e-bikes/ncm-folding-fat-tyre-e-bike/)', 'Folding', '$1,799', 'Folding fat tyre'],
           ['[NCM Milano Step-Through Trekking E-Bike](/shop/commuter-and-urban-e-bikes/ncm-milano-step-through-trekking-e-bike/)', 'Commuter', '$1,999', 'Step-through trekking'],
           ['[NCM T7S Step Thru Trekking E-Bike](/shop/commuter-and-urban-e-bikes/ncm-t7s-step-thru-trekking-e-bike/)', 'Commuter', '$2,279', 'Step-through trekking'],
-          ['[NCM CG7 Cargo](/shop/cargo-bikes-and-e-trikes/ncm-cg7-cargo/)', 'Cargo', '$3,129', 'Cargo'],
         ],
       },
     },

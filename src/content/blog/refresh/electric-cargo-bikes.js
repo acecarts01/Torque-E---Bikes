@@ -13,9 +13,7 @@ export const meta = {
   imageAlt: 'Bike with a front basket parked next to a pole, a light version of what cargo bikes carry',
   related: [
     { href: '/shop/cargo-bikes-and-e-trikes/sunmono-mars-20-electric-cargo-bike/', name: 'Sunmono Mars 20 Electric Cargo Bike', price: 899, note: 'Our lowest-priced cargo e-bike.' },
-    { href: '/shop/cargo-bikes-and-e-trikes/moov8-c2-cargo-ebike-with-torque-sensor/', name: 'Moov8 C2 Cargo eBike with Torque Sensor', price: 2279, note: 'Cargo e-bike with a torque sensor.' },
     { href: '/shop/cargo-bikes-and-e-trikes/aventon-abound-sr-electric-cargo-bike/', name: 'Aventon Abound SR Electric Cargo Bike', price: 2999, note: 'Aventon cargo e-bike.' },
-    { href: '/shop/cargo-bikes-and-e-trikes/ncm-cg7-cargo/', name: 'NCM CG7 Cargo', price: 3129, note: 'NCM cargo e-bike.' },
     { href: '/shop/cargo-bikes-and-e-trikes/', name: 'All cargo bikes and e-trikes', note: '25 models.' },
   ],
   links: {
@@ -50,10 +48,8 @@ export const body = {
         rows: [
           ['[Sunmono Mars 20 Electric Cargo Bike](/shop/cargo-bikes-and-e-trikes/sunmono-mars-20-electric-cargo-bike/)', '$899', 'Cargo e-bike'],
           ['Max-Cargo Folding Cargo E-Bike', '$2,199', 'Folding cargo'],
-          ['[Moov8 C2 Cargo eBike with Torque Sensor](/shop/cargo-bikes-and-e-trikes/moov8-c2-cargo-ebike-with-torque-sensor/)', '$2,279', 'Cargo e-bike'],
           ['Eunorau G30 Cargo Electric Bike', '$2,589', 'Cargo e-bike'],
           ['[Aventon Abound SR Electric Cargo Bike](/shop/cargo-bikes-and-e-trikes/aventon-abound-sr-electric-cargo-bike/)', '$2,999', 'Cargo e-bike'],
-          ['[NCM CG7 Cargo](/shop/cargo-bikes-and-e-trikes/ncm-cg7-cargo/)', '$3,129', 'Cargo e-bike'],
           ['Tebco Transporter', '$3,319', 'Cargo e-bike'],
           ['Vamos Papa Grande Pro 2026', '$6,079', 'Premium cargo'],
         ],

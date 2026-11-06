@@ -53,7 +53,6 @@ export const body = {
           ['[79Bike Drive Chain](/shop/motors-drivetrain-and-sprockets/79bike-drive-chain/)', '$79.95', '79Bike (off-road only)'],
           ['[79Bike Rear Sprocket](/shop/motors-drivetrain-and-sprockets/79bike-rear-sprocket/)', '$79.95', '79Bike (off-road only)'],
           ['[Rock N Roll Gold Chain Lube 117ml](/shop/care-tools-and-hydration/rock-n-roll-gold-chain-lube-117ml/)', '$18.95', 'Chain lube'],
-          ['[Krush Ultra Drivetrain Degreaser](/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/)', '$23.95', 'Degreaser'],
         ],
       },
     },

@@ -15,8 +15,6 @@ export const meta = {
   tagsShortReason: 'only 6 relevant unused Flight Risk keywords in Semrush AU',
   imageAlt: 'Close-up of a bike tyre on a trail, the grip a Flight Risk electric bike is built around',
   related: [
-    { href: '/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr505/', name: 'Flight Risk FR505', price: 2429, note: 'The lowest-priced Flight Risk we list.' },
-    { href: '/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr888/', name: 'Flight Risk FR888', price: 3419, note: 'The mid-priced Flight Risk.' },
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr777/', name: 'Flight Risk FR777', price: 4849, note: 'The top Flight Risk we list.' },
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/', name: 'All fat-tyre and scrambler e-bikes', note: '41 models.' },
   ],
@@ -30,7 +28,7 @@ export const meta = {
     ],
     from: [
       ['/brands/flight-risk/', 'Flight Risk electric bike guide'],
-      ['/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr505/', 'how to choose a Flight Risk electric bike'],
+      ['/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr777/', 'how to choose a Flight Risk electric bike'],
       ['/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr777/', 'Flight Risk electric bikes compared'],
     ],
   },
@@ -50,8 +48,6 @@ export const body = {
       table: {
         head: ['Model', 'Price', 'Notes'],
         rows: [
-          ['[Flight Risk FR505](/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr505/)', '$2,429', 'Listed'],
-          ['[Flight Risk FR888](/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr888/)', '$3,419', 'Listed'],
           ['[Flight Risk FR777](/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr777/)', '$4,849', 'Listed'],
           ['Flight Risk FR555', 'Not listed', 'Ask us what can be sourced'],
         ],

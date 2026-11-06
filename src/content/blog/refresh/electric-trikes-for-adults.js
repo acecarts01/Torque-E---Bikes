@@ -12,11 +12,8 @@ export const meta = {
   tags: ['e tricycle', 'e tricycles for adults', 'electric three wheeler bikes', 'e trikes australia', 'adult e trikes', 'electric 3 wheel bicycles', 'electric tricycles', 'electric tricycles australia', 'electric three wheeler bike', 'trike e bike'],
   imageAlt: 'Red electric tricycle with storage baskets on grass, an electric tricycle for adults',
   related: [
-    { href: '/shop/cargo-bikes-and-e-trikes/electric-trike-various/', name: 'Electric Trike (various)', price: 2199, note: 'Our lowest-priced e-trike.' },
-    { href: '/shop/cargo-bikes-and-e-trikes/electric-folding-trike-blue/', name: 'Electric Folding Trike Blue', price: 2299, note: 'A folding e-trike.' },
-    { href: '/shop/cargo-bikes-and-e-trikes/electric-step-through-trike-grey/', name: 'Electric Step-Through Trike Grey', price: 2499, note: 'A step-through e-trike.' },
-    { href: '/shop/cargo-bikes-and-e-trikes/kristall-ex400-e-trike/', name: 'Kristall EX400 E-Trike', price: 2849, note: 'Kristall e-trike.' },
-    { href: '/shop/cargo-bikes-and-e-trikes/', name: 'All cargo bikes and e-trikes', note: '25 models.' },
+    { href: '/shop/cargo-bikes-and-e-trikes/electric-trike-blue-cargo-basket/', name: 'Electric Trike Blue (cargo basket)', price: 2349, note: 'A three-wheel electric trike with a cargo basket.' },
+    { href: '/shop/cargo-bikes-and-e-trikes/eunorau-g30-cargo-electric-bike/', name: 'Eunorau G30 Cargo Electric Bike', price: 2589, note: 'A cargo electric bike for heavier loads.' },    { href: '/shop/cargo-bikes-and-e-trikes/', name: 'All cargo bikes and e-trikes', note: '25 models.' },
   ],
   links: {
     to: [
@@ -27,8 +24,8 @@ export const meta = {
     ],
     from: [
       ['/shop/cargo-bikes-and-e-trikes/', 'electric tricycle guide'],
-      ['/shop/cargo-bikes-and-e-trikes/electric-trike-various/', 'how to choose an electric tricycle'],
-      ['/shop/cargo-bikes-and-e-trikes/electric-step-through-trike-grey/', 'electric tricycle for adults'],
+      ['/shop/cargo-bikes-and-e-trikes/', 'how to choose an electric tricycle'],
+      ['/shop/cargo-bikes-and-e-trikes/', 'electric tricycle for adults'],
     ],
   },
 }
@@ -47,14 +44,10 @@ export const body = {
       table: {
         head: ['Model', 'Price', 'Type'],
         rows: [
-          ['[Electric Trike (various)](/shop/cargo-bikes-and-e-trikes/electric-trike-various/)', '$2,199', 'E-trike'],
-          ['[Electric Folding Trike Blue](/shop/cargo-bikes-and-e-trikes/electric-folding-trike-blue/)', '$2,299', 'Folding'],
           ['Electric Trike Blue (cargo basket)', '$2,349', 'Cargo basket'],
           ['Kristall EX200 E-Trike', '$2,369', 'E-trike'],
           ['Electric Trike Green with Seat', '$2,399', 'E-trike with seat'],
           ['Electric Folding Trike Red with Backrest', '$2,399', 'Folding, backrest'],
-          ['[Electric Step-Through Trike Grey](/shop/cargo-bikes-and-e-trikes/electric-step-through-trike-grey/)', '$2,499', 'Step-through'],
-          ['[Kristall EX400 E-Trike](/shop/cargo-bikes-and-e-trikes/kristall-ex400-e-trike/)', '$2,849', 'E-trike'],
         ],
       },
     },

@@ -22,9 +22,6 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/phone-mounts-mirrors-and-audio/azur-optic-mirror-anti-glare/', name: 'Azur Optic Mirror Anti Glare', price: 37.95, note: 'The lowest-priced mirror in our range.' },
-    { href: '/shop/phone-mounts-mirrors-and-audio/mirror-orbit-anti-glare/', name: 'Mirror Orbit Anti Glare', price: 42.95, note: 'An anti-glare bar mirror.' },
-    { href: '/shop/phone-mounts-mirrors-and-audio/mirror-azur-focus-anti-glare/', name: 'Mirror Azur Focus Anti Glare', price: 42.95, note: 'An anti-glare bar mirror from Azur.' },
     { href: '/shop/phone-mounts-mirrors-and-audio/79bike-rearview-mirror/', name: '79Bike Rearview Mirror', price: 75.95, note: 'Off-road and private property use only.' },
     { href: '/shop/phone-mounts-mirrors-and-audio/', name: 'All phone mounts, mirrors and audio', note: 'Mounts, mirrors and headphones.' },
   ],
@@ -37,8 +34,8 @@ export const meta = {
     ],
     from: [
       ['/shop/phone-mounts-mirrors-and-audio/', 'bike mirror buying guide'],
-      ['/shop/phone-mounts-mirrors-and-audio/azur-optic-mirror-anti-glare/', 'how to choose a bike mirror'],
-      ['/shop/phone-mounts-mirrors-and-audio/mirror-azur-focus-anti-glare/', 'bike mirrors for handlebars: what to check'],
+      ['/shop/phone-mounts-mirrors-and-audio/', 'how to choose a bike mirror'],
+      ['/shop/phone-mounts-mirrors-and-audio/', 'bike mirrors for handlebars: what to check'],
     ],
   },
   kind: 'post',
@@ -59,9 +56,6 @@ export const body = {
       table: {
         head: ['Mirror', 'Brand', 'Price', 'Notes'],
         rows: [
-          ['[Azur Optic Mirror Anti Glare](/shop/phone-mounts-mirrors-and-audio/azur-optic-mirror-anti-glare/)', 'Azur', '$37.95', 'Anti-glare'],
-          ['[Mirror Orbit Anti Glare](/shop/phone-mounts-mirrors-and-audio/mirror-orbit-anti-glare/)', 'E-Move Bikes', '$42.95', 'Anti-glare'],
-          ['[Mirror Azur Focus Anti Glare](/shop/phone-mounts-mirrors-and-audio/mirror-azur-focus-anti-glare/)', 'Azur', '$42.95', 'Anti-glare'],
           ['[79Bike Rearview Mirror](/shop/phone-mounts-mirrors-and-audio/79bike-rearview-mirror/)', '79Bike', '$75.95', 'Off-road and private property use only'],
         ],
       },
@@ -156,7 +150,7 @@ export const body = {
     {
       h: 'Which bike mirror should you buy?',
       p: [
-        'For an everyday commuter or e-bike, the [Azur Optic anti-glare mirror at $37.95](/shop/phone-mounts-mirrors-and-audio/azur-optic-mirror-anti-glare/) is the lowest-priced way to try a mirror. The [Mirror Orbit](/shop/phone-mounts-mirrors-and-audio/mirror-orbit-anti-glare/) and [Azur Focus](/shop/phone-mounts-mirrors-and-audio/mirror-azur-focus-anti-glare/) are $42.95 each and add different mount and glass options. For an off-road or private property bike, the [79Bike rearview mirror at $75.95](/shop/phone-mounts-mirrors-and-audio/79bike-rearview-mirror/) is the one listed for that use.',
+        'For an everyday commuter or e-bike, the [Azur Optic anti-glare mirror at $37.95](/shop/phone-mounts-mirrors-and-audio/) is the lowest-priced way to try a mirror. The [Mirror Orbit](/shop/phone-mounts-mirrors-and-audio/phone-holder-gub-plus-11/) and [Azur Focus](/shop/phone-mounts-mirrors-and-audio/) are $42.95 each and add different mount and glass options. For an off-road or private property bike, the [79Bike rearview mirror at $75.95](/shop/phone-mounts-mirrors-and-audio/79bike-rearview-mirror/) is the one listed for that use.',
         'Send us your bike and handlebar details and we will confirm fitment. You can also browse the full [bike mirror and accessory range](/shop/phone-mounts-mirrors-and-audio/).',
       ],
     },

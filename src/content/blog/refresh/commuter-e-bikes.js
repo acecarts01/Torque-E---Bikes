@@ -14,7 +14,6 @@ export const meta = {
   imageAlt: 'Black electric bike with a bridge in the foggy background, a commuter ebike on a city route',
   related: [
     { href: '/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/', name: 'DYU C6 Electric Bike', price: 849, note: 'Our lowest-priced commuter e-bike.' },
-    { href: '/shop/commuter-and-urban-e-bikes/reid-let-s-roll/', name: "Reid Let's Roll", price: 1229, note: 'A mid-priced commuter e-bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/ncm-t3s/', name: 'NCM T3S', price: 1419, note: 'A commuter e-bike with more budget headroom.' },
     { href: '/shop/lights-and-horns/azur-alien2-100-lm-usb-rechargeable-rear-light/', name: 'Azur Alien2 100 lm USB Rechargeable Rear Light', price: 27.95, note: 'A rear light for the commute.' },
     { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: '77 models.' },
@@ -51,7 +50,7 @@ export const body = {
         head: ['Item', 'Price', 'Why it matters'],
         rows: [
           ['[DYU C6 Electric Bike](/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/)', '$849', 'Entry commuter e-bike'],
-          ["[Reid Let's Roll](/shop/commuter-and-urban-e-bikes/reid-let-s-roll/)", '$1,229', 'Mid-priced commuter'],
+          ["[Reid Let's Roll](/shop/commuter-and-urban-e-bikes/reid-quest-1/)", '$1,229', 'Mid-priced commuter'],
           ['[NCM T3S](/shop/commuter-and-urban-e-bikes/ncm-t3s/)', '$1,419', 'More budget headroom'],
           ['[Azur Alien2 USB Rear Light](/shop/lights-and-horns/azur-alien2-100-lm-usb-rechargeable-rear-light/)', '$27.95', 'Rear light for the commute'],
           ['[OnGuard Chain Lock](/shop/locks-and-security/onguard-chain-lock/)', '$38.95', 'Lock for parking at work'],

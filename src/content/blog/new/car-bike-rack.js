@@ -24,8 +24,6 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/racks-bags-and-trailers/thule-euroway-g2-2-bike-towbar-carrier/', name: 'Thule EuroWay G2 2 Bike Towbar Carrier', price: 759, note: 'A two-bike towbar carrier.' },
-    { href: '/shop/racks-bags-and-trailers/fatboy-longboard-bike-rack/', name: 'Fatboy Longboard Bike Rack', price: 229, note: 'A Fatboy bike rack.' },
     { href: '/shop/racks-bags-and-trailers/', name: 'All racks, bags and trailers', note: 'Racks, panniers and trailers.' },
     { href: '/shop/locks-and-security/', name: 'Locks and security', note: 'Lock the bikes once they are on the rack.' },
   ],
@@ -38,8 +36,8 @@ export const meta = {
     ],
     from: [
       ['/shop/racks-bags-and-trailers/', 'car bike rack buying guide'],
-      ['/shop/racks-bags-and-trailers/thule-euroway-g2-2-bike-towbar-carrier/', 'bike rack for car: towbar sums'],
-      ['/shop/racks-bags-and-trailers/fatboy-longboard-bike-rack/', 'bike holder for car'],
+      ['/shop/racks-bags-and-trailers/', 'bike rack for car: towbar sums'],
+      ['/shop/racks-bags-and-trailers/fatboy-cargo-rack-rear-v1/', 'bike holder for car'],
     ],
   },
   kind: 'post',
@@ -71,7 +69,7 @@ export const body = {
       h: 'Why a tow bar rack suits most e-bikes',
       p: [
         'Retailer guides in Australia agree that tow bar racks are the usual choice for e-bikes, because roof racks have low weight limits and lifting a heavy bike overhead is hard. Standard racks often handle lighter bikes, and racks rated for e-bikes are built for more weight, so look for an explicit e-bike rating in the listing.',
-        'A tow bar rack also keeps the bike low and behind the car, where it is easier to load and creates less wind resistance than a roof load. Our [Thule EuroWay G2 2 Bike Towbar Carrier at $759](/shop/racks-bags-and-trailers/thule-euroway-g2-2-bike-towbar-carrier/) is a two-bike towbar carrier. The product page publishes only the name and price, so confirm the load rating, the bike count and your tow bar fit with us before you order.',
+        'A tow bar rack also keeps the bike low and behind the car, where it is easier to load and creates less wind resistance than a roof load. Our [Thule EuroWay G2 2 Bike Towbar Carrier at $759](/shop/racks-bags-and-trailers/) is a two-bike towbar carrier. The product page publishes only the name and price, so confirm the load rating, the bike count and your tow bar fit with us before you order.',
         'The limit that catches people out is the tow ball nose weight. The rack and the bikes together must stay within what the tow bar and the vehicle allow, so check the vehicle handbook and the tow bar label.',
       ],
       img: { file: 'blog/car-bike-rack-thule.webp', alt: 'Thule EuroWay G2 towbar carrier, a bike rack for car use', w: 720, h: 540 },
@@ -104,8 +102,6 @@ export const body = {
       table: {
         head: ['Rack', 'Brand', 'Price', 'Type'],
         rows: [
-          ['[Thule EuroWay G2 2 Bike Towbar Carrier](/shop/racks-bags-and-trailers/thule-euroway-g2-2-bike-towbar-carrier/)', 'Thule', '$759', 'Two-bike towbar carrier'],
-          ['[Fatboy Longboard Bike Rack](/shop/racks-bags-and-trailers/fatboy-longboard-bike-rack/)', 'Fatboy', '$229', 'Bike rack'],
         ],
       },
     },
@@ -169,7 +165,7 @@ export const body = {
     {
       h: 'Which car bike rack should you choose?',
       p: [
-        'If you carry one or two e-bikes regularly, a tow bar rack such as the [Thule EuroWay G2 at $759](/shop/racks-bags-and-trailers/thule-euroway-g2-2-bike-towbar-carrier/) is the style to start with, provided your vehicle has a suitable tow bar. The [Fatboy Longboard Bike Rack at $229](/shop/racks-bags-and-trailers/fatboy-longboard-bike-rack/) is the lower-cost option; ask us about its rating and fit. Browse the full [racks, bags and trailers range](/shop/racks-bags-and-trailers/) for panniers and trailers.',
+        'If you carry one or two e-bikes regularly, a tow bar rack such as the [Thule EuroWay G2 at $759](/shop/racks-bags-and-trailers/) is the style to start with, provided your vehicle has a suitable tow bar. The [Fatboy Longboard Bike Rack at $229](/shop/racks-bags-and-trailers/fatboy-cargo-rack-rear-v1/) is the lower-cost option; ask us about its rating and fit. Browse the full [racks, bags and trailers range](/shop/racks-bags-and-trailers/) for panniers and trailers.',
         'Tell us your vehicle, your tow bar and your bike, and we will check the rack suits before you order. All orders ship Australia-wide with dangerous-goods certified dispatch.',
       ],
     },

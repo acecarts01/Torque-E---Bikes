@@ -23,8 +23,6 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/', name: 'Lezyne Lever Kit Light Grey', price: 18.95, note: 'Levers for tyre work on the stand.' },
-    { href: '/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/', name: 'Krush Ultra Drivetrain Degreaser', price: 23.95, note: 'A drivetrain degreaser.' },
     { href: '/shop/care-tools-and-hydration/rock-n-roll-gold-chain-lube-117ml/', name: 'Rock N Roll Gold Chain Lube 117ml', price: 18.95, note: 'A chain lube.' },
     { href: '/shop/care-tools-and-hydration/', name: 'All care, tools and hydration', note: 'Lubes, degreasers and levers.' },
   ],
@@ -37,8 +35,8 @@ export const meta = {
     ],
     from: [
       ['/shop/care-tools-and-hydration/', 'bike repair stand buying guide'],
-      ['/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/', 'bicycle fixing stand and levers'],
-      ['/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/', 'bike work stand for cleaning'],
+      ['/shop/care-tools-and-hydration/', 'bicycle fixing stand and levers'],
+      ['/shop/care-tools-and-hydration/', 'bike work stand for cleaning'],
     ],
   },
   kind: 'post',
@@ -140,10 +138,7 @@ export const body = {
       table: {
         head: ['Item', 'Brand', 'Price', 'Use'],
         rows: [
-          ['[Lezyne Lever Kit Light Grey](/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/)', 'Lezyne', '$18.95', 'Tyre levers'],
-          ['[Krush Ultra Drivetrain Degreaser](/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/)', 'Krush', '$23.95', 'Drivetrain cleaning'],
           ['[Rock N Roll Gold Chain Lube 117ml](/shop/care-tools-and-hydration/rock-n-roll-gold-chain-lube-117ml/)', 'Rock N Roll', '$18.95', 'Chain lube'],
-          ['[Krush Rotor Revive](/shop/care-tools-and-hydration/krush-rotor-revive/)', 'Krush', '$32.95', 'Rotor care'],
         ],
       },
     },
@@ -186,7 +181,7 @@ export const body = {
     {
       h: 'Which bike repair stand should you buy?',
       p: [
-        'Start with your bike\'s weight, then choose a stand with a capacity above it and a clamp that suits your frame. For pedal bikes, a portable folding stand is enough. For heavy e-bikes, look at assist-lift stands or ask a workshop to do the heavy jobs. Pair the stand with the care items above, including the [Krush Ultra Drivetrain Degreaser at $23.95](/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/) and the [Lezyne Lever Kit at $18.95](/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/). Browse the full [care, tools and hydration range](/shop/care-tools-and-hydration/).',
+        'Start with your bike\'s weight, then choose a stand with a capacity above it and a clamp that suits your frame. For pedal bikes, a portable folding stand is enough. For heavy e-bikes, look at assist-lift stands or ask a workshop to do the heavy jobs. Pair the stand with the care items above, including the [Krush Ultra Drivetrain Degreaser at $23.95](/shop/care-tools-and-hydration/) and the [Lezyne Lever Kit at $18.95](/shop/care-tools-and-hydration/). Browse the full [care, tools and hydration range](/shop/care-tools-and-hydration/).',
         'Tell us your bike and we will give you the maker\'s weight. All orders ship Australia-wide with dangerous-goods certified dispatch.',
       ],
     },

@@ -96,8 +96,6 @@ export const body = {
           ['[Zero FX](/shop/electric-dirt-bikes/zero-fx/)', 'Zero Motorcycles', '$19,900'],
           ['[Stark Varg](/shop/electric-dirt-bikes/stark-varg/)', 'Stark Future', '$18,990'],
           ['[KTM Freeride E-XC](/shop/electric-dirt-bikes/ktm-freeride-e-xc/)', 'KTM', '$16,995'],
-          ['[Zero XE](/shop/electric-dirt-bikes/zero-xe/)', 'Zero Motorcycles', '$11,500'],
-          ['[Zero XB](/shop/electric-dirt-bikes/zero-xb/)', 'Zero Motorcycles', '$8,400'],
         ],
       },
     },

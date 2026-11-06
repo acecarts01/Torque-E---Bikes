@@ -23,10 +23,6 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-black/', name: 'Kids Ride Shotgun Seat Black', price: 179, note: 'The lowest-priced Shotgun seat.' },
-    { href: '/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-black/', name: 'Kids Ride Shotgun 2.0 Seat Black', price: 219, note: 'The 2.0 seat.' },
-    { href: '/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-handlebar-combo-black/', name: 'Kids Ride Shotgun Seat Handlebar Combo Black', price: 239, note: 'Seat and handlebar combination.' },
-    { href: '/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-handlebar-combo-black/', name: 'Kids Ride Shotgun 2.0 Seat Handlebar Combo Black', price: 309, note: '2.0 seat and handlebar combination.' },
     { href: '/shop/racks-bags-and-trailers/', name: 'All racks, bags and trailers', note: 'Child seats, trailers, panniers and baskets.' },
   ],
   links: {
@@ -38,8 +34,8 @@ export const meta = {
     ],
     from: [
       ['/shop/racks-bags-and-trailers/', 'child bike seat buying guide'],
-      ['/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-black/', 'how to choose a child bike seat'],
-      ['/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-handlebar-combo-black/', 'bike seat for toddler: what to check'],
+      ['/shop/racks-bags-and-trailers/', 'how to choose a child bike seat'],
+      ['/shop/racks-bags-and-trailers/', 'bike seat for toddler: what to check'],
     ],
   },
   kind: 'post',
@@ -60,10 +56,6 @@ export const body = {
       table: {
         head: ['Product', 'Brand', 'Price', 'Notes'],
         rows: [
-          ['[Kids Ride Shotgun Seat Black](/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-black/)', 'Shotgun', '$179', 'Seat'],
-          ['[Kids Ride Shotgun 2.0 Seat Black](/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-black/)', 'Shotgun', '$219', '2.0 seat'],
-          ['[Kids Ride Shotgun Seat Handlebar Combo Black](/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-handlebar-combo-black/)', 'Shotgun', '$239', 'Seat and handlebar combo'],
-          ['[Kids Ride Shotgun 2.0 Seat Handlebar Combo Black](/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-handlebar-combo-black/)', 'Shotgun', '$309', '2.0 seat and handlebar combo'],
         ],
       },
     },
@@ -158,7 +150,7 @@ export const body = {
     {
       h: 'Which child bike seat should you buy?',
       p: [
-        'If you want a seat on its own, the [Kids Ride Shotgun seat at $179](/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-black/) is the lower-priced option, and the [Shotgun 2.0 seat at $219](/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-black/) is the updated version. If you want a handlebar for the child to hold, look at the [Shotgun seat and handlebar combo at $239](/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-handlebar-combo-black/) or the [2.0 combo at $309](/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-handlebar-combo-black/).',
+        'If you want a seat on its own, the [Kids Ride Shotgun seat at $179](/shop/racks-bags-and-trailers/) is the lower-priced option, and the [Shotgun 2.0 seat at $219](/shop/racks-bags-and-trailers/) is the updated version. If you want a handlebar for the child to hold, look at the [Shotgun seat and handlebar combo at $239](/shop/racks-bags-and-trailers/) or the [2.0 combo at $309](/shop/racks-bags-and-trailers/).',
         'Send us your bike, your child\'s age and weight, and we will confirm fit and the maker\'s limits. You can also browse the full [child seats, trailers and bags range](/shop/racks-bags-and-trailers/).',
       ],
     },

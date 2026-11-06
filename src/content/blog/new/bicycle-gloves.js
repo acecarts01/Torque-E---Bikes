@@ -22,8 +22,6 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/helmets-gloves-and-protection/100-percent-i-track-fluro-yellow-gloves/', name: '100% Percent I-track Fluro Yellow Gloves', price: 36.95, note: 'The lowest-priced gloves in our range.' },
-    { href: '/shop/helmets-gloves-and-protection/100-itrack-gloves-bandana/', name: '100% Itrack Gloves Bandana', price: 38.95, note: 'A 100% iTrack glove option.' },
     { href: '/shop/helmets-gloves-and-protection/abus-macator-helmet/', name: 'Abus Macator Helmet', price: 93.95, note: 'A helmet to wear with your gloves.' },
     { href: '/shop/helmets-gloves-and-protection/', name: 'All helmets, gloves and protection', note: 'Helmets, gloves, goggles and armour.' },
   ],
@@ -36,8 +34,8 @@ export const meta = {
     ],
     from: [
       ['/shop/helmets-gloves-and-protection/', 'bicycle gloves buying guide'],
-      ['/shop/helmets-gloves-and-protection/100-percent-i-track-fluro-yellow-gloves/', 'how to choose bicycle gloves'],
-      ['/shop/helmets-gloves-and-protection/100-itrack-gloves-bandana/', 'mountain biking gloves: what to check'],
+      ['/shop/helmets-gloves-and-protection/', 'how to choose bicycle gloves'],
+      ['/shop/helmets-gloves-and-protection/', 'mountain biking gloves: what to check'],
     ],
   },
   kind: 'post',
@@ -58,8 +56,6 @@ export const body = {
       table: {
         head: ['Gloves', 'Brand', 'Price', 'Notes'],
         rows: [
-          ['[100% Percent I-track Fluro Yellow Gloves](/shop/helmets-gloves-and-protection/100-percent-i-track-fluro-yellow-gloves/)', '100%', '$36.95', 'Fluro yellow colour'],
-          ['[100% Itrack Gloves Bandana](/shop/helmets-gloves-and-protection/100-itrack-gloves-bandana/)', '100%', '$38.95', 'iTrack gloves with a bandana'],
         ],
       },
     },
@@ -168,7 +164,7 @@ export const body = {
     {
       h: 'Which bicycle gloves should you buy?',
       p: [
-        'If you ride mountain bike trails or want a bright, protective glove, the [100% I-track fluro yellow gloves at $36.95](/shop/helmets-gloves-and-protection/100-percent-i-track-fluro-yellow-gloves/) are the lowest-priced option. The [100% iTrack gloves with bandana at $38.95](/shop/helmets-gloves-and-protection/100-itrack-gloves-bandana/) is the other choice. Add a [helmet such as the Abus Macator at $93.95](/shop/helmets-gloves-and-protection/abus-macator-helmet/) for a complete start.',
+        'If you ride mountain bike trails or want a bright, protective glove, the [100% I-track fluro yellow gloves at $36.95](/shop/helmets-gloves-and-protection/) are the lowest-priced option. The [100% iTrack gloves with bandana at $38.95](/shop/helmets-gloves-and-protection/) is the other choice. Add a [helmet such as the Abus Macator at $93.95](/shop/helmets-gloves-and-protection/abus-macator-helmet/) for a complete start.',
         'Send us your hand size and riding style and we will confirm availability. You can also browse the full [gloves and protection range](/shop/helmets-gloves-and-protection/) and our [electric mountain bike buying guide](/blog/electric-mountain-bike-buying-guide/).',
       ],
     },

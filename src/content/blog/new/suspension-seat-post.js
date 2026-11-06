@@ -23,8 +23,6 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/', name: 'AZUR Pro Range Kappa Memory Foam', price: 55.95, note: 'A memory foam saddle.' },
-    { href: '/shop/seats-fenders-and-body/seat-drip-seat-cover-camo-stealth/', name: 'Seat Drip Seat Cover - Camo Stealth', price: 93.95, note: 'A seat cover.' },
     { href: '/shop/seats-fenders-and-body/79bike-seat/', name: '79Bike Seat', price: 149, note: 'A replacement seat for 79Bike models.' },
     { href: '/shop/seats-fenders-and-body/', name: 'All seats, fenders and body', note: 'Seats, covers and mudguards.' },
   ],
@@ -37,7 +35,7 @@ export const meta = {
     ],
     from: [
       ['/shop/seats-fenders-and-body/', 'suspension seat post buying guide'],
-      ['/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/', 'bike seat suspension alternatives'],
+      ['/shop/seats-fenders-and-body/', 'bike seat suspension alternatives'],
       ['/shop/seats-fenders-and-body/79bike-seat/', 'suspension saddle post: fit checks'],
     ],
   },
@@ -60,8 +58,6 @@ export const body = {
         head: ['Option', 'What it changes', 'Price from us'],
         rows: [
           ['Suspension seat post', 'Adds movement under the saddle', 'Not stocked'],
-          ['[AZUR Pro Range Kappa Memory Foam](/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/)', 'Padding on the saddle', '$55.95'],
-          ['[Seat Drip Seat Cover - Camo Stealth](/shop/seats-fenders-and-body/seat-drip-seat-cover-camo-stealth/)', 'Covers the saddle surface', '$93.95'],
           ['[79Bike Seat](/shop/seats-fenders-and-body/79bike-seat/)', 'Replacement seat for 79Bike models', '$149'],
           ['Lower tyre pressure or wider tyres', 'Absorbs bumps at the wheel', 'See our [tyres guide](/blog/e-bike-tyres-and-tubes/)'],
         ],
@@ -120,8 +116,6 @@ export const body = {
       table: {
         head: ['Item', 'Brand', 'Price', 'Use'],
         rows: [
-          ['[AZUR Pro Range Kappa Memory Foam](/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/)', 'AZUR', '$55.95', 'Memory foam saddle'],
-          ['[Seat Drip Seat Cover - Camo Stealth](/shop/seats-fenders-and-body/seat-drip-seat-cover-camo-stealth/)', 'Seat Drip', '$93.95', 'Seat cover'],
           ['[79Bike Seat](/shop/seats-fenders-and-body/79bike-seat/)', '79Bike', '$149', 'Replacement seat for 79Bike models'],
         ],
       },
@@ -175,7 +169,7 @@ export const body = {
     {
       h: 'Which suspension seat post option should you choose?',
       p: [
-        'If your saddle is sore, start with fit, then a padded option such as the [AZUR Pro Range Kappa Memory Foam at $55.95](/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/) or a [Seat Drip seat cover at $93.95](/shop/seats-fenders-and-body/seat-drip-seat-cover-camo-stealth/). If you ride rough surfaces often and your frame suits it, a suspension post from a specialist may be worth adding. Browse the full [seats, fenders and body range](/shop/seats-fenders-and-body/).',
+        'If your saddle is sore, start with fit, then a padded option such as the [AZUR Pro Range Kappa Memory Foam at $55.95](/shop/seats-fenders-and-body/) or a [Seat Drip seat cover at $93.95](/shop/seats-fenders-and-body/). If you ride rough surfaces often and your frame suits it, a suspension post from a specialist may be worth adding. Browse the full [seats, fenders and body range](/shop/seats-fenders-and-body/).',
         'Tell us your bike, your weight range and where you ride, and we will suggest the right comfort upgrade. All orders ship Australia-wide with dangerous-goods certified dispatch.',
       ],
     },

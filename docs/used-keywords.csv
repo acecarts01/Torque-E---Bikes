@@ -1082,27 +1082,6 @@ url,type,role,keyword,volume,kd,intent,source
 /brands/ampd-bros/,brand-hub,lsi,amped bros e bike,140,21,Navigational,competitor
 /brands/ampd-bros/,brand-hub,lsi,ampd electric bikes,70,20,Navigational,competitor
 /brands/ampd-bros/,brand-hub,lsi,ampd bros ace x plus,50,18,Commercial,competitor
-/brands/apollo/,brand-hub,primary,apollo bike,390,16,Navigational,competitor
-/brands/apollo/,brand-hub,secondary,apollo mtb bike,210,8,Transactional,competitor
-/brands/apollo/,brand-hub,secondary,apollo neo 16,110,3,Commercial,competitor
-/brands/apollo/,brand-hub,secondary,apollo bike price,90,7,Transactional,competitor
-/brands/apollo/,brand-hub,secondary,apollo electric bike,70,6,Navigational,competitor
-/brands/apollo/,brand-hub,secondary,apollo hybrid bike,30,6,Transactional,KM
-/brands/apollo/,brand-hub,secondary,16 inch apollo bike,20,6,Transactional,KM
-/brands/apollo/,brand-hub,secondary,apollo aspire bike,20,6,Transactional,KM
-/brands/apollo/,brand-hub,secondary,apollo bike accessories,20,6,Transactional,KM
-/brands/apollo/,brand-hub,lsi,apollo dirt bike,90,31,Navigational,competitor
-/brands/apollo/,brand-hub,lsi,apollo mountain bike price,30,6,Transactional,KM
-/brands/apollo/,brand-hub,lsi,apollo 12 inch bike,20,7,Transactional,KM
-/brands/apollo/,brand-hub,lsi,apollo alpha bike,20,9,Transactional,KM
-/brands/apollo/,brand-hub,lsi,apollo alpina bike,20,6,Commercial,KM
-/brands/apollo/,brand-hub,lsi,apollo alpina mountain bike,20,7,Commercial,KM
-/brands/apollo/,brand-hub,lsi,apollo altitude bike price,20,6,Transactional,KM
-/brands/apollo/,brand-hub,lsi,apollo ascent bike,20,6,Commercial,KM
-/brands/apollo/,brand-hub,lsi,apollo ascent mountain bike,20,3,Commercial,KM
-/brands/apollo/,brand-hub,lsi,apollo aspen bike,20,6,Commercial,KM
-/brands/apollo/,brand-hub,lsi,apollo aspen mountain bike,20,5,Commercial,KM
-/brands/apollo/,brand-hub,lsi,apollo aspire mountain bike,20,5,Commercial,KM
 /brands/arctic/,brand-hub,primary,arctic leopard,390,16,Navigational,competitor
 /brands/arctic/,brand-hub,secondary,arctic leopard e bike,90,17,Navigational,competitor
 /brands/arctic/,brand-hub,secondary,arctic australia,,,Navigational,generated
@@ -1375,12 +1354,6 @@ url,type,role,keyword,volume,kd,intent,source
 /brands/kona/,brand-hub,secondary,kona electric bikes,,,Navigational,generated
 /brands/kona/,brand-hub,secondary,kona bikes australia,,,Navigational,generated
 /brands/kona/,brand-hub,secondary,kona models,,,Navigational,generated
-/brands/kristall/,brand-hub,primary,kristall e bike,260,6,Navigational,KM
-/brands/kristall/,brand-hub,secondary,kristall e bike price,30,4,Transactional,KM
-/brands/kristall/,brand-hub,secondary,kristall ebike australia,10,4,Navigational,KM
-/brands/kristall/,brand-hub,secondary,kristall ebike review,20,5,Commercial,KM
-/brands/kristall/,brand-hub,secondary,kristall bike,20,6,Navigational,KM
-/brands/kristall/,brand-hub,secondary,kristall australia,,,Navigational,generated
 /brands/lpr/,brand-hub,primary,lpr bikes,390,33,Navigational,competitor
 /brands/lpr/,brand-hub,secondary,lpr electric bike,260,12,Navigational,competitor
 /brands/lpr/,brand-hub,secondary,lpr australia,,,Navigational,generated
@@ -1474,24 +1447,12 @@ url,type,role,keyword,volume,kd,intent,source
 /brands/razor/,brand-hub,lsi,razor electric bike for teens,20,23,Transactional,KM
 /brands/razor/,brand-hub,lsi,razor electric bike frame,20,25,Transactional,KM
 /brands/razor/,brand-hub,lsi,razor electric bike review,20,12,Commercial,KM
-/brands/reid/,brand-hub,primary,reid australia,,,Navigational,generated
-/brands/reid/,brand-hub,secondary,reid australia,,,Navigational,generated
-/brands/reid/,brand-hub,secondary,reid electric bikes,,,Navigational,generated
-/brands/reid/,brand-hub,secondary,reid bikes australia,,,Navigational,generated
-/brands/reid/,brand-hub,secondary,reid models,,,Navigational,generated
-/brands/reid/,brand-hub,secondary,buy reid,,,Transactional,generated
 /brands/santa-cruz/,brand-hub,primary,santa cruz electric bike,170,5,Navigational,competitor
 /brands/santa-cruz/,brand-hub,secondary,santa cruz electric mountain bike,90,16,Commercial,competitor
 /brands/santa-cruz/,brand-hub,secondary,santa cruz emtb,70,17,Commercial,competitor
 /brands/santa-cruz/,brand-hub,secondary,santa cruz australia,,,Navigational,generated
 /brands/santa-cruz/,brand-hub,secondary,santa cruz bikes australia,,,Navigational,generated
 /brands/santa-cruz/,brand-hub,secondary,santa cruz models,,,Navigational,generated
-/brands/seat-drip/,brand-hub,primary,seat drip australia,,,Navigational,generated
-/brands/seat-drip/,brand-hub,secondary,seat drip australia,,,Navigational,generated
-/brands/seat-drip/,brand-hub,secondary,seat drip electric bikes,,,Navigational,generated
-/brands/seat-drip/,brand-hub,secondary,seat drip bikes australia,,,Navigational,generated
-/brands/seat-drip/,brand-hub,secondary,seat drip models,,,Navigational,generated
-/brands/seat-drip/,brand-hub,secondary,buy seat drip,,,Transactional,generated
 /brands/segway/,brand-hub,primary,segway ebike,390,14,Navigational,competitor
 /brands/segway/,brand-hub,secondary,segway australia,,,Navigational,generated
 /brands/segway/,brand-hub,secondary,segway bikes australia,,,Navigational,generated
@@ -1662,16 +1623,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-dirt-bikes/talaria-komodo/,product,secondary,talaria komodo,1300,11,Commercial,KM
 /shop/electric-dirt-bikes/talaria-komodo/,product,secondary,talaria komodo australia,110,33,Commercial,competitor
 /shop/electric-dirt-bikes/talaria-komodo/,product,secondary,talaria komodo top speed,90,9,Commercial,competitor
-/shop/electric-dirt-bikes/zero-xb/,product,primary,zero xb price australia,,,Transactional,generated
-/shop/electric-dirt-bikes/zero-xb/,product,secondary,buy zero xb,,,Transactional,generated
-/shop/electric-dirt-bikes/zero-xb/,product,secondary,zero xb for sale,,,Transactional,generated
-/shop/electric-dirt-bikes/zero-xb/,product,secondary,zero xb review,,,Commercial,generated
-/shop/electric-dirt-bikes/zero-xb/,product,secondary,zero xb online,,,Transactional,generated
-/shop/electric-dirt-bikes/zero-xe/,product,primary,zero xe price australia,,,Transactional,generated
-/shop/electric-dirt-bikes/zero-xe/,product,secondary,buy zero xe,,,Transactional,generated
-/shop/electric-dirt-bikes/zero-xe/,product,secondary,zero xe for sale,,,Transactional,generated
-/shop/electric-dirt-bikes/zero-xe/,product,secondary,zero xe review,,,Commercial,generated
-/shop/electric-dirt-bikes/zero-xe/,product,secondary,zero xe online,,,Transactional,generated
 /shop/electric-dirt-bikes/zero-fx/,product,primary,zero fx price australia,,,Transactional,generated
 /shop/electric-dirt-bikes/zero-fx/,product,secondary,buy zero fx,,,Transactional,generated
 /shop/electric-dirt-bikes/zero-fx/,product,secondary,zero fx for sale,,,Transactional,generated
@@ -1718,26 +1669,11 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-dirt-bikes/bonnell-775-mx/,product,secondary,bonnell 775,170,15,Transactional,competitor
 /shop/electric-dirt-bikes/bonnell-775-mx/,product,secondary,bonnell 775 mx australia for sale,30,9,Transactional,semrush-2026-10-18
 /shop/electric-dirt-bikes/bonnell-775-mx/,product,secondary,bonnell 775 australia,20,6,Transactional,KM
-/shop/electric-dirt-bikes/ssr-sr-e8-pro/,product,primary,ssr sr-e8 pro price australia,,,Transactional,generated
-/shop/electric-dirt-bikes/ssr-sr-e8-pro/,product,secondary,buy ssr sr-e8 pro,,,Transactional,generated
-/shop/electric-dirt-bikes/ssr-sr-e8-pro/,product,secondary,ssr sr-e8 pro for sale,,,Transactional,generated
-/shop/electric-dirt-bikes/ssr-sr-e8-pro/,product,secondary,ssr sr-e8 pro review,,,Commercial,generated
-/shop/electric-dirt-bikes/ssr-sr-e8-pro/,product,secondary,ssr sr-e8 pro online,,,Transactional,generated
-/shop/electric-dirt-bikes/ssr-sr-e15-pro/,product,primary,ssr sr-e15 pro price australia,,,Transactional,generated
-/shop/electric-dirt-bikes/ssr-sr-e15-pro/,product,secondary,buy ssr sr-e15 pro,,,Transactional,generated
-/shop/electric-dirt-bikes/ssr-sr-e15-pro/,product,secondary,ssr sr-e15 pro for sale,,,Transactional,generated
-/shop/electric-dirt-bikes/ssr-sr-e15-pro/,product,secondary,ssr sr-e15 pro review,,,Commercial,generated
-/shop/electric-dirt-bikes/ssr-sr-e15-pro/,product,secondary,ssr sr-e15 pro online,,,Transactional,generated
 /shop/electric-dirt-bikes/79bike-falcon-pro/,product,primary,79bike falcon pro electric dirt bike,50,18,Transactional,KM
 /shop/electric-dirt-bikes/79bike-falcon-pro/,product,secondary,79bike falcon pro for sale,20,6,Transactional,KM
 /shop/electric-dirt-bikes/79bike-falcon-pro/,product,secondary,79bike falcon pro,480,9,Commercial,competitor
 /shop/electric-dirt-bikes/79bike-falcon-pro/,product,secondary,79 bike falcon pro,320,14,Commercial,competitor
 /shop/electric-dirt-bikes/79bike-falcon-pro/,product,secondary,buy 79bike falcon pro,,,Transactional,generated
-/shop/electric-dirt-bikes/happyrun-g300-pro/,product,primary,happyrun g300 pro price australia,,,Transactional,generated
-/shop/electric-dirt-bikes/happyrun-g300-pro/,product,secondary,buy happyrun g300 pro,,,Transactional,generated
-/shop/electric-dirt-bikes/happyrun-g300-pro/,product,secondary,happyrun g300 pro for sale,,,Transactional,generated
-/shop/electric-dirt-bikes/happyrun-g300-pro/,product,secondary,happyrun g300 pro review,,,Commercial,generated
-/shop/electric-dirt-bikes/happyrun-g300-pro/,product,secondary,happyrun g300 pro online,,,Transactional,generated
 /shop/electric-dirt-bikes/happyrun-suv-e-bike/,product,primary,happyrun suv e-bike price australia,,,Transactional,generated
 /shop/electric-dirt-bikes/happyrun-suv-e-bike/,product,secondary,buy happyrun suv e-bike,,,Transactional,generated
 /shop/electric-dirt-bikes/happyrun-suv-e-bike/,product,secondary,happyrun suv e-bike for sale,,,Transactional,generated
@@ -1753,36 +1689,11 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-dirt-bikes/rfn-warrior-pro/,product,secondary,rfn warrior pro for sale,,,Transactional,generated
 /shop/electric-dirt-bikes/rfn-warrior-pro/,product,secondary,rfn warrior pro review,,,Commercial,generated
 /shop/electric-dirt-bikes/rfn-warrior-pro/,product,secondary,rfn warrior pro online,,,Transactional,generated
-/shop/electric-dirt-bikes/tork-base-model/,product,primary,tork base model price australia,,,Transactional,generated
-/shop/electric-dirt-bikes/tork-base-model/,product,secondary,buy tork base model,,,Transactional,generated
-/shop/electric-dirt-bikes/tork-base-model/,product,secondary,tork base model for sale,,,Transactional,generated
-/shop/electric-dirt-bikes/tork-base-model/,product,secondary,tork base model review,,,Commercial,generated
-/shop/electric-dirt-bikes/tork-base-model/,product,secondary,tork base model online,,,Transactional,generated
-/shop/electric-dirt-bikes/kayo-ec2i/,product,primary,kayo ec2i price australia,,,Transactional,generated
-/shop/electric-dirt-bikes/kayo-ec2i/,product,secondary,buy kayo ec2i,,,Transactional,generated
-/shop/electric-dirt-bikes/kayo-ec2i/,product,secondary,kayo ec2i for sale,,,Transactional,generated
-/shop/electric-dirt-bikes/kayo-ec2i/,product,secondary,kayo ec2i review,,,Commercial,generated
-/shop/electric-dirt-bikes/kayo-ec2i/,product,secondary,kayo ec2i online,,,Transactional,generated
-/shop/electric-dirt-bikes/husqvarna-ee-5/,product,primary,husqvarna ee 5 price australia,,,Transactional,generated
-/shop/electric-dirt-bikes/husqvarna-ee-5/,product,secondary,buy husqvarna ee 5,,,Transactional,generated
-/shop/electric-dirt-bikes/husqvarna-ee-5/,product,secondary,husqvarna ee 5 for sale,,,Transactional,generated
-/shop/electric-dirt-bikes/husqvarna-ee-5/,product,secondary,husqvarna ee 5 review,,,Commercial,generated
-/shop/electric-dirt-bikes/husqvarna-ee-5/,product,secondary,husqvarna ee 5 online,,,Transactional,generated
-/shop/electric-dirt-bikes/emortal-rogue-mx-01/,product,primary,emortal rogue mx-01 price australia,,,Transactional,generated
-/shop/electric-dirt-bikes/emortal-rogue-mx-01/,product,secondary,buy emortal rogue mx-01,,,Transactional,generated
-/shop/electric-dirt-bikes/emortal-rogue-mx-01/,product,secondary,emortal rogue mx-01 for sale,,,Transactional,generated
-/shop/electric-dirt-bikes/emortal-rogue-mx-01/,product,secondary,emortal rogue mx-01 review,,,Commercial,generated
-/shop/electric-dirt-bikes/emortal-rogue-mx-01/,product,secondary,emortal rogue mx-01 online,,,Transactional,generated
 /shop/kids-electric-dirt-and-balance-bikes/razor-mx350/,product,primary,razor mx350 price australia,,,Transactional,generated
 /shop/kids-electric-dirt-and-balance-bikes/razor-mx350/,product,secondary,buy razor mx350,,,Transactional,generated
 /shop/kids-electric-dirt-and-balance-bikes/razor-mx350/,product,secondary,razor mx350 for sale,,,Transactional,generated
 /shop/kids-electric-dirt-and-balance-bikes/razor-mx350/,product,secondary,razor mx350 review,,,Commercial,generated
 /shop/kids-electric-dirt-and-balance-bikes/razor-mx350/,product,secondary,razor mx350 online,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/razor-mx400/,product,primary,razor mx400 price australia,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/razor-mx400/,product,secondary,buy razor mx400,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/razor-mx400/,product,secondary,razor mx400 for sale,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/razor-mx400/,product,secondary,razor mx400 review,,,Commercial,generated
-/shop/kids-electric-dirt-and-balance-bikes/razor-mx400/,product,secondary,razor mx400 online,,,Transactional,generated
 /shop/kids-electric-dirt-and-balance-bikes/razor-mx500/,product,primary,razor mx500 price australia,,,Transactional,generated
 /shop/kids-electric-dirt-and-balance-bikes/razor-mx500/,product,secondary,buy razor mx500,,,Transactional,generated
 /shop/kids-electric-dirt-and-balance-bikes/razor-mx500/,product,secondary,razor mx500 for sale,,,Transactional,generated
@@ -1798,11 +1709,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/kids-electric-dirt-and-balance-bikes/ktm-sx-e-5/,product,secondary,ktm sx-e 5 for sale,,,Transactional,generated
 /shop/kids-electric-dirt-and-balance-bikes/ktm-sx-e-5/,product,secondary,ktm sx-e 5 review,,,Commercial,generated
 /shop/kids-electric-dirt-and-balance-bikes/ktm-sx-e-5/,product,secondary,ktm sx-e 5 online,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/gasgas-mc-e-5/,product,primary,gasgas mc-e 5 price australia,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/gasgas-mc-e-5/,product,secondary,buy gasgas mc-e 5,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/gasgas-mc-e-5/,product,secondary,gasgas mc-e 5 for sale,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/gasgas-mc-e-5/,product,secondary,gasgas mc-e 5 review,,,Commercial,generated
-/shop/kids-electric-dirt-and-balance-bikes/gasgas-mc-e-5/,product,secondary,gasgas mc-e 5 online,,,Transactional,generated
 /shop/electric-mountain-bikes/specialized-turbo-levo-sl-comp-carbon/,product,primary,specialized turbo levo sl comp carbon price australia,,,Transactional,generated
 /shop/electric-mountain-bikes/specialized-turbo-levo-sl-comp-carbon/,product,secondary,buy specialized turbo levo sl comp carbon,,,Transactional,generated
 /shop/electric-mountain-bikes/specialized-turbo-levo-sl-comp-carbon/,product,secondary,specialized turbo levo sl comp carbon for sale,,,Transactional,generated
@@ -1894,11 +1800,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-mountain-bikes/yeti-160e-t2/,product,secondary,yeti 160e t2 for sale,,,Transactional,generated
 /shop/electric-mountain-bikes/yeti-160e-t2/,product,secondary,yeti 160e t2 review,,,Commercial,generated
 /shop/electric-mountain-bikes/yeti-160e-t2/,product,secondary,yeti 160e t2 online,,,Transactional,generated
-/shop/electric-mountain-bikes/scott-patron-eride-900-tuned/,product,primary,scott patron eride 900 tuned price australia,,,Transactional,generated
-/shop/electric-mountain-bikes/scott-patron-eride-900-tuned/,product,secondary,buy scott patron eride 900 tuned,,,Transactional,generated
-/shop/electric-mountain-bikes/scott-patron-eride-900-tuned/,product,secondary,scott patron eride 900 tuned for sale,,,Transactional,generated
-/shop/electric-mountain-bikes/scott-patron-eride-900-tuned/,product,secondary,scott patron eride 900 tuned review,,,Commercial,generated
-/shop/electric-mountain-bikes/scott-patron-eride-900-tuned/,product,secondary,scott patron eride 900 tuned online,,,Transactional,generated
 /shop/electric-mountain-bikes/pivot-shuttle-lt-team-xtr/,product,primary,pivot shuttle lt team xtr price australia,,,Transactional,generated
 /shop/electric-mountain-bikes/pivot-shuttle-lt-team-xtr/,product,secondary,buy pivot shuttle lt team xtr,,,Transactional,generated
 /shop/electric-mountain-bikes/pivot-shuttle-lt-team-xtr/,product,secondary,pivot shuttle lt team xtr for sale,,,Transactional,generated
@@ -1914,16 +1815,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-5-0/,product,secondary,specialized turbo vado sl 5.0 for sale,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-5-0/,product,secondary,specialized turbo vado sl 5.0 review,,,Commercial,generated
 /shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-5-0/,product,secondary,specialized turbo vado sl 5.0 online,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-4-0/,product,primary,specialized turbo como sl 4.0 price australia,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-4-0/,product,secondary,buy specialized turbo como sl 4.0,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-4-0/,product,secondary,specialized turbo como sl 4.0 for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-4-0/,product,secondary,specialized turbo como sl 4.0 review,,,Commercial,generated
-/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-4-0/,product,secondary,specialized turbo como sl 4.0 online,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-5-0/,product,primary,specialized turbo como sl 5.0 price australia,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-5-0/,product,secondary,buy specialized turbo como sl 5.0,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-5-0/,product,secondary,specialized turbo como sl 5.0 for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-5-0/,product,secondary,specialized turbo como sl 5.0 review,,,Commercial,generated
-/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-5-0/,product,secondary,specialized turbo como sl 5.0 online,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/trek-domane-lt-9/,product,primary,trek domane+ lt 9 price australia,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/trek-domane-lt-9/,product,secondary,buy trek domane+ lt 9,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/trek-domane-lt-9/,product,secondary,trek domane+ lt 9 for sale,,,Transactional,generated
@@ -1974,26 +1865,11 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/commuter-and-urban-e-bikes/aventon-sinch-2-folding/,product,secondary,buy aventon sinch.2 folding,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/aventon-sinch-2-folding/,product,secondary,aventon sinch.2 folding for sale,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/aventon-sinch-2-folding/,product,secondary,aventon sinch.2 folding review,,,Commercial,generated
-/shop/commuter-and-urban-e-bikes/segway-myon/,product,primary,segway myon price australia,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/segway-myon/,product,secondary,buy segway myon,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/segway-myon/,product,secondary,segway myon for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/segway-myon/,product,secondary,segway myon review,,,Commercial,generated
-/shop/commuter-and-urban-e-bikes/segway-myon/,product,secondary,segway myon online,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/segway-muxi/,product,primary,segway muxi,30,20,Transactional,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/segway-muxi/,product,secondary,segway muxi price australia,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/segway-muxi/,product,secondary,buy segway muxi,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/segway-muxi/,product,secondary,segway muxi for sale,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/segway-muxi/,product,secondary,segway muxi review,,,Commercial,generated
-/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-expert-evo/,product,primary,specialized turbo creo sl expert evo price australia,,,Transactional,generated
-/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-expert-evo/,product,secondary,buy specialized turbo creo sl expert evo,,,Transactional,generated
-/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-expert-evo/,product,secondary,specialized turbo creo sl expert evo for sale,,,Transactional,generated
-/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-expert-evo/,product,secondary,specialized turbo creo sl expert evo review,,,Commercial,generated
-/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-expert-evo/,product,secondary,specialized turbo creo sl expert evo online,,,Transactional,generated
-/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-comp-carbon/,product,primary,specialized turbo creo sl comp carbon price australia,,,Transactional,generated
-/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-comp-carbon/,product,secondary,buy specialized turbo creo sl comp carbon,,,Transactional,generated
-/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-comp-carbon/,product,secondary,specialized turbo creo sl comp carbon for sale,,,Transactional,generated
-/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-comp-carbon/,product,secondary,specialized turbo creo sl comp carbon review,,,Commercial,generated
-/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-comp-carbon/,product,secondary,specialized turbo creo sl comp carbon online,,,Transactional,generated
 /shop/road-and-gravel-e-bikes/trek-domane-alr-5/,product,primary,trek domane+ alr 5 price australia,,,Transactional,generated
 /shop/road-and-gravel-e-bikes/trek-domane-alr-5/,product,secondary,buy trek domane+ alr 5,,,Transactional,generated
 /shop/road-and-gravel-e-bikes/trek-domane-alr-5/,product,secondary,trek domane+ alr 5 for sale,,,Transactional,generated
@@ -2039,11 +1915,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/kids-and-youth-e-bikes/woom-up-6/,product,secondary,woom up 6 for sale,,,Transactional,generated
 /shop/kids-and-youth-e-bikes/woom-up-6/,product,secondary,woom up 6 review,,,Commercial,generated
 /shop/kids-and-youth-e-bikes/woom-up-6/,product,secondary,woom up 6 online,,,Transactional,generated
-/shop/electric-mountain-bikes/mondraker-crafty-carbon/,product,primary,mondraker crafty carbon price australia,,,Transactional,generated
-/shop/electric-mountain-bikes/mondraker-crafty-carbon/,product,secondary,buy mondraker crafty carbon,,,Transactional,generated
-/shop/electric-mountain-bikes/mondraker-crafty-carbon/,product,secondary,mondraker crafty carbon for sale,,,Transactional,generated
-/shop/electric-mountain-bikes/mondraker-crafty-carbon/,product,secondary,mondraker crafty carbon review,,,Commercial,generated
-/shop/electric-mountain-bikes/mondraker-crafty-carbon/,product,secondary,mondraker crafty carbon online,,,Transactional,generated
 /shop/electric-mountain-bikes/cube-stereo-hybrid-160/,product,primary,cube stereo,170,12,Commercial,competitor
 /shop/electric-mountain-bikes/cube-stereo-hybrid-160/,product,secondary,buy cube stereo hybrid 160,,,Transactional,generated
 /shop/electric-mountain-bikes/cube-stereo-hybrid-160/,product,secondary,cube stereo hybrid 160 for sale,,,Transactional,generated
@@ -2054,11 +1925,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-dirt-bikes/arctic-leopard-xe-pro/,product,secondary,arctic leopard xe pro for sale,,,Transactional,generated
 /shop/electric-dirt-bikes/arctic-leopard-xe-pro/,product,secondary,arctic leopard xe pro review,,,Commercial,generated
 /shop/electric-dirt-bikes/arctic-leopard-xe-pro/,product,secondary,arctic leopard xe pro online,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/tott-e1022-kids-electric-trial-bike/,product,primary,tott e1022 kids electric trial bike price australia,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/tott-e1022-kids-electric-trial-bike/,product,secondary,buy tott e1022 kids electric trial bike,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/tott-e1022-kids-electric-trial-bike/,product,secondary,tott e1022 kids electric trial bike for sale,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/tott-e1022-kids-electric-trial-bike/,product,secondary,tott e1022 kids electric trial bike review,,,Commercial,generated
-/shop/kids-electric-dirt-and-balance-bikes/tott-e1022-kids-electric-trial-bike/,product,secondary,tott e1022 kids electric trial bike online,,,Transactional,generated
 /shop/electric-mountain-bikes/husqvarna-mountain-cross-mc5/,product,primary,husqvarna mountain cross mc5 price australia,,,Transactional,generated
 /shop/electric-mountain-bikes/husqvarna-mountain-cross-mc5/,product,secondary,buy husqvarna mountain cross mc5,,,Transactional,generated
 /shop/electric-mountain-bikes/husqvarna-mountain-cross-mc5/,product,secondary,husqvarna mountain cross mc5 for sale,,,Transactional,generated
@@ -2104,11 +1970,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/folding-e-bikes/folding-step-through-e-bike-white/,product,secondary,folding step-through e-bike white for sale,,,Transactional,generated
 /shop/folding-e-bikes/folding-step-through-e-bike-white/,product,secondary,folding step-through e-bike white review,,,Commercial,generated
 /shop/folding-e-bikes/folding-step-through-e-bike-white/,product,secondary,folding step-through e-bike white online,,,Transactional,generated
-/shop/folding-e-bikes/folding-step-through-e-bike-navy/,product,primary,folding step-through e-bike navy price australia,,,Transactional,generated
-/shop/folding-e-bikes/folding-step-through-e-bike-navy/,product,secondary,buy folding step-through e-bike navy,,,Transactional,generated
-/shop/folding-e-bikes/folding-step-through-e-bike-navy/,product,secondary,folding step-through e-bike navy for sale,,,Transactional,generated
-/shop/folding-e-bikes/folding-step-through-e-bike-navy/,product,secondary,folding step-through e-bike navy review,,,Commercial,generated
-/shop/folding-e-bikes/folding-step-through-e-bike-navy/,product,secondary,folding step-through e-bike navy online,,,Transactional,generated
 /shop/helmets-gloves-and-protection/79bike-hat/,product,primary,79bike hat price australia,,,Transactional,generated
 /shop/helmets-gloves-and-protection/79bike-hat/,product,secondary,buy 79bike hat,,,Transactional,generated
 /shop/helmets-gloves-and-protection/79bike-hat/,product,secondary,79bike hat for sale,,,Transactional,generated
@@ -2154,16 +2015,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/commuter-and-urban-e-bikes/smartmotion-citi-step-through-e-bike/,product,secondary,smartmotion citi step-through e-bike for sale,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/smartmotion-citi-step-through-e-bike/,product,secondary,smartmotion citi step-through e-bike review,,,Commercial,generated
 /shop/commuter-and-urban-e-bikes/smartmotion-citi-step-through-e-bike/,product,secondary,smartmotion citi step-through e-bike online,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-folding-trike-blue/,product,primary,electric folding trike blue price australia,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-folding-trike-blue/,product,secondary,buy electric folding trike blue,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-folding-trike-blue/,product,secondary,electric folding trike blue for sale,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-folding-trike-blue/,product,secondary,electric folding trike blue review,,,Commercial,generated
-/shop/cargo-bikes-and-e-trikes/electric-folding-trike-blue/,product,secondary,electric folding trike blue online,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-step-through-trike-grey/,product,primary,electric step-through trike grey price australia,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-step-through-trike-grey/,product,secondary,buy electric step-through trike grey,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-step-through-trike-grey/,product,secondary,electric step-through trike grey for sale,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-step-through-trike-grey/,product,secondary,electric step-through trike grey review,,,Commercial,generated
-/shop/cargo-bikes-and-e-trikes/electric-step-through-trike-grey/,product,secondary,electric step-through trike grey online,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/ncm-milano-step-through-trekking-e-bike/,product,primary,ncm milano,210,13,Commercial,competitor
 /shop/commuter-and-urban-e-bikes/ncm-milano-step-through-trekking-e-bike/,product,secondary,buy ncm milano step-through trekking e-bike,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/ncm-milano-step-through-trekking-e-bike/,product,secondary,ncm milano step-through trekking e-bike for sale,,,Transactional,generated
@@ -2239,11 +2090,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-dirt-bikes/bonnell-805/,product,secondary,bonnell 805 for sale,,,Transactional,generated
 /shop/electric-dirt-bikes/bonnell-805/,product,secondary,bonnell 805 review,,,Commercial,generated
 /shop/electric-dirt-bikes/bonnell-805/,product,secondary,bonnell 805 online,,,Transactional,generated
-/shop/folding-e-bikes/dyu-a5-smart-electric-bike/,product,primary,dyu a5 smart electric bike price australia,,,Transactional,generated
-/shop/folding-e-bikes/dyu-a5-smart-electric-bike/,product,secondary,buy dyu a5 smart electric bike,,,Transactional,generated
-/shop/folding-e-bikes/dyu-a5-smart-electric-bike/,product,secondary,dyu a5 smart electric bike for sale,,,Transactional,generated
-/shop/folding-e-bikes/dyu-a5-smart-electric-bike/,product,secondary,dyu a5 smart electric bike review,,,Commercial,generated
-/shop/folding-e-bikes/dyu-a5-smart-electric-bike/,product,secondary,dyu a5 smart electric bike online,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/bolzzen-bandit/,product,primary,bolzzen bandit e bike,50,4,Commercial,competitor
 /shop/fat-tyre-and-scrambler-e-bikes/bolzzen-bandit/,product,secondary,buy bolzzen bandit,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/bolzzen-bandit/,product,secondary,bolzzen bandit for sale,,,Transactional,generated
@@ -2259,41 +2105,11 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/racks-bags-and-trailers/blastoff-bike-cover/,product,secondary,blastoff bike cover for sale,,,Transactional,generated
 /shop/racks-bags-and-trailers/blastoff-bike-cover/,product,secondary,blastoff bike cover review,,,Commercial,generated
 /shop/racks-bags-and-trailers/blastoff-bike-cover/,product,secondary,blastoff bike cover online,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-trike-various/,product,primary,electric trike various price australia,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-trike-various/,product,secondary,buy electric trike various,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-trike-various/,product,secondary,electric trike various for sale,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-trike-various/,product,secondary,electric trike various review,,,Commercial,generated
-/shop/cargo-bikes-and-e-trikes/electric-trike-various/,product,secondary,electric trike various online,,,Transactional,generated
 /shop/lights-and-horns/fatboy-headlight-bagus/,product,primary,fatboy headlight bagus price australia,,,Transactional,generated
 /shop/lights-and-horns/fatboy-headlight-bagus/,product,secondary,buy fatboy headlight bagus,,,Transactional,generated
 /shop/lights-and-horns/fatboy-headlight-bagus/,product,secondary,fatboy headlight bagus for sale,,,Transactional,generated
 /shop/lights-and-horns/fatboy-headlight-bagus/,product,secondary,fatboy headlight bagus review,,,Commercial,generated
 /shop/lights-and-horns/fatboy-headlight-bagus/,product,secondary,fatboy headlight bagus online,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-bubblegum-checkered/,product,primary,seat drip seat cover - bubblegum checkered price australia,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-bubblegum-checkered/,product,secondary,buy seat drip seat cover - bubblegum checkered,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-bubblegum-checkered/,product,secondary,seat drip seat cover - bubblegum checkered for sale,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-bubblegum-checkered/,product,secondary,seat drip seat cover - bubblegum checkered review,,,Commercial,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-bubblegum-checkered/,product,secondary,seat drip seat cover - bubblegum checkered online,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-camo-stealth/,product,primary,seat drip seat cover - camo stealth price australia,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-camo-stealth/,product,secondary,buy seat drip seat cover - camo stealth,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-camo-stealth/,product,secondary,seat drip seat cover - camo stealth for sale,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-camo-stealth/,product,secondary,seat drip seat cover - camo stealth review,,,Commercial,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-camo-stealth/,product,secondary,seat drip seat cover - camo stealth online,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-comic-blast/,product,primary,seat drip seat cover - comic blast price australia,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-comic-blast/,product,secondary,buy seat drip seat cover - comic blast,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-comic-blast/,product,secondary,seat drip seat cover - comic blast for sale,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-comic-blast/,product,secondary,seat drip seat cover - comic blast review,,,Commercial,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-comic-blast/,product,secondary,seat drip seat cover - comic blast online,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-diamond-aqua/,product,primary,seat drip seat cover - diamond aqua price australia,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-diamond-aqua/,product,secondary,buy seat drip seat cover - diamond aqua,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-diamond-aqua/,product,secondary,seat drip seat cover - diamond aqua for sale,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-diamond-aqua/,product,secondary,seat drip seat cover - diamond aqua review,,,Commercial,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-diamond-aqua/,product,secondary,seat drip seat cover - diamond aqua online,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-manga-rush/,product,primary,seat drip seat cover - manga rush price australia,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-manga-rush/,product,secondary,buy seat drip seat cover - manga rush,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-manga-rush/,product,secondary,seat drip seat cover - manga rush for sale,,,Transactional,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-manga-rush/,product,secondary,seat drip seat cover - manga rush review,,,Commercial,generated
-/shop/seats-fenders-and-body/seat-drip-seat-cover-manga-rush/,product,secondary,seat drip seat cover - manga rush online,,,Transactional,generated
 /shop/wheels-tyres-and-tubes/fat-bike-wheel/,product,primary,fat bike wheel price australia,,,Transactional,generated
 /shop/wheels-tyres-and-tubes/fat-bike-wheel/,product,secondary,buy fat bike wheel,,,Transactional,generated
 /shop/wheels-tyres-and-tubes/fat-bike-wheel/,product,secondary,fat bike wheel for sale,,,Transactional,generated
@@ -2324,11 +2140,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/fat-tyre-and-scrambler-e-bikes/cruzr-swell-electric-bike/,product,secondary,cruzr swell electric bike for sale,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/cruzr-swell-electric-bike/,product,secondary,cruzr swell electric bike review,,,Commercial,generated
 /shop/fat-tyre-and-scrambler-e-bikes/cruzr-swell-electric-bike/,product,secondary,cruzr swell electric bike online,,,Transactional,generated
-/shop/electric-dirt-bikes/srpnt-z27/,product,primary,srpnt z27 price australia,,,Transactional,generated
-/shop/electric-dirt-bikes/srpnt-z27/,product,secondary,buy srpnt z27,,,Transactional,generated
-/shop/electric-dirt-bikes/srpnt-z27/,product,secondary,srpnt z27 for sale,,,Transactional,generated
-/shop/electric-dirt-bikes/srpnt-z27/,product,secondary,srpnt z27 review,,,Commercial,generated
-/shop/electric-dirt-bikes/srpnt-z27/,product,secondary,srpnt z27 online,,,Transactional,generated
 /shop/electric-dirt-bikes/srpnt-x8/,product,primary,srpnt x8,10,14,Commercial,semrush-2026-10-18
 /shop/electric-dirt-bikes/srpnt-x8/,product,secondary,srpnt x8 price australia,,,Transactional,generated
 /shop/electric-dirt-bikes/srpnt-x8/,product,secondary,buy srpnt x8,,,Transactional,generated
@@ -2409,21 +2220,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/batteries-chargers-and-electronics/e-bike-charger-au-plug/,product,secondary,e-bike charger au plug for sale,,,Transactional,generated
 /shop/batteries-chargers-and-electronics/e-bike-charger-au-plug/,product,secondary,e-bike charger au plug review,,,Commercial,generated
 /shop/batteries-chargers-and-electronics/e-bike-charger-au-plug/,product,secondary,e-bike charger au plug online,,,Transactional,generated
-/shop/electric-mountain-bikes/hardtail-e-mtb-black/,product,primary,hardtail e-mtb black price australia,,,Transactional,generated
-/shop/electric-mountain-bikes/hardtail-e-mtb-black/,product,secondary,buy hardtail e-mtb black,,,Transactional,generated
-/shop/electric-mountain-bikes/hardtail-e-mtb-black/,product,secondary,hardtail e-mtb black for sale,,,Transactional,generated
-/shop/electric-mountain-bikes/hardtail-e-mtb-black/,product,secondary,hardtail e-mtb black review,,,Commercial,generated
-/shop/electric-mountain-bikes/hardtail-e-mtb-black/,product,secondary,hardtail e-mtb black online,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-folding-trike-red-with-backrest/,product,primary,electric folding trike red with backrest price australia,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-folding-trike-red-with-backrest/,product,secondary,buy electric folding trike red with backrest,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-folding-trike-red-with-backrest/,product,secondary,electric folding trike red with backrest for sale,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-folding-trike-red-with-backrest/,product,secondary,electric folding trike red with backrest review,,,Commercial,generated
-/shop/cargo-bikes-and-e-trikes/electric-folding-trike-red-with-backrest/,product,secondary,electric folding trike red with backrest online,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-trike-green-with-seat/,product,primary,electric trike green with seat price australia,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-trike-green-with-seat/,product,secondary,buy electric trike green with seat,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-trike-green-with-seat/,product,secondary,electric trike green with seat for sale,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/electric-trike-green-with-seat/,product,secondary,electric trike green with seat review,,,Commercial,generated
-/shop/cargo-bikes-and-e-trikes/electric-trike-green-with-seat/,product,secondary,electric trike green with seat online,,,Transactional,generated
 /shop/folding-e-bikes/ncm-folding-fat-tyre-e-bike/,product,primary,ncm folding fat-tyre e-bike price australia,,,Transactional,generated
 /shop/folding-e-bikes/ncm-folding-fat-tyre-e-bike/,product,secondary,buy ncm folding fat-tyre e-bike,,,Transactional,generated
 /shop/folding-e-bikes/ncm-folding-fat-tyre-e-bike/,product,secondary,ncm folding fat-tyre e-bike for sale,,,Transactional,generated
@@ -2454,11 +2250,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-bagus-v3/,product,secondary,fatboy the bagus v3 for sale,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-bagus-v3/,product,secondary,fatboy the bagus v3 review,,,Commercial,generated
 /shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-bagus-v3/,product,secondary,fatboy the bagus v3 online,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/ncm-cg7-cargo/,product,primary,ncm cg7 cargo price australia,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/ncm-cg7-cargo/,product,secondary,buy ncm cg7 cargo,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/ncm-cg7-cargo/,product,secondary,ncm cg7 cargo for sale,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/ncm-cg7-cargo/,product,secondary,ncm cg7 cargo review,,,Commercial,generated
-/shop/cargo-bikes-and-e-trikes/ncm-cg7-cargo/,product,secondary,ncm cg7 cargo online,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/cruzr-barrel-2027/,product,primary,cruzr barrel,720,8,Transactional,KM
 /shop/fat-tyre-and-scrambler-e-bikes/cruzr-barrel-2027/,product,secondary,cruzer barrel,170,6,Transactional,competitor
 /shop/fat-tyre-and-scrambler-e-bikes/cruzr-barrel-2027/,product,secondary,cruzr barrel ebike,90,6,Transactional,KM
@@ -2524,21 +2315,11 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/kids-and-youth-e-bikes/cruzr-grom-gen2/,product,secondary,cruzr grom electric bike,70,7,Transactional,KM
 /shop/kids-and-youth-e-bikes/cruzr-grom-gen2/,product,secondary,buy cruzr grom gen2,,,Transactional,generated
 /shop/kids-and-youth-e-bikes/cruzr-grom-gen2/,product,secondary,cruzr grom gen2 for sale,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr505/,product,primary,flight risk fr505,90,15,Transactional,competitor
-/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr505/,product,secondary,buy flight risk fr505,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr505/,product,secondary,flight risk fr505 for sale,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr505/,product,secondary,flight risk fr505 review,,,Commercial,generated
-/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr505/,product,secondary,flight risk fr505 online,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-scrambler-v2-e-bike/,product,primary,fat boy scrambler v2,110,17,Transactional,competitor
 /shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-scrambler-v2-e-bike/,product,secondary,fatboy scrambler v2,1300,17,Commercial,competitor
 /shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-scrambler-v2-e-bike/,product,secondary,fatboy scrambler v2 top speed,70,19,Commercial,competitor
 /shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-scrambler-v2-e-bike/,product,secondary,buy fatboy the scrambler v2 e-bike,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-scrambler-v2-e-bike/,product,secondary,fatboy the scrambler v2 e-bike for sale,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr888/,product,primary,flight risk fr888 price australia,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr888/,product,secondary,buy flight risk fr888,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr888/,product,secondary,flight risk fr888 for sale,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr888/,product,secondary,flight risk fr888 review,,,Commercial,generated
-/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr888/,product,secondary,flight risk fr888 online,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-bagus-v2-e-bike/,product,primary,fatboy bagus v2,390,21,Transactional,competitor
 /shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-bagus-v2-e-bike/,product,secondary,buy fatboy the bagus v2 e-bike,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-bagus-v2-e-bike/,product,secondary,fatboy the bagus v2 e-bike for sale,,,Transactional,generated
@@ -2560,11 +2341,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/kids-electric-dirt-and-balance-bikes/dhz-2200e-electric-dirt-bike/,product,secondary,dhz 2200e review,20,5,Commercial,KM
 /shop/kids-electric-dirt-and-balance-bikes/dhz-2200e-electric-dirt-bike/,product,secondary,buy dhz 2200e electric dirt bike,,,Transactional,generated
 /shop/kids-electric-dirt-and-balance-bikes/dhz-2200e-electric-dirt-bike/,product,secondary,dhz 2200e electric dirt bike for sale,,,Transactional,generated
-/shop/care-tools-and-hydration/krush-rotor-revive/,product,primary,krush rotor revive price australia,,,Transactional,generated
-/shop/care-tools-and-hydration/krush-rotor-revive/,product,secondary,buy krush rotor revive,,,Transactional,generated
-/shop/care-tools-and-hydration/krush-rotor-revive/,product,secondary,krush rotor revive for sale,,,Transactional,generated
-/shop/care-tools-and-hydration/krush-rotor-revive/,product,secondary,krush rotor revive review,,,Commercial,generated
-/shop/care-tools-and-hydration/krush-rotor-revive/,product,secondary,krush rotor revive online,,,Transactional,generated
 /shop/kids-electric-dirt-and-balance-bikes/azonic-flow-16/,product,primary,azonic flow 16 price australia,,,Transactional,generated
 /shop/kids-electric-dirt-and-balance-bikes/azonic-flow-16/,product,secondary,buy azonic flow 16,,,Transactional,generated
 /shop/kids-electric-dirt-and-balance-bikes/azonic-flow-16/,product,secondary,azonic flow 16 for sale,,,Transactional,generated
@@ -2590,11 +2366,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/fat-tyre-and-scrambler-e-bikes/fat-scrambler-e-bike-cream/,product,secondary,fat scrambler e-bike cream for sale,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/fat-scrambler-e-bike-cream/,product,secondary,fat scrambler e-bike cream review,,,Commercial,generated
 /shop/fat-tyre-and-scrambler-e-bikes/fat-scrambler-e-bike-cream/,product,secondary,fat scrambler e-bike cream online,,,Transactional,generated
-/shop/electric-dirt-bikes/rerode-r1-electric-dirt-bike/,product,primary,rerode r1 electric dirt bike price australia,,,Transactional,generated
-/shop/electric-dirt-bikes/rerode-r1-electric-dirt-bike/,product,secondary,buy rerode r1 electric dirt bike,,,Transactional,generated
-/shop/electric-dirt-bikes/rerode-r1-electric-dirt-bike/,product,secondary,rerode r1 electric dirt bike for sale,,,Transactional,generated
-/shop/electric-dirt-bikes/rerode-r1-electric-dirt-bike/,product,secondary,rerode r1 electric dirt bike review,,,Commercial,generated
-/shop/electric-dirt-bikes/rerode-r1-electric-dirt-bike/,product,secondary,rerode r1 electric dirt bike online,,,Transactional,generated
 /shop/helmets-gloves-and-protection/abus-macator-helmet/,product,primary,abus helmet,480,20,Transactional,competitor
 /shop/helmets-gloves-and-protection/abus-macator-helmet/,product,secondary,abus helmet australia,70,8,Commercial,competitor
 /shop/helmets-gloves-and-protection/abus-macator-helmet/,product,secondary,buy abus macator helmet,,,Transactional,generated
@@ -2605,11 +2376,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/locks-and-security/onguard-chain-lock/,product,secondary,onguard chain lock review,,,Commercial,generated
 /shop/locks-and-security/onguard-chain-lock/,product,secondary,onguard chain lock online,,,Transactional,generated
 /shop/locks-and-security/onguard-chain-lock/,product,secondary,onguard chain lock price australia,,,Transactional,generated
-/shop/locks-and-security/multitag-mount-and-airtag/,product,primary,multitag mount & airtag price australia,,,Transactional,generated
-/shop/locks-and-security/multitag-mount-and-airtag/,product,secondary,buy multitag mount & airtag,,,Transactional,generated
-/shop/locks-and-security/multitag-mount-and-airtag/,product,secondary,multitag mount & airtag for sale,,,Transactional,generated
-/shop/locks-and-security/multitag-mount-and-airtag/,product,secondary,multitag mount & airtag review,,,Commercial,generated
-/shop/locks-and-security/multitag-mount-and-airtag/,product,secondary,multitag mount & airtag online,,,Transactional,generated
 /shop/lights-and-horns/azur-performance-halo/,product,primary,azur performance halo price australia,,,Transactional,generated
 /shop/lights-and-horns/azur-performance-halo/,product,secondary,buy azur performance halo,,,Transactional,generated
 /shop/lights-and-horns/azur-performance-halo/,product,secondary,azur performance halo for sale,,,Transactional,generated
@@ -2630,11 +2396,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/controls-grips-and-pedals/flat-pedals-orange/,product,secondary,flat pedals orange for sale,,,Transactional,generated
 /shop/controls-grips-and-pedals/flat-pedals-orange/,product,secondary,flat pedals orange review,,,Commercial,generated
 /shop/controls-grips-and-pedals/flat-pedals-orange/,product,secondary,flat pedals orange online,,,Transactional,generated
-/shop/racks-bags-and-trailers/fatboy-longboard-bike-rack/,product,primary,fatboy longboard bike rack price australia,,,Transactional,generated
-/shop/racks-bags-and-trailers/fatboy-longboard-bike-rack/,product,secondary,buy fatboy longboard bike rack,,,Transactional,generated
-/shop/racks-bags-and-trailers/fatboy-longboard-bike-rack/,product,secondary,fatboy longboard bike rack for sale,,,Transactional,generated
-/shop/racks-bags-and-trailers/fatboy-longboard-bike-rack/,product,secondary,fatboy longboard bike rack review,,,Commercial,generated
-/shop/racks-bags-and-trailers/fatboy-longboard-bike-rack/,product,secondary,fatboy longboard bike rack online,,,Transactional,generated
 /shop/racks-bags-and-trailers/beach-deluxe-bike-trailer/,product,primary,beach deluxe bike trailer price australia,,,Transactional,generated
 /shop/racks-bags-and-trailers/beach-deluxe-bike-trailer/,product,secondary,buy beach deluxe bike trailer,,,Transactional,generated
 /shop/racks-bags-and-trailers/beach-deluxe-bike-trailer/,product,secondary,beach deluxe bike trailer for sale,,,Transactional,generated
@@ -2695,11 +2456,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/kids-electric-dirt-and-balance-bikes/sherco-eb12-kids-electric-balance-bike/,product,secondary,buy sherco eb12 kids electric balance bike,,,Transactional,generated
 /shop/kids-electric-dirt-and-balance-bikes/sherco-eb12-kids-electric-balance-bike/,product,secondary,sherco eb12 kids electric balance bike for sale,,,Transactional,generated
 /shop/kids-electric-dirt-and-balance-bikes/sherco-eb12-kids-electric-balance-bike/,product,secondary,sherco eb12 kids electric balance bike review,,,Commercial,generated
-/shop/kids-electric-dirt-and-balance-bikes/rxf-dna-16-balance-bike/,product,primary,rxf dna 16 balance bike price australia,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/rxf-dna-16-balance-bike/,product,secondary,buy rxf dna 16 balance bike,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/rxf-dna-16-balance-bike/,product,secondary,rxf dna 16 balance bike for sale,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/rxf-dna-16-balance-bike/,product,secondary,rxf dna 16 balance bike review,,,Commercial,generated
-/shop/kids-electric-dirt-and-balance-bikes/rxf-dna-16-balance-bike/,product,secondary,rxf dna 16 balance bike online,,,Transactional,generated
 /shop/electric-dirt-bikes/79bike-viper-s-electric-dirt-bike/,product,primary,79bike viper s electric dirt bike price australia,,,Transactional,generated
 /shop/electric-dirt-bikes/79bike-viper-s-electric-dirt-bike/,product,secondary,buy 79bike viper s electric dirt bike,,,Transactional,generated
 /shop/electric-dirt-bikes/79bike-viper-s-electric-dirt-bike/,product,secondary,79bike viper s electric dirt bike for sale,,,Transactional,generated
@@ -2730,21 +2486,11 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-dirt-bikes/etm-rtr-sport-2026/,product,secondary,etm rtr sport 2026 for sale,,,Transactional,generated
 /shop/electric-dirt-bikes/etm-rtr-sport-2026/,product,secondary,etm rtr sport 2026 review,,,Commercial,generated
 /shop/electric-dirt-bikes/etm-rtr-sport-2026/,product,secondary,etm rtr sport 2026 online,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/azonic-pure-16-balance-bike/,product,primary,azonic pure 16 balance bike price australia,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/azonic-pure-16-balance-bike/,product,secondary,buy azonic pure 16 balance bike,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/azonic-pure-16-balance-bike/,product,secondary,azonic pure 16 balance bike for sale,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/azonic-pure-16-balance-bike/,product,secondary,azonic pure 16 balance bike review,,,Commercial,generated
-/shop/kids-electric-dirt-and-balance-bikes/azonic-pure-16-balance-bike/,product,secondary,azonic pure 16 balance bike online,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/et-cycle-t1000-fat-tyre-step-through-e-bike/,product,primary,et cycle t1000,50,6,Commercial,competitor
 /shop/fat-tyre-and-scrambler-e-bikes/et-cycle-t1000-fat-tyre-step-through-e-bike/,product,secondary,buy et cycle t1000 fat-tyre step-through e-bike,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/et-cycle-t1000-fat-tyre-step-through-e-bike/,product,secondary,et cycle t1000 fat-tyre step-through e-bike for sale,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/et-cycle-t1000-fat-tyre-step-through-e-bike/,product,secondary,et cycle t1000 fat-tyre step-through e-bike review,,,Commercial,generated
 /shop/fat-tyre-and-scrambler-e-bikes/et-cycle-t1000-fat-tyre-step-through-e-bike/,product,secondary,et cycle t1000 fat-tyre step-through e-bike online,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/retro-step-through-city-e-bike-brown-tyres/,product,primary,retro step-through city e-bike brown tyres price australia,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/retro-step-through-city-e-bike-brown-tyres/,product,secondary,buy retro step-through city e-bike brown tyres,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/retro-step-through-city-e-bike-brown-tyres/,product,secondary,retro step-through city e-bike brown tyres for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/retro-step-through-city-e-bike-brown-tyres/,product,secondary,retro step-through city e-bike brown tyres review,,,Commercial,generated
-/shop/commuter-and-urban-e-bikes/retro-step-through-city-e-bike-brown-tyres/,product,secondary,retro step-through city e-bike brown tyres online,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/smartmotion-pacer-mid-drive-step-through-e-bike/,product,primary,smartmotion pacer mid-drive step-through e-bike price australia,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/smartmotion-pacer-mid-drive-step-through-e-bike/,product,secondary,buy smartmotion pacer mid-drive step-through e-bike,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/smartmotion-pacer-mid-drive-step-through-e-bike/,product,secondary,smartmotion pacer mid-drive step-through e-bike for sale,,,Transactional,generated
@@ -2765,11 +2511,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/cargo-bikes-and-e-trikes/max-cargo-folding-cargo-e-bike-green/,product,secondary,max-cargo folding cargo e-bike green for sale,,,Transactional,generated
 /shop/cargo-bikes-and-e-trikes/max-cargo-folding-cargo-e-bike-green/,product,secondary,max-cargo folding cargo e-bike green review,,,Commercial,generated
 /shop/cargo-bikes-and-e-trikes/max-cargo-folding-cargo-e-bike-green/,product,secondary,max-cargo folding cargo e-bike green online,,,Transactional,generated
-/shop/electric-mountain-bikes/trail-step-over-e-mtb-black-tbc/,product,primary,trail step-over e-mtb black tbc price australia,,,Transactional,generated
-/shop/electric-mountain-bikes/trail-step-over-e-mtb-black-tbc/,product,secondary,buy trail step-over e-mtb black tbc,,,Transactional,generated
-/shop/electric-mountain-bikes/trail-step-over-e-mtb-black-tbc/,product,secondary,trail step-over e-mtb black tbc for sale,,,Transactional,generated
-/shop/electric-mountain-bikes/trail-step-over-e-mtb-black-tbc/,product,secondary,trail step-over e-mtb black tbc review,,,Commercial,generated
-/shop/electric-mountain-bikes/trail-step-over-e-mtb-black-tbc/,product,secondary,trail step-over e-mtb black tbc online,,,Transactional,generated
 /shop/cargo-bikes-and-e-trikes/max-cargo-folding-cargo-e-bike-orange/,product,primary,max-cargo folding cargo e-bike orange price australia,,,Transactional,generated
 /shop/cargo-bikes-and-e-trikes/max-cargo-folding-cargo-e-bike-orange/,product,secondary,buy max-cargo folding cargo e-bike orange,,,Transactional,generated
 /shop/cargo-bikes-and-e-trikes/max-cargo-folding-cargo-e-bike-orange/,product,secondary,max-cargo folding cargo e-bike orange for sale,,,Transactional,generated
@@ -2800,16 +2541,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-mountain-bikes/ncm-moscow-plus-e-mtb/,product,secondary,ncm moscow plus e-mtb for sale,,,Transactional,generated
 /shop/electric-mountain-bikes/ncm-moscow-plus-e-mtb/,product,secondary,ncm moscow plus e-mtb review,,,Commercial,generated
 /shop/electric-mountain-bikes/ncm-moscow-plus-e-mtb/,product,secondary,ncm moscow plus e-mtb online,,,Transactional,generated
-/shop/electric-dirt-bikes/talaria-komodo-2026-edition/,product,primary,talaria komodo 2026 edition price australia,,,Transactional,generated
-/shop/electric-dirt-bikes/talaria-komodo-2026-edition/,product,secondary,buy talaria komodo 2026 edition,,,Transactional,generated
-/shop/electric-dirt-bikes/talaria-komodo-2026-edition/,product,secondary,talaria komodo 2026 edition for sale,,,Transactional,generated
-/shop/electric-dirt-bikes/talaria-komodo-2026-edition/,product,secondary,talaria komodo 2026 edition review,,,Commercial,generated
-/shop/electric-dirt-bikes/talaria-komodo-2026-edition/,product,secondary,talaria komodo 2026 edition online,,,Transactional,generated
-/shop/electric-dirt-bikes/electric-dirt-bike-black-brand-tbc/,product,primary,electric dirt bike black brand tbc price australia,,,Transactional,generated
-/shop/electric-dirt-bikes/electric-dirt-bike-black-brand-tbc/,product,secondary,buy electric dirt bike black brand tbc,,,Transactional,generated
-/shop/electric-dirt-bikes/electric-dirt-bike-black-brand-tbc/,product,secondary,electric dirt bike black brand tbc for sale,,,Transactional,generated
-/shop/electric-dirt-bikes/electric-dirt-bike-black-brand-tbc/,product,secondary,electric dirt bike black brand tbc review,,,Commercial,generated
-/shop/electric-dirt-bikes/electric-dirt-bike-black-brand-tbc/,product,secondary,electric dirt bike black brand tbc online,,,Transactional,generated
 /shop/seats-fenders-and-body/79bike-connecting-triangle-pieces/,product,primary,79bike connecting triangle pieces price australia,,,Transactional,generated
 /shop/seats-fenders-and-body/79bike-connecting-triangle-pieces/,product,secondary,buy 79bike connecting triangle pieces,,,Transactional,generated
 /shop/seats-fenders-and-body/79bike-connecting-triangle-pieces/,product,secondary,79bike connecting triangle pieces for sale,,,Transactional,generated
@@ -2865,11 +2596,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/cargo-bikes-and-e-trikes/electric-trike-blue-cargo-basket/,product,secondary,electric trike blue cargo basket for sale,,,Transactional,generated
 /shop/cargo-bikes-and-e-trikes/electric-trike-blue-cargo-basket/,product,secondary,electric trike blue cargo basket review,,,Commercial,generated
 /shop/cargo-bikes-and-e-trikes/electric-trike-blue-cargo-basket/,product,secondary,electric trike blue cargo basket online,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/lpr-12-v4-kids-electric-bike/,product,primary,lpr 12 v4 kids electric bike price australia,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/lpr-12-v4-kids-electric-bike/,product,secondary,buy lpr 12 v4 kids electric bike,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/lpr-12-v4-kids-electric-bike/,product,secondary,lpr 12 v4 kids electric bike for sale,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/lpr-12-v4-kids-electric-bike/,product,secondary,lpr 12 v4 kids electric bike review,,,Commercial,generated
-/shop/kids-electric-dirt-and-balance-bikes/lpr-12-v4-kids-electric-bike/,product,secondary,lpr 12 v4 kids electric bike online,,,Transactional,generated
 /shop/sur-ron-spares/sur-ron-usb-charging-port/,product,primary,surron charging port,20,6,Transactional,KM
 /shop/sur-ron-spares/sur-ron-usb-charging-port/,product,secondary,surron usb port,20,22,Transactional,KM
 /shop/sur-ron-spares/sur-ron-usb-charging-port/,product,secondary,sur ron charging,20,3,Commercial,KM
@@ -2886,21 +2612,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/,product,secondary,dyu d3+ smart electric bike black for sale,,,Transactional,generated
 /shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/,product,secondary,dyu d3+ smart electric bike black review,,,Commercial,generated
 /shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/,product,secondary,dyu d3+ smart electric bike black online,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/mamba-savannah-26-step-through-commuter/,product,primary,mamba savannah ebike,50,1,Commercial,KM
-/shop/commuter-and-urban-e-bikes/mamba-savannah-26-step-through-commuter/,product,secondary,buy mamba savannah 26 step-through commuter,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/mamba-savannah-26-step-through-commuter/,product,secondary,mamba savannah 26 step-through commuter for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/mamba-savannah-26-step-through-commuter/,product,secondary,mamba savannah 26 step-through commuter review,,,Commercial,generated
-/shop/commuter-and-urban-e-bikes/mamba-savannah-26-step-through-commuter/,product,secondary,mamba savannah 26 step-through commuter online,,,Transactional,generated
-/shop/phone-mounts-mirrors-and-audio/mirror-orbit-anti-glare/,product,primary,mirror orbit anti glare price australia,,,Transactional,generated
-/shop/phone-mounts-mirrors-and-audio/mirror-orbit-anti-glare/,product,secondary,buy mirror orbit anti glare,,,Transactional,generated
-/shop/phone-mounts-mirrors-and-audio/mirror-orbit-anti-glare/,product,secondary,mirror orbit anti glare for sale,,,Transactional,generated
-/shop/phone-mounts-mirrors-and-audio/mirror-orbit-anti-glare/,product,secondary,mirror orbit anti glare review,,,Commercial,generated
-/shop/phone-mounts-mirrors-and-audio/mirror-orbit-anti-glare/,product,secondary,mirror orbit anti glare online,,,Transactional,generated
-/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/,product,primary,krush ultra drivetrain degreaser price australia,,,Transactional,generated
-/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/,product,secondary,buy krush ultra drivetrain degreaser,,,Transactional,generated
-/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/,product,secondary,krush ultra drivetrain degreaser for sale,,,Transactional,generated
-/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/,product,secondary,krush ultra drivetrain degreaser review,,,Commercial,generated
-/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/,product,secondary,krush ultra drivetrain degreaser online,,,Transactional,generated
 /shop/electric-mountain-bikes/mamba-venom-all-rounder-e-bike/,product,primary,mamba venom ebike,210,5,Transactional,KM
 /shop/electric-mountain-bikes/mamba-venom-all-rounder-e-bike/,product,secondary,mamba venom bike,20,5,Transactional,KM
 /shop/electric-mountain-bikes/mamba-venom-all-rounder-e-bike/,product,secondary,venom mamba,170,5,Commercial,competitor
@@ -2916,11 +2627,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/commuter-and-urban-e-bikes/cannondale-compact-neo-os/,product,secondary,cannondale compact neo os for sale,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/cannondale-compact-neo-os/,product,secondary,cannondale compact neo os review,,,Commercial,generated
 /shop/commuter-and-urban-e-bikes/cannondale-compact-neo-os/,product,secondary,cannondale compact neo os online,,,Transactional,generated
-/shop/racks-bags-and-trailers/azur-cargo-bike-double-pannier/,product,primary,azur panniers,20,6,Commercial,KM
-/shop/racks-bags-and-trailers/azur-cargo-bike-double-pannier/,product,secondary,azur bike panniers,20,7,Commercial,KM
-/shop/racks-bags-and-trailers/azur-cargo-bike-double-pannier/,product,secondary,azur panniers review,20,13,Commercial,KM
-/shop/racks-bags-and-trailers/azur-cargo-bike-double-pannier/,product,secondary,azur cargo bike double pannier price australia,,,Transactional,generated
-/shop/racks-bags-and-trailers/azur-cargo-bike-double-pannier/,product,secondary,buy azur cargo bike double pannier,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/lagads-jaguar-ebike-dual-suspension/,product,primary,lagads jaguar ebike dual suspension price australia,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/lagads-jaguar-ebike-dual-suspension/,product,secondary,buy lagads jaguar ebike dual suspension,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/lagads-jaguar-ebike-dual-suspension/,product,secondary,lagads jaguar ebike dual suspension for sale,,,Transactional,generated
@@ -2936,21 +2642,11 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/batteries-chargers-and-electronics/fatboy-controller-v1-scrambler-and-harlem/,product,secondary,fatboy controller v1 scrambler & harlem for sale,,,Transactional,generated
 /shop/batteries-chargers-and-electronics/fatboy-controller-v1-scrambler-and-harlem/,product,secondary,fatboy controller v1 scrambler & harlem review,,,Commercial,generated
 /shop/batteries-chargers-and-electronics/fatboy-controller-v1-scrambler-and-harlem/,product,secondary,fatboy controller v1 scrambler & harlem online,,,Transactional,generated
-/shop/helmets-gloves-and-protection/100-itrack-gloves-bandana/,product,primary,100% itrack gloves bandana price australia,,,Transactional,generated
-/shop/helmets-gloves-and-protection/100-itrack-gloves-bandana/,product,secondary,buy 100% itrack gloves bandana,,,Transactional,generated
-/shop/helmets-gloves-and-protection/100-itrack-gloves-bandana/,product,secondary,100% itrack gloves bandana for sale,,,Transactional,generated
-/shop/helmets-gloves-and-protection/100-itrack-gloves-bandana/,product,secondary,100% itrack gloves bandana review,,,Commercial,generated
-/shop/helmets-gloves-and-protection/100-itrack-gloves-bandana/,product,secondary,100% itrack gloves bandana online,,,Transactional,generated
 /shop/controls-grips-and-pedals/fatboy-handlebar-scrambler-harlem-v2/,product,primary,fatboy handlebar scrambler / harlem v2 price australia,,,Transactional,generated
 /shop/controls-grips-and-pedals/fatboy-handlebar-scrambler-harlem-v2/,product,secondary,buy fatboy handlebar scrambler / harlem v2,,,Transactional,generated
 /shop/controls-grips-and-pedals/fatboy-handlebar-scrambler-harlem-v2/,product,secondary,fatboy handlebar scrambler / harlem v2 for sale,,,Transactional,generated
 /shop/controls-grips-and-pedals/fatboy-handlebar-scrambler-harlem-v2/,product,secondary,fatboy handlebar scrambler / harlem v2 review,,,Commercial,generated
 /shop/controls-grips-and-pedals/fatboy-handlebar-scrambler-harlem-v2/,product,secondary,fatboy handlebar scrambler / harlem v2 online,,,Transactional,generated
-/shop/helmets-gloves-and-protection/hidrop-helmet-midnight-blue/,product,primary,hidrop helmet midnight blue price australia,,,Transactional,generated
-/shop/helmets-gloves-and-protection/hidrop-helmet-midnight-blue/,product,secondary,buy hidrop helmet midnight blue,,,Transactional,generated
-/shop/helmets-gloves-and-protection/hidrop-helmet-midnight-blue/,product,secondary,hidrop helmet midnight blue for sale,,,Transactional,generated
-/shop/helmets-gloves-and-protection/hidrop-helmet-midnight-blue/,product,secondary,hidrop helmet midnight blue review,,,Commercial,generated
-/shop/helmets-gloves-and-protection/hidrop-helmet-midnight-blue/,product,secondary,hidrop helmet midnight blue online,,,Transactional,generated
 /shop/helmets-gloves-and-protection/hidrop-helmet-shiny-black/,product,primary,hidrop helmet shiny black price australia,,,Transactional,generated
 /shop/helmets-gloves-and-protection/hidrop-helmet-shiny-black/,product,secondary,buy hidrop helmet shiny black,,,Transactional,generated
 /shop/helmets-gloves-and-protection/hidrop-helmet-shiny-black/,product,secondary,hidrop helmet shiny black for sale,,,Transactional,generated
@@ -2986,11 +2682,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/racks-bags-and-trailers/fatboy-cargo-rack-rear-v2/,product,secondary,fatboy cargo rack rear v2 for sale,,,Transactional,generated
 /shop/racks-bags-and-trailers/fatboy-cargo-rack-rear-v2/,product,secondary,fatboy cargo rack rear v2 review,,,Commercial,generated
 /shop/racks-bags-and-trailers/fatboy-cargo-rack-rear-v2/,product,secondary,fatboy cargo rack rear v2 online,,,Transactional,generated
-/shop/seats-fenders-and-body/kids-joey-seat-kit/,product,primary,kids joey seat kit price australia,,,Transactional,generated
-/shop/seats-fenders-and-body/kids-joey-seat-kit/,product,secondary,buy kids joey seat kit,,,Transactional,generated
-/shop/seats-fenders-and-body/kids-joey-seat-kit/,product,secondary,kids joey seat kit for sale,,,Transactional,generated
-/shop/seats-fenders-and-body/kids-joey-seat-kit/,product,secondary,kids joey seat kit review,,,Commercial,generated
-/shop/seats-fenders-and-body/kids-joey-seat-kit/,product,secondary,kids joey seat kit online,,,Transactional,generated
 /shop/phone-mounts-mirrors-and-audio/shokz-openrun-pro-2/,product,primary,shokz openrun,4400,27,Transactional,competitor
 /shop/phone-mounts-mirrors-and-audio/shokz-openrun-pro-2/,product,secondary,shokz openrun mini,480,16,Transactional,competitor
 /shop/phone-mounts-mirrors-and-audio/shokz-openrun-pro-2/,product,secondary,buy shokz openrun pro 2,,,Transactional,generated
@@ -3021,16 +2712,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/cargo-bikes-and-e-trikes/aventon-abound-sr-electric-cargo-bike/,product,secondary,aventon abound sr electric cargo bike for sale,,,Transactional,generated
 /shop/cargo-bikes-and-e-trikes/aventon-abound-sr-electric-cargo-bike/,product,secondary,aventon abound sr electric cargo bike review,,,Commercial,generated
 /shop/cargo-bikes-and-e-trikes/aventon-abound-sr-electric-cargo-bike/,product,secondary,aventon abound sr electric cargo bike online,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/cannondale-cargowagen-neo-bosch-e-bike/,product,primary,cannondale cargowagen neo bosch e-bike price australia,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/cannondale-cargowagen-neo-bosch-e-bike/,product,secondary,buy cannondale cargowagen neo bosch e-bike,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/cannondale-cargowagen-neo-bosch-e-bike/,product,secondary,cannondale cargowagen neo bosch e-bike for sale,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/cannondale-cargowagen-neo-bosch-e-bike/,product,secondary,cannondale cargowagen neo bosch e-bike review,,,Commercial,generated
-/shop/cargo-bikes-and-e-trikes/cannondale-cargowagen-neo-bosch-e-bike/,product,secondary,cannondale cargowagen neo bosch e-bike online,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/kristall-ex400-e-trike/,product,primary,kristall ex400 e-trike price australia,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/kristall-ex400-e-trike/,product,secondary,buy kristall ex400 e-trike,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/kristall-ex400-e-trike/,product,secondary,kristall ex400 e-trike for sale,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/kristall-ex400-e-trike/,product,secondary,kristall ex400 e-trike review,,,Commercial,generated
-/shop/cargo-bikes-and-e-trikes/kristall-ex400-e-trike/,product,secondary,kristall ex400 e-trike online,,,Transactional,generated
 /shop/kids-and-youth-e-bikes/ampd-bros-evo-racing-electric-bike/,product,primary,ampd bros evo racing electric bike price australia,,,Transactional,generated
 /shop/kids-and-youth-e-bikes/ampd-bros-evo-racing-electric-bike/,product,secondary,buy ampd bros evo racing electric bike,,,Transactional,generated
 /shop/kids-and-youth-e-bikes/ampd-bros-evo-racing-electric-bike/,product,secondary,ampd bros evo racing electric bike for sale,,,Transactional,generated
@@ -3056,31 +2737,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/,product,secondary,torque 1000w e-bike conversion combo for sale,,,Transactional,generated
 /shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/,product,secondary,torque 1000w e-bike conversion combo review,,,Commercial,generated
 /shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/,product,secondary,torque 1000w e-bike conversion combo online,,,Transactional,generated
-/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/,product,primary,torque mtx motor & rim price australia,,,Transactional,generated
-/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/,product,secondary,buy torque mtx motor & rim,,,Transactional,generated
-/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/,product,secondary,torque mtx motor & rim for sale,,,Transactional,generated
-/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/,product,secondary,torque mtx motor & rim review,,,Commercial,generated
-/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/,product,secondary,torque mtx motor & rim online,,,Transactional,generated
-/shop/helmets-gloves-and-protection/havoc-infinity-mx-helmet/,product,primary,havoc infinity mx helmet price australia,,,Transactional,generated
-/shop/helmets-gloves-and-protection/havoc-infinity-mx-helmet/,product,secondary,buy havoc infinity mx helmet,,,Transactional,generated
-/shop/helmets-gloves-and-protection/havoc-infinity-mx-helmet/,product,secondary,havoc infinity mx helmet for sale,,,Transactional,generated
-/shop/helmets-gloves-and-protection/havoc-infinity-mx-helmet/,product,secondary,havoc infinity mx helmet review,,,Commercial,generated
-/shop/helmets-gloves-and-protection/havoc-infinity-mx-helmet/,product,secondary,havoc infinity mx helmet online,,,Transactional,generated
-/shop/electric-dirt-bikes/strike-shadow-72v-7kw/,product,primary,strike shadow 72v/7kw price australia,,,Transactional,generated
-/shop/electric-dirt-bikes/strike-shadow-72v-7kw/,product,secondary,buy strike shadow 72v/7kw,,,Transactional,generated
-/shop/electric-dirt-bikes/strike-shadow-72v-7kw/,product,secondary,strike shadow 72v/7kw for sale,,,Transactional,generated
-/shop/electric-dirt-bikes/strike-shadow-72v-7kw/,product,secondary,strike shadow 72v/7kw review,,,Commercial,generated
-/shop/electric-dirt-bikes/strike-shadow-72v-7kw/,product,secondary,strike shadow 72v/7kw online,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/strike-shadow-48v-3kw/,product,primary,strike shadow 48v/3kw price australia,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/strike-shadow-48v-3kw/,product,secondary,buy strike shadow 48v/3kw,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/strike-shadow-48v-3kw/,product,secondary,strike shadow 48v/3kw for sale,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/strike-shadow-48v-3kw/,product,secondary,strike shadow 48v/3kw review,,,Commercial,generated
-/shop/kids-electric-dirt-and-balance-bikes/strike-shadow-48v-3kw/,product,secondary,strike shadow 48v/3kw online,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/apollo-rxf-dna-12-balance-bike/,product,primary,apollo rxf dna 12 balance bike price australia,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/apollo-rxf-dna-12-balance-bike/,product,secondary,buy apollo rxf dna 12 balance bike,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/apollo-rxf-dna-12-balance-bike/,product,secondary,apollo rxf dna 12 balance bike for sale,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/apollo-rxf-dna-12-balance-bike/,product,secondary,apollo rxf dna 12 balance bike review,,,Commercial,generated
-/shop/kids-electric-dirt-and-balance-bikes/apollo-rxf-dna-12-balance-bike/,product,secondary,apollo rxf dna 12 balance bike online,,,Transactional,generated
 /shop/brakes/rxf-freeride-clutch-lever-and-perch/,product,primary,rxf freeride clutch lever & perch price australia,,,Transactional,generated
 /shop/brakes/rxf-freeride-clutch-lever-and-perch/,product,secondary,buy rxf freeride clutch lever & perch,,,Transactional,generated
 /shop/brakes/rxf-freeride-clutch-lever-and-perch/,product,secondary,rxf freeride clutch lever & perch for sale,,,Transactional,generated
@@ -3226,31 +2882,11 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/phone-mounts-mirrors-and-audio/phone-holder-gub-plus-11/,product,secondary,phone holder gub plus 11 for sale,,,Transactional,generated
 /shop/phone-mounts-mirrors-and-audio/phone-holder-gub-plus-11/,product,secondary,phone holder gub plus 11 review,,,Commercial,generated
 /shop/phone-mounts-mirrors-and-audio/phone-holder-gub-plus-11/,product,secondary,phone holder gub plus 11 online,,,Transactional,generated
-/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/,product,primary,yozma in 10,2400,20,Commercial,competitor
-/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/,product,secondary,buy yozma in 10 electric mini dirt bike,,,Transactional,generated
-/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/,product,secondary,yozma in 10 electric mini dirt bike for sale,,,Transactional,generated
-/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/,product,secondary,yozma in 10 electric mini dirt bike review,,,Commercial,generated
-/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/,product,secondary,yozma in 10 electric mini dirt bike online,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/kalkhoff-k26-endeavour-3-excite/,product,primary,kalkhoff endeavour excite,20,4,Transactional,KM
 /shop/commuter-and-urban-e-bikes/kalkhoff-k26-endeavour-3-excite/,product,secondary,buy kalkhoff k26 endeavour 3 excite,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/kalkhoff-k26-endeavour-3-excite/,product,secondary,kalkhoff k26 endeavour 3 excite for sale,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/kalkhoff-k26-endeavour-3-excite/,product,secondary,kalkhoff k26 endeavour 3 excite review,,,Commercial,generated
 /shop/commuter-and-urban-e-bikes/kalkhoff-k26-endeavour-3-excite/,product,secondary,kalkhoff k26 endeavour 3 excite online,,,Transactional,generated
-/shop/seats-fenders-and-body/apollo-thunder-150cc-oil-filter/,product,primary,apollo thunder 150cc oil filter price australia,,,Transactional,generated
-/shop/seats-fenders-and-body/apollo-thunder-150cc-oil-filter/,product,secondary,buy apollo thunder 150cc oil filter,,,Transactional,generated
-/shop/seats-fenders-and-body/apollo-thunder-150cc-oil-filter/,product,secondary,apollo thunder 150cc oil filter for sale,,,Transactional,generated
-/shop/seats-fenders-and-body/apollo-thunder-150cc-oil-filter/,product,secondary,apollo thunder 150cc oil filter review,,,Commercial,generated
-/shop/seats-fenders-and-body/apollo-thunder-150cc-oil-filter/,product,secondary,apollo thunder 150cc oil filter online,,,Transactional,generated
-/shop/phone-mounts-mirrors-and-audio/azur-optic-mirror-anti-glare/,product,primary,azur bike mirror,20,7,Commercial,KM
-/shop/phone-mounts-mirrors-and-audio/azur-optic-mirror-anti-glare/,product,secondary,azur optic mirror anti glare price australia,,,Transactional,generated
-/shop/phone-mounts-mirrors-and-audio/azur-optic-mirror-anti-glare/,product,secondary,buy azur optic mirror anti glare,,,Transactional,generated
-/shop/phone-mounts-mirrors-and-audio/azur-optic-mirror-anti-glare/,product,secondary,azur optic mirror anti glare for sale,,,Transactional,generated
-/shop/phone-mounts-mirrors-and-audio/azur-optic-mirror-anti-glare/,product,secondary,azur optic mirror anti glare review,,,Commercial,generated
-/shop/phone-mounts-mirrors-and-audio/mirror-azur-focus-anti-glare/,product,primary,mirror azur focus anti glare price australia,,,Transactional,generated
-/shop/phone-mounts-mirrors-and-audio/mirror-azur-focus-anti-glare/,product,secondary,buy mirror azur focus anti glare,,,Transactional,generated
-/shop/phone-mounts-mirrors-and-audio/mirror-azur-focus-anti-glare/,product,secondary,mirror azur focus anti glare for sale,,,Transactional,generated
-/shop/phone-mounts-mirrors-and-audio/mirror-azur-focus-anti-glare/,product,secondary,mirror azur focus anti glare review,,,Commercial,generated
-/shop/phone-mounts-mirrors-and-audio/mirror-azur-focus-anti-glare/,product,secondary,mirror azur focus anti glare online,,,Transactional,generated
 /shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/,product,primary,kovix lock,90,3,Commercial,semrush-2026-11-06
 /shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/,product,secondary,kovix steel thunder alarmed folding lock price australia,,,Transactional,generated
 /shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/,product,secondary,buy kovix steel thunder alarmed folding lock,,,Transactional,generated
@@ -3262,11 +2898,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/batteries-chargers-and-electronics/fatboy-additional-battery-all-v2-models/,product,secondary,fatboy additional battery all v2 models for sale,,,Transactional,generated
 /shop/batteries-chargers-and-electronics/fatboy-additional-battery-all-v2-models/,product,secondary,fatboy additional battery all v2 models review,,,Commercial,generated
 /shop/batteries-chargers-and-electronics/fatboy-additional-battery-all-v2-models/,product,secondary,fatboy additional battery all v2 models online,,,Transactional,generated
-/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single/,product,primary,azur cargo bike waterproof pannier single price australia,,,Transactional,generated
-/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single/,product,secondary,buy azur cargo bike waterproof pannier single,,,Transactional,generated
-/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single/,product,secondary,azur cargo bike waterproof pannier single for sale,,,Transactional,generated
-/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single/,product,secondary,azur cargo bike waterproof pannier single review,,,Commercial,generated
-/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single/,product,secondary,azur cargo bike waterproof pannier single online,,,Transactional,generated
 /shop/folding-e-bikes/aventon-sinch-2-5-fat-tyre-folding-electric-bike/,product,primary,aventon sinch 2.5 fat tyre folding electric bike price australia,,,Transactional,generated
 /shop/folding-e-bikes/aventon-sinch-2-5-fat-tyre-folding-electric-bike/,product,secondary,buy aventon sinch 2.5 fat tyre folding electric bike,,,Transactional,generated
 /shop/folding-e-bikes/aventon-sinch-2-5-fat-tyre-folding-electric-bike/,product,secondary,aventon sinch 2.5 fat tyre folding electric bike for sale,,,Transactional,generated
@@ -3302,11 +2933,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/phone-mounts-mirrors-and-audio/quad-lock-out-front-mount/,product,secondary,quad lock out front mount,210,16,Commercial,competitor
 /shop/phone-mounts-mirrors-and-audio/quad-lock-out-front-mount/,product,secondary,quadlock out front mount,70,15,Commercial,competitor
 /shop/phone-mounts-mirrors-and-audio/quad-lock-out-front-mount/,product,secondary,buy quad lock out-front mount,,,Transactional,generated
-/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-black/,product,primary,kids ride shotgun seat black price australia,,,Transactional,generated
-/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-black/,product,secondary,buy kids ride shotgun seat black,,,Transactional,generated
-/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-black/,product,secondary,kids ride shotgun seat black for sale,,,Transactional,generated
-/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-black/,product,secondary,kids ride shotgun seat black review,,,Commercial,generated
-/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-black/,product,secondary,kids ride shotgun seat black online,,,Transactional,generated
 /shop/phone-mounts-mirrors-and-audio/shokz-openrun-bone-conduction-headphones/,product,primary,shokz openrun bone conduction headphones price australia,,,Transactional,generated
 /shop/phone-mounts-mirrors-and-audio/shokz-openrun-bone-conduction-headphones/,product,secondary,buy shokz openrun bone conduction headphones,,,Transactional,generated
 /shop/phone-mounts-mirrors-and-audio/shokz-openrun-bone-conduction-headphones/,product,secondary,shokz openrun bone conduction headphones for sale,,,Transactional,generated
@@ -3327,11 +2953,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/suspension-and-forks/fatboy-suspension-rear-harlem-v1-v2/,product,secondary,fatboy suspension rear harlem v1/v2 for sale,,,Transactional,generated
 /shop/suspension-and-forks/fatboy-suspension-rear-harlem-v1-v2/,product,secondary,fatboy suspension rear harlem v1/v2 review,,,Commercial,generated
 /shop/suspension-and-forks/fatboy-suspension-rear-harlem-v1-v2/,product,secondary,fatboy suspension rear harlem v1/v2 online,,,Transactional,generated
-/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/,product,primary,lezyne lever kit light grey price australia,,,Transactional,generated
-/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/,product,secondary,buy lezyne lever kit light grey,,,Transactional,generated
-/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/,product,secondary,lezyne lever kit light grey for sale,,,Transactional,generated
-/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/,product,secondary,lezyne lever kit light grey review,,,Commercial,generated
-/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/,product,secondary,lezyne lever kit light grey online,,,Transactional,generated
 /shop/electric-mountain-bikes/cannondale-moterra-3-e-mtb-obsidian/,product,primary,cannondale moterra 3 e-mtb obsidian price australia,,,Transactional,generated
 /shop/electric-mountain-bikes/cannondale-moterra-3-e-mtb-obsidian/,product,secondary,buy cannondale moterra 3 e-mtb obsidian,,,Transactional,generated
 /shop/electric-mountain-bikes/cannondale-moterra-3-e-mtb-obsidian/,product,secondary,cannondale moterra 3 e-mtb obsidian for sale,,,Transactional,generated
@@ -3352,11 +2973,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/cargo-bikes-and-e-trikes/eunorau-max-cargo-24-electric-bike/,product,secondary,eunorau max cargo 24 electric bike for sale,,,Transactional,generated
 /shop/cargo-bikes-and-e-trikes/eunorau-max-cargo-24-electric-bike/,product,secondary,eunorau max cargo 24 electric bike review,,,Commercial,generated
 /shop/cargo-bikes-and-e-trikes/eunorau-max-cargo-24-electric-bike/,product,secondary,eunorau max cargo 24 electric bike online,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/moov8-c2-cargo-ebike-with-torque-sensor/,product,primary,moov8 c2 cargo ebike with torque sensor price australia,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/moov8-c2-cargo-ebike-with-torque-sensor/,product,secondary,buy moov8 c2 cargo ebike with torque sensor,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/moov8-c2-cargo-ebike-with-torque-sensor/,product,secondary,moov8 c2 cargo ebike with torque sensor for sale,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/moov8-c2-cargo-ebike-with-torque-sensor/,product,secondary,moov8 c2 cargo ebike with torque sensor review,,,Commercial,generated
-/shop/cargo-bikes-and-e-trikes/moov8-c2-cargo-ebike-with-torque-sensor/,product,secondary,moov8 c2 cargo ebike with torque sensor online,,,Transactional,generated
 /shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/,product,primary,torque arms 1500w-5000w kits price australia,,,Transactional,generated
 /shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/,product,secondary,buy torque arms 1500w-5000w kits,,,Transactional,generated
 /shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/,product,secondary,torque arms 1500w-5000w kits for sale,,,Transactional,generated
@@ -3368,16 +2984,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/controls-grips-and-pedals/plug-and-play-sur-ron-style-throttle/,product,secondary,plug & play sur-ron style throttle for sale,,,Transactional,generated
 /shop/controls-grips-and-pedals/plug-and-play-sur-ron-style-throttle/,product,secondary,plug & play sur-ron style throttle review,,,Commercial,generated
 /shop/controls-grips-and-pedals/plug-and-play-sur-ron-style-throttle/,product,secondary,plug & play sur-ron style throttle online,,,Transactional,generated
-/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/,product,primary,torque 500w e-bike conversion kit combo price australia,,,Transactional,generated
-/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/,product,secondary,buy torque 500w e-bike conversion kit combo,,,Transactional,generated
-/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/,product,secondary,torque 500w e-bike conversion kit combo for sale,,,Transactional,generated
-/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/,product,secondary,torque 500w e-bike conversion kit combo review,,,Commercial,generated
-/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/,product,secondary,torque 500w e-bike conversion kit combo online,,,Transactional,generated
-/shop/seats-fenders-and-body/apollo-thunder-125-front-axle-bolt/,product,primary,apollo thunder 125 front axle bolt price australia,,,Transactional,generated
-/shop/seats-fenders-and-body/apollo-thunder-125-front-axle-bolt/,product,secondary,buy apollo thunder 125 front axle bolt,,,Transactional,generated
-/shop/seats-fenders-and-body/apollo-thunder-125-front-axle-bolt/,product,secondary,apollo thunder 125 front axle bolt for sale,,,Transactional,generated
-/shop/seats-fenders-and-body/apollo-thunder-125-front-axle-bolt/,product,secondary,apollo thunder 125 front axle bolt review,,,Commercial,generated
-/shop/seats-fenders-and-body/apollo-thunder-125-front-axle-bolt/,product,secondary,apollo thunder 125 front axle bolt online,,,Transactional,generated
 /shop/racks-bags-and-trailers/ampd-bros-ace-rear-cargo-rack/,product,primary,ampd bros ace rear cargo rack price australia,,,Transactional,generated
 /shop/racks-bags-and-trailers/ampd-bros-ace-rear-cargo-rack/,product,secondary,buy ampd bros ace rear cargo rack,,,Transactional,generated
 /shop/racks-bags-and-trailers/ampd-bros-ace-rear-cargo-rack/,product,secondary,ampd bros ace rear cargo rack for sale,,,Transactional,generated
@@ -3418,11 +3024,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/racks-bags-and-trailers/car-rack-ezigrip-e-rack-2-deluxe-foldable/,product,secondary,car rack ezigrip e-rack 2 deluxe/foldable for sale,,,Transactional,generated
 /shop/racks-bags-and-trailers/car-rack-ezigrip-e-rack-2-deluxe-foldable/,product,secondary,car rack ezigrip e-rack 2 deluxe/foldable review,,,Commercial,generated
 /shop/racks-bags-and-trailers/car-rack-ezigrip-e-rack-2-deluxe-foldable/,product,secondary,car rack ezigrip e-rack 2 deluxe/foldable online,,,Transactional,generated
-/shop/helmets-gloves-and-protection/apollo-rxf-motocross-helmet/,product,primary,apollo rxf motocross helmet price australia,,,Transactional,generated
-/shop/helmets-gloves-and-protection/apollo-rxf-motocross-helmet/,product,secondary,buy apollo rxf motocross helmet,,,Transactional,generated
-/shop/helmets-gloves-and-protection/apollo-rxf-motocross-helmet/,product,secondary,apollo rxf motocross helmet for sale,,,Transactional,generated
-/shop/helmets-gloves-and-protection/apollo-rxf-motocross-helmet/,product,secondary,apollo rxf motocross helmet review,,,Commercial,generated
-/shop/helmets-gloves-and-protection/apollo-rxf-motocross-helmet/,product,secondary,apollo rxf motocross helmet online,,,Transactional,generated
 /shop/sur-ron-spares/sur-ron-ultra-bee-wheel-sensor-gear/,product,primary,surron wheels,70,6,Transactional,competitor
 /shop/sur-ron-spares/sur-ron-ultra-bee-wheel-sensor-gear/,product,secondary,buy sur-ron ultra bee wheel sensor gear,,,Transactional,generated
 /shop/sur-ron-spares/sur-ron-ultra-bee-wheel-sensor-gear/,product,secondary,sur-ron ultra bee wheel sensor gear for sale,,,Transactional,generated
@@ -3443,26 +3044,11 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/sur-ron-spares/sur-ron-ultra-bee-triangle-frame-bushing/,product,secondary,sur-ron ultra bee triangle frame bushing for sale,,,Transactional,generated
 /shop/sur-ron-spares/sur-ron-ultra-bee-triangle-frame-bushing/,product,secondary,sur-ron ultra bee triangle frame bushing review,,,Commercial,generated
 /shop/sur-ron-spares/sur-ron-ultra-bee-triangle-frame-bushing/,product,secondary,sur-ron ultra bee triangle frame bushing online,,,Transactional,generated
-/shop/kids-and-youth-e-bikes/dhz-20-electric-balance-bike-rear-brushless-motor/,product,primary,"dhz 20 electric balance bike, rear brushless motor price australia",,,Transactional,generated
-/shop/kids-and-youth-e-bikes/dhz-20-electric-balance-bike-rear-brushless-motor/,product,secondary,"buy dhz 20 electric balance bike, rear brushless motor",,,Transactional,generated
-/shop/kids-and-youth-e-bikes/dhz-20-electric-balance-bike-rear-brushless-motor/,product,secondary,"dhz 20 electric balance bike, rear brushless motor for sale",,,Transactional,generated
-/shop/kids-and-youth-e-bikes/dhz-20-electric-balance-bike-rear-brushless-motor/,product,secondary,"dhz 20 electric balance bike, rear brushless motor review",,,Commercial,generated
-/shop/kids-and-youth-e-bikes/dhz-20-electric-balance-bike-rear-brushless-motor/,product,secondary,"dhz 20 electric balance bike, rear brushless motor online",,,Transactional,generated
 /shop/electric-dirt-bikes/talaria-xxx-pro-electric-off-road-motor-bike/,product,primary,talaria x pro price,20,6,Transactional,KM
 /shop/electric-dirt-bikes/talaria-xxx-pro-electric-off-road-motor-bike/,product,secondary,talaria xxx pro,880,17,Commercial,competitor
 /shop/electric-dirt-bikes/talaria-xxx-pro-electric-off-road-motor-bike/,product,secondary,buy talaria xxx pro electric off-road motor bike,,,Transactional,generated
 /shop/electric-dirt-bikes/talaria-xxx-pro-electric-off-road-motor-bike/,product,secondary,talaria xxx pro electric off-road motor bike for sale,,,Transactional,generated
 /shop/electric-dirt-bikes/talaria-xxx-pro-electric-off-road-motor-bike/,product,secondary,talaria xxx pro electric off-road motor bike review,,,Commercial,generated
-/shop/brakes/extreme-razor-etm-hydro-brake-kit/,product,primary,extreme razor / etm hydro brake kit price australia,,,Transactional,generated
-/shop/brakes/extreme-razor-etm-hydro-brake-kit/,product,secondary,buy extreme razor / etm hydro brake kit,,,Transactional,generated
-/shop/brakes/extreme-razor-etm-hydro-brake-kit/,product,secondary,extreme razor / etm hydro brake kit for sale,,,Transactional,generated
-/shop/brakes/extreme-razor-etm-hydro-brake-kit/,product,secondary,extreme razor / etm hydro brake kit review,,,Commercial,generated
-/shop/brakes/extreme-razor-etm-hydro-brake-kit/,product,secondary,extreme razor / etm hydro brake kit online,,,Transactional,generated
-/shop/electric-mountain-bikes/shogun-etrail-breaker-1/,product,primary,shogun etrail breaker 1 price australia,,,Transactional,generated
-/shop/electric-mountain-bikes/shogun-etrail-breaker-1/,product,secondary,buy shogun etrail breaker 1,,,Transactional,generated
-/shop/electric-mountain-bikes/shogun-etrail-breaker-1/,product,secondary,shogun etrail breaker 1 for sale,,,Transactional,generated
-/shop/electric-mountain-bikes/shogun-etrail-breaker-1/,product,secondary,shogun etrail breaker 1 review,,,Commercial,generated
-/shop/electric-mountain-bikes/shogun-etrail-breaker-1/,product,secondary,shogun etrail breaker 1 online,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/mamba-kalahari/,product,primary,mamba kalahari,170,3,Commercial,competitor
 /shop/fat-tyre-and-scrambler-e-bikes/mamba-kalahari/,product,secondary,buy mamba kalahari,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/mamba-kalahari/,product,secondary,mamba kalahari for sale,,,Transactional,generated
@@ -3483,47 +3069,17 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/brakes/nutt-hydraulic-brake-pads-with-cooling-fins/,product,secondary,nutt hydraulic brake pads with cooling fins for sale,,,Transactional,generated
 /shop/brakes/nutt-hydraulic-brake-pads-with-cooling-fins/,product,secondary,nutt hydraulic brake pads with cooling fins review,,,Commercial,generated
 /shop/brakes/nutt-hydraulic-brake-pads-with-cooling-fins/,product,secondary,nutt hydraulic brake pads with cooling fins online,,,Transactional,generated
-/shop/racks-bags-and-trailers/azur-quick-release-shopper-e-bike-mesh-basket/,product,primary,azur quick release shopper e-bike mesh basket price australia,,,Transactional,generated
-/shop/racks-bags-and-trailers/azur-quick-release-shopper-e-bike-mesh-basket/,product,secondary,buy azur quick release shopper e-bike mesh basket,,,Transactional,generated
-/shop/racks-bags-and-trailers/azur-quick-release-shopper-e-bike-mesh-basket/,product,secondary,azur quick release shopper e-bike mesh basket for sale,,,Transactional,generated
-/shop/racks-bags-and-trailers/azur-quick-release-shopper-e-bike-mesh-basket/,product,secondary,azur quick release shopper e-bike mesh basket review,,,Commercial,generated
-/shop/racks-bags-and-trailers/azur-quick-release-shopper-e-bike-mesh-basket/,product,secondary,azur quick release shopper e-bike mesh basket online,,,Transactional,generated
 /shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/,product,primary,basil crate,110,4,Commercial,semrush-2026-11-06
 /shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/,product,secondary,basil bike crate,70,3,Transactional,semrush-2026-11-06
 /shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/,product,secondary,basil bicycle crate,70,4,Commercial,semrush-2026-11-06
 /shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/,product,secondary,basil bicycle crate medium 29.5l black price australia,,,Transactional,generated
 /shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/,product,secondary,buy basil bicycle crate medium 29.5l black,,,Transactional,generated
 /shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/,product,secondary,basil bicycle crate medium 29.5l black for sale,,,Transactional,generated
-/shop/racks-bags-and-trailers/thule-euroway-g2-2-bike-towbar-carrier/,product,primary,thule bike carrier,1600,22,Transactional,competitor
-/shop/racks-bags-and-trailers/thule-euroway-g2-2-bike-towbar-carrier/,product,secondary,thule cycle carrier,480,29,Transactional,competitor
-/shop/racks-bags-and-trailers/thule-euroway-g2-2-bike-towbar-carrier/,product,secondary,thule euroway g2,90,10,Commercial,competitor
-/shop/racks-bags-and-trailers/thule-euroway-g2-2-bike-towbar-carrier/,product,secondary,buy thule euroway g2 2 bike towbar carrier,,,Transactional,generated
-/shop/racks-bags-and-trailers/thule-euroway-g2-2-bike-towbar-carrier/,product,secondary,thule euroway g2 2 bike towbar carrier for sale,,,Transactional,generated
 /shop/folding-e-bikes/mamba-taureg-folding-fat-tyre-e-bike-16-x3-0/,product,primary,mamba taureg,70,5,Transactional,competitor
 /shop/folding-e-bikes/mamba-taureg-folding-fat-tyre-e-bike-16-x3-0/,product,secondary,buy mamba taureg folding fat tyre e-bike 16 x3.0,,,Transactional,generated
 /shop/folding-e-bikes/mamba-taureg-folding-fat-tyre-e-bike-16-x3-0/,product,secondary,mamba taureg folding fat tyre e-bike 16 x3.0 for sale,,,Transactional,generated
 /shop/folding-e-bikes/mamba-taureg-folding-fat-tyre-e-bike-16-x3-0/,product,secondary,mamba taureg folding fat tyre e-bike 16 x3.0 review,,,Commercial,generated
 /shop/folding-e-bikes/mamba-taureg-folding-fat-tyre-e-bike-16-x3-0/,product,secondary,mamba taureg folding fat tyre e-bike 16 x3.0 online,,,Transactional,generated
-/shop/seats-fenders-and-body/azur-saddle-cover-road-memory-foam/,product,primary,azur bike cover,20,5,Commercial,KM
-/shop/seats-fenders-and-body/azur-saddle-cover-road-memory-foam/,product,secondary,azur saddle,20,6,Commercial,KM
-/shop/seats-fenders-and-body/azur-saddle-cover-road-memory-foam/,product,secondary,azur saddle cover road memory foam price australia,,,Transactional,generated
-/shop/seats-fenders-and-body/azur-saddle-cover-road-memory-foam/,product,secondary,buy azur saddle cover road memory foam,,,Transactional,generated
-/shop/seats-fenders-and-body/azur-saddle-cover-road-memory-foam/,product,secondary,azur saddle cover road memory foam for sale,,,Transactional,generated
-/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-black/,product,primary,kids ride shotgun 2.0 seat black price australia,,,Transactional,generated
-/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-black/,product,secondary,buy kids ride shotgun 2.0 seat black,,,Transactional,generated
-/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-black/,product,secondary,kids ride shotgun 2.0 seat black for sale,,,Transactional,generated
-/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-black/,product,secondary,kids ride shotgun 2.0 seat black review,,,Commercial,generated
-/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-black/,product,secondary,kids ride shotgun 2.0 seat black online,,,Transactional,generated
-/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/,product,primary,azur-pro range kappa memory foam price australia,,,Transactional,generated
-/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/,product,secondary,buy azur-pro range kappa memory foam,,,Transactional,generated
-/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/,product,secondary,azur-pro range kappa memory foam for sale,,,Transactional,generated
-/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/,product,secondary,azur-pro range kappa memory foam review,,,Commercial,generated
-/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam/,product,secondary,azur-pro range kappa memory foam online,,,Transactional,generated
-/shop/wheels-tyres-and-tubes/tube-schrader-20-x3-50-5-0-48mm/,product,primary,tube schrader 20 x3.50 -5.0 48mm price australia,,,Transactional,generated
-/shop/wheels-tyres-and-tubes/tube-schrader-20-x3-50-5-0-48mm/,product,secondary,buy tube schrader 20 x3.50 -5.0 48mm,,,Transactional,generated
-/shop/wheels-tyres-and-tubes/tube-schrader-20-x3-50-5-0-48mm/,product,secondary,tube schrader 20 x3.50 -5.0 48mm for sale,,,Transactional,generated
-/shop/wheels-tyres-and-tubes/tube-schrader-20-x3-50-5-0-48mm/,product,secondary,tube schrader 20 x3.50 -5.0 48mm review,,,Commercial,generated
-/shop/wheels-tyres-and-tubes/tube-schrader-20-x3-50-5-0-48mm/,product,secondary,tube schrader 20 x3.50 -5.0 48mm online,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/ampd-bros-ace-adventure-electric-bike-series-5/,product,primary,ampd bros ace adventure electric bike series 5 price australia,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/ampd-bros-ace-adventure-electric-bike-series-5/,product,secondary,buy ampd bros ace adventure electric bike series 5,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/ampd-bros-ace-adventure-electric-bike-series-5/,product,secondary,ampd bros ace adventure electric bike series 5 for sale,,,Transactional,generated
@@ -3539,16 +3095,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-mountain-bikes/ktm-macina-team-693/,product,secondary,ktm macina team 693 for sale,,,Transactional,generated
 /shop/electric-mountain-bikes/ktm-macina-team-693/,product,secondary,ktm macina team 693 review,,,Commercial,generated
 /shop/electric-mountain-bikes/ktm-macina-team-693/,product,secondary,ktm macina team 693 online,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cannondale-adventure-neo-4-charcoal-grey/,product,primary,cannondale adventure neo 4 charcoal grey price australia,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cannondale-adventure-neo-4-charcoal-grey/,product,secondary,buy cannondale adventure neo 4 charcoal grey,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cannondale-adventure-neo-4-charcoal-grey/,product,secondary,cannondale adventure neo 4 charcoal grey for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cannondale-adventure-neo-4-charcoal-grey/,product,secondary,cannondale adventure neo 4 charcoal grey review,,,Commercial,generated
-/shop/commuter-and-urban-e-bikes/cannondale-adventure-neo-4-charcoal-grey/,product,secondary,cannondale adventure neo 4 charcoal grey online,,,Transactional,generated
-/shop/folding-e-bikes/moov8-m1-folding-ebike-with-rear-carrier-2023-model/,product,primary,moov8 m1 folding ebike with rear carrier 2023 model price australia,,,Transactional,generated
-/shop/folding-e-bikes/moov8-m1-folding-ebike-with-rear-carrier-2023-model/,product,secondary,buy moov8 m1 folding ebike with rear carrier 2023 model,,,Transactional,generated
-/shop/folding-e-bikes/moov8-m1-folding-ebike-with-rear-carrier-2023-model/,product,secondary,moov8 m1 folding ebike with rear carrier 2023 model for sale,,,Transactional,generated
-/shop/folding-e-bikes/moov8-m1-folding-ebike-with-rear-carrier-2023-model/,product,secondary,moov8 m1 folding ebike with rear carrier 2023 model review,,,Commercial,generated
-/shop/folding-e-bikes/moov8-m1-folding-ebike-with-rear-carrier-2023-model/,product,secondary,moov8 m1 folding ebike with rear carrier 2023 model online,,,Transactional,generated
 /shop/cargo-bikes-and-e-trikes/sunmono-mars-20-electric-cargo-bike/,product,primary,sunmono cargo bike,20,0,Transactional,KM
 /shop/cargo-bikes-and-e-trikes/sunmono-mars-20-electric-cargo-bike/,product,secondary,buy sunmono mars 20 electric cargo bike,,,Transactional,generated
 /shop/cargo-bikes-and-e-trikes/sunmono-mars-20-electric-cargo-bike/,product,secondary,sunmono mars 20 electric cargo bike for sale,,,Transactional,generated
@@ -3559,11 +3105,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/kids-electric-dirt-and-balance-bikes/ampd-bros-lil-rippa-16-kids-electric-bike/,product,secondary,ampd bros lil rippa 16 kids electric bike for sale,,,Transactional,generated
 /shop/kids-electric-dirt-and-balance-bikes/ampd-bros-lil-rippa-16-kids-electric-bike/,product,secondary,ampd bros lil rippa 16 kids electric bike review,,,Commercial,generated
 /shop/kids-electric-dirt-and-balance-bikes/ampd-bros-lil-rippa-16-kids-electric-bike/,product,secondary,ampd bros lil rippa 16 kids electric bike online,,,Transactional,generated
-/shop/kids-and-youth-e-bikes/pedal-warrior-2-24-electric-mountain-bike-red/,product,primary,pedal warrior 2 24 electric mountain bike red price australia,,,Transactional,generated
-/shop/kids-and-youth-e-bikes/pedal-warrior-2-24-electric-mountain-bike-red/,product,secondary,buy pedal warrior 2 24 electric mountain bike red,,,Transactional,generated
-/shop/kids-and-youth-e-bikes/pedal-warrior-2-24-electric-mountain-bike-red/,product,secondary,pedal warrior 2 24 electric mountain bike red for sale,,,Transactional,generated
-/shop/kids-and-youth-e-bikes/pedal-warrior-2-24-electric-mountain-bike-red/,product,secondary,pedal warrior 2 24 electric mountain bike red review,,,Commercial,generated
-/shop/kids-and-youth-e-bikes/pedal-warrior-2-24-electric-mountain-bike-red/,product,secondary,pedal warrior 2 24 electric mountain bike red online,,,Transactional,generated
 /shop/suspension-and-forks/79bike-falcon-pro-fastace-alx33rc-2-0-fork/,product,primary,79bike falcon pro fastace alx33rc 2.0 fork price australia,,,Transactional,generated
 /shop/suspension-and-forks/79bike-falcon-pro-fastace-alx33rc-2-0-fork/,product,secondary,buy 79bike falcon pro fastace alx33rc 2.0 fork,,,Transactional,generated
 /shop/suspension-and-forks/79bike-falcon-pro-fastace-alx33rc-2-0-fork/,product,secondary,79bike falcon pro fastace alx33rc 2.0 fork for sale,,,Transactional,generated
@@ -3634,11 +3175,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-dirt-bikes/talaria-sting-mx-tl3000-electric-off-road-motorbike/,product,secondary,talaria sting mx tl3000 electric off-road motorbike for sale,,,Transactional,generated
 /shop/electric-dirt-bikes/talaria-sting-mx-tl3000-electric-off-road-motorbike/,product,secondary,talaria sting mx tl3000 electric off-road motorbike review,,,Commercial,generated
 /shop/electric-dirt-bikes/talaria-sting-mx-tl3000-electric-off-road-motorbike/,product,secondary,talaria sting mx tl3000 electric off-road motorbike online,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-600/,product,primary,cube touring hybrid one 600 price australia,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-600/,product,secondary,buy cube touring hybrid one 600,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-600/,product,secondary,cube touring hybrid one 600 for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-600/,product,secondary,cube touring hybrid one 600 review,,,Commercial,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-600/,product,secondary,cube touring hybrid one 600 online,,,Transactional,generated
 /shop/racks-bags-and-trailers/azur-alloy-touring-carrier-disc-brake-compatible/,product,primary,azur alloy touring carrier disc brake compatible price australia,,,Transactional,generated
 /shop/racks-bags-and-trailers/azur-alloy-touring-carrier-disc-brake-compatible/,product,secondary,buy azur alloy touring carrier disc brake compatible,,,Transactional,generated
 /shop/racks-bags-and-trailers/azur-alloy-touring-carrier-disc-brake-compatible/,product,secondary,azur alloy touring carrier disc brake compatible for sale,,,Transactional,generated
@@ -3649,26 +3185,11 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/racks-bags-and-trailers/azur-touring-handlebar-bag-with-phone-pouch-grey/,product,secondary,buy azur touring handlebar bag with phone pouch grey,,,Transactional,generated
 /shop/racks-bags-and-trailers/azur-touring-handlebar-bag-with-phone-pouch-grey/,product,secondary,azur touring handlebar bag with phone pouch grey for sale,,,Transactional,generated
 /shop/racks-bags-and-trailers/azur-touring-handlebar-bag-with-phone-pouch-grey/,product,secondary,azur touring handlebar bag with phone pouch grey review,,,Commercial,generated
-/shop/helmets-gloves-and-protection/100-percent-i-track-fluro-yellow-gloves/,product,primary,100% percent i-track fluro yellow gloves price australia,,,Transactional,generated
-/shop/helmets-gloves-and-protection/100-percent-i-track-fluro-yellow-gloves/,product,secondary,buy 100% percent i-track fluro yellow gloves,,,Transactional,generated
-/shop/helmets-gloves-and-protection/100-percent-i-track-fluro-yellow-gloves/,product,secondary,100% percent i-track fluro yellow gloves for sale,,,Transactional,generated
-/shop/helmets-gloves-and-protection/100-percent-i-track-fluro-yellow-gloves/,product,secondary,100% percent i-track fluro yellow gloves review,,,Commercial,generated
-/shop/helmets-gloves-and-protection/100-percent-i-track-fluro-yellow-gloves/,product,secondary,100% percent i-track fluro yellow gloves online,,,Transactional,generated
-/shop/lights-and-horns/niterider-lumina-1200-boost-led-rechargeable-headlight/,product,primary,niterider lumina 1200 boost led rechargeable headlight price australia,,,Transactional,generated
-/shop/lights-and-horns/niterider-lumina-1200-boost-led-rechargeable-headlight/,product,secondary,buy niterider lumina 1200 boost led rechargeable headlight,,,Transactional,generated
-/shop/lights-and-horns/niterider-lumina-1200-boost-led-rechargeable-headlight/,product,secondary,niterider lumina 1200 boost led rechargeable headlight for sale,,,Transactional,generated
-/shop/lights-and-horns/niterider-lumina-1200-boost-led-rechargeable-headlight/,product,secondary,niterider lumina 1200 boost led rechargeable headlight review,,,Commercial,generated
-/shop/lights-and-horns/niterider-lumina-1200-boost-led-rechargeable-headlight/,product,secondary,niterider lumina 1200 boost led rechargeable headlight online,,,Transactional,generated
 /shop/racks-bags-and-trailers/mamba-sahara-fat-tyre-e-bike-2026/,product,primary,mamba sahara 2024,30,1,Transactional,KM
 /shop/racks-bags-and-trailers/mamba-sahara-fat-tyre-e-bike-2026/,product,secondary,mamba sahara fat tyre,20,0,Transactional,KM
 /shop/racks-bags-and-trailers/mamba-sahara-fat-tyre-e-bike-2026/,product,secondary,mamba sahara,1300,5,Commercial,competitor
 /shop/racks-bags-and-trailers/mamba-sahara-fat-tyre-e-bike-2026/,product,secondary,mamba sahara ebike,320,0,Commercial,KM
 /shop/racks-bags-and-trailers/mamba-sahara-fat-tyre-e-bike-2026/,product,secondary,mamba sahara 2025,50,1,Commercial,competitor
-/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-handlebar-combo-black/,product,primary,shotgun bike seat,880,7,Commercial,competitor
-/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-handlebar-combo-black/,product,secondary,shotgun seat,480,16,Commercial,competitor
-/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-handlebar-combo-black/,product,secondary,buy kids ride shotgun seat handlebar combo black,,,Transactional,generated
-/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-handlebar-combo-black/,product,secondary,kids ride shotgun seat handlebar combo black for sale,,,Transactional,generated
-/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-handlebar-combo-black/,product,secondary,kids ride shotgun seat handlebar combo black review,,,Commercial,generated
 /shop/sur-ron-spares/sur-ron-ultra-bee-track-n-go-snow-kit/,product,primary,sur-ron ultra bee track n go snow kit price australia,,,Transactional,generated
 /shop/sur-ron-spares/sur-ron-ultra-bee-track-n-go-snow-kit/,product,secondary,buy sur-ron ultra bee track n go snow kit,,,Transactional,generated
 /shop/sur-ron-spares/sur-ron-ultra-bee-track-n-go-snow-kit/,product,secondary,sur-ron ultra bee track n go snow kit for sale,,,Transactional,generated
@@ -3689,26 +3210,11 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/lights-and-horns/azur-alien2-100-lm-usb-rechargeable-rear-light/,product,secondary,azur alien2 100 lm usb rechargeable rear light price australia,,,Transactional,generated
 /shop/lights-and-horns/azur-alien2-100-lm-usb-rechargeable-rear-light/,product,secondary,buy azur alien2 100 lm usb rechargeable rear light,,,Transactional,generated
 /shop/lights-and-horns/azur-alien2-100-lm-usb-rechargeable-rear-light/,product,secondary,azur alien2 100 lm usb rechargeable rear light for sale,,,Transactional,generated
-/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-large-gen-2-black/,product,primary,crankbrothers pedal stamp 1 large gen 2 black price australia,,,Transactional,generated
-/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-large-gen-2-black/,product,secondary,buy crankbrothers pedal stamp 1 large gen 2 black,,,Transactional,generated
-/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-large-gen-2-black/,product,secondary,crankbrothers pedal stamp 1 large gen 2 black for sale,,,Transactional,generated
-/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-large-gen-2-black/,product,secondary,crankbrothers pedal stamp 1 large gen 2 black review,,,Commercial,generated
-/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-large-gen-2-black/,product,secondary,crankbrothers pedal stamp 1 large gen 2 black online,,,Transactional,generated
-/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-small-gen-2-orange/,product,primary,crankbrothers pedal stamp 1 small gen 2 orange price australia,,,Transactional,generated
-/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-small-gen-2-orange/,product,secondary,buy crankbrothers pedal stamp 1 small gen 2 orange,,,Transactional,generated
-/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-small-gen-2-orange/,product,secondary,crankbrothers pedal stamp 1 small gen 2 orange for sale,,,Transactional,generated
-/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-small-gen-2-orange/,product,secondary,crankbrothers pedal stamp 1 small gen 2 orange review,,,Commercial,generated
-/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-small-gen-2-orange/,product,secondary,crankbrothers pedal stamp 1 small gen 2 orange online,,,Transactional,generated
 /shop/folding-e-bikes/kristall-rx20-folding-fat-tyre-e-bike/,product,primary,kristall rx20,40,6,Commercial,KM
 /shop/folding-e-bikes/kristall-rx20-folding-fat-tyre-e-bike/,product,secondary,kristall rx20 folding fat-tyre e-bike price australia,,,Transactional,generated
 /shop/folding-e-bikes/kristall-rx20-folding-fat-tyre-e-bike/,product,secondary,buy kristall rx20 folding fat-tyre e-bike,,,Transactional,generated
 /shop/folding-e-bikes/kristall-rx20-folding-fat-tyre-e-bike/,product,secondary,kristall rx20 folding fat-tyre e-bike for sale,,,Transactional,generated
 /shop/folding-e-bikes/kristall-rx20-folding-fat-tyre-e-bike/,product,secondary,kristall rx20 folding fat-tyre e-bike review,,,Commercial,generated
-/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-handlebar-combo-black/,product,primary,kids ride shotgun 2.0 seat handlebar combo black price australia,,,Transactional,generated
-/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-handlebar-combo-black/,product,secondary,buy kids ride shotgun 2.0 seat handlebar combo black,,,Transactional,generated
-/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-handlebar-combo-black/,product,secondary,kids ride shotgun 2.0 seat handlebar combo black for sale,,,Transactional,generated
-/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-handlebar-combo-black/,product,secondary,kids ride shotgun 2.0 seat handlebar combo black review,,,Commercial,generated
-/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-handlebar-combo-black/,product,secondary,kids ride shotgun 2.0 seat handlebar combo black online,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/merida-espresso-city-300-eq-hybrid-e-bike/,product,primary,merida espresso 300,170,14,Commercial,competitor
 /shop/commuter-and-urban-e-bikes/merida-espresso-city-300-eq-hybrid-e-bike/,product,secondary,merida hybrid bike,140,17,Commercial,KM
 /shop/commuter-and-urban-e-bikes/merida-espresso-city-300-eq-hybrid-e-bike/,product,secondary,buy merida espresso city 300 eq hybrid e-bike,,,Transactional,generated
@@ -3719,11 +3225,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/wheels-tyres-and-tubes/sur-ron-ultra-bee-storm-bee-18-wheel-rim-band/,product,secondary,sur-ron ultra bee/ storm bee 18 wheel rim band for sale,,,Transactional,generated
 /shop/wheels-tyres-and-tubes/sur-ron-ultra-bee-storm-bee-18-wheel-rim-band/,product,secondary,sur-ron ultra bee/ storm bee 18 wheel rim band review,,,Commercial,generated
 /shop/wheels-tyres-and-tubes/sur-ron-ultra-bee-storm-bee-18-wheel-rim-band/,product,secondary,sur-ron ultra bee/ storm bee 18 wheel rim band online,,,Transactional,generated
-/shop/helmets-gloves-and-protection/abus-smiley-3-0-ace-led-kids-helmet-royal-blue/,product,primary,abus smiley 3.0 ace led kids helmet royal blue price australia,,,Transactional,generated
-/shop/helmets-gloves-and-protection/abus-smiley-3-0-ace-led-kids-helmet-royal-blue/,product,secondary,buy abus smiley 3.0 ace led kids helmet royal blue,,,Transactional,generated
-/shop/helmets-gloves-and-protection/abus-smiley-3-0-ace-led-kids-helmet-royal-blue/,product,secondary,abus smiley 3.0 ace led kids helmet royal blue for sale,,,Transactional,generated
-/shop/helmets-gloves-and-protection/abus-smiley-3-0-ace-led-kids-helmet-royal-blue/,product,secondary,abus smiley 3.0 ace led kids helmet royal blue review,,,Commercial,generated
-/shop/helmets-gloves-and-protection/abus-smiley-3-0-ace-led-kids-helmet-royal-blue/,product,secondary,abus smiley 3.0 ace led kids helmet royal blue online,,,Transactional,generated
 /shop/folding-e-bikes/kristall-rx20-max-folding-fat-tyre-e-bike-dual-motor/,product,primary,kristall rx20 max,20,5,Transactional,KM
 /shop/folding-e-bikes/kristall-rx20-max-folding-fat-tyre-e-bike-dual-motor/,product,secondary,buy kristall rx20 max folding fat-tyre e-bike dual motor,,,Transactional,generated
 /shop/folding-e-bikes/kristall-rx20-max-folding-fat-tyre-e-bike-dual-motor/,product,secondary,kristall rx20 max folding fat-tyre e-bike dual motor for sale,,,Transactional,generated
@@ -3734,16 +3235,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/wheels-tyres-and-tubes/fatboy-rear-wheel-assembly-20x4-with-rim-holes-for-v1-v2-and-v3/,product,secondary,"fatboy rear wheel assembly 20x4 with rim holes for v1, v2 & v3 for sale",,,Transactional,generated
 /shop/wheels-tyres-and-tubes/fatboy-rear-wheel-assembly-20x4-with-rim-holes-for-v1-v2-and-v3/,product,secondary,"fatboy rear wheel assembly 20x4 with rim holes for v1, v2 & v3 review",,,Commercial,generated
 /shop/wheels-tyres-and-tubes/fatboy-rear-wheel-assembly-20x4-with-rim-holes-for-v1-v2-and-v3/,product,secondary,"fatboy rear wheel assembly 20x4 with rim holes for v1, v2 & v3 online",,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/kristall-ex200-e-trike/,product,primary,kristall ex200 e-trike price australia,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/kristall-ex200-e-trike/,product,secondary,buy kristall ex200 e-trike,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/kristall-ex200-e-trike/,product,secondary,kristall ex200 e-trike for sale,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/kristall-ex200-e-trike/,product,secondary,kristall ex200 e-trike review,,,Commercial,generated
-/shop/cargo-bikes-and-e-trikes/kristall-ex200-e-trike/,product,secondary,kristall ex200 e-trike online,,,Transactional,generated
-/shop/helmets-gloves-and-protection/livall-bh60se-smart-helmet/,product,primary,buy livall bh60se smart helmet,,,Transactional,generated
-/shop/helmets-gloves-and-protection/livall-bh60se-smart-helmet/,product,secondary,livall bh60se smart helmet for sale,,,Transactional,generated
-/shop/helmets-gloves-and-protection/livall-bh60se-smart-helmet/,product,secondary,livall bh60se smart helmet review,,,Commercial,generated
-/shop/helmets-gloves-and-protection/livall-bh60se-smart-helmet/,product,secondary,livall bh60se smart helmet online,,,Transactional,generated
-/shop/helmets-gloves-and-protection/livall-bh60se-smart-helmet/,product,secondary,livall bh60se smart helmet price australia,,,Transactional,generated
 /shop/wheels-tyres-and-tubes/fatboy-front-wheel-assembly-20x4-thru-axle-v2-bagus-all-v3-models/,product,primary,"fatboy front wheel assembly 20x4 -thru axle v2 bagus, all v3 models price australia",,,Transactional,generated
 /shop/wheels-tyres-and-tubes/fatboy-front-wheel-assembly-20x4-thru-axle-v2-bagus-all-v3-models/,product,secondary,"buy fatboy front wheel assembly 20x4 -thru axle v2 bagus, all v3 models",,,Transactional,generated
 /shop/wheels-tyres-and-tubes/fatboy-front-wheel-assembly-20x4-thru-axle-v2-bagus-all-v3-models/,product,secondary,"fatboy front wheel assembly 20x4 -thru axle v2 bagus, all v3 models for sale",,,Transactional,generated
@@ -3779,26 +3270,11 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/commuter-and-urban-e-bikes/merida-espresso-500/,product,secondary,merida dirt 500,320,17,Commercial,competitor
 /shop/commuter-and-urban-e-bikes/merida-espresso-500/,product,secondary,buy merida espresso 500,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/merida-espresso-500/,product,secondary,merida espresso 500 for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-500/,product,primary,cube touring hybrid pro 500 price australia,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-500/,product,secondary,buy cube touring hybrid pro 500,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-500/,product,secondary,cube touring hybrid pro 500 for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-500/,product,secondary,cube touring hybrid pro 500 review,,,Commercial,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-500/,product,secondary,cube touring hybrid pro 500 online,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-625/,product,primary,cube touring hybrid pro 625 price australia,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-625/,product,secondary,buy cube touring hybrid pro 625,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-625/,product,secondary,cube touring hybrid pro 625 for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-625/,product,secondary,cube touring hybrid pro 625 review,,,Commercial,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-625/,product,secondary,cube touring hybrid pro 625 online,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/,product,primary,cube town sport hybrid one 400 price australia,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/,product,secondary,buy cube town sport hybrid one 400,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/,product,secondary,cube town sport hybrid one 400 for sale,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/,product,secondary,cube town sport hybrid one 400 review,,,Commercial,generated
 /shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/,product,secondary,cube town sport hybrid one 400 online,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400/,product,primary,cube touring hybrid one 400 price australia,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400/,product,secondary,buy cube touring hybrid one 400,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400/,product,secondary,cube touring hybrid one 400 for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400/,product,secondary,cube touring hybrid one 400 review,,,Commercial,generated
-/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400/,product,secondary,cube touring hybrid one 400 online,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/cube-touring-hybrid-exc-500/,product,primary,cube touring hybrid exc 500 price australia,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/cube-touring-hybrid-exc-500/,product,secondary,buy cube touring hybrid exc 500,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/cube-touring-hybrid-exc-500/,product,secondary,cube touring hybrid exc 500 for sale,,,Transactional,generated
@@ -3829,61 +3305,21 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-exc-750/,product,secondary,cube kathmandu hybrid exc 750 for sale,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-exc-750/,product,secondary,cube kathmandu hybrid exc 750 review,,,Commercial,generated
 /shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-exc-750/,product,secondary,cube kathmandu hybrid exc 750 online,,,Transactional,generated
-/shop/electric-mountain-bikes/superior-exp-8089/,product,primary,superior exp 8089 price australia,,,Transactional,generated
-/shop/electric-mountain-bikes/superior-exp-8089/,product,secondary,buy superior exp 8089,,,Transactional,generated
-/shop/electric-mountain-bikes/superior-exp-8089/,product,secondary,superior exp 8089 for sale,,,Transactional,generated
-/shop/electric-mountain-bikes/superior-exp-8089/,product,secondary,superior exp 8089 review,,,Commercial,generated
-/shop/electric-mountain-bikes/superior-exp-8089/,product,secondary,superior exp 8089 online,,,Transactional,generated
 /shop/electric-mountain-bikes/polygon-tambora-ae-n/,product,primary,polygon tambora,70,14,Commercial,competitor
 /shop/electric-mountain-bikes/polygon-tambora-ae-n/,product,secondary,buy polygon tambora ae-n,,,Transactional,generated
 /shop/electric-mountain-bikes/polygon-tambora-ae-n/,product,secondary,polygon tambora ae-n for sale,,,Transactional,generated
 /shop/electric-mountain-bikes/polygon-tambora-ae-n/,product,secondary,polygon tambora ae-n review,,,Commercial,generated
 /shop/electric-mountain-bikes/polygon-tambora-ae-n/,product,secondary,polygon tambora ae-n online,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/kona-coco-hd/,product,primary,kona coco hd,30,17,Transactional,semrush-2026-10-18
-/shop/commuter-and-urban-e-bikes/kona-coco-hd/,product,secondary,kona coco hd price australia,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/kona-coco-hd/,product,secondary,buy kona coco hd,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/kona-coco-hd/,product,secondary,kona coco hd for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/kona-coco-hd/,product,secondary,kona coco hd review,,,Commercial,generated
-/shop/fat-tyre-and-scrambler-e-bikes/reid-harbour-urban/,product,primary,reid harbour urban price australia,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/reid-harbour-urban/,product,secondary,buy reid harbour urban,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/reid-harbour-urban/,product,secondary,reid harbour urban for sale,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/reid-harbour-urban/,product,secondary,reid harbour urban review,,,Commercial,generated
-/shop/fat-tyre-and-scrambler-e-bikes/reid-harbour-urban/,product,secondary,reid harbour urban online,,,Transactional,generated
-/shop/folding-e-bikes/reid-emetro-folding/,product,primary,reid emetro folding price australia,,,Transactional,generated
-/shop/folding-e-bikes/reid-emetro-folding/,product,secondary,buy reid emetro folding,,,Transactional,generated
-/shop/folding-e-bikes/reid-emetro-folding/,product,secondary,reid emetro folding for sale,,,Transactional,generated
-/shop/folding-e-bikes/reid-emetro-folding/,product,secondary,reid emetro folding review,,,Commercial,generated
-/shop/folding-e-bikes/reid-emetro-folding/,product,secondary,reid emetro folding online,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/reid-quest-2/,product,primary,reid quest 2 price australia,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/reid-quest-2/,product,secondary,buy reid quest 2,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/reid-quest-2/,product,secondary,reid quest 2 for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/reid-quest-2/,product,secondary,reid quest 2 review,,,Commercial,generated
-/shop/commuter-and-urban-e-bikes/reid-quest-2/,product,secondary,reid quest 2 online,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/reid-quest-2-st/,product,primary,reid quest 2 st price australia,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/reid-quest-2-st/,product,secondary,buy reid quest 2 st,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/reid-quest-2-st/,product,secondary,reid quest 2 st for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/reid-quest-2-st/,product,secondary,reid quest 2 st review,,,Commercial,generated
-/shop/commuter-and-urban-e-bikes/reid-quest-2-st/,product,secondary,reid quest 2 st online,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/reid-quest-1/,product,primary,reid quest 1 price australia,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/reid-quest-1/,product,secondary,buy reid quest 1,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/reid-quest-1/,product,secondary,reid quest 1 for sale,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/reid-quest-1/,product,secondary,reid quest 1 review,,,Commercial,generated
 /shop/commuter-and-urban-e-bikes/reid-quest-1/,product,secondary,reid quest 1 online,,,Transactional,generated
-/shop/electric-mountain-bikes/superior-exf-9019/,product,primary,superior exf 9019 price australia,,,Transactional,generated
-/shop/electric-mountain-bikes/superior-exf-9019/,product,secondary,buy superior exf 9019,,,Transactional,generated
-/shop/electric-mountain-bikes/superior-exf-9019/,product,secondary,superior exf 9019 for sale,,,Transactional,generated
-/shop/electric-mountain-bikes/superior-exf-9019/,product,secondary,superior exf 9019 review,,,Commercial,generated
-/shop/electric-mountain-bikes/superior-exf-9019/,product,secondary,superior exf 9019 online,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-3/,product,primary,aventon aventure 3 australia,50,15,Commercial,semrush-2026-10-18
 /shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-3/,product,secondary,aventon aventure 3 price australia,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-3/,product,secondary,buy aventon aventure 3,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-3/,product,secondary,aventon aventure 3 for sale,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-3/,product,secondary,aventon aventure 3 review,,,Commercial,generated
-/shop/cargo-bikes-and-e-trikes/reid-2095/,product,primary,reid 2095 price australia,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/reid-2095/,product,secondary,buy reid 2095,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/reid-2095/,product,secondary,reid 2095 for sale,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/reid-2095/,product,secondary,reid 2095 review,,,Commercial,generated
-/shop/cargo-bikes-and-e-trikes/reid-2095/,product,secondary,reid 2095 online,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/aventon-soltera-3-adv/,product,primary,aventon soltera 3 adv price australia,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/aventon-soltera-3-adv/,product,secondary,buy aventon soltera 3 adv,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/aventon-soltera-3-adv/,product,secondary,aventon soltera 3 adv for sale,,,Transactional,generated
@@ -3904,21 +3340,11 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-mountain-bikes/marin-alpine-trail-e2/,product,secondary,marin alpine trail e2 for sale,,,Transactional,generated
 /shop/electric-mountain-bikes/marin-alpine-trail-e2/,product,secondary,marin alpine trail e2 review,,,Commercial,generated
 /shop/electric-mountain-bikes/marin-alpine-trail-e2/,product,secondary,marin alpine trail e2 online,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/reid-rb250/,product,primary,reid rb250 price australia,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/reid-rb250/,product,secondary,buy reid rb250,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/reid-rb250/,product,secondary,reid rb250 for sale,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/reid-rb250/,product,secondary,reid rb250 review,,,Commercial,generated
-/shop/fat-tyre-and-scrambler-e-bikes/reid-rb250/,product,secondary,reid rb250 online,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/aventon-pace-5-rec/,product,primary,aventon pace 5 rec price australia,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/aventon-pace-5-rec/,product,secondary,buy aventon pace 5 rec,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/aventon-pace-5-rec/,product,secondary,aventon pace 5 rec for sale,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/aventon-pace-5-rec/,product,secondary,aventon pace 5 rec review,,,Commercial,generated
 /shop/commuter-and-urban-e-bikes/aventon-pace-5-rec/,product,secondary,aventon pace 5 rec online,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/aventon-level-4-rec-st/,product,primary,aventon level 4 rec st price australia,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/aventon-level-4-rec-st/,product,secondary,buy aventon level 4 rec st,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/aventon-level-4-rec-st/,product,secondary,aventon level 4 rec st for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/aventon-level-4-rec-st/,product,secondary,aventon level 4 rec st review,,,Commercial,generated
-/shop/commuter-and-urban-e-bikes/aventon-level-4-rec-st/,product,secondary,aventon level 4 rec st online,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/aventon-level-4-rec/,product,primary,aventon level 4 rec price australia,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/aventon-level-4-rec/,product,secondary,buy aventon level 4 rec,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/aventon-level-4-rec/,product,secondary,aventon level 4 rec for sale,,,Transactional,generated
@@ -3929,11 +3355,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-m/,product,secondary,aventon aventure m for sale,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-m/,product,secondary,aventon aventure m review,,,Commercial,generated
 /shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-m/,product,secondary,aventon aventure m online,,,Transactional,generated
-/shop/electric-mountain-bikes/aventon-ramblas-adv/,product,primary,aventon ramblas e bike,40,7,Transactional,KM
-/shop/electric-mountain-bikes/aventon-ramblas-adv/,product,secondary,aventon ramblas,210,26,Commercial,competitor
-/shop/electric-mountain-bikes/aventon-ramblas-adv/,product,secondary,aventon ramblas australia,70,23,Commercial,competitor
-/shop/electric-mountain-bikes/aventon-ramblas-adv/,product,secondary,buy aventon ramblas adv,,,Transactional,generated
-/shop/electric-mountain-bikes/aventon-ramblas-adv/,product,secondary,aventon ramblas adv for sale,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/aventon-level-4-adv-st/,product,primary,aventon level 4 adv st price australia,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/aventon-level-4-adv-st/,product,secondary,buy aventon level 4 adv st,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/aventon-level-4-adv-st/,product,secondary,aventon level 4 adv st for sale,,,Transactional,generated
@@ -3944,21 +3365,11 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/commuter-and-urban-e-bikes/aventon-level-4-adv/,product,secondary,aventon level 4 adv for sale,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/aventon-level-4-adv/,product,secondary,aventon level 4 adv review,,,Commercial,generated
 /shop/commuter-and-urban-e-bikes/aventon-level-4-adv/,product,secondary,aventon level 4 adv online,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/reid-let-s-moto/,product,primary,reid let s moto price australia,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/reid-let-s-moto/,product,secondary,buy reid let s moto,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/reid-let-s-moto/,product,secondary,reid let s moto for sale,,,Transactional,generated
-/shop/fat-tyre-and-scrambler-e-bikes/reid-let-s-moto/,product,secondary,reid let s moto review,,,Commercial,generated
-/shop/fat-tyre-and-scrambler-e-bikes/reid-let-s-moto/,product,secondary,reid let s moto online,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/reid-quest-1-st/,product,primary,reid quest 1 st price australia,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/reid-quest-1-st/,product,secondary,buy reid quest 1 st,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/reid-quest-1-st/,product,secondary,reid quest 1 st for sale,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/reid-quest-1-st/,product,secondary,reid quest 1 st review,,,Commercial,generated
 /shop/commuter-and-urban-e-bikes/reid-quest-1-st/,product,secondary,reid quest 1 st online,,,Transactional,generated
-/shop/electric-mountain-bikes/superior-exf-8089/,product,primary,superior exf 8089 price australia,,,Transactional,generated
-/shop/electric-mountain-bikes/superior-exf-8089/,product,secondary,buy superior exf 8089,,,Transactional,generated
-/shop/electric-mountain-bikes/superior-exf-8089/,product,secondary,superior exf 8089 for sale,,,Transactional,generated
-/shop/electric-mountain-bikes/superior-exf-8089/,product,secondary,superior exf 8089 review,,,Commercial,generated
-/shop/electric-mountain-bikes/superior-exf-8089/,product,secondary,superior exf 8089 online,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/marin-lombard-e1/,product,primary,marin lombard e1,30,18,Transactional,semrush-2026-10-18
 /shop/commuter-and-urban-e-bikes/marin-lombard-e1/,product,secondary,marin lombard e1 price australia,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/marin-lombard-e1/,product,secondary,buy marin lombard e1,,,Transactional,generated
@@ -3984,11 +3395,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-3-st/,product,secondary,aventon aventure 3 st for sale,,,Transactional,generated
 /shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-3-st/,product,secondary,aventon aventure 3 st review,,,Commercial,generated
 /shop/fat-tyre-and-scrambler-e-bikes/aventon-aventure-3-st/,product,secondary,aventon aventure 3 st online,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/reid-let-s-roll/,product,primary,reid let s roll price australia,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/reid-let-s-roll/,product,secondary,buy reid let s roll,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/reid-let-s-roll/,product,secondary,reid let s roll for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/reid-let-s-roll/,product,secondary,reid let s roll review,,,Commercial,generated
-/shop/commuter-and-urban-e-bikes/reid-let-s-roll/,product,secondary,reid let s roll online,,,Transactional,generated
 /shop/electric-mountain-bikes/polygon-collosus-te-0/,product,primary,polygon collosus,210,18,Commercial,competitor
 /shop/electric-mountain-bikes/polygon-collosus-te-0/,product,secondary,buy polygon collosus te 0,,,Transactional,generated
 /shop/electric-mountain-bikes/polygon-collosus-te-0/,product,secondary,polygon collosus te 0 for sale,,,Transactional,generated
@@ -4019,11 +3425,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/commuter-and-urban-e-bikes/cannondale-quick-neo/,product,secondary,cannondale quick neo for sale,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/cannondale-quick-neo/,product,secondary,cannondale quick neo review,,,Commercial,generated
 /shop/commuter-and-urban-e-bikes/cannondale-quick-neo/,product,secondary,cannondale quick neo online,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cannondale-treadwell-neo/,product,primary,cannondale treadwell neo price australia,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cannondale-treadwell-neo/,product,secondary,buy cannondale treadwell neo,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cannondale-treadwell-neo/,product,secondary,cannondale treadwell neo for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/cannondale-treadwell-neo/,product,secondary,cannondale treadwell neo review,,,Commercial,generated
-/shop/commuter-and-urban-e-bikes/cannondale-treadwell-neo/,product,secondary,cannondale treadwell neo online,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/vamos-amigo-plus-2026/,product,primary,vamos amigo plus 2026 price australia,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/vamos-amigo-plus-2026/,product,secondary,buy vamos amigo plus 2026,,,Transactional,generated
 /shop/commuter-and-urban-e-bikes/vamos-amigo-plus-2026/,product,secondary,vamos amigo plus 2026 for sale,,,Transactional,generated
@@ -4079,21 +3480,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-dirt-bikes/segway-dirt-ebike-x260/,product,secondary,segway dirt ebike x260 for sale,,,Transactional,generated
 /shop/electric-dirt-bikes/segway-dirt-ebike-x260/,product,secondary,segway dirt ebike x260 review,,,Commercial,generated
 /shop/electric-dirt-bikes/segway-dirt-ebike-x260/,product,secondary,segway dirt ebike x260 online,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/riese-and-m-ller-load-75/,product,primary,riese & müller load 75 price australia,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/riese-and-m-ller-load-75/,product,secondary,buy riese & müller load 75,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/riese-and-m-ller-load-75/,product,secondary,riese & müller load 75 for sale,,,Transactional,generated
-/shop/cargo-bikes-and-e-trikes/riese-and-m-ller-load-75/,product,secondary,riese & müller load 75 review,,,Commercial,generated
-/shop/cargo-bikes-and-e-trikes/riese-and-m-ller-load-75/,product,secondary,riese & müller load 75 online,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/gazelle-ultimate-c380/,product,primary,gazelle ultimate c380 price australia,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/gazelle-ultimate-c380/,product,secondary,buy gazelle ultimate c380,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/gazelle-ultimate-c380/,product,secondary,gazelle ultimate c380 for sale,,,Transactional,generated
-/shop/commuter-and-urban-e-bikes/gazelle-ultimate-c380/,product,secondary,gazelle ultimate c380 review,,,Commercial,generated
-/shop/commuter-and-urban-e-bikes/gazelle-ultimate-c380/,product,secondary,gazelle ultimate c380 online,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/revvi-16-junior/,product,primary,revvi 16 junior price australia,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/revvi-16-junior/,product,secondary,buy revvi 16 junior,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/revvi-16-junior/,product,secondary,revvi 16 junior for sale,,,Transactional,generated
-/shop/kids-electric-dirt-and-balance-bikes/revvi-16-junior/,product,secondary,revvi 16 junior review,,,Commercial,generated
-/shop/kids-electric-dirt-and-balance-bikes/revvi-16-junior/,product,secondary,revvi 16 junior online,,,Transactional,generated
 /tools/conversion-kit-finder/,blog,primary,ebike conversion kit finder,,,Informational,generated
 /tools/conversion-kit-finder/,blog,secondary,which conversion kit do i need,,,Informational,generated
 /tools/conversion-kit-finder/,blog,secondary,ebike conversion kit compatibility,,,Informational,generated
@@ -4277,7 +3663,6 @@ url,type,role,keyword,volume,kd,intent,source
 /brands/kalkhoff/,brand-hub,secondary,kalkhoff australia,30,6,"Informational, Transactional",semrush-2026-10-18
 /brands/mamba/,brand-hub,secondary,mamba electric bike,390,16,Navigational,semrush-2026-10-18
 /brands/mamba/,brand-hub,secondary,mamba australia,20,6,Informational,semrush-2026-10-18
-/brands/reid/,brand-hub,secondary,reid electric bike,320,26,Commercial,semrush-2026-10-18
 /brands/smartmotion/,brand-hub,secondary,smartmotion electric bike,40,6,"Informational, Transactional",semrush-2026-10-18
 /brands/smartmotion/,brand-hub,secondary,smartmotion australia,20,6,Navigational,semrush-2026-10-18
 /brands/vamos/,brand-hub,secondary,vamos electric bike,170,21,"Informational, Transactional",semrush-2026-10-18
@@ -5954,7 +5339,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/kids-electric-dirt-and-balance-bikes/,category,secondary,kids motorbike,2400,6,C,semrush-keyword-gap-2026-11-04
 /shop/electric-dirt-bikes/rfn-warrior-pro/,product,secondary,rfn e bike,590,22,C,semrush-keyword-gap-2026-11-04
 /shop/electric-dirt-bikes/stark-varg/,product,secondary,stark dirt bike,110,17,I T,semrush-keyword-gap-2026-11-04
-/brands/apollo/,brand,secondary,apollo e bike,70,7,C,semrush-keyword-gap-2026-11-04
 /brands/talaria/,brand,secondary,talaria mx 5,480,13,C,semrush-keyword-gap-2026-11-04
 /shop/electric-dirt-bikes/stark-varg/,product,secondary,stark varg dirt bike,90,11,C I,semrush-keyword-gap-2026-11-04
 /brands/e-ride-pro/,brand,secondary,eride 3.0,70,9,C,semrush-keyword-gap-2026-11-04

@@ -4,81 +4,81 @@ export const CATALOG_CATEGORIES = [
   "slug": "electric-dirt-bikes",
   "name": "Electric Dirt Bikes",
   "group": "Bikes",
-  "description": "Shop 49 electric dirt bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 34 electric dirt bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/sur-ron-light-bee-x-1.webp",
-  "count": 49
+  "count": 34
  },
  {
   "slug": "kids-electric-dirt-and-balance-bikes",
   "name": "Kids Electric Dirt & Balance Bikes",
   "group": "Bikes",
-  "description": "Shop 29 kids electric dirt & balance bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 20 kids electric dirt & balance bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/razor-mx350-1.webp",
-  "count": 29
+  "count": 20
  },
  {
   "slug": "electric-mountain-bikes",
   "name": "Electric Mountain Bikes",
   "group": "Bikes",
-  "description": "Shop 57 electric mountain bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 48 electric mountain bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/specialized-turbo-levo-sl-comp-carbon-1.webp",
-  "count": 57
+  "count": 48
  },
  {
   "slug": "commuter-and-urban-e-bikes",
   "name": "Commuter & Urban E-Bikes",
   "group": "Bikes",
-  "description": "Shop 77 commuter & urban e-bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 60 commuter & urban e-bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/specialized-turbo-vado-sl-4-0-1.webp",
-  "count": 77
+  "count": 60
  },
  {
   "slug": "road-and-gravel-e-bikes",
   "name": "Road & Gravel E-Bikes",
   "group": "Bikes",
-  "description": "Shop 7 road & gravel e-bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 5 road & gravel e-bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/specialized-turbo-creo-sl-expert-evo-1.webp",
-  "count": 7
+  "count": 5
  },
  {
   "slug": "fat-tyre-and-scrambler-e-bikes",
   "name": "Fat-Tyre & Scrambler E-Bikes",
   "group": "Bikes",
-  "description": "Shop 41 fat-tyre & scrambler e-bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 36 fat-tyre & scrambler e-bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/aventon-aventure-2-fat-tire-1.webp",
-  "count": 41
+  "count": 36
  },
  {
   "slug": "kids-and-youth-e-bikes",
   "name": "Kids & Youth E-Bikes",
   "group": "Bikes",
-  "description": "Shop 11 kids & youth e-bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 9 kids & youth e-bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/woom-up-5-1.webp",
-  "count": 11
+  "count": 9
  },
  {
   "slug": "folding-e-bikes",
   "name": "Folding E-Bikes",
   "group": "Bikes",
-  "description": "Shop 21 folding e-bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 17 folding e-bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/smartmotion-folding-step-through-e-bike-1.webp",
-  "count": 21
+  "count": 17
  },
  {
   "slug": "helmets-gloves-and-protection",
   "name": "Helmets, Gloves & Protection",
   "group": "Riding Gear",
-  "description": "Shop 14 helmets, gloves & protection from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 7 helmets, gloves & protection from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/79bike-hat-1.webp",
-  "count": 14
+  "count": 7
  },
  {
   "slug": "seats-fenders-and-body",
   "name": "Seats, Fenders & Body",
   "group": "Parts",
-  "description": "Shop 23 seats, fenders & body from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 13 seats, fenders & body from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/79bike-kickstand-1.webp",
-  "count": 23
+  "count": 13
  },
  {
   "slug": "batteries-chargers-and-electronics",
@@ -92,41 +92,41 @@ export const CATALOG_CATEGORIES = [
   "slug": "cargo-bikes-and-e-trikes",
   "name": "Cargo Bikes & E-Trikes",
   "group": "Bikes",
-  "description": "Shop 25 cargo bikes & e-trikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 13 cargo bikes & e-trikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/electric-folding-trike-blue-1.webp",
-  "count": 25
+  "count": 13
  },
  {
   "slug": "lights-and-horns",
   "name": "Lights & Horns",
   "group": "Accessories",
-  "description": "Shop 9 lights & horns from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 8 lights & horns from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/79bike-headlight-1.webp",
-  "count": 9
+  "count": 8
  },
  {
   "slug": "wheels-tyres-and-tubes",
   "name": "Wheels, Tyres & Tubes",
   "group": "Parts",
-  "description": "Shop 8 wheels, tyres & tubes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 7 wheels, tyres & tubes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/79bike-tyre-1.webp",
-  "count": 8
+  "count": 7
  },
  {
   "slug": "racks-bags-and-trailers",
   "name": "Racks, Bags & Trailers",
   "group": "Accessories",
-  "description": "Shop 25 racks, bags & trailers from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 16 racks, bags & trailers from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/pacific-bike-trailer-1.webp",
-  "count": 25
+  "count": 16
  },
  {
   "slug": "motors-drivetrain-and-sprockets",
   "name": "Motors, Drivetrain & Sprockets",
   "group": "Parts",
-  "description": "Shop 10 motors, drivetrain & sprockets from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 8 motors, drivetrain & sprockets from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/79bike-drive-chain-1.webp",
-  "count": 10
+  "count": 8
  },
  {
   "slug": "suspension-and-forks",
@@ -140,33 +140,33 @@ export const CATALOG_CATEGORIES = [
   "slug": "phone-mounts-mirrors-and-audio",
   "name": "Phone Mounts, Mirrors & Audio",
   "group": "Accessories",
-  "description": "Shop 10 phone mounts, mirrors & audio from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 7 phone mounts, mirrors & audio from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/79bike-phone-handlebar-mount-1.webp",
-  "count": 10
+  "count": 7
  },
  {
   "slug": "controls-grips-and-pedals",
   "name": "Controls, Grips & Pedals",
   "group": "Parts",
-  "description": "Shop 12 controls, grips & pedals from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 10 controls, grips & pedals from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/display-colour-lcd-1.webp",
-  "count": 12
+  "count": 10
  },
  {
   "slug": "care-tools-and-hydration",
   "name": "Care, Tools & Hydration",
   "group": "Accessories",
-  "description": "Shop 8 care, tools & hydration from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 5 care, tools & hydration from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/krush-rotor-revive-1.webp",
-  "count": 8
+  "count": 5
  },
  {
   "slug": "locks-and-security",
   "name": "Locks & Security",
   "group": "Accessories",
-  "description": "Shop 4 locks & security from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 3 locks & security from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/onguard-chain-lock-1.webp",
-  "count": 4
+  "count": 3
  },
  {
   "slug": "sur-ron-spares",
@@ -180,9 +180,9 @@ export const CATALOG_CATEGORIES = [
   "slug": "brakes",
   "name": "Brakes",
   "group": "Parts",
-  "description": "Shop 19 brakes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 18 brakes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/79bike-hydraulic-brake-set-1.webp",
-  "count": 19
+  "count": 18
  }
 ]
 

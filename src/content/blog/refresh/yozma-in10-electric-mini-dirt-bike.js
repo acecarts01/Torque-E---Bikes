@@ -12,9 +12,7 @@ export const meta = {
   tags: ['bike mini bike', 'electric mini bikes', 'mini motor bike', 'mini mini dirt bike', 'mini bike dirt bike', 'mini e dirt bike', 'mini electric motor bike', 'mini pit bike', 'pit bike mini', 'buy electric motorbike'],
   imageAlt: 'Rider on a motocross motorcycle, the riding a mini electric bike like the Yozma IN10 prepares a young rider for',
   related: [
-    { href: '/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/', name: 'Yozma IN10 Electric Mini Dirt Bike', price: 2089, note: 'Off-road and private property use only.' },
     { href: '/shop/kids-electric-dirt-and-balance-bikes/dhz-electric-kids-mini-dirt-bike-3-speeds-control/', name: 'DHZ Electric Kids Mini Dirt Bike, 3 Speeds Control', price: 849, note: 'A lower-priced electric mini dirt bike. Off-road only.' },
-    { href: '/shop/kids-electric-dirt-and-balance-bikes/tott-e1022-kids-electric-trial-bike/', name: 'TOTT E1022 Kids Electric Trial Bike', price: 849, note: 'Kids electric trial bike. Off-road only.' },
     { href: '/shop/kids-electric-dirt-and-balance-bikes/razor-mx650/', name: 'Razor MX650', price: 1299, note: 'Razor electric dirt bike. Off-road only.' },
     { href: '/shop/electric-dirt-bikes/', name: 'All electric dirt bikes', note: '49 models.' },
   ],
@@ -26,7 +24,7 @@ export const meta = {
       ['/blog/helmets-and-protective-gear-for-e-bikes/', 'e bike helmet and protective gear'],
     ],
     from: [
-      ['/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/', 'mini electric bike guide'],
+      ['/shop/electric-dirt-bikes/', 'mini electric bike guide'],
       ['/shop/kids-electric-dirt-and-balance-bikes/', 'mini electric bike for kids'],
       ['/shop/kids-electric-dirt-and-balance-bikes/dhz-electric-kids-mini-dirt-bike-3-speeds-control/', 'how to choose a mini electric bike'],
     ],
@@ -48,9 +46,7 @@ export const body = {
         head: ['Model', 'Price', 'Use'],
         rows: [
           ['[DHZ Electric Kids Mini Dirt Bike, 3 Speeds Control](/shop/kids-electric-dirt-and-balance-bikes/dhz-electric-kids-mini-dirt-bike-3-speeds-control/)', '$849', 'Off-road only'],
-          ['[TOTT E1022 Kids Electric Trial Bike](/shop/kids-electric-dirt-and-balance-bikes/tott-e1022-kids-electric-trial-bike/)', '$849', 'Off-road only'],
           ['[Razor MX650](/shop/kids-electric-dirt-and-balance-bikes/razor-mx650/)', '$1,299', 'Off-road only'],
-          ['[Yozma IN10 Electric Mini Dirt Bike](/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike/)', '$2,089', 'Off-road only'],
         ],
       },
     },

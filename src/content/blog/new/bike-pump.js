@@ -24,7 +24,6 @@ export const meta = {
   },
   related: [
     { href: '/shop/wheels-tyres-and-tubes/79bike-inner-tube/', name: '79Bike Inner Tube', price: 38.95, note: 'A tube to inflate.' },
-    { href: '/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/', name: 'Lezyne Lever Kit Light Grey', price: 18.95, note: 'Levers for the tyre change.' },
     { href: '/shop/wheels-tyres-and-tubes/79bike-tyre/', name: '79Bike Tyre', price: 179, note: 'A replacement tyre.' },
     { href: '/shop/care-tools-and-hydration/', name: 'All care, tools and hydration', note: 'Levers, lubes and bottles.' },
   ],
@@ -37,7 +36,7 @@ export const meta = {
     ],
     from: [
       ['/shop/care-tools-and-hydration/', 'bike pump buying guide'],
-      ['/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/', 'bicycle pump and levers'],
+      ['/shop/care-tools-and-hydration/', 'bicycle pump and levers'],
       ['/shop/wheels-tyres-and-tubes/79bike-inner-tube/', 'pump for a bike: valve checks'],
     ],
   },
@@ -132,7 +131,6 @@ export const body = {
         head: ['Item', 'Brand', 'Price', 'Use'],
         rows: [
           ['[79Bike Inner Tube](/shop/wheels-tyres-and-tubes/79bike-inner-tube/)', '79Bike', '$38.95', 'Spare tube'],
-          ['[Lezyne Lever Kit Light Grey](/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/)', 'Lezyne', '$18.95', 'Tyre levers'],
           ['[79Bike Tyre](/shop/wheels-tyres-and-tubes/79bike-tyre/)', '79Bike', '$179', 'Replacement tyre'],
         ],
       },
@@ -194,7 +192,7 @@ export const body = {
     {
       h: 'Which bike pump should you buy?',
       p: [
-        'Buy a floor pump with a good gauge for home, and a mini pump or CO2 inflator for the road. If you ride an e-bike or a fat tyre, choose a pump that handles large volume and low pressure. Pair the pump with a spare tube such as the [79Bike Inner Tube at $38.95](/shop/wheels-tyres-and-tubes/79bike-inner-tube/) and levers such as the [Lezyne Lever Kit at $18.95](/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey/). Browse the full [care, tools and hydration range](/shop/care-tools-and-hydration/).',
+        'Buy a floor pump with a good gauge for home, and a mini pump or CO2 inflator for the road. If you ride an e-bike or a fat tyre, choose a pump that handles large volume and low pressure. Pair the pump with a spare tube such as the [79Bike Inner Tube at $38.95](/shop/wheels-tyres-and-tubes/79bike-inner-tube/) and levers such as the [Lezyne Lever Kit at $18.95](/shop/care-tools-and-hydration/). Browse the full [care, tools and hydration range](/shop/care-tools-and-hydration/).',
         'Tell us your bike and tyres, and we will help you match a tube and levers. All orders ship Australia-wide with dangerous-goods certified dispatch.',
       ],
     },

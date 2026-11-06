@@ -25,8 +25,6 @@ export const meta = {
     credit: null,
   },
   related: [
-    { href: '/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/', name: 'Krush Ultra Drivetrain Degreaser', price: 23.95, note: 'A drivetrain degreaser.' },
-    { href: '/shop/care-tools-and-hydration/krush-rotor-revive/', name: 'Krush Rotor Revive', price: 32.95, note: 'A rotor care product.' },
     { href: '/shop/care-tools-and-hydration/rock-n-roll-gold-chain-lube-117ml/', name: 'Rock N Roll Gold Chain Lube 117ml', price: 18.95, note: 'A chain lube.' },
     { href: '/shop/care-tools-and-hydration/rock-n-roll-extreme-blue-chain-lube-117ml/', name: 'Rock N Roll Extreme Blue Chain Lube 117ml', price: 18.95, note: 'A chain lube for tougher conditions.' },
     { href: '/shop/care-tools-and-hydration/', name: 'All care, tools and hydration', note: 'Lubes, degreasers and bottles.' },
@@ -40,7 +38,7 @@ export const meta = {
     ],
     from: [
       ['/shop/care-tools-and-hydration/', 'bike chain degreaser buying guide'],
-      ['/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/', 'bicycle chain degreaser: how to use it'],
+      ['/shop/care-tools-and-hydration/', 'bicycle chain degreaser: how to use it'],
       ['/shop/care-tools-and-hydration/rock-n-roll-gold-chain-lube-117ml/', 'chain cleaner bike steps'],
     ],
   },
@@ -118,8 +116,6 @@ export const body = {
       table: {
         head: ['Product', 'Brand', 'Price', 'Use'],
         rows: [
-          ['[Krush Ultra Drivetrain Degreaser](/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/)', 'Krush', '$23.95', 'Drivetrain degreaser'],
-          ['[Krush Rotor Revive](/shop/care-tools-and-hydration/krush-rotor-revive/)', 'Krush', '$32.95', 'Rotor care'],
           ['[Rock N Roll Gold Chain Lube 117ml](/shop/care-tools-and-hydration/rock-n-roll-gold-chain-lube-117ml/)', 'Rock N Roll', '$18.95', 'Chain lube'],
           ['[Rock N Roll Absolute Dry Chain Lube 117ml](/shop/care-tools-and-hydration/rock-n-roll-absolute-dry-chain-lube-117ml/)', 'Rock N Roll', '$18.95', 'Dry chain lube'],
           ['[Rock N Roll Extreme Blue Chain Lube 117ml](/shop/care-tools-and-hydration/rock-n-roll-extreme-blue-chain-lube-117ml/)', 'Rock N Roll', '$18.95', 'Chain lube for tougher conditions'],
@@ -187,7 +183,7 @@ export const body = {
     {
       h: 'Which bike chain degreaser should you buy?',
       p: [
-        'For most riders, the [Krush Ultra Drivetrain Degreaser at $23.95](/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser/) plus a chain lube from the Rock N Roll range at $18.95 covers the clean-and-lube job. If you ride with disc brakes, the [Krush Rotor Revive at $32.95](/shop/care-tools-and-hydration/krush-rotor-revive/) is the rotor care product we stock. Browse the full [care, tools and hydration range](/shop/care-tools-and-hydration/).',
+        'For most riders, the [Krush Ultra Drivetrain Degreaser at $23.95](/shop/care-tools-and-hydration/) plus a chain lube from the Rock N Roll range at $18.95 covers the clean-and-lube job. If you ride with disc brakes, the [Krush Rotor Revive at $32.95](/shop/care-tools-and-hydration/) is the rotor care product we stock. Browse the full [care, tools and hydration range](/shop/care-tools-and-hydration/).',
         'Tell us what you ride and the conditions, and we will suggest the right products. All orders ship Australia-wide with dangerous-goods certified dispatch.',
       ],
     },

@@ -12,7 +12,6 @@ export const meta = {
   imageAlt: 'Black electric bicycle parked by the sea, one of the best electric bikes for coastal commuting',
   related: [
     { href: '/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/', name: 'DYU C6 Electric Bike', price: 849, note: 'Our lowest-priced commuter e-bike.' },
-    { href: '/shop/electric-mountain-bikes/shogun-etrail-breaker-1/', name: 'Shogun eTrail Breaker 1', price: 1039, note: 'Our lowest-priced electric mountain bike.' },
     { href: '/shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/', name: 'DYU D3 Smart Electric Bike', price: 659, note: 'Our lowest-priced folding e-bike.' },
     { href: '/shop/cargo-bikes-and-e-trikes/sunmono-mars-20-electric-cargo-bike/', name: 'Sunmono Mars 20 Electric Cargo Bike', price: 899, note: 'Our lowest-priced cargo e-bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: '77 models.' },
@@ -48,7 +47,7 @@ export const body = {
         head: ['Type', 'Price range', 'Models', 'Start with'],
         rows: [
           ['[Commuter and urban](/shop/commuter-and-urban-e-bikes/)', '$849 to $16,499', '77', '[DYU C6 Electric Bike](/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/) $849'],
-          ['[Electric mountain bikes](/shop/electric-mountain-bikes/)', '$1,039 to $18,999', '57', '[Shogun eTrail Breaker 1](/shop/electric-mountain-bikes/shogun-etrail-breaker-1/) $1,039'],
+          ['[Electric mountain bikes](/shop/electric-mountain-bikes/)', '$1,039 to $18,999', '57', '[Shogun eTrail Breaker 1](/shop/electric-mountain-bikes/) $1,039'],
           ['[Folding e-bikes](/shop/folding-e-bikes/)', '$659 to $2,999', '21', '[DYU D3 Smart Electric Bike](/shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/) $659'],
           ['[Cargo bikes and e-trikes](/shop/cargo-bikes-and-e-trikes/)', '$899 to $15,269', '25', '[Sunmono Mars 20](/shop/cargo-bikes-and-e-trikes/sunmono-mars-20-electric-cargo-bike/) $899'],
           ['[Road and gravel e-bikes](/shop/road-and-gravel-e-bikes/)', '$3,999 to $13,500', '7', 'Trek Checkpoint SL 5 $3,999'],

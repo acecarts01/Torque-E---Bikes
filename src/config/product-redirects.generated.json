@@ -1,0 +1,478 @@
+[
+ {
+  "source": "/shop/electric-dirt-bikes/zero-xb",
+  "destination": "/shop/electric-dirt-bikes/zero-fx/"
+ },
+ {
+  "source": "/shop/electric-dirt-bikes/zero-xe",
+  "destination": "/shop/electric-dirt-bikes/zero-fx/"
+ },
+ {
+  "source": "/shop/electric-dirt-bikes/ssr-sr-e8-pro",
+  "destination": "/shop/electric-dirt-bikes/"
+ },
+ {
+  "source": "/shop/electric-dirt-bikes/ssr-sr-e15-pro",
+  "destination": "/shop/electric-dirt-bikes/"
+ },
+ {
+  "source": "/shop/electric-dirt-bikes/happyrun-g300-pro",
+  "destination": "/shop/electric-dirt-bikes/happyrun-suv-e-bike/"
+ },
+ {
+  "source": "/shop/electric-dirt-bikes/tork-base-model",
+  "destination": "/shop/electric-dirt-bikes/"
+ },
+ {
+  "source": "/shop/electric-dirt-bikes/kayo-ec2i",
+  "destination": "/shop/electric-dirt-bikes/"
+ },
+ {
+  "source": "/shop/electric-dirt-bikes/husqvarna-ee-5",
+  "destination": "/shop/electric-dirt-bikes/"
+ },
+ {
+  "source": "/shop/electric-dirt-bikes/emortal-rogue-mx-01",
+  "destination": "/shop/electric-dirt-bikes/"
+ },
+ {
+  "source": "/shop/kids-electric-dirt-and-balance-bikes/razor-mx400",
+  "destination": "/shop/kids-electric-dirt-and-balance-bikes/razor-mx350/"
+ },
+ {
+  "source": "/shop/kids-electric-dirt-and-balance-bikes/gasgas-mc-e-5",
+  "destination": "/shop/kids-electric-dirt-and-balance-bikes/"
+ },
+ {
+  "source": "/shop/electric-mountain-bikes/scott-patron-eride-900-tuned",
+  "destination": "/shop/electric-mountain-bikes/"
+ },
+ {
+  "source": "/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-4-0",
+  "destination": "/shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-4-0/"
+ },
+ {
+  "source": "/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-5-0",
+  "destination": "/shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-5-0/"
+ },
+ {
+  "source": "/shop/commuter-and-urban-e-bikes/segway-myon",
+  "destination": "/shop/commuter-and-urban-e-bikes/segway-muxi/"
+ },
+ {
+  "source": "/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-expert-evo",
+  "destination": "/shop/road-and-gravel-e-bikes/"
+ },
+ {
+  "source": "/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-comp-carbon",
+  "destination": "/shop/road-and-gravel-e-bikes/"
+ },
+ {
+  "source": "/shop/electric-mountain-bikes/mondraker-crafty-carbon",
+  "destination": "/shop/electric-mountain-bikes/"
+ },
+ {
+  "source": "/shop/kids-electric-dirt-and-balance-bikes/tott-e1022-kids-electric-trial-bike",
+  "destination": "/shop/kids-electric-dirt-and-balance-bikes/"
+ },
+ {
+  "source": "/shop/folding-e-bikes/folding-step-through-e-bike-navy",
+  "destination": "/shop/folding-e-bikes/"
+ },
+ {
+  "source": "/shop/cargo-bikes-and-e-trikes/electric-folding-trike-blue",
+  "destination": "/shop/cargo-bikes-and-e-trikes/"
+ },
+ {
+  "source": "/shop/cargo-bikes-and-e-trikes/electric-step-through-trike-grey",
+  "destination": "/shop/cargo-bikes-and-e-trikes/"
+ },
+ {
+  "source": "/shop/folding-e-bikes/dyu-a5-smart-electric-bike",
+  "destination": "/shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/"
+ },
+ {
+  "source": "/shop/cargo-bikes-and-e-trikes/electric-trike-various",
+  "destination": "/shop/cargo-bikes-and-e-trikes/"
+ },
+ {
+  "source": "/shop/seats-fenders-and-body/seat-drip-seat-cover-bubblegum-checkered",
+  "destination": "/shop/seats-fenders-and-body/"
+ },
+ {
+  "source": "/shop/seats-fenders-and-body/seat-drip-seat-cover-camo-stealth",
+  "destination": "/shop/seats-fenders-and-body/"
+ },
+ {
+  "source": "/shop/seats-fenders-and-body/seat-drip-seat-cover-comic-blast",
+  "destination": "/shop/seats-fenders-and-body/"
+ },
+ {
+  "source": "/shop/seats-fenders-and-body/seat-drip-seat-cover-diamond-aqua",
+  "destination": "/shop/seats-fenders-and-body/"
+ },
+ {
+  "source": "/shop/seats-fenders-and-body/seat-drip-seat-cover-manga-rush",
+  "destination": "/shop/seats-fenders-and-body/"
+ },
+ {
+  "source": "/shop/electric-dirt-bikes/srpnt-z27",
+  "destination": "/shop/electric-dirt-bikes/srpnt-x8/"
+ },
+ {
+  "source": "/shop/electric-mountain-bikes/hardtail-e-mtb-black",
+  "destination": "/shop/electric-mountain-bikes/"
+ },
+ {
+  "source": "/shop/cargo-bikes-and-e-trikes/electric-folding-trike-red-with-backrest",
+  "destination": "/shop/cargo-bikes-and-e-trikes/"
+ },
+ {
+  "source": "/shop/cargo-bikes-and-e-trikes/electric-trike-green-with-seat",
+  "destination": "/shop/cargo-bikes-and-e-trikes/"
+ },
+ {
+  "source": "/shop/cargo-bikes-and-e-trikes/ncm-cg7-cargo",
+  "destination": "/shop/cargo-bikes-and-e-trikes/"
+ },
+ {
+  "source": "/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr505",
+  "destination": "/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr777/"
+ },
+ {
+  "source": "/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr888",
+  "destination": "/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr777/"
+ },
+ {
+  "source": "/shop/care-tools-and-hydration/krush-rotor-revive",
+  "destination": "/shop/care-tools-and-hydration/"
+ },
+ {
+  "source": "/shop/electric-dirt-bikes/rerode-r1-electric-dirt-bike",
+  "destination": "/shop/electric-dirt-bikes/"
+ },
+ {
+  "source": "/shop/locks-and-security/multitag-mount-and-airtag",
+  "destination": "/shop/locks-and-security/"
+ },
+ {
+  "source": "/shop/racks-bags-and-trailers/fatboy-longboard-bike-rack",
+  "destination": "/shop/racks-bags-and-trailers/fatboy-cargo-rack-rear-v1/"
+ },
+ {
+  "source": "/shop/kids-electric-dirt-and-balance-bikes/rxf-dna-16-balance-bike",
+  "destination": "/shop/kids-electric-dirt-and-balance-bikes/"
+ },
+ {
+  "source": "/shop/kids-electric-dirt-and-balance-bikes/azonic-pure-16-balance-bike",
+  "destination": "/shop/kids-electric-dirt-and-balance-bikes/azonic-pure-12/"
+ },
+ {
+  "source": "/shop/commuter-and-urban-e-bikes/retro-step-through-city-e-bike-brown-tyres",
+  "destination": "/shop/commuter-and-urban-e-bikes/"
+ },
+ {
+  "source": "/shop/electric-mountain-bikes/trail-step-over-e-mtb-black-tbc",
+  "destination": "/shop/electric-mountain-bikes/"
+ },
+ {
+  "source": "/shop/electric-dirt-bikes/talaria-komodo-2026-edition",
+  "destination": "/shop/electric-dirt-bikes/talaria-komodo/"
+ },
+ {
+  "source": "/shop/electric-dirt-bikes/electric-dirt-bike-black-brand-tbc",
+  "destination": "/shop/electric-dirt-bikes/"
+ },
+ {
+  "source": "/shop/kids-electric-dirt-and-balance-bikes/lpr-12-v4-kids-electric-bike",
+  "destination": "/shop/kids-electric-dirt-and-balance-bikes/lpr-16-inch-v4-kids-electric-bike/"
+ },
+ {
+  "source": "/shop/commuter-and-urban-e-bikes/mamba-savannah-26-step-through-commuter",
+  "destination": "/shop/commuter-and-urban-e-bikes/"
+ },
+ {
+  "source": "/shop/phone-mounts-mirrors-and-audio/mirror-orbit-anti-glare",
+  "destination": "/shop/phone-mounts-mirrors-and-audio/phone-holder-gub-plus-11/"
+ },
+ {
+  "source": "/shop/care-tools-and-hydration/krush-ultra-drivetrain-degreaser",
+  "destination": "/shop/care-tools-and-hydration/"
+ },
+ {
+  "source": "/shop/racks-bags-and-trailers/azur-cargo-bike-double-pannier",
+  "destination": "/shop/racks-bags-and-trailers/azur-commuter-rear-pannier-bag-pair-48l-black/"
+ },
+ {
+  "source": "/shop/helmets-gloves-and-protection/100-itrack-gloves-bandana",
+  "destination": "/shop/helmets-gloves-and-protection/"
+ },
+ {
+  "source": "/shop/helmets-gloves-and-protection/hidrop-helmet-midnight-blue",
+  "destination": "/shop/helmets-gloves-and-protection/hidrop-helmet-shiny-black/"
+ },
+ {
+  "source": "/shop/seats-fenders-and-body/kids-joey-seat-kit",
+  "destination": "/shop/seats-fenders-and-body/"
+ },
+ {
+  "source": "/shop/cargo-bikes-and-e-trikes/cannondale-cargowagen-neo-bosch-e-bike",
+  "destination": "/shop/cargo-bikes-and-e-trikes/"
+ },
+ {
+  "source": "/shop/cargo-bikes-and-e-trikes/kristall-ex400-e-trike",
+  "destination": "/shop/cargo-bikes-and-e-trikes/"
+ },
+ {
+  "source": "/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim",
+  "destination": "/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/"
+ },
+ {
+  "source": "/shop/helmets-gloves-and-protection/havoc-infinity-mx-helmet",
+  "destination": "/shop/helmets-gloves-and-protection/"
+ },
+ {
+  "source": "/shop/electric-dirt-bikes/strike-shadow-72v-7kw",
+  "destination": "/shop/electric-dirt-bikes/strike-shadow-60v-5kw/"
+ },
+ {
+  "source": "/shop/kids-electric-dirt-and-balance-bikes/strike-shadow-48v-3kw",
+  "destination": "/shop/kids-electric-dirt-and-balance-bikes/"
+ },
+ {
+  "source": "/shop/kids-electric-dirt-and-balance-bikes/apollo-rxf-dna-12-balance-bike",
+  "destination": "/shop/kids-electric-dirt-and-balance-bikes/"
+ },
+ {
+  "source": "/shop/electric-dirt-bikes/yozma-in-10-electric-mini-dirt-bike",
+  "destination": "/shop/electric-dirt-bikes/"
+ },
+ {
+  "source": "/shop/seats-fenders-and-body/apollo-thunder-150cc-oil-filter",
+  "destination": "/shop/seats-fenders-and-body/rxf-junior-110-brake-lever-tip/"
+ },
+ {
+  "source": "/shop/phone-mounts-mirrors-and-audio/azur-optic-mirror-anti-glare",
+  "destination": "/shop/phone-mounts-mirrors-and-audio/"
+ },
+ {
+  "source": "/shop/phone-mounts-mirrors-and-audio/mirror-azur-focus-anti-glare",
+  "destination": "/shop/phone-mounts-mirrors-and-audio/"
+ },
+ {
+  "source": "/shop/racks-bags-and-trailers/azur-cargo-bike-waterproof-pannier-single",
+  "destination": "/shop/racks-bags-and-trailers/azur-touring-handlebar-bag-with-phone-pouch-grey/"
+ },
+ {
+  "source": "/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-black",
+  "destination": "/shop/racks-bags-and-trailers/"
+ },
+ {
+  "source": "/shop/care-tools-and-hydration/lezyne-lever-kit-light-grey",
+  "destination": "/shop/care-tools-and-hydration/"
+ },
+ {
+  "source": "/shop/cargo-bikes-and-e-trikes/moov8-c2-cargo-ebike-with-torque-sensor",
+  "destination": "/shop/cargo-bikes-and-e-trikes/"
+ },
+ {
+  "source": "/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo",
+  "destination": "/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/"
+ },
+ {
+  "source": "/shop/seats-fenders-and-body/apollo-thunder-125-front-axle-bolt",
+  "destination": "/shop/seats-fenders-and-body/rxf-junior-110-brake-lever-tip/"
+ },
+ {
+  "source": "/shop/helmets-gloves-and-protection/apollo-rxf-motocross-helmet",
+  "destination": "/shop/helmets-gloves-and-protection/"
+ },
+ {
+  "source": "/shop/kids-and-youth-e-bikes/dhz-20-electric-balance-bike-rear-brushless-motor",
+  "destination": "/shop/kids-and-youth-e-bikes/"
+ },
+ {
+  "source": "/shop/brakes/extreme-razor-etm-hydro-brake-kit",
+  "destination": "/shop/brakes/"
+ },
+ {
+  "source": "/shop/electric-mountain-bikes/shogun-etrail-breaker-1",
+  "destination": "/shop/electric-mountain-bikes/"
+ },
+ {
+  "source": "/shop/racks-bags-and-trailers/azur-quick-release-shopper-e-bike-mesh-basket",
+  "destination": "/shop/racks-bags-and-trailers/azur-commuter-rear-pannier-bag-pair-48l-black/"
+ },
+ {
+  "source": "/shop/racks-bags-and-trailers/thule-euroway-g2-2-bike-towbar-carrier",
+  "destination": "/shop/racks-bags-and-trailers/"
+ },
+ {
+  "source": "/shop/seats-fenders-and-body/azur-saddle-cover-road-memory-foam",
+  "destination": "/shop/seats-fenders-and-body/"
+ },
+ {
+  "source": "/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-black",
+  "destination": "/shop/racks-bags-and-trailers/"
+ },
+ {
+  "source": "/shop/seats-fenders-and-body/azur-pro-range-kappa-memory-foam",
+  "destination": "/shop/seats-fenders-and-body/"
+ },
+ {
+  "source": "/shop/wheels-tyres-and-tubes/tube-schrader-20-x3-50-5-0-48mm",
+  "destination": "/shop/wheels-tyres-and-tubes/"
+ },
+ {
+  "source": "/shop/commuter-and-urban-e-bikes/cannondale-adventure-neo-4-charcoal-grey",
+  "destination": "/shop/commuter-and-urban-e-bikes/cannondale-compact-neo-os/"
+ },
+ {
+  "source": "/shop/folding-e-bikes/moov8-m1-folding-ebike-with-rear-carrier-2023-model",
+  "destination": "/shop/folding-e-bikes/moov8-x-electric-bike-22x/"
+ },
+ {
+  "source": "/shop/kids-and-youth-e-bikes/pedal-warrior-2-24-electric-mountain-bike-red",
+  "destination": "/shop/kids-and-youth-e-bikes/"
+ },
+ {
+  "source": "/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-600",
+  "destination": "/shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/"
+ },
+ {
+  "source": "/shop/helmets-gloves-and-protection/100-percent-i-track-fluro-yellow-gloves",
+  "destination": "/shop/helmets-gloves-and-protection/"
+ },
+ {
+  "source": "/shop/lights-and-horns/niterider-lumina-1200-boost-led-rechargeable-headlight",
+  "destination": "/shop/lights-and-horns/"
+ },
+ {
+  "source": "/shop/racks-bags-and-trailers/kids-ride-shotgun-seat-handlebar-combo-black",
+  "destination": "/shop/racks-bags-and-trailers/"
+ },
+ {
+  "source": "/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-large-gen-2-black",
+  "destination": "/shop/controls-grips-and-pedals/flat-pedals-orange/"
+ },
+ {
+  "source": "/shop/controls-grips-and-pedals/crankbrothers-pedal-stamp-1-small-gen-2-orange",
+  "destination": "/shop/controls-grips-and-pedals/flat-pedals-orange/"
+ },
+ {
+  "source": "/shop/racks-bags-and-trailers/kids-ride-shotgun-2-0-seat-handlebar-combo-black",
+  "destination": "/shop/racks-bags-and-trailers/"
+ },
+ {
+  "source": "/shop/helmets-gloves-and-protection/abus-smiley-3-0-ace-led-kids-helmet-royal-blue",
+  "destination": "/shop/helmets-gloves-and-protection/abus-macator-helmet/"
+ },
+ {
+  "source": "/shop/cargo-bikes-and-e-trikes/kristall-ex200-e-trike",
+  "destination": "/shop/cargo-bikes-and-e-trikes/"
+ },
+ {
+  "source": "/shop/helmets-gloves-and-protection/livall-bh60se-smart-helmet",
+  "destination": "/shop/helmets-gloves-and-protection/"
+ },
+ {
+  "source": "/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-500",
+  "destination": "/shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-one-500/"
+ },
+ {
+  "source": "/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-pro-625",
+  "destination": "/shop/commuter-and-urban-e-bikes/cube-kathmandu-hybrid-pro-625/"
+ },
+ {
+  "source": "/shop/commuter-and-urban-e-bikes/cube-touring-hybrid-one-400",
+  "destination": "/shop/commuter-and-urban-e-bikes/cube-town-sport-hybrid-one-400/"
+ },
+ {
+  "source": "/shop/electric-mountain-bikes/superior-exp-8089",
+  "destination": "/shop/electric-mountain-bikes/"
+ },
+ {
+  "source": "/shop/commuter-and-urban-e-bikes/kona-coco-hd",
+  "destination": "/shop/commuter-and-urban-e-bikes/kona-dew-hd/"
+ },
+ {
+  "source": "/shop/fat-tyre-and-scrambler-e-bikes/reid-harbour-urban",
+  "destination": "/shop/fat-tyre-and-scrambler-e-bikes/"
+ },
+ {
+  "source": "/shop/folding-e-bikes/reid-emetro-folding",
+  "destination": "/shop/folding-e-bikes/"
+ },
+ {
+  "source": "/shop/commuter-and-urban-e-bikes/reid-quest-2",
+  "destination": "/shop/commuter-and-urban-e-bikes/reid-quest-1/"
+ },
+ {
+  "source": "/shop/commuter-and-urban-e-bikes/reid-quest-2-st",
+  "destination": "/shop/commuter-and-urban-e-bikes/reid-quest-1/"
+ },
+ {
+  "source": "/shop/electric-mountain-bikes/superior-exf-9019",
+  "destination": "/shop/electric-mountain-bikes/"
+ },
+ {
+  "source": "/shop/cargo-bikes-and-e-trikes/reid-2095",
+  "destination": "/shop/cargo-bikes-and-e-trikes/"
+ },
+ {
+  "source": "/shop/fat-tyre-and-scrambler-e-bikes/reid-rb250",
+  "destination": "/shop/fat-tyre-and-scrambler-e-bikes/"
+ },
+ {
+  "source": "/shop/commuter-and-urban-e-bikes/aventon-level-4-rec-st",
+  "destination": "/shop/commuter-and-urban-e-bikes/aventon-level-4-rec/"
+ },
+ {
+  "source": "/shop/electric-mountain-bikes/aventon-ramblas-adv",
+  "destination": "/shop/electric-mountain-bikes/"
+ },
+ {
+  "source": "/shop/fat-tyre-and-scrambler-e-bikes/reid-let-s-moto",
+  "destination": "/shop/fat-tyre-and-scrambler-e-bikes/"
+ },
+ {
+  "source": "/shop/electric-mountain-bikes/superior-exf-8089",
+  "destination": "/shop/electric-mountain-bikes/"
+ },
+ {
+  "source": "/shop/commuter-and-urban-e-bikes/reid-let-s-roll",
+  "destination": "/shop/commuter-and-urban-e-bikes/reid-quest-1/"
+ },
+ {
+  "source": "/shop/commuter-and-urban-e-bikes/cannondale-treadwell-neo",
+  "destination": "/shop/commuter-and-urban-e-bikes/cannondale-quick-neo/"
+ },
+ {
+  "source": "/shop/cargo-bikes-and-e-trikes/riese-and-m-ller-load-75",
+  "destination": "/shop/cargo-bikes-and-e-trikes/"
+ },
+ {
+  "source": "/shop/commuter-and-urban-e-bikes/gazelle-ultimate-c380",
+  "destination": "/shop/commuter-and-urban-e-bikes/"
+ },
+ {
+  "source": "/shop/kids-electric-dirt-and-balance-bikes/revvi-16-junior",
+  "destination": "/shop/kids-electric-dirt-and-balance-bikes/"
+ },
+ {
+  "source": "/brands/mondraker",
+  "destination": "/shop/electric-mountain-bikes/"
+ },
+ {
+  "source": "/brands/thule",
+  "destination": "/shop/racks-bags-and-trailers/"
+ },
+ {
+  "source": "/brands/yozma",
+  "destination": "/shop/electric-dirt-bikes/"
+ },
+ {
+  "source": "/brands/seat-drip",
+  "destination": "/shop/seats-fenders-and-body/"
+ }
+]

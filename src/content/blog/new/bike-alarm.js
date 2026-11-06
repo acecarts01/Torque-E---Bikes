@@ -23,7 +23,6 @@ export const meta = {
   },
   related: [
     { href: '/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/', name: 'Kovix Steel Thunder Alarmed Folding Lock', price: 109, note: 'A folding lock with an alarm.' },
-    { href: '/shop/locks-and-security/multitag-mount-and-airtag/', name: 'Multitag Mount & Airtag', price: 93.95, note: 'A mount and tag to help locate a bike.' },
     { href: '/shop/locks-and-security/mastiff-chain-lock-keyed/', name: 'Mastiff Chain-Lock Keyed', price: 99, note: 'A keyed chain lock.' },
     { href: '/shop/locks-and-security/onguard-chain-lock/', name: 'OnGuard Chain Lock', price: 38.95, note: 'The lowest-priced lock in our range.' },
     { href: '/shop/locks-and-security/', name: 'All locks and security', note: 'Locks, alarms and tags.' },
@@ -38,7 +37,7 @@ export const meta = {
     from: [
       ['/shop/locks-and-security/', 'bike alarm buying guide'],
       ['/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/', 'how to choose a bike alarm'],
-      ['/shop/locks-and-security/multitag-mount-and-airtag/', 'bicycle alarm system and tracker: what to check'],
+      ['/shop/locks-and-security/', 'bicycle alarm system and tracker: what to check'],
     ],
   },
   kind: 'post',
@@ -62,7 +61,6 @@ export const body = {
           ['[Kovix Steel Thunder Alarmed Folding Lock](/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/)', 'Kovix', '$109', 'Lock with an alarm'],
           ['[Mastiff Chain-Lock Keyed](/shop/locks-and-security/mastiff-chain-lock-keyed/)', 'Mastiff', '$99', 'Keyed chain lock'],
           ['[OnGuard Chain Lock](/shop/locks-and-security/onguard-chain-lock/)', 'OnGuard', '$38.95', 'Chain lock'],
-          ['[Multitag Mount & Airtag](/shop/locks-and-security/multitag-mount-and-airtag/)', 'Multitag', '$93.95', 'Mount and tag to help locate a bike'],
         ],
       },
     },
@@ -142,7 +140,7 @@ export const body = {
     {
       h: 'Which bike alarm should you buy?',
       p: [
-        'If you want a lock and an alarm in one, the [Kovix Steel Thunder alarmed folding lock at $109](/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/) is the alarm option in our range. For a strong physical lock, the [Mastiff keyed chain lock at $99](/shop/locks-and-security/mastiff-chain-lock-keyed/) and the [OnGuard chain lock at $38.95](/shop/locks-and-security/onguard-chain-lock/) are the chain options. To help locate a bike, the [Multitag mount and AirTag at $93.95](/shop/locks-and-security/multitag-mount-and-airtag/) hides a tag on the frame.',
+        'If you want a lock and an alarm in one, the [Kovix Steel Thunder alarmed folding lock at $109](/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/) is the alarm option in our range. For a strong physical lock, the [Mastiff keyed chain lock at $99](/shop/locks-and-security/mastiff-chain-lock-keyed/) and the [OnGuard chain lock at $38.95](/shop/locks-and-security/onguard-chain-lock/) are the chain options. To help locate a bike, the [Multitag mount and AirTag at $93.95](/shop/locks-and-security/) hides a tag on the frame.',
         'Message us with where you park and what you ride and we will suggest a combination. You can also browse the full [locks and security range](/shop/locks-and-security/).',
       ],
     },

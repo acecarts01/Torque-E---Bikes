@@ -23,7 +23,6 @@ export const meta = {
   },
   related: [
     { href: '/shop/kids-electric-dirt-and-balance-bikes/razor-mx350/', name: 'Razor MX350', price: 499, note: 'The lowest-priced Razor MX. Off-road and private property use only.' },
-    { href: '/shop/kids-electric-dirt-and-balance-bikes/razor-mx400/', name: 'Razor MX400', price: 599, note: 'Off-road and private property use only.' },
     { href: '/shop/kids-electric-dirt-and-balance-bikes/razor-mx500/', name: 'Razor MX500', price: 899, note: 'Off-road and private property use only.' },
     { href: '/shop/kids-electric-dirt-and-balance-bikes/razor-mx650/', name: 'Razor MX650', price: 1299, note: 'The top Razor MX in our range. Off-road and private property use only.' },
     { href: '/shop/kids-electric-dirt-and-balance-bikes/', name: 'All kids electric dirt and balance bikes', note: 'Kids dirt bikes and balance bikes.' },
@@ -60,7 +59,6 @@ export const body = {
         head: ['Model', 'Brand', 'Price', 'Use'],
         rows: [
           ['[Razor MX350](/shop/kids-electric-dirt-and-balance-bikes/razor-mx350/)', 'Razor', '$499', 'Off-road and private property only'],
-          ['[Razor MX400](/shop/kids-electric-dirt-and-balance-bikes/razor-mx400/)', 'Razor', '$599', 'Off-road and private property only'],
           ['[Razor MX500](/shop/kids-electric-dirt-and-balance-bikes/razor-mx500/)', 'Razor', '$899', 'Off-road and private property only'],
           ['[Razor MX650](/shop/kids-electric-dirt-and-balance-bikes/razor-mx650/)', 'Razor', '$1,299', 'Off-road and private property only'],
         ],
@@ -90,7 +88,7 @@ export const body = {
       h: 'Protective gear for a Razor MX: helmet, goggles, gloves, boots and armour',
       p: [
         'The Queensland Government\'s [motorcycle safety gear page](https://www.qld.gov.au/transport/safety/road-safety/motorcycle-safety/safety-gear) is written for road motorcyclists, but its advice is a sound guide for any motorbike rider. It says riders should wear a helmet that complies with the Australian standard (AS/NZS 1698 or AS 1698) and use a clear visor or goggles that are shatterproof without scratches. It recommends gauntlet-style gloves with a strengthened palm and knuckle protection, leather boots with fasteners that will not slide off and without laces that can catch on pegs, a back protector with dual density foam, and long, abrasion-resistant pants and a jacket that cover the arms, legs and body.',
-        'For a Razor MX, that means a proper motocross helmet, goggles, gloves, boots and body armour before the first ride. Our range includes the [Apollo RXF motocross helmet at $94.95](/shop/helmets-gloves-and-protection/apollo-rxf-motocross-helmet/) and the [Havoc Infinity MX helmet at $119](/shop/helmets-gloves-and-protection/havoc-infinity-mx-helmet/), and the [79Bike protective armour at $189](/shop/helmets-gloves-and-protection/79bike-protective-armour/). See our [motorbike goggles guide](/blog/motorbike-goggles/) and [helmets and protective gear guide](/blog/helmets-and-protective-gear-for-e-bikes/).',
+        'For a Razor MX, that means a proper motocross helmet, goggles, gloves, boots and body armour before the first ride. Our range includes the [Apollo RXF motocross helmet at $94.95](/shop/helmets-gloves-and-protection/) and the [Havoc Infinity MX helmet at $119](/shop/helmets-gloves-and-protection/), and the [79Bike protective armour at $189](/shop/helmets-gloves-and-protection/79bike-protective-armour/). See our [motorbike goggles guide](/blog/motorbike-goggles/) and [helmets and protective gear guide](/blog/helmets-and-protective-gear-for-e-bikes/).',
         'Fit matters as much as the label. A helmet must fit the rider\'s head, not be big enough to grow into. Check the size chart or send us a head measurement.',
       ],
     },
@@ -158,7 +156,7 @@ export const body = {
     {
       h: 'Which Razor e bike should you buy?',
       p: [
-        'If you want the lowest price, the [Razor MX350 at $499](/shop/kids-electric-dirt-and-balance-bikes/razor-mx350/) is the entry point. The [MX400 at $599](/shop/kids-electric-dirt-and-balance-bikes/razor-mx400/) is the next step, the [MX500 at $899](/shop/kids-electric-dirt-and-balance-bikes/razor-mx500/) is the larger bike and the [MX650 at $1,299](/shop/kids-electric-dirt-and-balance-bikes/razor-mx650/) is the top Razor MX in our range. All four are for off-road and private property use only.',
+        'If you want the lowest price, the [Razor MX350 at $499](/shop/kids-electric-dirt-and-balance-bikes/razor-mx350/) is the entry point. The [MX400 at $599](/shop/kids-electric-dirt-and-balance-bikes/razor-mx350/) is the next step, the [MX500 at $899](/shop/kids-electric-dirt-and-balance-bikes/razor-mx500/) is the larger bike and the [MX650 at $1,299](/shop/kids-electric-dirt-and-balance-bikes/razor-mx650/) is the top Razor MX in our range. All four are for off-road and private property use only.',
         'Send us the rider\'s height, weight and experience and where you will ride, and we will suggest a model and confirm availability. You can also browse the full [kids electric dirt and balance bikes range](/shop/kids-electric-dirt-and-balance-bikes/).',
       ],
     },

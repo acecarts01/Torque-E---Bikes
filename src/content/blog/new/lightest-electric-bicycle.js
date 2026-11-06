@@ -25,7 +25,6 @@ export const meta = {
   },
   related: [
     { href: '/shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-4-0/', name: 'Specialized Turbo Vado SL 4.0', price: 5500, note: 'A Turbo Vado SL commuter.' },
-    { href: '/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-4-0/', name: 'Specialized Turbo Como SL 4.0', price: 5500, note: 'A Turbo Como SL urban bike.' },
     { href: '/shop/folding-e-bikes/smartmotion-folding-step-through-e-bike/', name: 'SmartMotion Folding Step-Through E-Bike', price: 1899, note: 'A folding step-through e-bike.' },
     { href: '/shop/folding-e-bikes/', name: 'All folding e-bikes', note: 'Folding e-bikes from $1,069.' },
   ],
@@ -38,7 +37,7 @@ export const meta = {
     ],
     from: [
       ['/shop/commuter-and-urban-e-bikes/', 'lightest electric bicycle buying guide'],
-      ['/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-4-0/', 'lightweight electric bike: how to compare'],
+      ['/shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-4-0/', 'lightweight electric bike: how to compare'],
       ['/shop/folding-e-bikes/smartmotion-folding-step-through-e-bike/', 'light weight electric bike'],
     ],
   },
@@ -92,8 +91,6 @@ export const body = {
         head: ['Model', 'Type', 'Price (AUD)'],
         rows: [
           ['[Specialized Turbo Vado SL 4.0](/shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-4-0/)', 'SL commuter', '$5,500'],
-          ['[Specialized Turbo Como SL 4.0](/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-4-0/)', 'SL urban', '$5,500'],
-          ['[Specialized Turbo Como SL 5.0](/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-5-0/)', 'SL urban', '$6,500'],
           ['[Specialized Turbo Vado SL 5.0](/shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-5-0/)', 'SL commuter', '$6,700'],
           ['[Foo F1 Folding E-Bike](/shop/folding-e-bikes/foo-f1-folding-e-bike/)', 'Folding', '$1,499'],
           ['[SmartMotion Folding Step-Through E-Bike](/shop/folding-e-bikes/smartmotion-folding-step-through-e-bike/)', 'Folding step-through', '$1,899'],
@@ -166,7 +163,7 @@ export const body = {
     {
       h: 'Which light electric bicycle should you choose?',
       p: [
-        'For a light-system commuter, compare the [Specialized Turbo Vado SL 4.0 at $5,500](/shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-4-0/) and the [Turbo Como SL 4.0 at $5,500](/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-4-0/). For a folding bike that is easy to store, look at the [SmartMotion Folding Step-Through E-Bike at $1,899](/shop/folding-e-bikes/smartmotion-folding-step-through-e-bike/). Browse the full [commuter and urban e-bikes range](/shop/commuter-and-urban-e-bikes/) and [folding e-bikes range](/shop/folding-e-bikes/).',
+        'For a light-system commuter, compare the [Specialized Turbo Vado SL 4.0 at $5,500](/shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-4-0/) and the [Turbo Como SL 4.0 at $5,500](/shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-4-0/). For a folding bike that is easy to store, look at the [SmartMotion Folding Step-Through E-Bike at $1,899](/shop/folding-e-bikes/smartmotion-folding-step-through-e-bike/). Browse the full [commuter and urban e-bikes range](/shop/commuter-and-urban-e-bikes/) and [folding e-bikes range](/shop/folding-e-bikes/).',
         'Tell us how you will use the bike and how heavy a bike you can lift, and we will confirm the maker\'s weights and the compliance. All orders ship Australia-wide with dangerous-goods certified dispatch.',
       ],
     },

@@ -26,8 +26,6 @@ export const meta = {
   },
   related: [
     { href: '/shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-4-0/', name: 'Specialized Turbo Vado SL 4.0', price: 5500, note: 'A Turbo Vado commuter.' },
-    { href: '/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-4-0/', name: 'Specialized Turbo Como SL 4.0', price: 5500, note: 'A Turbo Como urban bike.' },
-    { href: '/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-comp-carbon/', name: 'Specialized Turbo Creo SL Comp Carbon', price: 9800, note: 'A Turbo Creo road and gravel bike.' },
     { href: '/shop/electric-mountain-bikes/specialized-turbo-levo-sl-comp-carbon/', name: 'Specialized Turbo Levo SL Comp Carbon', price: 11900, note: 'A Turbo Levo e-mountain bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: 'Commuter and urban e-bikes.' },
   ],
@@ -64,10 +62,6 @@ export const body = {
         rows: [
           ['[Specialized Turbo Vado SL 4.0](/shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-4-0/)', 'Vado (commuter)', '$5,500'],
           ['[Specialized Turbo Vado SL 5.0](/shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-5-0/)', 'Vado (commuter)', '$6,700'],
-          ['[Specialized Turbo Como SL 4.0](/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-4-0/)', 'Como (urban)', '$5,500'],
-          ['[Specialized Turbo Como SL 5.0](/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-5-0/)', 'Como (urban)', '$6,500'],
-          ['[Specialized Turbo Creo SL Comp Carbon](/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-comp-carbon/)', 'Creo (road and gravel)', '$9,800'],
-          ['[Specialized Turbo Creo SL Expert EVO](/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-expert-evo/)', 'Creo (road and gravel)', '$13,500'],
           ['[Specialized Turbo Kenevo Expert](/shop/electric-mountain-bikes/specialized-turbo-kenevo-expert/)', 'Kenevo (e-mountain)', '$10,500'],
           ['[Specialized Turbo Levo SL Comp Carbon](/shop/electric-mountain-bikes/specialized-turbo-levo-sl-comp-carbon/)', 'Levo (e-mountain)', '$11,900'],
           ['[Specialized Turbo Kenevo SL Expert](/shop/electric-mountain-bikes/specialized-turbo-kenevo-sl-expert/)', 'Kenevo (e-mountain)', '$13,500'],
@@ -172,7 +166,7 @@ export const body = {
     {
       h: 'Which Specialized e bike should you choose?',
       p: [
-        'For the city, start with the [Turbo Vado SL 4.0 at $5,500](/shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-4-0/) or the [Turbo Como SL 4.0 at $5,500](/shop/commuter-and-urban-e-bikes/specialized-turbo-como-sl-4-0/). For road and gravel, the [Turbo Creo SL Comp Carbon at $9,800](/shop/road-and-gravel-e-bikes/specialized-turbo-creo-sl-comp-carbon/) is our entry. For the trail, look at the [Turbo Levo SL Comp Carbon at $11,900](/shop/electric-mountain-bikes/specialized-turbo-levo-sl-comp-carbon/). Browse every Specialized in our [commuter and urban e-bikes range](/shop/commuter-and-urban-e-bikes/) and [electric mountain bikes range](/shop/electric-mountain-bikes/).',
+        'For the city, start with the [Turbo Vado SL 4.0 at $5,500](/shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-4-0/) or the [Turbo Como SL 4.0 at $5,500](/shop/commuter-and-urban-e-bikes/specialized-turbo-vado-sl-4-0/). For road and gravel, the [Turbo Creo SL Comp Carbon at $9,800](/shop/road-and-gravel-e-bikes/) is our entry. For the trail, look at the [Turbo Levo SL Comp Carbon at $11,900](/shop/electric-mountain-bikes/specialized-turbo-levo-sl-comp-carbon/). Browse every Specialized in our [commuter and urban e-bikes range](/shop/commuter-and-urban-e-bikes/) and [electric mountain bikes range](/shop/electric-mountain-bikes/).',
         'Tell us where you ride and your budget, and we will confirm the model year, the maker\'s figures and the compliance for your state.',
       ],
     },

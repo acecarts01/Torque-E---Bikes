@@ -12,10 +12,8 @@ export const meta = {
   tags: ['ebike fat tyre', 'electric bicycles with fat tires', 'fat tire electric bicycles', 'fat wheel e bike', 'fat tyre e bikes', 'fat wheel ebike', 'fat wheel electric bikes', 'fat tires ebike', 'electric fat bikes', 'fat electric bike'],
   imageAlt: 'Bike with wide tyres parked in the snow, the grip a fat tyre e bike is known for',
   related: [
-    { href: '/shop/fat-tyre-and-scrambler-e-bikes/reid-rb250/', name: 'Reid RB250', price: 1609, note: 'Our lowest-priced fat-tyre and scrambler e-bike.' },
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/riptide-3-electric-bike/', name: 'Riptide 3 Electric Bike', price: 2059, note: 'A fat-tyre e-bike.' },
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-dna-v3/', name: 'Fatboy The DNA V3', price: 2259, note: 'Fatboy fat-tyre e-bike.' },
-    { href: '/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr505/', name: 'Flight Risk FR505', price: 2429, note: 'Scrambler-style e-bike.' },
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/', name: 'All fat-tyre and scrambler e-bikes', note: '41 models.' },
   ],
   links: {
@@ -28,7 +26,7 @@ export const meta = {
     ],
     from: [
       ['/shop/fat-tyre-and-scrambler-e-bikes/', 'fat tyre e bike guide'],
-      ['/shop/fat-tyre-and-scrambler-e-bikes/reid-rb250/', 'how to choose a fat tyre e bike'],
+      ['/shop/fat-tyre-and-scrambler-e-bikes/', 'how to choose a fat tyre e bike'],
       ['/shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-dna-v3/', 'fat tyre e bikes compared'],
     ],
   },
@@ -48,13 +46,11 @@ export const body = {
       table: {
         head: ['Model', 'Price', 'Style'],
         rows: [
-          ['[Reid RB250](/shop/fat-tyre-and-scrambler-e-bikes/reid-rb250/)', '$1,609', 'Scrambler'],
           ["Reid Let's Moto", '$1,609', 'Scrambler'],
           ['[Riptide 3 Electric Bike](/shop/fat-tyre-and-scrambler-e-bikes/riptide-3-electric-bike/)', '$2,059', 'Fat tyre'],
           ['Fat Scrambler E-Bike Cream', '$2,199', 'Fat scrambler'],
           ['[Fatboy The DNA V3](/shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-dna-v3/)', '$2,259', 'Fat tyre'],
           ['Dirodi Rover Gen6', '$2,359', 'Fat tyre'],
-          ['[Flight Risk FR505](/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr505/)', '$2,429', 'Scrambler'],
           ['Flight Risk FR777', '$4,849', 'Premium scrambler'],
         ],
       },

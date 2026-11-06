@@ -16,7 +16,6 @@ export const meta = {
   imageAlt: 'Bicycle in a workshop, the starting point for a 2000w ebike conversion',
   related: [
     { href: '/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/', name: 'Torque 1000W E-Bike Conversion Combo', price: 819, note: 'Off-road and private property use only.' },
-    { href: '/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/', name: 'Torque 500W E-Bike Conversion Kit Combo', price: 859, note: 'Off-road and private property use only.' },
     { href: '/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/', name: 'Torque Arms (1500W-5000W Kits)', price: 51.95, note: 'Holds the axle in the dropouts on high-power builds.' },
     { href: '/shop/motors-drivetrain-and-sprockets/79bike-falcon-pro-motor/', name: '79Bike Falcon Pro Motor', price: 1350, note: 'Off-road and private property use only.' },
     { href: '/shop/motors-drivetrain-and-sprockets/', name: 'All motors, drivetrain and sprockets', note: 'Kits, motors, chains and sprockets.' },
@@ -52,7 +51,6 @@ export const body = {
         rows: [
           ['[Torque Arms (1500W-5000W Kits)](/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/)', '$51.95', 'Axle support for high-power builds'],
           ['[Torque 1000W E-Bike Conversion Combo](/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/)', '$819', 'Off-road and private property only'],
-          ['[Torque 500W E-Bike Conversion Kit Combo](/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/)', '$859', 'Off-road and private property only'],
           ['[79Bike Falcon Pro Motor](/shop/motors-drivetrain-and-sprockets/79bike-falcon-pro-motor/)', '$1,350', 'Off-road and private property only'],
         ],
       },
