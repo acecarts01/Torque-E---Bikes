@@ -1,0 +1,1 @@
+{"date":"2026-11-04","band":"volume 70-99","cols":"x|keyword|intent|you|ebs|pedl|ride|emove|volume|kd|cpc|com|results","rows":[]}

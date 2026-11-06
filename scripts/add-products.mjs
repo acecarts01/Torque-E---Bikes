@@ -19,7 +19,10 @@ const tab = f => { const a = parse(read(f)); const h = a.shift(); return a.map(r
 const num = v => { v = String(v || '').replace(/,/g, ''); return /K$/i.test(v) ? parseFloat(v) * 1000 : parseFloat(v) || 0 }
 
 // ---------- keyword pool (strict: T and/or C only, KD<=28, volume>0, not used on the site)
-const used = new Set(read('docs/used-keywords.csv').toLowerCase().split(NL).map(l => (l.split(',')[3] || '').trim()))
+const SPECS0 = JSON.parse(read('scripts/new-products.json'))
+const PURGE_CATS = ['electric-scooters', 'kids-electric-scooters', 'electric-go-karts']
+const PURGE_URLS = new Set([...SPECS0.map(s => '/shop/' + s.category + '/' + s.slug + '/'), ...PURGE_CATS.map(c => '/shop/' + c + '/'), '/brands/segway/'])
+const used = new Set(read('docs/used-keywords.csv').toLowerCase().split(NL).filter(l => !PURGE_URLS.has(l.split(',')[0])).map(l => (l.split(',')[3] || '').trim()))
 const pool = new Map()
 const add = (kw, vol, kd, intent) => {
   kw = String(kw).toLowerCase().trim(); vol = num(vol); kd = parseFloat(kd)
@@ -69,9 +72,9 @@ for (const s of specs) {
     compliance: s.offroad ? 'off-road' : '', badge: '', power: 'N/A', voltage: 'N/A', compatibility: [], featured: false, images: imgs, stock: 'In Stock', _spec: s,
   })
 }
-const existing = new Set(catMod.CATALOG_PRODUCTS.map(p => p.slug))
-if (products.some(p => existing.has(p.slug))) throw new Error('a new product slug already exists')
-const all = [...catMod.CATALOG_PRODUCTS, ...products.map(({ _spec, ...p }) => p)]
+const specSlugs = new Set(specs.map(s => s.slug))
+const baseCatalogue = catMod.CATALOG_PRODUCTS.filter(p => !specSlugs.has(p.slug))
+const all = [...baseCatalogue, ...products.map(({ _spec, ...p }) => p)]
 const byCat = c => all.filter(p => p.category === c).sort((a, b) => a.price - b.price)
 const median = a => a[Math.floor(a.length / 2)].price
 
@@ -84,28 +87,34 @@ for (const p of products) {
 }
 const seoNew = {}, faqNew = {}, copyNew = {}
 const url = p => `/shop/${p.category}/${p.slug}/`
-const helmets = all.filter(p => p.category === 'helmets-gloves-and-protection').sort((a, b) => a.price - b.price)
+const helmets = all.filter(p => p.category === 'helmets-gloves-and-protection' && /helmet/i.test(p.name)).sort((a, b) => a.price - b.price)
 const locks = all.filter(p => p.category === 'locks-and-security').sort((a, b) => a.price - b.price)
 const link = p => `[${p.name}](${url(p)}) (${aud(p.price)})`
 for (const p of products) {
   const s = p._spec, c = CATS[p.category], list = byCat(p.category), idx = list.findIndex(x => x.slug === p.slug)
   const nb = [list[idx - 1], list[idx + 1]].filter(Boolean)
   const brandCount = all.filter(x => x.brand === p.brand).length
+  const QLD = '[Queensland Government rules for personal mobility devices](https://www.qld.gov.au/transport/safety/rules/wheeled-devices/personal-mobility-devices)'
   const rules = s.offroad
-    ? 'Please note it is off-road equipment for private property: it is not road legal in Australia and is not registrable, so check where you can ride it before ordering.'
+    ? 'Please note it is for private property use only: it is not road legal in Australia and is not registrable, so check where you can ride it before ordering.'
     : 'Rules for e-scooters differ between states and territories, covering speed, power, rider age and where you may ride, so check your state road authority before riding on public paths or roads.'
+  const gov = p.category === 'electric-go-karts' ? null
+    : s.offroad ? `The supplier’s listed top speed is well above the 25 km/h motor-propelled limit that Queensland applies to personal mobility devices (${QLD}, updated 26 August 2026, read 6 Nov 2026), which is why we list it for private property use only.`
+      : p.category === 'kids-electric-scooters' ? `In Queensland, personal mobility devices are capped at 25 km/h (12 km/h on footpaths and shared paths) and from 31 August 2026 riders on public paths and roads must be 16 and hold a licence (${QLD}, updated 26 August 2026, read 6 Nov 2026), so treat this as a scooter for private property unless your state says otherwise.`
+        : `In Queensland, personal mobility devices are capped at 25 km/h (12 km/h on footpaths and shared paths), riders must wear an approved helmet, and from 31 August 2026 riders on public paths and roads must be 16 and hold a licence (${QLD}, updated 26 August 2026, read 6 Nov 2026). Other states differ.`
   const check = p.category === 'kids-electric-scooters'
     ? 'Before you buy a kids electric scooter, check the maker’s age and weight limits; how fast it goes and whether the speed can be limited; and how the folding and braking work for a child. Fit a helmet and supervise young riders. We list the specification we hold on the product page, and we will chase the maker for anything missing.'
     : p.category === 'electric-go-karts'
       ? 'Before you buy an electric go-kart, check the rider weight and height limits; the battery capacity and charging time; and where you will drive it, because it is for private property only. We list the specification we hold on the product page, and we will chase the maker for anything missing.'
       : 'Before you buy an electric scooter like this, compare the claimed range with your daily trip; the motor rating and the tyre and suspension type; and the weight you will need to carry or lift. We list the specification we hold on the product page, and we will chase the maker for anything missing.'
-  const comp = [helmets[0], locks[0]].filter(Boolean)
+  const comp = p.category === 'electric-scooters' ? [helmets[0], locks[0]].filter(Boolean) : []
   const paras = [
     `You can order the ${p.name} from Torque E-Bikes for ${aud(p.price)} AUD. This ${s.kind} from ${p.brand} is available now, and orders ship Australia-wide from our Brisbane base once freight has been agreed with you. ${rules}`,
-    `In our ${c.name} range of ${list.length} product${list.length > 1 ? 's' : ''} it is the ${ord(idx + 1)} lowest priced${nb.length ? `, next to ${nb.map(x => `the [${x.name}](${url(x)}) at ${aud(x.price)}`).join(' and ')}` : ''}. Torque E-Bikes lists ${brandCount} ${p.brand} product${brandCount > 1 ? 's' : ''}, and you can browse the range in the [${c.name}](/shop/${p.category}/) category.`,
+    `${list.length > 1 ? `In our ${c.name} range of ${list.length} products it is the ${ord(idx + 1)} lowest priced${nb.length ? `, next to ${nb.map(x => `the [${x.name}](${url(x)}) at ${aud(x.price)}`).join(' and ')}` : ''}.` : `It is currently the only product in our [${c.name}](/shop/${p.category}/) category.`} Torque E-Bikes lists ${brandCount} ${p.brand} product${brandCount > 1 ? 's' : ''}, and you can browse ${list.length > 1 ? `the range in the [${c.name}](/shop/${p.category}/) category` : 'them in [our shop](/shop/)'}.`,
     check,
-    comp.length ? `Good companions for it include the ${comp.map(link).join(' and the ')}, and adding them to one order saves a second delivery.` : 'We can add accessories to the same order and freight booking.',
-    ...(s.facts ? [`From the supplier’s listing of the maker’s specifications (read 6 Nov 2026), the ${p.name} ${/^(riders|a rider range)/.test(s.facts) ? 'is listed for' : 'has'} ${s.facts}`] : []),
+    comp.length ? `Good companions for it include the ${comp.map(link).join(' and the ')}, and adding them to one order saves a second delivery.` : `A helmet belongs on every ride: browse our [helmets, gloves and protection](/shop/helmets-gloves-and-protection/) range, and we can add one to the same order and freight booking.`,
+    ...(gov ? [gov] : []),
+    ...(s.facts ? [`Details read on 6 Nov 2026: the ${p.name} ${s.facts}.${s.ref ? ` Source: [${s.ref.text}](${s.ref.url}).` : ''}`] : []),
     'You can pay by bank transfer, PayID or crypto (10% off for crypto), subject to the $499.99 minimum order, or message the team on WhatsApp on 0480 804 189 for a quote.',
   ]
   copyNew[p.slug] = paras
@@ -114,7 +123,7 @@ for (const p of products) {
     title: `${p.name} — Buy in Australia`.slice(0, 60),
     h1: `${p.name} — shipped Australia-wide`,
     meta: `${p.name}: ${s.kind} from ${aud(p.price)} at Torque E-Bikes. Shipped Australia-wide from Brisbane. Order now.`,
-    alt: `${p.name} — ${c.name.toLowerCase()} side view`,
+    alt: kw[0] && kw[0] !== p.name.toLowerCase() ? `${kw[0]} — ${p.name} product photo` : `${p.name} — product photo`,
     kw,
   }
   faqNew[url(p)] = [{ q: `How much is the ${p.name} in Australia?`, a: `The ${p.name} from ${p.brand} costs ${aud(p.price)} AUD, listed in our ${c.name} range. Paying by crypto takes 10% off the order total.` }]
@@ -135,9 +144,13 @@ for (const [slug, c] of Object.entries(CATS)) {
     : slug === 'kids-electric-scooters'
       ? 'Check the maker’s age and weight limits, fit a helmet and supervise young riders; rules on where e-scooters may be ridden differ between states and territories.'
       : 'Rules for e-scooters differ between states and territories, including limits on speed, power, rider age and where you can ride, so check your state road authority before riding on public paths or roads.'
+  const QLDC = '[Queensland Government rules for personal mobility devices](https://www.qld.gov.au/transport/safety/rules/wheeled-devices/personal-mobility-devices)'
   catCopy[slug] = [
     `Torque E-Bikes lists ${list.length} ${c.kind}, priced from ${aud(low)} to ${aud(high)} with a typical price near ${aud(median(list))}. Brands include ${brandTxt}, with the number of products in brackets. Every price is in Australian dollars, and orders ship Australia-wide from Brisbane with freight confirmed before payment.`,
     `${rule} When you compare ${c.kind} in this range, look at the claimed range against your usual trip, the motor rating, the tyre and brake type, and the weight you will need to lift. The team can confirm stock and the total cost to your postcode before you order.`,
+    ...(slug === 'electric-go-karts' ? [] : [slug === 'kids-electric-scooters'
+      ? `In Queensland, personal mobility devices are capped at 25 km/h (12 km/h on footpaths and shared paths) and from 31 August 2026 riders on public paths and roads must be 16 and hold a licence (${QLDC}, updated 26 August 2026, read 6 Nov 2026), so we describe these as scooters for private property unless your state says otherwise.`
+      : `In Queensland, personal mobility devices are capped at 25 km/h (12 km/h on footpaths and shared paths) and riders must wear an approved helmet (${QLDC}, updated 26 August 2026, read 6 Nov 2026). The performance Dragon models in this range are listed for private property use only. Other states differ, so check yours.`]),
   ]
   catEntries.push({ slug, name: c.name, group: GROUP, description: `Shop ${list.length} ${c.kind} from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.`, image: list[0].images[0], count: list.length })
   const primary = kws[0] ? kws[0].kw : c.name.toLowerCase()
@@ -160,7 +173,7 @@ const brandCounts = {}; all.filter(p => p.brand && p.brand !== 'TBC').forEach(p 
 const slugify = s => s.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
 const hubSeo = {}, hubFaq = {}
 for (const [b, n] of Object.entries(brandCounts)) {
-  const bs = slugify(b); if (n < 5 || seoNow[`/brands/${bs}/`]) continue
+  const bs = slugify(b); if (n < 5 || (seoNow[`/brands/${bs}/`] && !PURGE_URLS.has(`/brands/${bs}/`))) continue
   const items = all.filter(p => p.brand === b).sort((a, c) => a.price - c.price)
   const kws = pick(`^${b.toLowerCase()} (scooter|scooters|e scooter|e scooters|e bike|electric scooter|electric scooters)$|^electric scooter ${b.toLowerCase()}$`, null, 8)
   const catsOf = [...new Set(items.map(p => p.category))]
@@ -171,6 +184,32 @@ for (const [b, n] of Object.entries(brandCounts)) {
   ]
   kws.forEach((e, i) => reg.push([`/brands/${bs}/`, 'brand-hub', i === 0 ? 'primary' : 'secondary', e.kw, e.vol, e.kd, e.intent === 'T' ? 'Transactional' : 'Commercial', SRC].join(',')))
 }
+
+// ---------- planned internal-link anchors (category, brand and related-product links on each new product page)
+const planned = {}, planRows = []
+const noindex = new Set(JSON.parse(read('src/config/noindex-products.json')))
+const catKwList = Object.fromEntries(Object.entries(catSeo).map(([k, v]) => [k, v.kw]))
+const hubKwList = Object.fromEntries(Object.entries(hubSeo).map(([k, v]) => [k, v.kw]))
+const rot = {}
+const nextOf = (key, list) => { if (!list || !list.length) return null; rot[key] = (rot[key] || 0); return list[rot[key]++ % list.length] }
+const planRow = (target, anchor, source, placement, role) => planRows.push([target, anchor, anchor, source, placement, role].join(','))
+for (const p of products) {
+  const src = url(p), out = (planned[src] = {}), seenAnchors = new Set()
+  const catHref = `/shop/${p.category}/`, ca = nextOf(catHref, catKwList[catHref])
+  if (ca) { out[catHref] = ca; seenAnchors.add(ca); planRow(catHref, ca, src, 'Product page category link', 'secondary') }
+  const hubHref = `/brands/${slugify(p.brand)}/`
+  if (hubKwList[hubHref]) { const ba = nextOf(hubHref, hubKwList[hubHref].filter(k => !seenAnchors.has(k))); if (ba) { out[hubHref] = ba; seenAnchors.add(ba); planRow(hubHref, ba, src, 'Product page brand link', 'secondary') } }
+  const ok = q => q.slug !== p.slug && !noindex.has(q.slug)
+  const sameCat = all.filter(q => ok(q) && q.category === p.category).sort((a, b) => Math.abs(a.price - p.price) - Math.abs(b.price - p.price)).slice(0, 4)
+  const seen = new Set(sameCat.map(q => q.slug))
+  const sameBrand = p.brand && p.brand !== 'TBC' ? all.filter(q => ok(q) && q.brand === p.brand && !seen.has(q.slug)).sort((a, b) => Math.abs(a.price - p.price) - Math.abs(b.price - p.price)).slice(0, 2) : []
+  for (const q of [...sameCat, ...sameBrand]) {
+    const kws = kwOf[q.slug]; if (!kws || kws.length < 2) continue
+    const a = kws.slice(1).map(e => e.kw).find(k => !seenAnchors.has(k)); if (!a) continue
+    out[url(q)] = a; seenAnchors.add(a); planRow(url(q), a, src, 'Product page “Compatible and related” block', 'secondary')
+  }
+}
+console.log('planned internal-link anchors:', planRows.length)
 
 // ---------- report
 console.log('products to add:', products.length, '| categories:', catEntries.map(c => c.slug + ':' + c.count).join(', '), '| new brand hubs:', Object.keys(hubSeo).join(', ') || 'none')
@@ -184,10 +223,12 @@ write('src/config/catalog-products.generated.js', '// AUTO-GENERATED by scripts/
 const cats = [...cats0.filter(c => !catEntries.some(e => e.slug === c.slug)), ...catEntries]
 write('src/config/catalog.generated.js', '// AUTO-GENERATED by scripts/import-catalog.mjs — do not edit by hand' + NL + 'export const CATALOG_CATEGORIES = ' + JSON.stringify(cats, null, 1) + NL + NL)
 const jf = (f, fn) => { const o = JSON.parse(read(f)); fn(o); write(f, JSON.stringify(o)) }
-jf('src/config/seo.generated.json', o => Object.assign(o, seoNew, catSeo, hubSeo))
-jf('src/config/faq.generated.json', o => Object.assign(o.pages, faqNew, catFaq, hubFaq))
-jf('src/config/product-copy.generated.json', o => Object.assign(o, copyNew))
+jf('src/config/seo.generated.json', o => { PURGE_URLS.forEach(u => delete o[u]); Object.assign(o, seoNew, catSeo, hubSeo) })
+jf('src/config/faq.generated.json', o => { PURGE_URLS.forEach(u => delete o.pages[u]); Object.assign(o.pages, faqNew, catFaq, hubFaq) })
+jf('src/config/product-copy.generated.json', o => { specSlugs.forEach(s => delete o[s]); Object.assign(o, copyNew) })
+jf('src/config/gap-links.generated.json', o => { PURGE_URLS.forEach(u => delete o[u]); Object.assign(o, planned) })
+{ const lp = read('docs/link-plan.csv').split(NL).filter(l => l && !PURGE_URLS.has(l.split(',')[3]) && !PURGE_URLS.has(l.split(',')[0])); write('docs/link-plan.csv', lp.concat(planRows).join(NL) + NL) }
 jf('src/config/category-copy.generated.json', o => Object.assign(o, catCopy))
-write('docs/used-keywords.csv', read('docs/used-keywords.csv').replace(/\s+$/, '') + NL + reg.join(NL) + NL)
+write('docs/used-keywords.csv', read('docs/used-keywords.csv').split(NL).filter(l => !PURGE_URLS.has(l.split(',')[0])).join(NL).replace(/\s+$/, '') + NL + reg.join(NL) + NL)
 write('docs/added-products-2026-11-06.csv', 'slug,name,brand,category,price,supplier_price,keywords_assigned' + NL + products.map(p => [p.slug, `"${p.name}"`, p.brand, p.category, p.price, p.comparePrice, kwOf[p.slug].length].join(',')).join(NL) + NL)
 console.log('APPLIED')

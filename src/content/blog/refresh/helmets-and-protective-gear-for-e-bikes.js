@@ -19,6 +19,7 @@ export const meta = {
   ],
   links: {
     to: [
+      ['/shop/electric-scooters/', 'best electric scooter'],
       ['/shop/helmets-gloves-and-protection/', 'helmets, gloves and protection'],
       ['/shop/electric-dirt-bikes/', 'electric dirt bikes'],
       ['/blog/childs-electric-bike/', 'childs electric bike guide'],

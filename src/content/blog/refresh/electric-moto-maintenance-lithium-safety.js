@@ -25,6 +25,7 @@ export const meta = {
   ],
   links: {
     to: [
+      ['/shop/electric-scooters/', 'adult electric scooter'],
       ['/shop/batteries-chargers-and-electronics/', 'batteries and chargers'],
       ['/blog/e-bike-batteries/', 'e bike batteries guide'],
       ['/blog/e-bike-battery-charger/', 'e bike battery charger guide'],

@@ -1453,12 +1453,6 @@ url,type,role,keyword,volume,kd,intent,source
 /brands/santa-cruz/,brand-hub,secondary,santa cruz australia,,,Navigational,generated
 /brands/santa-cruz/,brand-hub,secondary,santa cruz bikes australia,,,Navigational,generated
 /brands/santa-cruz/,brand-hub,secondary,santa cruz models,,,Navigational,generated
-/brands/segway/,brand-hub,primary,segway ebike,390,14,Navigational,competitor
-/brands/segway/,brand-hub,secondary,segway australia,,,Navigational,generated
-/brands/segway/,brand-hub,secondary,segway bikes australia,,,Navigational,generated
-/brands/segway/,brand-hub,secondary,segway models,,,Navigational,generated
-/brands/segway/,brand-hub,secondary,buy segway,,,Transactional,generated
-/brands/segway/,brand-hub,secondary,segway price,,,Transactional,generated
 /brands/sherco/,brand-hub,primary,sherco electric bike,590,6,Navigational,competitor
 /brands/sherco/,brand-hub,secondary,sherco australia,,,Navigational,generated
 /brands/sherco/,brand-hub,secondary,sherco bikes australia,,,Navigational,generated
@@ -5390,6 +5384,25 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/kids-electric-scooters/segway-ninebot-c2-pro/,product,secondary,c2 pro,170,20,Commercial,semrush-2026-11-06
 /shop/kids-electric-scooters/segway-ninebot-c2-pro/,product,secondary,segway-ninebot c2 pro,140,20,Commercial,semrush-2026-11-06
 /shop/kids-electric-scooters/segway-ninebot-c2-pro/,product,secondary,segway-ninebot c2 pro electric scooter,110,20,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-gtr-v2/,product,primary,dragon gtr scooter,170,6,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-gtr-v2/,product,secondary,dragon scooter gtr v2,170,6,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-gtr-v2/,product,secondary,dragon gtr electric scooter,110,3,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-gtr-v2/,product,secondary,dragon gtr e scooter,90,5,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-gtr-v2/,product,secondary,dragon gtr v2 scooter,90,5,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-gtr-v2/,product,secondary,gtr v2,90,7,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-raptor/,product,primary,dragon raptor,590,7,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-raptor/,product,secondary,dragon raptor scooter,260,15,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-raptor/,product,secondary,raptor e scooter,210,18,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-raptor/,product,secondary,dragon raptor e scooter,140,14,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-raptor/,product,secondary,dragon raptor electric scooter,140,10,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-cyclone-pro/,product,primary,dragon cyclone pro,720,6,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-cyclone-pro/,product,secondary,cyclone pro scooter,390,6,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-cyclone-pro/,product,secondary,cyclone pro e scooter,320,4,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-cyclone-pro/,product,secondary,dragon cyclone scooter,110,4,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-cyclone-pro/,product,secondary,dragon cyclone electric scooter,50,3,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-slayer-22ah/,product,primary,dragon slayer e scooter,390,6,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-slayer-22ah/,product,secondary,dragon slayer scooter,260,6,Commercial,semrush-2026-11-06
+/shop/electric-scooters/dragon-slayer-22ah/,product,secondary,dragon slayer electric scooter,140,5,Commercial,semrush-2026-11-06
 /shop/electric-scooters/,category,primary,adult electric scooter,1300,21,Commercial,semrush-2026-11-06
 /shop/electric-scooters/,category,secondary,cheap e scooter,1000,25,Commercial,semrush-2026-11-06
 /shop/electric-scooters/,category,secondary,cheap electric scooter,880,23,Commercial,semrush-2026-11-06

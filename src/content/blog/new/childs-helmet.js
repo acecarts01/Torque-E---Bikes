@@ -28,6 +28,8 @@ export const meta = {
   ],
   links: {
     to: [
+      ['/shop/kids-electric-scooters/segway-ninebot-c2-pro/', 'segway c2 pro'],
+      ['/shop/kids-electric-scooters/', 'kids electric scooter'],
       ['/shop/helmets-gloves-and-protection/', 'helmets, gloves and protection'],
       ['/blog/helmets-and-protective-gear-for-e-bikes/', 'helmets and protective gear guide'],
       ['/blog/childs-electric-bike/', 'childs electric bike guide'],

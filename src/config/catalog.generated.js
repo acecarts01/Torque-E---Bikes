@@ -188,9 +188,9 @@ export const CATALOG_CATEGORIES = [
   "slug": "electric-scooters",
   "name": "Electric Scooters",
   "group": "Scooters & Karts",
-  "description": "Shop 4 electric scooters from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 8 electric scooters from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/segway-ninebot-e2-pro-1.webp",
-  "count": 4
+  "count": 8
  },
  {
   "slug": "kids-electric-scooters",

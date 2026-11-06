@@ -3,12 +3,13 @@
 import fs from 'node:fs'
 import sharp from 'sharp'
 
-const [feedFile, count = '3'] = process.argv.slice(2)
+const [feedFile, count = '3', ...only] = process.argv.slice(2)
 const feed = JSON.parse(fs.readFileSync(feedFile, 'utf8'))
 const specs = JSON.parse(fs.readFileSync('scripts/new-products.json', 'utf8'))
 fs.mkdirSync('public/products', { recursive: true })
 const report = []
 for (const s of specs) {
+  if (only.length && !only.includes(s.slug)) continue
   const f = feed.find(p => p.handle === s.feed)
   if (!f) { report.push(`${s.slug}: feed item missing`); continue }
   let n = 0

@@ -28,6 +28,7 @@ export const meta = {
   ],
   links: {
     to: [
+      ['/shop/electric-scooters/segway-ninebot-e2-pro/', 'segway electric kickscooter e2 pro'],
       ['/shop/commuter-and-urban-e-bikes/', 'commuter and urban e-bikes'],
       ['/blog/how-to-choose-an-e-bike/', 'how to choose an e-bike guide'],
       ['/blog/off-road-vs-street-legal-australia/', 'off-road vs street legal guide'],

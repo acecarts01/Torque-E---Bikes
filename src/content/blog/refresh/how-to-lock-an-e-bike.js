@@ -20,6 +20,7 @@ export const meta = {
   ],
   links: {
     to: [
+      ['/shop/electric-scooters/', 'cheap electric scooter'],
       ['/shop/locks-and-security/', 'bike locks and security'],
       ['/shop/commuter-and-urban-e-bikes/', 'commuter e-bikes'],
       ['/blog/commuter-e-bikes/', 'commuter ebike guide'],

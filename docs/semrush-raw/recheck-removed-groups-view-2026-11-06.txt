@@ -26,3 +26,42 @@ torque mtx | NOTHING FOUND (own-brand Torque motor and rim)
 aventon level 4 | aventon level ebike:C:90:24; aventon level electric bike:C:90:27 (2 usable, brand-level)
 yozma in10 | yozma in10:I:590:30 (info, KD>28); yozma in10 ebike:IT:90:20 => not usable
 cannondale treadwell | 20-30 searches, KD n/a (low)
+zero xe | 70 max, KD n/a (low)
+tott e1022 | NOTHING FOUND
+fatboy longboard | 0 searches (surf fin, not the bike)
+apollo rxf | 20 searches, KD n/a (low)
+azonic pure | 50 max, KD n/a (low)
+lpr v4 | NOTHING FOUND
+mamba savannah | 50 max (I, KD1) / 40 n/a (low)
+strike shadow | strike shadow:I:590:20; strike shadow e-bike:C:140:6 (1 usable T/C); 7 model rows >=100 => POSSIBLE RESTORE (Strike Shadow 72V 7kW and 48V 3kW)
+azur pannier | azur pannier bags:IT:70:6 (low)
+hidrop helmet | 20 max (low)
+cannondale cargowagen | 30 max, KD n/a (low)
+kristall ex400 | NOTHING FOUND
+# SESSION EXPIRED here. Not yet re-checked in Groups view: moov8 c2/m1, shogun etrail, pedal warrior, cube touring hybrid (one/pro/exc), niterider lumina, ride shotgun (seat, 2.0, combos), crankbrothers stamp, abus smiley, kristall ex200, livall bh60, superior exp/exf, reid harbour/emetro/quest/2095/rb250/let, aventon ramblas, riese m ller, gazelle c380, revvi junior, azur mirrors/basket/saddle cover/kappa/waterproof pannier, lezyne lever kit, dhz balance, extreme razor, torque mtx (done), 100% itrack gloves (x2), havoc infinity, ace x joey seat, apollo thunder, orbit mirror, krush degreaser, multitag mount, rxf dna, 20x4 tube, cannondale adventure, 8 unbranded TBC placeholders, multitag
+# CORRECTION: Semrush hourly report limit was reached. These earlier readings (rows 3, no model rows) are INVALID and must be re-run: specialized como, segway myon, specialized creo, moov8 c2, shogun etrail, cube touring hybrid (and pedal warrior was never read).
+# Valid so far: everything above this line except those. Remaining to run after the limit resets (about 1 hour): see the SESSION EXPIRED list plus the invalid ones.
+# --- Completed on host 5.semrush.com.in (Groups view) ---
+specialized como / segway myon / specialized creo | 20-40 searches, KD n/a (low)
+moov8 c2 / m1 | 0-20 (low)
+shogun etrail | 20-30 (low)
+cube touring hybrid | cube touring hybrid one 500:I:110:11 (info only) (low)
+pedal warrior | 30-40 (low)
+reid quest / harbour (address results) / emetro / rb250 / lets roll / 2095 | no bike demand
+aventon ramblas | aventon ramblas:I:210:26; aventon ramblas australia:C:70:17 (1 usable)
+kristall ex200 | NOTHING FOUND
+superior exf | 20-50 (low)
+gazelle c380 | 20 (low)
+riese muller load | 20 (low)
+revvi 16 | 20 (low)
+livall bh60 | 0 (low)
+abus smiley | 20 (low)
+crankbrothers stamp | crankbrothers stamp 7:IT:50:11 (low)
+niterider lumina | 20 (low)
+ride shotgun (kids bike seat) | kids ride shotgun:IN:1.3K:17 (navigational brand); shotgun kids bike seat:C:70:10 only strict T/C
+azur mirror/basket/saddle cover/kappa | 0-20 (low)
+lezyne lever kit | 20 (low)
+dhz balance bike / extreme razor etm | NOTHING FOUND
+100 itrack gloves | 20-40 (low)
+havoc infinity / apollo thunder / cannondale adventure neo / moov8 m1 | 20-40 (low)
+ace x joey / krush degreaser / multitag mount | 0-20 (low)

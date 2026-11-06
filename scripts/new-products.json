@@ -8,7 +8,11 @@
     "kw": "max g3|g3 max|max-g3",
     "kwNot": "g30|external battery|segw-",
     "kind": "adult commuter e-scooter",
-    "facts": "a 2,000 W maximum power rating, a 597 Wh battery and up to 80 km of range in Eco mode."
+    "facts": "is part of Segway’s MAX G3 family, which Segway Australia lists with a maximum power of 2000 W and a theoretical range of 80 km",
+    "ref": {
+      "text": "Segway Australia’s MAX G3 page",
+      "url": "https://segway.com.au/products/segway-max-g3-electric-kickscooter"
+    }
   },
   {
     "slug": "segway-ninebot-zt3-pro-d",
@@ -19,7 +23,11 @@
     "kw": "zt3",
     "kwNot": "segw-",
     "kind": "dual-suspension e-scooter",
-    "facts": "front dual telescopic suspension, rear spring suspension, 152 mm of ground clearance and 11-inch all-terrain tubeless tyres."
+    "facts": "is part of Segway’s ZT3 Pro family, which Segway Australia lists with a maximum power of 1600 W, a theoretical range of 70 km and 11-inch off-road tubeless tyres; the supplier’s listing adds front dual telescopic suspension, rear spring suspension and 152 mm of ground clearance",
+    "ref": {
+      "text": "Segway Australia’s ZT3 Pro page",
+      "url": "https://segway.com.au/products/segway-ninebot-zt3-pro-electric-kickscooter-1"
+    }
   },
   {
     "slug": "segway-ninebot-f3-pro",
@@ -30,7 +38,11 @@
     "kw": "\\bf3\\b",
     "kwNot": "segw-",
     "kind": "commuter e-scooter",
-    "facts": "front hydraulic and rear elastomer suspension and 10-inch tubeless self-sealing tyres."
+    "facts": "is listed by Segway Australia with a maximum power of 1200 W and a theoretical range of 70 km; the supplier’s listing adds front hydraulic and rear elastomer suspension and 10-inch tubeless self-sealing tyres",
+    "ref": {
+      "text": "Segway Australia’s F3 Pro page",
+      "url": "https://segway.com.au/products/segway-f3-pro-electric-scooter"
+    }
   },
   {
     "slug": "segway-ninebot-e2-pro",
@@ -41,7 +53,7 @@
     "kw": "\\be2 pro",
     "kwNot": "plus|segw-",
     "kind": "commuter e-scooter",
-    "facts": "a 275 Wh battery and up to 40 km of range in E mode at 15 km/h."
+    "facts": "is listed by the supplier with a 275 Wh battery and up to 40 km of range in E mode at 15 km/h"
   },
   {
     "slug": "segway-ninebot-c2-pro",
@@ -52,7 +64,7 @@
     "kw": "c2 pro",
     "kwNot": "segw-",
     "kind": "kids and teen e-scooter",
-    "facts": "a rider range from 6 to 14 years old and 115 to 170 cm tall, a 150 W motor, up to 15 km of range and a 50 kg maximum rider weight."
+    "facts": "is listed by the supplier for riders from 6 to 14 years old and 115 to 170 cm tall, with a 150 W motor and a 50 kg maximum rider weight"
   },
   {
     "slug": "segway-c2-go",
@@ -83,7 +95,7 @@
     "kw": "h30",
     "kwNot": "hoverboard",
     "kind": "kids e-scooter",
-    "facts": "a 150 W motor, a 21.6V 2.6Ah battery, an electronic brake plus a foot brake, and a design for ages 6 to 12."
+    "facts": "is listed by the supplier with a 150 W motor, a 21.6V 2.6Ah battery, an electronic brake plus a foot brake, and a design for ages 6 to 12"
   },
   {
     "slug": "segway-ninebot-gokart-pro-2",
@@ -95,6 +107,58 @@
     "kwNot": "segw-",
     "kind": "electric go-kart",
     "offroad": true,
-    "facts": "riders aged 8 and up and 130 to 190 cm tall, two 450 W motors and a top speed of about 43 km/h in Race mode."
+    "facts": "is listed by Segway Australia with a maximum speed of 43 km/h and a theoretical range of 25 km",
+    "ref": {
+      "text": "Segway Australia’s Gokart PRO 2 page",
+      "url": "https://segway.com.au/products/segway-ninebot-gokart-pro-3"
+    }
+  },
+  {
+    "slug": "dragon-gtr-v2",
+    "name": "Dragon GTR V2",
+    "brand": "Dragon",
+    "category": "electric-scooters",
+    "feed": "dragon-gtr-v2",
+    "kw": "dragon.*gtr|gtr.*dragon|gtr v2",
+    "kwNot": "esa|r34|nissan|wolf|kaabo|mars|fat|250w|road legal|battery|brake|gts|for sale|adelaide",
+    "kind": "dual-motor all-terrain e-scooter",
+    "offroad": true,
+    "facts": "is listed by the supplier with a top speed of 50 km/h, two 900 W motors peaking at 2,400 W, a 21 Ah lithium battery, disc brakes and 10-inch tubeless all-terrain tyres"
+  },
+  {
+    "slug": "dragon-raptor",
+    "name": "Dragon Raptor",
+    "brand": "Dragon",
+    "category": "electric-scooters",
+    "feed": "dragon-raptor-raptor-pro",
+    "kw": "raptor",
+    "kwNot": "x02|hunter|raptor x|e-raptor|progear|battery|tyre|pro$",
+    "kind": "dual-motor all-terrain e-scooter",
+    "offroad": true,
+    "facts": "is listed by the supplier with a top speed of 62 km/h, two 1,000 W motors peaking at 3,600 W, a 20.3 Ah battery, dual disc brakes and a 2-year structure and frame warranty"
+  },
+  {
+    "slug": "dragon-cyclone-pro",
+    "name": "Dragon Cyclone Pro",
+    "brand": "Dragon",
+    "category": "electric-scooters",
+    "feed": "dragon-cyclone-pro",
+    "kw": "cyclone pro|dragon cyclone",
+    "kwNot": "battery|tyre|2022|single",
+    "kind": "dual-motor all-terrain e-scooter",
+    "offroad": true,
+    "facts": "is listed by the supplier with a top speed of 60 km/h, two 1,000 W motors peaking at 3,200 W, a 21 Ah lithium battery and fully hydraulic brakes"
+  },
+  {
+    "slug": "dragon-slayer-22ah",
+    "name": "Dragon Slayer 22Ah",
+    "brand": "Dragon",
+    "category": "electric-scooters",
+    "feed": "dragon-slayer-dual-800w-motors-australias-best-electric-scooter",
+    "kw": "slayer",
+    "kwNot": "battery|tyre",
+    "kind": "dual-motor all-terrain e-scooter",
+    "offroad": true,
+    "facts": "is listed by the supplier with a top speed of 60 km/h, two 800 W motors peaking at 2,400 W, a 22 Ah battery (a 26 Ah version also exists) and dual hydraulic brakes"
   }
 ]

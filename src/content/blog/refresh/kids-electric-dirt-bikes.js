@@ -22,6 +22,7 @@ export const meta = {
   ],
   links: {
     to: [
+      ['/shop/kids-electric-scooters/', 'kids e scooter'],
       ['/shop/kids-electric-dirt-and-balance-bikes/', 'kids electric dirt bikes'],
       ['/blog/yozma-in10-electric-mini-dirt-bike/', 'mini electric bike guide'],
       ['/blog/childs-electric-bike/', 'childs electric bike guide'],

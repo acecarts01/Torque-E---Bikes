@@ -28,6 +28,7 @@ export const meta = {
   ],
   links: {
     to: [
+      ['/shop/kids-electric-scooters/', 'electric scooter for kids'],
       ['/shop/kids-and-youth-e-bikes/', 'kids e bikes'],
       ['/blog/electric-balance-bikes/', 'electric balance bikes guide'],
       ['/blog/helmets-and-protective-gear-for-e-bikes/', 'e-bike helmets and protective gear'],
