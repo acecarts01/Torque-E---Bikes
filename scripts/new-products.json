@@ -1,0 +1,100 @@
+[
+  {
+    "slug": "segway-ninebot-max-g3-e",
+    "name": "Segway Ninebot MAX G3 E",
+    "brand": "Segway",
+    "category": "electric-scooters",
+    "feed": "segway-ninebot-max-g3-e",
+    "kw": "max g3|g3 max|max-g3",
+    "kwNot": "g30|external battery|segw-",
+    "kind": "adult commuter e-scooter",
+    "facts": "a 2,000 W maximum power rating, a 597 Wh battery and up to 80 km of range in Eco mode."
+  },
+  {
+    "slug": "segway-ninebot-zt3-pro-d",
+    "name": "Segway Ninebot ZT3 Pro D",
+    "brand": "Segway",
+    "category": "electric-scooters",
+    "feed": "segway-zt3-pro-d",
+    "kw": "zt3",
+    "kwNot": "segw-",
+    "kind": "dual-suspension e-scooter",
+    "facts": "front dual telescopic suspension, rear spring suspension, 152 mm of ground clearance and 11-inch all-terrain tubeless tyres."
+  },
+  {
+    "slug": "segway-ninebot-f3-pro",
+    "name": "Segway Ninebot F3 Pro",
+    "brand": "Segway",
+    "category": "electric-scooters",
+    "feed": "segway-ninebot-ekickscooter-f3-pro",
+    "kw": "\\bf3\\b",
+    "kwNot": "segw-",
+    "kind": "commuter e-scooter",
+    "facts": "front hydraulic and rear elastomer suspension and 10-inch tubeless self-sealing tyres."
+  },
+  {
+    "slug": "segway-ninebot-e2-pro",
+    "name": "Segway Ninebot E2 Pro",
+    "brand": "Segway",
+    "category": "electric-scooters",
+    "feed": "segway-ninebot-e2-pro-electric-kickscooter",
+    "kw": "\\be2 pro",
+    "kwNot": "plus|segw-",
+    "kind": "commuter e-scooter",
+    "facts": "a 275 Wh battery and up to 40 km of range in E mode at 15 km/h."
+  },
+  {
+    "slug": "segway-ninebot-c2-pro",
+    "name": "Segway Ninebot C2 Pro",
+    "brand": "Segway",
+    "category": "kids-electric-scooters",
+    "feed": "segway-ninebot-electric-scooter-c2-pro",
+    "kw": "c2 pro",
+    "kwNot": "segw-",
+    "kind": "kids and teen e-scooter",
+    "facts": "a rider range from 6 to 14 years old and 115 to 170 cm tall, a 150 W motor, up to 15 km of range and a 50 kg maximum rider weight."
+  },
+  {
+    "slug": "segway-c2-go",
+    "name": "Segway C2 GO",
+    "brand": "Segway",
+    "category": "kids-electric-scooters",
+    "feed": "segway-c2-go-electric-kickscooter",
+    "kw": "c2 go",
+    "kwNot": "segw-",
+    "kind": "kids e-scooter"
+  },
+  {
+    "slug": "gyroor-minions-ks2-kids-scooter",
+    "name": "Gyroor Minions KS2 Kids Scooter",
+    "brand": "Gyroor",
+    "category": "kids-electric-scooters",
+    "feed": "gyroor-minions-ks2-electric-kids-scooter-yellow",
+    "kw": "gyroor",
+    "kwNot": "hoverboard",
+    "kind": "kids e-scooter"
+  },
+  {
+    "slug": "gyroor-h30-max-kids-scooter",
+    "name": "Gyroor H30 Max Kids Scooter",
+    "brand": "Gyroor",
+    "category": "kids-electric-scooters",
+    "feed": "gyroor-h30-max-kids-electric-scooter-with-bluetooth-beats-black",
+    "kw": "h30",
+    "kwNot": "hoverboard",
+    "kind": "kids e-scooter",
+    "facts": "a 150 W motor, a 21.6V 2.6Ah battery, an electronic brake plus a foot brake, and a design for ages 6 to 12."
+  },
+  {
+    "slug": "segway-ninebot-gokart-pro-2",
+    "name": "Segway Ninebot Gokart Pro 2",
+    "brand": "Segway",
+    "category": "electric-go-karts",
+    "feed": "segway-ninebot-gokart-pro-2",
+    "kw": "gokart pro|go kart pro",
+    "kwNot": "segw-",
+    "kind": "electric go-kart",
+    "offroad": true,
+    "facts": "riders aged 8 and up and 130 to 190 cm tall, two 450 W motors and a top speed of about 43 km/h in Race mode."
+  }
+]

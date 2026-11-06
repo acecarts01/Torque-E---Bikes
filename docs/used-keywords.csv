@@ -5350,11 +5350,6 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/electric-dirt-bikes/rerode-r1-electric-dirt-bike/,product,secondary,rerode r1 electric dirt bike for sale,,,Transactional,generated
 /shop/electric-dirt-bikes/rerode-r1-electric-dirt-bike/,product,secondary,rerode r1 electric dirt bike review,,,Commercial,generated
 /shop/electric-dirt-bikes/rerode-r1-electric-dirt-bike/,product,secondary,rerode r1 electric dirt bike online,,,Transactional,generated
-/shop/electric-dirt-bikes/talaria-komodo-2026-edition/,product,primary,talaria komodo 2026 edition price australia,,,Transactional,generated
-/shop/electric-dirt-bikes/talaria-komodo-2026-edition/,product,secondary,buy talaria komodo 2026 edition,,,Transactional,generated
-/shop/electric-dirt-bikes/talaria-komodo-2026-edition/,product,secondary,talaria komodo 2026 edition for sale,,,Transactional,generated
-/shop/electric-dirt-bikes/talaria-komodo-2026-edition/,product,secondary,talaria komodo 2026 edition review,,,Commercial,generated
-/shop/electric-dirt-bikes/talaria-komodo-2026-edition/,product,secondary,talaria komodo 2026 edition online,,,Transactional,generated
 /shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/,product,primary,torque mtx motor & rim price australia,,,Transactional,generated
 /shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/,product,secondary,buy torque mtx motor & rim,,,Transactional,generated
 /shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim/,product,secondary,torque mtx motor & rim for sale,,,Transactional,generated
@@ -5365,3 +5360,78 @@ url,type,role,keyword,volume,kd,intent,source
 /shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/,product,secondary,torque 500w e-bike conversion kit combo for sale,,,Transactional,generated
 /shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/,product,secondary,torque 500w e-bike conversion kit combo review,,,Commercial,generated
 /shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo/,product,secondary,torque 500w e-bike conversion kit combo online,,,Transactional,generated
+/shop/electric-scooters/segway-ninebot-max-g3-e/,product,primary,segway ninebot max g3 electric scooter,590,25,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-max-g3-e/,product,secondary,segway ninebot max g3,390,22,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-max-g3-e/,product,secondary,ninebot g3 max,390,24,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-max-g3-e/,product,secondary,segway-ninebot max g3,210,17,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-max-g3-e/,product,secondary,g3 max segway,70,22,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-max-g3-e/,product,secondary,segway ninebot kickscooter max g3 electric scooter,50,23,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-zt3-pro-d/,product,primary,zt3 pro scooter,320,18,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-zt3-pro-d/,product,secondary,segway zt3 pro e-scooter,260,17,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-zt3-pro-d/,product,secondary,segway zt3 pro electric scooter,260,17,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-zt3-pro-d/,product,secondary,segway ninebot zt3 pro,140,16,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-zt3-pro-d/,product,secondary,segway zt3 pro electric kick scooter,90,11,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-zt3-pro-d/,product,secondary,ninebot zt3,90,17,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-f3-pro/,product,primary,segway f3 pro,880,18,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-f3-pro/,product,secondary,f3 pro,390,16,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-f3-pro/,product,secondary,ninebot f3 pro,320,18,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-f3-pro/,product,secondary,f3 pro segway,210,20,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-f3-pro/,product,secondary,segway ninebot f3 pro,110,18,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-f3-pro/,product,secondary,segway ninebot f3,70,18,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-e2-pro/,product,primary,segway electric kickscooter e2 pro,590,23,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-e2-pro/,product,secondary,e2 pro e scooter,390,17,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-e2-pro/,product,secondary,segway e2 pro e scooter,320,26,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-e2-pro/,product,secondary,ninebot e2 pro price,210,17,Transactional,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-e2-pro/,product,secondary,e2 pro segway,170,23,Commercial,semrush-2026-11-06
+/shop/electric-scooters/segway-ninebot-e2-pro/,product,secondary,e2 pro scooter,140,22,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/segway-ninebot-c2-pro/,product,primary,segway c2 pro,480,14,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/segway-ninebot-c2-pro/,product,secondary,ninebot c2 pro,260,23,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/segway-ninebot-c2-pro/,product,secondary,segway ninebot c2 pro,210,19,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/segway-ninebot-c2-pro/,product,secondary,c2 pro,170,20,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/segway-ninebot-c2-pro/,product,secondary,segway-ninebot c2 pro,140,20,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/segway-ninebot-c2-pro/,product,secondary,segway-ninebot c2 pro electric scooter,110,20,Commercial,semrush-2026-11-06
+/shop/electric-scooters/,category,primary,adult electric scooter,1300,21,Commercial,semrush-2026-11-06
+/shop/electric-scooters/,category,secondary,cheap e scooter,1000,25,Commercial,semrush-2026-11-06
+/shop/electric-scooters/,category,secondary,cheap electric scooter,880,23,Commercial,semrush-2026-11-06
+/shop/electric-scooters/,category,secondary,e scooter price,720,15,Transactional,semrush-2026-11-06
+/shop/electric-scooters/,category,secondary,best electric scooter,720,17,Commercial,semrush-2026-11-06
+/shop/electric-scooters/,category,secondary,best electric scooter australia,720,16,Commercial,semrush-2026-11-06
+/shop/electric-scooters/,category,secondary,electric kick scooter,720,24,Commercial,semrush-2026-11-06
+/shop/electric-scooters/,category,secondary,electric scooters for sale,590,26,Transactional,semrush-2026-11-06
+/shop/electric-scooters/,category,secondary,electric scooter price,590,28,Transactional,semrush-2026-11-06
+/shop/electric-scooters/,category,secondary,electric scooter for sale,590,26,Transactional,semrush-2026-11-06
+/shop/electric-scooters/,category,secondary,best e scooter,480,24,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/,category,primary,childs e scooter,4400,13,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/,category,secondary,kids electric scooter,3600,13,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/,category,secondary,electric childrens scooters,2900,11,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/,category,secondary,electric scooter childrens,1900,15,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/,category,secondary,electric scooter for kids,1600,11,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/,category,secondary,kids bicycle,1300,27,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/,category,secondary,bicycle child seat,1000,22,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/,category,secondary,electric scooter kids,1000,11,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/,category,secondary,kids cycle,720,24,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/,category,secondary,childrens mtb,590,10,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/,category,secondary,kids e scooter,590,24,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/,category,secondary,childrens cycling gloves,480,11,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/,category,secondary,kids electric scooters,320,13,Commercial,semrush-2026-11-06
+/shop/kids-electric-scooters/,category,secondary,bicycle kids,260,21,Commercial,semrush-2026-11-06
+/shop/electric-go-karts/,category,primary,electric go kart,2900,17,Commercial,semrush-2026-11-06
+/shop/electric-go-karts/,category,secondary,go kart electric go karts,1900,13,Commercial,semrush-2026-11-06
+/shop/electric-go-karts/,category,secondary,electric go karts,720,22,Commercial,semrush-2026-11-06
+/shop/electric-go-karts/,category,secondary,electric go cart,390,23,Commercial,semrush-2026-11-06
+/shop/electric-go-karts/,category,secondary,go kart electric,320,17,Commercial,semrush-2026-11-06
+/shop/electric-go-karts/,category,secondary,kids electric go kart,320,6,Commercial,semrush-2026-11-06
+/shop/electric-go-karts/,category,secondary,electric go kart for adults,260,14,Commercial,semrush-2026-11-06
+/shop/electric-go-karts/,category,secondary,go karts electric,260,24,Commercial,semrush-2026-11-06
+/shop/electric-go-karts/,category,secondary,electric gokart,210,18,Commercial,semrush-2026-11-06
+/shop/electric-go-karts/,category,secondary,electric kart,210,13,Commercial,semrush-2026-11-06
+/shop/electric-go-karts/,category,secondary,e go kart,210,19,Commercial,semrush-2026-11-06
+/shop/electric-go-karts/,category,secondary,go kart e,170,19,Commercial,semrush-2026-11-06
+/shop/electric-go-karts/,category,secondary,electric go kart australia,170,13,Commercial,semrush-2026-11-06
+/shop/electric-go-karts/,category,secondary,electric karts,140,21,Commercial,semrush-2026-11-06
+/brands/segway/,brand-hub,primary,segway scooter,2900,22,Transactional,semrush-2026-11-06
+/brands/segway/,brand-hub,secondary,segway e scooter,590,11,Transactional,semrush-2026-11-06
+/brands/segway/,brand-hub,secondary,electric scooter segway,390,23,Transactional,semrush-2026-11-06
+/brands/segway/,brand-hub,secondary,segway scooters,260,22,Transactional,semrush-2026-11-06
+/brands/segway/,brand-hub,secondary,segway e bike,260,16,Commercial,semrush-2026-11-06
+/brands/segway/,brand-hub,secondary,segway e scooters,210,14,Commercial,semrush-2026-11-06

@@ -458,5 +458,9 @@
  {
   "source": "/brands/seat-drip",
   "destination": "/shop/seats-fenders-and-body/"
+ },
+ {
+  "source": "/shop/electric-dirt-bikes/talaria-komodo-2026-edition",
+  "destination": "/shop/electric-dirt-bikes/talaria-komodo/"
  }
 ]

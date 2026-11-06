@@ -63,10 +63,11 @@ export default function Nav() {
                 Shop by Category
               </Link>
               <div className="absolute top-full left-1/2 -translate-x-1/2 pt-4 opacity-0 translate-y-2 pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:pointer-events-auto group-focus-within:opacity-100 group-focus-within:translate-y-0 group-focus-within:pointer-events-auto transition-all duration-300 z-50">
-                <div className="w-[34rem] grid grid-cols-2 gap-x-2 bg-brand-dark/95 backdrop-blur-xl border border-white/5 shadow-2xl rounded-2xl p-3">
+                <div className="w-[50rem] grid grid-cols-3 gap-x-2 bg-brand-dark/95 backdrop-blur-xl border border-white/5 shadow-2xl rounded-2xl p-3">
                   {[
                     { title: 'Bikes', items: CATEGORIES.filter(c => c.group === 'Bikes') },
-                    { title: 'Parts, Gear & Accessories', items: CATEGORIES.filter(c => c.group !== 'Bikes') },
+                    { title: 'Scooters & Karts', items: CATEGORIES.filter(c => c.group === 'Scooters & Karts') },
+                    { title: 'Parts, Gear & Accessories', items: CATEGORIES.filter(c => c.group !== 'Bikes' && c.group !== 'Scooters & Karts') },
                   ].map(col => (
                     <div key={col.title}>
                       <p className="px-4 pt-2 pb-2 text-[9px] font-black uppercase tracking-[0.25em] text-brand-red">{col.title}</p>
@@ -78,7 +79,7 @@ export default function Nav() {
                       ))}
                     </div>
                   ))}
-                  <Link href="/shop/" className="col-span-2 mt-2 flex items-center justify-center gap-2 px-4 py-3 text-[10px] uppercase font-black tracking-[0.2em] bg-white/5 hover:bg-brand-red hover:text-[#140800] transition-all rounded-xl">
+                  <Link href="/shop/" className="col-span-3 mt-2 flex items-center justify-center gap-2 px-4 py-3 text-[10px] uppercase font-black tracking-[0.2em] bg-white/5 hover:bg-brand-red hover:text-[#140800] transition-all rounded-xl">
                     View all products <ArrowRight className="w-3 h-3" />
                   </Link>
                 </div>

@@ -112,10 +112,6 @@
   "destination": "/shop/electric-mountain-bikes/"
  },
  {
-  "source": "/brands/segway",
-  "destination": "/shop/electric-dirt-bikes/"
- },
- {
   "source": "/brands/sherco",
   "destination": "/shop/kids-electric-dirt-and-balance-bikes/sherco-eb12-kids-electric-balance-bike/"
  },

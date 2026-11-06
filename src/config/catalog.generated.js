@@ -4,9 +4,9 @@ export const CATALOG_CATEGORIES = [
   "slug": "electric-dirt-bikes",
   "name": "Electric Dirt Bikes",
   "group": "Bikes",
-  "description": "Shop 36 electric dirt bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 35 electric dirt bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/sur-ron-light-bee-x-1.webp",
-  "count": 36
+  "count": 35
  },
  {
   "slug": "kids-electric-dirt-and-balance-bikes",
@@ -183,6 +183,30 @@ export const CATALOG_CATEGORIES = [
   "description": "Shop 18 brakes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/79bike-hydraulic-brake-set-1.webp",
   "count": 18
+ },
+ {
+  "slug": "electric-scooters",
+  "name": "Electric Scooters",
+  "group": "Scooters & Karts",
+  "description": "Shop 4 electric scooters from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "image": "/products/segway-ninebot-e2-pro-1.webp",
+  "count": 4
+ },
+ {
+  "slug": "kids-electric-scooters",
+  "name": "Kids Electric Scooters",
+  "group": "Scooters & Karts",
+  "description": "Shop 4 kids electric scooters from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "image": "/products/gyroor-minions-ks2-kids-scooter-1.webp",
+  "count": 4
+ },
+ {
+  "slug": "electric-go-karts",
+  "name": "Electric Go-Karts",
+  "group": "Scooters & Karts",
+  "description": "Shop 1 electric go-karts from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "image": "/products/segway-ninebot-gokart-pro-2-1.webp",
+  "count": 1
  }
 ]
 
