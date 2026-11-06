@@ -1,0 +1,12 @@
+[
+  { "type": "hero", "name": "dragon-e-scooter", "files": ["dragon-gtr-v2", "dragon-raptor", "dragon-cyclone-pro"] },
+  { "type": "single", "name": "dragon-e-scooter-gtr-v2", "files": ["dragon-gtr-v2"] },
+  { "type": "hero", "name": "ninebot-scooter", "files": ["segway-ninebot-max-g3-e", "segway-ninebot-zt3-pro-d", "segway-ninebot-f3-pro"] },
+  { "type": "single", "name": "ninebot-scooter-max-g3-e", "files": ["segway-ninebot-max-g3-e"] },
+  { "type": "hero", "name": "electric-scooter-adult", "files": ["segway-ninebot-f3-pro", "segway-ninebot-e2-pro", "segway-ninebot-max-g3-e"] },
+  { "type": "single", "name": "electric-scooter-adult-f3-pro", "files": ["segway-ninebot-f3-pro"] },
+  { "type": "hero", "name": "childrens-electric-scooters", "files": ["segway-ninebot-c2-pro", "segway-c2-go", "gyroor-h30-max-kids-scooter"] },
+  { "type": "single", "name": "childrens-electric-scooters-c2-pro", "files": ["segway-ninebot-c2-pro"] },
+  { "type": "hero", "name": "scooter-helmet", "files": ["abus-macator-helmet", "hidrop-helmet-shiny-black", "79bike-protective-armour"] },
+  { "type": "single", "name": "scooter-helmet-abus-macator", "files": ["abus-macator-helmet"] }
+]

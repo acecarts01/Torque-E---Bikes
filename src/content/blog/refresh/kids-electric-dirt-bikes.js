@@ -18,7 +18,7 @@ export const meta = {
     { href: '/shop/kids-electric-dirt-and-balance-bikes/razor-mx350/', name: 'Razor MX350', price: 499, note: 'Our lowest-priced kids electric dirt bike. Off-road only.' },
     { href: '/shop/kids-electric-dirt-and-balance-bikes/razor-mx650/', name: 'Razor MX650', price: 1299, note: 'A larger Razor. Off-road only.' },
     { href: '/shop/kids-electric-dirt-and-balance-bikes/talaria-junior-12/', name: 'Talaria Junior 12', price: 1229, note: 'Talaria junior bike. Off-road only.' },
-    { href: '/shop/kids-electric-dirt-and-balance-bikes/', name: 'All kids electric dirt and balance bikes', note: '29 models.' },
+    { href: '/shop/kids-electric-dirt-and-balance-bikes/', name: 'All kids electric dirt and balance bikes', note: '20 models.' },
   ],
   links: {
     to: [
@@ -45,7 +45,7 @@ export const body = {
     {
       h: 'Childrens electric motorbike prices from our range',
       p: [
-        'These are examples from our [kids electric dirt and balance bikes](/shop/kids-electric-dirt-and-balance-bikes/) range, which has 29 models from $499 to $8,495. The listings do not publish speed or battery figures, so ask us for them and for the right size for your child before you order.',
+        'These are examples from our [kids electric dirt and balance bikes](/shop/kids-electric-dirt-and-balance-bikes/) range, which has 20 models from $499 to $8,495. The listings do not publish speed or battery figures, so ask us for them and for the right size for your child before you order.',
       ],
       table: {
         head: ['Model', 'Price', 'Use'],

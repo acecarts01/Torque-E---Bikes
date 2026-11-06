@@ -14,7 +14,7 @@ export const meta = {
   related: [
     { href: '/shop/electric-mountain-bikes/smartmotion-pacer-hardtail-e-mtb/', name: 'SmartMotion Pacer Hardtail E-MTB', price: 2999, note: 'A hardtail e-MTB.' },
     { href: '/shop/electric-mountain-bikes/full-suspension-e-mtb-silver/', name: 'Full-Suspension E-MTB Silver', price: 3699, note: 'A full-suspension e-MTB.' },
-    { href: '/shop/electric-mountain-bikes/', name: 'All electric mountain bikes', note: '57 models.' },
+    { href: '/shop/electric-mountain-bikes/', name: 'All electric mountain bikes', note: '48 models.' },
   ],
   links: {
     to: [
@@ -33,7 +33,7 @@ export const meta = {
 
 export const body = {
   intro: [
-    'An e-mountain bike is a mountain bike with a pedal-assist motor and battery. The motor adds power as you pedal, which makes climbs easier and lets you ride further on trails. Our electric mountain bike range has 57 models, starting at $1,039, so the big decisions are the type of suspension, the motor and battery, the brakes and the frame size.',
+    'An e-mountain bike is a mountain bike with a pedal-assist motor and battery. The motor adds power as you pedal, which makes climbs easier and lets you ride further on trails. Our electric mountain bike range has 48 models, starting at $1,699, so the big decisions are the type of suspension, the motor and battery, the brakes and the frame size.',
     'This guide covers those choices, shows real prices for hardtail and full-suspension models, and sets out the trail rules and battery safety you need to know before you buy.',
   ],
   prepend: [

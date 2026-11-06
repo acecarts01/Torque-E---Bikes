@@ -13,7 +13,7 @@ export const meta = {
   imageAlt: 'Red electric tricycle with storage baskets on grass, an electric tricycle for adults',
   related: [
     { href: '/shop/cargo-bikes-and-e-trikes/electric-trike-blue-cargo-basket/', name: 'Electric Trike Blue (cargo basket)', price: 2349, note: 'A three-wheel electric trike with a cargo basket.' },
-    { href: '/shop/cargo-bikes-and-e-trikes/eunorau-g30-cargo-electric-bike/', name: 'Eunorau G30 Cargo Electric Bike', price: 2589, note: 'A cargo electric bike for heavier loads.' },    { href: '/shop/cargo-bikes-and-e-trikes/', name: 'All cargo bikes and e-trikes', note: '25 models.' },
+    { href: '/shop/cargo-bikes-and-e-trikes/eunorau-g30-cargo-electric-bike/', name: 'Eunorau G30 Cargo Electric Bike', price: 2589, note: 'A cargo electric bike for heavier loads.' },    { href: '/shop/cargo-bikes-and-e-trikes/', name: 'All cargo bikes and e-trikes', note: '13 models.' },
   ],
   links: {
     to: [

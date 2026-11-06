@@ -18,7 +18,7 @@ export const meta = {
     { href: '/shop/controls-grips-and-pedals/ampd-bros-twist-throttle-kit/', name: 'Ampd Bros Twist Throttle Kit', price: 99, note: 'A twist throttle kit.' },
     { href: '/shop/controls-grips-and-pedals/display-colour-lcd/', name: 'Display (Colour LCD)', price: 129, note: 'A colour LCD display.' },
     { href: '/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/', name: 'DYU C6 Electric Bike', price: 849, note: 'Our lowest-priced commuter e-bike. Ask us about its assist system.' },
-    { href: '/shop/controls-grips-and-pedals/', name: 'All controls, grips and pedals', note: '12 products.' },
+    { href: '/shop/controls-grips-and-pedals/', name: 'All controls, grips and pedals', note: '10 products.' },
   ],
   links: {
     to: [

@@ -15,7 +15,7 @@ export const meta = {
   related: [
     { href: '/shop/kids-electric-dirt-and-balance-bikes/sherco-eb12-kids-electric-balance-bike/', name: 'Sherco EB12 Kids Electric Balance Bike', price: 619, note: '12-inch electric balance bike.' },
     { href: '/shop/kids-electric-dirt-and-balance-bikes/dhz-16-electric-balance-bike-removable-battery-brushless-motor/', name: 'DHZ 16" Electric Balance Bike', price: 759, note: 'Removable battery, brushless motor.' },
-    { href: '/shop/kids-electric-dirt-and-balance-bikes/', name: 'All kids electric dirt and balance bikes', note: '29 models.' },
+    { href: '/shop/kids-electric-dirt-and-balance-bikes/', name: 'All kids electric dirt and balance bikes', note: '20 models.' },
   ],
   links: {
     to: [
@@ -41,7 +41,7 @@ export const body = {
     {
       h: 'Electric balance bike prices and sizes from our range',
       p: [
-        'These are examples from our [kids electric dirt and balance bikes](/shop/kids-electric-dirt-and-balance-bikes/) range, which has 29 models from $499 to $8,495. The listings do not publish speed or weight figures, so ask us for them and for the right size for your child before you order.',
+        'These are examples from our [kids electric dirt and balance bikes](/shop/kids-electric-dirt-and-balance-bikes/) range, which has 20 models from $499 to $8,495. The listings do not publish speed or weight figures, so ask us for them and for the right size for your child before you order.',
       ],
       table: {
         head: ['Model', 'Price', 'Size'],

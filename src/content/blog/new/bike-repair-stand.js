@@ -23,6 +23,7 @@ export const meta = {
     credit: null,
   },
   related: [
+    { href: '/shop/care-tools-and-hydration/rock-n-roll-absolute-dry-chain-lube-117ml/', name: 'Rock N Roll Absolute Dry Chain Lube 117ml', price: 18.95, note: 'A chain lube for bench work.' },
     { href: '/shop/care-tools-and-hydration/rock-n-roll-gold-chain-lube-117ml/', name: 'Rock N Roll Gold Chain Lube 117ml', price: 18.95, note: 'A chain lube.' },
     { href: '/shop/care-tools-and-hydration/', name: 'All care, tools and hydration', note: 'Lubes, degreasers and levers.' },
   ],

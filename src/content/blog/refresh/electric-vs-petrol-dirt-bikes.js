@@ -17,7 +17,7 @@ export const meta = {
   related: [
     { href: '/shop/electric-dirt-bikes/79bike-viper-s-electric-dirt-bike/', name: '79Bike Viper S Electric Dirt Bike', price: 949, note: 'Our lowest-priced electric dirt bike. Off-road only.' },
     { href: '/shop/electric-dirt-bikes/sur-ron-light-bee-x/', name: 'Sur-Ron Light Bee X', price: 6169, note: 'A popular lightweight e-moto. Off-road only.' },
-    { href: '/shop/electric-dirt-bikes/', name: 'All electric dirt bikes', note: '49 models.' },
+    { href: '/shop/electric-dirt-bikes/', name: 'All electric dirt bikes', note: '35 models.' },
   ],
   links: {
     to: [
@@ -43,7 +43,7 @@ export const body = {
     {
       h: 'Electric dirtbike prices and what you get at each level',
       p: [
-        'Our [electric dirt bikes](/shop/electric-dirt-bikes/) range has 49 models from $949 to $19,990, and every bike is for off-road and private property use only. The listings do not publish motor and battery figures, so ask us for them and compare like for like.',
+        'Our [electric dirt bikes](/shop/electric-dirt-bikes/) range has 35 models from $949 to $19,990, and every bike is for off-road and private property use only. The listings do not publish motor and battery figures, so ask us for them and compare like for like.',
       ],
       table: {
         head: ['Model', 'Price', 'Use'],

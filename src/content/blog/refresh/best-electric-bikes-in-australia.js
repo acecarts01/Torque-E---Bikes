@@ -14,7 +14,7 @@ export const meta = {
     { href: '/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/', name: 'DYU C6 Electric Bike', price: 849, note: 'Our lowest-priced commuter e-bike.' },
     { href: '/shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/', name: 'DYU D3 Smart Electric Bike', price: 659, note: 'Our lowest-priced folding e-bike.' },
     { href: '/shop/cargo-bikes-and-e-trikes/sunmono-mars-20-electric-cargo-bike/', name: 'Sunmono Mars 20 Electric Cargo Bike', price: 899, note: 'Our lowest-priced cargo e-bike.' },
-    { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: '77 models.' },
+    { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: '60 models.' },
   ],
   links: {
     to: [

@@ -17,7 +17,7 @@ export const meta = {
     { href: '/shop/electric-dirt-bikes/talaria-sting-r-mx-tl4000-electric-off-road-motorbike/', name: 'Talaria Sting R-mx TL4000', price: 4749, note: 'Electric off-road motorbike. Off-road only.' },
     { href: '/shop/electric-dirt-bikes/sur-ron-light-bee-x/', name: 'Sur-Ron Light Bee X', price: 6169, note: 'A popular lightweight e-moto. Off-road only.' },
     { href: '/shop/kids-electric-dirt-and-balance-bikes/ktm-sx-e-5/', name: 'KTM SX-E 5', price: 8495, note: 'A kids electric motorbike. Off-road only.' },
-    { href: '/shop/electric-dirt-bikes/', name: 'All electric dirt bikes', note: '49 models.' },
+    { href: '/shop/electric-dirt-bikes/', name: 'All electric dirt bikes', note: '35 models.' },
   ],
   links: {
     to: [

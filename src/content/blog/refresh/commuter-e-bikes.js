@@ -16,7 +16,7 @@ export const meta = {
     { href: '/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/', name: 'DYU C6 Electric Bike', price: 849, note: 'Our lowest-priced commuter e-bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/ncm-t3s/', name: 'NCM T3S', price: 1419, note: 'A commuter e-bike with more budget headroom.' },
     { href: '/shop/lights-and-horns/azur-alien2-100-lm-usb-rechargeable-rear-light/', name: 'Azur Alien2 100 lm USB Rechargeable Rear Light', price: 27.95, note: 'A rear light for the commute.' },
-    { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: '77 models.' },
+    { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: '60 models.' },
   ],
   links: {
     to: [

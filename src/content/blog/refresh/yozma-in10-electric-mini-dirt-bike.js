@@ -14,7 +14,7 @@ export const meta = {
   related: [
     { href: '/shop/kids-electric-dirt-and-balance-bikes/dhz-electric-kids-mini-dirt-bike-3-speeds-control/', name: 'DHZ Electric Kids Mini Dirt Bike, 3 Speeds Control', price: 849, note: 'A lower-priced electric mini dirt bike. Off-road only.' },
     { href: '/shop/kids-electric-dirt-and-balance-bikes/razor-mx650/', name: 'Razor MX650', price: 1299, note: 'Razor electric dirt bike. Off-road only.' },
-    { href: '/shop/electric-dirt-bikes/', name: 'All electric dirt bikes', note: '49 models.' },
+    { href: '/shop/electric-dirt-bikes/', name: 'All electric dirt bikes', note: '35 models.' },
   ],
   links: {
     to: [

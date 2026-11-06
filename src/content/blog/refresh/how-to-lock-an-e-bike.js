@@ -16,7 +16,7 @@ export const meta = {
     { href: '/shop/locks-and-security/onguard-chain-lock/', name: 'OnGuard Chain Lock', price: 38.95, note: 'Our lowest-priced chain lock.' },
     { href: '/shop/locks-and-security/mastiff-chain-lock-keyed/', name: 'Mastiff Chain-Lock Keyed', price: 99, note: 'A keyed chain lock.' },
     { href: '/shop/locks-and-security/kovix-steel-thunder-alarmed-folding-lock/', name: 'Kovix Steel Thunder Alarmed Folding Lock', price: 109, note: 'A folding lock with an alarm.' },
-    { href: '/shop/locks-and-security/', name: 'All locks and security', note: '4 products.' },
+    { href: '/shop/locks-and-security/', name: 'All locks and security', note: '3 products.' },
   ],
   links: {
     to: [

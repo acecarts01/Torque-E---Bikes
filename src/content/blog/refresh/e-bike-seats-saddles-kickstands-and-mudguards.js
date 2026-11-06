@@ -13,8 +13,10 @@ export const meta = {
   tags: ['mudguards', 'bike mudguard', 'comfy bike seat', 'bicycle mudguard', 'mountain bike mudguards', 'mtb bike mudguards', 'cycle mudguard', 'bicycle mudguards', 'comfortable bicycle saddle', 'bike fenders'],
   imageAlt: 'Close-up of a bike seat, one of the bike seats and saddles an e-bike can be fitted with',
   related: [
+    { href: '/shop/seats-fenders-and-body/79bike-seat/', name: '79Bike Seat', price: 149, note: 'A replacement seat for 79Bike models.' },
+    { href: '/shop/seats-fenders-and-body/79bike-underseat-plastic/', name: '79Bike Underseat Plastic', price: 66.95, note: 'Underseat plastic for 79Bike models.' },
     { href: '/shop/seats-fenders-and-body/ampd-bros-ace-rear-alloy-folding-footpeg-set/', name: 'Ampd Bros Ace Rear Alloy Folding Footpeg Set', price: 61.95, note: 'Rear folding footpegs.' },
-    { href: '/shop/seats-fenders-and-body/', name: 'All seats, fenders and body parts', note: '23 products.' },
+    { href: '/shop/seats-fenders-and-body/', name: 'All seats, fenders and body parts', note: '13 products.' },
   ],
   links: {
     to: [
@@ -40,7 +42,7 @@ export const body = {
     {
       h: 'Bike seats and comfort parts: prices from our range',
       p: [
-        'These are examples from our [seats, fenders and body parts](/shop/seats-fenders-and-body/) range, which has 23 products including spares for specific bikes. Always match a part to your exact bike and model year, and ask us if you are unsure.',
+        'These are examples from our [seats, fenders and body parts](/shop/seats-fenders-and-body/) range, which has 13 products including spares for specific bikes. Always match a part to your exact bike and model year, and ask us if you are unsure.',
       ],
       table: {
         head: ['Product', 'Price', 'Use'],

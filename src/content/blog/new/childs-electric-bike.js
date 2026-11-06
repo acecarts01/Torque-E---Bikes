@@ -24,7 +24,7 @@ export const meta = {
     { href: '/shop/kids-and-youth-e-bikes/velectrix-hurricane-24-kids-e-bike/', name: 'VelectriX Hurricane 24" Kids E-Bike', price: 949, note: 'Our lowest-priced youth model.' },
     { href: '/shop/kids-and-youth-e-bikes/ace-s-19-youth-electric-bike/', name: 'ACE-S 19 Youth Electric Bike', price: 1299, note: 'A smaller-frame youth bike.' },
     { href: '/shop/kids-and-youth-e-bikes/cruzr-grom-gen2/', name: 'Cruzr Grom GEN2', price: 1989, note: 'Ask us for the motor rating before you order.' },
-    { href: '/shop/kids-and-youth-e-bikes/', name: 'All kids and youth e-bikes', note: '11 models.' },
+    { href: '/shop/kids-and-youth-e-bikes/', name: 'All kids and youth e-bikes', note: '9 models.' },
   ],
   links: {
     to: [
@@ -52,7 +52,7 @@ export const body = {
     {
       h: 'Childs electric bike prices and models',
       p: [
-        'Our [kids e bikes](/shop/kids-and-youth-e-bikes/) range has 11 models, from budget-friendly youth bikes to premium brands. The listings do not publish motor ratings, so ask us for the motor power, speed limit and compliance label of any bike before you order.',
+        'Our [kids e bikes](/shop/kids-and-youth-e-bikes/) range has 9 models, from budget-friendly youth bikes to premium brands. The listings do not publish motor ratings, so ask us for the motor power, speed limit and compliance label of any bike before you order.',
       ],
       table: {
         head: ['Model', 'Price', 'Notes from the listing'],

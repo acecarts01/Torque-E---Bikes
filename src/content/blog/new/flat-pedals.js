@@ -22,6 +22,7 @@ export const meta = {
     credit: null,
   },
   related: [
+    { href: '/shop/controls-grips-and-pedals/79bike-handlebar-grips/', name: '79Bike Handlebar Grips', price: 28.95, note: 'Grips to match new pedals.' },
     { href: '/shop/controls-grips-and-pedals/flat-pedals-orange/', name: 'Flat Pedals Orange', price: 55, note: 'The lowest-priced flat pedals in our range.' },
     { href: '/shop/controls-grips-and-pedals/', name: 'All controls, grips and pedals', note: 'Grips, pedals, throttles and displays.' },
   ],

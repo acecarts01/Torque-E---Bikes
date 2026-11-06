@@ -17,7 +17,7 @@ export const meta = {
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/dirodi-rover-gen6/', name: 'Dirodi Rover GEN6', price: 2359, note: 'The Rover Gen 6.' },
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/dirodi-rover-plus-gen-6-e-bike/', name: 'DiroDi Rover Plus Gen 6 E-Bike', price: 2359, note: 'The Rover Plus Gen 6.' },
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/dirodi-rover-pro/', name: 'Dirodi Rover Pro', price: 3079, note: 'The Rover Pro.' },
-    { href: '/shop/fat-tyre-and-scrambler-e-bikes/', name: 'All fat-tyre and scrambler e-bikes', note: '41 models.' },
+    { href: '/shop/fat-tyre-and-scrambler-e-bikes/', name: 'All fat-tyre and scrambler e-bikes', note: '36 models.' },
   ],
   links: {
     to: [

@@ -23,6 +23,8 @@ export const meta = {
     credit: null,
   },
   related: [
+    { href: '/shop/kids-electric-dirt-and-balance-bikes/gobike-12-ebike-for-kids/', name: 'Gobike 12" Ebike for Kids', price: 949, note: 'A kids e-bike for when a child outgrows a bike seat.' },
+    { href: '/shop/kids-electric-dirt-and-balance-bikes/gobike-16-electric-bike-for-kids/', name: 'Gobike 16" Electric Bike for Kids', price: 1329, note: 'A larger kids e-bike.' },
     { href: '/shop/racks-bags-and-trailers/', name: 'All racks, bags and trailers', note: 'Child seats, trailers, panniers and baskets.' },
   ],
   links: {

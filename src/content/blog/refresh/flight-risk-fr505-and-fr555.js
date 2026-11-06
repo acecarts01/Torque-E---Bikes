@@ -15,8 +15,10 @@ export const meta = {
   tagsShortReason: 'only 6 relevant unused Flight Risk keywords in Semrush AU',
   imageAlt: 'Close-up of a bike tyre on a trail, the grip a Flight Risk electric bike is built around',
   related: [
+    { href: '/shop/fat-tyre-and-scrambler-e-bikes/fatboy-scrambler-e-bike/', name: 'Fatboy Scrambler E-Bike', price: 3269, note: 'Another scrambler-style fat-tyre e-bike.' },
+    { href: '/shop/fat-tyre-and-scrambler-e-bikes/cruzr-stoke-electric-bike/', name: 'Cruzr Stoke Electric Bike', price: 2969, note: 'A fat-tyre e-bike in the same range.' },
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/flight-risk-fr777/', name: 'Flight Risk FR777', price: 4849, note: 'The top Flight Risk we list.' },
-    { href: '/shop/fat-tyre-and-scrambler-e-bikes/', name: 'All fat-tyre and scrambler e-bikes', note: '41 models.' },
+    { href: '/shop/fat-tyre-and-scrambler-e-bikes/', name: 'All fat-tyre and scrambler e-bikes', note: '36 models.' },
   ],
   links: {
     to: [

@@ -17,7 +17,7 @@ export const meta = {
     { href: '/shop/brakes/jagwire-mountain-sport-semi-metallic-disc-brake-pads-shimano-rst-tektro-trp/', name: 'Jagwire Mountain Sport Semi-Metallic Disc Brake Pads', price: 23.95, note: 'Semi-metallic disc pads for Shimano, RST, Tektro and TRP.' },
     { href: '/shop/brakes/nutt-hydraulic-brake-pads-with-cooling-fins/', name: 'Nutt Hydraulic Brake Pads With Cooling Fins', price: 27.95, note: 'Hydraulic pads with cooling fins.' },
     { href: '/shop/brakes/79-bike-falcon-pro-brake-pads/', name: '79 Bike Falcon Pro Brake Pads', price: 32.95, note: 'For the 79Bike Falcon Pro.' },
-    { href: '/shop/brakes/', name: 'All brakes', note: '19 products.' },
+    { href: '/shop/brakes/', name: 'All brakes', note: '18 products.' },
   ],
   links: {
     to: [
@@ -43,7 +43,7 @@ export const body = {
     {
       h: 'Bicycle brake pads: prices and options from our range',
       p: [
-        'These are examples from our [brakes](/shop/brakes/) range, which has 19 products from $22.95 to $409. Match pads to your exact caliper, because pad shapes differ. Ask us if you are unsure what fits.',
+        'These are examples from our [brakes](/shop/brakes/) range, which has 18 products from $22.95 to $409. Match pads to your exact caliper, because pad shapes differ. Ask us if you are unsure what fits.',
       ],
       table: {
         head: ['Product', 'Price', 'Fits'],

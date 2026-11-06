@@ -14,7 +14,7 @@ export const meta = {
   related: [
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/riptide-3-electric-bike/', name: 'Riptide 3 Electric Bike', price: 2059, note: 'A fat-tyre e-bike.' },
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/fatboy-the-dna-v3/', name: 'Fatboy The DNA V3', price: 2259, note: 'Fatboy fat-tyre e-bike.' },
-    { href: '/shop/fat-tyre-and-scrambler-e-bikes/', name: 'All fat-tyre and scrambler e-bikes', note: '41 models.' },
+    { href: '/shop/fat-tyre-and-scrambler-e-bikes/', name: 'All fat-tyre and scrambler e-bikes', note: '36 models.' },
   ],
   links: {
     to: [
@@ -34,7 +34,7 @@ export const meta = {
 
 export const body = {
   intro: [
-    'A fat tyre e bike uses very wide tyres for grip and comfort on sand, gravel, dirt and rough tracks. Add a motor and battery and you have a bike that is easy to ride on surfaces that stop a normal bike. Our fat-tyre and scrambler range has 41 models from $1,609, so there is a style for most budgets.',
+    'A fat tyre e bike uses very wide tyres for grip and comfort on sand, gravel, dirt and rough tracks. Add a motor and battery and you have a bike that is easy to ride on surfaces that stop a normal bike. Our fat-tyre and scrambler range has 36 models from $2,059, so there is a style for most budgets.',
     'This guide covers what fat-tyre bikes suit, shows real prices, explains what to check and how they compare with an electric mountain bike, and sets out the rules to know.',
   ],
   prepend: [

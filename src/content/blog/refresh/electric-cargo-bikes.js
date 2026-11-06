@@ -14,7 +14,7 @@ export const meta = {
   related: [
     { href: '/shop/cargo-bikes-and-e-trikes/sunmono-mars-20-electric-cargo-bike/', name: 'Sunmono Mars 20 Electric Cargo Bike', price: 899, note: 'Our lowest-priced cargo e-bike.' },
     { href: '/shop/cargo-bikes-and-e-trikes/aventon-abound-sr-electric-cargo-bike/', name: 'Aventon Abound SR Electric Cargo Bike', price: 2999, note: 'Aventon cargo e-bike.' },
-    { href: '/shop/cargo-bikes-and-e-trikes/', name: 'All cargo bikes and e-trikes', note: '25 models.' },
+    { href: '/shop/cargo-bikes-and-e-trikes/', name: 'All cargo bikes and e-trikes', note: '13 models.' },
   ],
   links: {
     to: [
@@ -34,7 +34,7 @@ export const meta = {
 
 export const body = {
   intro: [
-    'Electric cargo bikes carry shopping, tools, equipment or children with the help of a motor. For short local trips they can replace many car journeys, but they need more space and a stronger frame than a normal bike. Our range has 25 cargo bikes and e-trikes, starting at $899.',
+    'Electric cargo bikes carry shopping, tools, equipment or children with the help of a motor. For short local trips they can replace many car journeys, but they need more space and a stronger frame than a normal bike. Our range has 13 cargo bikes and e-trikes, starting at $899.',
     'This guide covers the main types, real prices, what to check before you choose, and the rules for carrying passengers.',
   ],
   prepend: [

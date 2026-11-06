@@ -24,6 +24,7 @@ export const meta = {
     credit: null,
   },
   related: [
+    { href: '/shop/racks-bags-and-trailers/car-rack-ezigrip-e-rack-2-deluxe-foldable/', name: 'Car Rack EziGrip E-Rack 2 Deluxe/Foldable', price: 899, note: 'A foldable car rack in our range.' },
     { href: '/shop/racks-bags-and-trailers/', name: 'All racks, bags and trailers', note: 'Racks, panniers and trailers.' },
     { href: '/shop/locks-and-security/', name: 'Locks and security', note: 'Lock the bikes once they are on the rack.' },
   ],

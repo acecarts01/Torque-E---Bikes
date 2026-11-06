@@ -15,7 +15,7 @@ export const meta = {
     { href: '/shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/', name: 'DYU D3+ Smart Electric Bike Black', price: 659, note: 'Our lowest-priced folding e-bike.' },
     { href: '/shop/folding-e-bikes/folding-step-through-e-bike-white/', name: 'Folding Step-Through E-Bike White', price: 1199, note: 'A step-through folding e-bike.' },
     { href: '/shop/folding-e-bikes/ncm-paris-folding-e-bike/', name: 'NCM Paris Folding E-Bike', price: 1799, note: 'NCM folding e-bike.' },
-    { href: '/shop/folding-e-bikes/', name: 'All folding e-bikes', note: '21 models.' },
+    { href: '/shop/folding-e-bikes/', name: 'All folding e-bikes', note: '17 models.' },
   ],
   links: {
     to: [
@@ -34,7 +34,7 @@ export const meta = {
 
 export const body = {
   intro: [
-    'A foldable electric bike has a hinged frame that folds down for storage and transport. It suits small flats, car boots and mixed commutes that include trains or buses. Our range has 21 folding e-bikes from $659 to $2,999, so you can find one at most budgets.',
+    'A foldable electric bike has a hinged frame that folds down for storage and transport. It suits small flats, car boots and mixed commutes that include trains or buses. Our range has 17 folding e-bikes from $659 to $2,999, so you can find one at most budgets.',
     'The trade-off is that folding bikes usually have smaller wheels, so they can feel less stable and less comfortable than full-size bikes on rough surfaces. This guide shows real prices, what to check, who should buy one and who should choose a full-size bike instead.',
   ],
   prepend: [

@@ -14,8 +14,10 @@ export const meta = {
   tags: ['e-bike helm', 'e bike helm', 'e bike helmet australia', 'electric cycle helmet', 'helmet for ebike', 'kids bike helmet', 'childs bicycle helmet', 'kids helmet', 'childrens cycle helmets', 'helmet for kids'],
   imageAlt: 'Bicycle helmet sitting on a stone wall, an e bike helmet ready for a ride',
   related: [
+    { href: '/shop/helmets-gloves-and-protection/hidrop-helmet-shiny-black/', name: 'Hidrop Helmet (Shiny Black)', price: 279, note: 'A full-coverage style helmet.' },
+    { href: '/shop/helmets-gloves-and-protection/79bike-protective-armour/', name: '79Bike Protective Armour', price: 189, note: 'Body protection for faster riding.' },
     { href: '/shop/helmets-gloves-and-protection/abus-macator-helmet/', name: 'Abus Macator Helmet', price: 93.95, note: 'Our lowest-priced bike helmet.' },
-    { href: '/shop/helmets-gloves-and-protection/', name: 'All helmets, gloves and protection', note: '14 products.' },
+    { href: '/shop/helmets-gloves-and-protection/', name: 'All helmets, gloves and protection', note: '7 products.' },
   ],
   links: {
     to: [
@@ -35,7 +37,7 @@ export const meta = {
 
 export const body = {
   intro: [
-    'A certified e bike helmet is the single most important piece of riding gear, and gloves, goggles and armour add protection that matters even more on an electric dirt bike. E-bikes are heavier and faster than normal bikes, so crashes can be more serious. Helmets in our range start at $93.95, and our protection range has 14 products.',
+    'A certified e bike helmet is the single most important piece of riding gear, and gloves, goggles and armour add protection that matters even more on an electric dirt bike. E-bikes are heavier and faster than normal bikes, so crashes can be more serious. Helmets in our range start at $93.95, and our protection range has 7 products.',
     'This guide covers what to wear for each type of riding, what the Australian helmet standard means, how to check fit, and real prices.',
   ],
   prepend: [

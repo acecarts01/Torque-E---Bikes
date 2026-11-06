@@ -22,6 +22,8 @@ export const meta = {
     credit: null,
   },
   related: [
+    { href: '/shop/seats-fenders-and-body/79bike-seat/', name: '79Bike Seat', price: 149, note: 'A replacement seat for 79Bike models.' },
+    { href: '/shop/seats-fenders-and-body/79bike-underseat-plastic/', name: '79Bike Underseat Plastic', price: 66.95, note: 'Underseat plastic for 79Bike models.' },
     { href: '/shop/seats-fenders-and-body/', name: 'All seats, fenders and body', note: 'Saddles, covers, fenders and stands.' },
   ],
   links: {

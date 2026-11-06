@@ -14,7 +14,7 @@ export const meta = {
     { href: '/shop/wheels-tyres-and-tubes/fat-bike-wheel/', name: 'Fat Bike Wheel', price: 149, note: 'A fat bike wheel.' },
     { href: '/shop/wheels-tyres-and-tubes/fatboy-front-wheel-assembly-20x4-thru-axle-v2-bagus-all-v3-models/', name: 'Fatboy Front Wheel Assembly 20x4', price: 139, note: 'Thru-axle front wheel for Fatboy V2 Bagus and V3 models.' },
     { href: '/shop/wheels-tyres-and-tubes/fatboy-rear-wheel-assembly-20x4-with-rim-holes-for-v1-v2-and-v3/', name: 'Fatboy Rear Wheel Assembly 20x4', price: 179, note: 'Rear wheel for Fatboy V1, V2 and V3.' },
-    { href: '/shop/wheels-tyres-and-tubes/', name: 'All wheels, tyres and tubes', note: '8 products.' },
+    { href: '/shop/wheels-tyres-and-tubes/', name: 'All wheels, tyres and tubes', note: '7 products.' },
   ],
   links: {
     to: [
@@ -40,7 +40,7 @@ export const body = {
     {
       h: 'Bike tyre, tube and wheel prices from our range',
       p: [
-        'Our [wheels, tyres and tubes](/shop/wheels-tyres-and-tubes/) range has 8 products. Match any tyre, tube or wheel to your bike\'s exact size and valve type, and ask us if you are unsure.',
+        'Our [wheels, tyres and tubes](/shop/wheels-tyres-and-tubes/) range has 7 products. Match any tyre, tube or wheel to your bike\'s exact size and valve type, and ask us if you are unsure.',
       ],
       table: {
         head: ['Product', 'Price', 'Use'],

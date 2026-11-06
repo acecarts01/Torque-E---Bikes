@@ -14,7 +14,7 @@ export const meta = {
   related: [
     { href: '/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/', name: 'DYU C6 Electric Bike', price: 849, note: 'Our lowest-priced commuter e-bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/ncm-t3s/', name: 'NCM T3S', price: 1419, note: 'A commuter e-bike with more budget headroom.' },
-    { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: '77 models.' },
+    { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: '60 models.' },
     { href: '/electric-bikes/', name: 'All electric bikes', note: 'Every road-style e-bike category.' },
   ],
   links: {

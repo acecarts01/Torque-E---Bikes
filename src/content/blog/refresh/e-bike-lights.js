@@ -15,7 +15,7 @@ export const meta = {
     { href: '/shop/lights-and-horns/azur-alien2-100-lm-usb-rechargeable-rear-light/', name: 'Azur Alien2 100 lm USB Rechargeable Rear Light', price: 27.95, note: 'Our lowest-priced light: a USB-rechargeable rear light.' },
     { href: '/shop/lights-and-horns/azur-performance-halo/', name: 'Azur Performance Halo', price: 75.95, note: 'Azur light.' },
     { href: '/shop/lights-and-horns/blinder-1300-front-bike-light/', name: 'Blinder 1300 Front Bike Light', price: 149, note: 'A front bike light.' },
-    { href: '/shop/lights-and-horns/', name: 'All lights and horns', note: '9 products.' },
+    { href: '/shop/lights-and-horns/', name: 'All lights and horns', note: '8 products.' },
   ],
   links: {
     to: [

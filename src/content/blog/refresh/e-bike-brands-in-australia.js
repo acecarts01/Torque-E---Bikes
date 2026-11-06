@@ -16,7 +16,7 @@ export const meta = {
   related: [
     { href: '/shop/commuter-and-urban-e-bikes/ncm-t3s/', name: 'NCM T3S', price: 1419, note: 'NCM commuter e-bike.' },
     { href: '/shop/commuter-and-urban-e-bikes/aventon-pace-4/', name: 'Aventon Pace 4', price: 2199, note: 'Aventon commuter e-bike.' },
-    { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: '77 models.' },
+    { href: '/shop/commuter-and-urban-e-bikes/', name: 'All commuter and urban e-bikes', note: '60 models.' },
   ],
   links: {
     to: [

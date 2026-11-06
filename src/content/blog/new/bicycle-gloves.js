@@ -22,6 +22,8 @@ export const meta = {
     credit: null,
   },
   related: [
+    { href: '/shop/helmets-gloves-and-protection/79bike-protective-armour/', name: '79Bike Protective Armour', price: 189, note: 'Body protection to wear with gloves.' },
+    { href: '/shop/helmets-gloves-and-protection/79bike-quick-dry-riding-apparel-set/', name: '79Bike Quick-Dry Riding Apparel Set', price: 179, note: 'A riding apparel set.' },
     { href: '/shop/helmets-gloves-and-protection/abus-macator-helmet/', name: 'Abus Macator Helmet', price: 93.95, note: 'A helmet to wear with your gloves.' },
     { href: '/shop/helmets-gloves-and-protection/', name: 'All helmets, gloves and protection', note: 'Helmets, gloves, goggles and armour.' },
   ],

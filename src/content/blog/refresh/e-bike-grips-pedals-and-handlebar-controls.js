@@ -16,7 +16,7 @@ export const meta = {
     { href: '/shop/controls-grips-and-pedals/flat-pedals-orange/', name: 'Flat Pedals Orange', price: 55, note: 'Flat pedals.' },
     { href: '/shop/controls-grips-and-pedals/ampd-bros-thumb-throttle-kit/', name: 'Ampd Bros Thumb Throttle Kit', price: 85, note: 'A thumb throttle kit.' },
     { href: '/shop/controls-grips-and-pedals/ampd-bros-twist-throttle-kit/', name: 'Ampd Bros Twist Throttle Kit', price: 99, note: 'A twist throttle kit.' },
-    { href: '/shop/controls-grips-and-pedals/', name: 'All controls, grips and pedals', note: '12 products.' },
+    { href: '/shop/controls-grips-and-pedals/', name: 'All controls, grips and pedals', note: '10 products.' },
   ],
   links: {
     to: [
@@ -42,7 +42,7 @@ export const body = {
     {
       h: 'Bicycle pedals, grips and controls: prices from our range',
       p: [
-        'These are examples from our [controls, grips and pedals](/shop/controls-grips-and-pedals/) range, which has 12 products. Match controls and connectors to your bike: ask us before you order a throttle or display, because connectors differ between bikes.',
+        'These are examples from our [controls, grips and pedals](/shop/controls-grips-and-pedals/) range, which has 10 products. Match controls and connectors to your bike: ask us before you order a throttle or display, because connectors differ between bikes.',
       ],
       table: {
         head: ['Product', 'Price', 'Use'],
