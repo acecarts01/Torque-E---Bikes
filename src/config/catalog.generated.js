@@ -4,9 +4,9 @@ export const CATALOG_CATEGORIES = [
   "slug": "electric-dirt-bikes",
   "name": "Electric Dirt Bikes",
   "group": "Bikes",
-  "description": "Shop 34 electric dirt bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 36 electric dirt bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/sur-ron-light-bee-x-1.webp",
-  "count": 34
+  "count": 36
  },
  {
   "slug": "kids-electric-dirt-and-balance-bikes",
@@ -124,9 +124,9 @@ export const CATALOG_CATEGORIES = [
   "slug": "motors-drivetrain-and-sprockets",
   "name": "Motors, Drivetrain & Sprockets",
   "group": "Parts",
-  "description": "Shop 8 motors, drivetrain & sprockets from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
+  "description": "Shop 10 motors, drivetrain & sprockets from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/79bike-drive-chain-1.webp",
-  "count": 8
+  "count": 10
  },
  {
   "slug": "suspension-and-forks",

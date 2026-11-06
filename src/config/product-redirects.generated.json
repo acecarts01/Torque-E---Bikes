@@ -148,10 +148,6 @@
   "destination": "/shop/care-tools-and-hydration/"
  },
  {
-  "source": "/shop/electric-dirt-bikes/rerode-r1-electric-dirt-bike",
-  "destination": "/shop/electric-dirt-bikes/"
- },
- {
   "source": "/shop/locks-and-security/multitag-mount-and-airtag",
   "destination": "/shop/locks-and-security/"
  },
@@ -174,10 +170,6 @@
  {
   "source": "/shop/electric-mountain-bikes/trail-step-over-e-mtb-black-tbc",
   "destination": "/shop/electric-mountain-bikes/"
- },
- {
-  "source": "/shop/electric-dirt-bikes/talaria-komodo-2026-edition",
-  "destination": "/shop/electric-dirt-bikes/talaria-komodo/"
  },
  {
   "source": "/shop/electric-dirt-bikes/electric-dirt-bike-black-brand-tbc",
@@ -222,10 +214,6 @@
  {
   "source": "/shop/cargo-bikes-and-e-trikes/kristall-ex400-e-trike",
   "destination": "/shop/cargo-bikes-and-e-trikes/"
- },
- {
-  "source": "/shop/motors-drivetrain-and-sprockets/torque-mtx-motor-and-rim",
-  "destination": "/shop/motors-drivetrain-and-sprockets/torque-arms-1500w-5000w-kits/"
  },
  {
   "source": "/shop/helmets-gloves-and-protection/havoc-infinity-mx-helmet",
@@ -274,10 +262,6 @@
  {
   "source": "/shop/cargo-bikes-and-e-trikes/moov8-c2-cargo-ebike-with-torque-sensor",
   "destination": "/shop/cargo-bikes-and-e-trikes/"
- },
- {
-  "source": "/shop/motors-drivetrain-and-sprockets/torque-500w-e-bike-conversion-kit-combo",
-  "destination": "/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/"
  },
  {
   "source": "/shop/seats-fenders-and-body/apollo-thunder-125-front-axle-bolt",

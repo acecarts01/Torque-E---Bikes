@@ -1,0 +1,28 @@
+# Groups-view (mode=1) re-check of the 115 removed products. Format: query | result
+talaria komodo | tcOK 31 | talaria komodo:C:1.3K:12;talaria komodo australia:C:90:6;talaria komodo top speed:C:90:9  => REAL DEMAND (earlier Topics-view said nothing found)
+zero xb | rows 46 | model rows only 10-40 searches, KD n/a (low)
+ssr e8 | NOTHING FOUND
+ssr e15 | NOTHING FOUND
+happyrun g300 | G300 Pro I 320 KD39 (info, KD>28) / price C 50 KD40 => no usable
+kayo ec2i | 7 rows, 20 max, KD n/a (low)
+husqvarna ee5 | 28 rows, 40 max, KD n/a (low)
+tork base | 1 row, 0 searches => none
+emortal rogue | NOTHING FOUND
+razor mx400 | model rows 20 searches, KD n/a (low)
+gasgas mc | petrol GasGas MC only, 20-30 searches (low)
+scott patron | 20-50 searches, KD n/a (low)
+specialized como / segway myon / specialized creo | no model rows
+mondraker crafty | 20-30 searches, KD n/a (low)
+dyu a5 | 20-30 searches, KD n/a (low)
+flight risk fr505 | flight risk fr505:C:90:6 only usable (1 keyword)
+flight risk fr888 | 10 searches (low)
+seat drip | 40 max (low)
+srpnt z27 / ncm cg7 / krush rotor | 0-20 searches (low)
+rerode r1 | rerode r1:C:140:6 usable (1 keyword); rest I or no KD  => modest real demand
+thule euroway | thule euroway g2 2 bike car rack:C:70:15 only; g2:IC:90 (mixed)
+500w ebike conversion kit | model tokens none; category-level tcOK 49 (conversion kits)  => own-brand Torque product
+kona coco | kona coco:IT:70:9 (mixed)
+torque mtx | NOTHING FOUND (own-brand Torque motor and rim)
+aventon level 4 | aventon level ebike:C:90:24; aventon level electric bike:C:90:27 (2 usable, brand-level)
+yozma in10 | yozma in10:I:590:30 (info, KD>28); yozma in10 ebike:IT:90:20 => not usable
+cannondale treadwell | 20-30 searches, KD n/a (low)
