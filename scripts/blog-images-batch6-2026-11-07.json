@@ -1,0 +1,48 @@
+[
+ {
+  "type": "hero",
+  "name": "bike-brake-pads",
+  "files": [
+   "brake-pads-sram-avid-zoom-sport-organic",
+   "jagwire-mountain-sport-semi-metallic-disc-brake-pads-shimano-rst-tektro-trp",
+   "nutt-hydraulic-brake-pads-with-cooling-fins"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "bike-brake-pads-79-bike-falcon-pro-brake-pads",
+  "files": [
+   "79-bike-falcon-pro-brake-pads"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "bike-brake-pads-79bike-front-and-rear-brake-disc",
+  "files": [
+   "79bike-front-and-rear-brake-disc"
+  ]
+ },
+ {
+  "type": "hero",
+  "name": "bike-wheels",
+  "files": [
+   "fat-bike-wheel",
+   "fatboy-front-wheel-assembly-20x4-thru-axle-v2-bagus-all-v3-models",
+   "fatboy-rear-wheel-assembly-20x4-with-rim-holes-for-v1-v2-and-v3"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "bike-wheels-79bike-bare-wheel-rim",
+  "files": [
+   "79bike-bare-wheel-rim"
+  ]
+ },
+ {
+  "type": "single",
+  "name": "bike-wheels-79bike-tyre",
+  "files": [
+   "79bike-tyre"
+  ]
+ }
+]

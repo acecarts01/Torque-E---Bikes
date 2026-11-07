@@ -1,0 +1,46 @@
+#bike brake pads (Semrush AU, host 5, 7 Nov 2026, T/C KD<=28 rows only)
+bike brake pads|IC|720|13
+cycle brake pads|IC|390|17
+bicycle brake pads|C|390|16
+bike brake|IC|260|18
+bike disc brake pads|IC|210|10
+brake pads bike|IC|170|17
+bicycle disk brake pads|IC|170|7
+bike disk brake pads|C|170|10
+bike brake pad|C|140|16
+brake pads mtb|C|90|10
+brake pads for bike|T|70|11
+mtb bike brake pads|C|70|10
+mt bike brake pads|C|50|8
+#bike wheel (Semrush AU, host 5, 7 Nov 2026, KD<=28 rows)
+wheel in bike|I|1000|18
+bikes and wheels|I|880|6
+bike wheels|C|720|12
+bike wheel|C|590|15
+bicycle wheel|C|480|10
+rear bike wheel|IC|90|8
+cycle wheel rim|I|90|11
+bike wheel rim|C|90|14
+wheels bike|C|90|9
+bike cycle wheels|IC|90|5
+bike wheel cycle|I|90|7
+wheels of bike|IC|90|6
+bicycle wheel rim|I|70|9
+#bike chain (Semrush AU, host 5, 7 Nov 2026, KD<=28 rows)
+bike chain|IC|2400|12
+bicycle chain|IC|880|14
+bike chains|C|480|12
+bike and chain|I|390|21
+mountain bike chain|IC|390|14
+bike chain link|I|170|11
+bicycle chain link|I|140|10
+chain for bike|IT|110|19
+bicycle chains|C|110|12
+chain bike|IT|110|19
+chains for bike|C|90|14
+new bike chain|I|90|13
+mountain bike chains|IC|70|10
+bicycle replacement chain|IC|50|15
+buy bike chain|T|50|11
+chain link for bicycle|C|50|11
+mt bike chain|I|50|12
