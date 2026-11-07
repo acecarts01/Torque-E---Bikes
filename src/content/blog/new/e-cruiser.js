@@ -15,8 +15,7 @@ export const meta = {
   readTime: '10 min',
   focus: 'e cruiser',
   secondary: ['cruzr e bikes', 'cruzr electric bike', 'cruzr ebikes', 'cruzr e-bike', 'cruz e bike'],
-  tags: ['cruzr e bike', 'cruzer e bike', 'cruz ebike', 'cruzbike', 'cruzr barrel electric bike', 'cruzrs', 'cruz e bikes', 'cruze e bike'],
-  tagsShortReason: 'only 8 relevant unused Cruzr keywords exist in Semrush AU, and several are spelling variants people genuinely search',
+  tags: ['cruzr e bike', 'cruzer e bike', 'cruz ebike', 'cruzbike', 'cruzr barrel electric bike', 'cruzrs', 'cruz e bikes', 'cruze e bike', 'electric cruiser bike', 'ebike cruiser'],
   image: {
     file: 'blog/e-cruiser.webp',
     alt: 'Cruzr Trigger, Cruzr Barrel and Cruzr Swell, an e cruiser range',
@@ -122,7 +121,7 @@ export const body = {
       h: 'Accessories for an e cruiser',
       ul: [
         '**Basket or rack.** For the beach, shopping or a picnic. See our [bicycle basket guide](/blog/bicycle-basket/) and [bike panniers guide](/blog/bike-panniers/).',
-        '**Lights and bell.** Required for night riding; see our [bicycle light guide](/blog/bicycle-light/).',
+        '**Lights and bell.** Required for night riding; see our [our bicycle light guide](/blog/bicycle-light/).',
         '**Lock.** A good lock matters at the beach and the cafe. See our [bike chain padlock guide](/blog/bike-chain-padlock/).',
         '**Water bottle.** See our [bicycle water bottle guide](/blog/bicycle-water-bottle/).',
         '**Helmet and gloves.** See our [helmets and protective gear guide](/blog/helmets-and-protective-gear-for-e-bikes/).',

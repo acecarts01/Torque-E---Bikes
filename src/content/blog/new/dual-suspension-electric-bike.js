@@ -16,8 +16,7 @@ export const meta = {
   readTime: '11 min',
   focus: 'dual suspension electric bike',
   secondary: ['full suspension electric bicycle', 'full suspension ebike', 'dual suspension e bike', 'full suspension electric bike', 'e bike dual suspension'],
-  tags: ['ebike dual suspension', 'electric bike with suspension', 'ebike full suspension', 'e mtb dual suspension', 'dual suspension e mtb', 'suspension ebike'],
-  tagsShortReason: 'only 6 further relevant unused keywords exist in Semrush AU at KD 28 or lower; the rest belong to the mountain e-bike category and the mountain bike guide',
+  tags: ['ebike dual suspension', 'electric bike with suspension', 'ebike full suspension', 'e mtb dual suspension', 'dual suspension e mtb', 'suspension ebike', 'dual suspension mountain bike', 'dual suspension mtb', 'dual suspension bike', 'full suspension mountain bike'],
   image: {
     file: 'blog/dual-suspension-electric-bike.webp',
     alt: 'Cannondale Moterra Neo 3, Giant Fathom E+ 1 Pro and Trek Rail 7, dual suspension electric bike models',

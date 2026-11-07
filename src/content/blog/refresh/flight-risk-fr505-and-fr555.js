@@ -11,8 +11,8 @@ export const meta = {
   updated: '2026-10-27',
   focus: 'flight risk electric bike',
   secondary: ['flight risk e bikes', 'flight risk e-bike', 'flight risk electric bikes', 'flightrisk ebike', 'flight risk fr333'],
-  tags: ['flight risk bike', 'flight risk 505', 'flight risk ebikes', 'flight risk 303', 'ebike flight risk', 'fr777 electric bike'],
-  tagsShortReason: 'only 6 relevant unused Flight Risk keywords in Semrush AU',
+  tags: ['flight risk bike', 'flight risk 505', 'flight risk ebikes', 'flight risk 303', 'ebike flight risk', 'fr777 electric bike', 'flight risk e bike', 'flight risk fr555'],
+  tagsShortReason: 'only 8 relevant unused Flight Risk keywords in Semrush AU (the rest are used on the brand and product pages)',
   imageAlt: 'Close-up of a bike tyre on a trail, the grip a Flight Risk electric bike is built around',
   related: [
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/fatboy-scrambler-e-bike/', name: 'Fatboy Scrambler E-Bike', price: 3269, note: 'Another scrambler-style fat-tyre e-bike.' },

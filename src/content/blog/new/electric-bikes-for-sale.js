@@ -172,17 +172,17 @@ export const body = {
       h: "Matching the bike to your riding: a quick guide",
       ul: [
         "**Short city trips and errands.** A commuter or folding e-bike, from $659. See our [commuter e-bikes guide](/blog/commuter-e-bikes/).",
-        "**Mixed paths and roads.** A hybrid or trekking e-bike. See our [hybrid ebike guide](/blog/hybrid-ebike/).",
-        "**Hills.** A bigger battery and often a mid-drive motor. See our [mid drive ebike guide](/blog/mid-drive-ebike/).",
+        "**Mixed paths and roads.** A hybrid or trekking e-bike. See our [our hybrid ebike guide](/blog/hybrid-ebike/).",
+        "**Hills.** A bigger battery and often a mid-drive motor. See our [our mid drive ebike guide](/blog/mid-drive-ebike/).",
         "**Trails.** An e-mountain bike. See our [electric mountain bike buying guide](/blog/electric-mountain-bike-buying-guide/).",
         "**Loads and kids.** A cargo bike or trike. See our [electric cargo bikes guide](/blog/electric-cargo-bikes/).",
-        "**Beach and relaxed riding.** A fat-tyre cruiser. See our [e cruiser guide](/blog/e-cruiser/).",
+        "**Beach and relaxed riding.** A fat-tyre cruiser. See our [our e cruiser guide](/blog/e-cruiser/).",
       ],
     },
     {
       h: 'Which electric bike for sale should you choose?',
       p: [
-        'For the lowest price, the [DYU C6 at $849](/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/) is the commuter entry. For a trail bike on a budget, look at the [NCM M3 at $1,699](/shop/electric-mountain-bikes/ncm-m3/), and for a stronger hardtail, the [Cube Reaction Hybrid HPA Pro 500 at $3,199](/shop/electric-mountain-bikes/cube-reaction-hybrid-hpa-pro-500/). For gravel and road, the [Trek Checkpoint+ SL 5 at $3,999](/shop/road-and-gravel-e-bikes/trek-checkpoint-sl-5/) is the entry.',
+        'For the lowest price, the [DYU C6 at $849](/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/) is the commuter entry. For a trail bike on a budget, look at the [NCM M3](/shop/electric-mountain-bikes/ncm-m3/), and for a stronger hardtail, the [Cube Reaction Hybrid HPA Pro 500 at $3,199](/shop/electric-mountain-bikes/cube-reaction-hybrid-hpa-pro-500/). For gravel and road, the [Trek Checkpoint+ SL 5](/shop/road-and-gravel-e-bikes/trek-checkpoint-sl-5/) is the entry.',
         'Send us your budget, your riding and your height and we will recommend bikes and confirm compliance and stock. You can also browse the [commuter and urban e-bikes range](/shop/commuter-and-urban-e-bikes/) and read our [how to choose an e-bike guide](/blog/how-to-choose-an-e-bike/).',
       ],
     },

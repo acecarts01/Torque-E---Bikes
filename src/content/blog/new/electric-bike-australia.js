@@ -154,7 +154,7 @@ export const body = {
       h: "Heat, hills and coast: Australian conditions and your e-bike",
       p: [
         "Australian conditions are hard on e-bikes. Heat shortens battery life if the pack is left in a hot car or in the sun, so store and charge it somewhere cool. Hills reduce range quickly, so choose a bigger battery or a mid-drive motor if your route is steep. Coastal air speeds up corrosion, so rinse the bike and dry the connectors after rides near the sea.",
-        "Long distances between towns mean planning charging stops on tours. Check the range claim against your route and carry a spare charger if the bike allows it. Our [mid drive ebike guide](/blog/mid-drive-ebike/) and [e cruiser guide](/blog/e-cruiser/) cover hills and coastal care.",
+        "Long distances between towns mean planning charging stops on tours. Check the range claim against your route and carry a spare charger if the bike allows it. Our [mid drive ebike guide](/blog/mid-drive-ebike/) and [our e cruiser guide](/blog/e-cruiser/) cover hills and coastal care.",
       ],
     },
     {

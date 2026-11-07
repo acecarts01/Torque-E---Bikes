@@ -107,7 +107,7 @@ export const body = {
       h: 'Segway Ninebot C2 Pro: a Ninebot scooter for kids',
       p: [
         'The [Segway Ninebot C2 Pro](/shop/kids-electric-scooters/segway-ninebot-c2-pro/) is $455 and is listed by the supplier for riders from 6 to 14 years old and 115 to 170 cm tall, with a 150 W motor and a 50 kg maximum rider weight. The handlebar adjusts so one scooter can be shared among siblings.',
-        'Queensland\'s personal mobility device rules affect children directly, as the rules section below explains, so we describe kids scooters as being for private property unless your state says otherwise. See our full [kids electric scooters](/shop/kids-electric-scooters/) range for the alternatives.',
+        'Queensland\'s personal mobility device rules affect children directly, as the rules section below explains, so we describe kids scooters as being for private property unless your state says otherwise. See our full [the kids electric scooters](/shop/kids-electric-scooters/) range for the alternatives.',
       ],
     },
     {

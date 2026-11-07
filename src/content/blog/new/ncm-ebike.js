@@ -15,8 +15,7 @@ export const meta = {
   readTime: '10 min',
   focus: 'ncm ebike',
   secondary: ['ncm electric bikes', 'ncm ebikes', 'ncm electric bicycle', 'ebike ncm', 'ncm e bikes'],
-  tags: ['ncm e bike', 'nmc ebike', 'ncm m3 electric mountain bike', 'electric bike ncm', 'ncm electric bikes reviews', 'ncm moscow electric bike', 'ncm moscow plus electric mountain bike'],
-  tagsShortReason: 'only 7 relevant unused NCM keywords exist in Semrush AU; the rest name models we do not stock',
+  tags: ['ncm e bike', 'nmc ebike', 'ncm m3 electric mountain bike', 'electric bike ncm', 'ncm electric bikes reviews', 'ncm moscow electric bike', 'ncm moscow plus electric mountain bike', 'ncm moscow plus', 'ncm moscow', 'ncm moscow m3'],
   image: {
     file: 'blog/ncm-ebike.webp',
     alt: 'NCM T3S, NCM Milano and NCM Paris folding, an NCM ebike range',

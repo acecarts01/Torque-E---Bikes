@@ -15,8 +15,7 @@ export const meta = {
   readTime: '10 min',
   focus: 'top rated ebike',
   secondary: ['top rated e bikes', 'reviews e bikes', 'e bike reviews', 'best affordable electric bikes', 'best value ebike'],
-  tags: ['what is the best electric bike', 'ebike best', 'best e-bikes', 'popular e bikes', 'popular electric bikes', 'top e bikes', 'bestes ebike'],
-  tagsShortReason: 'only 7 unused best, popular and top e-bike keywords exist in Semrush AU after the brands guide took the rest',
+  tags: ['what is the best electric bike', 'ebike best', 'best e-bikes', 'popular e bikes', 'popular electric bikes', 'top e bikes', 'bestes ebike', 'best electric bicycle australia', 'best e mountain bikes', 'best electric bike under $2000 australia'],
   image: {
     file: 'blog/top-rated-ebike.webp',
     alt: 'Aventon Pace 4, Merida eSpresso 500 and Trek Checkpoint+, a shortlist for a top rated ebike',

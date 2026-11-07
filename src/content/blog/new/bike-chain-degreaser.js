@@ -16,8 +16,7 @@ export const meta = {
   readTime: '10 min',
   focus: 'bike chain degreaser',
   secondary: ['bicycle chain degreaser', 'bicycle degreaser', 'bike specific degreaser', 'degreaser bike', 'bike cleaning products'],
-  tags: ['muc off drivetrain cleaner', 'bicycle cleaning machine', 'bike cleaning station', 'cleaning kit for bicycle', 'muc off nano tech bike cleaner', 'best bicycle cleaner', 'chain cleaner bike', 'chain degreaser bike', 'muc-off bio drivetrain cleaner'],
-  tagsShortReason: 'only 15 relevant unused degreaser keywords exist in Semrush AU at KD 28 or lower, which gives a focus keyword, 5 secondary keywords and 9 tags',
+  tags: ['muc off drivetrain cleaner', 'bicycle cleaning machine', 'bike cleaning station', 'cleaning kit for bicycle', 'muc off nano tech bike cleaner', 'best bicycle cleaner', 'chain cleaner bike', 'chain degreaser bike', 'muc-off bio drivetrain cleaner', 'bicycle chain cleaner'],
   image: {
     file: 'blog/bike-chain-degreaser.webp',
     alt: 'Krush Ultra Drivetrain Degreaser, Krush Rotor Revive and Rock N Roll chain lube, a bike chain degreaser set',

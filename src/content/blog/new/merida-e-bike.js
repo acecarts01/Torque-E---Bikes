@@ -15,8 +15,7 @@ export const meta = {
   readTime: '10 min',
   focus: 'e bike merida',
   secondary: ['merida e bike', 'merida ebike', 'merida e bikes', 'electric bike merida', 'merida e mountain bikes'],
-  tags: ['merida ebikes', 'merida bikes aus', 'merida e-bikes', 'merida fahrrad e-bike', 'merida electric bikes', 'merida bicycle for sale', 'merida bicycles for sale', 'merids bikes'],
-  tagsShortReason: 'only 8 relevant unused Merida keywords exist in Semrush AU; the rest are non-electric or unrelated models',
+  tags: ['merida ebikes', 'merida bikes aus', 'merida e-bikes', 'merida fahrrad e-bike', 'merida electric bikes', 'merida bicycle for sale', 'merida bicycles for sale', 'merids bikes', 'merida bikes australia', 'merida mountain bikes'],
   image: {
     file: 'blog/merida-e-bike.webp',
     alt: 'Merida eSpresso City, eSpresso 500 and eOne-Sixty 700, an e bike Merida range',

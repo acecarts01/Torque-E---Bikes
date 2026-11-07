@@ -151,7 +151,7 @@ export const body = {
       h: 'Which mid drive ebike should you buy?',
       p: [
         'For a mid-drive commuter with a step-through frame, the [SmartMotion Pacer at $2,999](/shop/commuter-and-urban-e-bikes/smartmotion-pacer-mid-drive-step-through-e-bike/) is the entry option. For off-road riding, the [full-suspension e-MTB with a Motinova mid-drive at $3,899](/shop/electric-mountain-bikes/full-suspension-e-mtb-orange-motinova-mid-drive/) is the mountain bike pick. For hauling loads, the [Cannondale Cargowagen Neo Bosch at $6,299](/shop/cargo-bikes-and-e-trikes/) is the cargo option.',
-        'Send us your hills, your budget and your riding plans and we will help you choose. You can also browse the full [electric mountain bikes range](/shop/electric-mountain-bikes/) and read our [e bike motor guide](/blog/e-bike-motor/).',
+        'Send us your hills, your budget and your riding plans and we will help you choose. You can also browse the full [electric mountain bikes range](/shop/electric-mountain-bikes/) and read our [our e bike motor guide](/blog/e-bike-motor/).',
       ],
     },
   ],

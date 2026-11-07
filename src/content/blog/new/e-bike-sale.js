@@ -15,8 +15,7 @@ export const meta = {
   readTime: '9 min',
   focus: 'e bike sale',
   secondary: ['ebike sale', 'electric bike sale', 'electric bikes on sale', 'sale electric bikes', 'ebikes sale'],
-  tags: ['discount e bikes', 'sale e bike', 'ebike on sale', 'sale e bikes', 'ebike sale australia', 'ebike deals', 'deals on e bikes', 'electric bike sales', 'e bike sales'],
-  tagsShortReason: 'only 9 unused sale and deal keywords exist in Semrush AU after the buying-guide post took the for-sale terms',
+  tags: ['discount e bikes', 'sale e bike', 'ebike on sale', 'sale e bikes', 'ebike sale australia', 'ebike deals', 'deals on e bikes', 'electric bike sales', 'e bike sales', 'e bike on sale'],
   image: {
     file: 'blog/e-bike-sale.webp',
     alt: 'DYU C6, Aventon Level 3 and Cube Stereo Hybrid 140, e bike sale price examples',

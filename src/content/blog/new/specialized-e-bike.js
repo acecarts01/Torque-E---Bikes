@@ -16,8 +16,7 @@ export const meta = {
   readTime: '11 min',
   focus: 'specialized e bike',
   secondary: ['specialized e mountain bike', 'specialized electric bicycle', 'specialized bikes ebikes', 'turbo levo', 'specialised ebikes'],
-  tags: ['specialised electric bikes', 'specialized ebike australia', 'specialized electric bike australia', 'sale specialized bikes', 'specialised turbo levo', 'specialized turbo levo e mountain bike', 'specialized levo r'],
-  tagsShortReason: 'only 7 further relevant unused Specialized keywords exist in Semrush AU at KD 28 or lower after removing misspellings',
+  tags: ['specialised electric bikes', 'specialized ebike australia', 'specialized electric bike australia', 'sale specialized bikes', 'specialised turbo levo', 'specialized turbo levo e mountain bike', 'specialized levo r', 'specialised bikes', 'specialized bikes', 'specialized mountain bike'],
   image: {
     file: 'blog/specialized-e-bike.webp',
     alt: 'Specialized Turbo Vado SL 4.0, Turbo Levo SL Comp Carbon and Turbo Creo SL Comp Carbon, a Specialized e bike line-up',

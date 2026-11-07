@@ -15,8 +15,7 @@ export const meta = {
   readTime: '10 min',
   focus: 'cycling backpack',
   secondary: ['bike backpack', 'bicycle commuter backpack', 'bike backpacks', 'mtb water backpack', 'cycling backpacks'],
-  tags: ['cool cycling backpacks', 'waterproof bike backpack', 'backpack for bicycle riding', 'water backpack for biking', 'backpack for bikes', 'backpack for bike riding', 'waterproof backpack for motorcycle'],
-  tagsShortReason: 'only 13 relevant unused backpack keywords exist in Semrush AU at KD 28 or lower, which gives a focus keyword, 5 secondary keywords and 7 tags',
+  tags: ['cool cycling backpacks', 'waterproof bike backpack', 'backpack for bicycle riding', 'water backpack for biking', 'backpack for bikes', 'backpack for bike riding', 'waterproof backpack for motorcycle', 'bicycle backpack', 'commuter backpack', 'bike commuter backpack'],
   image: {
     file: 'blog/cycling-backpack.webp',
     alt: 'Azur double pannier, Azur waterproof pannier and Basil crate, carrying options to compare with a cycling backpack',

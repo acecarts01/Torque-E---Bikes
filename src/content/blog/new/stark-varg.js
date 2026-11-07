@@ -16,8 +16,7 @@ export const meta = {
   readTime: '11 min',
   focus: 'stark varg',
   secondary: ['stark varg aud', 'stark varg australia price', 'stark varg e bike', 'stark varg electric dirt bike', 'stark varg price aud'],
-  tags: ['stark varg 80hp price', 'stark vargs', 'stark varg bike', 'stark varg au', 'stark varg perth', 'stark australia', 'e bikes stark varg', 'stark varg aus'],
-  tagsShortReason: 'only 14 relevant unused Stark Varg keywords exist in Semrush AU at KD 28 or lower, which gives a focus keyword, 5 secondary keywords and 8 tags',
+  tags: ['stark varg 80hp price', 'stark vargs', 'stark varg bike', 'stark varg au', 'stark varg perth', 'stark australia', 'e bikes stark varg', 'stark varg aus', 'stark varg australia', 'stark varg ex'],
   image: {
     file: 'blog/stark-varg.webp',
     alt: 'Stark Varg and Stark Varg EX electric dirt bikes, the stark varg range we supply',

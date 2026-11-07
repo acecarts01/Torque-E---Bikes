@@ -13,8 +13,7 @@ export const meta = {
   updated: '2026-10-27',
   focus: '72v battery',
   secondary: ['48v electric bicycle battery', 'battery electric bicycle', 'e bike battery charging', 'e bike repair', 'electric bicycle service'],
-  tags: ['e bike service', 'ebike service', 'e-bike repairs', 'electric bike motor repair', 'ebike maintenance', 'electric bike repairing', 'ebike motor repair', 'e bike safety australia'],
-  tagsShortReason: 'only 8 relevant unused battery and maintenance keywords in Semrush AU',
+  tags: ['e bike service', 'ebike service', 'e-bike repairs', 'electric bike motor repair', 'ebike maintenance', 'electric bike repairing', 'ebike motor repair', 'e bike safety australia', 'moto batteries', 'motorbike battery charger'],
   imageAlt: 'Black and red bicycle near a red wall, an e-bike that depends on its 72v battery or smaller pack',
   related: [
     { href: '/shop/batteries-chargers-and-electronics/vamos-hefe-battery-48v-15ah/', name: 'Vamos Hefe Battery (48V 15Ah Silverfish)', price: 539, note: 'The lowest-priced pack per watt-hour in our range.' },

@@ -16,8 +16,7 @@ export const meta = {
   readTime: '9 min',
   focus: 'bag for handlebars',
   secondary: ['handlebar bag', 'bike handlebar bag', 'bike handlebar bags', 'bicycle handlebar bags', 'handlebar bags'],
-  tags: ['handlebar packs for bicycles', 'bag handlebar', 'bags for bike handlebars', 'bike handle bags', 'handlebar bike bag'],
-  tagsShortReason: 'only 5 further relevant unused handlebar bag keywords exist in Semrush AU at KD 28 or lower',
+  tags: ['handlebar packs for bicycles', 'bag handlebar', 'bags for bike handlebars', 'bike handle bags', 'handlebar bike bag', 'bicycle handlebar bag', 'bikepacking bags', 'bag bikepacking', 'bike with bags', 'bicycle with bags'],
   image: {
     file: 'blog/bag-for-handlebars.webp',
     alt: 'Quad Lock out-front mount, Azur waterproof pannier and Basil crate, gear for a bag for handlebars set-up',
@@ -124,7 +123,7 @@ export const body = {
         rows: [
           ['[Quad Lock Out Front Mount](/shop/phone-mounts-mirrors-and-audio/quad-lock-out-front-mount/)', 'Quad Lock', '$46.95', 'Phone mount'],
           ['[79Bike Phone Handlebar Mount](/shop/phone-mounts-mirrors-and-audio/79bike-phone-handlebar-mount/)', '79Bike', '$93.95', 'Phone mount (off-road use)'],
-          ['[Basil Bicycle Crate Medium 29.5L Black](/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/)', 'Basil', '$80.95', 'Crate'],
+          ['[Basil Crate Medium 29.5L Black](/shop/racks-bags-and-trailers/basil-bicycle-crate-medium-29-5l-black/)', 'Basil', '$80.95', 'Crate'],
         ],
       },
     },

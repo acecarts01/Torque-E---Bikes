@@ -15,8 +15,7 @@ export const meta = {
   readTime: '10 min',
   focus: 'aventon e bike',
   secondary: ['aventon electric bikes', 'aventon abound lr', 'aventon level ebike', 'aventon level electric bike', 'aventon pace 4 step through electric bike'],
-  tags: ['aventon level 3 electric bike', 'aventon pace 4', 'aventon ebikes', 'aventon abound sr', 'aventon bike', 'aventon level 3 commuter ebike'],
-  tagsShortReason: 'only 6 relevant unused Aventon keywords exist in Semrush AU after the brand and category pages took the rest',
+  tags: ['aventon level 3 electric bike', 'aventon pace 4', 'aventon ebikes', 'aventon abound sr', 'aventon bike', 'aventon level 3 commuter ebike', 'aventon aventure 2', 'aventon soltera 2.5 electric bike', 'aventon adventure 2', 'aventon pace 500.3 electric bike'],
   image: {
     file: 'blog/aventon-e-bike.webp',
     alt: 'Aventon Pace 4, Aventon Level 3 and Aventon Soltera.2, an Aventon e bike range',

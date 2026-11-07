@@ -177,7 +177,7 @@ export const body = {
     {
       h: 'Which bike wall mount should you buy?',
       p: [
-        'Choose the mount by the bike. A wheel hook or a horizontal rack suits a light pedal bike, and a floor-and-wall bracket or a stand suits a heavy e-bike. Match the rating to the maker\'s weight, fix to studs or masonry and lock the bike. Our [OnGuard Chain Lock at $38.95](/shop/locks-and-security/onguard-chain-lock/) and the [Mastiff Chain-Lock Keyed at $99](/shop/locks-and-security/mastiff-chain-lock-keyed/) cover the lock. Browse the full [locks and security range](/shop/locks-and-security/).',
+        'Choose the mount by the bike. A wheel hook or a horizontal rack suits a light pedal bike, and a floor-and-wall bracket or a stand suits a heavy e-bike. Match the rating to the maker\'s weight, fix to studs or masonry and lock the bike. Our [OnGuard Chain Lock at $38.95](/shop/locks-and-security/onguard-chain-lock/) and the [Mastiff Chain-Lock Keyed](/shop/locks-and-security/mastiff-chain-lock-keyed/) cover the lock. Browse the full [locks and security range](/shop/locks-and-security/).',
         'Tell us your bike, and we will give you the maker\'s weight. All orders ship Australia-wide with dangerous-goods certified dispatch.',
       ],
     },

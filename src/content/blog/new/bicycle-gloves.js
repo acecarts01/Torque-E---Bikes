@@ -114,7 +114,7 @@ export const body = {
       h: 'Electric dirt bike riders: gauntlet gloves are a different job',
       p: [
         'Mountain bicycle gloves are not the same as motorcycle gloves. The Queensland Government\'s [motorcycle safety gear page](https://www.qld.gov.au/transport/safety/road-safety/motorcycle-safety/safety-gear) recommends gauntlet-style gloves with a strengthened palm and knuckle protection, fastened at the wrist with a zip or velcro. That advice is for motorbike riders.',
-        'If you ride an electric dirt bike, look at gear made for that job. Our [helmets and protective gear guide](/blog/helmets-and-protective-gear-for-e-bikes/) covers e-bike and e-moto protection. Bikes above 250W are for off-road and private property use only, and the protection you wear should match the speed and risk.',
+        'If you ride an electric dirt bike, look at gear made for that job. Our [our helmets and protective gear guide](/blog/helmets-and-protective-gear-for-e-bikes/) covers e-bike and e-moto protection. Bikes above 250W are for off-road and private property use only, and the protection you wear should match the speed and risk.',
       ],
     },
     {
