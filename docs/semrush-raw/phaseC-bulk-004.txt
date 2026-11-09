@@ -1,0 +1,306 @@
+#bulk-b004
+city|I|22,200|70
+battery|IC|18,100|17
+grand canyon|I|12,100|86
+citi|N|2,900|85
+seat|I|2,900|50
+canyon torque|TN|1,000|28
+folding|I|1,000|20
+canyon strive|C|480|26
+arctic leopard|C|390|16
+kickstand|IC|320|11
+ncm milano|C|210|13
+ncm t3s|I|210|14
+cube stereo|IC|170|12
+et cycle f1000|I|140|10
+f1000|I|140|20
+arctic leopard xe pro|IT|110|12
+ncm paris|I|110|6
+canyon grand canyon|NC|90|34
+eco city|I|90|32
+cube stereo hybrid|IC|70|8
+cube stereo hybrid 160|I|70|14
+canyon torque on||n/a|40
+ncm paris folding e bike||n/a|40
+canyon citylite on||n/a|30
+canyon grand||n/a|30
+woom up 5||n/a|30
+arctic leopard xe||n/a|20
+arctic leopard xe pro australia||n/a|20
+canyon citylite||n/a|20
+canyon grand canyon on||n/a|20
+canyon pathlite||n/a|20
+canyon pathlite on||n/a|20
+canyon strive on||n/a|20
+canyon strive on australia||n/a|20
+canyon torque on australia||n/a|20
+foo f1||n/a|20
+grand canyon on||n/a|20
+husqvarna mountain||n/a|20
+husqvarna mountain cross||n/a|20
+husqvarna mountain cross mc5||n/a|20
+leopard xe pro||n/a|20
+milano trekking||n/a|20
+mountain cross||n/a|20
+ncm milano trekking||n/a|20
+stereo hybrid||n/a|20
+strive on||n/a|20
+torque on||n/a|20
+woom up||n/a|20
+woom up 6||n/a|20
+79bike battery||n/a|10
+leopard xe||n/a|10
+mountain cross mc5||n/a|10
+pathlite on||n/a|10
+up 5||n/a|10
+citylite on||n/a|0
+cube stereo hybrid 160 australia||n/a|0
+husqvarna eco city||n/a|0
+smartmotion city||n/a|0
+stereo hybrid 160||n/a|0
+up 6||n/a|0
+emortal rogue mx 01|||
+emortal rogue mx 01 fat|||
+emortal rogue mx 01 australia|||
+emortal rogue mx 01 fat tire australia|||
+woom up 5 australia|||
+woom up 6 australia|||
+husqvarna mountain cross mc5 australia|||
+husqvarna eco|||
+husqvarna eco city australia|||
+canyon citylite on australia|||
+canyon grand canyon on australia|||
+canyon pathlite on australia|||
+smartmotion folding|||
+smartmotion folding step through e bike|||
+smartmotion folding australia|||
+tbc folding|||
+folding step through e bike white|||
+tbc folding australia|||
+79bike hat|||
+79bike hat australia|||
+79bike kickstand|||
+79bike kickstand australia|||
+79bike battery australia|||
+79bike seat|||
+79bike seat australia|||
+foo f1 folding|||
+foo f1 folding e bike|||
+f1 folding|||
+foo f1 folding australia|||
+smartmotion city step through e bike|||
+smartmotion city australia|||
+ncm paris folding|||
+paris folding|||
+ncm paris folding australia|||
+smartmotion citi|||
+smartmotion citi step through e bike|||
+smartmotion citi australia|||
+ncm milano step through trekking e bike|||
+ncm milano trekking australia|||
+et cycle f1000 australia|||
+#nodata-b004 
+#bulk-b005
+tyre|I|18,100|39
+trailer|I|9,900|39
+bandit|I|4,400|65
+swell|I|4,400|37
+transporter|I|2,900|31
+cover|I|2,400|52
+horn|I|2,400|12
+stoke|I|1,900|50
+headlight|IC|1,600|27
+fatboy bagus|IT|1,300|19
+bagus|I|880|28
+cruzr stoke|I|320|6
+drive chain|I|320|12
+ace pro|C|260|25
+ampd bros ace|I|170|17
+bolzzen bandit|IT|170|6
+pacific bike trailer|IT|170|5
+ncm m3|I|110|6
+ncm t7s|I|110|13
+pedal derby electric folding bike|C|110|10
+et cycle f720|I|90|6
+pacific trailer|N|90|6
+bonnell 805|N|70|7
+cruzr stoke electric bike||n/a|50
+dyu c6 electric bike|I|50|15
+pedal derby|I|50|6
+fat bandit||n/a|30
+tebco transporter||n/a|30
+alloy necklace||n/a|20
+ampd bros riptide||n/a|20
+cruzr swell||n/a|20
+dyu c6||n/a|20
+fat wheel||n/a|20
+fatboy headlight||n/a|20
+ncm t7s step thru trekking e bike||n/a|20
+riptide 3||n/a|20
+79bike lynx||n/a|10
+ampd bros ace pro||n/a|10
+srpnt x8||n/a|10
+ace pro electric bike||n/a|0
+aventon aventure.2 step through electric bike||n/a|0
+blastoff cover||n/a|0
+bonnell 805 australia||n/a|0
+fat bike wheel||n/a|0
+ncm t3s australia|||
+ncm m3 australia|||
+ncm t7s thru trekking|||
+t7s thru trekking|||
+ncm t7s thru|||
+t7s thru|||
+ncm t7s thru trekking australia|||
+bolzzen fat bandit over|||
+fat bandit step over|||
+fat bandit over|||
+bolzzen fat|||
+bolzzen fat bandit|||
+bolzzen fat bandit over australia|||
+ampd bros ace pro australia|||
+ampd bros riptide 3|||
+riptide 3 electric bike|||
+ampd bros riptide 3 australia|||
+fatboy bagus e bike|||
+fatboy bagus australia|||
+et cycle f720 foldable|||
+et cycle f720 foldable e bike|||
+f720 foldable|||
+et cycle f720 foldable australia|||
+cruzr stoke australia|||
+79bike headlight|||
+79bike headlight australia|||
+79bike horn|||
+79bike horn australia|||
+79bike tyre|||
+79bike tyre australia|||
+bolzzen bandit australia|||
+pacific trailer australia|||
+blastoff bike cover|||
+blastoff cover australia|||
+fatboy headlight bagus|||
+headlight bagus|||
+fatboy headlight bagus australia|||
+tbc fat wheel|||
+tbc fat|||
+tbc fat wheel australia|||
+pedal derby folding|||
+derby folding|||
+pedal derby folding australia|||
+dyu c6 australia|||
+tebco transporter australia|||
+cruzr swell electric bike|||
+cruzr swell australia|||
+srpnt x8 australia|||
+79bike lynx dirt|||
+79bike lynx electric dirt bike|||
+lynx dirt|||
+79bike lynx dirt australia|||
+79bike alloy necklace|||
+79bike alloy|||
+79bike alloy necklace australia|||
+79bike drive chain|||
+#nodata-b005 
+#bulk-b006
+fatboy scrambler|IT|4,400|23
+fatboy scrambler v3|I|1,000|17
+sur ron|N|1,000|37
+cruzr barrel|I|720|29
+fatboy harlem|IT|720|26
+all terrain|IC|390|9
+front fender|I|320|10
+fatboy dna|I|260|17
+fatboy bagus v3|I|210|n/a
+rear shock|I|210|11
+rear fender|I|170|6
+foot pegs|IC|140|3
+fatboy dna v3|IN|110|16
+fatboy harlem v3|I|110|13
+bagus v3|IC|90|5
+rear sprocket|I|90|6
+scrambler v3|I|90|8
+gobike 16|I|50|10
+phone handlebar mount||n/a|30
+display colour||n/a|20
+dna v3||n/a|20
+ebmx sur ron||n/a|20
+fatboy the dna v3||n/a|20
+12 kids||n/a|10
+gobike 12||n/a|10
+gobike 24||n/a|10
+harlem v3||n/a|10
+sur ron wiring harness||n/a|10
+16 kids||n/a|0
+charger au||n/a|0
+fatboy the scrambler v3||n/a|0
+tbc charger||n/a|0
+79bike drive|||
+79bike drive chain australia|||
+79bike foot pegs|||
+79bike foot|||
+79bike foot pegs australia|||
+79bike rear shock|||
+79bike rear|||
+79bike rear shock australia|||
+79bike front fender|||
+79bike front|||
+79bike front fender australia|||
+79bike underseat plastic|||
+underseat plastic|||
+79bike underseat|||
+79bike underseat plastic australia|||
+79bike rear fender|||
+79bike rear fender australia|||
+79bike rear sprocket|||
+79bike rear sprocket australia|||
+79bike phone handlebar mount|||
+79bike phone|||
+79bike phone handlebar|||
+phone handlebar|||
+79bike phone handlebar mount australia|||
+gobike 12 kids|||
+gobike 12 ebike for kids|||
+gobike 12 kids australia|||
+gobike 16 kids|||
+gobike 16 electric bike for kids|||
+gobike 16 kids australia|||
+gobike 24 teens|||
+gobike 24 electric bike for teens|||
+24 teens|||
+gobike 24 teens australia|||
+smartmotion all terrain|||
+smartmotion all terrain step through e bike|||
+smartmotion all|||
+smartmotion all terrain australia|||
+tbc charger au plug|||
+e bike charger au plug|||
+charger au plug|||
+tbc charger au|||
+tbc charger au plug australia|||
+ncm folding fat tyre|||
+ncm folding fat tyre e bike|||
+folding fat tyre|||
+ncm folding|||
+ncm folding fat|||
+folding fat|||
+ncm folding fat tyre australia|||
+ebmx sur ron wiring harness|||
+ebmx sur|||
+ebmx sur ron wiring|||
+ebmx sur ron wiring australia|||
+ebmx sur ron wiring harness australia|||
+ebmx 79bike display colour lcd|||
+display colour lcd|||
+ebmx 79bike display|||
+ebmx 79bike display colour|||
+ebmx 79bike display colour lcd australia|||
+fatboy dna v3 australia|||
+fatboy the harlem v3|||
+fatboy harlem v3 australia|||
+fatboy the bagus v3|||
+fatboy bagus v3 australia|||
+cruzr barrel 2027|||
+barrel 2027|||
+cruzr barrel 2027 australia|||
+#nodata-b006 
