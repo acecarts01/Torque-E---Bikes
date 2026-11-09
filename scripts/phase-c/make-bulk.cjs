@@ -26,7 +26,7 @@ for (const p of cat) {
   if (toks.length > 1) v.add([brand, ...toks.slice(0, -1)].join(' '))
   const core = [brand, ...toks.slice(0, 3)].join(' ')
   for (const x of [core, full]) v.add(x + ' australia') // price / for sale / buy variants returned no data in the first test batch
-  cand[p.slug] = [...v].filter(x => x.length >= 4)
+  cand[p.slug] = [...v].filter(x => x.length >= 4 && !/tbc/.test(x) && (x.split(' ').length >= 2 || /d/.test(x)))
   for (const x of cand[p.slug]) all.add(x)
 }
 const RAW = 'docs/semrush-raw', checked = new Set(); let maxId = 0
