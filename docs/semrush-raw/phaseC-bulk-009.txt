@@ -1,0 +1,306 @@
+#bulk-b019
+cube town|N|720|17
+cube reaction|C|140|12
+merida eone sixty|C|140|19
+cube reaction hybrid|C|110|8
+rear wheel|I|110|17
+velectrix urban|I|90|9
+kathmandu hybrid|IC|70|25
+cube kathmandu|IT|50|21
+cube touring hybrid||n/a|40
+cube kathmandu hybrid||n/a|30
+front wheel||n/a|30
+merida eone sixty 700||n/a|30
+mountain sport||n/a|30
+cube kathmandu hybrid one||n/a|20
+cube kathmandu hybrid pro||n/a|20
+cube kathmandu hybrid pro 625||n/a|20
+cube stereo hybrid 140||n/a|20
+cube touring||n/a|20
+cube town sport||n/a|20
+cube town sport hybrid||n/a|20
+cube town sport hybrid one 400||n/a|20
+eone sixty||n/a|20
+eone sixty 900||n/a|20
+espresso 500||n/a|20
+fatboy front wheel||n/a|20
+fatboy rear wheel||n/a|20
+kristall rx20 max||n/a|20
+merida eone||n/a|20
+merida eone sixty 900||n/a|20
+merida espresso 500||n/a|20
+reaction hybrid||n/a|20
+rx20 max||n/a|20
+stereo hybrid 140||n/a|20
+sur ron front wheel||n/a|20
+sur ron front wheel axle||n/a|20
+touring hybrid||n/a|20
+cube kathmandu hybrid one 500||n/a|10
+cube town sport hybrid one||n/a|10
+kathmandu hybrid pro 625||n/a|10
+cube kathmandu hybrid pro 625 australia||n/a|0
+cube reaction hybrid hpa||n/a|0
+cube reaction hybrid hpa pro||n/a|0
+cube reaction hybrid hpa pro 500||n/a|0
+cube touring hybrid exc||n/a|0
+cube touring hybrid exc 500||n/a|0
+jagwire mountain sport||n/a|0
+kathmandu hybrid one 500||n/a|0
+merida eone sixty 900 australia||n/a|0
+reaction hybrid hpa pro 500||n/a|0
+touring hybrid exc 500||n/a|0
+town sport||n/a|0
+town sport hybrid one 400||n/a|0
+kristall rx20 max folding|||
+kristall rx20 max folding fat tyre dual|||
+kristall rx20 max folding australia|||
+kristall rx20 max folding fat tyre dual motor australia|||
+fatboy rear wheel assembly 20x4 rim holes v1 v2 v3|||
+fatboy rear wheel assembly 20x4 with rim holes for v1 v2 v3|||
+rear wheel assembly 20x4 rim holes v1 v2 v3|||
+fatboy rear|||
+fatboy rear wheel assembly|||
+fatboy rear wheel assembly 20x4 rim holes v1 v2|||
+fatboy rear wheel assembly australia|||
+fatboy rear wheel assembly 20x4 rim holes v1 v2 v3 australia|||
+fatboy front wheel assembly 20x4 thru axle v2 bagus all v3 models|||
+front wheel assembly 20x4 thru axle v2 bagus all v3 models|||
+fatboy front|||
+fatboy front wheel assembly|||
+fatboy front wheel assembly 20x4 thru axle v2 bagus all v3|||
+fatboy front wheel assembly australia|||
+fatboy front wheel assembly 20x4 thru axle v2 bagus all v3 models australia|||
+merida eone sixty 700 mtb|||
+merida eone sixty 700 e mtb|||
+eone sixty 700 mtb|||
+merida eone sixty 700 australia|||
+merida eone sixty 700 mtb australia|||
+jagwire mountain sport semi metallic disc brake pads shimano rst tektro trp|||
+mountain sport semi metallic disc brake pads shimano rst tektro trp|||
+jagwire mountain|||
+jagwire mountain sport semi|||
+jagwire mountain sport semi metallic disc brake pads shimano rst tektro|||
+jagwire mountain sport semi australia|||
+jagwire mountain sport semi metallic disc brake pads shimano rst tektro trp australia|||
+sur ron front wheel axle nut light bee hyper bee|||
+front wheel axle nut light bee hyper bee|||
+sur ron front|||
+sur ron front wheel axle nut light bee hyper|||
+sur ron front wheel axle australia|||
+sur ron front wheel axle nut light bee hyper bee australia|||
+velectrix urban australia|||
+merida espresso 500 australia|||
+cube town sport hybrid australia|||
+cube town sport hybrid one 400 australia|||
+cube touring hybrid exc australia|||
+cube touring hybrid exc 500 australia|||
+cube stereo hybrid 140 australia|||
+cube reaction hybrid hpa australia|||
+cube reaction hybrid hpa pro 500 australia|||
+cube kathmandu hybrid pro australia|||
+cube kathmandu hybrid one australia|||
+#nodata-b019 
+#bulk-b020
+level 4|I|1,600|17
+marin alpine trail|C|480|20
+amflow pr carbon|I|390|23
+aventon aventure 3|I|320|26
+cannondale quick|NC|260|16
+aventon abound lr|IT|210|28
+polygon collosus|C|210|18
+amflow pr|N|170|21
+kona dew|C|170|15
+quest 1|I|170|29
+aventon pace 4|I|140|28
+marin alpine trail e2|I|140|12
+cannondale moterra sl|C|90|14
+kona dew hd|IT|90|13
+marin alpine|I|90|19
+pace 4|I|90|17
+talaria xxx mini|I|90|7
+amflow pr carbon australia||n/a|70
+aventon soltera|I|70|26
+marin alpine trail e1|I|70|14
+polygon tambora|I|70|14
+vamos amigo|I|70|6
+alpine trail||n/a|50
+aventon aventure|C|50|26
+aventon aventure 3 australia|IC|50|16
+aventon aventure m|I|50|13
+aventon level 4|I|50|20
+aventon level 4 rec||n/a|30
+aventon soltera 3||n/a|30
+cannondale moterra sl 1||n/a|30
+cannondale moterra sl 2||n/a|30
+marin lombard e1||n/a|30
+moterra sl||n/a|30
+vamos amigo plus||n/a|30
+abound lr||n/a|20
+alpine trail e1||n/a|20
+alpine trail e2||n/a|20
+aventon aventure 3 st||n/a|20
+aventon aventure m australia||n/a|20
+aventon level 4 adv||n/a|20
+aventure 3||n/a|20
+aventure m||n/a|20
+cannondale quick neo||n/a|20
+cube kathmandu hybrid exc 750||n/a|20
+marin alpine trail e2 australia||n/a|20
+marin lombard||n/a|20
+moterra sl 1||n/a|20
+moterra sl 2||n/a|20
+pace 5||n/a|20
+polygon collosus te 0||n/a|20
+polygon tambora ae||n/a|20
+quick neo||n/a|20
+soltera 3||n/a|20
+tambora ae||n/a|20
+amigo plus||n/a|10
+aventon abound lr australia||n/a|10
+aventon level 4 adv australia||n/a|10
+aventon pace 5||n/a|10
+aventon pace 5 rec||n/a|10
+aventon soltera 3 adv||n/a|10
+cube kathmandu hybrid exc||n/a|10
+dew hd||n/a|10
+level 4 rec||n/a|10
+lombard e1||n/a|10
+polygon collosus te||n/a|10
+polygon tambora ae n||n/a|10
+pr carbon||n/a|10
+reid quest||n/a|10
+reid quest 1||n/a|10
+soltera 3 adv||n/a|10
+aventon level 4 rec australia||n/a|0
+aventon pace 4 australia||n/a|0
+collosus te||n/a|0
+kathmandu hybrid exc 750||n/a|0
+level 4 adv||n/a|0
+marin alpine trail australia||n/a|0
+pace 5 rec||n/a|0
+reid quest 1 st||n/a|0
+xxx mini||n/a|0
+cube kathmandu hybrid one 500 australia|||
+cube kathmandu hybrid exc australia|||
+cube kathmandu hybrid exc 750 australia|||
+tambora ae n|||
+polygon tambora ae n australia|||
+reid quest 1 australia|||
+aventon soltera 3 adv australia|||
+marin alpine trail e1 australia|||
+aventon pace 5 rec australia|||
+aventon level 4 adv st|||
+marin lombard e1 australia|||
+kona dew hd australia|||
+collosus te 0|||
+polygon collosus te 0 australia|||
+talaria xxx mini australia|||
+cannondale moterra sl 1 australia|||
+cannondale moterra sl 2 australia|||
+cannondale quick neo australia|||
+vamos amigo plus 2026|||
+amigo plus 2026|||
+vamos amigo plus 2026 australia|||
+#nodata-b020 
+#bulk-b021
+el diablo|I|1,000|54
+samsung battery|IT|170|21
+vamos rapido|I|70|12
+segway dirt ebike x260||n/a|40
+cannondale moterra neo 4||n/a|30
+merida eone sixty 8000||n/a|30
+vamos el diablo||n/a|30
+battery 52v||n/a|20
+eone sixty 8000||n/a|20
+fatboy bagus v1||n/a|20
+moterra neo 4||n/a|20
+segway dirt||n/a|20
+vesta plus||n/a|20
+vyron hauler||n/a|20
+amigo 2026||n/a|10
+mono atlas||n/a|10
+rapido 2026||n/a|10
+vamos rapido 2026||n/a|10
+amigo 2023||n/a|0
+el diablo 2026||n/a|0
+segway dirt x260||n/a|0
+sunmono vesta||n/a|0
+sunmono vesta plus||n/a|0
+vyron hauler cargo|||
+hauler cargo|||
+vyron hauler cargo australia|||
+sunmono mono atlas ultra|||
+sunmono e mono atlas ultra|||
+mono atlas ultra|||
+sunmono mono|||
+sunmono mono atlas|||
+sunmono mono atlas ultra australia|||
+sunmono mono troy eqp|||
+sunmono e mono troy eqp|||
+mono troy eqp|||
+sunmono mono troy|||
+mono troy|||
+sunmono mono troy eqp australia|||
+vamos el diablo 2026|||
+vamos el|||
+vamos el diablo 2026 australia|||
+cannondale moterra neo 4 australia|||
+vamos rapido 2026 australia|||
+sunmono vesta plus australia|||
+merida ebike eone sixty 8000|||
+merida eone sixty 8000 australia|||
+vamos amigo 2026|||
+vamos amigo 2026 australia|||
+dirt x260|||
+segway dirt x260 australia|||
+vamos battery 52v 20ah samsung cells|||
+battery 52v 20ah samsung cells|||
+vamos battery|||
+vamos battery 52v|||
+vamos battery 52v 20ah|||
+vamos battery 52v 20ah samsung|||
+vamos battery 52v 20ah australia|||
+vamos battery 52v 20ah samsung cells australia|||
+vamos battery 52v 25ah samsung cells|||
+battery 52v 25ah samsung cells|||
+vamos battery 52v 25ah|||
+vamos battery 52v 25ah samsung|||
+vamos battery 52v 25ah australia|||
+vamos battery 52v 25ah samsung cells australia|||
+vamos doblez 2023 2024 battery 36v 13ah samsung cells|||
+doblez 2023 2024 battery 36v 13ah samsung cells|||
+vamos doblez 2023|||
+doblez 2023|||
+vamos doblez 2023 2024|||
+vamos doblez 2023 2024 battery 36v 13ah samsung|||
+vamos doblez 2023 2024 australia|||
+vamos doblez 2023 2024 battery 36v 13ah samsung cells australia|||
+vamos amigo 2023 2024 battery 48v 15ah samsung cells|||
+amigo 2023 2024 battery 48v 15ah samsung cells|||
+vamos amigo 2023|||
+vamos amigo 2023 2024|||
+vamos amigo 2023 2024 battery 48v 15ah samsung|||
+vamos amigo 2023 2024 australia|||
+vamos amigo 2023 2024 battery 48v 15ah samsung cells australia|||
+vamos hefe battery 48v 15ah silverfish|||
+hefe battery 48v 15ah silverfish|||
+vamos hefe|||
+vamos hefe battery|||
+hefe battery|||
+vamos hefe battery 48v|||
+vamos hefe battery 48v 15ah|||
+vamos hefe battery 48v australia|||
+vamos hefe battery 48v 15ah silverfish australia|||
+vamos samsung battery 36v 15ah silverfish|||
+samsung battery 36v 15ah silverfish|||
+vamos samsung|||
+vamos samsung battery|||
+vamos samsung battery 36v|||
+vamos samsung battery 36v 15ah|||
+vamos samsung battery 36v australia|||
+vamos samsung battery 36v 15ah silverfish australia|||
+fatboy bagus v1 v2 battery 52v 20ah|||
+bagus v1 v2 battery 52v 20ah|||
+bagus v1|||
+fatboy bagus v1 v2|||
+#nodata-b021 
