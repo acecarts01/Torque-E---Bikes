@@ -74,3 +74,41 @@ fs.writeFileSync('docs/phase-c/no-data-products.csv', csv([['url', 'product', 'b
 const st = { pages: prodRows.length, full: prodRows.filter(r => r[9] === 'full').length, thin: prodRows.filter(r => /^thin/.test(r[9])).length, noData: noData.length, poolSize: pool.size }
 fs.writeFileSync('docs/phase-c/allocate-summary.json', JSON.stringify(st, null, 1))
 console.log(JSON.stringify(st))
+// ---- non-product pages: brand hubs, categories, blogs, home/shop/local/hubs and the pages with no keywords
+// Each bad row (generated, zero volume or KD > 28) gets the closest unused Semrush row (token overlap with the bad keyword and the page slug).
+const STOP = new Set(['e', 'bike', 'bikes', 'ebike', 'ebikes', 'electric', 'the', 'and', 'for', 'in', 'a', 'of', 'to', 'best', 'buy', 'price', 'australia', 'cheap', 'online', 'sale'])
+const toks = s => String(s).toLowerCase().replace(/[^a-z0-9. ]/g, ' ').split(/\s+/).filter(x => x && !STOP.has(x))
+const overlap = (a, b) => { const A = new Set(a), B = new Set(b); let n = 0; for (const x of A) if (B.has(x)) n++; return n / Math.max(1, Math.min(A.size, B.size)) }
+const okIntent = (t, it) => t === 'brand-hub' ? /^[CNIT]+$/.test(it) : t === 'blog' || t === 'home' ? /^[TCNI]+$/.test(it) && /[TC]/.test(it) || t === 'blog' && /^[TC]+$/.test(it) : /^[TC]+$/.test(it)
+const otherRows = [], otherNoMatch = []
+const pageSlug = u => u.split('/').filter(Boolean).slice(-1)[0] || 'home'
+const nonProd = inv.pages.filter(p => p.type !== 'product' && p.bad > 0)
+for (const pg of nonProd) {
+  const cur = (regByUrl[pg.url] || [])
+  const badRows = cur.filter(r => !isGood(r, pg.type !== 'brand-hub' && pg.type !== 'home'))
+  const goodKw = new Set(cur.filter(r => isGood(r, pg.type !== 'brand-hub' && pg.type !== 'home')).map(r => r.kw))
+  const slugT = toks(pageSlug(pg.url).replace(/-/g, ' '))
+  for (const br of badRows) {
+    const bt = toks(br.kw), key = [...new Set([...bt, ...slugT])]
+    let best = null
+    for (const e of pool.values()) {
+      if (taken.has(e.kw) || goodKw.has(e.kw) || !okIntent(pg.type, e.it)) continue
+      if (pg.type === 'brand-hub' && !hasAll(e.kw, toks(pageSlug(pg.url).replace(/-/g, ' ')).length ? toks(pageSlug(pg.url).replace(/-/g, ' ')) : [])) continue
+      const sc = overlap(e.tk || (e.tk = toks(e.kw)), key) + (e.vol > 100 ? 0.05 : 0) - e.kd / 2000
+      if (sc >= (pg.type === 'brand-hub' ? 0.6 : 0.95) && (!best || sc > best.sc) && (pg.type === 'brand-hub' || !claimants(e.kw)[0])) best = { e, sc } // a product page owns keywords naming its model
+    }
+    if (best) { taken.add(best.e.kw); otherRows.push([pg.url, pg.type, br.role, br.kw, /generated/i.test(br.src) ? 'generated' : br.vol + '/' + br.kd, best.e.kw, best.e.vol, best.e.kd, best.e.it]) }
+    else { otherRows.push([pg.url, pg.type, br.role, br.kw, /generated/i.test(br.src) ? 'generated' : br.vol + '/' + br.kd, '', '', '', '']); otherNoMatch.push(pg.url) }
+  }
+}
+fs.writeFileSync('docs/phase-c/proposal-other-pages.csv', csv([['url', 'type', 'role', 'current keyword to remove', 'current (vol/kd or generated)', 'proposed Semrush replacement', 'volume', 'kd', 'intent'], ...otherRows]))
+// pages with no keywords: closest pool keywords by slug
+const nk = []
+for (const u of inv.noKw) {
+  const t = toks(pageSlug(u).replace(/-/g, ' ')), p = info[pageSlug(u)]
+  const cand = [...pool.values()].filter(e => !taken.has(e.kw) && /^[TCNI]+$/.test(e.it) && (p ? hasAll(e.kw, p.bt) && p.toks.length && hasAll(e.kw, p.toks.slice(0, 2)) : overlap(toks(e.kw), t) >= 0.99 && t.length && /brands|compare|faq/.test(u))).sort((a, b) => b.vol - a.vol || a.kd - b.kd).slice(0, 6)
+  nk.push([u, p ? 'product' : 'info page', cand.map(e => `${e.kw} ${e.vol}/${e.kd}/${e.it}`).join('; ') || 'none found in Semrush data (owner decision: leave without keywords)'])
+}
+fs.writeFileSync('docs/phase-c/proposal-no-keyword-pages.csv', csv([['url', 'kind', 'proposed keywords (vol/KD/intent)'], ...nk]))
+const filled = otherRows.filter(r => r[5]).length
+console.log('other pages: bad rows ' + otherRows.length + ', replaced ' + filled + ', no match ' + (otherRows.length - filled) + '; no-keyword pages ' + nk.length + ', with candidates ' + nk.filter(r => !/^none/.test(r[2])).length)
