@@ -1,0 +1,306 @@
+#bulk-b007
+mini|I|14,800|27
+dirodi rover|N|1,600|19
+fatboy scrambler v2|I|1,300|19
+inner tube|IC|1,300|13
+rearview mirror|I|1,000|22
+dirodi rover pro|I|880|16
+e ride pro mini|C|720|16
+dhz 2200e|IT|390|10
+fatboy bagus v2|IT|390|21
+cruzr grom|IT|320|10
+handlebar grips|C|260|22
+fatboy harlem v2|IT|170|14
+rerode r1|C|140|6
+cruzr trigger|T|110|17
+bagus v2|C|90|6
+e ride pro mini australia|C|90|6
+rover pro|C|70|8
+scrambler v2|C|70|6
+ampd bros stubbie|I|50|14
+mamba antidote||n/a|50
+azonic flow 20||n/a|40
+azonic pure 12||n/a|30
+dhz 2200e electric dirt bike||n/a|30
+abus macator||n/a|20
+abus macator helmet||n/a|20
+azonic flow||n/a|20
+azonic flow 16||n/a|20
+flow 16||n/a|20
+harlem v2||n/a|20
+pedal bracket||n/a|20
+protective armour||n/a|20
+rerode r1 electric dirt bike||n/a|20
+flow 20||n/a|10
+replacement headset||n/a|10
+azonic pure||n/a|0
+fatboy scrambler v2 australia||n/a|0
+fatboy the scrambler v2 e bike||n/a|0
+pure 12||n/a|0
+fatboy scrambler v3 australia|||
+ampd bros stubbie s s3|||
+stubbie s s3 electric bike|||
+stubbie s s3|||
+ampd bros stubbie s|||
+stubbie s|||
+ampd bros stubbie s s3 australia|||
+dirodi rover gen6|||
+rover gen6|||
+dirodi rover gen6 australia|||
+79bike pedal bracket|||
+79bike pedal|||
+79bike pedal bracket australia|||
+79bike protective armour|||
+79bike protective|||
+79bike protective armour australia|||
+79bike handlebar grips|||
+79bike handlebar|||
+79bike handlebar grips australia|||
+79bike inner tube|||
+79bike inner|||
+79bike inner tube australia|||
+79bike replacement headset|||
+79bike replacement|||
+79bike replacement headset australia|||
+dirodi rover pro australia|||
+79bike rearview mirror|||
+79bike rearview|||
+79bike rearview mirror australia|||
+cruzr trigger gen3|||
+trigger gen3|||
+cruzr trigger gen3 australia|||
+cruzr grom gen2|||
+grom gen2|||
+cruzr grom gen2 australia|||
+fatboy the bagus v2 e bike|||
+fatboy bagus v2 australia|||
+fatboy harlem v2 e bike|||
+fatboy harlem v2 australia|||
+dhz 2200e dirt|||
+2200e dirt|||
+dhz 2200e dirt australia|||
+azonic flow 16 australia|||
+azonic flow 20 australia|||
+azonic pure 12 australia|||
+mamba antidote trekking commuter|||
+mamba antidote trekking commuter e bike|||
+antidote trekking commuter|||
+mamba antidote trekking|||
+antidote trekking|||
+mamba antidote trekking commuter australia|||
+fatboy fat scrambler cream|||
+fat scrambler e bike cream|||
+fat scrambler cream|||
+fatboy fat|||
+fatboy fat scrambler|||
+fat scrambler|||
+fatboy fat scrambler cream australia|||
+rerode r1 dirt|||
+r1 dirt|||
+rerode r1 dirt australia|||
+macator helmet|||
+#nodata-b007 
+#bulk-b008
+taipan|I|6,600|24
+chain lock|C|720|22
+etm rtr lite|C|480|7
+flat pedals|C|320|17
+amflow px|TN|210|17
+clutch pedal|I|210|17
+amflow px carbon|IT|170|22
+suspension rear|I|170|17
+fr777|IT|140|7
+flight risk fr777|IT|110|29
+sherco eb12|C|110|6
+79bike viper s||n/a|40
+eunorau g30 cargo electric bike||n/a|40
+electro co etm rtr lite||n/a|30
+g30 cargo||n/a|30
+viper s||n/a|30
+azur performance||n/a|20
+crankbrothers flat||n/a|20
+crankbrothers flat pedals||n/a|20
+eunorau g30||n/a|20
+falcon pro motor||n/a|20
+fatboy suspension||n/a|20
+flat pedals orange||n/a|20
+junior 12||n/a|20
+moov8 x||n/a|20
+onguard chain||n/a|20
+onguard chain lock||n/a|20
+pilot water||n/a|20
+pilot water bottle||n/a|20
+vamos doblez||n/a|20
+79bike viper s electric dirt bike||n/a|10
+amflow px carbon australia||n/a|10
+cargo deluxe||n/a|10
+px carbon||n/a|10
+talaria junior||n/a|10
+eunorau g30 cargo||n/a|0
+onguard chain lock australia||n/a|0
+x 22x||n/a|0
+abus macator helmet australia|||
+azur performance halo|||
+performance halo|||
+azur performance halo australia|||
+vamos doblez folding 2025|||
+vamos doblez folding e bike 2025|||
+doblez folding 2025|||
+vamos doblez folding|||
+doblez folding|||
+vamos doblez folding 2025 australia|||
+azur clutch pedal|||
+azur clutch|||
+azur clutch pedal australia|||
+crankbrothers flat pedals australia|||
+ampd bros beach deluxe trailer|||
+beach deluxe bike trailer|||
+beach deluxe trailer|||
+ampd bros beach|||
+ampd bros beach deluxe|||
+beach deluxe|||
+ampd bros beach deluxe trailer australia|||
+ampd brothers cargo deluxe trailer|||
+cargo deluxe bike trailer|||
+cargo deluxe trailer|||
+ampd brothers cargo|||
+ampd brothers cargo deluxe|||
+ampd brothers cargo deluxe trailer australia|||
+fatboy suspension rear scrambler|||
+suspension rear scrambler|||
+fatboy suspension rear|||
+fatboy suspension rear scrambler australia|||
+ampd bros taipan|||
+ampd bros taipan electric bike|||
+ampd bros taipan australia|||
+m20 pilot water bottle|||
+m20 pilot|||
+m20 pilot water|||
+m20 pilot water bottle australia|||
+flight risk fr777 australia|||
+moov8 x 22x|||
+moov8 x electric bike 22x|||
+moov8 x 22x australia|||
+eunorau g30 cargo australia|||
+talaria junior 12|||
+talaria junior 12 australia|||
+electro co etm rtr lite australia|||
+sherco eb12 kids balance|||
+sherco eb12 kids electric balance bike|||
+eb12 kids balance|||
+sherco eb12 kids|||
+eb12 kids|||
+sherco eb12 kids balance australia|||
+79bike viper s dirt|||
+viper s dirt|||
+79bike viper|||
+79bike viper s dirt australia|||
+79bike falcon pro motor|||
+79bike falcon pro motor australia|||
+79bike bare wheel rim|||
+bare wheel rim|||
+79bike bare|||
+79bike bare wheel|||
+#nodata-b008 
+#bulk-b009
+ultra bee|IC|4,400|12
+full suspension mtb|C|880|14
+hyper bee|I|720|10
+ncm moscow plus|I|480|11
+sur ron ultra bee|IC|480|7
+fat tyre|IC|320|6
+full suspension|C|260|15
+ncm moscow|I|210|10
+ncm moscow plus e mtb|I|70|11
+sur ron ultra|C|70|15
+et cycle t1000|I|50|6
+sur ron hyper bee|C|50|12
+replacement wiring||n/a|30
+replacement wiring harness||n/a|30
+electro co etm rtr sport||n/a|20
+etm rtr sport 2026||n/a|20
+gobike 20||n/a|20
+max cargo||n/a|20
+moscow plus||n/a|20
+off road goggles||n/a|20
+smartmotion pacer||n/a|20
+ultra bee swingarm||n/a|20
+x 9000||n/a|20
+bare wheel||n/a|10
+ebmx x 9000||n/a|10
+ebmx x 9000 v3 controller||n/a|10
+hyper bee 2026||n/a|10
+20 kids||n/a|0
+ebmx x 9000 v3||n/a|0
+sur ron hyper bee 2026||n/a|0
+79bike bare wheel rim australia|||
+gobike 20 kids teens|||
+gobike 20 electric bike for kids teens|||
+20 kids teens|||
+gobike 20 kids|||
+gobike 20 kids teens australia|||
+sur ron hyper|||
+sur ron hyper bee 2026 australia|||
+electro co etm rtr sport 2026|||
+electro co etm rtr sport australia|||
+electro co etm rtr sport 2026 australia|||
+et cycle t1000 fat tyre|||
+et cycle t1000 fat tyre step through e bike|||
+t1000 fat tyre|||
+et cycle t1000 fat|||
+t1000 fat|||
+et cycle t1000 fat tyre australia|||
+smartmotion pacer mid drive|||
+smartmotion pacer mid drive step through e bike|||
+pacer mid drive|||
+smartmotion pacer mid|||
+pacer mid|||
+smartmotion pacer mid drive australia|||
+smartmotion pacer hardtail mtb|||
+smartmotion pacer hardtail e mtb|||
+pacer hardtail mtb|||
+smartmotion pacer hardtail|||
+pacer hardtail|||
+smartmotion pacer hardtail mtb australia|||
+tbc max cargo folding cargo|||
+max cargo folding cargo e bike white|||
+max cargo folding cargo|||
+tbc max|||
+tbc max cargo|||
+tbc max cargo folding|||
+tbc max cargo folding australia|||
+tbc max cargo folding cargo australia|||
+max cargo folding cargo e bike green|||
+max cargo folding cargo e bike orange|||
+tbc fat tyre scrambler|||
+fat tyre scrambler e bike blue|||
+fat tyre scrambler|||
+tbc fat tyre|||
+tbc fat tyre scrambler australia|||
+tbc full suspension mtb|||
+full suspension e mtb silver|||
+tbc full|||
+tbc full suspension|||
+tbc full suspension mtb australia|||
+sur ron ultra bee swingarm|||
+sur ron ultra bee swingarm australia|||
+x 9000 v3 controller|||
+ebmx x|||
+ebmx x 9000 v3 australia|||
+ebmx x 9000 v3 controller australia|||
+ncm moscow plus mtb|||
+moscow plus mtb|||
+ncm moscow plus mtb australia|||
+79bike connecting triangle pieces|||
+connecting triangle pieces|||
+79bike connecting|||
+79bike connecting triangle|||
+connecting triangle|||
+79bike connecting triangle pieces australia|||
+79bike replacement wiring harness|||
+79bike replacement wiring|||
+79bike replacement wiring harness australia|||
+79bike off road goggles|||
+79bike off|||
+79bike off road|||
+#nodata-b009 
