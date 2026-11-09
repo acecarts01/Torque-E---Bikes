@@ -1,0 +1,101 @@
+#bulk-b002
+giant trance|IT|1,900|16
+giant reign|IC|1,300|18
+giant trance x|C|880|20
+giant fathom|C|720|21
+santa cruz bullit|C|480|8
+specialized turbo levo|T|480|16
+trek rail|N|480|16
+santa cruz heckler|C|260|17
+santa cruz heckler sl|N|260|6
+trek rail 7|IT|260|17
+cannondale moterra|TN|140|22
+giant fathom 1|I|140|19
+specialized turbo levo sl|I|140|18
+turbo levo|C|140|9
+trance x|I|90|18
+trek rail 9.8|C|90|14
+giant trance x 1|IT|70|27
+ktm sx|T|70|17
+heckler sl||n/a|50
+cannondale moterra neo carbon 2||n/a|30
+giant reign pro||n/a|30
+cannondale moterra neo||n/a|20
+cannondale moterra neo 3||n/a|20
+cannondale moterra neo carbon||n/a|20
+cannondale moterra neo carbon 1||n/a|20
+fathom 1||n/a|20
+giant trance x elite||n/a|20
+ktm sx e 5||n/a|20
+moterra neo||n/a|20
+moterra neo 3||n/a|20
+moterra neo carbon 2||n/a|20
+rail 7||n/a|20
+rail 9.8||n/a|20
+rail 9.8 xt||n/a|20
+rail 9.9||n/a|20
+reign pro||n/a|20
+santa cruz heckler sl c||n/a|20
+santa cruz heckler sl cc||n/a|20
+specialized turbo||n/a|20
+specialized turbo kenevo||n/a|20
+specialized turbo kenevo expert||n/a|20
+specialized turbo kenevo sl||n/a|20
+specialized turbo kenevo sl expert||n/a|20
+specialized turbo levo sl comp||n/a|20
+specialized turbo levo sl comp carbon||n/a|20
+specialized turbo levo sl expert||n/a|20
+specialized turbo levo sl expert carbon||n/a|20
+sx 5||n/a|20
+trance x elite||n/a|20
+trek rail 7 australia||n/a|20
+trek rail 9.8 xt||n/a|20
+trek rail 9.9||n/a|20
+trek rail 9.9 xtr||n/a|20
+turbo kenevo||n/a|20
+turbo kenevo expert||n/a|20
+turbo levo sl comp carbon||n/a|20
+turbo levo sl expert carbon||n/a|20
+moterra neo carbon 1||n/a|10
+turbo kenevo sl expert||n/a|10
+giant fathom e 1 pro||n/a|0
+giant reign e pro||n/a|0
+giant trance x e 1 pro||n/a|0
+giant trance x e elite||n/a|0
+ktm sx 5||n/a|0
+rail 9.9 xtr||n/a|0
+santa cruz heckler sl c gx axs||n/a|0
+specialized turbo levo sl australia||n/a|0
+ktm sx 5 australia|||
+specialized turbo levo sl comp carbon australia|||
+specialized turbo levo sl expert carbon australia|||
+specialized turbo kenevo sl australia|||
+specialized turbo kenevo sl expert australia|||
+specialized turbo kenevo expert australia|||
+trek rail 9.8 xt australia|||
+trek rail 9.9 xtr australia|||
+giant trance x 1 pro|||
+trance x 1 pro|||
+giant trance x 1 australia|||
+giant trance x 1 pro australia|||
+giant trance x elite australia|||
+giant reign pro australia|||
+giant fathom 1 pro|||
+fathom 1 pro|||
+giant fathom 1 pro australia|||
+cannondale moterra neo carbon australia|||
+cannondale moterra neo carbon 1 australia|||
+cannondale moterra neo carbon 2 australia|||
+cannondale moterra neo 3 australia|||
+santa cruz heckler sl cc x0 axs|||
+heckler sl cc x0 axs|||
+santa cruz heckler sl cc x0|||
+santa cruz heckler sl cc australia|||
+santa cruz heckler sl cc x0 axs australia|||
+heckler sl c gx axs|||
+santa cruz heckler sl c gx|||
+santa cruz heckler sl c australia|||
+santa cruz heckler sl c gx axs australia|||
+santa cruz bullit cc x0 axs|||
+bullit cc x0 axs|||
+#nodata-b002 razor mx650 australia
