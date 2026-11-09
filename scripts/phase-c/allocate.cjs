@@ -45,14 +45,17 @@ const brandKw = (kw, b) => hasAll(kw, b.split(' '))
 // ---- product proposals
 const taken = new Set(owner.keys())
 const regByUrl = {}; for (const r of reg) (regByUrl[r.url] = regByUrl[r.url] || []).push(r)
-const prodRows = [], noData = []
+const prodRows = [], noData = [], released = []
 const inv = JSON.parse(fs.readFileSync('docs/phase-c/inventory.json', 'utf8'))
 const needUrls = new Set(inv.pages.filter(p => p.type === 'product' && p.bad).map(p => p.url))
 const order = Object.values(info).filter(p => needUrls.has(p.url)).sort((a, b) => b.toks.length - a.toks.length || b.price - a.price)
 const proposed = {}
 for (const p of order) {
   const cur = regByUrl[p.url] || []
-  const keep = cur.filter(r => isGood(r, true))
+  // a kept row must still name the brand plus one of the product's own model tokens, otherwise it is released for another page
+  const onModel = r => p.toks.length > 0 && ((hasAll(r.kw, p.bt) && p.toks.slice(0, 2).some(t => r.kw.includes(t))) || (p.toks.length > 1 && p.toks.slice(0, 2).every(t => r.kw.includes(t))))
+  const keep = cur.filter(r => isGood(r, true)) // real, T/C, KD<=28 rows stay on their page; off-model ones are only FLAGGED for the owner
+  for (const r of cur) if (isGood(r, true) && !onModel(r)) released.push([p.url, r.role, r.kw, r.vol, r.kd, r.intent])
   const keepKw = new Set(keep.map(r => r.kw))
   const cands = [...pool.values()].filter(e => /^[TC]+$/.test(e.it) && !taken.has(e.kw) && !keepKw.has(e.kw) && hasAll(e.kw, p.bt) && p.toks.length && hasAll(e.kw, p.toks.slice(0, Math.min(p.toks.length, 2))) && claimants(e.kw)[0] === p)
     .sort((a, b) => (/T/.test(b.it) - /T/.test(a.it)) || b.vol - a.vol || a.kd - b.kd)
@@ -83,6 +86,40 @@ const okIntent = (t, it) => t === 'brand-hub' ? /^[CNIT]+$/.test(it) : t === 'bl
 const otherRows = [], otherNoMatch = []
 const pageSlug = u => u.split('/').filter(Boolean).slice(-1)[0] || 'home'
 const nonProd = inv.pages.filter(p => p.type !== 'product' && p.bad > 0)
+// ---- relevance gate (curation): a replacement must be about the page and use only words that fit it
+const WORDS = new Set('e bike bikes ebike ebikes e-bike e-bikes electric emtb mtb mountain road gravel fat tyre tyres tire tires scrambler commuter urban city step through cargo trike trikes e-trike e-trikes tricycle kids kid youth boys girls light lights horn horns headlight rack racks trailer trailers bag bags carrier hitch lock locks alarm brake brakes pad pads seat seats motor motors kit kits conversion drivetrain sprocket sprockets battery batteries charger price sale for buy cheap best online shop store australia australian brisbane 250w 500w 750w 1000w 1500w 48v 52v 60v 72v folding foldable throttle mens ladies womens full suspension hardtail road balance models model'.split(' '))
+const catTopic = { 'electric-mountain-bikes': /mountain|mtb|emtb/, 'commuter-and-urban-e-bikes': /commuter|urban|city|step/, 'road-and-gravel-e-bikes': /road|gravel/, 'fat-tyre-and-scrambler-e-bikes': /fat|scrambler/, 'kids-and-youth-e-bikes': /kid|youth|boy|girl/, 'cargo-bikes-and-e-trikes': /cargo|trike|tricycle/, 'lights-and-horns': /light|horn|headlight/, 'racks-bags-and-trailers': /rack|bag|trailer|carrier|hitch/, 'motors-drivetrain-and-sprockets': /motor|kit|conversion|sprocket|drivetrain/, 'locks-and-security': /lock|alarm/, 'brakes': /brake|pad|rotor|disc/, 'seats-fenders-and-body': /seat|fender|saddle/ }
+const needElectric = new Set(['electric-mountain-bikes', 'commuter-and-urban-e-bikes', 'road-and-gravel-e-bikes', 'fat-tyre-and-scrambler-e-bikes', 'kids-and-youth-e-bikes', 'cargo-bikes-and-e-trikes'])
+const catVocab = new Set(); for (const p of cat) for (const t of norm(p.brand + ' ' + p.name).split(' ')) catVocab.add(t)
+const brandModelTok = {}; for (const p of cat) { const b = norm(p.brand).replace(/\s+/g, '-'); (brandModelTok[b] = brandModelTok[b] || new Set()); for (const t of norm(p.name).split(' ')) brandModelTok[b].add(t) }
+const brandTok = new Set(); for (const p of cat) for (const t of norm(p.brand).split(' ')) if (!WORDS.has(t) && t.length > 2) brandTok.add(t)
+const noBrand = (words, slug) => words.every(w => !brandTok.has(w) || slug.split('-').includes(w))
+const isElectricTerm = k => /\b(e bike|ebike|e-bike|electric|emtb|e mtb|e mountain|e gravel|e trike|e-trike|e cargo|e-kit)/.test(k) || /\be[ -]?(bike|trike|mtb)/.test(k)
+const relevant = (pg, kw) => {
+  const t = pg.type, slug = pageSlug(pg.url), words = kw.replace(/-/g, ' ').split(' '), slugSet = new Set(slug.split('-'))
+  if (/(^|-)(electric|ebike|ebikes|e-bike|e-bikes)(-|$)/.test(slug) && (t === 'blog' || t === 'category') && !isElectricTerm(kw)) return false
+  if (t === 'brand-hub') {
+    const b = slug.replace(/-/g, ' ').split(' '), extras = words.filter(w => !b.includes(w))
+    if (!hasAll(kw, b)) return false
+    const ok = brandModelTok[slug] || new Set()
+    return extras.every(w => WORDS.has(w) || ok.has(w) || /^\d+$/.test(w))
+  }
+  if (t === 'local') return /brisbane/.test(kw) && /bike/.test(kw) && words.every(w => WORDS.has(w))
+  if (t === 'home') return /torque/.test(kw)
+  if (t === 'shop' || pg.url === '/electric-bikes/') return isElectricTerm(kw) && /(buy|sale|shop|store|online|price|australia)/.test(kw) && noBrand(words, slug) && words.every(w => WORDS.has(w) || slugSet.has(w) || w === 'au')
+  if (t === 'category') {
+    const cs = slug, topic = catTopic[cs]
+    if (topic && !topic.test(kw)) return false
+    if (needElectric.has(cs) && !isElectricTerm(kw)) return false
+    return noBrand(words, slug) && words.every(w => WORDS.has(w) || slugSet.has(w) || w === 'au')
+  }
+  if (t === 'blog') {
+    const key = toks(slug.replace(/-/g, ' ')).filter(w => !['guide', 'explained', 'buying', 'vs', 'what', 'how', 'which', 'models', 'model', '2026', 'australia', 'legal', 'street'].includes(w))
+    const hit = key.length ? key.filter(w => words.includes(w)).length / key.length : 1
+    return hit >= 0.67 && (key.length || isElectricTerm(kw)) && noBrand(words, slug) && words.every(w => WORDS.has(w) || slugSet.has(w) || w === 'au')
+  }
+  return false
+}
 for (const pg of nonProd) {
   const cur = (regByUrl[pg.url] || [])
   const badRows = cur.filter(r => !isGood(r, pg.type !== 'brand-hub' && pg.type !== 'home'))
@@ -93,9 +130,9 @@ for (const pg of nonProd) {
     let best = null
     for (const e of pool.values()) {
       if (taken.has(e.kw) || goodKw.has(e.kw) || !okIntent(pg.type, e.it)) continue
-      if (pg.type === 'brand-hub' && !hasAll(e.kw, toks(pageSlug(pg.url).replace(/-/g, ' ')).length ? toks(pageSlug(pg.url).replace(/-/g, ' ')) : [])) continue
+      if (!relevant(pg, e.kw)) continue
       const sc = overlap(e.tk || (e.tk = toks(e.kw)), key) + (e.vol > 100 ? 0.05 : 0) - e.kd / 2000
-      if (sc >= (pg.type === 'brand-hub' ? 0.6 : 0.95) && (!best || sc > best.sc) && (pg.type === 'brand-hub' || !claimants(e.kw)[0])) best = { e, sc } // a product page owns keywords naming its model
+      if (sc >= 0.4 && (!best || sc > best.sc) && (pg.type === 'brand-hub' || !claimants(e.kw)[0])) best = { e, sc } // a product page owns keywords naming its model
     }
     if (best) { taken.add(best.e.kw); otherRows.push([pg.url, pg.type, br.role, br.kw, /generated/i.test(br.src) ? 'generated' : br.vol + '/' + br.kd, best.e.kw, best.e.vol, best.e.kd, best.e.it]) }
     else { otherRows.push([pg.url, pg.type, br.role, br.kw, /generated/i.test(br.src) ? 'generated' : br.vol + '/' + br.kd, '', '', '', '']); otherNoMatch.push(pg.url) }
@@ -112,3 +149,6 @@ for (const u of inv.noKw) {
 fs.writeFileSync('docs/phase-c/proposal-no-keyword-pages.csv', csv([['url', 'kind', 'proposed keywords (vol/KD/intent)'], ...nk]))
 const filled = otherRows.filter(r => r[5]).length
 console.log('other pages: bad rows ' + otherRows.length + ', replaced ' + filled + ', no match ' + (otherRows.length - filled) + '; no-keyword pages ' + nk.length + ', with candidates ' + nk.filter(r => !/^none/.test(r[2])).length)
+
+fs.writeFileSync('docs/phase-c/released-keywords.csv', csv([['page holding it (flag only: row stays)','role','keyword (real Semrush row, does not name the product model)','volume','kd','intent'], ...released]))
+console.log('flagged off-model rows kept on product pages: ' + released.length)
