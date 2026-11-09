@@ -1,0 +1,101 @@
+#bulk-b003
+giant revolt|N|1,600|26
+level 3|I|1,600|23
+trek checkpoint|NC|1,300|17
+trek domane|N|1,300|27
+aventon level 3|I|590|24
+cannondale topstone|TN|590|26
+trek fx|IN|480|21
+trek fx 2|IC|320|24
+aventon level 3 australia|I|110|23
+specialized turbo vado|C|110|22
+pivot shuttle|T|90|17
+specialized turbo vado sl|C|90|9
+trek allant|TN|90|25
+aventon aventure.2|I|70|18
+pivot shuttle lt|I|70|24
+revolt pro||n/a|40
+segway muxi australia||n/a|40
+trek allant 7||n/a|40
+yeti 160e||n/a|40
+aventon pace 500.3||n/a|30
+segway muxi||n/a|30
+specialized turbo vado sl 4.0||n/a|30
+trek checkpoint sl 5||n/a|30
+turbo vado||n/a|30
+allant 7||n/a|20
+aventon aventure.2 australia||n/a|20
+aventon level||n/a|20
+aventon pace||n/a|20
+aventon pace 500.3 australia||n/a|20
+aventon sinch.2||n/a|20
+aventon soltera.2||n/a|20
+cannondale topstone neo||n/a|20
+cannondale topstone neo carbon||n/a|20
+checkpoint sl||n/a|20
+checkpoint sl 5||n/a|20
+domane alr||n/a|20
+domane alr 5||n/a|20
+domane lt||n/a|20
+fx 2||n/a|20
+giant revolt pro||n/a|20
+muxi||n/a|20
+pace 500.3||n/a|20
+pivot shuttle lt team xtr||n/a|20
+shuttle lt||n/a|20
+specialized turbo vado sl 5.0||n/a|20
+specialized turbo vado sl australia||n/a|20
+topstone neo||n/a|20
+trek checkpoint sl||n/a|20
+trek domane alr||n/a|20
+trek domane alr 5||n/a|20
+trek domane lt||n/a|20
+trek fx 2 australia||n/a|20
+turbo vado sl 4.0||n/a|20
+turbo vado sl 5.0||n/a|20
+aventon soltera.2 australia||n/a|10
+aventure.2||n/a|10
+bullit cc||n/a|10
+giant revolt e pro||n/a|10
+pivot shuttle lt team||n/a|10
+aventon aventure.2 fat tire||n/a|0
+aventon pace 500.3 step through||n/a|0
+cannondale topstone neo carbon 3||n/a|0
+domane lt 9||n/a|0
+rogue mx||n/a|0
+soltera.2||n/a|0
+topstone neo carbon 3||n/a|0
+trek domane lt 9||n/a|0
+santa cruz bullit cc x0|||
+santa cruz bullit cc x0 australia|||
+santa cruz bullit cc x0 axs australia|||
+yeti 160e t2|||
+160e t2|||
+yeti 160e t2 australia|||
+shuttle lt team xtr|||
+pivot shuttle lt team australia|||
+pivot shuttle lt team xtr australia|||
+specialized turbo vado sl 4.0 australia|||
+specialized turbo vado sl 5.0 australia|||
+trek domane lt 9 australia|||
+trek allant 7 australia|||
+aventon sinch.2 folding|||
+sinch.2 folding|||
+aventon sinch.2 folding australia|||
+trek domane alr 5 australia|||
+trek checkpoint sl 5 australia|||
+cannondale topstone neo carbon 1|||
+topstone neo carbon 1|||
+cannondale topstone neo carbon australia|||
+cannondale topstone neo carbon 1 australia|||
+cannondale topstone neo carbon 3 australia|||
+giant revolt pro australia|||
+aventure.2 fat tire|||
+aventon aventure.2 fat|||
+aventure.2 fat|||
+aventon aventure.2 fat tire australia|||
+emortal rogue mx 01 fat tire|||
+rogue mx 01 fat tire|||
+emortal rogue|||
+emortal rogue mx|||
+#nodata-b003 santa cruz bullit cc
