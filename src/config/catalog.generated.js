@@ -46,7 +46,7 @@ export const CATALOG_CATEGORIES = [
   "group": "Bikes",
   "description": "Shop 36 fat-tyre & scrambler e-bikes from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/aventon-aventure-2-fat-tire-1.webp",
-  "count": 36
+  "count": 37
  },
  {
   "slug": "kids-and-youth-e-bikes",
@@ -118,7 +118,7 @@ export const CATALOG_CATEGORIES = [
   "group": "Accessories",
   "description": "Shop 16 racks, bags & trailers from leading brands. Australia-wide shipping from Brisbane, with Class 9 DG certified battery freight.",
   "image": "/products/pacific-bike-trailer-1.webp",
-  "count": 16
+  "count": 15
  },
  {
   "slug": "motors-drivetrain-and-sprockets",

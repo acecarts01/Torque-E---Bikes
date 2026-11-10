@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-10",
+  "method": "Google AI Mode (google.com/search?udm=50, hl=en, gl=au) in the Claude browser pane; ChatGPT guest with search; one run per question except where noted. Perplexity blocked by a Cloudflare human check (not bypassed). Gemini, Copilot, Claude not tested (sign-in).",
+  "aiMode": [
+    {"q": "best electric dirt bike for kids in australia", "torque": false, "domains": ["takani.com.au", "hoveroo", "miniev", "zippielectric"]},
+    {"q": "where can i buy a sur-ron light bee x in australia", "torque": false, "domains": ["ridesurron.com.au", "teammoto.com.au", "melbournepowered.com.au", "volitionebike.com", "iscoot.com.au", "ebmx.com.au", "bikesales.com.au"]},
+    {"q": "best electric dirt bike for adults australia", "torque": false, "domains": ["australianelectricmotorco.com", "youtube.com", "facebook.com", "ebmx.com.au", "emovebikes.com.au", "mxrmotorsports.com.au"]},
+    {"q": "talaria sting r mx4 price australia", "torque": false, "domains": ["iscoot.com.au", "cartell.tv", "talariaaustralia.com.au", "eazybikes.com.au", "pedl.com.au", "eozzie.com.au", "bikesales.com.au", "mxrmotorsports.com.au"]},
+    {"q": "best e bike conversion kit australia", "torque": false, "domains": ["rev-bikes.com", "reddit.com", "youtube.com", "facebook.com"]},
+    {"q": "1000w ebike conversion kit australia", "torque": "run 1 yes, run 2 no", "domains": ["ampx.com.au", "youtube.com", "caprouge.com.au", "electricpedalpower.com.au", "elemex.com.au", "woolworths.com.au", "vevor.com.au"]},
+    {"q": "best electric mountain bike under $5000 australia", "torque": false, "domains": ["chunkymonke.com", "bikesonline.com.au", "99bikes.com.au", "ivanhoecycles.com.au", "electricbikesbrisbane.com.au", "ebikefinder.au"]},
+    {"q": "best commuter e-bike under $3000 australia", "torque": false, "domains": ["vamosbikes.com.au", "bikesonline.com.au", "clickfrenzy.com.au", "lekkerbikes.com.au", "99bikes.com.au"]},
+    {"q": "fat tyre electric bike australia buy", "torque": false, "domains": ["tolandbikes.com.au", "ewhip.com.au", "kogan.com", "leitner.com.au", "coastal-electric-bicycles.com.au", "au.vitilanebike.com", "pushys.com.au", "99bikes.com.au", "youtube.com"]},
+    {"q": "electric trike for adults australia", "torque": false, "domains": ["addmotor.com.au", "trike-bike.com.au", "eozzie.com.au", "vamosbikes.com.au", "dutchcargobike.com.au", "everybodyebikes.com.au"]},
+    {"q": "best cargo e-bike australia", "torque": false, "domains": ["ebikefinder.au", "melbournepowered.com.au", "youtube.com", "electrickicks.com.au", "reidcycles.com.au", "facebook.com", "wombatbikes.com", "addmotor.com.au", "everybodyebikes.com.au", "ebikessuperstore.com.au", "bikesonline.com.au"]},
+    {"q": "kids electric balance bike australia", "torque": false, "domains": ["shop.thumpstar.com.au", "takani.com.au", "mxstore.com.au", "gobike.au"]},
+    {"q": "best folding electric bike australia", "torque": false, "domains": []},
+    {"q": "segway xaber 300 price australia", "torque": false, "domains": ["youtube.com", "fasterwheeler.com", "tech.yahoo.com", "rideapart.com", "facebook.com", "msn.com"]},
+    {"q": "e ride pro ss for sale australia", "torque": true, "note": "Torque E-bikes named as an authorised dealer offering the SS 3.0 at $7,500 (our catalogue price is $7,029)", "domains": ["ebmx.com.au", "murfelectricbikes.com.au", "mxrmotorsports.com.au", "penrithpitbike.com.au", "melbournepowered.com.au", "pedl.com.au"]},
+    {"q": "stark varg price australia", "torque": false, "domains": ["starkfuture.com", "shop.australianelectricmotorco.com", "australianelectricmotorco.com"]},
+    {"q": "are electric dirt bikes legal on the road in australia", "torque": false, "domains": ["ridesurron.com.au", "electrickicks.com.au", "sa.gov.au", "fonzmoto.com.au", "emovebikes.com.au", "savicmotorcycles.com", "apollovehicle.com.au", "ebikefinder.au", "facebook.com"]},
+    {"q": "is a 1000w electric bike legal in queensland", "torque": false, "domains": ["ngmobility.com.au", "streetsmarts.initiatives.qld.gov.au", "qld.gov.au", "facebook.com", "truenorthbikes.com", "reddit.com", "electricbikesbrisbane.com.au"]},
+    {"q": "72v ebike battery where to buy australia", "torque": false, "domains": ["ampx.com.au", "f1ebikes.com", "electricpedalpower.com.au", "ebikepartsaustralia.com.au", "youtube.com"]},
+    {"q": "sur ron controller upgrade parts australia", "torque": false, "domains": ["ebmx.com.au", "electricdirtbikes.com.au", "torpmotors.com", "youtube.com", "gritshift.com", "scooterooaustralia.com.au", "revrides.com", "surronbikeaustralia.com"]},
+    {"q": "electric dirt bike shop brisbane", "torque": false, "domains": ["monomoto.com.au", "stonegateindustries.com.au", "affordablemotorbikesaustralia.com.au", "scooterhut.com.au", "artintoys.com.au", "ebmx.com.au", "takani.com.au"]},
+    {"q": "torque e-bikes australia reviews", "torque": "brand named, mixed", "domains": ["torquee-bikesaustralia.com", "uk.trustpilot.com", "reddit.com", "cartell.tv", "tiktok.com"]},
+    {"q": "is torquee-bikesaustralia.com.au legit", "torque": "negative: scam red flags (payment methods, minimum order, unverifiable Trustpilot claim)", "domains": ["abr.business.gov.au"]}
+  ],
+  "chatgptGuest": [
+    {"q": "Where can I buy an electric dirt bike in Australia? Which shops ship Australia-wide?", "torque": true, "note": "listed #5 as Torque E-Bikes Australia with link to torquee-bikesaustralia.com.au", "domains": ["esurronbike.com.au", "aebikes.com.au", "eazybikes.com.au", "electricdirtbikeaustralia.com.au", "torquee-bikesaustralia.com.au"]}
+  ],
+  "serp": [
+    {"q": "electric dirt bike australia", "aio": true, "paa": true, "shopping": true, "local": false, "torquePosition": null},
+    {"q": "sur ron light bee x australia", "aio": true, "paa": true, "shopping": false, "local": false, "torquePosition": null},
+    {"q": "e bike conversion kit australia", "aio": true, "paa": true, "shopping": true, "local": false, "torquePosition": "only the lookalike .com at #4"},
+    {"q": "electric bikes brisbane", "aio": false, "paa": false, "shopping": true, "local": false, "torquePosition": null},
+    {"q": "fat tyre electric bike", "aio": true, "paa": false, "shopping": true, "local": false, "torquePosition": null},
+    {"q": "kids electric dirt bike", "aio": true, "paa": false, "shopping": true, "local": false, "torquePosition": null},
+    {"q": "electric mountain bike australia", "aio": false, "paa": true, "shopping": true, "local": true, "torquePosition": null},
+    {"q": "torque e-bikes australia", "aio": true, "paa": false, "shopping": true, "local": true, "torquePosition": "our .com.au not on page 1; lookalike .com is #1"}
+  ]
+}
