@@ -6,7 +6,8 @@ import { SITE } from '@/src/config/site'
 // 3. AI training tokens: disallowed. Google-Extended and Applebot-Extended are control tokens, not separate crawlers; blocking them does not affect Google Search or Apple search.
 // 4. Everyone else: allowed, same private areas off limits.
 // Bot names verified against Google, OpenAI, Anthropic and Perplexity documentation on 30 Oct 2026 (Applebot-Extended and CCBot from the vendors' standard tokens).
-// No Content-Signal line: it is not part of the robots.txt standard and audit tools flag it as a format error.
+// Content-Signal (contentsignals.org) added 10 Nov 2026 at the owner's request so the agent-readiness scan passes: ai-train=no matches the blocked training tokens,
+// search=yes and ai-input=yes match the allowed search and retrieval agents. It sits in the "everyone else" group only; some audit tools flag it as a non-standard directive.
 export const dynamic = 'force-static'
 
 const PRIVATE = [
@@ -38,7 +39,11 @@ export function GET() {
     'Disallow: /',
     '',
     '# Everyone else',
-    ...allowGroup(['*']),
+    'User-agent: *',
+    'Content-Signal: ai-train=no, search=yes, ai-input=yes',
+    'Allow: /',
+    ...PRIVATE,
+    '',
     `Sitemap: https://${SITE.domain}/sitemap.xml`,
     ''
   ].join('\n')
