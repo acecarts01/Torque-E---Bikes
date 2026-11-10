@@ -18,19 +18,19 @@ export default function SearchBar({ className, placeholder = 'Search bikes, batt
 }) {
   const router = useRouter()
   const [q, setQ] = useState('')
-  const [hits, setHits] = useState<Hit[]>([])
+  const [fetched, setFetched] = useState<Hit[]>([])
   const [open, setOpen] = useState(false)
   const [active, setActive] = useState(-1)
   const box = useRef<HTMLDivElement>(null)
   const listId = useId()
 
   useEffect(() => {
-    if (q.trim().length < 2) { setHits([]); return }
+    if (q.trim().length < 2) return
     const ctl = new AbortController()
     const t = setTimeout(() => {
       fetch(`/api/search-suggest/?q=${encodeURIComponent(q.trim())}`, { signal: ctl.signal })
         .then(r => (r.ok ? r.json() : []))
-        .then((d: Hit[]) => { setHits(d); setActive(-1) })
+        .then((d: Hit[]) => { setFetched(d); setActive(-1) })
         .catch(() => {})
     }, 150)
     return () => { clearTimeout(t); ctl.abort() }
@@ -42,6 +42,7 @@ export default function SearchBar({ className, placeholder = 'Search bikes, batt
     return () => document.removeEventListener('mousedown', away)
   }, [])
 
+  const hits = q.trim().length >= 2 ? fetched : []
   const go = (href: string) => { setOpen(false); onNavigate?.(); router.push(href) }
   const submit = (e: React.FormEvent) => {
     e.preventDefault()
@@ -80,7 +81,7 @@ export default function SearchBar({ className, placeholder = 'Search bikes, batt
           className="min-w-0 flex-1 bg-transparent px-3 py-4 text-sm md:text-base font-semibold text-white placeholder:text-gray-400 outline-none [&::-webkit-search-cancel-button]:appearance-none"
         />
         {q && (
-          <button type="button" onClick={() => { setQ(''); setHits([]) }} aria-label="Clear search" className="px-2 text-brand-gray hover:text-white">
+          <button type="button" onClick={() => { setQ(''); setFetched([]) }} aria-label="Clear search" className="px-2 text-brand-gray hover:text-white">
             <X className="w-4 h-4" />
           </button>
         )}
