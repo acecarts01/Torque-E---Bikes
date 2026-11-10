@@ -87,3 +87,7 @@ Do not publish OAuth, x402, MPP or UCP declarations; do not add card-payment log
 
 ## 8. 30/60/90 days
 30: owner answers on Trustpilot, payments and the lookalike store; deploy the llms.txt count fix; Content-Signal line if approved; GSC indexing requests continue daily. 60: monthly repeat of this citation test (same 23 questions, three runs each) and the Phase 0 refresh; direct-answer blocks on the legality guides; Business Profile. 90: review which model pages gained citations; extend the test to Perplexity, Gemini, Copilot and Claude once sign-in or checks are cleared by the owner.
+
+## 9. After the fixes (re-scan 10 Nov 2026, 10:07, production 713be4b)
+Agent-readiness: **87, Level 5 "Agent-Native"** (was 80, Level 1). Bot Access Control now 100 (2/2): `Content-Signal: ai-train=no, search=yes, ai-input=yes` added to robots.txt (owner request; reverses the 30 Oct "no Content-Signal" decision; training tokens stay blocked). llms.txt and the agent files now show 37 fat-tyre and 15 rack products (category descriptions in src/config/catalog.generated.js corrected).
+Remaining 13 points: DNS-AID needs DNSSEC (zone is on Vercel nameservers, which cannot sign; needs a nameserver move to a DNSSEC provider and a DS record at the registrar: owner approval required, risk to Zoho mail and verification records) and the auth.md check wants a real authorization server in the protected-resource metadata (the site has none: accepted gap).
