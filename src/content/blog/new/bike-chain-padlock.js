@@ -14,7 +14,7 @@ export const meta = {
   readTime: '9 min',
   focus: 'bike chain padlock',
   secondary: ['bike padlock and chain', 'bike chain lock', 'bicycle u lock', 'bike padlock', 'u lock'],
-  tags: ['u lock bike', 'bike u lock', 'cycle lock chain', 'bike chain and lock', 'chain bike lock', 'bicycle chain lock', 'u bike lock', 'bicycle d lock', 'bike lock u', 'buy bike lock'],
+  tags: ['u lock bike', 'bike u lock', 'cycle lock chain', 'bike chain and lock', 'chain bike lock', 'bicycle chain lock', 'u bike lock', 'bicycle d lock', 'bike lock u', 'chain bike locks'],
   image: {
     file: 'blog/bike-chain-padlock.webp',
     alt: 'OnGuard chain lock, Mastiff chain-lock and Kovix folding lock, a bike chain padlock range',

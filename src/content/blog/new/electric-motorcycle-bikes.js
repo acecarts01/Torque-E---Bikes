@@ -13,9 +13,9 @@ export const meta = {
   category: 'Buying Guides',
   date: '2026-10-28',
   readTime: '10 min',
-  focus: 'electric motorcycle bikes',
-  secondary: ['electric motorcycle bike', 'e motocross bike', 'emoto bike', 'e motor bike', 'emotorbike'],
-  tags: ['electric electric motorcycle', 'motorcycle e', 'e motorbikes', 'e bike motorbike', 'electric dirt bik', 'e motorbikes australia', 'electric drit bike', 'motorbike electric', 'electric dirt bicycle', 'e-motorbike'],
+  focus: 'electric motorcycle bike',
+  secondary: ['electric motorcycle for adults', 'e motocross bike', 'emoto bike', 'e motor bike', 'emotorbike'],
+  tags: ['electric motorcycle brisbane', 'motorcycle e', 'electric mx motorcycle', 'affordable electric motorcycle', 'electric dirt bik', 'e motorbikes australia', 'electric drit bike', 'motorbike electric', 'electric dirt bicycle', 'e-motorbike'],
   image: {
     file: 'blog/electric-motorcycle-bikes.webp',
     alt: 'Sur-Ron Light Bee X, Segway Xaber 300 and Talaria Sting, electric motorcycle bikes for off-road riding',
@@ -204,6 +204,6 @@ export const body = {
     { q: 'How fast do your electric motorcycle bikes go?', a: 'Product pages do not publish top speeds, so we do not quote them. Ask us for the maker\'s figure for the model you want.' },
     { q: 'Do you ship e-motos Australia-wide?', a: 'Yes, with dangerous-goods certified dispatch because of the lithium battery. Shipping is 10% of the goods total, and orders of $9,900 or more ship free.' },
   ],
-  keywords: { primary: 'electric motorcycle bikes', supporting: ['electric motorcycle bike', 'e motocross bike', 'emoto bike', 'e motor bike', 'emotorbike'] },
+  keywords: { primary: 'electric motorcycle bike', supporting: ['electric motorcycle for adults', 'e motocross bike', 'emoto bike', 'e motor bike', 'emotorbike'] },
   words: 0,
 }

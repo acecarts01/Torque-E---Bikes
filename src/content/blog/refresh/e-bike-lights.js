@@ -8,8 +8,8 @@ export const meta = {
   excerpt: 'Bike lamp and e-bike lights guide: front and rear lights from $27.95, brightness, mounting, USB vs wired, and what Queensland requires at night.',
   updated: '2026-10-27',
   focus: 'bike lamp',
-  secondary: ['bike front light', 'front bike light', 'front bike lights', 'lights for bikes', 'cycling lights'],
-  tags: ['bicycle bike lights', 'bike lights bicycle', 'bike bicycle light', 'bike light bikes', 'lights on a bicycle', 'bike light front', 'bike with lights', 'bikes lights', 'bike lights light', 'bike headlights'],
+  secondary: ['bike front light', 'front bike light', 'ebike lights', 'lights for bikes', 'cycling lights'],
+  tags: ['bicycle bike lights', 'bike lights bicycle', 'electric bike light', 'e bike light', 'lights on a bicycle', 'bike light front', 'bike with lights', 'bikes lights', 'bike lights light', 'bike headlights'],
   imageAlt: 'Bicycle handlebars with a phone and lights attached, a bike lamp setup for night riding',
   related: [
     { href: '/shop/lights-and-horns/azur-alien2-100-lm-usb-rechargeable-rear-light/', name: 'Azur Alien2 100 lm USB Rechargeable Rear Light', price: 27.95, note: 'Our lowest-priced light: a USB-rechargeable rear light.' },
@@ -84,5 +84,5 @@ export const body = {
       a: 'In our range, lights start at $27.95 for the Azur Alien2 USB rechargeable rear light, with front lights such as the Blinder 1300 at $149 and the NiteRider Lumina 1200 Boost at $169, and the Knog Blinder 1300 set at $219. Ask us what suits your bike and riding.',
     },
   ],
-  keywords: { primary: 'bike lamp', supporting: ['bike front light', 'front bike light', 'front bike lights', 'lights for bikes', 'cycling lights'] },
+  keywords: { primary: 'bike lamp', supporting: ['bike front light', 'front bike light', 'ebike lights', 'lights for bikes', 'cycling lights'] },
 }

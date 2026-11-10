@@ -10,7 +10,7 @@ export const meta = {
   updated: '2026-10-27',
   focus: 'surron light bee x',
   secondary: ['ultra bee surron', 'light bee', 'sur ron bikes', 'light bee x', 'sur ron light bee x'],
-  tags: ['sur ron', 'suron light bee x', 'sur ron bicycle', 'surron lightbee', 'sur ron ultra bee', 'suron light bee', 'sur-ron light bee x', 'surron light bee s', 'surron ultrabee', 'sur ron light bee'],
+  tags: ['sur ron ebike for sale', 'suron light bee x', 'sur ron bicycle', 'surron lightbee', 'sur ron ultra bee', 'suron light bee', 'sur-ron light bee x', 'surron light bee s', 'surron ultrabee', 'sur ron light bee'],
   imageAlt: 'Motocross rider doing a wheelie in the desert, the kind of riding a Surron Light Bee X is built for',
   related: [
     { href: '/shop/electric-dirt-bikes/sur-ron-light-bee-x/', name: 'Sur-Ron Light Bee X', price: 6169, note: 'The lightweight bike most people picture. Off-road only.' },

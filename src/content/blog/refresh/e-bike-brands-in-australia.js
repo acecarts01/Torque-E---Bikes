@@ -10,7 +10,7 @@ export const meta = {
   excerpt: 'Electric bike brands in Australia compared: Aventon, Cannondale, Cube, Trek, Specialized and more, with bike counts and prices from our range.',
   updated: '2026-10-27',
   focus: 'electric bike brands',
-  secondary: ['ebike brands', 'best electric bicycles australia', 'top rated e-bikes', 'best affordable e bike', 'best electric bike brands'],
+  secondary: ['ebike brands', 'best electric bicycles australia', 'top rated e-bikes', 'best affordable e bike', 'e bike brands'],
   tags: ['electric best bike', 'high performance e bikes', 'coolest e-bikes', 'e bikes fast', 'electric bike best', 'faster e bike', 'best electric bicycles', 'best e-bike', 'good e bikes', 'vamos e bike'],
   imageAlt: 'Red, blue and black bicycles lined up on display, a lineup of electric bike brands',
   related: [
@@ -87,5 +87,5 @@ export const body = {
       a: 'The brand sets its voluntary warranty, but the ACCC says consumer guarantees apply automatically whatever the brand, and entitle you to a repair, replacement, refund or cancellation if there is a problem. A warranty cannot take those rights away. Ask who handles claims in Australia before you buy.',
     },
   ],
-  keywords: { primary: 'electric bike brands', supporting: ['ebike brands', 'best electric bicycles australia', 'top rated e-bikes', 'best affordable e bike', 'best electric bike brands'] },
+  keywords: { primary: 'electric bike brands', supporting: ['ebike brands', 'best electric bicycles australia', 'top rated e-bikes', 'best affordable e bike', 'e bike brands'] },
 }

@@ -15,7 +15,7 @@ export const meta = {
   readTime: '10 min',
   focus: 'electric road bicycle',
   secondary: ['e gravel bike', 'road e bicycle', 'gravel e bike', 'e road bicycle', 'electric road bicycles'],
-  tags: ['electric gravel bicycle', 'gravel ebikes', 'egravel bike', 'cheap electric road bike', 'e road bicycles', 'e-road bicycle', 'ebike road', 'road electric bicycle', 'road electric bicycles', 'bicycles for the road'],
+  tags: ['electric gravel bicycle', 'gravel ebikes', 'egravel bike', 'cheap electric road bike', 'e road bicycles', 'e-road bicycle', 'ebike road', 'road electric bicycle', 'bicycles electric bike', 'bicycles for the road'],
   image: {
     file: 'blog/electric-road-bicycle.webp',
     alt: 'Trek Checkpoint+, Trek Domane+ and Giant Revolt E+, an electric road bicycle and e gravel bike range',

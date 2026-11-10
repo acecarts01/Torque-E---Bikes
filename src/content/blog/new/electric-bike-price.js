@@ -14,8 +14,8 @@ export const meta = {
   date: '2026-10-28',
   readTime: '10 min',
   focus: 'electric bike price',
-  secondary: ['electric bicycle price', 'e bike cost', 'electric bike cost', 'e bike price', 'buy electric bicycle'],
-  tags: ['cost of e cycle', 'e bicycle price', 'how much are electric bikes', 'ebike price', 'ebike cost', 'electric bikes buy', 'how much is an electric bike', 'e bike prices', 'electric bike prices', 'how much is a ebike'],
+  secondary: ['electric bicycle price', 'e bike cost', 'electric bike cost', 'e bike price', 'electric bicycle 1000w'],
+  tags: ['cost of e cycle', 'e bicycle price', 'how much are electric bikes', 'ebike price', 'ebike cost', 'electric bikes buy', 'how much is an electric bike', 'e bike prices', 'electric bikes and prices', 'how much is a ebike'],
   image: {
     file: 'blog/electric-bike-price.webp',
     alt: 'DYU C6, Aventon Pace 4 and Cube Touring Hybrid, electric bike price examples from $849',
@@ -215,6 +215,6 @@ export const body = {
     { q: 'Do prices include delivery?', a: 'No. Shipping is 10% of the goods total, and orders of $9,900 or more ship free. Paying with crypto takes 10% off the entire order.' },
     { q: 'What accessories should I budget for?', a: 'A helmet, lights and a lock at minimum. Our lowest-priced starter set is $160.85, before a front light and a carrier.' },
   ],
-  keywords: { primary: 'electric bike price', supporting: ['electric bicycle price', 'e bike cost', 'electric bike cost', 'e bike price', 'buy electric bicycle'] },
+  keywords: { primary: 'electric bike price', supporting: ['electric bicycle price', 'e bike cost', 'electric bike cost', 'e bike price', 'electric bicycle 1000w'] },
   words: 0,
 }

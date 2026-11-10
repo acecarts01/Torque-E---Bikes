@@ -11,7 +11,7 @@ export const meta = {
   readTime: '14 min',
   focus: 'legal electric bike',
   secondary: ['street legal electric bike', 'road legal electric bike', 'road legal electric motorbike', 'street legal e bike', 'electric street legal dirt bike'],
-  tags: ['street legal ebike australia', 'street legal electric bikes australia', 'e motorcycle australia', 'australia electric motorbike', 'australian e-bikes', 'australian e-bike', 'ev bikes australia', 'electric bikes aus', 'aus electric bikes', 'australian e bike'],
+  tags: ['legal e bike', 'legal electric bikes', 'e motorcycle australia', 'australia electric motorbike', 'off and on road bikes', 'australian e-bike', 'electric off road bicycle', 'ebike aus', 'aus electric bikes', 'electric off road motorbike'],
   imageAlt: 'Person riding an electric bike across a crosswalk, a legal electric bike on a coastal promenade',
   related: [
     { href: '/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/', name: 'DYU C6 Electric Bike', price: 849, note: 'Road-style commuter e-bike. Ask us for the compliance label.' },

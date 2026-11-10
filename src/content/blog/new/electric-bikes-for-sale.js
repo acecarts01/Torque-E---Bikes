@@ -14,8 +14,8 @@ export const meta = {
   date: '2026-10-28',
   readTime: '11 min',
   focus: 'electric bikes for sale',
-  secondary: ['ebike for sale', 'ebikes for sale', 'electric bike for sale', 'electric bicycle for sale', 'e bike for sale'],
-  tags: ['electric bicycles for sale', 'e-bikes for sale', 'e bikes for sale australia', 'e bike for sale australia', 'buy electric bike', 'buy e-bike', 'buy electric bikes', 'where can i buy an electric bike', 'where can i buy an electric bicycle', 'buy electric bicycle australia'],
+  secondary: ['ebike for sale', 'ebikes for sale', 'electric bike for sale', 'electric bicycle', 'e bike for sale'],
+  tags: ['electric foldable bicycles', 'e-bikes for sale', 'e bikes for sale australia', 'e bike for sale australia', 'buy electric bike', 'buy e-bike', 'buy electric bikes', 'where can i buy an electric bike', 'electric bicycle e bike', '250w electric bicycle'],
   image: {
     file: 'blog/electric-bikes-for-sale.webp',
     alt: 'DYU C6, NCM M3 and Cube Reaction Hybrid, electric bikes for sale in Australia',
@@ -195,6 +195,6 @@ export const body = {
     { q: 'How much does shipping cost?', a: 'Shipping is 10% of the goods total, and orders of $9,900 or more ship free. Lithium batteries are Class 9 dangerous goods, so we use certified dangerous-goods dispatch.' },
     { q: 'Is there a discount for paying with crypto?', a: 'Yes. Paying with Bitcoin or Tether takes 10% off the entire order, and the discount is already included in the amount we send you.' },
   ],
-  keywords: { primary: 'electric bikes for sale', supporting: ['ebike for sale', 'ebikes for sale', 'electric bike for sale', 'electric bicycle for sale', 'e bike for sale'] },
+  keywords: { primary: 'electric bikes for sale', supporting: ['ebike for sale', 'ebikes for sale', 'electric bike for sale', 'electric bicycle', 'e bike for sale'] },
   words: 0,
 }

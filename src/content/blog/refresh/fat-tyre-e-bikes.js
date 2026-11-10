@@ -9,7 +9,7 @@ export const meta = {
   updated: '2026-10-27',
   focus: 'fat tyre e bike',
   secondary: ['fat tire ebike', 'fat tire e bikes', 'fat wheel electric bicycle', 'fat tire e bike', 'e bike fat tyre'],
-  tags: ['ebike fat tyre', 'electric bicycles with fat tires', 'fat tire electric bicycles', 'fat wheel e bike', 'fat tyre e bikes', 'fat wheel ebike', 'fat wheel electric bikes', 'fat tires ebike', 'electric fat bikes', 'fat electric bike'],
+  tags: ['fat tire electric bicycle', 'electric bicycles with fat tires', 'fat tire electric bicycles', 'fat wheel e bike', 'fat tyre e bikes', 'fat wheel ebike', 'fat wheel electric bikes', 'fat tires ebike', 'electric fat bikes', 'fat electric bike'],
   imageAlt: 'Bike with wide tyres parked in the snow, the grip a fat tyre e bike is known for',
   related: [
     { href: '/shop/fat-tyre-and-scrambler-e-bikes/riptide-3-electric-bike/', name: 'Riptide 3 Electric Bike', price: 2059, note: 'A fat-tyre e-bike.' },

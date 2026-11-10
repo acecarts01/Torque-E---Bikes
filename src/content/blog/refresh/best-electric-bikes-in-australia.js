@@ -8,7 +8,7 @@ export const meta = {
   updated: '2026-10-27',
   focus: 'best electric bikes',
   secondary: ['best ebike australia', 'best ebike', 'best e bikes', 'best electric bike', 'best ebikes'],
-  tags: ['best e cycle', 'good ebike', 'best e bike', 'top rated electric bike', 'best ebikes australia', 'good electric bikes', 'top rated electric bikes', 'best electric bikes australia', 'best e bicycle', 'best electric bicycle'],
+  tags: ['best e cycle', 'good e-bike', 'best e bike', 'top rated electric bike', 'best ebikes australia', 'good electric bikes', 'top rated electric bikes', 'best electric bikes australia', 'best e bicycle', 'best electric bicycle'],
   imageAlt: 'Black electric bicycle parked by the sea, one of the best electric bikes for coastal commuting',
   related: [
     { href: '/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/', name: 'DYU C6 Electric Bike', price: 849, note: 'Our lowest-priced commuter e-bike.' },

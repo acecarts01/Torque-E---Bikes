@@ -10,7 +10,7 @@ export const meta = {
   updated: '2026-10-27',
   focus: 'electric motorbike',
   secondary: ['electric motorcycle', 'electric motor bike', 'electric motorbikes', 'e motorcycle', 'e motorbike'],
-  tags: ['motorcycle electric motorcycle', 'electric motorcycles', 'electric motorbikes australia', 'australia electric motorcycle', 'ev motorcycle', 'electric motorbikes for adults', 'e motorbike australia', 'electric moto', 'electric motobike', 'e bike motorcycle'],
+  tags: ['motorcycle electric motorcycle', 'e moto cheap', 'electric motorbikes australia', 'e-motorcycle', 'ev motorcycle', 'e-moto cheap', 'e motorbike australia', 'e bike moto', 'electric motobike', 'e bike motorcycle'],
   imageAlt: 'White and black motorcycle against a dark background, the look of an electric motorbike',
   related: [
     { href: '/shop/electric-dirt-bikes/79bike-viper-s-electric-dirt-bike/', name: '79Bike Viper S Electric Dirt Bike', price: 949, note: 'Our lowest-priced electric dirt bike. Off-road only.' },

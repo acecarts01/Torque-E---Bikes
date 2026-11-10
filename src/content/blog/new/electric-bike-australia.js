@@ -14,8 +14,8 @@ export const meta = {
   date: '2026-10-28',
   readTime: '11 min',
   focus: 'electric bike australia',
-  secondary: ['e bikes australia', 'ebikes australia', 'ebike australia', 'e-bike australia', 'electric bicycle australia'],
-  tags: ['australia electric bikes', 'ebike au', 'e bikes in australia', 'australian e bikes', 'australia ebike', 'e bicycle australia', 'electric bikes in australia', 'australian electric bikes', 'e-bikes australia', 'e bikes aus'],
+  secondary: ['e bikes australia', 'ebikes australia', 'ebike australia', 'e-bike australia', 'cheapest electric bicycle'],
+  tags: ['australia electric bikes', 'ebike au', 'e bikes in australia', 'australian electric bike', 'australia ebike', 'electric bicycle brisbane', 'electric bikes in australia', 'australian electric bikes', 'e-bikes australia', 'e bikes aus'],
   image: {
     file: 'blog/electric-bike-australia.webp',
     alt: 'Aventon Pace 4, Cube Touring Hybrid and Merida eSpresso, an electric bike Australia riders buy',
@@ -193,6 +193,6 @@ export const body = {
     { q: 'Do you ship e-bikes across Australia?', a: 'Yes. We ship Australia-wide with dangerous-goods certified dispatch. Shipping is 10% of the goods total, and orders of $9,900 or more ship free.' },
     { q: 'Which brands do you stock?', a: 'Many, including Aventon, Cube, Merida, NCM, Cruzr, Cannondale, Trek, Specialized, Reid and Vamos. See our brand guides and the e-bike brands in Australia guide.' },
   ],
-  keywords: { primary: 'electric bike australia', supporting: ['e bikes australia', 'ebikes australia', 'ebike australia', 'e-bike australia', 'electric bicycle australia'] },
+  keywords: { primary: 'electric bike australia', supporting: ['e bikes australia', 'ebikes australia', 'ebike australia', 'e-bike australia', 'cheapest electric bicycle'] },
   words: 0,
 }

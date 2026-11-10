@@ -10,7 +10,7 @@ export const meta = {
   updated: '2026-10-27',
   focus: 'how much are e bikes',
   secondary: ['how much is an e bike', 'e-bike', 'bicycles e bike', 'electric bikes', 'e bikes'],
-  tags: ['electric bike', 'e bike', 'electric bike au', 'australia e bikes', 'electric e bikes', 'mini e bike australia', 'top 5 electric bikes australia for adults', 'buy ebike australia', 'ebike price in australia', 'e bike au'],
+  tags: ['electric bike', 'e bike', 'e bikes au', 'australia e bikes', 'electric e bikes', 'mini e bike australia', 'top 5 electric bikes australia for adults', 'buy ebike australia', 'ebike price in australia', 'e bike au'],
   imageAlt: 'Black bicycle leaning against a railing, a plain-looking e-bike when you ask how much are e bikes',
   related: [
     { href: '/shop/commuter-and-urban-e-bikes/dyu-c6-electric-bike/', name: 'DYU C6 Electric Bike', price: 849, note: 'Our lowest-priced commuter e-bike.' },

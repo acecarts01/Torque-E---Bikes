@@ -12,8 +12,8 @@ export const meta = {
     updated: '2026-10-27',
     readTime: '11 min',
     focus: 'e bike conversion kit',
-    secondary: ['kit conversion ebike', 'ebike kit', 'e bike kit', 'bike conversion kit', 'converter e bike'],
-    tags: ['motorised bike kit', 'bicycle ebike conversion', 'ebike kit with battery', 'conversion e bike', 'ebike kits', 'convert bicycle to electric kit', 'convert bike to ebike', 'kit bicycle motor', 'electric bike conversion kit with battery', 'electric bike conversion'],
+    secondary: ['conversion kits for e bikes', 'ebike kit', 'e bike kit', 'bike conversion kit', 'ebikes kits'],
+    tags: ['motorised bike kit', 'ebike kits australia', 'ebike kit with battery', 'electric conversion kits', 'ebike kits', 'convert bicycle to electric kit', 'convert bike to ebike', 'kit bicycle motor', 'electric bike conversion kit with battery', 'electric bike conversion'],
     imageAlt: 'Hands fitting an e bike conversion kit motor to a bicycle in a workshop',
     related: [
       { href: '/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/', name: 'Torque 1000W E-Bike Conversion Combo', price: 819, note: 'Off-road and private property use only.' },
@@ -170,6 +170,6 @@ export const body = {
         a: 'A hub kit is a realistic job for a confident home mechanic with the right tools. Battery work is different: Fire and Rescue NSW advises that battery repairs and installations be done by an experienced e-bike mechanic, so have a professional help with the pack and wiring if you are not sure.',
       },
     ],
-    keywords: { primary: 'e bike conversion kit', supporting: ['kit conversion ebike', 'ebike kit', 'e bike kit', 'bike conversion kit', 'converter e bike'] },
+    keywords: { primary: 'e bike conversion kit', supporting: ['conversion kits for e bikes', 'ebike kit', 'e bike kit', 'bike conversion kit', 'ebikes kits'] },
     words: 0,
 }

@@ -12,7 +12,7 @@ export const meta = {
   readTime: '10 min',
   focus: '2000w ebike',
   secondary: ['2000w electric bike', 'e bike 2000w', '2000w electric bike kit', '2000w e bike', 'electric bicycle 2000w'],
-  tags: ['electric bicycle conversion kit', 'conversion kit electric bike', 'conversion kit e bike', 'electric bicycle e bike conversion kits', 'e bike kits', 'electric bicycle conversion kit with battery', 'convert bicycle to electric bike', 'motorized bike kit', 'powered bicycle kit', 'conversion kit with battery'],
+  tags: ['electric bicycle conversion kit', 'conversion kit electric bike', 'conversion kit e bike', 'electric bicycle e bike conversion kits', 'e bike kits', 'electric bicycle conversion kit with battery', 'convert bicycle to electric bike', 'motorized bike kit', 'ebike conversion kit 2000w', 'conversion kit with battery'],
   imageAlt: 'Bicycle in a workshop, the starting point for a 2000w ebike conversion',
   related: [
     { href: '/shop/motors-drivetrain-and-sprockets/torque-1000w-e-bike-conversion-combo/', name: 'Torque 1000W E-Bike Conversion Combo', price: 819, note: 'Off-road and private property use only.' },

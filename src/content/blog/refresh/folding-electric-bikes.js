@@ -9,7 +9,7 @@ export const meta = {
   updated: '2026-10-27',
   focus: 'foldable electric bike',
   secondary: ['folding ebike', 'foldable ebike', 'foldable e bike', 'folding electric cycles', 'folding electric bicycle'],
-  tags: ['fold up electric bicycle', 'e bike folding electric bike', 'electric foldable cycle', 'electric folding cycle', 'foldable electric bikes', 'ebikes folding', 'folding electric cycle', 'electric bike foldable', 'foldable electric bicycles', 'ebike foldable'],
+  tags: ['fold up electric bicycle', 'folding ebike australia', 'foldable electric bikes australia', 'electric folding cycle', 'foldable electric bikes', 'ebikes folding', 'folding electric cycle', 'electric bike foldable', 'foldable electric bicycles', 'ebike foldable'],
   imageAlt: 'Blue and white folding bicycle parked outdoors, the compact kind of foldable electric bike buyers compare',
   related: [
     { href: '/shop/folding-e-bikes/dyu-d3-smart-electric-bike-black/', name: 'DYU D3+ Smart Electric Bike Black', price: 659, note: 'Our lowest-priced folding e-bike.' },

@@ -15,7 +15,7 @@ export const meta = {
   readTime: '10 min',
   focus: 'child bike seat',
   secondary: ['kids bike seat', 'bike seat for toddler', 'toddler bike seat', 'childrens bike seat front', 'child seat for bike'],
-  tags: ['childs bike chair', 'kids seat for bike', 'kid bike seat', 'kids bike seats', 'bike seat child', 'bike toddler seat', 'child seat bike', 'bike seat kids', 'bike seats for kids', 'children\'s rear bike seat'],
+  tags: ['bike child seat', 'kids seat for bike', 'kid bike seat', 'kids bike seats', 'bike seat child', 'bike toddler seat', 'child seat bike', 'bike seat kids', 'bike seats for kids', 'children\'s rear bike seat'],
   image: {
     file: 'blog/child-bike-seat.webp',
     alt: 'Kids Ride Shotgun seat, Shotgun 2.0 and handlebar combo, a child bike seat range',
