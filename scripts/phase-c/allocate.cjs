@@ -19,7 +19,7 @@ const pool = new Map()
 const BAD = /\b(townsville|toowoomba|adelaide|melbourne|sydney|perth|gold coast|canberra|hobart|darwin|cairns|newcastle|wollongong|geelong|nz|usa|uk|bunnings|kmart|big w|amazon|ebay|gumtree|decathlon|supercheap|rebel|anaconda|bcf|repco|aldi|costco|woolworths|coles|free|near me|discount code|stockists|second hand|used|hire|rental|rent|repair|service|manual|pdf|jobs|login|review|reviews|vs)\b/
 const add = (kw, vol, kd, it, src) => {
   kw = String(kw || '').toLowerCase().trim(); vol = num(vol); kd = parseFloat(kd); it = String(it || '').replace(/[^A-Z]/g, '')
-  if (!kw || !(vol > 0) || isNaN(kd) || kd > 28 || !it || BAD.test(kw) || /[^\x20-\x7e]/.test(kw) || /\b(\w+) \1\b/.test(kw)) return
+  if (!kw || !(vol > 0) || isNaN(kd) || !Number.isInteger(kd) || kd > 28 || !it || BAD.test(kw) || /[^\x20-\x7e]/.test(kw) || /\b(\w+) \1\b/.test(kw)) return
   const e = pool.get(kw); if (!e || vol > e.vol) pool.set(kw, { kw, vol, kd, it, src })
 }
 const RAW = 'docs/semrush-raw'
@@ -82,12 +82,17 @@ console.log(JSON.stringify(st))
 const STOP = new Set(['e', 'bike', 'bikes', 'ebike', 'ebikes', 'electric', 'the', 'and', 'for', 'in', 'a', 'of', 'to', 'best', 'buy', 'price', 'australia', 'cheap', 'online', 'sale'])
 const toks = s => String(s).toLowerCase().replace(/[^a-z0-9. ]/g, ' ').split(/\s+/).filter(x => x && !STOP.has(x))
 const overlap = (a, b) => { const A = new Set(a), B = new Set(b); let n = 0; for (const x of A) if (B.has(x)) n++; return n / Math.max(1, Math.min(A.size, B.size)) }
-const okIntent = (t, it) => t === 'brand-hub' ? /^[CNIT]+$/.test(it) : t === 'blog' || t === 'home' ? /^[TCNI]+$/.test(it) && /[TC]/.test(it) || t === 'blog' && /^[TC]+$/.test(it) : /^[TC]+$/.test(it)
+const okIntent = (t, it, role) => t === 'blog' && role === 'tag' ? true : t === 'brand-hub' ? /^[CNIT]+$/.test(it) : t === 'blog' || t === 'home' ? /^[TCNI]+$/.test(it) && /[TC]/.test(it) || t === 'blog' && /^[TC]+$/.test(it) : /^[TC]+$/.test(it)
 const otherRows = [], otherNoMatch = []
 const pageSlug = u => u.split('/').filter(Boolean).slice(-1)[0] || 'home'
 const nonProd = inv.pages.filter(p => p.type !== 'product' && p.bad > 0)
 // ---- relevance gate (curation): a replacement must be about the page and use only words that fit it
 const WORDS = new Set('e bike bikes ebike ebikes e-bike e-bikes electric emtb mtb mountain road gravel fat tyre tyres tire tires scrambler commuter urban city step through cargo trike trikes e-trike e-trikes tricycle kids kid youth boys girls light lights horn horns headlight rack racks trailer trailers bag bags carrier hitch lock locks alarm brake brakes pad pads seat seats motor motors kit kits conversion drivetrain sprocket sprockets battery batteries charger price sale for buy cheap best online shop store australia australian brisbane 250w 500w 750w 1000w 1500w 48v 52v 60v 72v folding foldable throttle mens ladies womens full suspension hardtail road balance models model'.split(' '))
+const VOCAB = (() => { const cnt = new Map(); const addText = t => { for (const w of String(t).toLowerCase().replace(/[^a-z0-9. ]+/g, ' ').split(' ')) if (w) cnt.set(w, (cnt.get(w) || 0) + 1) }
+  addText(fs.readFileSync('src/config/catalog-products.generated.js', 'utf8'))
+  const walk = d => { for (const f of fs.readdirSync(d, { withFileTypes: true })) { const p = path.join(d, f.name); if (f.isDirectory()) walk(p); else if (/\.(js|ts)$/.test(f.name)) addText(fs.readFileSync(p, 'utf8')) } }
+  walk('src/content/blog')
+  return new Set([...cnt].filter(([, n]) => n >= 4).map(([w]) => w)) })()
 const catTopic = { 'electric-mountain-bikes': /mountain|mtb|emtb/, 'commuter-and-urban-e-bikes': /commuter|urban|city|step/, 'road-and-gravel-e-bikes': /road|gravel/, 'fat-tyre-and-scrambler-e-bikes': /fat|scrambler/, 'kids-and-youth-e-bikes': /kid|youth|boy|girl/, 'cargo-bikes-and-e-trikes': /cargo|trike|tricycle/, 'lights-and-horns': /light|horn|headlight/, 'racks-bags-and-trailers': /rack|bag|trailer|carrier|hitch/, 'motors-drivetrain-and-sprockets': /motor|kit|conversion|sprocket|drivetrain/, 'locks-and-security': /lock|alarm/, 'brakes': /brake|pad|rotor|disc/, 'seats-fenders-and-body': /seat|fender|saddle/ }
 const needElectric = new Set(['electric-mountain-bikes', 'commuter-and-urban-e-bikes', 'road-and-gravel-e-bikes', 'fat-tyre-and-scrambler-e-bikes', 'kids-and-youth-e-bikes', 'cargo-bikes-and-e-trikes'])
 const catVocab = new Set(); for (const p of cat) for (const t of norm(p.brand + ' ' + p.name).split(' ')) catVocab.add(t)
@@ -95,7 +100,9 @@ const brandModelTok = {}; for (const p of cat) { const b = norm(p.brand).replace
 const brandTok = new Set(); for (const p of cat) for (const t of norm(p.brand).split(' ')) if (!WORDS.has(t) && t.length > 2) brandTok.add(t)
 const noBrand = (words, slug) => words.every(w => !brandTok.has(w) || slug.split('-').includes(w))
 const isElectricTerm = k => /\b(e bike|ebike|e-bike|electric|emtb|e mtb|e mountain|e gravel|e trike|e-trike|e cargo|e-kit)/.test(k) || /\be[ -]?(bike|trike|mtb)/.test(k)
-const relevant = (pg, kw) => {
+const REJ = fs.existsSync('docs/phase-c/rejects.json') ? JSON.parse(fs.readFileSync('docs/phase-c/rejects.json', 'utf8')) : {}
+const relevant = (pg, kw, role) => {
+  if ((REJ['*'] || []).includes(kw) || (REJ[pg.url] || []).includes(kw)) return false
   const t = pg.type, slug = pageSlug(pg.url), words = kw.replace(/-/g, ' ').split(' '), slugSet = new Set(slug.split('-'))
   if (/(^|-)(electric|ebike|ebikes|e-bike|e-bikes)(-|$)/.test(slug) && (t === 'blog' || t === 'category') && !isElectricTerm(kw)) return false
   if (t === 'brand-hub') {
@@ -114,9 +121,19 @@ const relevant = (pg, kw) => {
     return noBrand(words, slug) && words.every(w => WORDS.has(w) || slugSet.has(w) || w === 'au')
   }
   if (t === 'blog') {
-    const key = toks(slug.replace(/-/g, ' ')).filter(w => !['guide', 'explained', 'buying', 'vs', 'what', 'how', 'which', 'models', 'model', '2026', 'australia', 'legal', 'street'].includes(w))
-    const hit = key.length ? key.filter(w => words.includes(w)).length / key.length : 1
-    return hit >= 0.67 && (key.length || isElectricTerm(kw)) && noBrand(words, slug) && words.every(w => WORDS.has(w) || slugSet.has(w) || w === 'au')
+    const SYN = { tyre: ['tyre', 'tyres', 'tire', 'tires'], moto: ['moto', 'motorbike', 'motorbikes', 'motorcycle', 'motorcycles'], kids: ['kid', 'kids', 'child', 'childs', 'childrens', 'children', 'youth'], lights: ['light', 'lights', 'lamp', 'lamps', 'headlight'], panniers: ['pannier', 'panniers'], padlock: ['padlock', 'padlocks', 'lock', 'locks'], chain: ['chain'], cargo: ['cargo'], conversion: ['conversion', 'convert', 'kit', 'kits'], accessories: ['accessories', 'accessory', 'parts'], grips: ['grip', 'grips', 'pedal', 'pedals', 'handlebar', 'controls', 'throttle'], pedals: ['pedal', 'pedals', 'grip', 'grips'], handlebar: ['handlebar', 'handlebars', 'throttle', 'controls'], headphones: ['headphone', 'headphones', 'earphones', 'earbuds'], conduction: ['conduction'], mountain: ['mountain', 'mtb', 'emtb'], road: ['road', 'gravel'], dirt: ['dirt', 'dirtbike'], brands: ['brand', 'brands'], legal: ['legal', 'law', 'laws', 'licence', 'license', 'registration', 'regulations'], folding: ['folding', 'foldable', 'fold'], price: ['price', 'prices', 'cost', 'cheap', 'cheapest'], sale: ['sale', 'deals', 'buy', 'cheap', 'online', 'shop'], hybrid: ['hybrid'], australia: ['australia', 'australian', 'au'] }
+    const DENY = /\b(knee|door|toys?|petrol|gas|games?|mini|bmx|mouse|meaning|definition|jobs?|hire|rental|repairs?|manual|pdf|symptoms?|haircut|wheelchair|mobility|skateboard|hoverboard)\b/
+    const own = new Set(slug.split('-'))
+    const deny = kw.match(DENY)
+    if (deny && !own.has(deny[1])) return false
+    if (/\b(\w+ \w+) \1\b/.test(kw) || /\b(\w+) \1\b/.test(kw)) return false
+    if ((/\b(scooters?|trailers?|locks?|helmets?|tricycles?|trikes?)\b/.test(kw)) && !/(scooter|trailer|lock|padlock|helmet|trike|tricycle)/.test(slug)) return false
+    const key = toks(slug.replace(/-/g, ' ')).filter(w => !['guide', 'explained', 'buying', 'vs', 'what', 'how', 'which', 'models', 'model', '2026', 'legal', 'street', 'is', 'an', 'in', 'on', 'do', 'my', 'top', 'rated', 'diy', 'finder', 'brands', 'best', 'off', 'road', 'sale', 'price', 'australia'].includes(w) || own.has(w) && ['legal', 'brands', 'road', 'sale', 'price', 'australia', 'top', 'rated'].includes(w) && false)
+    const anchors = key.length ? key : ['*']
+    const hits = anchors.filter(a => a === '*' || (SYN[a] || [a]).some(x => words.includes(x) || kw.includes(a))).length
+    if (hits / anchors.length < 0.99 && !(anchors.length > 2 && hits / anchors.length >= 0.67)) return false
+    if (/(^|-)(electric|ebike|ebikes|e-bike|e-bikes)(-|$)/.test(slug) && ((/(^|-)(electric|ebike|ebikes|e-bike|e-bikes)(-|$)/.test(slug) && role !== 'tag') || anchors[0] === '*') && !isElectricTerm(kw)) return false
+    return noBrand(words, slug) && words.every(w => VOCAB.has(w) || /^d+$/.test(w))
   }
   return false
 }
@@ -129,9 +146,9 @@ for (const pg of nonProd) {
     const bt = toks(br.kw), key = [...new Set([...bt, ...slugT])]
     let best = null
     for (const e of pool.values()) {
-      if (taken.has(e.kw) || goodKw.has(e.kw) || !okIntent(pg.type, e.it)) continue
-      if (!relevant(pg, e.kw)) continue
-      const sc = overlap(e.tk || (e.tk = toks(e.kw)), key) + (e.vol > 100 ? 0.05 : 0) - e.kd / 2000
+      if (taken.has(e.kw) || goodKw.has(e.kw) || !okIntent(pg.type, e.it, br.role)) continue
+      if (!relevant(pg, e.kw, br.role)) continue
+      const sc = overlap(e.tk || (e.tk = toks(e.kw)), key) + Math.min(e.vol, 2000) / 20000 - e.kd / 2000
       if (sc >= 0.4 && (!best || sc > best.sc) && (pg.type === 'brand-hub' || !claimants(e.kw)[0])) best = { e, sc } // a product page owns keywords naming its model
     }
     if (best) { taken.add(best.e.kw); otherRows.push([pg.url, pg.type, br.role, br.kw, /generated/i.test(br.src) ? 'generated' : br.vol + '/' + br.kd, best.e.kw, best.e.vol, best.e.kd, best.e.it]) }
@@ -152,3 +169,12 @@ console.log('other pages: bad rows ' + otherRows.length + ', replaced ' + filled
 
 fs.writeFileSync('docs/phase-c/released-keywords.csv', csv([['page holding it (flag only: row stays)','role','keyword (real Semrush row, does not name the product model)','volume','kd','intent'], ...released]))
 console.log('flagged off-model rows kept on product pages: ' + released.length)
+if (process.env.DEBUG_BLOG) {
+  for (const u of ['/blog/fat-tyre-e-bikes/', '/blog/electric-cargo-bikes/', '/blog/kids-electric-dirt-bikes/']) {
+    const pg = { type: 'blog', url: u }
+    const all = [...pool.values()], notTaken = all.filter(e => !taken.has(e.kw)), rel = notTaken.filter(e => relevant(pg, e.kw))
+    const topical = notTaken.filter(e => u.includes('fat') ? /fat/.test(e.kw) : u.includes('cargo') ? /cargo/.test(e.kw) : /kid|child/.test(e.kw))
+    console.log(u, 'pool', all.length, 'untaken', notTaken.length, 'relevant', rel.length, 'topical untaken', topical.length, '| sample topical:', topical.slice(0, 12).map(e => e.kw + '(' + e.it + ')').join('; '), '| rejected topical:', topical.filter(e => !relevant(pg, e.kw)).slice(0, 8).map(e => e.kw).join('; '))
+  }
+}
+if (process.env.DEBUG_REL) console.log('REL', relevant({ type: 'blog', url: '/blog/e-bike-lights/' }, 'electric scooter lights', 'tag'), relevant({ type: 'blog', url: '/blog/e-bike-lights/' }, 'ebike lights', 'tag'), inv.pages.find(p => p.url === '/blog/e-bike-lights/').type)
