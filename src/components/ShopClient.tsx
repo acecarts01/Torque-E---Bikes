@@ -6,6 +6,7 @@ import Footer from '@/src/components/Footer'
 import AnnouncementBar from '@/src/components/AnnouncementBar'
 import ProductCard from '@/src/components/ProductCard'
 import ShopFilters from '@/src/components/ShopFilters'
+import SearchBar from '@/src/components/SearchBar'
 import { ProductCardSkeleton } from '@/src/components/Skeleton'
 import { CATEGORIES } from '@/src/config/site'
 import { Zap, ShieldAlert, LayoutGrid } from 'lucide-react'
@@ -88,6 +89,7 @@ export default function ShopClient({ initial, total, children }: { initial: any[
               </p>
             </div>
           </div>
+          <SearchBar className="mt-6 max-w-3xl" />
         </section>
 
         {/* Shop Content */}

@@ -6,6 +6,7 @@ import '@/src/lib/motion-setup'
 import { Search, X, Zap, ArrowRight, ShieldAlert } from 'lucide-react'
 import { formatCurrency, cn } from '@/src/lib/utils'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import SmartImage from './SmartImage'
 
 interface SearchOverlayProps {
@@ -17,6 +18,7 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
   const [query, setQuery] = useState('')
   const [fetched, setFetched] = useState<any[]>([])
   const inputRef = useRef<HTMLInputElement>(null)
+  const router = useRouter()
 
   useEffect(() => {
     if (isOpen) {
@@ -82,6 +84,8 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
                 placeholder="SEARCH INVENTORY (e.g. 72V Battery, Sur-Ron, 2000W)..."
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
+                onKeyDown={(e) => { if (e.key === 'Enter' && query.trim().length > 1) { const t = query.trim(); handleClose(); router.push(`/search/?q=${encodeURIComponent(t)}`) } }}
+                enterKeyHint="search"
                 className="w-full bg-white/5 border-2 border-white/10 focus:border-[#ff6a1a] text-white text-xl md:text-3xl font-black uppercase italic tracking-tighter px-20 py-8 rounded-sm outline-none transition-all placeholder:text-gray-700"
               />
             </div>
@@ -92,7 +96,7 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
                 <>
                   <div className="flex items-center justify-between border-b border-white/5 pb-4">
                     <p className="text-[10px] font-black uppercase tracking-[0.3em] text-gray-500">Live Inventory Match ({results.length})</p>
-                    <Link href="/shop/" onClick={handleClose} className="text-[10px] font-black uppercase tracking-[0.2em] text-[#ff6a1a] hover:text-white transition-colors">View All Products</Link>
+                    <Link href={`/search/?q=${encodeURIComponent(query.trim())}`} onClick={handleClose} className="text-[10px] font-black uppercase tracking-[0.2em] text-[#ff6a1a] hover:text-white transition-colors">See all results</Link>
                   </div>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     {results.map((product) => (

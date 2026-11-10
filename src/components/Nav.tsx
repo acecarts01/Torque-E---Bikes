@@ -9,6 +9,7 @@ import { cn } from '@/src/lib/utils'
 import dynamic from 'next/dynamic'
 const SearchOverlay = dynamic(() => import('./SearchOverlay'), { ssr: false })
 import { useCart } from '@/src/lib/cart'
+import SearchBar from './SearchBar'
 
 export default function Nav() {
   const cartCount = useCart().reduce((n, i) => n + i.qty, 0)
@@ -96,9 +97,9 @@ export default function Nav() {
             <button 
               onClick={() => { setSearchLoaded(true); setIsSearchOpen(true) }}
               aria-label="Search products"
-              className="p-2.5 hover:bg-white/5 rounded-full transition-colors hidden sm:block outline-none"
+              className="p-2.5 hover:bg-white/5 rounded-full transition-colors outline-none"
             >
-              <Search className="w-4 h-4 text-brand-gray hover:text-white transition-colors" />
+              <Search className="w-5 h-5 sm:w-4 sm:h-4 text-white sm:text-brand-gray hover:text-white transition-colors" />
             </button>
             <div className="h-4 w-[1px] bg-white/10 mx-2 hidden sm:block" />
             <Link href="/checkout/" aria-label={`Cart, ${cartCount} items`} className="relative p-2.5 hover:bg-brand-red rounded-full transition-all group">
@@ -126,6 +127,8 @@ export default function Nav() {
                 <X className="w-6 h-6" />
               </button>
             </div>
+
+            <SearchBar className="mb-8" onNavigate={() => setIsOpen(false)} />
 
             <nav className="flex flex-col gap-4">
               <Link href="/" onClick={() => setIsOpen(false)} className="text-5xl font-black uppercase italic tracking-tighter hover:text-brand-red transition-colors">Home</Link>

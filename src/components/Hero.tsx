@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { REVIEWS } from '@/src/config/site'
+import SearchBar from '@/src/components/SearchBar'
 
 export default function Hero() {
   return (
@@ -43,6 +44,8 @@ export default function Hero() {
                 Australia&apos;s apex destination for high-voltage e-motos and 72V performance conversion systems.
               </p>
             </div>
+
+            <SearchBar className="max-w-xl" />
 
             <div className="flex flex-col sm:flex-row gap-5">
               <Link href="/shop/" className="group relative bg-brand-red text-[#140800] px-10 py-6 rounded-2xl font-black uppercase tracking-[0.2em] text-sm flex items-center justify-center gap-3 hover:scale-[1.02] active:scale-[0.98] transition-all shadow-2xl shadow-brand-red/20 overflow-hidden">
