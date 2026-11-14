@@ -11,6 +11,7 @@ import { FAQ_GROUPS } from '@/src/lib/faq'
 
 const FAQ = FAQ_GROUPS.flatMap(g => g.items.map(i => ({ question: i.q, answer: i.a })))
 import PageGraph from '@/src/components/PageGraph'
+import AbnText from '@/src/components/AbnText'
 import Link from 'next/link'
 
 const AccordionItem = ({ question, answer }: { question: string, answer: string }) => {
@@ -38,7 +39,7 @@ const AccordionItem = ({ question, answer }: { question: string, answer: string 
             className="overflow-hidden"
           >
             <div className="pb-10 pt-2 text-brand-gray text-lg leading-relaxed max-w-3xl italic">
-              {answer}
+              <AbnText text={answer} />
             </div>
           </motion.div>
         )}

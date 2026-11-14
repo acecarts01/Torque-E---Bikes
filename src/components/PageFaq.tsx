@@ -2,6 +2,7 @@
 import React from 'react'
 import { ChevronDown } from 'lucide-react'
 import type { FaqItem } from '@/src/lib/faq'
+import AbnText from '@/src/components/AbnText'
 
 export default function PageFaq({ items, heading = 'Frequently asked questions' }: { items: FaqItem[]; heading?: string }) {
   if (!items || !items.length) return null
@@ -15,7 +16,7 @@ export default function PageFaq({ items, heading = 'Frequently asked questions' 
               <span>{item.q}</span>
               <ChevronDown className="h-5 w-5 shrink-0 text-brand-red transition-transform group-open:rotate-180" />
             </summary>
-            <p className="mt-3 text-brand-gray leading-relaxed">{item.a}</p>
+            <p className="mt-3 text-brand-gray leading-relaxed"><AbnText text={item.a} /></p>
           </details>
         ))}
       </div>

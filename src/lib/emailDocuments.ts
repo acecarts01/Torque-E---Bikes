@@ -1,7 +1,7 @@
 // src/lib/emailDocuments.ts
 // Emails for quote requests (from product pages) and for the quotes / invoices the owner sends from /admin/invoice/.
 // Same light shell and table rules as emailTemplates.ts (explicit bgcolor on every table and td, inline CSS only).
-import { SITE, CONTACT } from '@/src/config/site'
+import { SITE, CONTACT, BRAND } from '@/src/config/site'
 import { money, paymentMethodParts } from '@/src/lib/order'
 import { DOC_LABEL, longDate, type DocItem, type Address, type DocType } from '@/src/lib/quote'
 import { C, ACCENT, table, td, shell, itemsTable, mono, esc, nl2br, field, divider, callout, button, siteUrl } from '@/src/lib/emailTemplates'
@@ -80,7 +80,7 @@ export function documentEmail(d: IssuedDoc) {
       (d.client.business ? `<br>${esc(d.client.business)}${d.client.abn ? ` &middot; ABN ${esc(d.client.abn)}` : ''}` : '') +
       (addressLine(d.client.address) ? `<br>${esc(addressLine(d.client.address))}` : '') +
       `<br>${esc(d.client.email)}` + (d.client.phone ? `<br>${esc(d.client.phone)}` : '') + '</div>', C.mono, 'padding:14px 16px;width:50%;', 'valign="top"')}` +
-    `${td(`${small('FROM')}<div style="font-size:14px;line-height:1.55;color:${C.ink};margin-top:4px;"><b>The Torque Team Pty Ltd</b><br>ABN 27 126 064 668<br>${esc(CONTACT.address)}<br>${esc(CONTACT.phone)}</div>`, C.mono, 'padding:14px 16px;width:50%;', 'valign="top"')}</tr>`,
+    `${td(`${small('FROM')}<div style="font-size:14px;line-height:1.55;color:${C.ink};margin-top:4px;"><b>The Torque Team Pty Ltd</b><br>ABN <a href="${BRAND.abnLookupUrl}" style="color:inherit;text-decoration:underline;">${BRAND.abn}</a><br>${esc(CONTACT.address)}<br>${esc(CONTACT.phone)}</div>`, C.mono, 'padding:14px 16px;width:50%;', 'valign="top"')}</tr>`,
     C.mono, `border:1px solid ${C.rule};margin:0 0 14px;`)
 
   const metaCell = (l: string, v: string, w: string, bold = false) =>

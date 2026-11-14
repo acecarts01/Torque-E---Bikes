@@ -3,6 +3,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { isLive } from '@/src/lib/blogIndex'
+import AbnText from '@/src/components/AbnText'
 
 const TOKEN = /(\[[^\]]+\]\([^)]+\)|\*\*[^*]+\*\*)/g
 
@@ -21,7 +22,7 @@ export default function RichText({ text }: { text: string }) {
         }
         const bold = /^\*\*([^*]+)\*\*$/.exec(part)
         if (bold) return <strong key={i} className="text-white">{bold[1]}</strong>
-        return <React.Fragment key={i}>{part}</React.Fragment>
+        return <React.Fragment key={i}><AbnText text={part} /></React.Fragment>
       })}
     </>
   )

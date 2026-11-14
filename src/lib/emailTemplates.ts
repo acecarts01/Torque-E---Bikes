@@ -2,7 +2,7 @@
 // Branded HTML emails. LIGHT shell: white card, dark brand header band, brand colour as an accent only.
 // Every <table> and <td> carries an explicit bgcolor attribute AND a background-color style so Outlook, Apple Mail,
 // Zoho and Gmail cannot fall back to their own defaults. Inline CSS only.
-import { SITE, CONTACT, REPLY, SHOP } from '@/src/config/site'
+import { SITE, CONTACT, REPLY, SHOP, BRAND } from '@/src/config/site'
 import { money, paymentMethodParts, paymentTermsLines } from '@/src/lib/order'
 
 export const C = { page: '#F2F4F0', card: '#FFFFFF', ink: '#1B2320', soft: '#6A746E', faint: '#9AA39D', rule: '#E2E5DF', tint: '#FFF4EC', mono: '#F6F7F5' }
@@ -44,7 +44,7 @@ export function shell({ eyebrow, title, meta, body }: { eyebrow: string; title: 
       ${meta ? `<div style="font-size:12px;color:#9AA39D;margin-top:6px;">${esc(meta)}</div>` : ''}`, HEADER, 'padding:22px 28px;')}</tr>`, HEADER)
   const rule = table(`<tr>${td('', ACCENT, 'height:3px;font-size:1px;line-height:3px;', 'height="3"')}</tr>`, ACCENT)
   const content = table(`<tr>${td(body, C.card, 'padding:28px;font-size:14px;line-height:1.6;color:' + C.ink + ';')}</tr>`, C.card)
-  const footer = table(`<tr>${td(`The Torque Team Pty Ltd &middot; ABN 27 126 064 668<br>${esc(CONTACT.address)}<br>${esc(CONTACT.phone)} &middot; ${esc(CONTACT.email)} &middot; ${esc(SITE.domain)}`,
+  const footer = table(`<tr>${td(`The Torque Team Pty Ltd &middot; ABN <a href="${BRAND.abnLookupUrl}" style="color:inherit;text-decoration:underline;">${BRAND.abn}</a><br>${esc(CONTACT.address)}<br>${esc(CONTACT.phone)} &middot; ${esc(CONTACT.email)} &middot; ${esc(SITE.domain)}`,
     '#F9FAFB', `padding:18px 28px;font-size:12px;line-height:1.6;color:${C.faint};`)}</tr>`, '#F9FAFB')
   const card = table(`<tr><td bgcolor="${C.card}" style="background-color:${C.card};border-radius:12px;overflow:hidden;">${header}${rule}${content}${footer}</td></tr>`, C.card, 'max-width:600px;', 'width="600"')
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
