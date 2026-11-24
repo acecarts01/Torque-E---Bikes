@@ -36,7 +36,7 @@ export default function Hero() {
             
             <div className="space-y-6">
               <h1 className="text-5xl md:text-7xl lg:text-8xl xl:text-[9rem] font-black italic uppercase tracking-tighter leading-tight lg:leading-[0.9] text-white">
-                <span className="block text-xs md:text-sm lg:text-base not-italic font-bold tracking-[0.3em] text-brand-gray mb-4 normal-case">Electric dirt bikes, e-bikes and parts — shipped Australia-wide</span>
+                <span className="block text-xs md:text-sm lg:text-base not-italic font-bold tracking-[0.3em] text-brand-gray mb-4 normal-case">Electric motorcycle for sale: electric dirt bikes, e-bikes and parts, shipped Australia-wide</span>
                 LIMITLESS <span className="text-brand-red block drop-shadow-[0_0_30px_rgba(230,57,70,0.3)]">TORQUE.</span>
               </h1>
               
