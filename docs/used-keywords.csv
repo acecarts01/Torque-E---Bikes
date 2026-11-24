@@ -1,5 +1,15 @@
 url,type,role,keyword,volume,kd,intent,source
 /,home,primary,electric motorcycle for sale,320,25,Transactional,semrush-2026-11
+/,home,secondary,electric motorbikes for sale,210,24,Transactional,semrush-2026-11
+/,home,secondary,for sale ebike,140,28,Transactional,semrush-2026-11
+/,home,secondary,cheap e bikes for sale,110,21,Transactional,semrush-2026-11
+/,home,secondary,e bike with price,110,26,Transactional,semrush-2026-11
+/,home,secondary,e bikes on sale,70,17,Transactional,semrush-2026-11
+/,home,secondary,electric bicycle deals,50,11,Transactional,semrush-2026-11
+/,home,secondary,e-bike sale,50,16,Transactional,semrush-2026-11
+/,home,secondary,e bike australia,1900,20,Commercial,semrush-2026-11
+/,home,secondary,cheap e bikes,1300,18,Commercial,semrush-2026-11
+/,home,secondary,electric motorbike australia,1300,22,Commercial,semrush-2026-11
 /,home,secondary,torque ebikes,3600,20,Navigational,competitor
 /,home,secondary,torque e bikes conversion kit,90,7,Commercial,competitor
 /,home,secondary,torque e-bikes australia,,,Navigational,generated
