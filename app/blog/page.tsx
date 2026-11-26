@@ -42,7 +42,7 @@ export default function BlogPage() {
                 Torque <span className="text-brand-red">Insights</span>
               </h1>
               <p className="text-gray-400 text-lg leading-relaxed max-w-2xl">
-                Master your build with our deep-dive DIY conversion guides and pro maintenance tips for high-torque electric machines.
+                Buying e bike guides, electric bicycle reviews and the best e bike brands in Australia, plus DIY conversion guides and pro maintenance tips for high-torque electric machines.
               </p>
             </motion.div>
           </div>
